@@ -9,7 +9,7 @@ Research data for the fundamental lightlike quadrilateral Wilson-loop exponent i
 - [Individual diagram data](results/2026-10-23/diagram-ledger.json): 31 unique orbits and 35 matter-channel contributions.
 - [Function dictionary](results/2026-10-23/conventions.md) and [exact M/N–Hlog conversions](results/2026-10-23/conversion-dictionary.json).
 - [Validation and limitations](results/2026-10-23/validation-scope.md).
-- [Downloadable archives](../../releases): the new three-channel delivery and the historical all-diagram catalogue.
+- [Downloadable archives](https://github.com/mitsuroni/wilson-loop-three-loop-results/releases): the new three-channel delivery and the historical all-diagram catalogue.
 
 For typeset formulas and diagram drawings, download the three-channel ZIP from Releases, extract it, and open `index.html`. GitHub displays Markdown and JSON directly; the HTML report is designed for offline use.
 
