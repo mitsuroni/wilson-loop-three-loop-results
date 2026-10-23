@@ -6,14 +6,14 @@ Research data for the fundamental lightlike quadrilateral Wilson-loop exponent i
 
 - [Illustrated end-to-end data flow](docs/data-flow/README.md) · [中文说明](docs/data-flow/reading-guide-zh.md)
 
-- [Research summary and reading order](results/2026-10-23/index.md)
+- [Research summary and reading order](docs/results/index.md)
 - [Color-channel expressions](results/2026-10-23/coefficients.json): bare sums, counterterms, poles of log Z4, finite functions and anomalous dimensions.
 - [Individual diagram data](results/2026-10-23/diagram-ledger.json): 31 unique orbits and 35 matter-channel contributions.
-- [Function dictionary](results/2026-10-23/conventions.md) and [exact M/N–Hlog conversions](results/2026-10-23/conversion-dictionary.json).
-- [Validation and limitations](results/2026-10-23/validation-scope.md).
+- [Function dictionary](docs/results/conventions.md) and [exact M/N–Hlog conversions](results/2026-10-23/conversion-dictionary.json).
+- [Validation and limitations](docs/results/validation-scope.md).
 - [Downloadable archives](https://github.com/mitsuroni/wilson-loop-three-loop-results/releases): the new three-channel delivery and the historical all-diagram catalogue.
 
-For typeset formulas and diagram drawings, download the three-channel ZIP from Releases, extract it, and open `index.html`. GitHub displays Markdown and JSON directly; the HTML report is designed for offline use.
+The linked guides and result reading pages render formulas directly on GitHub. For offline reading, download the latest complete research snapshot from Releases and open `docs/data-flow/index.html`. The dated three-channel ZIP remains available with its original data and `index.html` report.
 
 ## Results and scope
 
