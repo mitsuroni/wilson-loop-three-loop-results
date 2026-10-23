@@ -1,0 +1,16 @@
+# Source register
+
+Read-only snapshots used to explain the data flow. Historical statements in these documents retain their original scope; the guide explicitly incorporates the later UV bridge and current matter-channel validation. These copies do not change selected scientific results.
+
+| Source | SHA-256 |
+|---|---|
+| [workflow/data-flow.md](sources/workflow/data-flow.md) | `666bff29ef03b921de8c86ed8f045d23b47187e03c9d6b97f3ec4d157665b4d2` |
+| [workflow/project-map.md](sources/workflow/project-map.md) | `73490f40fba6e8691b1395e02fe6327ba0aa67eb72736dece31dc6fa2a1ca830` |
+| [preprocessing/README.md](sources/preprocessing/README.md) | `ebb54142b49e9418884bd1d62aa83cee2fff836cd6f700d10345f1775481b2ca` |
+| [benchmarks/theory/montopar/io-contract.md](sources/benchmarks/theory/montopar/io-contract.md) | `d2b977196d3e5b69ea8109306ec34422b0ad801fd898d80a44cb8be540df1c0f` |
+| [benchmarks/renormalization/two-loop/board-talk-plan/upstream-data-flow-audit.md](sources/benchmarks/renormalization/two-loop/board-talk-plan/upstream-data-flow-audit.md) | `03eedf353a3aefd036548c000a82a60829ad2c87b3298cc03ff6cc72c3aa85b8` |
+| [workflow/checks/three-loop-delivery-audit-20261023/total-reconstruction.md](sources/workflow/checks/three-loop-delivery-audit-20261023/total-reconstruction.md) | `d2dd4cc01a403e9a764887a29f741ad905f4265c7d2cc833561369c058da875d` |
+| [workflow/checks/three-matter-channels-20261023/validation-scope.md](sources/workflow/checks/three-matter-channels-20261023/validation-scope.md) | `c18e6f734ee86104a4f3c982131dce1b3d0a3ecb6856826b2fe6607beebf0712` |
+| [workflow/checks/three-matter-channels-20261023/conventions.md](sources/workflow/checks/three-matter-channels-20261023/conventions.md) | `cb53225f1a956eaba2319167fb3aefb7a66e4ed4302da4c3538a429ee736d31a` |
+| [interfaces/wilson-theorem-boundary.md](sources/interfaces/wilson-theorem-boundary.md) | `25b868ad10064acda6c3667db05aa1cfdbae4342b317c7eccbbb86cac93a8e1e` |
+| [workflow/kernel-design.md](sources/workflow/kernel-design.md) | `469697370bef0b174c6ddc6188ea1997e8a33220fdf184b837f09bf27fd21490` |

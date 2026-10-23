@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1010" viewBox="0 0 1200 1010" role="img"><title>Scientific data flow: from a diagram to a finite function</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#527267"/></marker></defs><rect width="100%" height="100%" fill="#f4f6ef"/>
+<text x="40" y="48" font-family="Arial,sans-serif" font-size="27" font-weight="bold" fill="#173e33">Scientific data flow: from a diagram to a finite function</text>
+<rect x="40" y="90" width="340" height="145" rx="12" fill="#fff" stroke="#b6cabc" stroke-width="2"/>
+<text x="58" y="121" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">1. Graph specification</text>
+<text x="58" y="151" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Attachments and path order</text>
+<text x="58" y="176" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Color traces, cyclic orbits</text>
+<polyline points="380,162 430,162" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="430" y="90" width="340" height="145" rx="12" fill="#fff" stroke="#b6cabc" stroke-width="2"/>
+<text x="448" y="121" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">2. Momentum contribution A</text>
+<text x="448" y="151" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Feynman rules and phases</text>
+<text x="448" y="176" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Full numerator and measure</text>
+<polyline points="770,162 820,162" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="820" y="90" width="340" height="145" rx="12" fill="#fff" stroke="#b6cabc" stroke-width="2"/>
+<text x="838" y="121" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">3. Montopar: raw C × J</text>
+<text x="838" y="151" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Fourier / internal integration</text>
+<text x="838" y="176" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Parameter kernel + domain</text>
+<polyline points="1160,235 1177,235 1177,267 22,267 22,332 40,332" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="40" y="300" width="340" height="145" rx="12" fill="#fff" stroke="#b6cabc" stroke-width="2"/>
+<text x="58" y="331" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">4. Prepared C/J</text>
+<text x="58" y="361" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Versioned color/sign convention</text>
+<text x="58" y="386" font-family="Arial,sans-serif" font-size="16" fill="#31564a">One Euler compensation</text>
+<polyline points="380,372 430,372" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="430" y="300" width="340" height="145" rx="12" fill="#fff" stroke="#b6cabc" stroke-width="2"/>
+<text x="448" y="331" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">5. Define normalized I</text>
+<text x="448" y="361" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Cyclic sum and scale removal</text>
+<text x="448" y="386" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Family-specific factor ledger</text>
+<polyline points="770,372 820,372" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="820" y="300" width="340" height="145" rx="12" fill="#fff" stroke="#b6cabc" stroke-width="2"/>
+<text x="838" y="331" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">6. Evaluate I</text>
+<text x="838" y="361" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Integrate J; expand in epsilon</text>
+<text x="838" y="386" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Exact coefficients + revisions</text>
+<polyline points="1160,445 1177,445 1177,477 22,477 22,542 40,542" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="40" y="510" width="340" height="145" rx="12" fill="#e7f0df" stroke="#b6cabc" stroke-width="2"/>
+<text x="58" y="541" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">7. Full-color sum U₃,c</text>
+<text x="58" y="571" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Physical weights / operators</text>
+<text x="58" y="596" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Convolve epsilon-dependent factors</text>
+<polyline points="380,582 430,582" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="430" y="510" width="340" height="145" rx="12" fill="#e7f0df" stroke="#b6cabc" stroke-width="2"/>
+<text x="448" y="541" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">8. Restore S₃</text>
+<text x="448" y="571" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Bare exponent: ŵ₃,c = S₃ U₃,c</text>
+<text x="448" y="596" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Keep L separate from log z</text>
+<polyline points="770,582 820,582" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="820" y="510" width="340" height="145" rx="12" fill="#e7f0df" stroke="#b6cabc" stroke-width="2"/>
+<text x="838" y="541" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">9. Coupling renormalization</text>
+<text x="838" y="571" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Add CT₃ from lower loops</text>
+<text x="838" y="596" font-family="Arial,sans-serif" font-size="16" fill="#31564a">w₁ through ε²; w₂ through ε¹</text>
+<polyline points="1160,655 1177,655 1177,687 22,687 22,752 40,752" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="40" y="720" width="340" height="145" rx="12" fill="#e7f0df" stroke="#b6cabc" stroke-width="2"/>
+<text x="58" y="751" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">10. Contour subtraction</text>
+<text x="58" y="781" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Pole part → coefficient of log Z₄</text>
+<text x="58" y="806" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Finite part → F₃,c(L,ρ)</text>
+<polyline points="380,792 430,792" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="430" y="720" width="340" height="145" rx="12" fill="#e7f0df" stroke="#b6cabc" stroke-width="2"/>
+<text x="448" y="751" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">11. Physical checks</text>
+<text x="448" y="781" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Cusp / non-cusp / poles / RG</text>
+<text x="448" y="806" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Crossing and finite comparisons</text>
+<polyline points="770,792 820,792" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="820" y="720" width="340" height="145" rx="12" fill="#e7f0df" stroke="#b6cabc" stroke-width="2"/>
+<text x="838" y="751" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">12. Research delivery</text>
+<text x="838" y="781" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Per-diagram + channel data</text>
+<text x="838" y="806" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Dictionary, hashes, reproducibility</text>
+<text x="40" y="975" font-family="Arial,sans-serif" font-size="17" fill="#31564a">A defined integral is not an evaluated result. A passing check has a stated scope.</text>
+</svg>

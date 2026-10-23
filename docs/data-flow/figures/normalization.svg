@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720" role="img"><title>Normalization: what changes, and what must not be counted twice</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#527267"/></marker></defs><rect width="100%" height="100%" fill="#f4f6ef"/>
+<text x="40" y="48" font-family="Arial,sans-serif" font-size="27" font-weight="bold" fill="#173e33">Normalization: what changes, and what must not be counted twice</text>
+<rect x="40" y="95" width="470" height="150" rx="12" fill="#ffffff" stroke="#b6cabc" stroke-width="2"/>
+<text x="58" y="126" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">C_raw: overall factors</text>
+<text x="58" y="156" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Coupling/color, phases, Gamma factors</text>
+<text x="58" y="181" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Regulator factors and extracted scale</text>
+<rect x="590" y="95" width="470" height="150" rx="12" fill="#ffffff" stroke="#b6cabc" stroke-width="2"/>
+<text x="608" y="126" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">J_raw: remaining parameter integral</text>
+<text x="608" y="156" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Kernel + numerator + ordered bounds</text>
+<text x="608" y="181" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Jacobian, simplex measure and branch</text>
+<rect x="40" y="305" width="470" height="150" rx="12" fill="#ffffff" stroke="#b6cabc" stroke-width="2"/>
+<text x="58" y="336" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">Prepared C</text>
+<text x="58" y="366" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Declared color/sign transformation</text>
+<text x="58" y="391" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Exactly one Euler compensation</text>
+<rect x="590" y="305" width="470" height="150" rx="12" fill="#ffffff" stroke="#b6cabc" stroke-width="2"/>
+<text x="608" y="336" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">Preserved J / explicit alternative</text>
+<text x="608" y="366" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Default roots keep original ordered s</text>
+<text x="608" y="391" font-family="Arial,sans-serif" font-size="16" fill="#31564a">A cube map needs its own Jacobian</text>
+<polyline points="275,245 275,305" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="825,245 825,305" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="530" width="660" height="135" rx="12" fill="#e7f0df" stroke="#b6cabc" stroke-width="2"/>
+<text x="238" y="561" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#173e33">Orbit-normalized I</text>
+<text x="238" y="591" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Cyclic images + family normalization + scale extraction</text>
+<text x="238" y="616" font-family="Arial,sans-serif" font-size="16" fill="#31564a">Then evaluate J to obtain the actual Laurent coefficients</text>
+<polyline points="275,455 275,490 430,490 430,530" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="825,455 825,490 670,490 670,530" fill="none" stroke="#527267" stroke-width="2.5" marker-end="url(#arrow)"/>
+</svg>

@@ -4,6 +4,8 @@ Research data for the fundamental lightlike quadrilateral Wilson-loop exponent i
 
 ## Start here
 
+- [Illustrated end-to-end data flow](docs/data-flow/README.md) · [中文说明](docs/data-flow/reading-guide-zh.md)
+
 - [Research summary and reading order](results/2026-10-23/index.md)
 - [Color-channel expressions](results/2026-10-23/coefficients.json): bare sums, counterterms, poles of log Z4, finite functions and anomalous dimensions.
 - [Individual diagram data](results/2026-10-23/diagram-ledger.json): 31 unique orbits and 35 matter-channel contributions.
