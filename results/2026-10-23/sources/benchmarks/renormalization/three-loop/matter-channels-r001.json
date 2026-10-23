@@ -1,0 +1,425 @@
+{
+  "format": "three-loop-closed-matter-channels/1",
+  "normalization": "lambda=alpha_s/pi; T=TF*nf; positive z; current self-energy 2.0",
+  "nf2": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "two-loop current nf order -4",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "two-loop current nf order -3",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "two-loop current nf order -2",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "two-loop current nf order -1",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "two-loop current nf order 0",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "superleading pole -6",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "superleading pole -5",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "cusp independent of geometry",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "cusp independent of scale",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "nf2 cusp value",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "RG pole template -4",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "RG pole template -3",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "RG pole template -2",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "RG pole template -1",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "finite RG",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "finite independent cusp",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "finite independent h",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing -6",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing -5",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing -4",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing -3",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing -2",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing -1",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing 0",
+        "passed": true,
+        "residual": "0"
+      }
+    ],
+    "w2_nf_through_eps1": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "1/6",
+        "latex": "\\frac{1}{6}"
+      },
+      "-2": {
+        "sympy": "L/3 + 5/18",
+        "latex": "\\frac{L}{3} + \\frac{5}{18}"
+      },
+      "-1": {
+        "sympy": "L**2/3 + 5*L/9 - rho**2/12 - 5*pi**2/36 + 14/27",
+        "latex": "\\frac{L^{2}}{3} + \\frac{5 L}{9} - \\frac{\\rho^{2}}{12} - \\frac{5 \\pi^{2}}{36} + \\frac{14}{27}"
+      },
+      "0": {
+        "sympy": "2*L**3/9 + 5*L**2/9 - L*rho**2/6 - 5*pi**2*L/18 + 28*L/27 + M11/3 - 5*rho**2/36 - 25*pi**2/108 + zeta(3)/9 + 82/81",
+        "latex": "\\frac{2 L^{3}}{9} + \\frac{5 L^{2}}{9} - \\frac{L \\rho^{2}}{6} - \\frac{5 \\pi^{2} L}{18} + \\frac{28 L}{27} + \\frac{M_{11}}{3} - \\frac{5 \\rho^{2}}{36} - \\frac{25 \\pi^{2}}{108} + \\frac{\\zeta\\left(3\\right)}{9} + \\frac{82}{81}"
+      },
+      "1": {
+        "sympy": "L**4/9 + 10*L**3/27 - L**2*rho**2/6 - 5*pi**2*L**2/18 + 28*L**2/27 + 2*L*M11/3 - 5*L*rho**2/18 - 25*pi**2*L/54 + 2*L*zeta(3)/9 + 164*L/81 + 5*M11/9 + M21/6 - rho**4/144 - pi**2*rho**2/24 - 7*rho**2/27 - 35*pi**2/81 - 83*pi**4/2160 + 5*zeta(3)/27 + 488/243",
+        "latex": "\\frac{L^{4}}{9} + \\frac{10 L^{3}}{27} - \\frac{L^{2} \\rho^{2}}{6} - \\frac{5 \\pi^{2} L^{2}}{18} + \\frac{28 L^{2}}{27} + \\frac{2 L M_{11}}{3} - \\frac{5 L \\rho^{2}}{18} - \\frac{25 \\pi^{2} L}{54} + \\frac{2 L \\zeta\\left(3\\right)}{9} + \\frac{164 L}{81} + \\frac{5 M_{11}}{9} + \\frac{M_{21}}{6} - \\frac{\\rho^{4}}{144} - \\frac{\\pi^{2} \\rho^{2}}{24} - \\frac{7 \\rho^{2}}{27} - \\frac{35 \\pi^{2}}{81} - \\frac{83 \\pi^{4}}{2160} + \\frac{5 \\zeta\\left(3\\right)}{27} + \\frac{488}{243}"
+      }
+    },
+    "bare_w3_nf2": {
+      "-6": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-5": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-4": {
+        "sympy": "-2/81",
+        "latex": "- \\frac{2}{81}"
+      },
+      "-3": {
+        "sympy": "-2*L/27 - 20/243",
+        "latex": "- \\frac{2 L}{27} - \\frac{20}{243}"
+      },
+      "-2": {
+        "sympy": "-L**2/9 - 20*L/81 + rho**2/36 - 2/9 + 4*pi**2/81",
+        "latex": "- \\frac{L^{2}}{9} - \\frac{20 L}{81} + \\frac{\\rho^{2}}{36} - \\frac{2}{9} + \\frac{4 \\pi^{2}}{81}"
+      },
+      "-1": {
+        "sympy": "-L**3/9 - 10*L**2/27 + L*rho**2/12 - 2*L/3 + 4*pi**2*L/27 - M11/6 + 5*rho**2/54 - 1216/2187 - 14*zeta(3)/81 + 40*pi**2/243",
+        "latex": "- \\frac{L^{3}}{9} - \\frac{10 L^{2}}{27} + \\frac{L \\rho^{2}}{12} - \\frac{2 L}{3} + \\frac{4 \\pi^{2} L}{27} - \\frac{M_{11}}{6} + \\frac{5 \\rho^{2}}{54} - \\frac{1216}{2187} - \\frac{14 \\zeta\\left(3\\right)}{81} + \\frac{40 \\pi^{2}}{243}"
+      },
+      "0": {
+        "sympy": "-L**4/12 - 10*L**3/27 + L**2*rho**2/8 - L**2 + 2*pi**2*L**2/9 - L*M11/2 + 5*L*rho**2/18 - 1216*L/729 - 14*L*zeta(3)/27 + 40*pi**2*L/81 - 5*M11/9 - M21/8 + rho**4/192 + rho**2/4 + pi**2*rho**2/36 - 8752/6561 - 140*zeta(3)/243 + 811*pi**4/38880 + 4*pi**2/9",
+        "latex": "- \\frac{L^{4}}{12} - \\frac{10 L^{3}}{27} + \\frac{L^{2} \\rho^{2}}{8} - L^{2} + \\frac{2 \\pi^{2} L^{2}}{9} - \\frac{L M_{11}}{2} + \\frac{5 L \\rho^{2}}{18} - \\frac{1216 L}{729} - \\frac{14 L \\zeta\\left(3\\right)}{27} + \\frac{40 \\pi^{2} L}{81} - \\frac{5 M_{11}}{9} - \\frac{M_{21}}{8} + \\frac{\\rho^{4}}{192} + \\frac{\\rho^{2}}{4} + \\frac{\\pi^{2} \\rho^{2}}{36} - \\frac{8752}{6561} - \\frac{140 \\zeta\\left(3\\right)}{243} + \\frac{811 \\pi^{4}}{38880} + \\frac{4 \\pi^{2}}{9}"
+      }
+    },
+    "post_counterterm_nf2": {
+      "-6": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-5": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-4": {
+        "sympy": "-11/81",
+        "latex": "- \\frac{11}{81}"
+      },
+      "-3": {
+        "sympy": "25/243 - 2*L/27",
+        "latex": "\\frac{25}{243} - \\frac{2 L}{27}"
+      },
+      "-2": {
+        "sympy": "10*L/81 - pi**2/162 + 10/81",
+        "latex": "\\frac{10 L}{81} - \\frac{\\pi^{2}}{162} + \\frac{10}{81}"
+      },
+      "-1": {
+        "sympy": "2*L/81 - 14*zeta(3)/81 + 5*pi**2/486 + 260/2187",
+        "latex": "\\frac{2 L}{81} - \\frac{14 \\zeta\\left(3\\right)}{81} + \\frac{5 \\pi^{2}}{486} + \\frac{260}{2187}"
+      },
+      "0": {
+        "sympy": "-L**4/54 - 10*L**3/81 + L**2*rho**2/36 - 25*L**2/81 + pi**2*L**2/18 - L*M11/9 + 5*L*rho**2/54 - 4*L*zeta(3)/9 - 232*L/729 + 5*pi**2*L/27 - 5*M11/27 - M21/36 + rho**4/864 + pi**2*rho**2/216 + 25*rho**2/324 - 110*zeta(3)/243 - 7*pi**4/19440 + 32/6561 + 38*pi**2/243",
+        "latex": "- \\frac{L^{4}}{54} - \\frac{10 L^{3}}{81} + \\frac{L^{2} \\rho^{2}}{36} - \\frac{25 L^{2}}{81} + \\frac{\\pi^{2} L^{2}}{18} - \\frac{L M_{11}}{9} + \\frac{5 L \\rho^{2}}{54} - \\frac{4 L \\zeta\\left(3\\right)}{9} - \\frac{232 L}{729} + \\frac{5 \\pi^{2} L}{27} - \\frac{5 M_{11}}{27} - \\frac{M_{21}}{36} + \\frac{\\rho^{4}}{864} + \\frac{\\pi^{2} \\rho^{2}}{216} + \\frac{25 \\rho^{2}}{324} - \\frac{110 \\zeta\\left(3\\right)}{243} - \\frac{7 \\pi^{4}}{19440} + \\frac{32}{6561} + \\frac{38 \\pi^{2}}{243}"
+      }
+    },
+    "k3_nf2": {
+      "sympy": "-1/27",
+      "latex": "- \\frac{1}{27}"
+    },
+    "h3_nf2": {
+      "sympy": "-260/729 - 5*pi**2/162 + 14*zeta(3)/27",
+      "latex": "- \\frac{260}{729} - \\frac{5 \\pi^{2}}{162} + \\frac{14 \\zeta\\left(3\\right)}{27}"
+    },
+    "F3_nf2": {
+      "sympy": "-L**4/54 - 10*L**3/81 + L**2*rho**2/36 - 25*L**2/81 + pi**2*L**2/18 - L*M11/9 + 5*L*rho**2/54 - 4*L*zeta(3)/9 - 232*L/729 + 5*pi**2*L/27 - 5*M11/27 - M21/36 + rho**4/864 + pi**2*rho**2/216 + 25*rho**2/324 - 110*zeta(3)/243 - 7*pi**4/19440 + 32/6561 + 38*pi**2/243",
+      "latex": "- \\frac{L^{4}}{54} - \\frac{10 L^{3}}{81} + \\frac{L^{2} \\rho^{2}}{36} - \\frac{25 L^{2}}{81} + \\frac{\\pi^{2} L^{2}}{18} - \\frac{L M_{11}}{9} + \\frac{5 L \\rho^{2}}{54} - \\frac{4 L \\zeta\\left(3\\right)}{9} - \\frac{232 L}{729} + \\frac{5 \\pi^{2} L}{27} - \\frac{5 M_{11}}{27} - \\frac{M_{21}}{36} + \\frac{\\rho^{4}}{864} + \\frac{\\pi^{2} \\rho^{2}}{216} + \\frac{25 \\rho^{2}}{324} - \\frac{110 \\zeta\\left(3\\right)}{243} - \\frac{7 \\pi^{4}}{19440} + \\frac{32}{6561} + \\frac{38 \\pi^{2}}{243}"
+    },
+    "f3_nf2": {
+      "sympy": "-5*M11/27 - M21/36 + rho**4/864 + pi**2*rho**2/216 + 25*rho**2/324 - 110*zeta(3)/243 - 7*pi**4/19440 + 32/6561 + 38*pi**2/243",
+      "latex": "- \\frac{5 M_{11}}{27} - \\frac{M_{21}}{36} + \\frac{\\rho^{4}}{864} + \\frac{\\pi^{2} \\rho^{2}}{216} + \\frac{25 \\rho^{2}}{324} - \\frac{110 \\zeta\\left(3\\right)}{243} - \\frac{7 \\pi^{4}}{19440} + \\frac{32}{6561} + \\frac{38 \\pi^{2}}{243}"
+    },
+    "source_sha256": {
+      "benchmarks/renormalization/two-loop/result-r002.json": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+      "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r002.json": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926",
+      "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+      "benchmarks/renormalization/one-loop/result-r001.json": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007"
+    },
+    "formal": "not_run",
+    "scope": "Unit coefficient of CF*(TF*nf)^2 only; its source coverage must be separately audited from current qgraf output"
+  },
+  "cff": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "superleading pole -6",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "superleading pole -5",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "superleading pole -4",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "cusp value",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "geometry independent cusp",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "geometry independent h",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "pole template -3",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "pole template -2",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "pole template -1",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "finite RG",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "independent finite cusp",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "independent finite h",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing -6",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing -5",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing -4",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing -3",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing -2",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing -1",
+        "passed": true,
+        "residual": "0"
+      },
+      {
+        "name": "crossing 0",
+        "passed": true,
+        "residual": "0"
+      }
+    ],
+    "bare_w3_cff": {
+      "-6": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-5": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "1/36",
+        "latex": "\\frac{1}{36}"
+      },
+      "-2": {
+        "sympy": "L/12 - 2*zeta(3)/9 + 55/216",
+        "latex": "\\frac{L}{12} - \\frac{2 \\zeta\\left(3\\right)}{9} + \\frac{55}{216}"
+      },
+      "-1": {
+        "sympy": "L**2/8 - 2*L*zeta(3)/3 + 55*L/72 - rho**2/32 - 19*zeta(3)/27 - pi**2/18 - pi**4/270 + 1711/1296",
+        "latex": "\\frac{L^{2}}{8} - \\frac{2 L \\zeta\\left(3\\right)}{3} + \\frac{55 L}{72} - \\frac{\\rho^{2}}{32} - \\frac{19 \\zeta\\left(3\\right)}{27} - \\frac{\\pi^{2}}{18} - \\frac{\\pi^{4}}{270} + \\frac{1711}{1296}"
+      },
+      "0": {
+        "sympy": "L**3/8 - L**2*zeta(3) + 55*L**2/48 - 3*L*rho**2/32 - 19*L*zeta(3)/9 - pi**2*L/6 - pi**4*L/90 + 1711*L/432 + 3*M11/16 - 55*rho**2/192 + rho**2*zeta(3)/4 - 55*pi**2/108 - 683*zeta(3)/324 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776",
+        "latex": "\\frac{L^{3}}{8} - L^{2} \\zeta\\left(3\\right) + \\frac{55 L^{2}}{48} - \\frac{3 L \\rho^{2}}{32} - \\frac{19 L \\zeta\\left(3\\right)}{9} - \\frac{\\pi^{2} L}{6} - \\frac{\\pi^{4} L}{90} + \\frac{1711 L}{432} + \\frac{3 M_{11}}{16} - \\frac{55 \\rho^{2}}{192} + \\frac{\\rho^{2} \\zeta\\left(3\\right)}{4} - \\frac{55 \\pi^{2}}{108} - \\frac{683 \\zeta\\left(3\\right)}{324} - \\frac{14 \\zeta\\left(5\\right)}{9} - \\frac{19 \\pi^{4}}{1620} + \\frac{4 \\pi^{2} \\zeta\\left(3\\right)}{9} + \\frac{42727}{7776}"
+      }
+    },
+    "post_counterterm_cff": {
+      "-6": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-5": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "-2/9",
+        "latex": "- \\frac{2}{9}"
+      },
+      "-2": {
+        "sympy": "-L/6 - 2*zeta(3)/9 + 55/216",
+        "latex": "- \\frac{L}{6} - \\frac{2 \\zeta\\left(3\\right)}{9} + \\frac{55}{216}"
+      },
+      "-1": {
+        "sympy": "-2*L*zeta(3)/3 + 55*L/72 - 19*zeta(3)/27 - pi**4/270 - pi**2/72 + 1711/1296",
+        "latex": "- \\frac{2 L \\zeta\\left(3\\right)}{3} + \\frac{55 L}{72} - \\frac{19 \\zeta\\left(3\\right)}{27} - \\frac{\\pi^{4}}{270} - \\frac{\\pi^{2}}{72} + \\frac{1711}{1296}"
+      },
+      "0": {
+        "sympy": "L**3/12 - L**2*zeta(3) + 55*L**2/48 - L*rho**2/16 - 19*L*zeta(3)/9 - pi**2*L/8 - pi**4*L/90 + 1711*L/432 + M11/8 - 55*rho**2/192 + rho**2*zeta(3)/4 - 55*pi**2/108 - 355*zeta(3)/162 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776",
+        "latex": "\\frac{L^{3}}{12} - L^{2} \\zeta\\left(3\\right) + \\frac{55 L^{2}}{48} - \\frac{L \\rho^{2}}{16} - \\frac{19 L \\zeta\\left(3\\right)}{9} - \\frac{\\pi^{2} L}{8} - \\frac{\\pi^{4} L}{90} + \\frac{1711 L}{432} + \\frac{M_{11}}{8} - \\frac{55 \\rho^{2}}{192} + \\frac{\\rho^{2} \\zeta\\left(3\\right)}{4} - \\frac{55 \\pi^{2}}{108} - \\frac{355 \\zeta\\left(3\\right)}{162} - \\frac{14 \\zeta\\left(5\\right)}{9} - \\frac{19 \\pi^{4}}{1620} + \\frac{4 \\pi^{2} \\zeta\\left(3\\right)}{9} + \\frac{42727}{7776}"
+      }
+    },
+    "k3_cff": {
+      "sympy": "-55/48 + zeta(3)",
+      "latex": "- \\frac{55}{48} + \\zeta\\left(3\\right)"
+    },
+    "h3_cff": {
+      "sympy": "-1711/432 + pi**2/24 + pi**4/90 + 19*zeta(3)/9",
+      "latex": "- \\frac{1711}{432} + \\frac{\\pi^{2}}{24} + \\frac{\\pi^{4}}{90} + \\frac{19 \\zeta\\left(3\\right)}{9}"
+    },
+    "F3_cff": {
+      "sympy": "L**3/12 - L**2*zeta(3) + 55*L**2/48 - L*rho**2/16 - 19*L*zeta(3)/9 - pi**2*L/8 - pi**4*L/90 + 1711*L/432 + M11/8 - 55*rho**2/192 + rho**2*zeta(3)/4 - 55*pi**2/108 - 355*zeta(3)/162 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776",
+      "latex": "\\frac{L^{3}}{12} - L^{2} \\zeta\\left(3\\right) + \\frac{55 L^{2}}{48} - \\frac{L \\rho^{2}}{16} - \\frac{19 L \\zeta\\left(3\\right)}{9} - \\frac{\\pi^{2} L}{8} - \\frac{\\pi^{4} L}{90} + \\frac{1711 L}{432} + \\frac{M_{11}}{8} - \\frac{55 \\rho^{2}}{192} + \\frac{\\rho^{2} \\zeta\\left(3\\right)}{4} - \\frac{55 \\pi^{2}}{108} - \\frac{355 \\zeta\\left(3\\right)}{162} - \\frac{14 \\zeta\\left(5\\right)}{9} - \\frac{19 \\pi^{4}}{1620} + \\frac{4 \\pi^{2} \\zeta\\left(3\\right)}{9} + \\frac{42727}{7776}"
+    },
+    "f3_cff": {
+      "sympy": "M11/8 - 55*rho**2/192 + rho**2*zeta(3)/4 - 55*pi**2/108 - 355*zeta(3)/162 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776",
+      "latex": "\\frac{M_{11}}{8} - \\frac{55 \\rho^{2}}{192} + \\frac{\\rho^{2} \\zeta\\left(3\\right)}{4} - \\frac{55 \\pi^{2}}{108} - \\frac{355 \\zeta\\left(3\\right)}{162} - \\frac{14 \\zeta\\left(5\\right)}{9} - \\frac{19 \\pi^{4}}{1620} + \\frac{4 \\pi^{2} \\zeta\\left(3\\right)}{9} + \\frac{42727}{7776}"
+    },
+    "source_sha256": {
+      "benchmarks/self-energy/pi2/results/2e-Pi2-01/r002.json": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a",
+      "benchmarks/self-energy/pi2/results/2e-Pi2-02/r002.json": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d",
+      "benchmarks/renormalization/one-loop/result-r001.json": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+      "benchmarks/renormalization/two-loop/result-r002.json": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f"
+    },
+    "formal": "not_run",
+    "scope": "Unit coefficient of CF^2*TF*nf only, covered by the current Pi2 Ff channel and beta1 counterterm; not the remaining CA^2 or CA*TF*nf channels"
+  },
+  "full_w3_complete": false,
+  "formal": "not_run"
+}

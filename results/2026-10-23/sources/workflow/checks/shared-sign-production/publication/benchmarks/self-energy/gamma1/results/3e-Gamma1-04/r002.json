@@ -1,0 +1,284 @@
+{
+  "format": "wilson-gamma1-integral-result/1",
+  "revision": "r002",
+  "date": "2026-10-06",
+  "orbit_id": "3e-Gamma1-04",
+  "geometry": "234",
+  "status": "laurent_complete",
+  "definition": "I_c=-exp(-3*EulerGamma*eps)*Gamma(1-3*eps)/64*(J_c(z,eps)+z^(3*eps)*J_c(1/z,eps))/(1+z^(3*eps)); native C, one Euler/C4 extraction",
+  "normalization": {
+    "euler_compensation_count": 1,
+    "c4_multiplicity": 4,
+    "raw_C_includes_euler": false,
+    "raw_C_includes_c4": false,
+    "internal_loop_counted_once": true,
+    "raw_input_modified": false,
+    "external_leg_self_energy_included": false,
+    "vertex_counterterm_included": false,
+    "assembly_sign": 1,
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+  },
+  "channels": {
+    "g": {
+      "color_factor": "CF*CA^2",
+      "highest_pole_order": 3,
+      "I_coefficients": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "-(1/576*zeta[2]+1/128*zeta[3])",
+        "-2": "-(1/128*Hlog(z,[0, -1, 0, 0])+(-1/64*zeta[2]-1/64*zeta[3])*Hlog(z,[-1])-1/64*Hlog(z,[-1, -1, 0, 0])+3/128*zeta[2]*Hlog(z,[-1, 0])-3/256*zeta[2]*Hlog(z,[0, 0])+(1/128*zeta[3]+1/128*zeta[2])*Hlog(z,[0])+1/384*Hlog(z,[0, 0, 0])-1/192*Hlog(z,[-1, 0, 0])+1/128*Hlog(z,[-1, 0, 0, 0])+3/128*zeta[2]*Hlog(z,[0, -1])+5/432*zeta[2]-1/72*zeta[3]-41/2560*zeta[2]^2-3/64*zeta[2]*Hlog(z,[-1, -1])-1/256*Hlog(z,[0, 0, 0, 0]))",
+        "-1": "-(83/2592*zeta[2]-1/15360*(171*z*zeta[2]^2-640*z*zeta[2]+960*z*zeta[3]+171*zeta[2]^2-480*zeta[2]+960*zeta[3])/(1+z)*Hlog(z,[0])-1/4608*(45*z*zeta[2]-80*z+45*zeta[2]-32)/(1+z)*Hlog(z,[0, 0, 0])+287/768*zeta[2]^2-83/216*zeta[3]+105/256*zeta[5]+3/256*Hlog(z,[-1, 0, 0, 0, 0])-1/16*Hlog(z,[-1, 0, 0, 0])+7/128*Hlog(z,[0, 0, 0, 0])+1/64*Hlog(z,[0, -1, 0, 0, 0])-1/32*Hlog(z,[0, -1, -1, 0, 0])+1/8*Hlog(z,[-1, -1, 0, 0])-1/16*Hlog(z,[0, -1, 0, 0])-1/32*Hlog(z,[-1, 0, -1, 0, 0])+1/16*Hlog(z,[-1, -1, -1, 0, 0])-1/32*Hlog(z,[-1, -1, 0, 0, 0])-3/512*Hlog(z,[0, 0, 0, 0, 0])+1/64*Hlog(z,[0, 0, -1, 0, 0])-1/32*zeta[2]*zeta[3]+(1/8*zeta[3]+57/2560*zeta[2]^2-7/96*zeta[2])*Hlog(z,[-1])+(-3/16*zeta[2]-1/32*zeta[3])*Hlog(z,[-1, 0])+(7/64*zeta[2]-5/256*zeta[3])*Hlog(z,[0, 0])+(5/256*zeta[2]-7/288)*Hlog(z,[-1, 0, 0])+(-3/16*zeta[2]-1/32*zeta[3])*Hlog(z,[0, -1])+(3/8*zeta[2]+1/16*zeta[3])*Hlog(z,[-1, -1])+3/64*zeta[2]*Hlog(z,[0, 0, -1])+3/16*zeta[2]*Hlog(z,[-1, -1, -1])+3/64*zeta[2]*Hlog(z,[0, -1, 0])-3/32*zeta[2]*Hlog(z,[-1, 0, -1])-3/32*zeta[2]*Hlog(z,[0, -1, -1])-3/32*zeta[2]*Hlog(z,[-1, -1, 0]))",
+        "0": "-(1/1244160*(422739*z*zeta[2]^3+938088*z*zeta[2]^2-1562760*z*zeta[2]*zeta[3]+571050*z*zeta[3]^2+422739*zeta[2]^3+56800*z*zeta[2]-1880400*z*zeta[3]-651240*z*zeta[5]+541512*zeta[2]^2-1562760*zeta[2]*zeta[3]+571050*zeta[3]^2+56800*zeta[2]-1880400*zeta[3]-651240*zeta[5])/(1+z)+1/13824*(6804*z*zeta[2]-675*z*zeta[3]+376*z+6804*zeta[2]-675*zeta[3]+208)/(1+z)*Hlog(z,[0, 0, 0])+1/15360*(717*z*zeta[2]^2-12960*z*zeta[2]+5480*z*zeta[3]+717*zeta[2]^2-7200*zeta[2]+5480*zeta[3])/(1+z)*Hlog(z,[0, -1])+1/1536*(333*z*zeta[2]+280*z+333*zeta[2]+184)/(1+z)*Hlog(z,[0, 0, 0, 0])+1/4608*(3567*z*zeta[2]^2+369*z*zeta[2]*zeta[3]+320*z*zeta[2]-432*z*zeta[3]+261*z*zeta[5]+3567*zeta[2]^2+369*zeta[2]*zeta[3]+264*zeta[2]-1584*zeta[3]+261*zeta[5])/(1+z)*Hlog(z,[0])-1/512*(85*z*zeta[2]+144*z+85*zeta[2]+80)/(1+z)*Hlog(z,[0, -1, 0, 0])+1/7680*(513*z*zeta[2]^2+3280*z*zeta[2]-1360*z*zeta[3]+513*zeta[2]^2+1840*zeta[2]-1360*zeta[3])/(1+z)*Hlog(z,[0, 0])-103/512*Hlog(z,[0, -1, 0, 0, 0, 0])+3/128*Hlog(z,[-1, 0, -1, 0, 0, 0])+51/256*Hlog(z,[-1, -1, 0, 0, 0, 0])+21/128*Hlog(z,[-1, -1, 0, -1, 0, 0])-29/256*Hlog(z,[0, 0, -1, 0, 0, 0])-19/256*Hlog(z,[0, 0, 0, -1, 0, 0])-95/512*Hlog(z,[-1, 0, 0, 0, 0, 0])+21/128*Hlog(z,[-1, -1, -1, 0, 0, 0])+21/128*Hlog(z,[0, -1, -1, -1, 0, 0])-21/64*Hlog(z,[-1, -1, -1, -1, 0, 0])+41/256*Hlog(z,[0, 0, 0, 0, 0, 0])-1/64*Hlog(z,[-1, 0, 0, -1, 0, 0])+5/128*Hlog(z,[0, -1, -1, 0, 0, 0])+21/128*Hlog(z,[-1, 0, -1, -1, 0, 0])-125/384*Hlog(z,[-1, 0, 0, 0, 0])-7/32*Hlog(z,[0, -1, 0, 0, 0])+137/384*Hlog(z,[0, -1, -1, 0, 0])+137/384*Hlog(z,[-1, 0, -1, 0, 0])-137/192*Hlog(z,[-1, -1, -1, 0, 0])+137/384*Hlog(z,[-1, -1, 0, 0, 0])+191/768*Hlog(z,[0, 0, 0, 0, 0])-119/384*Hlog(z,[0, 0, -1, 0, 0])+(137/128*zeta[2]+21/128*zeta[3])*Hlog(z,[0, -1, -1])+(-783/2560*zeta[2]^2+21/16*zeta[2]-137/192*zeta[3])*Hlog(z,[-1, -1])+(137/128*zeta[2]+21/128*zeta[3])*Hlog(z,[-1, 0, -1])+(-137/64*zeta[2]-21/64*zeta[3])*Hlog(z,[-1, -1, -1])+(-211/384*zeta[2]+15/256*zeta[3]-73/1728)*Hlog(z,[-1, 0, 0])+(-69/512*zeta[2]-7/32)*Hlog(z,[-1, 0, 0, 0])+(-9/256*zeta[2]+7/16)*Hlog(z,[-1, -1, 0, 0])+(75/1024*zeta[2]^2-21/32*zeta[2]+137/384*zeta[3])*Hlog(z,[-1, 0])+(137/128*zeta[2]+21/128*zeta[3])*Hlog(z,[-1, -1, 0])+(-221/384*zeta[2]-1/8*zeta[3])*Hlog(z,[0, -1, 0])+(-1211/1280*zeta[2]^2-9/256*zeta[2]*zeta[3]-73/576*zeta[2]+7/16*zeta[3]+3/256*zeta[5])*Hlog(z,[-1])+63/128*zeta[2]*Hlog(z,[-1, 0, -1, -1])-1/8*zeta[2]*Hlog(z,[0, -1, -1, 0])+63/128*zeta[2]*Hlog(z,[-1, -1, 0, -1])-63/64*zeta[2]*Hlog(z,[-1, -1, -1, -1])+63/128*zeta[2]*Hlog(z,[0, -1, -1, -1])+63/128*zeta[2]*Hlog(z,[-1, -1, -1, 0])-57/256*zeta[2]*Hlog(z,[0, 0, 0, -1])-29/256*zeta[2]*Hlog(z,[0, 0, -1, 0])-9/64*zeta[2]*Hlog(z,[-1, 0, -1, 0])-3/64*zeta[2]*Hlog(z,[-1, 0, 0, -1])-119/128*zeta[2]*Hlog(z,[0, 0, -1]))"
+      },
+      "J_coefficients": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "1/9*zeta[2]+1/2*zeta[3]",
+        "-2": "-3/4*zeta[2]*Hlog(z,[0, 0])+(-zeta[3]-zeta[2])*Hlog(z,[-1])+3/2*zeta[2]*Hlog(z,[-1, 0])-1/4*Hlog(z,[0, 0, 0, 0])+1/2*Hlog(z,[-1, 0, 0, 0])+3/2*zeta[2]*Hlog(z,[0, -1])-1/3*Hlog(z,[-1, 0, 0])-Hlog(z,[-1, -1, 0, 0])+1/2*Hlog(z,[0, -1, 0, 0])+20/27*zeta[2]-41/40*zeta[2]^2-8/9*zeta[3]+1/6*Hlog(z,[0, 0, 0])+(2/3*zeta[2]+5/4*zeta[3])*Hlog(z,[0])-3*zeta[2]*Hlog(z,[-1, -1])",
+        "-1": "166/81*zeta[2]-2/9*(18*z*zeta[2]-5*z+18*zeta[2]-2)/(1+z)*Hlog(z,[0, 0, 0])-1/36*(81*z*zeta[2]^2-136*z*zeta[2]+192*z*zeta[3]+81*zeta[2]^2-112*zeta[2]+192*zeta[3])/(1+z)*Hlog(z,[0])+281/12*zeta[2]^2-664/27*zeta[3]+105/4*zeta[5]+15/4*Hlog(z,[-1, 0, 0, 0, 0])-11/2*Hlog(z,[-1, 0, 0, 0])+9/2*Hlog(z,[0, 0, 0, 0])+4*Hlog(z,[0, -1, 0, 0, 0])-7/2*Hlog(z,[0, -1, -1, 0, 0])+8*Hlog(z,[-1, -1, 0, 0])-9/2*Hlog(z,[0, -1, 0, 0])-7/2*Hlog(z,[-1, 0, -1, 0, 0])+4*Hlog(z,[-1, -1, -1, 0, 0])-13/2*Hlog(z,[-1, -1, 0, 0, 0])-9/4*Hlog(z,[0, 0, 0, 0, 0])+5/2*Hlog(z,[0, 0, -1, 0, 0])+(9*zeta[2]+5/2*zeta[3])*Hlog(z,[0, 0])+(8*zeta[3]-14/3*zeta[2]+57/40*zeta[2]^2)*Hlog(z,[-1])+(-7/2*zeta[3]-27/2*zeta[2])*Hlog(z,[-1, 0])+(-7/2*zeta[3]-27/2*zeta[2])*Hlog(z,[0, -1])+(-14/9+23/4*zeta[2])*Hlog(z,[-1, 0, 0])+(24*zeta[2]+4*zeta[3])*Hlog(z,[-1, -1])-17/4*zeta[2]*zeta[3]+15/2*zeta[2]*Hlog(z,[0, 0, -1])+12*zeta[2]*Hlog(z,[-1, -1, -1])+15/2*zeta[2]*Hlog(z,[0, -1, 0])-21/2*zeta[2]*Hlog(z,[-1, 0, -1])-21/2*zeta[2]*Hlog(z,[0, -1, -1])-21/2*zeta[2]*Hlog(z,[-1, -1, 0])",
+        "0": "(-100*zeta[2]-21/2*zeta[3])*Hlog(z,[0, 0, -1])+(-73/27-445/6*zeta[2]-27/4*zeta[3])*Hlog(z,[-1, 0, 0])+(-232/3*zeta[2]-37/2*zeta[3])*Hlog(z,[0, -1, 0])+(209/2*zeta[2]+33/2*zeta[3])*Hlog(z,[0, -1, -1])+(-137*zeta[2]-21*zeta[3])*Hlog(z,[-1, -1, -1])+(209/2*zeta[2]+33/2*zeta[3])*Hlog(z,[-1, -1, 0])+(-137/3*zeta[3]+84*zeta[2]-243/40*zeta[2]^2)*Hlog(z,[-1, -1])+(-21+15*zeta[2])*Hlog(z,[-1, 0, 0, 0])+1/30*(27*z*zeta[2]^2+1160*z*zeta[2]-820*z*zeta[3]+27*zeta[2]^2+740*zeta[2]-820*zeta[3])/(1+z)*Hlog(z,[0, 0])+1/12*(219*z*zeta[2]-244*z+219*zeta[2]-148)/(1+z)*Hlog(z,[0, -1, 0, 0])-1/3*(27*z*zeta[2]-55*z+27*zeta[2]-31)/(1+z)*Hlog(z,[0, 0, 0, 0])-1/24*(39*z*zeta[2]^2+1464*z*zeta[2]-836*z*zeta[3]+39*zeta[2]^2+888*zeta[2]-836*zeta[3])/(1+z)*Hlog(z,[0, -1])+1/108*(7614*z*zeta[2]+513*z*zeta[3]+188*z+7614*zeta[2]+513*zeta[3]+104)/(1+z)*Hlog(z,[0, 0, 0])+1/108*(8901*z*zeta[2]^2-378*z*zeta[2]*zeta[3]+812*z*zeta[2]-4632*z*zeta[3]+4644*z*zeta[5]+8901*zeta[2]^2-378*zeta[2]*zeta[3]+728*zeta[2]-6360*zeta[3]+4644*zeta[5])/(1+z)*Hlog(z,[0])+(28*zeta[3]-1121/20*zeta[2]^2-73/9*zeta[2]+9/4*zeta[2]*zeta[3]+3/4*zeta[5])*Hlog(z,[-1])+(28-117/4*zeta[2])*Hlog(z,[-1, -1, 0, 0])+(209/6*zeta[3]-49*zeta[2]+3/40*zeta[2]^2)*Hlog(z,[-1, 0])+(209/2*zeta[2]+33/2*zeta[3])*Hlog(z,[-1, 0, -1])+1/9720*(256203*z*zeta[2]^3+436644*z*zeta[2]^2-752220*z*zeta[2]*zeta[3]+241785*z*zeta[3]^2+256203*zeta[2]^3+28400*z*zeta[2]-940200*z*zeta[3]-325620*z*zeta[5]+238356*zeta[2]^2-752220*zeta[2]*zeta[3]+241785*zeta[3]^2+28400*zeta[2]-940200*zeta[3]-325620*zeta[5])/(1+z)+67/4*Hlog(z,[0, -1, 0, 0, 0, 0])-24*Hlog(z,[-1, 0, -1, 0, 0, 0])-105/4*Hlog(z,[-1, -1, 0, 0, 0, 0])+33/2*Hlog(z,[-1, -1, 0, -1, 0, 0])+16*Hlog(z,[0, 0, -1, 0, 0, 0])+13/2*Hlog(z,[0, 0, 0, -1, 0, 0])+65/4*Hlog(z,[-1, 0, 0, 0, 0, 0])+57/2*Hlog(z,[-1, -1, -1, 0, 0, 0])+33/2*Hlog(z,[0, -1, -1, -1, 0, 0])-21*Hlog(z,[-1, -1, -1, -1, 0, 0])-10*Hlog(z,[0, 0, 0, 0, 0, 0])-23/2*Hlog(z,[-1, 0, 0, -1, 0, 0])-23*Hlog(z,[0, -1, -1, 0, 0, 0])+33/2*Hlog(z,[-1, 0, -1, -1, 0, 0])-21/2*Hlog(z,[0, -1, 0, -1, 0, 0])-21/2*Hlog(z,[0, 0, -1, -1, 0, 0])-323/6*Hlog(z,[-1, 0, 0, 0, 0])-85/2*Hlog(z,[0, -1, 0, 0, 0])+209/6*Hlog(z,[0, -1, -1, 0, 0])+209/6*Hlog(z,[-1, 0, -1, 0, 0])-137/3*Hlog(z,[-1, -1, -1, 0, 0])+353/6*Hlog(z,[-1, -1, 0, 0, 0])+149/3*Hlog(z,[0, 0, 0, 0, 0])-100/3*Hlog(z,[0, 0, -1, 0, 0])+99/2*zeta[2]*Hlog(z,[-1, 0, -1, -1])-79/2*zeta[2]*Hlog(z,[0, -1, -1, 0])+99/2*zeta[2]*Hlog(z,[-1, -1, 0, -1])-63*zeta[2]*Hlog(z,[-1, -1, -1, -1])+99/2*zeta[2]*Hlog(z,[0, -1, -1, -1])+99/2*zeta[2]*Hlog(z,[-1, -1, -1, 0])+39/2*zeta[2]*Hlog(z,[0, 0, 0, -1])+53/2*zeta[2]*Hlog(z,[0, 0, -1, 0])-81/2*zeta[2]*Hlog(z,[-1, 0, -1, 0])-69/2*zeta[2]*Hlog(z,[-1, 0, 0, -1])-63/2*zeta[2]*Hlog(z,[0, 0, -1, -1])-63/2*zeta[2]*Hlog(z,[0, -1, 0, -1])"
+      },
+      "numeric_samples": {
+        "0.5": {
+          "-3": "0.0122468578664347234735611751622353301174676878762830614684041",
+          "-2": "-0.0954088376804440303787643303591845918845098975686992691442133",
+          "-1": "1.1545972718698786924482094571573174372784415888902944209428",
+          "0": "-4.83756550845709442840342896616629165175186403588905551319281"
+        },
+        "1.0": {
+          "-3": "0.0122468578664347234735611751622353301174676878762830614684041",
+          "-2": "-0.0886395340793351672685084678279179439977624053766895197653366",
+          "-1": "1.11199362707545675045862374489468476549074010951391646174188",
+          "0": "-4.62965495644975738314864127854954781552998790268523426421019"
+        },
+        "2.0": {
+          "-3": "0.0122468578664347234735611751622353301174676878762830614684041",
+          "-2": "-0.0954088376804440303787643303591845918845098975668242738894871",
+          "-1": "1.15459727186987869244820945715731743727844158886312782094771",
+          "0": "-4.83756550845709442840342896616629165175186403566718363296343"
+        }
+      }
+    },
+    "q": {
+      "color_factor": "CF*CA*TF*nf",
+      "highest_pole_order": 3,
+      "I_coefficients": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "-(-1/72*zeta[2])",
+        "-2": "-(-1/27*zeta[2]+1/24*Hlog(z,[-1, 0, 0])+5/72*zeta[3]-1/48*Hlog(z,[0, 0, 0])-1/16*Hlog(z,[0])*zeta[2]+1/8*Hlog(z,[-1])*zeta[2])",
+        "-1": "-(-1/144*(8*z+5)/(1+z)*Hlog(z,[0, 0, 0])-1/4*zeta[2]*Hlog(z,[0, 0])+3/16*Hlog(z,[0, -1, 0, 0])+13/144*Hlog(z,[-1, 0, 0])-3/8*Hlog(z,[-1, -1, 0, 0])-1/8*Hlog(z,[0, 0, 0, 0])-9/8*zeta[2]*Hlog(z,[-1, -1])+(13/48*zeta[2]-3/8*zeta[3])*Hlog(z,[-1])+9/16*zeta[2]*Hlog(z,[-1, 0])-1/48*(7*z*zeta[2]-9*z*zeta[3]+6*zeta[2]-9*zeta[3])/(1+z)*Hlog(z,[0])-11/15*zeta[2]^2-13/162*zeta[2]+83/432*zeta[3]+9/16*zeta[2]*Hlog(z,[0, -1])+3/16*Hlog(z,[-1, 0, 0, 0]))",
+        "0": "-(-53/486*zeta[2]-1/216*(108*z*zeta[2]+17*z+108*zeta[2]+14)/(1+z)*Hlog(z,[0, 0, 0])-1/288*(420*z*zeta[2]^2+64*z*zeta[2]-99*z*zeta[3]+420*zeta[2]^2+60*zeta[2]-99*zeta[3])/(1+z)*Hlog(z,[0])-365/288*zeta[2]^2+65/648*zeta[3]+19/6*zeta[5]+1/6*Hlog(z,[-1, 0, 0, 0, 0])+11/32*Hlog(z,[-1, 0, 0, 0])-5/24*Hlog(z,[0, 0, 0, 0])+3/16*Hlog(z,[0, -1, 0, 0, 0])-41/48*Hlog(z,[0, -1, -1, 0, 0])-11/16*Hlog(z,[-1, -1, 0, 0])+11/32*Hlog(z,[0, -1, 0, 0])-41/48*Hlog(z,[-1, 0, -1, 0, 0])+41/24*Hlog(z,[-1, -1, -1, 0, 0])-41/48*Hlog(z,[-1, -1, 0, 0, 0])-1/48*Hlog(z,[0, 0, 0, 0, 0])+13/24*Hlog(z,[0, 0, -1, 0, 0])+307/144*zeta[2]*zeta[3]+13/8*zeta[2]*Hlog(z,[0, 0, -1])+41/8*zeta[2]*Hlog(z,[-1, -1, -1])+25/24*zeta[2]*Hlog(z,[0, -1, 0])-41/16*zeta[2]*Hlog(z,[-1, 0, -1])-41/16*zeta[2]*Hlog(z,[0, -1, -1])-41/16*zeta[2]*Hlog(z,[-1, -1, 0])+(-5/12*zeta[2]+5/12*zeta[3])*Hlog(z,[0, 0])+(43/48*zeta[2]+31/216)*Hlog(z,[-1, 0, 0])+(-33/16*zeta[2]+41/24*zeta[3])*Hlog(z,[-1, -1])+(77/40*zeta[2]^2+31/72*zeta[2]-11/16*zeta[3])*Hlog(z,[-1])+(33/32*zeta[2]-41/48*zeta[3])*Hlog(z,[-1, 0])+(33/32*zeta[2]-41/48*zeta[3])*Hlog(z,[0, -1]))"
+      },
+      "J_coefficients": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "-8/9*zeta[2]",
+        "-2": "-64/27*zeta[2]+8/3*Hlog(z,[-1, 0, 0])+40/9*zeta[3]-4/3*Hlog(z,[0, 0, 0])-16/3*Hlog(z,[0])*zeta[2]+8*Hlog(z,[-1])*zeta[2]",
+        "-1": "-4/9*(8*z+5)/(1+z)*Hlog(z,[0, 0, 0])-32*zeta[2]*Hlog(z,[0, 0])+16*Hlog(z,[0, -1, 0, 0])+52/9*Hlog(z,[-1, 0, 0])-24*Hlog(z,[-1, -1, 0, 0])-16*Hlog(z,[0, 0, 0, 0])-72*zeta[2]*Hlog(z,[-1, -1])+(52/3*zeta[2]-24*zeta[3])*Hlog(z,[-1])+48*zeta[2]*Hlog(z,[-1, 0])-4/9*(29*z*zeta[2]-42*z*zeta[3]+26*zeta[2]-42*zeta[3])/(1+z)*Hlog(z,[0])-644/15*zeta[2]^2-416/81*zeta[2]+332/27*zeta[3]+48*zeta[2]*Hlog(z,[0, -1])+24*Hlog(z,[-1, 0, 0, 0])",
+        "0": "-1696/243*zeta[2]-4/27*(1107*z*zeta[2]+34*z+1107*zeta[2]+28)/(1+z)*Hlog(z,[0, 0, 0])-4/3*(49*z*zeta[2]-62*z*zeta[3]+46*zeta[2]-62*zeta[3])/(1+z)*Hlog(z,[0, 0])-8/3*(13*z+10)/(1+z)*Hlog(z,[0, 0, 0, 0])-4/135*(4716*z*zeta[2]^2+740*z*zeta[2]-1365*z*zeta[3]+4716*zeta[2]^2+710*zeta[2]-1365*zeta[3])/(1+z)*Hlog(z,[0])-634/9*zeta[2]^2+520/81*zeta[3]+608/3*zeta[5]+464/3*Hlog(z,[-1, 0, 0, 0, 0])+48*Hlog(z,[-1, 0, 0, 0])+120*Hlog(z,[0, -1, 0, 0, 0])-272/3*Hlog(z,[0, -1, -1, 0, 0])-44*Hlog(z,[-1, -1, 0, 0])+92/3*Hlog(z,[0, -1, 0, 0])-272/3*Hlog(z,[-1, 0, -1, 0, 0])+328/3*Hlog(z,[-1, -1, -1, 0, 0])-488/3*Hlog(z,[-1, -1, 0, 0, 0])-364/3*Hlog(z,[0, 0, 0, 0, 0])+248/3*Hlog(z,[0, 0, -1, 0, 0])+1120/9*zeta[2]*zeta[3]+248*zeta[2]*Hlog(z,[0, 0, -1])+328*zeta[2]*Hlog(z,[-1, -1, -1])+632/3*zeta[2]*Hlog(z,[0, -1, 0])-272*zeta[2]*Hlog(z,[-1, 0, -1])-272*zeta[2]*Hlog(z,[0, -1, -1])-272*zeta[2]*Hlog(z,[-1, -1, 0])+(568/3*zeta[2]+248/27)*Hlog(z,[-1, 0, 0])+(-132*zeta[2]+328/3*zeta[3])*Hlog(z,[-1, -1])+(436/5*zeta[2]^2+248/9*zeta[2]-44*zeta[3])*Hlog(z,[-1])+(92*zeta[2]-272/3*zeta[3])*Hlog(z,[-1, 0])+(92*zeta[2]-272/3*zeta[3])*Hlog(z,[0, -1])"
+      },
+      "numeric_samples": {
+        "0.5": {
+          "-3": "-0.0228463064840031449510057662034170165169298597389833116352161",
+          "-2": "0.215041549563127762393862773651059231811152765479287770078168",
+          "-1": "-2.18889484173623741770223289933575281142937737795966962383412",
+          "0": "11.0279342522193443158398778052360171558118200561427338642659"
+        },
+        "1.0": {
+          "-3": "-0.0228463064840031449510057662034170165169298597389833116352161",
+          "-2": "0.202639644427279577164252962372681796788128973914801268500259",
+          "-1": "-2.0984044617206613861437727313140498624643898009500562060078",
+          "0": "10.5826987706101835219583831807390747335633807919483217064009"
+        },
+        "2.0": {
+          "-3": "-0.0228463064840031449510057662034170165169298597389833116352161",
+          "-2": "0.215041549563127762393862773651059231811152765478211060975075",
+          "-1": "-2.18889484173623741770223289933575281142937737792023273475334",
+          "0": "11.0279342522193443158398778052360171558118200556751439122031"
+        }
+      }
+    }
+  },
+  "coefficient_notation": {
+    "language": "Maple exact rational expressions",
+    "argument": "z",
+    "alphabet": [
+      0,
+      -1
+    ],
+    "Hlog(z,[a1,...,an])": "G(a1,...,an;z), kernels dt/(t-a1)",
+    "Hlog(z,[-1])": "log(1+z)",
+    "Hlog(z,[0])": "log(z)",
+    "zeta[k]": "Riemann zeta(k)",
+    "^": "power"
+  },
+  "range": [
+    -6,
+    0
+  ],
+  "zero_powers": [
+    -6,
+    -5,
+    -4
+  ],
+  "laurent_remainder": "O(eps)",
+  "pole_budget": "Whole density decomposition: UV masses at most second order; flat-leading A/C complete masses at most third order; regular body pole at most first order; remaining C corner finite or first order. No omitted higher-pole positions.",
+  "all_epsilon_closed_form": false,
+  "completion_semantics": "both color channels: all poles through finite, fixed raw meromorphic parameter convention",
+  "domain": "z>0 and A0>0 analytic region; common Feynman boundary value and meromorphic epsilon continuation",
+  "derivation": "workspaces/3e-Gamma1-04/derivation.md",
+  "formal": "not_run",
+  "correction": "Old local fourfold corner used xi+z*eta. Correct source distance is z*xi+eta; corrected raw corner and C projection are used exactly once.",
+  "limitations": [
+    "Wilson MCP unavailable; no formal receipt",
+    "all-epsilon standard-function closed form not obtained",
+    "general complex kinematics continuation and strict source-side global regulator-removal bridge not closed",
+    "Numerical controls use sampling and quadrature-doubling budgets, not rigorous interval bounds; no direct full seven-dimensional unexpanded I evaluation is claimed."
+  ],
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "legacy_input": {
+    "path": "sources/montopar-r001.json",
+    "sha256": "3b92e23125cb6b654ad63d5c19c17fead9cfeb3bff56739dd9f07c6eda87e65a",
+    "qgraf_sha256": "de8491d72293eba7a277ae3a80de0ec51dc364ce19f018ded4e635af23493c05",
+    "orbit_id": "3e-Gamma1-04",
+    "source_order_outer_to_inner": [
+      "s21",
+      "s31",
+      "s41"
+    ]
+  },
+  "input": {
+    "native_package": "benchmarks/self-energy/gamma1/sources/montopar-r002.json",
+    "native_package_sha256": "17c63f14fa10f05da173da48ffc153392ed5d19221dfd3ee4775e65c44aa6b98",
+    "orbit_id": "3e-Gamma1-04",
+    "assembly_sign": 1
+  },
+  "legacy_evidence": {
+    "verification": {
+      "exact_forests_and_source_zero_checks": 106,
+      "final_crossing_checks": 12,
+      "negative_normalization_controls": 2,
+      "independent_mu_jet_checks": 12,
+      "unexpanded_leading_source_checks": 24,
+      "independent_leading_integral_controls": 58,
+      "direct_five_dimensional_body_controls": 18,
+      "independent_final_GPL_values": 24
+    },
+    "evidence": "workflow/checks/gamma1-04/README.md",
+    "evidence_sha256": {
+      "complete-I-coefficients.txt": "6689664707fdb2a211fc592aeb4a2dac441321525e519900bf028e82f72ecbf9",
+      "complete-J-coefficients.txt": "276d70372c08dd6e09957698838912b386447e41838157f51a2920ef725eb2ea",
+      "final-numeric-checks.json": "0ed48648f580b3dce38bf2d0e8cf81cd1194975c6a8e456be512a964cc1e4bde",
+      "complete-leading-source-numerics.json": "446493302bb8f98f662470f5e32caaa90af66a42f34cdcbe9083cc2a70980169",
+      "integrated-leading-numerics.json": "dd2e311d8a038f314b2b508211f59dbbafe6fe5b554fb6b2e44442ac0a58763d",
+      "integrated-body-numerics.json": "dde7df897beb7c934386dbf8535d1101f082a4c7647e4dc61a311edac0c40b21",
+      "checkpoint-20261006.json": "e64c207b3ae257f7418269bda36dee7f1a972049e3453a3208613ec5597cac2c",
+      "corrected-corner-numerics.json": "77adddffe1dcee132fee76978dc5dcd20508c64343490d9d11f07b464ccfe083",
+      "q-point-connection-numerics.json": "0def09aff7cf60bec3c0ca08d11cc68b89f191ff474364a33556097dc840d479",
+      "leading_angular_merge.mpl": "c8c461fac184a211cf4383ae87173ebb43c6efe40dc1b7abb1f12f91b1a2f034",
+      "leading_angular_merge.log": "c60e6f19b3ab855559d9dcc820f187435c8e8a242eacd907d0ee52106647ead2",
+      "leading_angular_merge-run.json": "856f55ee58c61cf21704e78e715d00d583cee4f4c287a968c2c319cde29d72f5",
+      "q_bulk2_point_prepare.mpl": "6bc815603208b9362fbefd10d6f6511291873138695f102ae7ac0c85faf5bb71",
+      "q_bulk2_point_prepare.log": "c58f6ac952ed27c181dc167c60ad05154493aeebf3fe5cd002e508800367f739",
+      "q_bulk2_point_prepare-run.json": "ce7a2278b622baa78c286c6b4662f8b4e9b16dd0b2487ea1e83d59e6daae496f",
+      "q_bulk2_v_profiles.mpl": "56e5203df804794dab96556b470a720cc835927075801702840ac05c37a73bd4",
+      "q_bulk2_v_profiles.log": "bf2a3a5781840b7a1ea1aafed46205e3e677b5856347c0885d3f9eaa5966363c",
+      "q_bulk2_v_profiles-run.json": "3caa9eda8c207a825beaa04f74691e6b77fd59aae456abbe3d4ebcfdec97120c",
+      "q_bulk2_alpha_integrate.mpl": "6e517fc5758ae23f369d7817adeabe07b386b0baec2abeef47e2369ac2eac894",
+      "q_bulk2_alpha_integrate.log": "74079a46f61cc5bc82277cc9b1fd3d52df0001a947695edbb62443006c8c11f4",
+      "q_bulk2_alpha_integrate-run.json": "1a532d9cb403c63a90a4cf08e58d9eb673c34aaa18a289980988fbcdb23b89d6",
+      "q_leading_all_prepare.mpl": "9152357de07e66d20746de268f6787a3203863418111fe5b4771d3fa6bfe25c0",
+      "q_leading_all_prepare.log": "c9c7f809f3350592c32887cfcf06ef7307a5cafc2f3e325bf9919ec49de96cfb",
+      "q_leading_all_prepare-run.json": "6e055330f25ca44c58857301ce55630d7fa9cffdac2148b45003fa7798394682",
+      "q_leading_all_v.mpl": "9fd871f03f184652130c6a67b6539b30c3ac5ace21ad6b3d92581ce71f16dcae",
+      "q_leading_all_v.log": "304f810572de87b3750342048ffbe71f850b3d44777106b64fa507e110e38600",
+      "q_leading_all_v-run.json": "ef6067c88158d62ee55fcaeb48bf3fca4186d218425c09fcb73cd43bf2134a51",
+      "q_leading_all_alpha.mpl": "05d4daff53d1dbfd29d44103bbbcd779a9483ae6515a04e872abef21029381f1",
+      "q_leading_all_alpha.log": "fde1f9e76a4d94361da3a53894e4617ba7c9039cdae1a627738f18be25938193",
+      "q_leading_all_alpha-run.json": "04e2ee5c4086f9bf0b4bb288f1e4233ac4d7995286ae1f14d2114a0dd8ee03ea",
+      "q_leading_all_second_prepare.mpl": "76085042ea4fc048a32ebe09fa1b4d44558e990b63ef76220d55b74409b72350",
+      "q_leading_all_second_prepare.log": "1e7f6f6059594d8ae636555716e89cf7450d42bbdfd3b9a879f1d8ac55b32fd2",
+      "q_leading_all_second_prepare-run.json": "5792a6a49fcbd4a9695323a06e7bc1a5080157316826ea4910e1313756c1be25",
+      "q_leading_all_second_v.mpl": "7739ea4de4064a6cebf810f3d2805990e57eac1a302bead136095bd1f7ddc46f",
+      "q_leading_all_second_v.log": "97c7cebb15a094d1373a5262820cd463f8c83ec3e16f6c9f80eb525f69f3d393",
+      "q_leading_all_second_v-run.json": "6cb59d7fcfec50513d8b1c390c76f6ff0c4afbbecb7b6b676b74ce4c0afe3e3e",
+      "q_leading_all_second_alpha.mpl": "4b94f75e80b55fd953ab76d8a5db3e3a6471503748065f22169c285b77b59a8f",
+      "q_leading_all_second_alpha.log": "1115761cb2c8be4f5b687354a53537e6c4297c10571d59e67754580f47c8282a",
+      "q_leading_all_second_alpha-run.json": "d3dc36e204f8810b22e869a0b7e079b109ae29396290ddfb50be297917e9bae9",
+      "r_leading_ibeta.mpl": "25d209b84653ed8157174aead7f1d389ba5e9fa0cd136e0c1d8e892b5fe06b5e",
+      "r_leading_ibeta.log": "4fe70077646b7cfeecfab01a904cb9f110efa24da46c4e5a2ad15e61d5e60f01",
+      "r_leading_ibeta-run.json": "f0a8250e877687a33e84b3552f39cfe229615a1a0caa6ca1ee0633ec72bce863",
+      "r_leading_all_prepare.mpl": "94bfa5f51241d7420a6b6865832d535f6e9637f8b43fc718e55d776f4ec3cf21",
+      "r_leading_all_prepare.log": "86de26f08ad37f144265f53bfacd4b0f432cf90715236f36a08362a5a2f9caad",
+      "r_leading_all_prepare-run.json": "2e7b5439a6228955da730ea9c2b554dac57ec88a3505c87c9a129f66c46141d3",
+      "r_leading_all_v.mpl": "a35f1c2212ec0b8e8bc49414c82740beae42d8ab222fac6a7b3904b214c4c19e",
+      "r_leading_all_v.log": "2d2b82fa3e535d7d23c4e489fe19b46d9180de8fb16ac76a475185166748a931",
+      "r_leading_all_v-run.json": "0e4fde998026b799c09fc65225fc385fafb72136dc235723c12c7d61ac8d91b8",
+      "r_leading_all_alpha.mpl": "05ff39dc2e13656e4fb1b119eac972b2baeb2f470736b022bd1f5fe039af2689",
+      "r_leading_all_alpha.log": "41b60182c33cc416f0cea9ff0afb8e7160b34ead281f81f4e345720414189a1c",
+      "r_leading_all_alpha-run.json": "1514f71e894c8f57f8d4fae683fb1d422429099a4845a9e6f1189e4be3254468",
+      "r_leading_all_second_prepare.mpl": "0942d356bf38b63ba5abfd84e2b20594987536acfe5fae0c80b057fe8d437e45",
+      "r_leading_all_second_prepare.log": "94d978aea7a6ba80e93d3de2140653c10b2aa05e33b272f61b0f21abc5c68769",
+      "r_leading_all_second_prepare-run.json": "1c6e32f59b9bfa10430fe5cfb3365c11a1ea516cdd2b9475829155fbf8fbfe68",
+      "r_leading_all_second_v.mpl": "336a47cffd491ae6397c185ef8a4ae496e8845032e1a7320e1e7814a845de010",
+      "r_leading_all_second_v.log": "65db3000fbac29aa335048ee40592884829738f26fea9efc589e768356b7967f",
+      "r_leading_all_second_v-run.json": "924773449c8a20ea8bb18a194a590804a50782e8161b9c7f647b88f7d3ce0df5",
+      "r_leading_all_second_alpha.mpl": "51207ab81b8389e0fa631f03ac562e05788f5fc8fa9b3439bce439ac8e13755c",
+      "r_leading_all_second_alpha.log": "0b0c17e2c0c9388037ef59c53aebd716572abebc18bfd4dcf38aca15bc6e08d4",
+      "r_leading_all_second_alpha-run.json": "1cdbd39c17abdf6baf6cd79596f0684ddab53c307671d515d93d68f0a9317a0f",
+      "corner1_corrected_integrate.mpl": "ee9996bce9313f716527dcc3c47b1dd02b3d9c5e83405e274c92b4705ede490e",
+      "corner1_corrected_integrate.log": "b3947ae5db0326b3acf22d973dce5f6aa2c96e0ccf3996f06692e571df30c8ff",
+      "corner1_corrected_integrate-run.json": "b29d48541ac8ee3adf0dbc240193d0727280173491139e2bd8a66713813b4930",
+      "q_bulk_corner_link.mpl": "e3053d64b811a61b0da35bad5101510c7f29dfa995409efeb3dfda9d1bd12594",
+      "q_bulk_corner_link.log": "1f526f464590184e8fc131f4e5790c41908cccf13e296ef6a21cb685fed8c602",
+      "q_bulk_corner_link-run.json": "4f6895bfed954ae135fce3384ca2378fcf345fea1356c55e9b1ad0e3ba632038",
+      "q_bulk_corner_projected.mpl": "5dbf27607383ad492c9b6611b81d6169aedefe5f0e756750120d5e72989f9a9f",
+      "q_bulk_corner_projected.log": "fdbee85d18ce981362f63a317b07e7db535cb96b3dab2c61fbdfc0ed8e7c963d",
+      "q_bulk_corner_projected-run.json": "1990461478ce2286cbb0ad22b106d12916970a4d8f3f04ce8ce3e33cada88574",
+      "q_bulk_corner_assemble.mpl": "49ece795af33f53ed35cc7a325e3fc9404f04b2c279d872cdfaedc0ce3f96722",
+      "q_bulk_corner_assemble.log": "861afeb39e4f7924af7aad3de3206eb0d95f82bd902864b0f372960d8e06739f",
+      "q_bulk_corner_assemble-run.json": "58a44e429aebc6d7c8ea51dc8886029e4dfaf236acfb2b198007b9932694a742",
+      "q_assemble_candidate.mpl": "a9a4b7146fed904427608c92187347d16efc8d415749a186b027c8fed38d3e11",
+      "q_assemble_candidate.log": "b37624d80fa698ae9d923d6f7eb8eb1c188683bf39a362228c25ad8755941f5f",
+      "q_assemble_candidate-run.json": "b71780d2110ff0fd5abf8a26c834b1cdfa28c1b6bf5847d43fb8ec43ec801bf4",
+      "assemble_complete_candidate.mpl": "c5b5510d8e85a2698b11985479ac8f83936325718e6c242a00f0f177b8595232",
+      "assemble_complete_candidate.log": "cce5e44be447b10a49af6b6cf12e85cb16a274dd62141a3312d0ab8eff9c693f",
+      "assemble_complete_candidate-run.json": "85c96f808163786e409c5a1b1bc9ece710ad81cbbbb90875854e2ba7e5c7484f",
+      "check_complete_bookkeeping.mpl": "7d7f622ed781cc8d691b3d16714411bb168c1279c88457447a94461c4ac4bcc3",
+      "check_complete_bookkeeping.log": "48933a5972100c42d4cba5ab05fee634775fc07ee260c015551bcee867c3e493",
+      "check_complete_bookkeeping-run.json": "45a1893cb43464693eee11a91c5f2ba2466ff189bf3bdf1f4262205d5826d8aa",
+      "check_complete_leading_source.py": "bb2efe604ea11f241bd1477b47ee8773e1f732cdb40bcb50a3ff873d02123e0c",
+      "gpl_general_numeric.py": "4a224cd507c5cb7c6b9699c1907c32f54b297051d320381e5d7472642b6d6bb4",
+      "check_integrated_leading.py": "53b833d5e82fdf43df7e8060bb0beab0143533dbb9a2a86e4c4958185dcec17e",
+      "numeric_positive_euler.py": "0e24ac677822c409911099c46782a7b8743b0d336339a639f84071ea0d93342c",
+      "check_integrated_body.py": "4efe58e1b65cecbea47b00d653466d7b512fac956e364bf3757c58ce145a57be",
+      "check_final_numeric.py": "0c109fe44dfc1faf57983f35483900967bd441b165661e47d963ce5478be652f",
+      "publish_complete.py": "c4fc9108d31768d92b4cb2a52bb9cf4728e2c1b05ea9988ec7878cd2bbeb5fec",
+      "leading_compact_numeric_export.mpl": "9e7588e5b78d45921ead5fd20f6223d28bab394390e4191d22e02469a4409986",
+      "leading_counter_numeric_export.mpl": "ffa77fd8bff1c8c2374c79a966a8d22c7d1198911933ef290973187ea078a288",
+      "body_numeric_export.mpl": "ec35cef1ad374187c1d7da9f37945eb30f6929f0338791183aa21f55a627638f",
+      "star_operator_inputs.mpl": "fa386d2a580963355bff9253287a2e8e19a8b8393bff6053f30358d1f5636f8c",
+      "star_profiles.mpl": "0ac73ee67aa8a439c55f39945e69dc117bbc11a0d7d7929e1abce11d56b17d80",
+      "verify_star_chamber_reflection.mpl": "fb4f1e464cc17e73b62fb19b88e74655c0dbd594ae63adc927a01ef576f15ec3",
+      "decomposition-general.json": "15b4ba79d34bb853d30fb4b98fc9bce5788ab8055f33ee67b79af0424c96a5b3",
+      "star-separation.json": "1058b528ca107722a3cec8ff601481ef5091d8c909ebd5f1fa8d6241d43ae509",
+      "pinch-reuse-binding.json": "92f36d561a797140f64f35c685972d386e337654f0700b408b1397bf4d7e6561"
+    }
+  },
+  "migration": {
+    "legacy_result": {
+      "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-04/r001.json",
+      "sha256": "06ed0a3f7262c9e000dd7f986fb03d84942800326746faad90aed068786c8fbd"
+    },
+    "factor_from_native_CJ": -1,
+    "basis": "same J/domain/branch and C_native/C_legacy from native-check.json; integral linearity",
+    "new_integration_performed": false,
+    "old_formal_status_not_inherited": true
+  },
+  "native_verification": "workflow/checks/shared-sign-production/publication-check.json"
+}

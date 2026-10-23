@@ -1,0 +1,37 @@
+{
+  "strategy": "open_search",
+  "inspire_query": "arxiv:1909.00697",
+  "inspire_api": "https://inspirehep.net/api/literature?q=arxiv%3A1909.00697&size=8&sort=mostrecent",
+  "inspire_record": "https://inspirehep.net/literature/1752358",
+  "title": "Relating amplitude and PDF factorisation through Wilson-line geometries",
+  "authors": ["Falcioni, Giulio", "Gardi, Einan", "Milloy, Calum"],
+  "year": 2019,
+  "journal": "JHEP11(2019)100",
+  "arxiv": "1909.00697",
+  "paper_url": "https://arxiv.org/abs/1909.00697",
+  "pdf_url": "https://inspirehep.net/files/f13c940fd15c3938a65a5d29862b8465",
+  "pdf_sha256": "b58430cd12105d48b709b4a8dcfbd01dfb91f4b66a79a3ca440424f28ab963e2",
+  "raw_materials": "Ignored task worktree .wilson/matter-independent-literature; not part of deliverable",
+  "locations": {
+    "bare_coordinate_rules": "printed pp.21-22, Eqs.(4.2),(4.4)-(4.6)",
+    "MS_scale_factor": "printed p.18 Eq.(3.27), p.22 Eq.(4.6)",
+    "geometric_locality": "printed pp.30-31, Eqs.(5.5)-(5.10)",
+    "RG_definition": "printed p.31, Eqs.(5.8),(5.10)",
+    "coupling_expansion": "printed p.32, Eq.(5.13)",
+    "two_loop_control": "printed p.32, Eqs.(5.14)-(5.15)",
+    "three_loop_prediction": "printed p.32, Eq.(5.16) and paragraph immediately below"
+  },
+  "independence": "Factorisation prediction from form factors/PDFs and its Drell-Yan relation, not an existing direct three-loop closed-Wilson-loop integration.",
+  "matching_assumptions": "Same bare coupling after the explicit Euler/scale dictionary; common pure-pole Zlambda and Wilson subtraction; no extra finite Wilson factor. Geometry-log constants are controlled at one loop and checked at two loops, not fitted at three loops.",
+  "beta0": "11*CA/12-T/3",
+  "beta1": "17*CA**2/24-5*CA*T/12-CF*T/4",
+  "gamma_square_two_loop": {
+    "CA": "-11*zeta(2)/6-7*zeta(3)+202/27",
+    "T": "2*zeta(2)/3-56/27"
+  },
+  "gamma_square_three_loop_matter": {
+    "CF*CA*TF*nf": "-12*zeta(2)**2/5+707*zeta(2)/162+91*zeta(3)/27-5921/2916",
+    "CF^2*TF*nf": "4*zeta(2)**2/5+zeta(2)/2+38*zeta(3)/9-1711/216",
+    "CF*(TF*nf)^2": "-10*zeta(2)/27+28*zeta(3)/27-520/729"
+  }
+}

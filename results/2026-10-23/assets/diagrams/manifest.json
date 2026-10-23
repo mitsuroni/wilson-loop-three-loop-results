@@ -1,0 +1,3689 @@
+{
+  "schema": "wilson-three-loop-diagram-schematics/1",
+  "count": 31,
+  "scope": "Connectivity and same-edge endpoint order only; positions are illustrative. Pi/Gamma blobs are effective operators, not individual loop diagrams. Reused frozen schematics; selected 31 matter-contributing orbits.",
+  "sources": [
+    {
+      "path": "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+      "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc"
+    },
+    {
+      "path": "workflow/checks/w3-p0/sources/qgraf/3loop/orbit_definitions.json",
+      "sha256": "d1227d1e3756bc8678013535b85b206442dc06aab706ef46f2e5e1dbb4d1564e"
+    },
+    {
+      "path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "sha256": "0cccb22b4528fe9ab23bb59f38a9bcda6fae704b4dfdf72d7d3218a5303ba921"
+    },
+    {
+      "path": "benchmarks/renormalization/three-loop/slide-data/inventory.json",
+      "sha256": "23e5913733f8747f6034d6751c874bed98d8c18fa9aaec7cabda37646eda1268"
+    }
+  ],
+  "checks": {
+    "all_149_inventory_ids_covered": true,
+    "all_external_vertices_match_historical_snapshot": true,
+    "all_bound_chains_match_displayed_order": true,
+    "all_propagator_ports_resolved": true,
+    "all_internal_and_external_degrees_valid": true,
+    "all_svg_edges_and_nodes_counted": true
+  },
+  "source_caveats": [
+    "Historical w3-p0 Gamma1 topology records are shells. Complete frozen native-production topology records supply the Gamma1 operator skeleton.",
+    "Generic double-TGV topology shell is resolved using Montopar representative A/B legs and the explicitly recorded single internal connector.",
+    "Stale downstream_status fields in topology snapshots do not describe current mathematical result status."
+  ],
+  "diagrams": [
+    {
+      "orbit_id": "2e-Pi1+Pi1-01",
+      "svg": "assets/diagrams/2e-Pi1+Pi1-01.svg",
+      "sha256": "fb2447efe836fef4bd2367320ca8047d2a526c3c81598e425a8111c05f7beade",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 2,
+      "internal_nodes": 2,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu1",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu2",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            223.33333333333334,
+            308.3333333333333
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            166.66666666666669,
+            266.66666666666663
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "internal1",
+          "b": "internal2",
+          "label": "l1",
+          "source_lorentz": [
+            "nu2",
+            "nu3"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal2",
+          "b": "mu2",
+          "label": "l1",
+          "source_lorentz": [
+            "nu4",
+            "mu2"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-02",
+      "svg": "assets/diagrams/2e-Pi1+Pi1-02.svg",
+      "sha256": "297455ff08f0c6b3dd0ddd1a7ef3e6c128141adb57d8dd0336ff17ce8fa47107",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 2,
+      "internal_nodes": 2,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu2",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            336.6666666666667,
+            225.0
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            223.33333333333334,
+            225.0
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "internal1",
+          "b": "internal2",
+          "label": "l1",
+          "source_lorentz": [
+            "nu2",
+            "nu3"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal2",
+          "b": "mu2",
+          "label": "l1",
+          "source_lorentz": [
+            "nu4",
+            "mu2"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "2e-Pi2-01",
+      "svg": "assets/diagrams/2e-Pi2-01.svg",
+      "sha256": "7e6f658caf47d88b3de8650633619550782155922d2cd106858e55fa1b75b440",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 2,
+      "internal_nodes": 1,
+      "propagators": 2,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu1",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu2",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi2",
+          "xy": [
+            195.0,
+            287.5
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "internal1",
+          "b": "mu2",
+          "label": "l1",
+          "source_lorentz": [
+            "nu2",
+            "mu2"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "2e-Pi2-02",
+      "svg": "assets/diagrams/2e-Pi2-02.svg",
+      "sha256": "5dc446d4beb281ca8d3990196a038164068c325a76d378f3ef9f64cb6cd97938",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 2,
+      "internal_nodes": 1,
+      "propagators": 2,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu2",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi2",
+          "xy": [
+            280.0,
+            225.0
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "internal1",
+          "b": "mu2",
+          "label": "l1",
+          "source_lorentz": [
+            "nu2",
+            "mu2"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-01",
+      "svg": "assets/diagrams/3e-3g+Pi1-01.svg",
+      "sha256": "cc0a8912fbcf34ae5e506655d1dd346f634d460a47012e10511c4d92360ac2ed",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 2,
+      "propagators": 4,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu1",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu2",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu3",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "tgv",
+          "label": "3g",
+          "xy": [
+            210.45454545454547,
+            264.7727272727273
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            160.22727272727275,
+            224.0530303030303
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "mu3",
+          "b": "internal2",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "rho"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator4",
+          "a": "internal2",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "sigma",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-02",
+      "svg": "assets/diagrams/3e-3g+Pi1-02.svg",
+      "sha256": "32947dec333e0d6ea091c4d33b395c062c2f54fc1b37ed785d9fdb4db2f92e3b",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 2,
+      "propagators": 4,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu1",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu2",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu3",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "tgv",
+          "label": "3g",
+          "xy": [
+            210.45454545454547,
+            253.4090909090909
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            160.22727272727275,
+            260.0378787878788
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal2",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "rho"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "sigma",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator4",
+          "a": "mu3",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-03",
+      "svg": "assets/diagrams/3e-3g+Pi1-03.svg",
+      "sha256": "bee532060c72d3dae09b741ba99be6557b99f51e1c1d55ea15b04ac8ff1449ba",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 2,
+      "propagators": 4,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu1",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu2",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu3",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "tgv",
+          "label": "3g",
+          "xy": [
+            187.27272727272728,
+            242.04545454545453
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            233.63636363636363,
+            296.02272727272725
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal2",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "rho"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "internal2",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "sigma",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator4",
+          "a": "mu3",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-04",
+      "svg": "assets/diagrams/3e-3g+Pi1-04.svg",
+      "sha256": "ac105db1e7de4baa035bb6c121166a89f208d62ae0ada3156df5e4b130fff12a",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 2,
+      "propagators": 4,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu1",
+          "xy": [
+            336.6666666666667,
+            350
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 2,
+          "parameter": "s32",
+          "label": "mu2",
+          "xy": [
+            223.33333333333334,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "tgv",
+          "label": "3g",
+          "xy": [
+            256.81818181818187,
+            293.1818181818182
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            183.40909090909093,
+            259.0909090909091
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "mu3",
+          "b": "internal2",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "rho"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator4",
+          "a": "internal2",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "sigma",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "s32"
+        },
+        {
+          "var": "s32",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-05",
+      "svg": "assets/diagrams/3e-3g+Pi1-05.svg",
+      "sha256": "1a443eec35c991ae35210d1d53d35921ee4fb5ed38073cfdf4f99881255c7ada",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 2,
+      "propagators": 4,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu1",
+          "xy": [
+            336.6666666666667,
+            350
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 2,
+          "parameter": "s32",
+          "label": "mu2",
+          "xy": [
+            223.33333333333334,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "tgv",
+          "label": "3g",
+          "xy": [
+            241.36363636363637,
+            276.1363636363636
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            232.34848484848487,
+            313.0681818181818
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal2",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "rho"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "sigma",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator4",
+          "a": "mu3",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "s32"
+        },
+        {
+          "var": "s32",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-06",
+      "svg": "assets/diagrams/3e-3g+Pi1-06.svg",
+      "sha256": "4c32219b2a13890b0ce3e2783fea0c6f63d098315c5ae8dbc87731584865e216",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 2,
+      "propagators": 4,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu1",
+          "xy": [
+            336.6666666666667,
+            350
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 2,
+          "parameter": "s32",
+          "label": "mu2",
+          "xy": [
+            223.33333333333334,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "tgv",
+          "label": "3g",
+          "xy": [
+            225.9090909090909,
+            276.1363636363636
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            281.2878787878788,
+            313.0681818181818
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal2",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "rho"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "internal2",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "sigma",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator4",
+          "a": "mu3",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "s32"
+        },
+        {
+          "var": "s32",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-07",
+      "svg": "assets/diagrams/3e-3g+Pi1-07.svg",
+      "sha256": "fe23e4fdfe493fdb1238d85561d397655781b5c56e1b14706de56d8669116b83",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 2,
+      "propagators": 4,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu2",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu3",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "tgv",
+          "label": "3g",
+          "xy": [
+            256.81818181818187,
+            230.6818181818182
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            183.40909090909093,
+            207.00757575757575
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "mu3",
+          "b": "internal2",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "rho"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator4",
+          "a": "internal2",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "sigma",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-08",
+      "svg": "assets/diagrams/3e-3g+Pi1-08.svg",
+      "sha256": "4aa4c74ececb9c5326d0ae9da110dda2198dec2cfb633f74edf2f330199b947a",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 2,
+      "propagators": 4,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu2",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu3",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "tgv",
+          "label": "3g",
+          "xy": [
+            256.81818181818187,
+            219.31818181818184
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            183.40909090909093,
+            242.99242424242425
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal2",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "rho"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "sigma",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator4",
+          "a": "mu3",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-09",
+      "svg": "assets/diagrams/3e-3g+Pi1-09.svg",
+      "sha256": "5e53e497e6e18263f26d4f9d3a2fb585b6b9cd51e831e77d362c33bee55b1084",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 2,
+      "propagators": 4,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu2",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu3",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "tgv",
+          "label": "3g",
+          "xy": [
+            210.45454545454547,
+            225.0
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            330.22727272727275,
+            225.0
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal2",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "rho"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "internal2",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "sigma",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator4",
+          "a": "mu3",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-10",
+      "svg": "assets/diagrams/3e-3g+Pi1-10.svg",
+      "sha256": "021f5f879d1898d14062b7327db29a7f38a74ba08d5850af1e1e0589d3e100e1",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 2,
+      "propagators": 4,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu2",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "tgv",
+          "label": "3g",
+          "xy": [
+            303.1818181818182,
+            259.09090909090907
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            206.5909090909091,
+            242.04545454545453
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "mu3",
+          "b": "internal2",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "rho"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator4",
+          "a": "internal2",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "sigma",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-11",
+      "svg": "assets/diagrams/3e-3g+Pi1-11.svg",
+      "sha256": "10e5f30ecb50c390124efaa7773884e9c836e5336ac37371a4483fefd838e320",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 2,
+      "propagators": 4,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu2",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "tgv",
+          "label": "3g",
+          "xy": [
+            280.0,
+            242.04545454545453
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            280.0,
+            296.02272727272725
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal2",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "rho"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "sigma",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator4",
+          "a": "mu3",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-12",
+      "svg": "assets/diagrams/3e-3g+Pi1-12.svg",
+      "sha256": "39c94777f12ff6cd3fd7429243156dbc16944eb9966546faa2cfa396b575be68",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 2,
+      "propagators": 4,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu2",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "tgv",
+          "label": "3g",
+          "xy": [
+            256.8181818181818,
+            259.09090909090907
+          ]
+        },
+        "internal2": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            353.4090909090909,
+            242.04545454545453
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal2",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "rho"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "internal2",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "sigma",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator4",
+          "a": "mu3",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-Gamma1-01",
+      "svg": "assets/diagrams/3e-Gamma1-01.svg",
+      "sha256": "6ccd18073d79d658e34ac7eef84c2ac7a1fe70bbd3372252f0c6e40f2cdc1e6e",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu1",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu2",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu3",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "gamma1",
+          "label": "Gamma1",
+          "xy": [
+            198.39999999999998,
+            255.0
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "mu3",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-Gamma1-02",
+      "svg": "assets/diagrams/3e-Gamma1-02.svg",
+      "sha256": "b12317698b3da13d65dcbca82f1cf7382bb3605502c4756b760b3f80eeb71513",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu1",
+          "xy": [
+            336.6666666666667,
+            350
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 2,
+          "parameter": "s32",
+          "label": "mu2",
+          "xy": [
+            223.33333333333334,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "gamma1",
+          "label": "Gamma1",
+          "xy": [
+            239.20000000000002,
+            285.0
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "mu3",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "s32"
+        },
+        {
+          "var": "s32",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-Gamma1-03",
+      "svg": "assets/diagrams/3e-Gamma1-03.svg",
+      "sha256": "59540737bab3789e0bb70243a7ec125ae16c77024cb0ee1621c66b1467eb6fb7",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu2",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu3",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "gamma1",
+          "label": "Gamma1",
+          "xy": [
+            239.20000000000002,
+            225.0
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "mu3",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "3e-Gamma1-04",
+      "svg": "assets/diagrams/3e-Gamma1-04.svg",
+      "sha256": "9d9b4768bcb2455b295234b4152f144c73131885ea6f81e23de20e3e557d0589",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 3,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu2",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "gamma1",
+          "label": "Gamma1",
+          "xy": [
+            280.0,
+            255.0
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "mu3",
+          "b": "internal1",
+          "label": "l3",
+          "source_lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "4e-Pi1-01",
+      "svg": "assets/diagrams/4e-Pi1-01.svg",
+      "sha256": "a0f5cab45edf3f8d53ac74d27ebe3bc861eee7cda801cfc149fd086932128cd3",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 4,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu1",
+          "xy": [
+            336.6666666666667,
+            350
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 2,
+          "parameter": "s32",
+          "label": "mu2",
+          "xy": [
+            223.33333333333334,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu4": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu4",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            223.33333333333334,
+            308.33333333333337
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu2",
+          "b": "mu4",
+          "label": "l1",
+          "source_lorentz": [
+            "mu2",
+            "mu4"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal1",
+          "b": "mu3",
+          "label": "l2",
+          "source_lorentz": [
+            "nu2",
+            "mu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s32",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "s32"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "4e-Pi1-02",
+      "svg": "assets/diagrams/4e-Pi1-02.svg",
+      "sha256": "c4acbe46f0cefbf6b0b24169d6fffd9af4d282d5b2580725496dfb3952275ed4",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 4,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu1",
+          "xy": [
+            336.6666666666667,
+            350
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 2,
+          "parameter": "s32",
+          "label": "mu2",
+          "xy": [
+            223.33333333333334,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu4": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu4",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            166.66666666666669,
+            266.6666666666667
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "mu3",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "mu3"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal1",
+          "b": "mu4",
+          "label": "l2",
+          "source_lorentz": [
+            "nu2",
+            "mu4"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "s32"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s32",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "4e-Pi1-03",
+      "svg": "assets/diagrams/4e-Pi1-03.svg",
+      "sha256": "460768a75b2320a893c82514b5cc23883ae3da50d9b041f97eb4f7fa0c856971",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 4,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu2",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu4": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu4",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            280.0,
+            245.83333333333334
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu2",
+          "b": "mu4",
+          "label": "l1",
+          "source_lorentz": [
+            "mu2",
+            "mu4"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal1",
+          "b": "mu3",
+          "label": "l2",
+          "source_lorentz": [
+            "nu2",
+            "mu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "4e-Pi1-04",
+      "svg": "assets/diagrams/4e-Pi1-04.svg",
+      "sha256": "7dec0ddef6760880fc10f670a2ccc90dd32894b7e689ea149903cf3da0ca7c31",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 4,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu2",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu4": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu4",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            195.0,
+            266.6666666666667
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "mu3",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "mu3"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal1",
+          "b": "mu4",
+          "label": "l2",
+          "source_lorentz": [
+            "nu2",
+            "mu4"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "4e-Pi1-05",
+      "svg": "assets/diagrams/4e-Pi1-05.svg",
+      "sha256": "a8eb5d3e66b14d5bc9824c4a55bfbcde41bccce7078bade1550da427f292d215",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 4,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu2",
+          "xy": [
+            336.6666666666667,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 2,
+          "parameter": "s32",
+          "label": "mu3",
+          "xy": [
+            223.33333333333334,
+            350
+          ]
+        },
+        "mu4": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu4",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            336.6666666666667,
+            287.5
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu2",
+          "b": "mu4",
+          "label": "l1",
+          "source_lorentz": [
+            "mu2",
+            "mu4"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal1",
+          "b": "mu3",
+          "label": "l2",
+          "source_lorentz": [
+            "nu2",
+            "mu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "s32"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s32",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "4e-Pi1-06",
+      "svg": "assets/diagrams/4e-Pi1-06.svg",
+      "sha256": "f5b1d5be307e5e40601a55225f739360881ae2470d8b578196ecd76f115dc906",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 4,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu2",
+          "xy": [
+            336.6666666666667,
+            350
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 2,
+          "parameter": "s32",
+          "label": "mu3",
+          "xy": [
+            223.33333333333334,
+            350
+          ]
+        },
+        "mu4": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu4",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            223.33333333333334,
+            287.5
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "mu3",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "mu3"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal1",
+          "b": "mu4",
+          "label": "l2",
+          "source_lorentz": [
+            "nu2",
+            "mu4"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s32",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "s32"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "4e-Pi1-07",
+      "svg": "assets/diagrams/4e-Pi1-07.svg",
+      "sha256": "77df2f2647b7eff762aed47a6b991e4935f1fba364f2e47e46c01c375f84555a",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 4,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            183.33333333333331
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 2,
+          "parameter": "s22",
+          "label": "mu2",
+          "xy": [
+            450,
+            266.66666666666663
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu4": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu4",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            280.0,
+            225.0
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu2",
+          "b": "mu4",
+          "label": "l1",
+          "source_lorentz": [
+            "mu2",
+            "mu4"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal1",
+          "b": "mu3",
+          "label": "l2",
+          "source_lorentz": [
+            "nu2",
+            "mu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s22",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "s22"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "4e-Pi1-08",
+      "svg": "assets/diagrams/4e-Pi1-08.svg",
+      "sha256": "9fd31b0a2a470face33f533df7c0ba50744230cd7c8d141117b444d2b0a90393",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 4,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            183.33333333333331
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 2,
+          "parameter": "s22",
+          "label": "mu2",
+          "xy": [
+            450,
+            266.66666666666663
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu3",
+          "xy": [
+            110,
+            266.6666666666667
+          ]
+        },
+        "mu4": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 2,
+          "parameter": "s42",
+          "label": "mu4",
+          "xy": [
+            110,
+            183.33333333333334
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            280.0,
+            225.0
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "mu3",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "mu3"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal1",
+          "b": "mu4",
+          "label": "l2",
+          "source_lorentz": [
+            "nu2",
+            "mu4"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "s22"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s22",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "4e-Pi1-09",
+      "svg": "assets/diagrams/4e-Pi1-09.svg",
+      "sha256": "16e3b83c8b82161260cdfe20e90237b2a3af4d837709d23e9efe0c0e819d2401",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 4,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            183.33333333333331
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 2,
+          "parameter": "s22",
+          "label": "mu2",
+          "xy": [
+            450,
+            266.66666666666663
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu3",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu4": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu4",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            365.0,
+            266.66666666666663
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu2",
+          "b": "mu4",
+          "label": "l1",
+          "source_lorentz": [
+            "mu2",
+            "mu4"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal1",
+          "b": "mu3",
+          "label": "l2",
+          "source_lorentz": [
+            "nu2",
+            "mu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s22",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "s22"
+        },
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "4e-Pi1-10",
+      "svg": "assets/diagrams/4e-Pi1-10.svg",
+      "sha256": "480821f4a994f55512f5b3ded5fb0617bdf87875e485f1d2b7511fa45a472d03",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 4,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu1",
+          "xy": [
+            450,
+            183.33333333333331
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 2,
+          "parameter": "s22",
+          "label": "mu2",
+          "xy": [
+            450,
+            266.66666666666663
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu3",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu4": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu4",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            280.0,
+            245.83333333333331
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu1",
+          "b": "mu3",
+          "label": "l1",
+          "source_lorentz": [
+            "mu1",
+            "mu3"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu2",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu2",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal1",
+          "b": "mu4",
+          "label": "l2",
+          "source_lorentz": [
+            "nu2",
+            "mu4"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "s22"
+        },
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s22",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    },
+    {
+      "orbit_id": "4e-Pi1-11",
+      "svg": "assets/diagrams/4e-Pi1-11.svg",
+      "sha256": "8da54d59d9a8393d5f3dadb97ab225ba2a7bee32124f5413f41614474f487476",
+      "topology_sources": [
+        "workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json"
+      ],
+      "contour_endpoints": 4,
+      "internal_nodes": 1,
+      "propagators": 3,
+      "nodes": {
+        "mu1": {
+          "kind": "contour",
+          "line": 1,
+          "slot": 1,
+          "parameter": "s11",
+          "label": "mu1",
+          "xy": [
+            280.0,
+            100
+          ]
+        },
+        "mu2": {
+          "kind": "contour",
+          "line": 2,
+          "slot": 1,
+          "parameter": "s21",
+          "label": "mu2",
+          "xy": [
+            450,
+            225.0
+          ]
+        },
+        "mu3": {
+          "kind": "contour",
+          "line": 3,
+          "slot": 1,
+          "parameter": "s31",
+          "label": "mu3",
+          "xy": [
+            280.0,
+            350
+          ]
+        },
+        "mu4": {
+          "kind": "contour",
+          "line": 4,
+          "slot": 1,
+          "parameter": "s41",
+          "label": "mu4",
+          "xy": [
+            110,
+            225.0
+          ]
+        },
+        "internal1": {
+          "kind": "se",
+          "label": "Pi1",
+          "xy": [
+            280.0,
+            225.0
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "propagator1",
+          "a": "mu2",
+          "b": "mu4",
+          "label": "l1",
+          "source_lorentz": [
+            "mu2",
+            "mu4"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator2",
+          "a": "mu1",
+          "b": "internal1",
+          "label": "l2",
+          "source_lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "kind": "gluon"
+        },
+        {
+          "id": "propagator3",
+          "a": "internal1",
+          "b": "mu3",
+          "label": "l2",
+          "source_lorentz": [
+            "nu2",
+            "mu3"
+          ],
+          "kind": "gluon"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s11",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "external_vertex_list_matches_w3_p0": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "expression_language": "SymPy exact strings; ** powers; zeta(n); M_i_j and N_i_j are raw moments",
+  "domain": "z>0; rho=log(z); L=(L_s+L_t)/2; L_s=L+rho/2 and L_t=L-rho/2",
+  "regulator": "D=4-2*eps; coefficient [eps^q] carries no q!",
+  "moments": {
+    "r_z": "z/(1+z)",
+    "W_beta": "log(beta*(1-beta))",
+    "R_beta": "log((1-beta)/beta)",
+    "L_beta": "rho+R_beta",
+    "M_i_j": "Integral(W_beta**i*L_beta**j/(beta-r_z), (beta,0,1))",
+    "N_i_j": "Integral(W_beta**i*R_beta*L_beta**j/(beta-r_z), (beta,0,1))",
+    "index_domain": "i>=0, j>=1; no factorial denominators; removable point beta=r_z",
+    "identities": {
+      "N_i_j": "M_i_(j+1)-rho*M_i_j",
+      "M_0_1": "-(rho**2+pi**2)/2",
+      "M_0_3": "-M_0_1**2"
+    },
+    "reflection": {
+      "M_i_j(1/z)": "(-1)**(j+1)*M_i_j(z)",
+      "N_i_j(1/z)": "(-1)**j*N_i_j(z)"
+    },
+    "source": "benchmarks/2ne/families/single-opposite/three-loop.md"
+  },
+  "hlog": {
+    "definition": "G(a1,...,an;z)=Integral(G(a2,...,an;t)/(t-a1),(t,0,z))",
+    "word_order": "first letter is outermost; empty word is 1",
+    "zeros": "G(0,...,0;z)=log(z)**n/n!",
+    "alphabet": [
+      0,
+      -1
+    ],
+    "branch": "real z>0; continuation outside this domain requires the source branch prescription",
+    "symbol_encoding": "H_z_m1_0_0 denotes Hlog(z,[-1,0,0]); all-zero words are replaced by rho**n/n!",
+    "source": "workflow/checks/matter-rg-20261017/check.py"
+  },
+  "moment_to_hlog": {
+    "M_0_1": {
+      "source": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "maple_hlog": "-3*zeta[2]-Hlog(z,[0, 0])",
+      "sympy_hlog": "-rho**2/2 - pi**2/2"
+    },
+    "M_1_1": {
+      "source": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "maple_hlog": "-Hlog(z,[0, 0, 0])+2*zeta[3]+6*zeta[2]*Hlog(z,[-1])-3*zeta[2]*Hlog(z,[0])+2*Hlog(z,[-1, 0, 0])",
+      "sympy_hlog": "pi**2*H_z_m1 + 2*H_z_m1_0_0 - rho**3/6 - pi**2*rho/2 + 2*zeta(3)"
+    },
+    "M_2_1": {
+      "source": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+      "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "maple_hlog": "12*zeta[2]*Hlog(z,[-1, 0])+4*Hlog(z,[0, -1, 0, 0])-24*zeta[2]*Hlog(z,[-1, -1])-8*Hlog(z,[-1, -1, 0, 0])-33/5*zeta[2]^2-4*zeta[2]*Hlog(z,[0, 0])-8*zeta[3]*Hlog(z,[-1])+4*zeta[3]*Hlog(z,[0])-2*Hlog(z,[0, 0, 0, 0])+4*Hlog(z,[-1, 0, 0, 0])+12*zeta[2]*Hlog(z,[0, -1])",
+      "sympy_hlog": "2*pi**2*H_z_0_m1 + 4*H_z_0_m1_0_0 - 8*H_z_m1*zeta(3) + 2*pi**2*H_z_m1_0 + 4*H_z_m1_0_0_0 - 4*pi**2*H_z_m1_m1 - 8*H_z_m1_m1_0_0 - rho**4/12 - pi**2*rho**2/3 + 4*rho*zeta(3) - 11*pi**4/60"
+    },
+    "M_3_1": {
+      "source": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt",
+      "sha256": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+      "maple_hlog": "-24*zeta[3]*Hlog(z,[-1, 0])+48*zeta[3]*Hlog(z,[-1, -1])-12*zeta[2]*Hlog(z,[0, 0, 0])-72*zeta[2]*Hlog(z,[0, -1, -1])+12*Hlog(z,[0, 0, -1, 0, 0])-72*zeta[2]*Hlog(z,[-1, -1, 0])-12*zeta[2]*zeta[3]+36*zeta[5]+48*Hlog(z,[-1, -1, -1, 0, 0])-24*Hlog(z,[0, -1, -1, 0, 0])+36*zeta[2]*Hlog(z,[0, 0, -1])+144*zeta[2]*Hlog(z,[-1, -1, -1])-24*Hlog(z,[-1, -1, 0, 0, 0])-6*Hlog(z,[0, 0, 0, 0, 0])+12*Hlog(z,[0, -1, 0, 0, 0])-72*zeta[2]*Hlog(z,[-1, 0, -1])+12*Hlog(z,[-1, 0, 0, 0, 0])+198/5*zeta[2]^2*Hlog(z,[-1])-24*Hlog(z,[-1, 0, -1, 0, 0])-99/5*zeta[2]^2*Hlog(z,[0])+24*zeta[2]*Hlog(z,[-1, 0, 0])+36*zeta[2]*Hlog(z,[0, -1, 0])-24*zeta[3]*Hlog(z,[0, -1])",
+      "sympy_hlog": "6*pi**2*H_z_0_0_m1 + 12*H_z_0_0_m1_0_0 - 24*H_z_0_m1*zeta(3) + 6*pi**2*H_z_0_m1_0 + 12*H_z_0_m1_0_0_0 - 12*pi**2*H_z_0_m1_m1 - 24*H_z_0_m1_m1_0_0 + 11*pi**4*H_z_m1/10 - 24*H_z_m1_0*zeta(3) + 4*pi**2*H_z_m1_0_0 + 12*H_z_m1_0_0_0_0 - 12*pi**2*H_z_m1_0_m1 - 24*H_z_m1_0_m1_0_0 + 48*H_z_m1_m1*zeta(3) - 12*pi**2*H_z_m1_m1_0 - 24*H_z_m1_m1_0_0_0 + 24*pi**2*H_z_m1_m1_m1 + 48*H_z_m1_m1_m1_0_0 - rho**5/20 - pi**2*rho**3/3 - 11*pi**4*rho/20 - 2*pi**2*zeta(3) + 36*zeta(5)"
+    },
+    "M_1_2": {
+      "source": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt",
+      "sha256": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f",
+      "maple_hlog": "4*zeta[2]*Hlog(z,[-1, 0])+17/5*zeta[2]^2-2*zeta[2]*Hlog(z,[0, 0])+4*zeta[3]*Hlog(z,[0])-2*Hlog(z,[0, 0, 0, 0])+4*Hlog(z,[-1, 0, 0, 0])",
+      "sympy_hlog": "2*pi**2*H_z_m1_0/3 + 4*H_z_m1_0_0_0 - rho**4/12 - pi**2*rho**2/6 + 4*rho*zeta(3) + 17*pi**4/180"
+    },
+    "M_1_3": {
+      "source": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt",
+      "sha256": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+      "maple_hlog": "-6*zeta[2]*Hlog(z,[0, 0, 0])+12*zeta[2]*zeta[3]+12*zeta[5]-6*Hlog(z,[0, 0, 0, 0, 0])+12*zeta[3]*Hlog(z,[0, 0])+12*Hlog(z,[-1, 0, 0, 0, 0])+18*zeta[2]^2*Hlog(z,[-1])-9*zeta[2]^2*Hlog(z,[0])+12*zeta[2]*Hlog(z,[-1, 0, 0])",
+      "sympy_hlog": "pi**4*H_z_m1/2 + 2*pi**2*H_z_m1_0_0 + 12*H_z_m1_0_0_0_0 - rho**5/20 - pi**2*rho**3/6 + 6*rho**2*zeta(3) - pi**4*rho/4 + 12*zeta(5) + 2*pi**2*zeta(3)"
+    }
+  },
+  "N_1_2_to_hlog": "pi**4*H_z_m1/2 + 2*pi**2*H_z_m1_0_0 + 12*H_z_m1_0_0_0_0 - rho**5/20 - pi**2*rho**3/6 + 6*rho**2*zeta(3) - rho*(2*pi**2*H_z_m1_0/3 + 4*H_z_m1_0_0_0 - rho**4/12 - pi**2*rho**2/6 + 4*rho*zeta(3) + 17*pi**4/180) - pi**4*rho/4 + 12*zeta(5) + 2*pi**2*zeta(3)",
+  "normalization": {
+    "T": "TF*nf",
+    "B_f": "-8*(1-eps)/(3-2*eps)",
+    "S_n": "exp(n*eps*(L+rho/2))+exp(n*eps*(L-rho/2))",
+    "U_compact": "scale-stripped bare exponent color coefficient",
+    "bare_compact": "S3*U_compact; lambda_b**3 and color stripped",
+    "CT_compact": "[-2*b0*w2/eps+(b0**2/eps**2-b1/(2*eps))*w1]_color",
+    "post_compact": "bare_compact+CT_compact",
+    "logZ": "negative-power coefficients of log(Z4), with epsilon-zero entry explicitly 0",
+    "F": "post_compact[0]",
+    "f": "F.subs(L,0)",
+    "k": "-3/2*d(post_compact[-1])/dL",
+    "h": "-3*post_compact[-1].subs(L,0)",
+    "gamma4": "2*h"
+  },
+  "unused_in_these_totals": [
+    "tau_plus",
+    "old weight-six E"
+  ],
+  "scope": "Three matter color totals through eps^0 only. This is not a universal Hlog-to-M/N reduction of individual diagrams or an all-order closure claim."
+}

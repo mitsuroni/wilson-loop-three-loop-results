@@ -1,0 +1,551 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "RG blind direction: synchronized noncusp and finite L change",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "RG blind direction: pole L derivative is unchanged",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "RG blind direction: even finite shape passes crossing",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "negative: change h3 without changing finite L term",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "delta"
+    },
+    {
+      "name": "negative: odd finite shape fails crossing",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "2*rho"
+    },
+    {
+      "name": "negative: a nonzero even finite deformation still changes the answer",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "eta*(rho**4 + zeta(3))"
+    },
+    {
+      "name": "finite Wilson scheme shift at lambda2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "finite Wilson scheme shift at lambda3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "log scale shift in Gamma",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "negative: ignore a constant log scale shift",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "4*c*k"
+    },
+    {
+      "name": "MS Euler dictionaries match at muF2=exp(2gammaE)*muP2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "coordinate scale muF2/4 equals project mux2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "negative: identify muF2 and muP2 numerically",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "-2*EulerGamma*eps"
+    },
+    {
+      "name": "raw 2e-Pi1-01 adjacent monomial",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "raw 2e-Pi1-02 scalar plus complete derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "raw 2e-Pi1+Pi1-01 adjacent monomial",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "raw 2e-Pi1+Pi1-02 scalar plus complete derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "closed single-bubble boundary plus adjacent source",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "closed double-bubble boundary plus adjacent source",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "independent H1 moment map",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "independent H2 moment map",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi1-01 raw rational C",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi1-02 raw rational C",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi1+Pi1-01 raw rational C",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi1+Pi1-02 raw rational C",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi1-01 actual C fermion coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi1-02 actual C fermion coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi1+Pi1-01 actual C nf2 coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi1+Pi1-01 actual C Gamma ratio",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi1+Pi1-02 actual C nf2 coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi1+Pi1-02 actual C Gamma ratio",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "raw-source nf2 h3 geometry independence",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi2-01 exact geometry/domain/multiplicity bridge to chain",
+      "passed": true,
+      "metadata_differences": [
+        "order_basis explanatory label",
+        "geometry kind label",
+        "C4 definition explanatory label"
+      ]
+    },
+    {
+      "name": "2e-Pi2-01 positive Pi2 rational C",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi2-02 exact geometry/domain/multiplicity bridge to chain",
+      "passed": true,
+      "metadata_differences": [
+        "order_basis explanatory label",
+        "geometry kind label",
+        "C4 definition explanatory label"
+      ]
+    },
+    {
+      "name": "2e-Pi2-02 positive Pi2 rational C",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi2-01 actual C Ff operator A/B",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "2e-Pi2-02 actual C Ff operator A/B",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "raw-source cff superleading cancellation -5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "raw-source cff superleading cancellation -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "raw-source cff h3 geometry independence",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "external Eq2.3 beta0 normalization",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "external Eq2.3 beta1 normalization",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CF*(TF*nf)^2 external factorisation Eq5.16 versus 2h3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "negative: omit mu versus mu2 factor for CF*(TF*nf)^2",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "-(-756*zeta(3) + 45*pi**2 + 520)/1458"
+    },
+    {
+      "name": "CF^2*TF*nf external factorisation Eq5.16 versus 2h3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "negative: omit mu versus mu2 factor for CF^2*TF*nf",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "(-8555 + 90*pi**2 + 24*pi**4 + 4560*zeta(3))/2160"
+    },
+    {
+      "name": "CF*CA*TF*nf external factorisation Eq5.16 versus 2h3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "negative: omit mu versus mu2 factor for CF*CA*TF*nf",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "-(-10605*pi**2 - 49140*zeta(3) + 29605 + 972*pi**4)/29160"
+    },
+    {
+      "name": "external Eq5.15 two-loop convention control CA",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "external Eq5.15 two-loop convention control T",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source nf2 post coefficient -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source nf2 bare coefficient -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source nf2 post coefficient -3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source nf2 bare coefficient -3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source nf2 post coefficient -2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source nf2 bare coefficient -2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source nf2 post coefficient -1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source nf2 bare coefficient -1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source nf2 post coefficient 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source nf2 bare coefficient 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source nf2 h3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source nf2 general-z finite shape",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source cff post coefficient -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source cff bare coefficient -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source cff post coefficient -3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source cff bare coefficient -3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source cff post coefficient -2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source cff bare coefficient -2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source cff post coefficient -1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source cff bare coefficient -1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source cff post coefficient 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source cff bare coefficient 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source cff h3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "new raw-source cff general-z finite shape",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "exact_checks": 75,
+  "negative_controls": 8,
+  "source_sha256": {
+    "benchmarks/self-energy/pi1/prepared/2e-Pi1-r002.json": "1f96bec54d246915abe921bc30b7ab11802da47e65d59efd82cb530d735366a0",
+    "benchmarks/self-energy/pi1-chain/prepared/2e-Pi1+Pi1-r002.json": "55b7bcc3980f99aa8dda0a48bc8e4e43d3514a3e13f6ae4119745ef8c4359dc3",
+    "benchmarks/self-energy/pi2/prepared/2e-Pi2-r002.json": "ac3982e22696d35d299b8146a7c3beb4df21f12423caa1f7cbde221b14dbdeb3",
+    "benchmarks/self-energy/current-r002.json": "b141e672ae85e4cb119413968115e9da3cc8852f14f2b422f2f7d4b756c9eddd",
+    "benchmarks/renormalization/one-loop/result-r001.json": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+    "benchmarks/renormalization/three-loop/current.json": "0a196bf93d0995edc9ade3b1aabb26e8c79e9a39a33868f8c9a96acb505a7100",
+    "benchmarks/renormalization/three-loop/counterterms-r001.json": "8418c4be88da475c58796385e647a2d6d2c9ee186acf8a9b7a4883e6e116810e",
+    "benchmarks/renormalization/three-loop/matter-channels-r001.json": "de3f1a6db8bd6278114aabcb1cdcc9f6f77909b4015c05048bcc91d7fac79727",
+    "benchmarks/renormalization/three-loop/results/CF-CA-TF-nf/r001.json": "bbf1aac15c171e30388a7bfa045a03eb52d32ae8c61e4c483e2134d222f0210d",
+    "benchmarks/renormalization/two-loop/result-r002.json": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+    "workflow/checks/w3-ca-nf/physical.mpl": "f54c3bc53e2b5b238fd2159ad0d9befd477da698f5e8852a62148c0a90436d86",
+    "workflow/checks/w3-ca-nf/source_inputs.mpl": "94fd6b172a428dbaf6de14ca373f527d4aa731b7f61b4370d6435de28d70dce3",
+    "workflow/checks/w3-p0/nf2.py": "d4f0995d9a2bc681d87049520276a52c9d6a3db37d8710ec3f52db2cadff4f96",
+    "workflow/checks/w3-p0/cff.py": "78565541317b13e872d8f33af54d97bf46a1a4f3c9a8663caa9b8eceac4a9916",
+    "benchmarks/renormalization/one-loop/derivation.md": "9153b3b9b89d5551ca537d3d10d96c0aa8f9693a0d852332f678e1b0a31a54cf",
+    "workflow/checks/rg-one-loop/calculate.py": "e6d88f31b224d260b222fa23ce7f37a954acbbb2a154de7466d32024ac0bb2bd"
+  },
+  "external_non_cusp_prediction_compared": [
+    "CF*CA*TF*nf",
+    "CF^2*TF*nf",
+    "CF*(TF*nf)^2"
+  ],
+  "external_direct_three_loop_closed_loop_integration": false,
+  "nf2_independent_raw_source_rederivation": true,
+  "cff_independent_raw_source_rederivation": true,
+  "independent_upstream_QCD_operator_derivation": false,
+  "Af_finite_shape_independently_checked": false,
+  "formal": "not_run",
+  "numeric": {
+    "method": "direct one-dimensional log-difference quadrature of scalar original rectangle",
+    "rows": [
+      {
+        "z": "0.3",
+        "dps": 35,
+        "H0_H1_H2": [
+          "-5.65957745732290858843289371356",
+          "6.42988846695166454377790475503",
+          "-5.89912898869446031249551166372"
+        ],
+        "H0_elementary_residual": "0.0",
+        "finite_shapes_L0": {
+          "nf2": "-0.217534576829153039953463975457",
+          "cff": "1.979610310085981090546649078"
+        }
+      },
+      {
+        "z": "0.3",
+        "dps": 55,
+        "H0_H1_H2": [
+          "-5.6595774573229085884328937135606783126974302159803",
+          "6.4298884669516645437779047550303553840306237141718",
+          "-5.8991289886944603124955116637206048470950752608423"
+        ],
+        "H0_elementary_residual": "0.0",
+        "finite_shapes_L0": {
+          "nf2": "-0.21753457682915303995346397545697356285362053168266",
+          "cff": "1.9796103100859810905466490779977700118458135433752"
+        }
+      },
+      {
+        "z": "1.0",
+        "dps": 35,
+        "H0_H1_H2": [
+          "-4.93480220054467930941724549994",
+          "5.52414381245784827187328135962",
+          "-4.85572561350940625662437499058"
+        ],
+        "H0_elementary_residual": "0.0",
+        "finite_shapes_L0": {
+          "nf2": "-0.223357103229524895093171373284",
+          "cff": "1.73279942033361852993733857776"
+        }
+      },
+      {
+        "z": "1.0",
+        "dps": 55,
+        "H0_H1_H2": [
+          "-4.9348022005446793094172454999380755676568497036204",
+          "5.5241438124578482718732813596220855194886155356898",
+          "-4.8557256135094062566243749905809161973024757751215"
+        ],
+        "H0_elementary_residual": "0.0",
+        "finite_shapes_L0": {
+          "nf2": "-0.22335710322952489509317137328418565872019492403247",
+          "cff": "1.7327994203336185299373385777626080672981145478711"
+        }
+      },
+      {
+        "z": "3.0",
+        "dps": 35,
+        "H0_H1_H2": [
+          "-5.53827668095097029833913506186",
+          "6.27669293809485946366484448532",
+          "-5.71858172015741340619357304579"
+        ],
+        "H0_elementary_residual": "0.0",
+        "finite_shapes_L0": {
+          "nf2": "-0.218890447520335830679478208952",
+          "cff": "1.93790144653661615197423388512"
+        }
+      },
+      {
+        "z": "3.0",
+        "dps": 55,
+        "H0_H1_H2": [
+          "-5.538276680950970298339135061862758524466081376935",
+          "6.2766929380948594636648444853208142879420838023462",
+          "-5.7185817201574134061935730457856857725383155945465"
+        ],
+        "H0_elementary_residual": "0.0",
+        "finite_shapes_L0": {
+          "nf2": "-0.21889044752033583067947820895205097654935758567167",
+          "cff": "1.9379014465366161519742338851233563037277913288734"
+        }
+      }
+    ],
+    "refinement": [
+      {
+        "z": "0.3",
+        "shape_refinement": {
+          "nf2": "2.6437146e-32",
+          "cff": "2.2299882e-30"
+        },
+        "threshold": "1e-25",
+        "passed": true
+      },
+      {
+        "z": "1.0",
+        "shape_refinement": {
+          "nf2": "1.8565872e-31",
+          "cff": "2.6080673e-30"
+        },
+        "threshold": "1e-25",
+        "passed": true
+      },
+      {
+        "z": "3.0",
+        "shape_refinement": {
+          "nf2": "5.0976549e-32",
+          "cff": "3.3563037e-30"
+        },
+        "threshold": "1e-25",
+        "passed": true
+      }
+    ],
+    "certified_interval": false,
+    "published_I_GPL_MeijerG_read": false
+  },
+  "python": "3.12.10",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0",
+  "elapsed_seconds": 52.367
+}

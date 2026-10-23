@@ -1,0 +1,40 @@
+{
+  "schema": "pi1-chain-color-euler-1.0",
+  "raw_diagram_notation": "A_graph=C_source*J",
+  "definition_reference": "benchmarks/self-energy/pi1-chain/theory.md SC20-SC23",
+  "I_definition": "sym/2*C*(J(z,eps)+z^(3*eps)*J(1/z,eps))=N_chain*(S14+S12)*I",
+  "I_reduced": "sym/2*R_chain*(J(z,eps)+z^(3*eps)*J(1/z,eps))/(1+z^(3*eps))",
+  "N_chain": "(alpha_s/Pi)^3*CF*B1(eps)^2",
+  "B1": "((10-6*eps)*CA-8*(1-eps)*TF*nf)/(3-2*eps)",
+  "G": "exp(-EulerGamma*eps)*Gamma[1-eps]",
+  "U": "Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps]/(Gamma[1-2*eps]^2*Gamma[1+2*eps])",
+  "R_chain": "-G^3*U/(128*eps^2*(1-2*eps)^2)",
+  "S14": "(-2*Pi*v14+I0)^(3*eps)",
+  "S12": "z^(3*eps)*S14",
+  "color_channels": [
+    {
+      "monomial": "CA^2*CF",
+      "coefficient": "(10 - 6*eps)**2/(3 - 2*eps)**2"
+    },
+    {
+      "monomial": "CA*CF*TF*nf",
+      "coefficient": "-2*(8 - 8*eps)*(10 - 6*eps)/(3 - 2*eps)**2"
+    },
+    {
+      "monomial": "CF*(TF*nf)^2",
+      "coefficient": "(8 - 8*eps)**2/(3 - 2*eps)**2"
+    }
+  ],
+  "TF": "1/2",
+  "a1": "1",
+  "Euler_count": 1,
+  "Euler_uses": "total loop order 3",
+  "domain": {
+    "z": ">0",
+    "v14": "<0",
+    "eps": "initial 0<Re(eps)<1/3; meromorphic near zero"
+  },
+  "complex_kinematics": "not verified",
+  "default_kernel_roots_extended": false,
+  "formal": "not_run"
+}

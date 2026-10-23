@@ -1,0 +1,133 @@
+{
+  "format": "wilson-gamma1-integral-result/1",
+  "revision": "r002",
+  "date": "2026-10-06",
+  "orbit_id": "3e-Gamma1-01",
+  "geometry": "344",
+  "status": "laurent_complete",
+  "definition": "I_c=-exp(-3*EulerGamma*eps)*Gamma(1-3*eps)/64*(J_c(z,eps)+z^(3*eps)*J_c(1/z,eps))/(1+z^(3*eps)); native C, one Euler/C4 extraction",
+  "normalization": {
+    "euler_compensation_count": 1,
+    "c4_multiplicity": 4,
+    "raw_C_includes_euler": false,
+    "raw_C_includes_c4": false,
+    "internal_loop_counted_once": true,
+    "raw_input_modified": false,
+    "external_leg_self_energy_included": false,
+    "vertex_counterterm_included": false,
+    "assembly_sign": 1,
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+  },
+  "channels": {
+    "g": {
+      "color_factor": "CF*CA^2",
+      "highest_pole_order": 6,
+      "I_coefficients": {
+        "-6": "-(1/4608)",
+        "-5": "-(-1/3456)",
+        "-4": "-(13*Z2/3072 - 65/10368)",
+        "-3": "-(11*Z2/6912 + 121*Z3/4608 - 271/7776)",
+        "-2": "-(2659*Z2**2/61440 - 95*Z2/20736 + 7*Z3/192 - 6943/46656)",
+        "-1": "-(1537*Z2**2/46080 + 253*Z2*Z3/3072 - 619*Z2/15552 - 19*Z3/3456 + 867*Z5/2560 - 154267/279936)",
+        "0": "-(150911*Z2**3/516096 + 457*Z2**2/27648 + Z2*Z3/12 - 18325*Z2/93312 + 1177*Z3**2/9216 - 347*Z3/5184 + 1907*Z5/2880 - 3201427/1679616)"
+      },
+      "J_over_z3eps_coefficients": {
+        "-6": "1/72",
+        "-5": "-1/54",
+        "-4": "5*Z2/24 - 65/162",
+        "-3": "5*Z2/27 + 14*Z3/9 - 542/243",
+        "-2": "379*Z2**2/240 + 245*Z2/162 + 5*Z3/2 - 6943/729",
+        "-1": "59*Z2**2/36 - 25*Z2*Z3/6 + 1820*Z2/243 + 88*Z3/27 + 21*Z5 - 154267/4374",
+        "0": "33809*Z2**3/5040 + 169*Z2**2/108 - 41*Z2*Z3/6 + 22081*Z2/729 - 115*Z3**2/18 + 1279*Z3/81 + 779*Z5/18 - 3201427/26244"
+      },
+      "finite_numeric": "-0.07256954271207988691946147246"
+    },
+    "q": {
+      "color_factor": "CF*CA*TF*nf",
+      "highest_pole_order": 5,
+      "I_coefficients": {
+        "-6": "0",
+        "-5": "-(-1/864)",
+        "-4": "-(7/2592)",
+        "-3": "-(131/7776 - 19*Z2/1728)",
+        "-2": "-(-59*Z2/5184 - 17*Z3/288 + 3251/46656)",
+        "-1": "-(-827*Z2**2/11520 - 127*Z2/15552 + 47*Z3/864 + 68435/279936)",
+        "0": "-(-739*Z2**2/34560 - 11*Z2*Z3/64 + 2921*Z2/93312 + 305*Z3/2592 - 1331*Z5/1440 + 1365323/1679616)"
+      },
+      "J_over_z3eps_coefficients": {
+        "-6": "0",
+        "-5": "-2/27",
+        "-4": "14/81",
+        "-3": "262/243 - 10*Z2/27",
+        "-2": "-122*Z2/81 - 28*Z3/9 + 3251/729",
+        "-1": "-71*Z2**2/45 - 1306*Z2/243 + 52*Z3/27 + 68435/4374",
+        "0": "61*Z2**2/27 + 28*Z2*Z3/3 - 13169*Z2/729 - 176*Z3/81 - 500*Z5/9 + 1365323/26244"
+      },
+      "finite_numeric": "0.3503297070548623100698775058"
+    }
+  },
+  "coefficient_notation": {
+    "Z2": "zeta(2)",
+    "Z3": "zeta(3)",
+    "Z5": "zeta(5)"
+  },
+  "range": [
+    -6,
+    0
+  ],
+  "laurent_remainder": "O(eps)",
+  "z_dependence": "independent after stated C4 normalization",
+  "all_epsilon_closed_form": false,
+  "completion_semantics": "both color channels: all poles through finite",
+  "domain": "z>0 and A0>0 analytic region; common Feynman boundary value and meromorphic epsilon continuation",
+  "derivation": "workspaces/3e-Gamma1-01/derivation.md",
+  "formal": "not_run",
+  "limitations": [
+    "Wilson MCP not available; no formal receipt",
+    "general complex kinematics continuation not independently closed"
+  ],
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "legacy_input": {
+    "path": "sources/montopar-r001.json",
+    "sha256": "3b92e23125cb6b654ad63d5c19c17fead9cfeb3bff56739dd9f07c6eda87e65a",
+    "orbit_id": "3e-Gamma1-01",
+    "qgraf_sha256": "de8491d72293eba7a277ae3a80de0ec51dc364ce19f018ded4e635af23493c05",
+    "source_order_outer_to_inner": [
+      "s31",
+      "s42",
+      "s41"
+    ]
+  },
+  "input": {
+    "native_package": "benchmarks/self-energy/gamma1/sources/montopar-r002.json",
+    "native_package_sha256": "17c63f14fa10f05da173da48ffc153392ed5d19221dfd3ee4775e65c44aa6b98",
+    "orbit_id": "3e-Gamma1-01",
+    "assembly_sign": 1
+  },
+  "legacy_evidence": {
+    "evidence": "workflow/checks/gamma1-01/README.md",
+    "evidence_sha256": {
+      "complete-r003.json": "a2c5bcf43b092df9ba764566dfd58576bcbabab02d5321e5d6d539153c05b043",
+      "triangle/quark-complete-crosscheck.json": "d1d51d771b194e7d7afcc24600d151f6e4ee2a6a9be6cdd48f59c324a39807ff",
+      "triangle/Cauchy-check-log-gamma-expanded-r003.json": "9ca1df18ca7c3900864271f83139c2a21b946aae7a6205d77fc9ced5a3fd708e",
+      "triangle/R-canonical-check-r003.json": "0c0bec7e97b6776b9baef15614e957eb153f0138ef5247f68d1b92e447e1f9f9",
+      "triangle/R-single-assembly-check-r003.json": "77438bd4dd41c23ea92b0b012d39bcfb85864999fdc3e0142e5121b9ecf3545a",
+      "triangle/R-finite-assembly-check-r003.json": "9cb3f5a0aea619522edc5f37ffca2c0a039c9b46966c9412768244794bfc228d",
+      "triangle/HH-convolution-check-r003.json": "6fdc47e7638c63fe822794a4034e529a678aa90a460e2d381d430f79e78759e1",
+      "bubble/decomposition/hh-convolution-numeric-r003.json": "53c651deab0f930306fcdd8c940e8787e5916de04d79718f8531b33c08acba53",
+      "bubble/decomposition/hh-convolution-proof.md": "ab8f4e8223dcdde29febbb423a4736e56321a9864be0abb18bd397f76bab843c",
+      "independent/reflection.json": "dc2c8d485eec6254b66b53898af7562010ba68201498adcddfb93d33dc604a8f"
+    }
+  },
+  "migration": {
+    "legacy_result": {
+      "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-01/r001.json",
+      "sha256": "a21f87044cc4da71299d1fec7c989c25cefd93de5fd20a4949a10487d66619f1"
+    },
+    "factor_from_native_CJ": -1,
+    "basis": "same J/domain/branch and C_native/C_legacy from native-check.json; integral linearity",
+    "new_integration_performed": false,
+    "old_formal_status_not_inherited": true
+  },
+  "native_verification": "workflow/checks/shared-sign-production/publication-check.json"
+}

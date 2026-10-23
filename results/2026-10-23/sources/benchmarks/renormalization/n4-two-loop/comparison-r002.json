@@ -1,0 +1,1048 @@
+{
+  "format": "n4-two-loop-comparison/1",
+  "revision": "r002",
+  "supersedes": "comparison-r001.json (finite-field label only; mathematics unchanged)",
+  "paper": "arXiv:0709.2368v2, 2007-12-11",
+  "paper_equations": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "domain": "z>0; matched Feynman gauge, Euler/scale convention; N4 in DRED",
+  "normalization": {
+    "lambda": "alpha_s_DRbar/pi",
+    "color": "CF*CA factored out",
+    "M1": "M01",
+    "M2": "M11",
+    "M3": "M21",
+    "paper_A_negative_powers": "sum mapped I coefficients",
+    "paper_A0": "2 * sum mapped I finite coefficients",
+    "same_external_log_scale": "mu_paper^2 = mu_x^2"
+  },
+  "mapping": {
+    "c": [
+      "2e-Pi1-01"
+    ],
+    "d": [
+      "4e-01"
+    ],
+    "e": [
+      "4e-03"
+    ],
+    "f": [
+      "3e-3g-01",
+      "3e-3g-02"
+    ],
+    "g": [
+      "3e-3g-04"
+    ],
+    "h": [
+      "4e-02",
+      "4e-05"
+    ],
+    "i": [
+      "4e-04"
+    ],
+    "j": [
+      "4e-06"
+    ],
+    "k": [
+      "2e-Pi1-02"
+    ],
+    "l": [
+      "3e-3g-03"
+    ]
+  },
+  "source_results": {
+    "2e-Pi1-01": "benchmarks/self-energy/pi1/results/2e-Pi1-01/r002.json",
+    "2e-Pi1-02": "benchmarks/self-energy/pi1/results/2e-Pi1-02/r002.json",
+    "3e-3g-01": "benchmarks/tgv/3e-3g/results/3e-3g-01/r001.json",
+    "3e-3g-02": "benchmarks/tgv/3e-3g/results/3e-3g-02/r001.json",
+    "3e-3g-03": "benchmarks/tgv/3e-3g/results/3e-3g-03/r001.json",
+    "3e-3g-04": "benchmarks/tgv/3e-3g/results/3e-3g-04/r001.json",
+    "4e-01": "benchmarks/2ne/results/4e-01/r002.json",
+    "4e-02": "benchmarks/2ne/results/4e-02/r002.json",
+    "4e-03": "benchmarks/2ne/results/4e-03/r002.json",
+    "4e-04": "benchmarks/2ne/results/4e-04/r002.json",
+    "4e-05": "benchmarks/2ne/results/4e-05/r001.json",
+    "4e-06": "benchmarks/2ne/results/4e-06/r002.json"
+  },
+  "DRED_operator_B1_over_CA": {
+    "sympy": "-4",
+    "latex": "-4"
+  },
+  "DREG_operator_B1_over_CA": {
+    "sympy": "-2*(5*eps - 6)/(2*eps - 3)",
+    "latex": "- \\frac{2 \\left(5 eps - 6\\right)}{2 eps - 3}"
+  },
+  "paper_coefficients": {
+    "c": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "1/8",
+        "latex": "\\frac{1}{8}"
+      },
+      "-2": {
+        "sympy": "1/4",
+        "latex": "\\frac{1}{4}"
+      },
+      "-1": {
+        "sympy": "pi**2/48 + 1/2",
+        "latex": "\\frac{\\pi^{2}}{48} + \\frac{1}{2}"
+      },
+      "0": {
+        "sympy": "zeta(3)/6 + pi**2/12 + 2",
+        "latex": "\\frac{\\zeta\\left(3\\right)}{6} + \\frac{\\pi^{2}}{12} + 2"
+      }
+    },
+    "d": {
+      "-4": {
+        "sympy": "-1/16",
+        "latex": "- \\frac{1}{16}"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "-pi**2/96",
+        "latex": "- \\frac{\\pi^{2}}{96}"
+      },
+      "-1": {
+        "sympy": "-zeta(3)/24",
+        "latex": "- \\frac{\\zeta\\left(3\\right)}{24}"
+      },
+      "0": {
+        "sympy": "-7*pi**4/2880",
+        "latex": "- \\frac{7 \\pi^{4}}{2880}"
+      }
+    },
+    "e": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "-pi**2/24",
+        "latex": "- \\frac{\\pi^{2}}{24}"
+      },
+      "-1": {
+        "sympy": "zeta(3)/2",
+        "latex": "\\frac{\\zeta\\left(3\\right)}{2}"
+      },
+      "0": {
+        "sympy": "-pi**2*M01/12 - 49*pi**4/720",
+        "latex": "- \\frac{\\pi^{2} M_{01}}{12} - \\frac{49 \\pi^{4}}{720}"
+      }
+    },
+    "f": {
+      "-4": {
+        "sympy": "1/16",
+        "latex": "\\frac{1}{16}"
+      },
+      "-3": {
+        "sympy": "-1/8",
+        "latex": "- \\frac{1}{8}"
+      },
+      "-2": {
+        "sympy": "-1/4 + 5*pi**2/96",
+        "latex": "- \\frac{1}{4} + \\frac{5 \\pi^{2}}{96}"
+      },
+      "-1": {
+        "sympy": "-1/2 - pi**2/48 + 7*zeta(3)/24",
+        "latex": "- \\frac{1}{2} - \\frac{\\pi^{2}}{48} + \\frac{7 \\zeta\\left(3\\right)}{24}"
+      },
+      "0": {
+        "sympy": "-2 - pi**2/12 - zeta(3)/6 + 119*pi**4/2880",
+        "latex": "-2 - \\frac{\\pi^{2}}{12} - \\frac{\\zeta\\left(3\\right)}{6} + \\frac{119 \\pi^{4}}{2880}"
+      }
+    },
+    "g": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "pi**2/48",
+        "latex": "\\frac{\\pi^{2}}{48}"
+      },
+      "-1": {
+        "sympy": "-M11/8 + zeta(3)/8",
+        "latex": "- \\frac{M_{11}}{8} + \\frac{\\zeta\\left(3\\right)}{8}"
+      },
+      "0": {
+        "sympy": "M01**2/24 - M21/4 + 7*pi**4/360",
+        "latex": "\\frac{M_{01}^{2}}{24} - \\frac{M_{21}}{4} + \\frac{7 \\pi^{4}}{360}"
+      }
+    },
+    "h": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "M11/4",
+        "latex": "\\frac{M_{11}}{4}"
+      },
+      "0": {
+        "sympy": "M01**2/8 + pi**2*M01/8 + 3*M21/8",
+        "latex": "\\frac{M_{01}^{2}}{8} + \\frac{\\pi^{2} M_{01}}{8} + \\frac{3 M_{21}}{8}"
+      }
+    },
+    "i": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "-M01**2/24",
+        "latex": "- \\frac{M_{01}^{2}}{24}"
+      }
+    },
+    "j": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "-M01**2/8",
+        "latex": "- \\frac{M_{01}^{2}}{8}"
+      }
+    },
+    "k": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "M01/4",
+        "latex": "\\frac{M_{01}}{4}"
+      },
+      "0": {
+        "sympy": "M01 + M11/2",
+        "latex": "M_{01} + \\frac{M_{11}}{2}"
+      }
+    },
+    "l": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "-M01/4 - M11/8",
+        "latex": "- \\frac{M_{01}}{4} - \\frac{M_{11}}{8}"
+      },
+      "0": {
+        "sympy": "-M01 + pi**2*M01/24 - M11/2 - M21/8",
+        "latex": "- M_{01} + \\frac{\\pi^{2} M_{01}}{24} - \\frac{M_{11}}{2} - \\frac{M_{21}}{8}"
+      }
+    }
+  },
+  "our_full_tensor_in_paper_format": {
+    "c": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "1/8",
+        "latex": "\\frac{1}{8}"
+      },
+      "-2": {
+        "sympy": "1/8",
+        "latex": "\\frac{1}{8}"
+      },
+      "-1": {
+        "sympy": "pi**2/48 + 3/8",
+        "latex": "\\frac{\\pi^{2}}{48} + \\frac{3}{8}"
+      },
+      "0": {
+        "sympy": "zeta(3)/6 + pi**2/24 + 5/4",
+        "latex": "\\frac{\\zeta\\left(3\\right)}{6} + \\frac{\\pi^{2}}{24} + \\frac{5}{4}"
+      }
+    },
+    "d": {
+      "-4": {
+        "sympy": "-1/16",
+        "latex": "- \\frac{1}{16}"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "-pi**2/96",
+        "latex": "- \\frac{\\pi^{2}}{96}"
+      },
+      "-1": {
+        "sympy": "-zeta(3)/24",
+        "latex": "- \\frac{\\zeta\\left(3\\right)}{24}"
+      },
+      "0": {
+        "sympy": "-7*pi**4/2880",
+        "latex": "- \\frac{7 \\pi^{4}}{2880}"
+      }
+    },
+    "e": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "-pi**2/24",
+        "latex": "- \\frac{\\pi^{2}}{24}"
+      },
+      "-1": {
+        "sympy": "zeta(3)/2",
+        "latex": "\\frac{\\zeta\\left(3\\right)}{2}"
+      },
+      "0": {
+        "sympy": "-pi**2*M01/12 - 49*pi**4/720",
+        "latex": "- \\frac{\\pi^{2} M_{01}}{12} - \\frac{49 \\pi^{4}}{720}"
+      }
+    },
+    "f": {
+      "-4": {
+        "sympy": "1/16",
+        "latex": "\\frac{1}{16}"
+      },
+      "-3": {
+        "sympy": "-1/8",
+        "latex": "- \\frac{1}{8}"
+      },
+      "-2": {
+        "sympy": "-1/4 + 5*pi**2/96",
+        "latex": "- \\frac{1}{4} + \\frac{5 \\pi^{2}}{96}"
+      },
+      "-1": {
+        "sympy": "-1/2 - pi**2/48 + 7*zeta(3)/24",
+        "latex": "- \\frac{1}{2} - \\frac{\\pi^{2}}{48} + \\frac{7 \\zeta\\left(3\\right)}{24}"
+      },
+      "0": {
+        "sympy": "-2 - pi**2/12 - zeta(3)/6 + 119*pi**4/2880",
+        "latex": "-2 - \\frac{\\pi^{2}}{12} - \\frac{\\zeta\\left(3\\right)}{6} + \\frac{119 \\pi^{4}}{2880}"
+      }
+    },
+    "g": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "pi**2/48",
+        "latex": "\\frac{\\pi^{2}}{48}"
+      },
+      "-1": {
+        "sympy": "-M11/8 + zeta(3)/8",
+        "latex": "- \\frac{M_{11}}{8} + \\frac{\\zeta\\left(3\\right)}{8}"
+      },
+      "0": {
+        "sympy": "M01**2/24 - M21/4 + pi**4/20",
+        "latex": "\\frac{M_{01}^{2}}{24} - \\frac{M_{21}}{4} + \\frac{\\pi^{4}}{20}"
+      }
+    },
+    "h": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "M11/4",
+        "latex": "\\frac{M_{11}}{4}"
+      },
+      "0": {
+        "sympy": "M01**2/8 + pi**2*M01/8 + 3*M21/8",
+        "latex": "\\frac{M_{01}^{2}}{8} + \\frac{\\pi^{2} M_{01}}{8} + \\frac{3 M_{21}}{8}"
+      }
+    },
+    "i": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "-M01**2/24",
+        "latex": "- \\frac{M_{01}^{2}}{24}"
+      }
+    },
+    "j": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "-M01**2/8",
+        "latex": "- \\frac{M_{01}^{2}}{8}"
+      }
+    },
+    "k": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "1/8",
+        "latex": "\\frac{1}{8}"
+      },
+      "-1": {
+        "sympy": "M01/4 + 1/8",
+        "latex": "\\frac{M_{01}}{4} + \\frac{1}{8}"
+      },
+      "0": {
+        "sympy": "M01 + M11/2 + pi**2/24 + 3/4",
+        "latex": "M_{01} + \\frac{M_{11}}{2} + \\frac{\\pi^{2}}{24} + \\frac{3}{4}"
+      }
+    },
+    "l": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "-M01/4 - M11/8",
+        "latex": "- \\frac{M_{01}}{4} - \\frac{M_{11}}{8}"
+      },
+      "0": {
+        "sympy": "-M01 + pi**2*M01/24 - M11/2 - M21/8",
+        "latex": "- M_{01} + \\frac{\\pi^{2} M_{01}}{24} - \\frac{M_{11}}{2} - \\frac{M_{21}}{8}"
+      }
+    }
+  },
+  "our_metric_redistribution_in_paper_format": {
+    "c": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "1/8",
+        "latex": "\\frac{1}{8}"
+      },
+      "-2": {
+        "sympy": "1/4",
+        "latex": "\\frac{1}{4}"
+      },
+      "-1": {
+        "sympy": "pi**2/48 + 1/2",
+        "latex": "\\frac{\\pi^{2}}{48} + \\frac{1}{2}"
+      },
+      "0": {
+        "sympy": "zeta(3)/6 + pi**2/12 + 2",
+        "latex": "\\frac{\\zeta\\left(3\\right)}{6} + \\frac{\\pi^{2}}{12} + 2"
+      }
+    },
+    "d": {
+      "-4": {
+        "sympy": "-1/16",
+        "latex": "- \\frac{1}{16}"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "-pi**2/96",
+        "latex": "- \\frac{\\pi^{2}}{96}"
+      },
+      "-1": {
+        "sympy": "-zeta(3)/24",
+        "latex": "- \\frac{\\zeta\\left(3\\right)}{24}"
+      },
+      "0": {
+        "sympy": "-7*pi**4/2880",
+        "latex": "- \\frac{7 \\pi^{4}}{2880}"
+      }
+    },
+    "e": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "-pi**2/24",
+        "latex": "- \\frac{\\pi^{2}}{24}"
+      },
+      "-1": {
+        "sympy": "zeta(3)/2",
+        "latex": "\\frac{\\zeta\\left(3\\right)}{2}"
+      },
+      "0": {
+        "sympy": "-pi**2*M01/12 - 49*pi**4/720",
+        "latex": "- \\frac{\\pi^{2} M_{01}}{12} - \\frac{49 \\pi^{4}}{720}"
+      }
+    },
+    "f": {
+      "-4": {
+        "sympy": "1/16",
+        "latex": "\\frac{1}{16}"
+      },
+      "-3": {
+        "sympy": "-1/8",
+        "latex": "- \\frac{1}{8}"
+      },
+      "-2": {
+        "sympy": "-1/4 + 5*pi**2/96",
+        "latex": "- \\frac{1}{4} + \\frac{5 \\pi^{2}}{96}"
+      },
+      "-1": {
+        "sympy": "-1/2 - pi**2/48 + 7*zeta(3)/24",
+        "latex": "- \\frac{1}{2} - \\frac{\\pi^{2}}{48} + \\frac{7 \\zeta\\left(3\\right)}{24}"
+      },
+      "0": {
+        "sympy": "-2 - pi**2/12 - zeta(3)/6 + 119*pi**4/2880",
+        "latex": "-2 - \\frac{\\pi^{2}}{12} - \\frac{\\zeta\\left(3\\right)}{6} + \\frac{119 \\pi^{4}}{2880}"
+      }
+    },
+    "g": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "pi**2/48",
+        "latex": "\\frac{\\pi^{2}}{48}"
+      },
+      "-1": {
+        "sympy": "-M11/8 + zeta(3)/8",
+        "latex": "- \\frac{M_{11}}{8} + \\frac{\\zeta\\left(3\\right)}{8}"
+      },
+      "0": {
+        "sympy": "M01**2/24 - M21/4 + pi**4/20",
+        "latex": "\\frac{M_{01}^{2}}{24} - \\frac{M_{21}}{4} + \\frac{\\pi^{4}}{20}"
+      }
+    },
+    "h": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "M11/4",
+        "latex": "\\frac{M_{11}}{4}"
+      },
+      "0": {
+        "sympy": "M01**2/8 + pi**2*M01/8 + 3*M21/8",
+        "latex": "\\frac{M_{01}^{2}}{8} + \\frac{\\pi^{2} M_{01}}{8} + \\frac{3 M_{21}}{8}"
+      }
+    },
+    "i": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "-M01**2/24",
+        "latex": "- \\frac{M_{01}^{2}}{24}"
+      }
+    },
+    "j": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "-M01**2/8",
+        "latex": "- \\frac{M_{01}^{2}}{8}"
+      }
+    },
+    "k": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "M01/4",
+        "latex": "\\frac{M_{01}}{4}"
+      },
+      "0": {
+        "sympy": "M01 + M11/2",
+        "latex": "M_{01} + \\frac{M_{11}}{2}"
+      }
+    },
+    "l": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "-M01/4 - M11/8",
+        "latex": "- \\frac{M_{01}}{4} - \\frac{M_{11}}{8}"
+      },
+      "0": {
+        "sympy": "-M01 + pi**2*M01/24 - M11/2 - M21/8",
+        "latex": "- M_{01} + \\frac{\\pi^{2} M_{01}}{24} - \\frac{M_{11}}{2} - \\frac{M_{21}}{8}"
+      }
+    }
+  },
+  "residual_after_alignment": {
+    "c": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "0",
+        "latex": "0"
+      }
+    },
+    "d": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "0",
+        "latex": "0"
+      }
+    },
+    "e": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "0",
+        "latex": "0"
+      }
+    },
+    "f": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "0",
+        "latex": "0"
+      }
+    },
+    "g": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "11*pi**4/360",
+        "latex": "\\frac{11 \\pi^{4}}{360}"
+      }
+    },
+    "h": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "0",
+        "latex": "0"
+      }
+    },
+    "i": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "0",
+        "latex": "0"
+      }
+    },
+    "j": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "0",
+        "latex": "0"
+      }
+    },
+    "k": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "0",
+        "latex": "0"
+      }
+    },
+    "l": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "0",
+        "latex": "0"
+      }
+    }
+  },
+  "matched_positions": 49,
+  "total_positions": 50,
+  "total_in_paper_format": {
+    "-4": {
+      "sympy": "0",
+      "latex": "0"
+    },
+    "-3": {
+      "sympy": "0",
+      "latex": "0"
+    },
+    "-2": {
+      "sympy": "pi**2/48",
+      "latex": "\\frac{\\pi^{2}}{48}"
+    },
+    "-1": {
+      "sympy": "7*zeta(3)/8",
+      "latex": "\\frac{7 \\zeta\\left(3\\right)}{8}"
+    },
+    "0": {
+      "sympy": "pi**2*M01/12 + pi**4/48",
+      "latex": "\\frac{\\pi^{2} M_{01}}{12} + \\frac{\\pi^{4}}{48}"
+    }
+  },
+  "our_finite_outside_scale_powers": {
+    "sympy": "-pi**2*rho**2/24 - pi**4/48",
+    "latex": "- \\frac{\\pi^{2} \\rho^{2}}{24} - \\frac{\\pi^{4}}{48}"
+  },
+  "paper_finite_outside_scale_powers": {
+    "sympy": "-pi**2*rho**2/24 - 37*pi**4/720",
+    "latex": "- \\frac{\\pi^{2} \\rho^{2}}{24} - \\frac{37 \\pi^{4}}{720}"
+  },
+  "finite_difference": {
+    "sympy": "11*pi**4/360",
+    "latex": "\\frac{11 \\pi^{4}}{360}"
+  },
+  "log_Z4_lambda2_over_CFCA": {
+    "sympy": "(pi**2*L/12 + 7*zeta(3)/4)/eps + pi**2/(24*eps**2)",
+    "latex": "\\frac{\\frac{\\pi^{2} L}{12} + \\frac{7 \\zeta\\left(3\\right)}{4}}{eps} + \\frac{\\pi^{2}}{24 eps^{2}}"
+  },
+  "strict_pole_finite_lambda2_over_CFCA": {
+    "sympy": "pi**2*L**2/12 + 7*L*zeta(3)/2 - pi**2*rho**2/48 - pi**4/48",
+    "latex": "\\frac{\\pi^{2} L^{2}}{12} + \\frac{7 L \\zeta\\left(3\\right)}{2} - \\frac{\\pi^{2} \\rho^{2}}{48} - \\frac{\\pi^{4}}{48}"
+  },
+  "cusp_lambda2_over_CFCA": {
+    "sympy": "-pi**2/12",
+    "latex": "- \\frac{\\pi^{2}}{12}"
+  },
+  "gamma4_lambda2_over_CFCA": {
+    "sympy": "-7*zeta(3)",
+    "latex": "- 7 \\zeta\\left(3\\right)"
+  },
+  "status": "one isolated finite-constant disagreement with the published v2; our N4 reconstruction uses the existing I04",
+  "limits": [
+    "not an author-issued erratum",
+    "no new independent raw I04 integration in this turn",
+    "no general complex-z or forward-limit continuation",
+    "QCD results and production inputs unchanged"
+  ],
+  "dependencies": {
+    "benchmarks/renormalization/two-loop/assembly-bridge-r001.json": "cda39b2cc3473909a260a0d1f18eb726f9390938f9444d9e084b87cbbbccc1f3",
+    "benchmarks/self-energy/current-r002.json": "b141e672ae85e4cb119413968115e9da3cc8852f14f2b422f2f7d4b756c9eddd",
+    "benchmarks/self-energy/pi1/results/2e-Pi1-01/r002.json": "122067c4f01aa9942db2e9040b577416c83c8439d2baa7c4b1ac1d18e21646c7",
+    "benchmarks/self-energy/pi1/results/2e-Pi1-02/r002.json": "8b214b54a6e32f78804d0f1bfa3077488abeaa6114f9ed89fe825446056cd0a8",
+    "benchmarks/tgv/3e-3g/results/3e-3g-01/r001.json": "9979c454377dfdaaf25b74323f1da9e72838e77ef73ef8d99860b105d4941d20",
+    "benchmarks/tgv/3e-3g/results/3e-3g-02/r001.json": "fe88da122908c8337a9775296135cfca9ebb94f6614593cd971f17b495d33263",
+    "benchmarks/tgv/3e-3g/results/3e-3g-03/r001.json": "211e6f4310d0d2b24cf9154d77a5d113467efa0ac61dafe25cbeaf9b0aad27b8",
+    "benchmarks/tgv/3e-3g/results/3e-3g-04/r001.json": "3c099acf58c2e4f9d91c6bfe1a25b67222bce5fac9a16e44fa3ee5eb6926b3b5",
+    "benchmarks/2ne/results/4e-01/r002.json": "4d6bd1ba781a2f01c1197e9ddaa299599e17e2060cf8fdc2fbe03c0ad82cb1dd",
+    "benchmarks/2ne/results/4e-02/r002.json": "a1f97e0fdace7878ba9688fe35f4aaae854c7aa76821da4b7a029ca0c1268959",
+    "benchmarks/2ne/results/4e-03/r002.json": "c10be113752bfde5072957a5c26f63674327bae8aadc7e1a01a275f34224c390",
+    "benchmarks/2ne/results/4e-04/r002.json": "3053908df767b60c9dcf062161a2373391aeb53d6e482a6a39f58a04f321d753",
+    "benchmarks/2ne/results/4e-05/r001.json": "0ea95ad21c361fb536cf5e1b3c10c2cbde1a321dba034b527b59015845b50915",
+    "benchmarks/2ne/results/4e-06/r002.json": "b2d08ce064c2efd54aa2f555d33077903c18eff369ef7039a51fa7248aa5c00f",
+    "workflow/checks/tgv-solve/runs/20260917T081202905587Z-04/step12_numeric_checks.json": "d5044f4f85d6c26b878126691435510e89467aab8127c518c27160caa5a6eea3"
+  },
+  "formal": "not_run"
+}

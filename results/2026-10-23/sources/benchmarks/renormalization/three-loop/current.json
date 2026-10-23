@@ -1,0 +1,33 @@
+{
+  "format": "wilson-three-loop-physical-colors-current/1",
+  "date": "2026-10-06",
+  "channels": {
+    "CF*CA*TF*nf": {
+      "result": "results/CF-CA-TF-nf/r001.json",
+      "sha256": "bbf1aac15c171e30388a7bfa045a03eb52d32ae8c61e4c483e2134d222f0210d",
+      "status": "computational_complete"
+    },
+    "CF^2*TF*nf": {
+      "result": "matter-channels-r001.json",
+      "field": "cff",
+      "sha256": "de3f1a6db8bd6278114aabcb1cdcc9f6f77909b4015c05048bcc91d7fac79727",
+      "status": "previous_computational_completion"
+    },
+    "CF*(TF*nf)^2": {
+      "result": "matter-channels-r001.json",
+      "field": "nf2",
+      "sha256": "de3f1a6db8bd6278114aabcb1cdcc9f6f77909b4015c05048bcc91d7fac79727",
+      "status": "previous_computational_completion"
+    },
+    "CF*CA^2": {
+      "status": "incomplete",
+      "missing_complete_integrals": 10,
+      "missing_family": "double-TGV"
+    }
+  },
+  "complete_color_channels": 3,
+  "total_color_channels": 4,
+  "full_w3_complete": false,
+  "formal": "not_run",
+  "physical_bridge": "workflow/checks/w3-ca-nf/physical-bridge.json"
+}

@@ -1,0 +1,179 @@
+{
+  "format": "wilson-tgv-pi1-integral-result/1",
+  "revision": "r003",
+  "date": "2026-10-15",
+  "orbit_id": "3e-3g+Pi1-08",
+  "input_sha256": "72436e94de62c72f7231e08851052268ba59bc20b28406d3fc91ba2fe8f189b5",
+  "status": "laurent_complete",
+  "definition": "I=2 R(eps) [J(eps,z)+z^(3eps)J(eps,1/z)]/(1+z^(3eps))",
+  "normalization": {
+    "euler_compensation_count": 1,
+    "c4_multiplicity": 4,
+    "color_factor_extracted": "CF*CA*B1(eps)",
+    "scale_factor_extracted": "S14+S12",
+    "raw_input_modified": false,
+    "relation_to_bare_full_color": "prepared=sum_C4(raw)*exp(-3 EulerGamma eps)",
+    "assembly_sign": 1,
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+  },
+  "R": "-(exp(-3*EulerGamma*eps)*Gamma(1-eps)^2*Gamma(2-3*eps)/(64*eps*(1+eps)*Gamma(2-2*eps)))",
+  "highest_pole_order": 3,
+  "vanishing_higher_poles": {
+    "-6": "0",
+    "-5": "0",
+    "-4": "0"
+  },
+  "expression_language": "Maple/HyperInt; zeta[n]=Zeta(n); Hlog uses dt/(t-letter)",
+  "variables": {
+    "r": "1/(1+z)",
+    "z": "positive real kinematic ratio; z1 in the raw source"
+  },
+  "Hlog_convention": {
+    "empty_word": "1",
+    "recursion": "Hlog(x,[a,w])=integral_0^x dt/(t-a) Hlog(t,w)",
+    "all_zero_word": "log(x)^n/n!",
+    "Hlog(x,[1])": "log(1-x)",
+    "branch": "real tangential-basepoint GPL on 0<x<1"
+  },
+  "laurent_coefficients": {
+    "-3": "-(-1/768)",
+    "-2": "-(-3/64*zeta[2]+1/64*zeta[3]-1/128*Hlog(r,[0, 0, 0])+1/64*Hlog(r,[1, 0])+1/128*Hlog(r,[1, 0, 1])+1/128*Hlog(r,[0, 1, 0])+1/64*Hlog(r,[0, 1])-1/128*Hlog(r,[1, 1, 1])+1/128*Hlog(r,[1, 1, 0])-1/64*Hlog(r,[0, 0])-1/128*Hlog(r,[0, 1, 1])-1/64*Hlog(r,[1, 1])+1/128*Hlog(r,[0, 0, 1])-1/128*Hlog(r,[1, 0, 0])+5/768-3/128*Hlog(r,[1])*zeta[2]-3/128*Hlog(r,[0])*zeta[2])",
+    "-1": "-(-275/1024*zeta[2]+1/192+43/512*zeta[3]-3/256*Hlog(r,[0, 1, 0, 0])-9/2560*zeta[2]^2+3/256*Hlog(r,[1, 1, 1, 0])+3/256*Hlog(r,[1, 0, 1, 0])-3/256*Hlog(r,[1, 1, 1, 1])+3/256*Hlog(r,[1, 1, 0, 1])+3/256*Hlog(r,[0, 0, 1, 0])+3/256*Hlog(r,[1, 0, 0, 1])-3/256*Hlog(r,[1, 0, 1, 1])+3/256*Hlog(r,[0, 0, 0, 1])-3/256*Hlog(r,[1, 1, 0, 0])-3/256*Hlog(r,[1, 0, 0, 0])-3/256*Hlog(r,[0, 0, 1, 1])+3/256*Hlog(r,[0, 1, 1, 0])-3/256*Hlog(r,[0, 1, 1, 1])-3/256*Hlog(r,[0, 0, 0, 0])+3/256*Hlog(r,[0, 1, 0, 1])+(-1/8*zeta[2]+3/128*zeta[3]-1/512*zeta[2]*r)*Hlog(r,[1])+(21/512+1/512*r)*Hlog(r,[1, 0, 1])+(-65/512*zeta[2]+3/128*zeta[3]+1/512*zeta[2]*r)*Hlog(r,[0])+(11/256-1/512*r)*Hlog(r,[0, 0, 1])+(-15/256*zeta[2]+87/1024)*Hlog(r,[0, 1])+(-11/256+1/512*r)*Hlog(r,[0, 1, 1])+(21/512+1/512*r)*Hlog(r,[1, 1, 0])+(-21/512-1/512*r)*Hlog(r,[1, 1, 1])+(-11/256+1/512*r)*Hlog(r,[0, 0, 0])+(-3/256*zeta[2]-87/1024)*Hlog(r,[0, 0])+(11/256-1/512*r)*Hlog(r,[0, 1, 0])+(-3/256*zeta[2]-87/1024)*Hlog(r,[1, 1])+(-21/512-1/512*r)*Hlog(r,[1, 0, 0])+(-15/256*zeta[2]+87/1024)*Hlog(r,[1, 0]))",
+    "0": "-(-1957/2048*zeta[2]+35/512+917/3072*zeta[3]-71/512*Hlog(r,[1, 1, 0, 0, 0])+71/512*Hlog(r,[1, 1, 1, 1, 1])-35/512*Hlog(r,[0, 1, 0, 1, 1])-71/512*Hlog(r,[0, 0, 0, 0, 1])+1/512*Hlog(r,[0, 1, 1, 1, 0])-1/512*Hlog(r,[0, 1, 1, 0, 0])-71/512*Hlog(r,[0, 0, 1, 0, 0])+71/512*Hlog(r,[0, 0, 1, 0, 1])-237/1024*Hlog(r,[0, 1, 0, 0])-1323/5120*zeta[2]^2-27/256*Hlog(r,[1, 1, 1, 0])+237/1024*Hlog(r,[1, 0, 1, 0])+27/256*Hlog(r,[1, 1, 1, 1])-27/256*Hlog(r,[1, 1, 0, 1])-27/256*Hlog(r,[0, 0, 1, 0])+237/1024*Hlog(r,[1, 0, 0, 1])-237/1024*Hlog(r,[1, 0, 1, 1])-27/256*Hlog(r,[0, 0, 0, 1])+27/256*Hlog(r,[1, 1, 0, 0])-237/1024*Hlog(r,[1, 0, 0, 0])+27/256*Hlog(r,[0, 0, 1, 1])+237/1024*Hlog(r,[0, 1, 1, 0])-237/1024*Hlog(r,[0, 1, 1, 1])+27/256*Hlog(r,[0, 0, 0, 0])+237/1024*Hlog(r,[0, 1, 0, 1])+37/256*zeta[5]-1/512*Hlog(r,[1, 0, 0, 1, 1])+71/512*Hlog(r,[0, 0, 1, 1, 0])+1/512*Hlog(r,[1, 0, 0, 1, 0])-35/512*Hlog(r,[1, 0, 1, 0, 0])-71/512*Hlog(r,[1, 1, 1, 1, 0])+1/512*Hlog(r,[0, 1, 1, 0, 1])+35/512*Hlog(r,[0, 1, 0, 1, 0])+71/512*Hlog(r,[1, 1, 0, 1, 0])+35/512*Hlog(r,[1, 0, 1, 0, 1])+71/512*Hlog(r,[1, 1, 1, 0, 0])+35/512*Hlog(r,[0, 1, 0, 0, 1])-71/512*Hlog(r,[0, 0, 1, 1, 1])+71/512*Hlog(r,[1, 1, 0, 0, 1])-71/512*Hlog(r,[0, 0, 0, 1, 0])+1/512*Hlog(r,[1, 0, 0, 0, 1])-35/512*Hlog(r,[1, 0, 1, 1, 1])+71/512*Hlog(r,[0, 0, 0, 0, 0])-1/512*Hlog(r,[0, 1, 1, 1, 1])-71/512*Hlog(r,[1, 1, 1, 0, 1])+71/512*Hlog(r,[0, 0, 0, 1, 1])-1/512*Hlog(r,[1, 0, 0, 0, 0])-35/512*Hlog(r,[0, 1, 0, 0, 0])+35/512*Hlog(r,[1, 0, 1, 1, 0])-71/512*Hlog(r,[1, 1, 0, 1, 1])+31/256*zeta[2]*zeta[3]+(-47/512*zeta[2]+1/512*r+329/2048)*Hlog(r,[1, 1, 0])+(-47/512*zeta[2]+1/512*r+329/2048)*Hlog(r,[1, 0, 1])+(-627/5120*zeta[2]^2-995/2048*zeta[2]+129/1024*zeta[3]+1/512*zeta[2]*r)*Hlog(r,[0])+(9/256*zeta[3]+667/2048-327/1024*zeta[2])*Hlog(r,[0, 1])+(9/256*zeta[3]+667/2048-327/1024*zeta[2])*Hlog(r,[1, 0])+(-47/512*zeta[2]-1/512*r+333/2048)*Hlog(r,[0, 0, 1])+(47/512*zeta[2]+1/512*r-333/2048)*Hlog(r,[0, 0, 0])+(47/512*zeta[2]-1/512*r-329/2048)*Hlog(r,[1, 1, 1])+(-61/512*zeta[2]+1/512*r-333/2048)*Hlog(r,[0, 1, 1])+(-61/512*zeta[2]-1/512*r-329/2048)*Hlog(r,[1, 0, 0])+(9/256*zeta[3]-15/256*zeta[2]-667/2048)*Hlog(r,[1, 1])+(9/256*zeta[3]-15/256*zeta[2]-667/2048)*Hlog(r,[0, 0])+(-47/512*zeta[2]-1/512*r+333/2048)*Hlog(r,[0, 1, 0])+(-627/5120*zeta[2]^2-991/2048*zeta[2]+129/1024*zeta[3]-1/512*zeta[2]*r)*Hlog(r,[1]))"
+  },
+  "laurent_remainder": "O(eps)",
+  "second_pole_in_existing_M_basis": "-(5/768+M(0,1,z)/64+M(1,1,z)/128)",
+  "M_definition": "M(k,j,z)=integral_0^1 [log(beta*(1-beta))]^k [log(z)+log((1-beta)/beta)]^j/(beta-z/(1+z)) d beta, j>=1; removable internal point",
+  "raw_J_laurent_coefficients": {
+    "-2": "-1/24",
+    "-1": "-3/4*Hlog(r,[1])*zeta[2]+1/4*Hlog(r,[1, 0, 1])-3/4*Hlog(r,[0])*zeta[2]+(9/16-1/8*r)*Hlog(r,[0, 1])+(9/16-1/8*r)*Hlog(r,[1, 0])+1/4*Hlog(r,[0, 0, 1])-1/4*Hlog(r,[0, 0, 0])-1/4*Hlog(r,[1, 1, 1])-1/4*Hlog(r,[0, 1, 1])-1/4*Hlog(r,[1, 0, 0])+(-9/16+1/8*r)*Hlog(r,[1, 1])-27/16*zeta[2]+1/2*zeta[3]+3/8*zeta[2]*r+1/8+(-9/16+1/8*r)*Hlog(r,[0, 0])+1/4*Hlog(r,[0, 1, 0])+1/4*Hlog(r,[1, 1, 0])",
+    "0": "-1153/96*zeta[2]+(125/32-3/8*r-2*zeta[2])*Hlog(r,[1, 0])+(1/2*r-3/16)*Hlog(r,[0, 0, 1])+(-1/2*r+3/16)*Hlog(r,[0, 0, 0])+(1/2*r-31/8)*Hlog(r,[1, 1, 1])+(-1/2*r+3/16)*Hlog(r,[0, 1, 1])+(1/2*r-31/8)*Hlog(r,[1, 0, 0])+(-5/2*zeta[2]-125/32+3/8*r)*Hlog(r,[1, 1])+(7/4*zeta[2]-125/32+3/8*r)*Hlog(r,[0, 0])+(1/2*r-3/16)*Hlog(r,[0, 1, 0])+(-1/2*r+31/8)*Hlog(r,[1, 1, 0])+(-121/16*zeta[2]+5/4*zeta[3]+1/2*zeta[2]*r+3/8)*Hlog(r,[1])+(-1/2*r+31/8)*Hlog(r,[1, 0, 1])+(-7/2*zeta[2]+1/4*zeta[3]-1/2*zeta[2]*r-3/8)*Hlog(r,[0])+(125/32-3/8*r-7/4*zeta[2])*Hlog(r,[0, 1])+59/16*zeta[3]+5/12-Hlog(r,[0, 1, 0, 0])+1/10*zeta[2]^2+7/4*Hlog(r,[1, 1, 1, 0])-1/4*Hlog(r,[1, 0, 1, 0])-7/4*Hlog(r,[1, 1, 1, 1])+7/4*Hlog(r,[1, 1, 0, 1])-Hlog(r,[0, 0, 1, 0])-1/4*Hlog(r,[1, 0, 0, 1])+1/4*Hlog(r,[1, 0, 1, 1])-Hlog(r,[0, 0, 0, 1])-7/4*Hlog(r,[1, 1, 0, 0])+1/4*Hlog(r,[1, 0, 0, 0])+Hlog(r,[0, 0, 1, 1])+Hlog(r,[0, 1, 1, 0])-Hlog(r,[0, 1, 1, 1])+Hlog(r,[0, 0, 0, 0])+Hlog(r,[0, 1, 0, 1])+9/8*zeta[2]*r",
+    "1": "-3577/64*zeta[2]+(-17/4*zeta[2]-3/2*r+231/32)*Hlog(r,[0, 0, 0])+(-29/4*zeta[2]+3/2*r-399/16)*Hlog(r,[1, 1, 1])+(-17/4*zeta[2]-3/2*r+231/32)*Hlog(r,[0, 1, 1])+(-61/8+13/8*r)*Hlog(r,[1, 0, 0, 1])+(11/2*zeta[2]-399/16+3/2*r)*Hlog(r,[1, 0, 0])+(zeta[2]*r+9/2*zeta[3]-353/16*zeta[2]-1107/64+9/8*r)*Hlog(r,[1, 1])+(zeta[2]*r+3/4*zeta[3]+69/8*zeta[2]-1107/64+9/8*r)*Hlog(r,[0, 0])+(61/8-13/8*r)*Hlog(r,[1, 0, 1, 1])+(17/4*zeta[2]+3/2*r-231/32)*Hlog(r,[0, 1, 0])+(-61/8+13/8*r)*Hlog(r,[1, 0, 1, 0])+(-13/8*r+299/16)*Hlog(r,[1, 1, 1, 0])+(-299/16+13/8*r)*Hlog(r,[1, 1, 0, 0])+(-15/16-13/8*r)*Hlog(r,[0, 0, 1, 0])+(-15/16-13/8*r)*Hlog(r,[0, 1, 1, 1])+(-25/4*zeta[2]+399/16-3/2*r)*Hlog(r,[1, 1, 0])+(15/16+13/8*r)*Hlog(r,[0, 0, 0, 0])+(-1365/32*zeta[2]+137/16*zeta[3]+3/2*zeta[2]*r+25/16-3/5*zeta[2]^2)*Hlog(r,[1])+(-11/2*zeta[2]+399/16-3/2*r)*Hlog(r,[1, 0, 1])+(-21/2*zeta[2]+5/2*zeta[3]-3/2*zeta[2]*r-25/16-27/20*zeta[2]^2)*Hlog(r,[0])+(-15/16-13/8*r)*Hlog(r,[0, 1, 0, 0])+(-299/16+13/8*r)*Hlog(r,[1, 1, 1, 1])+(-69/8*zeta[2]-zeta[2]*r+1107/64-9/8*r-3/4*zeta[3])*Hlog(r,[0, 1])+(-15/16-13/8*r)*Hlog(r,[0, 0, 0, 1])+(15/16+13/8*r)*Hlog(r,[0, 0, 1, 1])+(61/8-13/8*r)*Hlog(r,[1, 0, 0, 0])+(15/16+13/8*r)*Hlog(r,[0, 1, 1, 0])+(15/16+13/8*r)*Hlog(r,[0, 1, 0, 1])+(-13/8*r+299/16)*Hlog(r,[1, 1, 0, 1])+(-89/8*zeta[2]-zeta[2]*r+1107/64-9/8*r)*Hlog(r,[1, 0])+(17/4*zeta[2]+3/2*r-231/32)*Hlog(r,[0, 0, 1])+551/32*zeta[3]+137/48+4*Hlog(r,[1, 1, 0, 0, 0])-17/2*Hlog(r,[1, 1, 1, 1, 1])+13/4*Hlog(r,[0, 1, 0, 1, 1])+13/4*Hlog(r,[0, 0, 0, 0, 1])+13/4*Hlog(r,[0, 1, 1, 1, 0])-13/4*Hlog(r,[0, 1, 1, 0, 0])+13/4*Hlog(r,[0, 0, 1, 0, 0])-13/4*Hlog(r,[0, 0, 1, 0, 1])-7/5*zeta[2]^2+5*zeta[5]-1/4*Hlog(r,[1, 0, 0, 1, 1])-13/4*Hlog(r,[0, 0, 1, 1, 0])+1/4*Hlog(r,[1, 0, 0, 1, 0])+1/4*Hlog(r,[1, 0, 1, 0, 0])+17/2*Hlog(r,[1, 1, 1, 1, 0])+13/4*Hlog(r,[0, 1, 1, 0, 1])-13/4*Hlog(r,[0, 1, 0, 1, 0])-4*Hlog(r,[1, 1, 0, 1, 0])-1/4*Hlog(r,[1, 0, 1, 0, 1])-17/2*Hlog(r,[1, 1, 1, 0, 0])-13/4*Hlog(r,[0, 1, 0, 0, 1])+13/4*Hlog(r,[0, 0, 1, 1, 1])-4*Hlog(r,[1, 1, 0, 0, 1])+13/4*Hlog(r,[0, 0, 0, 1, 0])+1/4*Hlog(r,[1, 0, 0, 0, 1])+1/4*Hlog(r,[1, 0, 1, 1, 1])-13/4*Hlog(r,[0, 0, 0, 0, 0])-13/4*Hlog(r,[0, 1, 1, 1, 1])+17/2*Hlog(r,[1, 1, 1, 0, 1])-13/4*Hlog(r,[0, 0, 0, 1, 1])-1/4*Hlog(r,[1, 0, 0, 0, 0])+13/4*Hlog(r,[0, 1, 0, 0, 0])-1/4*Hlog(r,[1, 0, 1, 1, 0])+4*Hlog(r,[1, 1, 0, 1, 1])+9/16*zeta[2]^2*r+5/2*zeta[2]*zeta[3]+27/8*zeta[2]*r"
+  },
+  "raw_J_remainder": "O(eps^2)",
+  "color_factors": {
+    "CF*CA^2": "(10-6*eps)/(3-2*eps)",
+    "CF*CA*TF*nf": "-8*(1-eps)/(3-2*eps)"
+  },
+  "color_channel_coefficients": {
+    "CF*CA^2": {
+      "-3": "-(-5/1152)",
+      "-2": "-(-5/64*Hlog(r,[1])*zeta[2]-5/64*Hlog(r,[0])*zeta[2]+37/1728-5/192*Hlog(r,[1, 0, 0])-5/96*Hlog(r,[1, 1])-5/96*Hlog(r,[0, 0])+5/192*Hlog(r,[0, 1, 0])+5/192*Hlog(r,[1, 1, 0])+5/192*Hlog(r,[1, 0, 1])+5/96*Hlog(r,[0, 1])+5/96*Hlog(r,[1, 0])+5/192*Hlog(r,[0, 0, 1])-5/192*Hlog(r,[0, 0, 0])-5/192*Hlog(r,[1, 1, 1])-5/192*Hlog(r,[0, 1, 1])+5/96*zeta[3]-5/32*zeta[2])",
+      "-1": "-(-1391/1536*zeta[2]+(-27/64*zeta[2]+5/64*zeta[3]-5/768*zeta[2]*r)*Hlog(r,[1])+(5/768*r+319/2304)*Hlog(r,[1, 0, 1])+(-329/768*zeta[2]+5/64*zeta[3]+5/768*zeta[2]*r)*Hlog(r,[0])+(-25/128*zeta[2]+1321/4608)*Hlog(r,[0, 1])+(-25/128*zeta[2]+1321/4608)*Hlog(r,[1, 0])+(-5/768*r+167/1152)*Hlog(r,[0, 0, 1])+(5/768*r-167/1152)*Hlog(r,[0, 0, 0])+(-5/768*r-319/2304)*Hlog(r,[1, 1, 1])+(5/768*r-167/1152)*Hlog(r,[0, 1, 1])+(-5/768*r-319/2304)*Hlog(r,[1, 0, 0])+(-5/128*zeta[2]-1321/4608)*Hlog(r,[1, 1])+(-5/128*zeta[2]-1321/4608)*Hlog(r,[0, 0])+(-5/768*r+167/1152)*Hlog(r,[0, 1, 0])+(5/768*r+319/2304)*Hlog(r,[1, 1, 0])+193/10368+653/2304*zeta[3]-5/128*Hlog(r,[0, 1, 0, 0])-3/256*zeta[2]^2+5/128*Hlog(r,[1, 1, 1, 0])+5/128*Hlog(r,[1, 0, 1, 0])-5/128*Hlog(r,[1, 1, 1, 1])+5/128*Hlog(r,[1, 1, 0, 1])+5/128*Hlog(r,[0, 0, 1, 0])+5/128*Hlog(r,[1, 0, 0, 1])-5/128*Hlog(r,[1, 0, 1, 1])+5/128*Hlog(r,[0, 0, 0, 1])-5/128*Hlog(r,[1, 1, 0, 0])-5/128*Hlog(r,[1, 0, 0, 0])-5/128*Hlog(r,[0, 0, 1, 1])+5/128*Hlog(r,[0, 1, 1, 0])-5/128*Hlog(r,[0, 1, 1, 1])-5/128*Hlog(r,[0, 0, 0, 0])+5/128*Hlog(r,[0, 1, 0, 1]))",
+      "0": "-(-29969/9216*zeta[2]+(-209/512*zeta[2]^2-5051/3072*zeta[2]+653/1536*zeta[3]-1/144*zeta[2]*r)*Hlog(r,[1])+(-235/768*zeta[2]+1/144*r+15089/27648)*Hlog(r,[1, 0, 1])+(-209/512*zeta[2]^2-15217/9216*zeta[2]+653/1536*zeta[3]+1/144*zeta[2]*r)*Hlog(r,[0])+(15/128*zeta[3]-1655/1536*zeta[2]+30601/27648)*Hlog(r,[0, 1])+(15/128*zeta[3]-1655/1536*zeta[2]+30601/27648)*Hlog(r,[1, 0])+(-235/768*zeta[2]-1/144*r+15281/27648)*Hlog(r,[0, 0, 1])+(235/768*zeta[2]+1/144*r-15281/27648)*Hlog(r,[0, 0, 0])+(235/768*zeta[2]-1/144*r-15089/27648)*Hlog(r,[1, 1, 1])+(-305/768*zeta[2]+1/144*r-15281/27648)*Hlog(r,[0, 1, 1])+(-305/768*zeta[2]-1/144*r-15089/27648)*Hlog(r,[1, 0, 0])+(15/128*zeta[3]-19/96*zeta[2]-30601/27648)*Hlog(r,[1, 1])+(15/128*zeta[3]-19/96*zeta[2]-30601/27648)*Hlog(r,[0, 0])+(-235/768*zeta[2]-1/144*r+15281/27648)*Hlog(r,[0, 1, 0])+(-235/768*zeta[2]+1/144*r+15089/27648)*Hlog(r,[1, 1, 0])+14299/62208+14045/13824*zeta[3]-355/768*Hlog(r,[1, 1, 0, 0, 0])+355/768*Hlog(r,[1, 1, 1, 1, 1])-175/768*Hlog(r,[0, 1, 0, 1, 1])-355/768*Hlog(r,[0, 0, 0, 0, 1])+5/768*Hlog(r,[0, 1, 1, 1, 0])-5/768*Hlog(r,[0, 1, 1, 0, 0])-355/768*Hlog(r,[0, 0, 1, 0, 0])+355/768*Hlog(r,[0, 0, 1, 0, 1])-1189/1536*Hlog(r,[0, 1, 0, 0])-2207/2560*zeta[2]^2-67/192*Hlog(r,[1, 1, 1, 0])+1189/1536*Hlog(r,[1, 0, 1, 0])+67/192*Hlog(r,[1, 1, 1, 1])-67/192*Hlog(r,[1, 1, 0, 1])-67/192*Hlog(r,[0, 0, 1, 0])+1189/1536*Hlog(r,[1, 0, 0, 1])-1189/1536*Hlog(r,[1, 0, 1, 1])-67/192*Hlog(r,[0, 0, 0, 1])+67/192*Hlog(r,[1, 1, 0, 0])-1189/1536*Hlog(r,[1, 0, 0, 0])+67/192*Hlog(r,[0, 0, 1, 1])+1189/1536*Hlog(r,[0, 1, 1, 0])-1189/1536*Hlog(r,[0, 1, 1, 1])+67/192*Hlog(r,[0, 0, 0, 0])+1189/1536*Hlog(r,[0, 1, 0, 1])+185/384*zeta[5]-5/768*Hlog(r,[1, 0, 0, 1, 1])+355/768*Hlog(r,[0, 0, 1, 1, 0])+5/768*Hlog(r,[1, 0, 0, 1, 0])-175/768*Hlog(r,[1, 0, 1, 0, 0])-355/768*Hlog(r,[1, 1, 1, 1, 0])+5/768*Hlog(r,[0, 1, 1, 0, 1])+175/768*Hlog(r,[0, 1, 0, 1, 0])+355/768*Hlog(r,[1, 1, 0, 1, 0])+175/768*Hlog(r,[1, 0, 1, 0, 1])+355/768*Hlog(r,[1, 1, 1, 0, 0])+175/768*Hlog(r,[0, 1, 0, 0, 1])-355/768*Hlog(r,[0, 0, 1, 1, 1])+355/768*Hlog(r,[1, 1, 0, 0, 1])-355/768*Hlog(r,[0, 0, 0, 1, 0])+5/768*Hlog(r,[1, 0, 0, 0, 1])-175/768*Hlog(r,[1, 0, 1, 1, 1])+355/768*Hlog(r,[0, 0, 0, 0, 0])-5/768*Hlog(r,[0, 1, 1, 1, 1])-355/768*Hlog(r,[1, 1, 1, 0, 1])+355/768*Hlog(r,[0, 0, 0, 1, 1])-5/768*Hlog(r,[1, 0, 0, 0, 0])-175/768*Hlog(r,[0, 1, 0, 0, 0])+175/768*Hlog(r,[1, 0, 1, 1, 0])-355/768*Hlog(r,[1, 1, 0, 1, 1])+155/384*zeta[2]*zeta[3])"
+    },
+    "CF*CA*TF*nf": {
+      "-3": "-(1/288)",
+      "-2": "-(1/16*Hlog(r,[1])*zeta[2]+1/16*Hlog(r,[0])*zeta[2]-1/54+1/48*Hlog(r,[1, 0, 0])+1/24*Hlog(r,[1, 1])+1/24*Hlog(r,[0, 0])-1/48*Hlog(r,[0, 1, 0])-1/48*Hlog(r,[1, 1, 0])-1/48*Hlog(r,[1, 0, 1])-1/24*Hlog(r,[0, 1])-1/24*Hlog(r,[1, 0])-1/48*Hlog(r,[0, 0, 1])+1/48*Hlog(r,[0, 0, 0])+1/48*Hlog(r,[1, 1, 1])+1/48*Hlog(r,[0, 1, 1])-1/24*zeta[3]+1/8*zeta[2])",
+      "-1": "-(259/384*zeta[2]-23/2592-121/576*zeta[3]+1/32*Hlog(r,[0, 1, 0, 0])+3/320*zeta[2]^2-1/32*Hlog(r,[1, 1, 1, 0])-1/32*Hlog(r,[1, 0, 1, 0])+1/32*Hlog(r,[1, 1, 1, 1])-1/32*Hlog(r,[1, 1, 0, 1])-1/32*Hlog(r,[0, 0, 1, 0])-1/32*Hlog(r,[1, 0, 0, 1])+1/32*Hlog(r,[1, 0, 1, 1])-1/32*Hlog(r,[0, 0, 0, 1])+1/32*Hlog(r,[1, 1, 0, 0])+1/32*Hlog(r,[1, 0, 0, 0])+1/32*Hlog(r,[0, 0, 1, 1])-1/32*Hlog(r,[0, 1, 1, 0])+1/32*Hlog(r,[0, 1, 1, 1])+1/32*Hlog(r,[0, 0, 0, 0])-1/32*Hlog(r,[0, 1, 0, 1])+(5/16*zeta[2]-1/16*zeta[3]+1/192*zeta[2]*r)*Hlog(r,[1])+(-1/192*r-59/576)*Hlog(r,[1, 0, 1])+(61/192*zeta[2]-1/16*zeta[3]-1/192*zeta[2]*r)*Hlog(r,[0])+(5/32*zeta[2]-245/1152)*Hlog(r,[0, 1])+(5/32*zeta[2]-245/1152)*Hlog(r,[1, 0])+(1/192*r-31/288)*Hlog(r,[0, 0, 1])+(-1/192*r+31/288)*Hlog(r,[0, 0, 0])+(1/192*r+59/576)*Hlog(r,[1, 1, 1])+(-1/192*r+31/288)*Hlog(r,[0, 1, 1])+(1/192*r+59/576)*Hlog(r,[1, 0, 0])+(1/32*zeta[2]+245/1152)*Hlog(r,[1, 1])+(1/32*zeta[2]+245/1152)*Hlog(r,[0, 0])+(1/192*r-31/288)*Hlog(r,[0, 1, 0])+(-1/192*r-59/576)*Hlog(r,[1, 1, 0]))",
+      "0": "-(5257/2304*zeta[2]-2711/15552-2461/3456*zeta[3]+71/192*Hlog(r,[1, 1, 0, 0, 0])-71/192*Hlog(r,[1, 1, 1, 1, 1])+35/192*Hlog(r,[0, 1, 0, 1, 1])+71/192*Hlog(r,[0, 0, 0, 0, 1])-1/192*Hlog(r,[0, 1, 1, 1, 0])+1/192*Hlog(r,[0, 1, 1, 0, 0])+71/192*Hlog(r,[0, 0, 1, 0, 0])-71/192*Hlog(r,[0, 0, 1, 0, 1])+233/384*Hlog(r,[0, 1, 0, 0])+439/640*zeta[2]^2+7/24*Hlog(r,[1, 1, 1, 0])-233/384*Hlog(r,[1, 0, 1, 0])-7/24*Hlog(r,[1, 1, 1, 1])+7/24*Hlog(r,[1, 1, 0, 1])+7/24*Hlog(r,[0, 0, 1, 0])-233/384*Hlog(r,[1, 0, 0, 1])+233/384*Hlog(r,[1, 0, 1, 1])+7/24*Hlog(r,[0, 0, 0, 1])-7/24*Hlog(r,[1, 1, 0, 0])+233/384*Hlog(r,[1, 0, 0, 0])-7/24*Hlog(r,[0, 0, 1, 1])-233/384*Hlog(r,[0, 1, 1, 0])+233/384*Hlog(r,[0, 1, 1, 1])-7/24*Hlog(r,[0, 0, 0, 0])-233/384*Hlog(r,[0, 1, 0, 1])-37/96*zeta[5]+1/192*Hlog(r,[1, 0, 0, 1, 1])-71/192*Hlog(r,[0, 0, 1, 1, 0])-1/192*Hlog(r,[1, 0, 0, 1, 0])+35/192*Hlog(r,[1, 0, 1, 0, 0])+71/192*Hlog(r,[1, 1, 1, 1, 0])-1/192*Hlog(r,[0, 1, 1, 0, 1])-35/192*Hlog(r,[0, 1, 0, 1, 0])-71/192*Hlog(r,[1, 1, 0, 1, 0])-35/192*Hlog(r,[1, 0, 1, 0, 1])-71/192*Hlog(r,[1, 1, 1, 0, 0])-35/192*Hlog(r,[0, 1, 0, 0, 1])+71/192*Hlog(r,[0, 0, 1, 1, 1])-71/192*Hlog(r,[1, 1, 0, 0, 1])+71/192*Hlog(r,[0, 0, 0, 1, 0])-1/192*Hlog(r,[1, 0, 0, 0, 1])+35/192*Hlog(r,[1, 0, 1, 1, 1])-71/192*Hlog(r,[0, 0, 0, 0, 0])+1/192*Hlog(r,[0, 1, 1, 1, 1])+71/192*Hlog(r,[1, 1, 1, 0, 1])-71/192*Hlog(r,[0, 0, 0, 1, 1])+1/192*Hlog(r,[1, 0, 0, 0, 0])+35/192*Hlog(r,[0, 1, 0, 0, 0])-35/192*Hlog(r,[1, 0, 1, 1, 0])+71/192*Hlog(r,[1, 1, 0, 1, 1])-31/96*zeta[2]*zeta[3]+(47/192*zeta[2]-1/288*r-2677/6912)*Hlog(r,[1, 1, 0])+(-3/32*zeta[3]+307/384*zeta[2]-5417/6912)*Hlog(r,[0, 1])+(-3/32*zeta[3]+307/384*zeta[2]-5417/6912)*Hlog(r,[1, 0])+(47/192*zeta[2]+1/288*r-2701/6912)*Hlog(r,[0, 0, 1])+(-47/192*zeta[2]-1/288*r+2701/6912)*Hlog(r,[0, 0, 0])+(-47/192*zeta[2]+1/288*r+2677/6912)*Hlog(r,[1, 1, 1])+(61/192*zeta[2]-1/288*r+2701/6912)*Hlog(r,[0, 1, 1])+(61/192*zeta[2]+1/288*r+2677/6912)*Hlog(r,[1, 0, 0])+(-3/32*zeta[3]+7/48*zeta[2]+5417/6912)*Hlog(r,[1, 1])+(-3/32*zeta[3]+7/48*zeta[2]+5417/6912)*Hlog(r,[0, 0])+(47/192*zeta[2]+1/288*r-2701/6912)*Hlog(r,[0, 1, 0])+(209/640*zeta[2]^2+895/768*zeta[2]-121/384*zeta[3]+1/288*zeta[2]*r)*Hlog(r,[1])+(47/192*zeta[2]-1/288*r-2677/6912)*Hlog(r,[1, 0, 1])+(209/640*zeta[2]^2+2693/2304*zeta[2]-121/384*zeta[3]-1/288*zeta[2]*r)*Hlog(r,[0]))"
+    }
+  },
+  "color_coefficient_semantics": "coefficients of bg(eps)*I and bf(eps)*I; lambda_b^3*(S14+S12) kept outside",
+  "M_representation": {
+    "variables": {
+      "chi": "(1-z)/(1+z)",
+      "r": "1/(1+z)"
+    },
+    "coefficient_field": "Q(z), with explicit zeta(2), zeta(3), and polynomial products of the original M functions",
+    "M_definition": "M(k,j,z)=integral_0^1 W(beta)^k L(beta,z)^j/(beta-z/(1+z)) d beta; W=log(beta*(1-beta)); L=log(z)+log((1-beta)/beta); j>=1; internal point removable",
+    "N_definition": "N(k,j,z)=M(k,j+1,z)-log(z)*M(k,j,z)",
+    "expression_language": "SymPy; M_k_j means the original M(k,j,z), zeta_k=zeta(k)",
+    "coefficients": {
+      "-1": "-(-3*M_0_1*zeta_2/256 + 87*M_0_1/1024 + M_0_2*chi/2048 + 43*M_1_1/1024 + 3*M_2_1/512 - 7*zeta_2/512 + 1/192)",
+      "0": "-(115*M_0_1**2/4096 + 9*M_0_1*M_1_1/512 + 207*M_0_1*zeta_2/2048 - M_0_1*zeta_3/32 + 667*M_0_1/2048 + M_0_2*chi/2048 + 33*M_1_1*zeta_2/512 + 331*M_1_1/2048 + 5*M_1_3/1536 + 129*M_2_1/4096 + 3*M_3_1/1024 + 11*zeta_2/512 - 19*zeta_3/768 + 35/512)"
+    },
+    "common_rational_coefficient_term": "-chi*M_0_2/2048",
+    "functions_needed": [
+      "M_0_1",
+      "M_1_1",
+      "M_0_2",
+      "M_2_1",
+      "M_3_1",
+      "M_1_3"
+    ],
+    "new_special_function_needed": false
+  },
+  "M_representation_reference": {
+    "result": "results/3e-3g+Pi1-07/mn-r002.json",
+    "sha256": "4798a2bf9a89926a5ab08a0bdfb7be92bd6b6e2275bf1c22fa4eb6f69bc1af12",
+    "connection": "I08=I07; both current M expressions are independently checked against the current Hlog coefficients in representation_verification.",
+    "historical_reference": {
+      "result": "results/3e-3g+Pi1-07/mn-r001.json",
+      "sha256": "02a96d868cc75fb48409a04caca2afa48002dcabfcd29abfbb43e8dea5ea4523",
+      "connection": "I08=I07 for all epsilon; two compact-M coefficient identities checked again in the 08 Maple session"
+    }
+  },
+  "exact_relation": {
+    "statement": "I08(eps,z)=I07(eps,z)",
+    "raw_J_statement": "J08(eps,z)=z^(3eps)*J07(eps,1/z)",
+    "scope": "all epsilon, from the regulated identity and meromorphic continuation; fully integrated output through eps^0",
+    "reference_result": "results/3e-3g+Pi1-07/r003.json",
+    "reference_sha256": "fac4e545879c642b4c0eb3214760e9ba467ecc14ac522f1ee842bc3b7389dcb0",
+    "bridge": "workflow/checks/tgv-pi1-08/bridge.json",
+    "formal": "not_run",
+    "historical_reference": {
+      "result": "results/3e-3g+Pi1-07/r001.json",
+      "sha256": "3147a290c8a2a8719805ac82074f782b2b3cd60d9891fe51d7f91fd3869c1184",
+      "scope": "Original kernel/domain bridge; both primary I values acquire the same r001-to-r002 sign."
+    }
+  },
+  "all_epsilon": {
+    "fully_integrated_closed_form": false,
+    "remaining_dimension": 1,
+    "exact_reduced_representation": "J08(e,z)=z^(3e)*[J07_elem(e,1/z)+J07_reg(e,1/z)], with the exact one-dimensional 07 representation; I08=I07"
+  },
+  "initial_region": "z>0, A0>0, 0<Re(eps)<1/3; finite common eta and symmetric alpha cutoff first, then boundary limits and meromorphic epsilon continuation",
+  "formal": "not_run",
+  "limitations": [
+    "No callable Wilson mathematical MCP; no formal receipt",
+    "The complete 07 integration and its M representation are reused through an explicit full-integral bridge; not an independent re-integration of 08",
+    "All-epsilon fully integrated closed form and all-epsilon M/N closure remain open",
+    "No general complex kinematics continuation or independent 5D numerical integration",
+    "Six regulated pointwise checks are not interval certificates; full physical scale assembly and RG not performed"
+  ],
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "legacy_input": {
+    "package": "benchmarks/self-energy/tgv-pi1/sources/montopar-r001.json",
+    "sha256": "cc9a45b9a3aecd1437fea5fbe222680f67001f8137c09cb38f46ba6fff337e90",
+    "scope": "Historical r001 root; the r001-to-r002 native-C migration is retained in migration."
+  },
+  "input": {
+    "native_package": "benchmarks/self-energy/tgv-pi1/sources/montopar-r002.json",
+    "native_package_sha256": "72436e94de62c72f7231e08851052268ba59bc20b28406d3fc91ba2fe8f189b5",
+    "orbit_id": "3e-3g+Pi1-08",
+    "assembly_sign": 1
+  },
+  "legacy_evidence": {
+    "evidence": "workflow/checks/tgv-pi1-08/README.md"
+  },
+  "migration": {
+    "legacy_result": {
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-08/r001.json",
+      "sha256": "dee87cbb5b7b45fcfa83d883641b754425c58d8b74aaaf1cdfe6dee0dfbad4c3"
+    },
+    "factor_from_native_CJ": -1,
+    "basis": "same J/domain/branch and C_native/C_legacy from native-check.json; integral linearity",
+    "new_integration_performed": false,
+    "old_formal_status_not_inherited": true,
+    "scope": "Historical r001-to-r002 physical-sign migration; r003 preserves the r002 primary result."
+  },
+  "native_verification": "workflow/checks/shared-sign-production/publication-check.json",
+  "native_verification_scope": "Historical native-source/sign checks; r003 representation and reference checks are recorded separately.",
+  "representation_verification": "workflow/checks/tgv-pi1-representation-r003/verification.json",
+  "representation_revision": {
+    "previous_result": {
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-08/r002.json",
+      "sha256": "6064cdb61008ca5571919231ee3c4a7323488638daa9ca8bd5467d572aa6c8fc"
+    },
+    "factor_on_primary_I": 1,
+    "primary_laurent_coefficients_changed": false,
+    "new_integration_performed": false,
+    "formal_status": "not_run",
+    "reason": "Correct auxiliary representations and bind all current inputs/references explicitly.",
+    "corrected_fields": [
+      "M_representation.coefficients",
+      "M_representation.common_rational_coefficient_term"
+    ]
+  }
+}

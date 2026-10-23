@@ -1,0 +1,229 @@
+{
+  "format": "wilson-N4-three-loop-UV-coordinate-bridge-research/1",
+  "revision": "r002",
+  "date": "2026-10-19",
+  "all_passed": true,
+  "exact_checks": [
+    {
+      "name": "project bare factor to native Euler Gamma",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "closed bare factor to native Euler Gamma",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "FGM_local bare factor to native Euler Gamma",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "closed scale is twice project scale",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "FGM local scale is twice original closed scale",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "same invariant log, closed vs project",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "same invariant log, FGM local vs project",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "closed one-loop double pole",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "closed one-loop single pole",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "raw finite maps to accepted one loop at rho=i*pi",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "accepted N4 two-loop k2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "accepted N4 two-loop h2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "N4 h2 from independent G0 and B holdout",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "two-loop both QCD colors physical geometry holdout",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "N4 finite strict Laurent after full scale powers",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA independent full QCD cusp",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA independent full QCD Gamma_Box/2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA full finite RG with independent references",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af independent full QCD cusp",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af independent full QCD Gamma_Box/2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af full finite RG with independent references",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff independent full QCD cusp",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff independent full QCD Gamma_Box/2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff full finite RG with independent references",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff independent full QCD cusp",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff independent full QCD Gamma_Box/2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff full finite RG with independent references",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "C3 affects only AA finite constant",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "primitive_cusp_numeric_controls": [
+    {
+      "eps": "0.2",
+      "q": "0.7",
+      "normalized_error": "0.0",
+      "passed": true
+    },
+    {
+      "eps": "0.2",
+      "q": "1.3",
+      "normalized_error": "2.39382871532e-81",
+      "passed": true
+    },
+    {
+      "eps": "0.35",
+      "q": "0.7",
+      "normalized_error": "0.0",
+      "passed": true
+    },
+    {
+      "eps": "0.35",
+      "q": "1.3",
+      "normalized_error": "0.0",
+      "passed": true
+    },
+    {
+      "eps": "0.55",
+      "q": "0.7",
+      "normalized_error": "0.0",
+      "passed": true
+    },
+    {
+      "eps": "0.55",
+      "q": "1.3",
+      "normalized_error": "3.15025284308e-81",
+      "passed": true
+    }
+  ],
+  "source_bindings": {
+    "workflow/checks/matter-rg-20261017/check.py": "83267178865ffe75de6ea7bd8702d0e7b8bc032d2cff39585fa35075c0c18572",
+    "benchmarks/renormalization/one-loop/result-r001.json": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+    "benchmarks/renormalization/two-loop/result-r002.json": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+    "benchmarks/renormalization/n4-two-loop/comparison-r002.json": "b444aa6a0e52b13484022ceaeb495b329358de25112bc7573c919ca64802c113",
+    "workflow/checks/n4-five-family-20261019/renormalized-difference-r001.json": "0c36498671e001feec3582fe428fde33da8ba921f2bc6d8ebaa21bae980865d4",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b"
+  },
+  "downloaded_source_sha256": {
+    "D:/wilson-agent/.wilson/literature/n4-uv-bridge-20261019/9303314-source.tar": "5a433c943a2484e4b081fae1f9f33f7e68649352cb243b640461150d5c9d1c39",
+    "D:/wilson-agent/.wilson/literature/n4-uv-bridge-20261019/9303314-source.tex": "1a5296ce30f6dc447434d15c26c5f2a1ffe0e702f8f7ba074bdc15f0ac2d2f07",
+    "D:/wilson-agent/.wilson/literature/n4-uv-bridge-20261019/1909-source.tar": "b2496e835dd7a1083cea8670d8eba1df236894d71b129c385a93d994a3ba19d6",
+    "D:/wilson-agent/.wilson/literature/n4-uv-bridge-20261019/1909-asset-36.tex": "83dc60752f2f1d756f89e87dc49bfd2fe29aacf9b40b1914c3b931751fdd4971",
+    "D:/wilson-agent/.wilson/literature/n4-uv-bridge-20261019/1909-asset-37.tex": "5a3092d6b2fd4909593ecd2a38fcc28464920e5458f5ab7a85735d5742870fb2"
+  },
+  "bare_coupling": "g_B^2 mu0^(2eps)=4 pi^2 lambda (mu_MSbar^2 exp(EulerGamma)/(4pi))^eps Z_lambda",
+  "Euler_G": "exp(-EulerGamma eps) Gamma(1-eps), exactly one per loop",
+  "coordinate_scales": {
+    "mu_x2": "exp(2 gamma_E) mu_MSbar2/4",
+    "mu_closed2": "exp(2 gamma_E) mu_MSbar2/2",
+    "mu_FGM_local2": "exp(2 gamma_E) mu_MSbar2"
+  },
+  "log_connection": "s=2 n.nstar; mu_closed2*(n.nstar)=mu_x2*s; mu_closed2=mu_FGM_local2/2. Distinguish local integration scale from inherited closed-contour geometric scale.",
+  "scale_map_not_fitted": "Obtained from raw pi, 2pi and 4pi factors and the common bare coupling before comparing any h coefficient. Full primitive one-loop finite branch and low-loop data are holdouts.",
+  "geometry_source": {
+    "url": "https://arxiv.org/pdf/1909.00697",
+    "equations": [
+      "(5.5)",
+      "(5.8)-(5.11)",
+      "(5.15)",
+      "(5.16)"
+    ],
+    "operator": "closed four-finite-segment Wilson loop; Gamma_Box=4*(Gamma_cap-Gamma_wedge)=4*f_eik, not four independent infinite wedge constants"
+  },
+  "N4_h3_over_CFCA2": "11*pi**2*zeta(3)/36 + 6*zeta(5)",
+  "N4_k3_over_CFCA2": "11*pi**4/720",
+  "N4_F3_over_CFCA2": "C3_N4 - 11*pi**4*L**2/720 - 6*L*zeta(5) - 11*pi**2*L*zeta(3)/36 + 11*pi**4*rho**2/2880",
+  "h3_adopted_research": true,
+  "C3_determined": false,
+  "adoption_boundary": "Published finite-line geometry factorisation/UV-locality relation and independently known N4 G0 and B through three loops; checked against raw low-loop normalization and four QCD h3 channels. Not a primitive three-loop UV integration or formal proof.",
+  "printed_1712_diagnostic": "Phase-1 literal-sign residual remains historical. This bridge uses the explicit finite-line RG object, not a silent sign flip in (2.7). No author erratum is asserted.",
+  "formal": "not_run",
+  "selector_changed": false
+}

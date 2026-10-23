@@ -1,0 +1,227 @@
+{
+  "revision": "r002",
+  "status": "passed_with_open_convention_gap",
+  "checks": [
+    {
+      "name": "literal per-cusp geometric offset is log2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "four-cusp literal sum is 4L+4log2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "RG dictionary requires Gamma_paper=2h-4Klog2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "negative: direct Gamma_paper=2h ignores literal log2",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "-4*K*log(2)"
+    },
+    {
+      "name": "negative: one-loop literal comparison already fails",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "4*CF*log(2)"
+    },
+    {
+      "name": "two-loop arithmetic candidate CA",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "negative: two-loop literal physical bridge CA",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "-(-67 + 3*pi**2)*log(2)/9"
+    },
+    {
+      "name": "two-loop arithmetic candidate T",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "negative: two-loop literal physical bridge T",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "-20*log(2)/9"
+    },
+    {
+      "name": "three-loop arithmetic candidate only CF*CA*TF*nf",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "negative: three-loop literal dictionary cannot be silently used CF*CA*TF*nf",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "(-252*zeta(3) - 209 + 20*pi**2)*log(2)/54"
+    },
+    {
+      "name": "three-loop arithmetic candidate only CF^2*TF*nf",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "negative: three-loop literal dictionary cannot be silently used CF^2*TF*nf",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "(-55 + 48*zeta(3))*log(2)/12"
+    },
+    {
+      "name": "three-loop arithmetic candidate only CF*(TF*nf)^2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "negative: three-loop literal dictionary cannot be silently used CF*(TF*nf)^2",
+      "passed": true,
+      "negative_control": true,
+      "nonzero_residual": "-4*log(2)/27"
+    },
+    {
+      "name": "constant logarithm redefinition shifts Gamma by 4cK",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "finite Wilson normalization affects two-loop Gamma",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "finite Wilson normalization affects three-loop Gamma",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "unaffected raw-source nf2 finite shape",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "unaffected raw-source nf2 single-pole constant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "unaffected raw-source cff finite shape",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "unaffected raw-source cff single-pole constant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "renamed C2 adjacent plus boundary identity",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "renamed C3 adjacent plus boundary identity",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "checks_passed": 24,
+  "negative_controls": 7,
+  "external_physical_non_cusp_validation": "not_established; arithmetic equality is a conditional candidate",
+  "literal_per_cusp_log_offset": "log(2)",
+  "literal_required_relation": "Gamma_paper=2*h-4*K*log(2)",
+  "literal_dictionary_controls": [
+    {
+      "loop": 2,
+      "color": "CA",
+      "reported_candidate": "-7*zeta(3) - 11*pi**2/36 + 202/27",
+      "required_by_literal_dictionary": "-7*zeta(3) - 11*pi**2/36 - (67/9 - pi**2/3)*log(2) + 202/27",
+      "nonzero_residual": "-pi**2*log(2)/3 + 67*log(2)/9"
+    },
+    {
+      "loop": 2,
+      "color": "T",
+      "reported_candidate": "-56/27 + pi**2/9",
+      "required_by_literal_dictionary": "-56/27 + pi**2/9 + 20*log(2)/9",
+      "nonzero_residual": "-20*log(2)/9"
+    },
+    {
+      "loop": 3,
+      "color": "CF*CA*TF*nf",
+      "reported_candidate": "-pi**4/15 - 5921/2916 + 91*zeta(3)/27 + 707*pi**2/972",
+      "required_by_literal_dictionary": "-pi**4/15 - 5921/2916 - (-14*zeta(3)/3 - 209/54 + 10*pi**2/27)*log(2) + 91*zeta(3)/27 + 707*pi**2/972",
+      "nonzero_residual": "-14*log(2)*zeta(3)/3 - 209*log(2)/54 + 10*pi**2*log(2)/27"
+    },
+    {
+      "loop": 3,
+      "color": "CF^2*TF*nf",
+      "reported_candidate": "-1711/216 + pi**2/12 + pi**4/45 + 38*zeta(3)/9",
+      "required_by_literal_dictionary": "-1711/216 - (-55/12 + 4*zeta(3))*log(2) + pi**2/12 + pi**4/45 + 38*zeta(3)/9",
+      "nonzero_residual": "-55*log(2)/12 + 4*log(2)*zeta(3)"
+    },
+    {
+      "loop": 3,
+      "color": "CF*(TF*nf)^2",
+      "reported_candidate": "-520/729 - 5*pi**2/81 + 28*zeta(3)/27",
+      "required_by_literal_dictionary": "-520/729 - 5*pi**2/81 + 4*log(2)/27 + 28*zeta(3)/27",
+      "nonzero_residual": "-4*log(2)/27"
+    }
+  ],
+  "open_requirements": [
+    "Documented mapping of the mu in Eqs.(4.5)-(4.6) to the mu/geometric normalization in Eqs.(5.8)-(5.10)",
+    "If needed, original ref.62 scale definition and finite Wilson subtraction convention",
+    "Any proposed scale/finite-normalization bridge must be derived without fitting three-loop h"
+  ],
+  "raw_source_nf2_cff_finite_shape_result": "unchanged and exact comparison rechecked",
+  "numeric_r001_rerun": false,
+  "r001_frozen_files_preserved": {
+    "benchmarks/renormalization/theory/matter-independent-20261017/derivation.md": "e3baaa928bdcdd63bf73b76a01b10f9050026b1685997779513b3a72084501ee",
+    "workflow/checks/matter-independent-20261017/cache_paper.py": "d2406efb553e4485a481d566cfa8457901c5f3ca84fd88a189eaa08f63548fca",
+    "workflow/checks/matter-independent-20261017/handoff-validation.json": "6bb3371d76b67706593adba7156919bbe267d7e222524ccce7bce6934ca96d60",
+    "workflow/checks/matter-independent-20261017/HANDOFF.md": "e2152472dc91df7c58238c5a18740f0d6ade16bf26528631311f0e72cd956f69",
+    "workflow/checks/matter-independent-20261017/literature_search.py": "28b98e0eb9db41c43e47b0363a0eaa6cda066f15812106a40945d7c6a0b20ea7",
+    "workflow/checks/matter-independent-20261017/raw-source-predictions.json": "785079c3bc08bc4803565e65d8027a1b01d116aea1c1b6700e0a78a22fad4f34",
+    "workflow/checks/matter-independent-20261017/README.md": "ad368977e92e3793a729f43c8a37266c786b801fbdf6106ea3311adb0e4947cd",
+    "workflow/checks/matter-independent-20261017/reference.json": "ee4ee54a9c1b1144465e7003b97be60307396115a5b5bcdc9838b4d35af3b256",
+    "workflow/checks/matter-independent-20261017/validate_handoff.py": "a9f65bc70b072b2e7ec5a67333286452eddf86603813d747b0ba2cdf12f88214",
+    "workflow/checks/matter-independent-20261017/verification.json": "1428f6d08f059b95c7e63d5374bf0e1fb01a55ee130aae44acfdf5724194729c",
+    "workflow/checks/matter-independent-20261017/verify.py": "ba3a8608097dd8433199f1d341e9870ed39c29fba9d3cec95dd0a00736e3fceb",
+    "workflow/checks/matter-independent-20261017/files.sha256.json": "0f8e0bfd92270f1770b0f3cc2e6a19b4b3cda12b2cad6a4b3a40eb14dec5d0de"
+  },
+  "source_sha256": {
+    "frozen-r001/files.sha256.json": "0f8e0bfd92270f1770b0f3cc2e6a19b4b3cda12b2cad6a4b3a40eb14dec5d0de",
+    "frozen-r001/reference.json": "ee4ee54a9c1b1144465e7003b97be60307396115a5b5bcdc9838b4d35af3b256",
+    "frozen-r001/verification.json": "1428f6d08f059b95c7e63d5374bf0e1fb01a55ee130aae44acfdf5724194729c",
+    "frozen-r001/raw-source-predictions.json": "785079c3bc08bc4803565e65d8027a1b01d116aea1c1b6700e0a78a22fad4f34",
+    "repository/benchmarks/self-energy/pi1/prepared/2e-Pi1-r002.json": "1f96bec54d246915abe921bc30b7ab11802da47e65d59efd82cb530d735366a0",
+    "repository/benchmarks/self-energy/pi1-chain/prepared/2e-Pi1+Pi1-r002.json": "55b7bcc3980f99aa8dda0a48bc8e4e43d3514a3e13f6ae4119745ef8c4359dc3",
+    "repository/benchmarks/self-energy/pi2/prepared/2e-Pi2-r002.json": "ac3982e22696d35d299b8146a7c3beb4df21f12423caa1f7cbde221b14dbdeb3",
+    "repository/benchmarks/self-energy/current-r002.json": "b141e672ae85e4cb119413968115e9da3cc8852f14f2b422f2f7d4b756c9eddd",
+    "repository/benchmarks/renormalization/one-loop/result-r001.json": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+    "repository/benchmarks/renormalization/three-loop/current.json": "0a196bf93d0995edc9ade3b1aabb26e8c79e9a39a33868f8c9a96acb505a7100",
+    "repository/benchmarks/renormalization/three-loop/counterterms-r001.json": "8418c4be88da475c58796385e647a2d6d2c9ee186acf8a9b7a4883e6e116810e",
+    "repository/benchmarks/renormalization/three-loop/matter-channels-r001.json": "de3f1a6db8bd6278114aabcb1cdcc9f6f77909b4015c05048bcc91d7fac79727",
+    "repository/benchmarks/renormalization/three-loop/results/CF-CA-TF-nf/r001.json": "bbf1aac15c171e30388a7bfa045a03eb52d32ae8c61e4c483e2134d222f0210d",
+    "repository/benchmarks/renormalization/two-loop/result-r002.json": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+    "repository/workflow/checks/w3-ca-nf/physical.mpl": "f54c3bc53e2b5b238fd2159ad0d9befd477da698f5e8852a62148c0a90436d86",
+    "repository/workflow/checks/w3-ca-nf/source_inputs.mpl": "94fd6b172a428dbaf6de14ca373f527d4aa731b7f61b4370d6435de28d70dce3",
+    "repository/workflow/checks/w3-p0/nf2.py": "d4f0995d9a2bc681d87049520276a52c9d6a3db37d8710ec3f52db2cadff4f96",
+    "repository/workflow/checks/w3-p0/cff.py": "78565541317b13e872d8f33af54d97bf46a1a4f3c9a8663caa9b8eceac4a9916",
+    "repository/benchmarks/renormalization/one-loop/derivation.md": "9153b3b9b89d5551ca537d3d10d96c0aa8f9693a0d852332f678e1b0a31a54cf",
+    "repository/workflow/checks/rg-one-loop/calculate.py": "e6d88f31b224d260b222fa23ce7f37a954acbbb2a154de7466d32024ac0bb2bd"
+  },
+  "notation_correction": {
+    "crossing_denominator_R_n": "1+z^(n*eps)",
+    "external_scale_S_n": "exp(n*eps*L_t)*R_n",
+    "old_Eq12_13_R2_R3_meaning": "public C prefactors; renamed mathcal C2/C3, not the crossing denominator",
+    "mathcal_C2": "-G^2/(16*eps*(1-2*eps))",
+    "mathcal_C3": "-P/(128*eps^2*(1-2*eps)^2)"
+  },
+  "formal": "not_run",
+  "mathematical_results_or_selectors_changed": false
+}

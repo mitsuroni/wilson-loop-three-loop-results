@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "date": "2026-10-23",
+  "sources_verified": 185,
+  "channel_and_diagram_semantic_equality": true,
+  "commands": [
+    {
+      "script": "sources\\workflow\\checks\\matter-rg-20261017\\check.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"passed\", \"date\": \"2026-10-17\", \"graphs\": 31, \"checks\": 452, \"negative_controls\": 7, \"colors\": [\"CF*(TF*nf)^2\", \"CF^2*TF*nf\", \"CF*CA*TF*nf\"], \"w1_maximum_consumed_epsilon_power\": 2, \"w2_maximum_consumed_epsilon_power\": 1, \"w3_maximum_consumed_epsilon_power\": 0, \"current_analytic_reuse\": true, \"historical_sum_canonicalization_reused\": true, \"formal\": \"not_run\", \"complete_w3\": false, \"independent_h3_verification\": false, \"independent_finite_shape_verification\": false, \"elapsed_seconds\": 6.769, \"python_sympy_version\": \"1.14.0\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "reproduce\\build_coefficients.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"passed\", \"checks\": 324, \"negative_controls\": 4, \"elapsed_seconds\": 3.871, \"sympy_version\": \"1.14.0\", \"integral_evaluation\": \"not_run\", \"formal\": \"not_run\", \"scope\": \"Exact algebra, selected-expression conversions and compact-stage reconstruction; not independent proofs of original integrals or external noncusp/finite-shape verification.\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "reproduce\\build_diagrams.py",
+      "returncode": 0,
+      "stdout": "{\n  \"unique_diagrams\": 31,\n  \"channel_occurrences\": 35,\n  \"occurrences_by_channel\": {\n    \"Af\": 31,\n    \"ff\": 2,\n    \"Ff\": 2\n  },\n  \"family_counts\": {\n    \"Pi1\": 11,\n    \"chain\": 2,\n    \"Pi2\": 2,\n    \"legs\": 12,\n    \"Gamma\": 4\n  },\n  \"coefficient_range\": [\n    -6,\n    0\n  ],\n  \"weighted_coefficient_count\": 245,\n  \"native_unweighted_coefficient_count\": 217,\n  \"coefficient_fields_matched_to_fresh_replay\": 35,\n  \"native_unweighted_zero_origin_counts\": {\n    \"explicit source coefficient\": 54,\n    \"zero established by source pole metadata\": 20\n  },\n  \"fresh_per_diagram_comparison_count\": 217,\n  \"source_files\": 160,\n  \"output_dir\": \"D:\\\\wilson-agent\\\\.wilson\\\\worktrees\\\\WILSON-5.16-matter-delivery\\\\workflow\\\\checks\\\\three-matter-channels-20261023\\\\portable-replay-r2\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "reproduce\\verify_uv.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"passed\", \"checks\": 115, \"output_dir\": \"D:\\\\wilson-agent\\\\.wilson\\\\worktrees\\\\WILSON-5.16-matter-delivery\\\\workflow\\\\checks\\\\three-matter-channels-20261023\\\\portable-replay-r2\", \"source_files\": 17}\n",
+      "stderr": ""
+    },
+    {
+      "script": "reproduce\\numeric_samples.py",
+      "returncode": 0,
+      "stdout": "{\"status\": \"passed\", \"samples\": 18, \"checks\": 24}\n",
+      "stderr": ""
+    }
+  ]
+}

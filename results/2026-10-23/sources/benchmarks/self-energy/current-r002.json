@@ -1,0 +1,444 @@
+{
+  "format": "wilson-self-energy-current/2",
+  "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+  "operator": "Pi_L=-i*(k^2*g-k*k)*P_L; all scalar/color/internal signs retained",
+  "dyson": "D=D0+D0*Pi*D0+D0*Pi*D0*Pi*D0+...",
+  "external_source_sign": 1,
+  "entries": [
+    {
+      "orbit_id": "2e-Pi1-01",
+      "family": "2e-Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1/sources/2e-Pi1-r002.json",
+        "sha256": "e34105f56dabbcde06c96ac984e4ee07d0a27fd042031a8b82f93f42f11bf170"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1/prepared/2e-Pi1-r002.json",
+        "sha256": "1f96bec54d246915abe921bc30b7ab11802da47e65d59efd82cb530d735366a0"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1/results/2e-Pi1-01/r002.json",
+        "sha256": "122067c4f01aa9942db2e9040b577416c83c8439d2baa7c4b1ac1d18e21646c7"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1/results/2e-Pi1-01/r001.json",
+        "sha256": "3876fb9f0dac4197cb4cbf5c8fe0ef65e9b101414857f8f009a8c727022610f1"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "2e-Pi1-02",
+      "family": "2e-Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1/sources/2e-Pi1-r002.json",
+        "sha256": "e34105f56dabbcde06c96ac984e4ee07d0a27fd042031a8b82f93f42f11bf170"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1/prepared/2e-Pi1-r002.json",
+        "sha256": "1f96bec54d246915abe921bc30b7ab11802da47e65d59efd82cb530d735366a0"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1/results/2e-Pi1-02/r002.json",
+        "sha256": "8b214b54a6e32f78804d0f1bfa3077488abeaa6114f9ed89fe825446056cd0a8"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1/results/2e-Pi1-02/r001.json",
+        "sha256": "c3924b360fe0ecf5dcd8e30460837ca04301108ceb3a95fe4cdb89b080978afe"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "4e-Pi1-01",
+      "family": "4e-Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1/sources/4e-Pi1-r002.json",
+        "sha256": "48bc1ce7ad3ffd0c1a789bf076a603dd57e6b1b6586cafefc6441b8b612b6ac7"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1/prepared/4e-Pi1-r002.json",
+        "sha256": "0dd32c10c05c1a0f1e832508744022434d7f2517af02ba837bceb1be546cc62d"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-01/r002.json",
+        "sha256": "22da1c140fa1da316d4859388cf1d6fe66bcfcfc5df5e58c1b88629d71dcb0f5"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-01/r001.json",
+        "sha256": "a303e0e2c70f2d32aa1b3670ae7d4cd960f0e6642262daf46b57e3e84cc9eee9"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "4e-Pi1-02",
+      "family": "4e-Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1/sources/4e-Pi1-r002.json",
+        "sha256": "48bc1ce7ad3ffd0c1a789bf076a603dd57e6b1b6586cafefc6441b8b612b6ac7"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1/prepared/4e-Pi1-r002.json",
+        "sha256": "0dd32c10c05c1a0f1e832508744022434d7f2517af02ba837bceb1be546cc62d"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-02/r002.json",
+        "sha256": "f4ef60739c56f6950b523a6b6755f5c19b4020f34f34564ca6480cc8198451c5"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-02/r001.json",
+        "sha256": "84413995df2bcaa09a0d7c6412c78d08126110113a5db2991668c559ad0b4ba5"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "4e-Pi1-03",
+      "family": "4e-Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1/sources/4e-Pi1-r002.json",
+        "sha256": "48bc1ce7ad3ffd0c1a789bf076a603dd57e6b1b6586cafefc6441b8b612b6ac7"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1/prepared/4e-Pi1-r002.json",
+        "sha256": "0dd32c10c05c1a0f1e832508744022434d7f2517af02ba837bceb1be546cc62d"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-03/r002.json",
+        "sha256": "928e181315e388c55416e507eadfc496fc07132eab9c656d80dd5ebb6b624354"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-03/r001.json",
+        "sha256": "001d63e10ea8fe02b08169510377c534e8ce665ff2d04dc8af9a865533ec521f"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "4e-Pi1-04",
+      "family": "4e-Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1/sources/4e-Pi1-r002.json",
+        "sha256": "48bc1ce7ad3ffd0c1a789bf076a603dd57e6b1b6586cafefc6441b8b612b6ac7"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1/prepared/4e-Pi1-r002.json",
+        "sha256": "0dd32c10c05c1a0f1e832508744022434d7f2517af02ba837bceb1be546cc62d"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-04/r002.json",
+        "sha256": "cb67dd178a5f02cb9c3dbd9b34a29f47a4054fb0be19cb85d09687abcce16cd9"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-04/r001.json",
+        "sha256": "f5c55a9f4e8e1c011c235a30508e9321b6d52c1677c8f56d22711b25f6b175dc"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "4e-Pi1-05",
+      "family": "4e-Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1/sources/4e-Pi1-r002.json",
+        "sha256": "48bc1ce7ad3ffd0c1a789bf076a603dd57e6b1b6586cafefc6441b8b612b6ac7"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1/prepared/4e-Pi1-r002.json",
+        "sha256": "0dd32c10c05c1a0f1e832508744022434d7f2517af02ba837bceb1be546cc62d"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-05/r002.json",
+        "sha256": "6869b5e35cb56aaf77f19b80ac55bab5e45869f06da10c705caf26e83494a2b4"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-05/r001.json",
+        "sha256": "5bf4608bbe8fbd5b463d39c4c8dfbf2504722f3b195559a7201f2e2bdd3b9bf5"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "4e-Pi1-06",
+      "family": "4e-Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1/sources/4e-Pi1-r002.json",
+        "sha256": "48bc1ce7ad3ffd0c1a789bf076a603dd57e6b1b6586cafefc6441b8b612b6ac7"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1/prepared/4e-Pi1-r002.json",
+        "sha256": "0dd32c10c05c1a0f1e832508744022434d7f2517af02ba837bceb1be546cc62d"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-06/r002.json",
+        "sha256": "9da31233ebc761d2d659ec28ab4e8022c42f730865d49e8d2cf3abe66fa084f6"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-06/r001.json",
+        "sha256": "8d21432415f71edfdc44d3fbce1136653b27db0a222a72cc1f8b9d2c8d8a8251"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "4e-Pi1-07",
+      "family": "4e-Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1/sources/4e-Pi1-r002.json",
+        "sha256": "48bc1ce7ad3ffd0c1a789bf076a603dd57e6b1b6586cafefc6441b8b612b6ac7"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1/prepared/4e-Pi1-r002.json",
+        "sha256": "0dd32c10c05c1a0f1e832508744022434d7f2517af02ba837bceb1be546cc62d"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-07/r002.json",
+        "sha256": "baafb42f20e8266ad5b5eca46db2d00eac1c2727226e8c5dd86eb1812517d8d9"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-07/r001.json",
+        "sha256": "58a21c87a7117f9fc0ee93756698245e171a2c2562175dd0aea3f9e612988afb"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "4e-Pi1-08",
+      "family": "4e-Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1/sources/4e-Pi1-r002.json",
+        "sha256": "48bc1ce7ad3ffd0c1a789bf076a603dd57e6b1b6586cafefc6441b8b612b6ac7"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1/prepared/4e-Pi1-r002.json",
+        "sha256": "0dd32c10c05c1a0f1e832508744022434d7f2517af02ba837bceb1be546cc62d"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-08/r002.json",
+        "sha256": "c14243865814c45343f68cc8990f8793356c7c23d88e7a62058b69b599c100dd"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-08/r001.json",
+        "sha256": "23a1992ec5c9ffe96f691effc94f3e50c3b7a28ef8e38c740273af4a3d7819b9"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "4e-Pi1-09",
+      "family": "4e-Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1/sources/4e-Pi1-r002.json",
+        "sha256": "48bc1ce7ad3ffd0c1a789bf076a603dd57e6b1b6586cafefc6441b8b612b6ac7"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1/prepared/4e-Pi1-r002.json",
+        "sha256": "0dd32c10c05c1a0f1e832508744022434d7f2517af02ba837bceb1be546cc62d"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-09/r002.json",
+        "sha256": "753efcab2092a5954ce44bc0b91f8880fc9e1943b7fed9648b75085165ad85d3"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-09/r001.json",
+        "sha256": "be0c164bf5d58a5837de92175e0950fd0d010753e89c28884df0558cf47d527f"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "4e-Pi1-10",
+      "family": "4e-Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1/sources/4e-Pi1-r002.json",
+        "sha256": "48bc1ce7ad3ffd0c1a789bf076a603dd57e6b1b6586cafefc6441b8b612b6ac7"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1/prepared/4e-Pi1-r002.json",
+        "sha256": "0dd32c10c05c1a0f1e832508744022434d7f2517af02ba837bceb1be546cc62d"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-10/r002.json",
+        "sha256": "75654d49701d92ad1c0fca96febd12d6ee9d8ae296a84525aa80ae89dfc2ebe4"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-10/r001.json",
+        "sha256": "93fbcca716712da8805b35ba39920c259eba1f223ffa380fdde30fef1b031508"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "4e-Pi1-11",
+      "family": "4e-Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1/sources/4e-Pi1-r002.json",
+        "sha256": "48bc1ce7ad3ffd0c1a789bf076a603dd57e6b1b6586cafefc6441b8b612b6ac7"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1/prepared/4e-Pi1-r002.json",
+        "sha256": "0dd32c10c05c1a0f1e832508744022434d7f2517af02ba837bceb1be546cc62d"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-11/r002.json",
+        "sha256": "f04657a1aab9b963470d66587a2886628d2cb9bf9c59fa92f64a22f4fa666fef"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-11/r001.json",
+        "sha256": "7251bc8a92bbbfd909654b01eb095559795edbb4956c1d45f4ef9b7f5cad5aa1"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-01",
+      "family": "2e-Pi1+Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1-chain/sources/2e-Pi1+Pi1-r002.json",
+        "sha256": "59ffef3b48dd00afe81602e25541a9795374b4e71e9eaacacd6d5a314b65f100"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1-chain/prepared/2e-Pi1+Pi1-r002.json",
+        "sha256": "55b7bcc3980f99aa8dda0a48bc8e4e43d3514a3e13f6ae4119745ef8c4359dc3"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r002.json",
+        "sha256": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r001.json",
+        "sha256": "4db361068eabb2c36609f53861a709242736c4c7c54921149ce1dad16499c8ab"
+      },
+      "legacy_to_current": 1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-02",
+      "family": "2e-Pi1+Pi1",
+      "raw": {
+        "path": "benchmarks/self-energy/pi1-chain/sources/2e-Pi1+Pi1-r002.json",
+        "sha256": "59ffef3b48dd00afe81602e25541a9795374b4e71e9eaacacd6d5a314b65f100"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi1-chain/prepared/2e-Pi1+Pi1-r002.json",
+        "sha256": "55b7bcc3980f99aa8dda0a48bc8e4e43d3514a3e13f6ae4119745ef8c4359dc3"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json",
+        "sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r001.json",
+        "sha256": "082c1332c631b4125d2c1b1a827e85b89e182311e837564ac302114e7796bf60"
+      },
+      "legacy_to_current": 1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "2e-Pi2-01",
+      "family": "2e-Pi2",
+      "raw": {
+        "path": "benchmarks/self-energy/pi2/sources/2e-Pi2-r002.json",
+        "sha256": "753808e0876880061a255d8b945a10603b77f4c5532911626479c0c8257a845b"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi2/prepared/2e-Pi2-r002.json",
+        "sha256": "ac3982e22696d35d299b8146a7c3beb4df21f12423caa1f7cbde221b14dbdeb3"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi2/results/2e-Pi2-01/r002.json",
+        "sha256": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi2/results/2e-Pi2-01/r001.json",
+        "sha256": "2cd5af7178ab4cc59f102cd1fe334488395f1e6cebf581cb76dc6c2dd8945b74"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    },
+    {
+      "orbit_id": "2e-Pi2-02",
+      "family": "2e-Pi2",
+      "raw": {
+        "path": "benchmarks/self-energy/pi2/sources/2e-Pi2-r002.json",
+        "sha256": "753808e0876880061a255d8b945a10603b77f4c5532911626479c0c8257a845b"
+      },
+      "prepared": {
+        "path": "benchmarks/self-energy/pi2/prepared/2e-Pi2-r002.json",
+        "sha256": "ac3982e22696d35d299b8146a7c3beb4df21f12423caa1f7cbde221b14dbdeb3"
+      },
+      "result": {
+        "path": "benchmarks/self-energy/pi2/results/2e-Pi2-02/r002.json",
+        "sha256": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d"
+      },
+      "legacy_result": {
+        "path": "benchmarks/self-energy/pi2/results/2e-Pi2-02/r001.json",
+        "sha256": "ded5756acc6502346763023e99d5a61405e596788b899ded9a2cfced544aff77"
+      },
+      "legacy_to_current": -1,
+      "assembly_sign": 1
+    }
+  ],
+  "legacy_inputs": {
+    "benchmarks/self-energy/pi1/sources/2e-Pi1-r001.json": "d2b441de608f75677048261b5b4530d0194733000d46cdc83504979ac4d83ce9",
+    "benchmarks/self-energy/pi1/prepared/2e-Pi1.json": "09a865bcc4a7d1c6deb90074b7759c28dc8492cc2467d9b2cf97ecdc091d9304",
+    "benchmarks/self-energy/pi1/results/2e-Pi1-01/r001.json": "3876fb9f0dac4197cb4cbf5c8fe0ef65e9b101414857f8f009a8c727022610f1",
+    "benchmarks/self-energy/pi1/results/2e-Pi1-02/r001.json": "c3924b360fe0ecf5dcd8e30460837ca04301108ceb3a95fe4cdb89b080978afe",
+    "benchmarks/self-energy/pi1/sources/4e-Pi1-r001.json": "3b2cab8babd9b1f4630d77d01dc64dffb9b6868c90ccab950a55c4c30230ee0a",
+    "benchmarks/self-energy/pi1/prepared/4e-Pi1.json": "25cf28567a251b1c94a5f140ba6b38512e6334b98466352559deedf3bdc5fb56",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-01/r001.json": "a303e0e2c70f2d32aa1b3670ae7d4cd960f0e6642262daf46b57e3e84cc9eee9",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-02/r001.json": "84413995df2bcaa09a0d7c6412c78d08126110113a5db2991668c559ad0b4ba5",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-03/r001.json": "001d63e10ea8fe02b08169510377c534e8ce665ff2d04dc8af9a865533ec521f",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-04/r001.json": "f5c55a9f4e8e1c011c235a30508e9321b6d52c1677c8f56d22711b25f6b175dc",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-05/r001.json": "5bf4608bbe8fbd5b463d39c4c8dfbf2504722f3b195559a7201f2e2bdd3b9bf5",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-06/r001.json": "8d21432415f71edfdc44d3fbce1136653b27db0a222a72cc1f8b9d2c8d8a8251",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-07/r001.json": "58a21c87a7117f9fc0ee93756698245e171a2c2562175dd0aea3f9e612988afb",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-08/r001.json": "23a1992ec5c9ffe96f691effc94f3e50c3b7a28ef8e38c740273af4a3d7819b9",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-09/r001.json": "be0c164bf5d58a5837de92175e0950fd0d010753e89c28884df0558cf47d527f",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-10/r001.json": "93fbcca716712da8805b35ba39920c259eba1f223ffa380fdde30fef1b031508",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-11/r001.json": "7251bc8a92bbbfd909654b01eb095559795edbb4956c1d45f4ef9b7f5cad5aa1",
+    "benchmarks/self-energy/pi1-chain/sources/montopar-2e-Pi1+Pi1-r001.json": "f659fd71475c6f281c96fafd542f420e36a0b869c2c5b03df86db5adea7e2419",
+    "benchmarks/self-energy/pi1-chain/prepared/2e-Pi1+Pi1.json": "f022b0fc4153ff5bd13bbf7a9ba53833df7ac6388a1e01b2e2ac5bc4a18ef0b8",
+    "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r001.json": "4db361068eabb2c36609f53861a709242736c4c7c54921149ce1dad16499c8ab",
+    "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r001.json": "082c1332c631b4125d2c1b1a827e85b89e182311e837564ac302114e7796bf60",
+    "benchmarks/self-energy/pi2/sources/montopar-2e-Pi2-r001.json": "63f86998e94099fbc2a9a2fd6ee58970aaba9ce289f6c5379416898a3caffa6d",
+    "benchmarks/self-energy/pi2/prepared/2e-Pi2.json": "2bb50ebf8cd1ea4f9d22413df814c7eee3047ee7d1a5b4041fd42b0665e3a3d7",
+    "benchmarks/self-energy/pi2/results/2e-Pi2-01/r001.json": "2cd5af7178ab4cc59f102cd1fe334488395f1e6cebf581cb76dc6c2dd8945b74",
+    "benchmarks/self-energy/pi2/results/2e-Pi2-02/r001.json": "ded5756acc6502346763023e99d5a61405e596788b899ded9a2cfced544aff77"
+  },
+  "files": {
+    "benchmarks/self-energy/pi1/sources/2e-Pi1-r002.json": "e34105f56dabbcde06c96ac984e4ee07d0a27fd042031a8b82f93f42f11bf170",
+    "benchmarks/self-energy/pi1/prepared/2e-Pi1-r002.json": "1f96bec54d246915abe921bc30b7ab11802da47e65d59efd82cb530d735366a0",
+    "benchmarks/self-energy/pi1/results/2e-Pi1-01/r002.json": "122067c4f01aa9942db2e9040b577416c83c8439d2baa7c4b1ac1d18e21646c7",
+    "benchmarks/self-energy/pi1/results/2e-Pi1-02/r002.json": "8b214b54a6e32f78804d0f1bfa3077488abeaa6114f9ed89fe825446056cd0a8",
+    "benchmarks/self-energy/pi1/sources/4e-Pi1-r002.json": "48bc1ce7ad3ffd0c1a789bf076a603dd57e6b1b6586cafefc6441b8b612b6ac7",
+    "benchmarks/self-energy/pi1/prepared/4e-Pi1-r002.json": "0dd32c10c05c1a0f1e832508744022434d7f2517af02ba837bceb1be546cc62d",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-01/r002.json": "22da1c140fa1da316d4859388cf1d6fe66bcfcfc5df5e58c1b88629d71dcb0f5",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-02/r002.json": "f4ef60739c56f6950b523a6b6755f5c19b4020f34f34564ca6480cc8198451c5",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-03/r002.json": "928e181315e388c55416e507eadfc496fc07132eab9c656d80dd5ebb6b624354",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-04/r002.json": "cb67dd178a5f02cb9c3dbd9b34a29f47a4054fb0be19cb85d09687abcce16cd9",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-05/r002.json": "6869b5e35cb56aaf77f19b80ac55bab5e45869f06da10c705caf26e83494a2b4",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-06/r002.json": "9da31233ebc761d2d659ec28ab4e8022c42f730865d49e8d2cf3abe66fa084f6",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-07/r002.json": "baafb42f20e8266ad5b5eca46db2d00eac1c2727226e8c5dd86eb1812517d8d9",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-08/r002.json": "c14243865814c45343f68cc8990f8793356c7c23d88e7a62058b69b599c100dd",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-09/r002.json": "753efcab2092a5954ce44bc0b91f8880fc9e1943b7fed9648b75085165ad85d3",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-10/r002.json": "75654d49701d92ad1c0fca96febd12d6ee9d8ae296a84525aa80ae89dfc2ebe4",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-11/r002.json": "f04657a1aab9b963470d66587a2886628d2cb9bf9c59fa92f64a22f4fa666fef",
+    "benchmarks/self-energy/pi1-chain/sources/2e-Pi1+Pi1-r002.json": "59ffef3b48dd00afe81602e25541a9795374b4e71e9eaacacd6d5a314b65f100",
+    "benchmarks/self-energy/pi1-chain/prepared/2e-Pi1+Pi1-r002.json": "55b7bcc3980f99aa8dda0a48bc8e4e43d3514a3e13f6ae4119745ef8c4359dc3",
+    "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r002.json": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926",
+    "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+    "benchmarks/self-energy/pi2/sources/2e-Pi2-r002.json": "753808e0876880061a255d8b945a10603b77f4c5532911626479c0c8257a845b",
+    "benchmarks/self-energy/pi2/prepared/2e-Pi2-r002.json": "ac3982e22696d35d299b8146a7c3beb4df21f12423caa1f7cbde221b14dbdeb3",
+    "benchmarks/self-energy/pi2/results/2e-Pi2-01/r002.json": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a",
+    "benchmarks/self-energy/pi2/results/2e-Pi2-02/r002.json": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d"
+  },
+  "producer": {
+    "path": "preprocessing/self_energy.py",
+    "sha256": "d527701f59c7b8aed68902204be4587e02253e222f5401e98693243b78f9c619"
+  },
+  "raw_provenance": "project-local normalization of frozen montopar output; external repository not modified",
+  "default_47_inputs_unchanged": true,
+  "formal": "not_run"
+}

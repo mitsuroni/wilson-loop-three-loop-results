@@ -1,0 +1,492 @@
+{
+  "format": "wilson-N4-QCD-five-family-renormalized-difference-research/1",
+  "revision": "r001",
+  "date": "2026-10-19",
+  "object": "delta log W through three loops in the common bare coupling/scale convention; not absolute QCD F3",
+  "colors": {
+    "AA": "CF*CA^2",
+    "Af": "CF*CA*TF*nf",
+    "Ff": "CF^2*TF*nf",
+    "ff": "CF*(TF*nf)^2"
+  },
+  "channels": {
+    "AA": {
+      "bare_S3": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-121/648",
+        "-3": "-121*L/216 - 1627/1944 + 11*pi**2/324",
+        "-2": "-121*L**2/144 - 1627*L/648 + 11*pi**2*L/108 + 121*rho**2/576 - 11093/3888 + 55*zeta(3)/27 + 215*pi**2/486",
+        "-1": "-121*pi**2*H_z_m1/96 - 121*H_z_m1_0_0/48 - 121*L**3/144 - 1627*L**2/432 + 11*pi**2*L**2/72 + 121*L*rho**2/192 - 11093*L/1296 + 55*L*zeta(3)/9 + 215*pi**2*L/162 + 121*rho**3/576 - 11*pi**2*rho**2/288 + 1627*rho**2/1728 + 121*pi**2*rho/192 - 617525/69984 - 253*pi**4/4320 + 295*zeta(3)/144 + 10561*pi**2/5832",
+        "0": "-121*pi**2*H_z_0_m1/64 - 11*pi**2*H_z_0_m1_0/48 - 121*H_z_0_m1_0_0/32 - 11*H_z_0_m1_0_0_0/8 - 121*pi**2*H_z_m1*L/32 - 1627*pi**2*H_z_m1/288 + 121*H_z_m1*zeta(3)/16 + 55*pi**4*H_z_m1/192 - 121*pi**2*H_z_m1_0/64 - 121*H_z_m1_0_0*L/16 - 1627*H_z_m1_0_0/144 + 11*pi**2*H_z_m1_0_0/16 - 121*H_z_m1_0_0_0/32 + 11*H_z_m1_0_0_0_0/8 + 121*pi**2*H_z_m1_m1/32 + 121*H_z_m1_m1_0_0/16 - 121*L**4/192 - 1627*L**3/432 + 11*pi**2*L**3/72 + 121*L**2*rho**2/128 - 11093*L**2/864 + 55*L**2*zeta(3)/6 + 215*pi**2*L**2/108 + 121*L*rho**3/192 - 11*pi**2*L*rho**2/96 + 1627*L*rho**2/576 + 121*pi**2*L*rho/64 - 617525*L/23328 - 253*pi**4*L/1440 + 295*L*zeta(3)/48 + 10561*pi**2*L/1944 + 121*rho**4/1024 - 11*pi**2*rho**3/288 + 1627*rho**3/1728 - 55*rho**2*zeta(3)/24 + 11093*rho**2/3456 + 1547*pi**2*rho**2/3456 - 253*pi**4*rho/1440 - 121*rho*zeta(3)/32 + 1627*pi**2*rho/576 - 275*pi**2*zeta(3)/54 - 10984045/419904 - 5743*zeta(3)/3888 + 583*zeta(5)/36 + 75011*pi**4/311040 + 104621*pi**2/17496"
+      },
+      "coupling_counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-121/144",
+        "-3": "1043/432 - 11*pi**2/144",
+        "-2": "121*L**2/144 - 11*pi**2*L/72 + 445*L/108 - 121*rho**2/576 - 121*pi**2/288 - 77*zeta(3)/24 + 1111/324",
+        "-1": "121*pi**2*H_z_m1/96 + 121*H_z_m1_0_0/48 + 121*L**3/144 - 11*pi**2*L**2/72 + 1627*L**2/432 - 121*L*rho**2/192 - 121*pi**2*L/108 - 77*L*zeta(3)/12 + 1111*L/162 - 121*rho**3/576 - 1627*rho**2/1728 + 11*pi**2*rho**2/288 - 121*pi**2*rho/192 - 3991*pi**2/2592 + 121*zeta(3)/48 + 11*pi**4/288 + 6677/972",
+        "0": "847*pi**2*H_z_0_m1/576 + 11*pi**2*H_z_0_m1_0/72 + 847*H_z_0_m1_0_0/288 + 11*H_z_0_m1_0_0_0/12 + 847*pi**2*H_z_m1*L/288 - 55*pi**4*H_z_m1/288 - 847*H_z_m1*zeta(3)/144 + 3101*pi**2*H_z_m1/864 + 847*pi**2*H_z_m1_0/576 + 847*H_z_m1_0_0*L/144 - 11*pi**2*H_z_m1_0_0/24 + 3101*H_z_m1_0_0/432 + 847*H_z_m1_0_0_0/288 - 11*H_z_m1_0_0_0_0/12 - 847*pi**2*H_z_m1_m1/288 - 847*H_z_m1_m1_0_0/144 + 847*L**4/1728 - 11*pi**2*L**3/108 + 3101*L**3/1296 - 847*L**2*rho**2/1152 - 121*pi**2*L**2/96 - 77*L**2*zeta(3)/12 + 1111*L**2/162 - 847*L*rho**3/1728 - 3101*L*rho**2/1728 + 11*pi**2*L*rho**2/144 - 847*pi**2*L*rho/576 - 1919*pi**2*L/648 + 11*pi**4*L/144 + 2783*L*zeta(3)/432 + 6677*L/486 - 847*rho**4/9216 - 3101*rho**3/5184 + 11*pi**2*rho**3/432 - 121*pi**2*rho**2/288 - 1111*rho**2/648 + 77*rho**2*zeta(3)/48 - 3101*pi**2*rho/1728 + 847*rho*zeta(3)/288 + 253*pi**4*rho/2160 - 30613*pi**4/103680 - 5555*pi**2/1944 - 121*zeta(5)/8 + 11083*zeta(3)/1296 + 10021/729 + 1463*pi**2*zeta(3)/432"
+      },
+      "post_counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-1331/1296",
+        "-3": "-121*L/216 - 55*pi**2/1296 + 6133/3888",
+        "-2": "-11*pi**2*L/216 + 1043*L/648 - 253*zeta(3)/216 + 173*pi**2/7776 + 2239/3888",
+        "-1": "-245*L/144 - 11*L*zeta(3)/36 + 67*pi**2*L/324 - 11*pi**4/540 - 136781/69984 + 6325*pi**2/23328 + 329*zeta(3)/72",
+        "0": "-121*pi**2*H_z_0_m1/288 - 11*pi**2*H_z_0_m1_0/144 - 121*H_z_0_m1_0_0/144 - 11*H_z_0_m1_0_0_0/24 - 121*pi**2*H_z_m1*L/144 - 445*pi**2*H_z_m1/216 + 121*H_z_m1*zeta(3)/72 + 55*pi**4*H_z_m1/576 - 121*pi**2*H_z_m1_0/288 - 121*H_z_m1_0_0*L/72 - 445*H_z_m1_0_0/108 + 11*pi**2*H_z_m1_0_0/48 - 121*H_z_m1_0_0_0/144 + 11*H_z_m1_0_0_0_0/24 + 121*pi**2*H_z_m1_m1/144 + 121*H_z_m1_m1_0_0/72 - 121*L**4/864 - 445*L**3/324 + 11*pi**2*L**3/216 + 121*L**2*rho**2/576 - 15503*L**2/2592 + 11*L**2*zeta(3)/4 + 631*pi**2*L**2/864 + 121*L*rho**3/864 - 11*pi**2*L*rho**2/288 + 445*L*rho**2/432 + 121*pi**2*L*rho/288 - 297029*L/23328 - 143*pi**4*L/1440 + 2719*L*zeta(3)/216 + 1201*pi**2*L/486 + 121*rho**4/4608 - 11*pi**2*rho**3/864 + 445*rho**3/1296 - 11*rho**2*zeta(3)/16 + 95*pi**2*rho**2/3456 + 15503*rho**2/10368 - 253*pi**4*rho/4320 - 121*rho*zeta(3)/144 + 445*pi**2*rho/432 - 737*pi**2*zeta(3)/432 - 5211949/419904 - 4207*pi**4/77760 + 77*zeta(5)/72 + 13753*zeta(3)/1944 + 27313*pi**2/8748"
+      },
+      "delta_k3": "-67*pi**2/216 + 11*zeta(3)/24 + 245/96",
+      "delta_h3": "-329*zeta(3)/24 - 6325*pi**2/7776 + 136781/23328 + 11*pi**4/180",
+      "finite_delta": "-121*pi**2*H_z_0_m1/288 - 11*pi**2*H_z_0_m1_0/144 - 121*H_z_0_m1_0_0/144 - 11*H_z_0_m1_0_0_0/24 - 121*pi**2*H_z_m1*L/144 - 445*pi**2*H_z_m1/216 + 121*H_z_m1*zeta(3)/72 + 55*pi**4*H_z_m1/576 - 121*pi**2*H_z_m1_0/288 - 121*H_z_m1_0_0*L/72 - 445*H_z_m1_0_0/108 + 11*pi**2*H_z_m1_0_0/48 - 121*H_z_m1_0_0_0/144 + 11*H_z_m1_0_0_0_0/24 + 121*pi**2*H_z_m1_m1/144 + 121*H_z_m1_m1_0_0/72 - 121*L**4/864 - 445*L**3/324 + 11*pi**2*L**3/216 + 121*L**2*rho**2/576 - 15503*L**2/2592 + 11*L**2*zeta(3)/4 + 631*pi**2*L**2/864 + 121*L*rho**3/864 - 11*pi**2*L*rho**2/288 + 445*L*rho**2/432 + 121*pi**2*L*rho/288 - 297029*L/23328 - 143*pi**4*L/1440 + 2719*L*zeta(3)/216 + 1201*pi**2*L/486 + 121*rho**4/4608 - 11*pi**2*rho**3/864 + 445*rho**3/1296 - 11*rho**2*zeta(3)/16 + 95*pi**2*rho**2/3456 + 15503*rho**2/10368 - 253*pi**4*rho/4320 - 121*rho*zeta(3)/144 + 445*pi**2*rho/432 - 737*pi**2*zeta(3)/432 - 5211949/419904 - 4207*pi**4/77760 + 77*zeta(5)/72 + 13753*zeta(3)/1944 + 27313*pi**2/8748"
+    },
+    "Af": {
+      "bare_S3": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "11/81",
+        "-3": "11*L/27 - pi**2/81 + 533/972",
+        "-2": "11*L**2/18 - pi**2*L/27 + 533*L/324 - 11*rho**2/72 - 71*pi**2/243 - 14*zeta(3)/27 + 1633/972",
+        "-1": "11*pi**2*H_z_m1/12 + 11*H_z_m1_0_0/6 + 11*L**3/18 - pi**2*L**2/18 + 533*L**2/216 - 11*L*rho**2/24 - 71*pi**2*L/81 - 14*L*zeta(3)/9 + 1633*L/324 - 11*rho**3/72 - 533*rho**2/864 + pi**2*rho**2/72 - 11*pi**2*rho/24 - 3301*pi**2/2916 + 103*zeta(3)/81 + pi**4/40 + 82097/17496",
+        "0": "11*pi**2*H_z_0_m1/8 + pi**2*H_z_0_m1_0/12 + 11*H_z_0_m1_0_0/4 + H_z_0_m1_0_0_0/2 + 11*pi**2*H_z_m1*L/4 - 5*pi**4*H_z_m1/48 - 11*H_z_m1*zeta(3)/2 + 533*pi**2*H_z_m1/144 + 11*pi**2*H_z_m1_0/8 + 11*H_z_m1_0_0*L/2 - pi**2*H_z_m1_0_0/4 + 533*H_z_m1_0_0/72 + 11*H_z_m1_0_0_0/4 - H_z_m1_0_0_0_0/2 - 11*pi**2*H_z_m1_m1/4 - 11*H_z_m1_m1_0_0/2 + 11*L**4/24 - pi**2*L**3/18 + 533*L**3/216 - 11*L**2*rho**2/16 - 71*pi**2*L**2/54 - 7*L**2*zeta(3)/3 + 1633*L**2/216 - 11*L*rho**3/24 - 533*L*rho**2/288 + pi**2*L*rho**2/24 - 11*pi**2*L*rho/8 - 3301*pi**2*L/972 + 103*L*zeta(3)/27 + 3*pi**4*L/40 + 82097*L/5832 - 11*rho**4/128 - 533*rho**3/864 + pi**2*rho**3/72 - 155*pi**2*rho**2/432 - 1633*rho**2/864 + 7*rho**2*zeta(3)/12 - 533*pi**2*rho/288 + 11*rho*zeta(3)/4 + 23*pi**4*rho/360 - 29951*pi**2/8748 - 8161*pi**4/38880 - 13*zeta(5)/3 + 1589*zeta(3)/216 + 1323997/104976 + 38*pi**2*zeta(3)/27"
+      },
+      "coupling_counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "11/18",
+        "-3": "-167/108 + pi**2/36",
+        "-2": "-11*L**2/18 - 289*L/108 + pi**2*L/18 + 11*rho**2/72 - 178/81 + 7*zeta(3)/6 + 11*pi**2/36",
+        "-1": "-11*pi**2*H_z_m1/12 - 11*H_z_m1_0_0/6 - 11*L**3/18 - 533*L**2/216 + pi**2*L**2/18 + 11*L*rho**2/24 - 356*L/81 + 7*L*zeta(3)/3 + 22*pi**2*L/27 + 11*rho**3/72 - pi**2*rho**2/72 + 533*rho**2/864 + 11*pi**2*rho/24 - 1058/243 - 11*zeta(3)/6 - pi**4/72 + 655*pi**2/648",
+        "0": "-77*pi**2*H_z_0_m1/72 - pi**2*H_z_0_m1_0/18 - 77*H_z_0_m1_0_0/36 - H_z_0_m1_0_0_0/3 - 77*pi**2*H_z_m1*L/36 - 1021*pi**2*H_z_m1/432 + 77*H_z_m1*zeta(3)/18 + 5*pi**4*H_z_m1/72 - 77*pi**2*H_z_m1_0/72 - 77*H_z_m1_0_0*L/18 - 1021*H_z_m1_0_0/216 + pi**2*H_z_m1_0_0/6 - 77*H_z_m1_0_0_0/36 + H_z_m1_0_0_0_0/3 + 77*pi**2*H_z_m1_m1/36 + 77*H_z_m1_m1_0_0/18 - 77*L**4/216 - 1021*L**3/648 + pi**2*L**3/27 + 77*L**2*rho**2/144 - 356*L**2/81 + 7*L**2*zeta(3)/3 + 11*pi**2*L**2/12 + 77*L*rho**3/216 - pi**2*L*rho**2/36 + 1021*L*rho**2/864 + 77*pi**2*L*rho/72 - 2116*L/243 - 253*L*zeta(3)/54 - pi**4*L/36 + 1265*pi**2*L/648 + 77*rho**4/1152 - pi**2*rho**3/108 + 1021*rho**3/2592 - 7*rho**2*zeta(3)/12 + 89*rho**2/81 + 11*pi**2*rho**2/36 - 23*pi**4*rho/540 - 77*rho*zeta(3)/36 + 1021*pi**2*rho/864 - 133*pi**2*zeta(3)/108 - 6328/729 - 3641*zeta(3)/648 + 11*zeta(5)/2 + 445*pi**2/243 + 2783*pi**4/12960"
+      },
+      "post_counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "121/162",
+        "-3": "11*L/27 - 485/486 + 5*pi**2/324",
+        "-2": "-167*L/162 + pi**2*L/54 - 503/972 + 13*pi**2/972 + 35*zeta(3)/54",
+        "-1": "-5*pi**2*L/81 + 209*L/324 + 7*L*zeta(3)/9 - 707*pi**2/5832 - 91*zeta(3)/162 + 5921/17496 + pi**4/90",
+        "0": "11*pi**2*H_z_0_m1/36 + pi**2*H_z_0_m1_0/36 + 11*H_z_0_m1_0_0/18 + H_z_0_m1_0_0_0/6 + 11*pi**2*H_z_m1*L/18 - 5*pi**4*H_z_m1/144 - 11*H_z_m1*zeta(3)/9 + 289*pi**2*H_z_m1/216 + 11*pi**2*H_z_m1_0/36 + 11*H_z_m1_0_0*L/9 - pi**2*H_z_m1_0_0/12 + 289*H_z_m1_0_0/108 + 11*H_z_m1_0_0_0/18 - H_z_m1_0_0_0_0/6 - 11*pi**2*H_z_m1_m1/18 - 11*H_z_m1_m1_0_0/9 + 11*L**4/108 - pi**2*L**3/54 + 289*L**3/324 - 11*L**2*rho**2/72 - 43*pi**2*L**2/108 + 2051*L**2/648 - 11*L*rho**3/108 - 289*L*rho**2/432 + pi**2*L*rho**2/72 - 11*pi**2*L*rho/36 - 2807*pi**2*L/1944 - 47*L*zeta(3)/54 + 17*pi**4*L/360 + 31313*L/5832 - 11*rho**4/576 - 289*rho**3/1296 + pi**2*rho**3/216 - 2051*rho**2/2592 - 23*pi**2*rho**2/432 - 289*pi**2*rho/432 + 11*rho*zeta(3)/18 + 23*pi**4*rho/1080 - 13931*pi**2/8748 + 47*pi**4/9720 + 7*zeta(5)/6 + 19*pi**2*zeta(3)/108 + 563*zeta(3)/324 + 412765/104976"
+      },
+      "delta_k3": "-7*zeta(3)/6 - 209/216 + 5*pi**2/54",
+      "delta_h3": "-pi**4/30 - 5921/5832 + 91*zeta(3)/54 + 707*pi**2/1944",
+      "finite_delta": "11*pi**2*H_z_0_m1/36 + pi**2*H_z_0_m1_0/36 + 11*H_z_0_m1_0_0/18 + H_z_0_m1_0_0_0/6 + 11*pi**2*H_z_m1*L/18 - 5*pi**4*H_z_m1/144 - 11*H_z_m1*zeta(3)/9 + 289*pi**2*H_z_m1/216 + 11*pi**2*H_z_m1_0/36 + 11*H_z_m1_0_0*L/9 - pi**2*H_z_m1_0_0/12 + 289*H_z_m1_0_0/108 + 11*H_z_m1_0_0_0/18 - H_z_m1_0_0_0_0/6 - 11*pi**2*H_z_m1_m1/18 - 11*H_z_m1_m1_0_0/9 + 11*L**4/108 - pi**2*L**3/54 + 289*L**3/324 - 11*L**2*rho**2/72 - 43*pi**2*L**2/108 + 2051*L**2/648 - 11*L*rho**3/108 - 289*L*rho**2/432 + pi**2*L*rho**2/72 - 11*pi**2*L*rho/36 - 2807*pi**2*L/1944 - 47*L*zeta(3)/54 + 17*pi**4*L/360 + 31313*L/5832 - 11*rho**4/576 - 289*rho**3/1296 + pi**2*rho**3/216 - 2051*rho**2/2592 - 23*pi**2*rho**2/432 - 289*pi**2*rho/432 + 11*rho*zeta(3)/18 + 23*pi**4*rho/1080 - 13931*pi**2/8748 + 47*pi**4/9720 + 7*zeta(5)/6 + 19*pi**2*zeta(3)/108 + 563*zeta(3)/324 + 412765/104976"
+    },
+    "Ff": {
+      "bare_S3": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "1/36",
+        "-2": "L/12 - 2*zeta(3)/9 + 55/216",
+        "-1": "L**2/8 - 2*L*zeta(3)/3 + 55*L/72 - rho**2/32 - 19*zeta(3)/27 - pi**2/18 - pi**4/270 + 1711/1296",
+        "0": "3*pi**2*H_z_m1/16 + 3*H_z_m1_0_0/8 + L**3/8 - L**2*zeta(3) + 55*L**2/48 - 3*L*rho**2/32 - 19*L*zeta(3)/9 - pi**2*L/6 - pi**4*L/90 + 1711*L/432 - rho**3/32 - 55*rho**2/192 + rho**2*zeta(3)/4 - 3*pi**2*rho/32 - 55*pi**2/108 - 1123*zeta(3)/648 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776"
+      },
+      "coupling_counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "-1/4",
+        "-2": "-L/4",
+        "-1": "-L**2/8 + rho**2/32 + pi**2/24",
+        "0": "-pi**2*H_z_m1/16 - H_z_m1_0_0/8 - L**3/24 + L*rho**2/32 + pi**2*L/24 + rho**3/96 + pi**2*rho/32 - 5*zeta(3)/24"
+      },
+      "post_counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "-2/9",
+        "-2": "-L/6 - 2*zeta(3)/9 + 55/216",
+        "-1": "-2*L*zeta(3)/3 + 55*L/72 - 19*zeta(3)/27 - pi**4/270 - pi**2/72 + 1711/1296",
+        "0": "pi**2*H_z_m1/8 + H_z_m1_0_0/4 + L**3/12 - L**2*zeta(3) + 55*L**2/48 - L*rho**2/16 - 19*L*zeta(3)/9 - pi**2*L/8 - pi**4*L/90 + 1711*L/432 - rho**3/48 - 55*rho**2/192 + rho**2*zeta(3)/4 - pi**2*rho/16 - 55*pi**2/108 - 629*zeta(3)/324 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776"
+      },
+      "delta_k3": "-55/48 + zeta(3)",
+      "delta_h3": "-1711/432 + pi**2/24 + pi**4/90 + 19*zeta(3)/9",
+      "finite_delta": "pi**2*H_z_m1/8 + H_z_m1_0_0/4 + L**3/12 - L**2*zeta(3) + 55*L**2/48 - L*rho**2/16 - 19*L*zeta(3)/9 - pi**2*L/8 - pi**4*L/90 + 1711*L/432 - rho**3/48 - 55*rho**2/192 + rho**2*zeta(3)/4 - pi**2*rho/16 - 55*pi**2/108 - 629*zeta(3)/324 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776"
+    },
+    "ff": {
+      "bare_S3": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-2/81",
+        "-3": "-2*L/27 - 20/243",
+        "-2": "-L**2/9 - 20*L/81 + rho**2/36 - 2/9 + 4*pi**2/81",
+        "-1": "-pi**2*H_z_m1/6 - H_z_m1_0_0/3 - L**3/9 - 10*L**2/27 + L*rho**2/12 - 2*L/3 + 4*pi**2*L/27 + rho**3/36 + 5*rho**2/54 + pi**2*rho/12 - 41*zeta(3)/81 - 1216/2187 + 40*pi**2/243",
+        "0": "-pi**2*H_z_0_m1/4 - H_z_0_m1_0_0/2 - pi**2*H_z_m1*L/2 - 5*pi**2*H_z_m1/9 + H_z_m1*zeta(3) - pi**2*H_z_m1_0/4 - H_z_m1_0_0*L - 10*H_z_m1_0_0/9 - H_z_m1_0_0_0/2 + pi**2*H_z_m1_m1/2 + H_z_m1_m1_0_0 - L**4/12 - 10*L**3/27 + L**2*rho**2/8 - L**2 + 2*pi**2*L**2/9 + L*rho**3/12 + 5*L*rho**2/18 + pi**2*L*rho/4 - 41*L*zeta(3)/27 - 1216*L/729 + 40*pi**2*L/81 + rho**4/64 + 5*rho**3/54 + rho**2/4 + 5*pi**2*rho**2/72 - rho*zeta(3)/2 + 5*pi**2*rho/18 - 410*zeta(3)/243 - 8752/6561 + 851*pi**4/19440 + 4*pi**2/9"
+      },
+      "coupling_counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-1/9",
+        "-3": "5/27",
+        "-2": "L**2/9 + 10*L/27 - rho**2/36 - pi**2/18 + 28/81",
+        "-1": "pi**2*H_z_m1/6 + H_z_m1_0_0/3 + L**3/9 + 10*L**2/27 - L*rho**2/12 - 4*pi**2*L/27 + 56*L/81 - rho**3/36 - 5*rho**2/54 - pi**2*rho/12 - 25*pi**2/162 + zeta(3)/3 + 164/243",
+        "0": "7*pi**2*H_z_0_m1/36 + 7*H_z_0_m1_0_0/18 + 7*pi**2*H_z_m1*L/18 - 7*H_z_m1*zeta(3)/9 + 10*pi**2*H_z_m1/27 + 7*pi**2*H_z_m1_0/36 + 7*H_z_m1_0_0*L/9 + 20*H_z_m1_0_0/27 + 7*H_z_m1_0_0_0/18 - 7*pi**2*H_z_m1_m1/18 - 7*H_z_m1_m1_0_0/9 + 7*L**4/108 + 20*L**3/81 - 7*L**2*rho**2/72 - pi**2*L**2/6 + 56*L**2/81 - 7*L*rho**3/108 - 5*L*rho**2/27 - 7*pi**2*L*rho/36 - 25*pi**2*L/81 + 23*L*zeta(3)/27 + 328*L/243 - 7*rho**4/576 - 5*rho**3/81 - pi**2*rho**2/18 - 14*rho**2/81 - 5*pi**2*rho/27 + 7*rho*zeta(3)/18 - 253*pi**4/6480 - 70*pi**2/243 + 70*zeta(3)/81 + 976/729"
+      },
+      "post_counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-11/81",
+        "-3": "25/243 - 2*L/27",
+        "-2": "10*L/81 - pi**2/162 + 10/81",
+        "-1": "2*L/81 - 14*zeta(3)/81 + 5*pi**2/486 + 260/2187",
+        "0": "-pi**2*H_z_0_m1/18 - H_z_0_m1_0_0/9 - pi**2*H_z_m1*L/9 - 5*pi**2*H_z_m1/27 + 2*H_z_m1*zeta(3)/9 - pi**2*H_z_m1_0/18 - 2*H_z_m1_0_0*L/9 - 10*H_z_m1_0_0/27 - H_z_m1_0_0_0/9 + pi**2*H_z_m1_m1/9 + 2*H_z_m1_m1_0_0/9 - L**4/54 - 10*L**3/81 + L**2*rho**2/36 - 25*L**2/81 + pi**2*L**2/18 + L*rho**3/54 + 5*L*rho**2/54 + pi**2*L*rho/18 - 2*L*zeta(3)/3 - 232*L/729 + 5*pi**2*L/27 + rho**4/288 + 5*rho**3/162 + 25*rho**2/324 + pi**2*rho**2/72 - rho*zeta(3)/9 + 5*pi**2*rho/54 - 200*zeta(3)/243 + 32/6561 + 23*pi**4/4860 + 38*pi**2/243"
+      },
+      "delta_k3": "-1/27",
+      "delta_h3": "-260/729 - 5*pi**2/162 + 14*zeta(3)/27",
+      "finite_delta": "-pi**2*H_z_0_m1/18 - H_z_0_m1_0_0/9 - pi**2*H_z_m1*L/9 - 5*pi**2*H_z_m1/27 + 2*H_z_m1*zeta(3)/9 - pi**2*H_z_m1_0/18 - 2*H_z_m1_0_0*L/9 - 10*H_z_m1_0_0/27 - H_z_m1_0_0_0/9 + pi**2*H_z_m1_m1/9 + 2*H_z_m1_m1_0_0/9 - L**4/54 - 10*L**3/81 + L**2*rho**2/36 - 25*L**2/81 + pi**2*L**2/18 + L*rho**3/54 + 5*L*rho**2/54 + pi**2*L*rho/18 - 2*L*zeta(3)/3 - 232*L/729 + 5*pi**2*L/27 + rho**4/288 + 5*rho**3/162 + 25*rho**2/324 + pi**2*rho**2/72 - rho*zeta(3)/9 + 5*pi**2*rho/54 - 200*zeta(3)/243 + 32/6561 + 23*pi**4/4860 + 38*pi**2/243"
+    }
+  },
+  "CT": "-2 b0/eps w2Q + (b0^2/eps^2-b1/(2eps)) w1; N4 charge beta=0. No second W1 deltaW2 subtraction after connected-web input.",
+  "checks": [
+    {
+      "name": "AA cusp has no rho",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA noncusp has no rho",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA k3 has no L",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA h3 has no L",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA no excess pole -6",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA no excess pole -5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA pole RG -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA pole RG -3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA pole RG -2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA pole RG -1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA finite RG",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af cusp has no rho",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af noncusp has no rho",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af k3 has no L",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af h3 has no L",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af no excess pole -6",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af no excess pole -5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af pole RG -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af pole RG -3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af pole RG -2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af pole RG -1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af finite RG",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af current QCD post -6",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af current QCD post -5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af current QCD post -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af current QCD post -3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af current QCD post -2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af current QCD post -1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Af current QCD post 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff cusp has no rho",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff noncusp has no rho",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff k3 has no L",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff h3 has no L",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff no excess pole -6",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff no excess pole -5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff pole RG -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff pole RG -3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff pole RG -2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff pole RG -1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff finite RG",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff current QCD post -6",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff current QCD post -5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff current QCD post -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff current QCD post -3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff current QCD post -2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff current QCD post -1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ff current QCD post 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff cusp has no rho",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff noncusp has no rho",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff k3 has no L",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff h3 has no L",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff no excess pole -6",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff no excess pole -5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff pole RG -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff pole RG -3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff pole RG -2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff pole RG -1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff finite RG",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff current QCD post -6",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff current QCD post -5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff current QCD post -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff current QCD post -3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff current QCD post -2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff current QCD post -1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "ff current QCD post 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "AA delta cusp benchmark",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "all_passed": true,
+  "inputs": {
+    "benchmarks/renormalization/one-loop/result-r001.json": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+    "benchmarks/renormalization/three-loop/lower-order-inputs-r001.json": "557dbb38a6338a9c5b2c1fbbfad782cccbd9d4ced7cb0e66f2e880e4ede20991",
+    "benchmarks/renormalization/two-loop/result-r002.json": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+    "workflow/checks/matter-rg-20261017/current-coefficients.json": "da44963785c6664656f7944b2261aa0319d28966669446dec00f34d17f83c980",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f"
+  },
+  "coupling_scheme_boundary": "Common bare matching and the current local subtraction contract. Mapping an external N4 DRbar/BDS total to this coupling/scale still requires its dictionary; not silently assumed.",
+  "unknown": "Same-scheme absolute N4 three-loop total finite constant and its full convention bridge remain missing.",
+  "formal": "not_run",
+  "selector_changed": false
+}

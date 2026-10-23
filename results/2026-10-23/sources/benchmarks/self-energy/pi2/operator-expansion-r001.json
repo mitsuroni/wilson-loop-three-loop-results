@@ -1,0 +1,76 @@
+{
+  "definition": "phi_c=4*eps^2*p_c",
+  "through_power": 4,
+  "remainder": "O(eps^5)",
+  "p_c_recovery": "p_c=phi_c/(4*eps^2), valid through eps^2 with O(eps^3)",
+  "Gamma_ratio_before_cancellation_through": 5,
+  "channels": {
+    "AA": {
+      "0": {
+        "expression": "-25/3",
+        "latex": "- \\frac{25}{3}"
+      },
+      "1": {
+        "expression": "17/18",
+        "latex": "\\frac{17}{18}"
+      },
+      "2": {
+        "expression": "-3919/108 + 4*zeta(3)",
+        "latex": "- \\frac{3919}{108} + 4 \\zeta\\left(3\\right)"
+      },
+      "3": {
+        "expression": "-48535/648 + pi**4/15 + 206*zeta(3)/3",
+        "latex": "6 \\zeta_4 - \\frac{48535}{648} + \\frac{206 \\zeta\\left(3\\right)}{3}"
+      },
+      "4": {
+        "expression": "-1010863/3888 - 11*zeta(3)/9 + 28*zeta(5) + 103*pi**4/90",
+        "latex": "103 \\zeta_4 - \\frac{1010863}{3888} - \\frac{11 \\zeta\\left(3\\right)}{9} + 28 \\zeta\\left(5\\right)"
+      }
+    },
+    "Af": {
+      "0": {
+        "expression": "20/3",
+        "latex": "\\frac{20}{3}"
+      },
+      "1": {
+        "expression": "-38/9",
+        "latex": "- \\frac{38}{9}"
+      },
+      "2": {
+        "expression": "257/27 + 32*zeta(3)",
+        "latex": "\\frac{257}{27} + 32 \\zeta\\left(3\\right)"
+      },
+      "3": {
+        "expression": "-296*zeta(3)/3 - 295/162 + 8*pi**4/15",
+        "latex": "48 \\zeta_4 - \\frac{296 \\zeta\\left(3\\right)}{3} - \\frac{295}{162}"
+      },
+      "4": {
+        "expression": "-74*pi**4/45 + 30977/972 + 596*zeta(3)/9 + 224*zeta(5)",
+        "latex": "- 148 \\zeta_4 + \\frac{30977}{972} + \\frac{596 \\zeta\\left(3\\right)}{9} + 224 \\zeta\\left(5\\right)"
+      }
+    },
+    "Ff": {
+      "0": {
+        "expression": "0",
+        "latex": "0"
+      },
+      "1": {
+        "expression": "8",
+        "latex": "8"
+      },
+      "2": {
+        "expression": "124/3 - 64*zeta(3)",
+        "latex": "\\frac{124}{3} - 64 \\zeta\\left(3\\right)"
+      },
+      "3": {
+        "expression": "-16*pi**4/15 + 160*zeta(3)/3 + 1070/9",
+        "latex": "- 96 \\zeta_4 + \\frac{160 \\zeta\\left(3\\right)}{3} + \\frac{1070}{9}"
+      },
+      "4": {
+        "expression": "-448*zeta(5) - 976*zeta(3)/9 + 8*pi**4/9 + 9583/27",
+        "latex": "80 \\zeta_4 - 448 \\zeta\\left(5\\right) - \\frac{976 \\zeta\\left(3\\right)}{9} + \\frac{9583}{27}"
+      }
+    }
+  },
+  "source_sha256": "2bb50ebf8cd1ea4f9d22413df814c7eee3047ee7d1a5b4041fd42b0665e3a3d7"
+}

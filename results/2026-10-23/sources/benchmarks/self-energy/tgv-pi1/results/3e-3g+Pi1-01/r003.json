@@ -1,0 +1,81 @@
+{
+  "format": "wilson-tgv-pi1-integral-result/1",
+  "revision": "r003",
+  "date": "2026-10-15",
+  "orbit_id": "3e-3g+Pi1-01",
+  "input_sha256": "72436e94de62c72f7231e08851052268ba59bc20b28406d3fc91ba2fe8f189b5",
+  "status": "exact_closed_form",
+  "definition": "I=2 R(eps) [J(eps,z)+z^(3eps)J(eps,1/z)]/(1+z^(3eps))",
+  "normalization": {
+    "euler_compensation_count": 1,
+    "c4_multiplicity": 4,
+    "color_factor_extracted": "CF*CA*B1(eps)",
+    "scale_factor_extracted": "S14+S12",
+    "raw_input_modified": false,
+    "relation_to_bare_full_color": "prepared=sum_C4(raw)*exp(-3 EulerGamma eps)",
+    "assembly_sign": 1,
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+  },
+  "I": "-((36*eps**4 + 8*eps**3 - 47*eps**2 + 11*eps + (-45*eps**4 - 90*eps**3 + 89*eps**2 + 6*eps - 8)*gamma(1 - 3*eps)*gamma(eps + 1)/gamma(1 - 2*eps) + 4)*exp(-3*EulerGamma*eps)*gamma(1 - eps)**3/(2304*eps**5*(1 - 3*eps)*(1 - 2*eps)*(2 - 3*eps)*(eps + 1)*(2*eps + 1)))",
+  "J_over_z3eps": "-(-45*eps**4*gamma(1 - 3*eps)*gamma(eps + 1) + 36*eps**4*gamma(1 - 2*eps) - 90*eps**3*gamma(1 - 3*eps)*gamma(eps + 1) + 8*eps**3*gamma(1 - 2*eps) + 89*eps**2*gamma(1 - 3*eps)*gamma(eps + 1) - 47*eps**2*gamma(1 - 2*eps) + 6*eps*gamma(1 - 3*eps)*gamma(eps + 1) + 11*eps*gamma(1 - 2*eps) - 8*gamma(1 - 3*eps)*gamma(eps + 1) + 4*gamma(1 - 2*eps))*gamma(1 - eps)/(72*eps**4*(2*eps + 1)*(3*eps - 2)*(3*eps - 1)**2*gamma(1 - 3*eps))",
+  "highest_pole_order": 5,
+  "laurent_coefficients": {
+    "-5": "-(-1/1152)",
+    "-4": "-(1/1536)",
+    "-3": "-(73/9216 - 5*pi**2/4608)",
+    "-2": "-(-41*pi**2/18432 - 13*zeta(3)/1152 + 527/18432)",
+    "-1": "-(-29*pi**4/36864 - 43*zeta(3)/1536 - 7*pi**2/36864 + 1447/12288)",
+    "0": "-(-4519*pi**4/2211840 - 41*pi**2*zeta(3)/4608 - 47*zeta(5)/640 - 91*pi**2/24576 - 167*zeta(3)/9216 + 26863/73728)"
+  },
+  "laurent_remainder": "O(eps)",
+  "z_dependence": "independent after the specified C4 normalization",
+  "initial_region": "z>0, A0=-2*v14>0, 0<Re(eps)<1/3; then meromorphic epsilon continuation",
+  "formal": "not_run",
+  "limitations": [
+    "Wilson MCP not available in this session",
+    "No general complex kinematics continuation check",
+    "Numerical comparison is not an interval certificate"
+  ],
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "legacy_input": {
+    "package": "benchmarks/self-energy/tgv-pi1/sources/montopar-r001.json",
+    "sha256": "cc9a45b9a3aecd1437fea5fbe222680f67001f8137c09cb38f46ba6fff337e90",
+    "scope": "Historical r001 root; the r001-to-r002 native-C migration is retained in migration."
+  },
+  "input": {
+    "native_package": "benchmarks/self-energy/tgv-pi1/sources/montopar-r002.json",
+    "native_package_sha256": "72436e94de62c72f7231e08851052268ba59bc20b28406d3fc91ba2fe8f189b5",
+    "orbit_id": "3e-3g+Pi1-01",
+    "assembly_sign": 1
+  },
+  "legacy_evidence": {
+    "evidence": "workflow/checks/tgv-pi1-adjacent/README.md"
+  },
+  "migration": {
+    "legacy_result": {
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-01/r001.json",
+      "sha256": "888097606bc94fe28c183cc4c92a551a6a60e99c60fda0f320c2ab74f61b5d01"
+    },
+    "factor_from_native_CJ": -1,
+    "basis": "same J/domain/branch and C_native/C_legacy from native-check.json; integral linearity",
+    "new_integration_performed": false,
+    "old_formal_status_not_inherited": true,
+    "scope": "Historical r001-to-r002 physical-sign migration; r003 preserves the r002 primary result."
+  },
+  "native_verification": "workflow/checks/shared-sign-production/publication-check.json",
+  "R": "exp(-3*EulerGamma*eps)*(gamma(1-eps)**2*gamma(2-3*eps)/gamma(2-2*eps))*(-1/(64*eps*(1+eps)))",
+  "native_verification_scope": "Historical native-source/sign checks; r003 representation and reference checks are recorded separately.",
+  "representation_verification": "workflow/checks/tgv-pi1-representation-r003/verification.json",
+  "representation_revision": {
+    "previous_result": {
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-01/r002.json",
+      "sha256": "7a3bcd6cfb375de12775de7d2591089a10645c42e6a1fd24bfbfe8435bc27978"
+    },
+    "factor_on_primary_I": 1,
+    "primary_laurent_coefficients_changed": false,
+    "new_integration_performed": false,
+    "formal_status": "not_run",
+    "reason": "Correct auxiliary representations and bind all current inputs/references explicitly.",
+    "corrected_fields": []
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "format": "wilson-one-loop-rg-result/1",
+  "revision": "r001",
+  "scope": "fundamental QCD closed non-self-intersecting null quadrilateral; one loop",
+  "domain": "s,t<0 as analytic invariants, z=s/t>0; fixed finite positive z",
+  "formal": "not_run",
+  "MCP": "not_available_in_session",
+  "QFT_basis": "dimensional regularization and Feynman boundary-value propagator; not a Lean proof",
+  "definitions": {
+    "lambda": "alpha_s_MSbar/pi",
+    "s": "2*v12",
+    "t": "2*v14",
+    "mu_x_squared": "exp(2*EulerGamma)*mu_MSbar_squared/4",
+    "mu_prep_squared": "exp(2*EulerGamma)*mu_MSbar_squared/(4*pi)",
+    "L_s": "log(mu_x_squared*(-s))",
+    "L_t": "log(mu_x_squared*(-t))",
+    "L": "(L_s+L_t)/2",
+    "rho": "L_s-L_t=log(z)",
+    "G": "exp(-EulerGamma*eps)*Gamma(1-eps)",
+    "H0": "existing 2e-02/r002.json definitions.H0"
+  },
+  "exact_log_W_one_loop": {
+    "prefactor": "CF*lambda",
+    "expression": "-G*exp(eps*L)*(2*cosh(eps*rho/2)/eps^2+H0(eps,z))",
+    "error_in_coupling": "O(lambda^2)"
+  },
+  "laurent_unit_coefficients": {
+    "-2": {
+      "sympy": "-2",
+      "latex": "-2"
+    },
+    "-1": {
+      "sympy": "-L_s - L_t",
+      "latex": "- L_{s} - L_{t}"
+    },
+    "0": {
+      "sympy": "-L_s**2/2 - L_t**2/2 - M01 - pi**2/6",
+      "latex": "- \\frac{L_{s}^{2}}{2} - \\frac{L_{t}^{2}}{2} - M_{01} - \\frac{\\pi^{2}}{6}"
+    },
+    "1": {
+      "sympy": "-L_s**3/6 - L_s*M01/2 - pi**2*L_s/12 - L_t**3/6 - L_t*M01/2 - pi**2*L_t/12 - M11/2 - 2*zeta(3)/3",
+      "latex": "- \\frac{L_{s}^{3}}{6} - \\frac{L_{s} M_{01}}{2} - \\frac{\\pi^{2} L_{s}}{12} - \\frac{L_{t}^{3}}{6} - \\frac{L_{t} M_{01}}{2} - \\frac{\\pi^{2} L_{t}}{12} - \\frac{M_{11}}{2} - \\frac{2 \\zeta\\left(3\\right)}{3}"
+    },
+    "2": {
+      "sympy": "-L_s**4/24 - L_s**2*M01/8 - pi**2*L_s**2/24 - L_s*L_t*M01/4 - L_s*M11/4 - L_s*zeta(3)/3 - L_t**4/24 - L_t**2*M01/8 - pi**2*L_t**2/24 - L_t*M11/4 - L_t*zeta(3)/3 - pi**2*M01/12 - M03/24 - M21/8 - pi**4/80",
+      "latex": "- \\frac{L_{s}^{4}}{24} - \\frac{L_{s}^{2} M_{01}}{8} - \\frac{\\pi^{2} L_{s}^{2}}{24} - \\frac{L_{s} L_{t} M_{01}}{4} - \\frac{L_{s} M_{11}}{4} - \\frac{L_{s} \\zeta\\left(3\\right)}{3} - \\frac{L_{t}^{4}}{24} - \\frac{L_{t}^{2} M_{01}}{8} - \\frac{\\pi^{2} L_{t}^{2}}{24} - \\frac{L_{t} M_{11}}{4} - \\frac{L_{t} \\zeta\\left(3\\right)}{3} - \\frac{\\pi^{2} M_{01}}{12} - \\frac{M_{03}}{24} - \\frac{M_{21}}{8} - \\frac{\\pi^{4}}{80}"
+    }
+  },
+  "epsilon_remainder": "O(eps^3) after poles; fixed geometry",
+  "log_Z4_one_loop": {
+    "sympy": "CF*lambda*((-L_s - L_t)/eps - 2/eps**2)",
+    "latex": "CF \\lambda \\left(\\frac{- L_{s} - L_{t}}{eps} - \\frac{2}{eps^{2}}\\right)"
+  },
+  "log_WR_one_loop": {
+    "sympy": "CF*lambda*(-L_s*L_t + pi**2/3)",
+    "latex": "CF \\lambda \\left(- L_{s} L_{t} + \\frac{\\pi^{2}}{3}\\right)"
+  },
+  "RG_one_loop": {
+    "sympy": "-2*CF*L_s*lambda - 2*CF*L_t*lambda",
+    "latex": "- 2 CF L_{s} \\lambda - 2 CF L_{t} \\lambda"
+  },
+  "cusp_one_loop": {
+    "sympy": "CF*lambda",
+    "latex": "CF \\lambda"
+  },
+  "Gamma0_alpha_over_4pi": {
+    "sympy": "4*CF",
+    "latex": "4 CF"
+  },
+  "gamma4_one_loop": {
+    "sympy": "0",
+    "latex": "0"
+  },
+  "gamma4_convention": "logs use mu_x_squared; a different constant log scale redistributes noncusp",
+  "DHKS_shape": {
+    "sympy": "CF*lambda*((L_s - L_t)**2/2 + pi**2/3)",
+    "latex": "CF \\lambda \\left(\\frac{\\left(L_{s} - L_{t}\\right)^{2}}{2} + \\frac{\\pi^{2}}{3}\\right)"
+  },
+  "ordinary_QCD_counterterms": "first enter at order lambda^2; none at this order",
+  "dependencies": {
+    "benchmarks/2ne/prepared/2e.json": "d8ce895e6ff1dfd6c6d9b2d241c18988ba34fce234a7770ea47f6109ed366827",
+    "benchmarks/2ne/prepared/manifest.json": "0e9e55dad06bb5adb185689bdf03ea11f7b0c32386a9020fd2b2041fac1ac22c",
+    "benchmarks/2ne/results/2e-01/r002.json": "156b0484b95f71195c8b0153897cfae0856fc9fab432ceab6d61b1bc2e8db24a",
+    "benchmarks/2ne/results/2e-02/r002.json": "006832ddc9a153b6be74b94088625518d023dd98c10bdc338d89cc29392beaa8",
+    "benchmarks/2ne/sources/montopar/2e/montopar-initial.json": "4f262db2a510c540cc4750239ab120eee75f5bc69cfeba21f911927fa8d65392",
+    "benchmarks/2ne/sources/montopar-ordered/2e/montopar-initial.json": "6da143214266017bfea452c45c7a09ba157b1e1563776f93b8ed3b8e2718b8fe",
+    "preprocessing/ordered.py": "67bebf72c4350ff886a8007932644afa53deae4fefd5f51f1c6b9c5664b2ccec",
+    "workflow/checks/empty-family/check_math.py": "b64dca9866177584031778dc5ce6cee42c0499f9228a8965038b848843735f39",
+    "workflow/checks/empty-family/empty_math.py": "c844a76f2eb7a1591d7cccd732821be488890d1196704ca397dce6eb0cd49373",
+    "workflow/checks/empty-family/runs/20260916T083424975899Z/2e-01-checks.json": "6dbd5d5bd2e20ad4d38e0a352f0c05d29244bfc2f80d04fa88e2fb49faae70e2",
+    "workflow/checks/empty-family/runs/20260916T083424975899Z/2e-01-derivation.md": "ef9082857190b6bbfb6594210c6cf639038799c6297caed97c4ef9de01f1bfbe",
+    "workflow/checks/empty-family/setup_workspaces.py": "f1331140c5f07a197b4a96ca021342d77a3f5cb9a901647c145a712c5166bc1e",
+    "workflow/checks/empty-family/solve_empty.py": "dedc7a2505a305f7b47f1ee06ef6063057106b507293c7fd9f1b950da33b160c",
+    "workflow/checks/rg-one-loop/generated/1loop/integrals.json": "39216d8c277ec642a974c79e15da246c6982f1ccf3352062cee42ab30effd54b",
+    "workflow/checks/rg-one-loop/generated/1loop/orbit_definitions.json": "726c307269798efa9bb06850981224b189d84dae1077f7f7ca229328b32969fd",
+    "workflow/checks/rg-one-loop/generated/montopar-replay.json": "86fd4610ef57ad4823c902dbf64372a0d85e206d2cb861af64fd481507d4e9fb",
+    "workflow/checks/rg-one-loop/preprocessing.json": "80b8d39cdf5bf35c55d8bec242dc46a231bb891d95cf9aeb6daeae59821509e9",
+    "workflow/checks/rg-one-loop/sources/code/montopar/__init__.py": "a1fbcf2d0de4a8ff088762df5c9352d734a07ae5e6e428ad34a695f0eae529cb",
+    "workflow/checks/rg-one-loop/sources/code/montopar/c_factor.py": "e0132b2474038b9405ec04494b0e5495d257c1787e87d191942c5dd6e9aa3b12",
+    "workflow/checks/rg-one-loop/sources/code/montopar/fgv.py": "ef35abe27b0c9b4fa47cfd2d85254d5d7e476ea8d72e4269bfe99e303641c511",
+    "workflow/checks/rg-one-loop/sources/code/montopar/geometry.py": "f508c217b3533481ff79b71b491b7d7f71914276c2b7d35859cfd3573b0dd92d",
+    "workflow/checks/rg-one-loop/sources/code/montopar/hypercube.py": "10fd2284aa8635361c0e0038f485a5aaed8b82ebd01f5fa8f70160bae6153c9c",
+    "workflow/checks/rg-one-loop/sources/code/montopar/j_factor.py": "cfe58a77c471ddfe68f881a015e745e470284bbe59a0cd2c903375caae14302e",
+    "workflow/checks/rg-one-loop/sources/code/montopar/models.py": "6a1ba5ad96c2fce122ad62ddfc7c41118005b8049b6e57f6d39d75015a0ac39d",
+    "workflow/checks/rg-one-loop/sources/code/montopar/package_builder.py": "6e38aa9f47bf9b804425fc242448d8f45757902d726ebffd8c0b3b267cad3fda",
+    "workflow/checks/rg-one-loop/sources/code/montopar/parser.py": "118c292a4c6964f8c87d440e564d5f2bd7845e7b70b6f8ba3be18a80bae53a2f",
+    "workflow/checks/rg-one-loop/sources/code/montopar/rotation.py": "2acc469488e8efd9236833d8ac17f977a4b876c85863e6f4fdbd33b6c751fe53",
+    "workflow/checks/rg-one-loop/sources/code/montopar/tgv.py": "723a4ff570d15d2d6666e5f01e767a18e460252659ca94a115e7ca6d1a5cd629",
+    "workflow/checks/rg-one-loop/sources/code/qgraf_pipeline/__init__.py": "83393ec7976570710cb91e177e719f914d61c672e0de34e52f77bfb62052f883",
+    "workflow/checks/rg-one-loop/sources/code/qgraf_pipeline/classifier.py": "739bdbbc42ea0d1c63a5027957852760688146b98555e06860482dfd89964216",
+    "workflow/checks/rg-one-loop/sources/code/qgraf_pipeline/definition_exporter.py": "7c3f524faa5dacfc10f4e4bb19658a158be06c52ef4debc1555d8380b2644b4b",
+    "workflow/checks/rg-one-loop/sources/code/qgraf_pipeline/emitter.py": "74f8de608b5f3c689767a38a91f8f24e705d167d3a2fa78e913437b35399b5c6",
+    "workflow/checks/rg-one-loop/sources/code/qgraf_pipeline/generator.py": "e1a261b89e832460e900aadca63fe31c9f5d1c57ebc11679213ded92287fbffb",
+    "workflow/checks/rg-one-loop/sources/code/qgraf_pipeline/internal_types.py": "9c7ff0089a873067821234c20214f17bdacd2591c2032407599cd1ee59abf338",
+    "workflow/checks/rg-one-loop/sources/code/qgraf_pipeline/json_emitter.py": "d3ce721966bcdbd3510d5abc4cad2b8d665a969315901f7ac2063b4058c67a70",
+    "workflow/checks/rg-one-loop/sources/code/qgraf_pipeline/parser.py": "d36f524112470a929ff4b2ad0cacac35293421b3a4cd80f18ac5febcd73e35f0",
+    "workflow/checks/rg-one-loop/sources/code/qgraf_pipeline/self_energy_chain.py": "ef9e339efcd4dec5e9021993f127c25cc667ccb9370ab6e0e8ecafb82cbab1b5",
+    "workflow/checks/rg-one-loop/sources/code/qgraf_pipeline/topology.py": "a3d321d9c6e5e9b35259ba9df2ce2dd95fea020fd176e443dd5540691c250e5c",
+    "workflow/checks/rg-one-loop/sources/manifest.json": "22f666aba715c8eb6c7cc5410885ef0bbb2a8493bfeb8edaed02d2164a670a0e",
+    "workflow/checks/rg-one-loop/sources/upstream/qgraf-pipeline/outputs/1loop/integrals.json": "39216d8c277ec642a974c79e15da246c6982f1ccf3352062cee42ab30effd54b",
+    "workflow/checks/rg-one-loop/sources/upstream/qgraf-pipeline/outputs/1loop/integrals.md": "89326f50313f5eff56b5ca2349be6c8f2193b786523348394e1f8798ec3c326d",
+    "workflow/checks/rg-one-loop/sources/upstream/qgraf-pipeline/outputs/1loop/orbit_definitions.json": "726c307269798efa9bb06850981224b189d84dae1077f7f7ca229328b32969fd",
+    "workflow/checks/rg-one-loop/sources/upstream/workspaces/1loop/2e/montopar-initial.json": "4f262db2a510c540cc4750239ab120eee75f5bc69cfeba21f911927fa8d65392",
+    "workflow/checks/single-opposite/check_numeric.py": "fc49d0e3e0f572928c182dcb983c618d10e13fb8ca91525a253f75a50b19324e",
+    "workflow/checks/single-opposite/coefficient_math.py": "a948a9e6f871a1fa8cbb5b6e5ae91e1470e27aa88490daa2f56284f798f1b59d",
+    "workflow/checks/single-opposite/compact_basis.py": "19ce22927713b88a5560949cf464aed71bbb74bee711e2d1809c93d39fd0c70d",
+    "workflow/checks/single-opposite/compute_moments.mpl": "6671f0240cd08b1b01419b92b25bd0f64dc2f5dda3fd480285f64bf16dbc93a2",
+    "workflow/checks/single-opposite/hlog_algebra.py": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+    "workflow/checks/single-opposite/initialize.py": "b151de2a3bc36c7607ef611fdd1677677fdfa128288aff14c6a2e43d7c2398e1",
+    "workflow/checks/single-opposite/numeric_hlog.py": "2f7ff121f0f2b0ce5ac6c0d53b96269bee30e3331e1370ee25af6427ae36549b",
+    "workflow/checks/single-opposite/reduce_inputs.py": "ee53e5320bbbd6d5b0142adc4ae3fa046198052ce4ba86a1a23de4ed13a9f6fb",
+    "workflow/checks/single-opposite/remainder_check.py": "de248059de18826b2a30734e20123389176bda0e12f17e9d75e9ba5b265af480",
+    "workflow/checks/single-opposite/run_maple.py": "06b2e2d738c5deca552a6a831ed0f382a19ffa8d185e0cc59a0f49c5d1c85b13",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_0_plus.txt": "d48373a74d7fbd09e4d677f5bd2e056fea2f673aeb48072ef76aa9a48ad8fcd1",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_1_plus.txt": "9d5f82162c5f1df268d8433824d6424f5073067a1e7d3df357f83e6e460b1f6b",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_2_plus.txt": "90a3338e91fa27d191521bff100074a1ecbe204d73416bb451540027f8835bff",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+    "workflow/checks/single-opposite/runs/20260916T093258061172Z/2e-02-checks.json": "c4069340795696002f58ee38fd0f24a43fc3753b32c5aa5e0486cc7d1e674e33",
+    "workflow/checks/single-opposite/runs/20260916T093258061172Z/2e-02-derivation.md": "cacc16fd5234bea4d0f921a98d1c4246fe51e20e1e2d838a8ad129493f62aada",
+    "workflow/checks/single-opposite/runs/20260916T093258061172Z/basis-functions.json": "87ed09c33e6778ba48a0872d0f1c7b8f64eacde962fe7f51f502bc1311642029",
+    "workflow/checks/single-opposite/solve_single.py": "e1cef2acd3e865095b0aac566a1f4c59fcf4568e328ea29e529e151ec8f3c30e",
+    "workflow/checks/single-opposite/test_single.py": "1a713281146f62f9f1c4580eecfb399bd84201c940817d2a09c10dec6240932d"
+  },
+  "limitations": [
+    "general complex z / physical i0 continuation not certified",
+    "no two-loop assembly or new formal receipts"
+  ]
+}

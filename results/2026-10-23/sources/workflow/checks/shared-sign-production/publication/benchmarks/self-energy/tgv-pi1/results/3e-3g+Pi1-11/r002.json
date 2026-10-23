@@ -1,0 +1,135 @@
+{
+  "format": "wilson-tgv-pi1-integral-result/1",
+  "revision": "r002",
+  "date": "2026-10-06",
+  "orbit_id": "3e-3g+Pi1-11",
+  "input_sha256": "cc9a45b9a3aecd1437fea5fbe222680f67001f8137c09cb38f46ba6fff337e90",
+  "status": "laurent_complete",
+  "definition": "I=2 R(eps) [J(eps,z)+z^(3eps)J(eps,1/z)]/(1+z^(3eps))",
+  "normalization": {
+    "euler_compensation_count": 1,
+    "c4_multiplicity": 4,
+    "color_factor_extracted": "CF*CA*B1(eps)",
+    "scale_factor_extracted": "S14+S12",
+    "raw_input_modified": false,
+    "relation_to_bare_full_color": "prepared=sum_C4(raw)*exp(-3 EulerGamma eps)",
+    "assembly_sign": 1,
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+  },
+  "R": "-(exp(-3*EulerGamma*eps)*Gamma(1-eps)^2*Gamma(2-3*eps)/(64*eps*(1+eps)*Gamma(2-2*eps)))",
+  "highest_pole_order": 3,
+  "vanishing_higher_poles": {
+    "-6": "0",
+    "-5": "0",
+    "-4": "0"
+  },
+  "expression_language": "SymPy; original M_k_j, N_k_j at z; zeta_k=zeta(k); chi=(1-z)/(1+z)",
+  "laurent_coefficients": {
+    "-4": "0",
+    "-3": "-(1/384 - zeta_2/192)",
+    "-2": "-(-3*M_0_1/256 + M_1_1/128 - zeta_2/96 - zeta_3/192 + 1/384)",
+    "-1": "-(-5*M_0_1**2/1536 + M_0_1*zeta_2/256 - 3*M_0_1/256 - M_0_2*chi/1024 - M_1_1/128 + 7*M_2_1/512 - 193*zeta_2**2/1920 + 5*zeta_2/768 - zeta_3/96 + 3/128)",
+    "0": "-(-5*M_0_1**2/192 - M_0_1*M_1_1/512 - 41*M_0_1*zeta_2/512 - 5*M_0_1*zeta_3/32 - 9*M_0_1/256 - M_0_2*chi/1024 - 13*M_1_1*zeta_2/512 + M_1_1/128 - 17*M_1_3/3072 + 5*M_2_1/512 + 9*M_3_1/1024 + 5*N_1_2/256 - 193*zeta_2**2/960 + 139*zeta_2*zeta_3/384 - 47*zeta_2/768 + 11*zeta_3/384 - 13*zeta_5/192 + 17/384)"
+  },
+  "laurent_remainder": "O(eps)",
+  "M_definition": "M(k,j,z)=integral_0^1 [log(beta*(1-beta))]^k [log(z)+log((1-beta)/beta)]^j/(beta-z/(1+z)) d beta, j>=1; removable internal point",
+  "N_definition": "N(k,j,z)=M(k,j+1,z)-log(z)*M(k,j,z)",
+  "chi_definition": "chi=(1-z)/(1+z)",
+  "coefficient_field": "Q(z) with explicit zeta constants and polynomial products of the original M/N at the same z",
+  "constant_coefficient_fit": false,
+  "nonconstant_term_in_minus1_and_0": "-chi*M_0_2/1024",
+  "laurent_Hlog_coefficients": {
+    "-4": "0",
+    "-3": "-(-1/192*zeta[2]+1/384)",
+    "-2": "-(1/96*zeta[3]+1/64*Hlog(z,[-1, 0, 0])+3/64*zeta[2]*Hlog(z,[-1])-3/128*zeta[2]*Hlog(z,[0])-1/128*Hlog(z,[0, 0, 0])+3/256*Hlog(z,[0, 0])+1/384+19/768*zeta[2])",
+    "-1": "-(1/512*(11*z*zeta[2]+28*z*zeta[3]+13*zeta[2]+28*zeta[3])/(z+1)*Hlog(z,[0])+7/128*Hlog(z,[0, -1, 0, 0])+21/128*zeta[2]*Hlog(z,[-1, 0])+(-5/64*zeta[2]+3/256)*Hlog(z,[0, 0])-1/64*Hlog(z,[-1, 0, 0])+(-7/64*zeta[3]-3/64*zeta[2])*Hlog(z,[-1])+1/24*zeta[2]+3/128-89/384*zeta[2]^2-5/192*zeta[3]+1/512*(3*z+5)/(z+1)*Hlog(z,[0, 0, 0])-7/64*Hlog(z,[-1, -1, 0, 0])-21/64*zeta[2]*Hlog(z,[-1, -1])-3/64*Hlog(z,[0, 0, 0, 0])+7/128*Hlog(z,[-1, 0, 0, 0])+21/128*zeta[2]*Hlog(z,[0, -1]))",
+    "0": "-(17/384*zeta[2]+17/384+5/128*Hlog(z,[-1, 0, 0, 0])-45/256*Hlog(z,[0, 0, 0, 0])+5/128*Hlog(z,[0, -1, 0, 0])-1/64*Hlog(z,[-1, 0, 0, 0, 0])+7/64*Hlog(z,[0, 0, -1, 0, 0])+5/128*Hlog(z,[0, 0, 0, 0, 0])+5/128*Hlog(z,[0, -1, 0, 0, 0])-5/64*Hlog(z,[-1, -1, 0, 0])+27/64*Hlog(z,[-1, -1, -1, 0, 0])-27/128*Hlog(z,[-1, 0, -1, 0, 0])-27/128*Hlog(z,[0, -1, -1, 0, 0])-27/128*Hlog(z,[-1, -1, 0, 0, 0])-81/128*zeta[2]*Hlog(z,[-1, 0, -1])+1/4*zeta[2]*Hlog(z,[0, -1, 0])+81/64*zeta[2]*Hlog(z,[-1, -1, -1])-81/128*zeta[2]*Hlog(z,[0, -1, -1])+21/64*zeta[2]*Hlog(z,[0, 0, -1])-81/128*zeta[2]*Hlog(z,[-1, -1, 0])+41/48*zeta[2]*zeta[3]-997/3840*zeta[2]^2+17/384*zeta[3]+5/12*zeta[5]-1/2560*(788*z*zeta[2]^2+65*z*zeta[2]-100*z*zeta[3]+788*zeta[2]^2+55*zeta[2]-100*zeta[3])/(z+1)*Hlog(z,[0])-1/512*(36*z*zeta[2]+5*z+36*zeta[2]+3)/(z+1)*Hlog(z,[0, 0, 0])+(-27/128*zeta[3]+15/128*zeta[2])*Hlog(z,[-1, 0])+(-59/512*zeta[2]+11/64*zeta[3]+9/256)*Hlog(z,[0, 0])+(25/128*zeta[2]+1/64)*Hlog(z,[-1, 0, 0])+(-5/64*zeta[3]+309/640*zeta[2]^2+3/64*zeta[2])*Hlog(z,[-1])+(27/64*zeta[3]-15/64*zeta[2])*Hlog(z,[-1, -1])+(-27/128*zeta[3]+15/128*zeta[2])*Hlog(z,[0, -1]))"
+  },
+  "Hlog_language": "Maple/HyperInt; Hlog(z,word) with letters 0,-1; Hlog(z,[0])=log(z), Hlog(z,[-1])=log(1+z)",
+  "raw_J_laurent_coefficients": {
+    "-3": "0",
+    "-2": "-1/6*zeta[2]+1/12",
+    "-1": "(-zeta[2]+1/8)*Hlog(z,[0])+3/8*Hlog(z,[0, 0])+1/2*Hlog(z,[-1, 0, 0])+3/2*zeta[2]*Hlog(z,[-1])+11/24*zeta[2]+1/3*zeta[3]+1/4-1/4*Hlog(z,[0, 0, 0])",
+    "0": "-1/8*(z*zeta[2]-18*z*zeta[3]-3*z-18*zeta[3]-3)/(z+1)*Hlog(z,[0])+5/2*Hlog(z,[0, -1, 0, 0])+15/2*zeta[2]*Hlog(z,[-1, 0])+(-11/2*zeta[2]+3/2)*Hlog(z,[0, 0])+1/2*Hlog(z,[-1, 0, 0])+(3/2*zeta[2]-7/2*zeta[3])*Hlog(z,[-1])-41/6*zeta[2]^2+47/24*zeta[2]-1/6*zeta[3]+5/4+1/8*(11*z+12)/(z+1)*Hlog(z,[0, 0, 0])-21/2*zeta[2]*Hlog(z,[-1, -1])-7/2*Hlog(z,[-1, -1, 0, 0])-3*Hlog(z,[0, 0, 0, 0])+4*Hlog(z,[-1, 0, 0, 0])+15/2*zeta[2]*Hlog(z,[0, -1])",
+    "1": "17/4+35/8*zeta[2]+7*Hlog(z,[-1, 0, 0, 0])+11/2*Hlog(z,[0, -1, 0, 0])+47/2*Hlog(z,[-1, 0, 0, 0, 0])+11*Hlog(z,[0, 0, -1, 0, 0])-85/4*Hlog(z,[0, 0, 0, 0, 0])+37/2*Hlog(z,[0, -1, 0, 0, 0])-19/2*Hlog(z,[-1, -1, 0, 0])+27/2*Hlog(z,[-1, -1, -1, 0, 0])-12*Hlog(z,[-1, 0, -1, 0, 0])-12*Hlog(z,[0, -1, -1, 0, 0])-45/2*Hlog(z,[-1, -1, 0, 0, 0])-36*zeta[2]*Hlog(z,[-1, 0, -1])+61/2*zeta[2]*Hlog(z,[0, -1, 0])+81/2*zeta[2]*Hlog(z,[-1, -1, -1])-36*zeta[2]*Hlog(z,[0, -1, -1])+33*zeta[2]*Hlog(z,[0, 0, -1])-36*zeta[2]*Hlog(z,[-1, -1, 0])+82/3*zeta[2]*zeta[3]-5939/240*zeta[2]^2+1/2*zeta[3]+40/3*zeta[5]+(33/2*zeta[2]-12*zeta[3])*Hlog(z,[-1, 0])+(27*zeta[2]+3/2)*Hlog(z,[-1, 0, 0])+(51/5*zeta[2]^2+9/2*zeta[2]-19/2*zeta[3])*Hlog(z,[-1])+(-57/2*zeta[2]+27/2*zeta[3])*Hlog(z,[-1, -1])+(33/2*zeta[2]-12*zeta[3])*Hlog(z,[0, -1])-1/40*(699*z*zeta[2]^2-20*z*zeta[2]-180*z*zeta[3]+699*zeta[2]^2-75*z-35*zeta[2]-180*zeta[3]-75)/(z+1)*Hlog(z,[0])-1/8*(83*z*zeta[2]-98*z*zeta[3]-36*z+80*zeta[2]-98*zeta[3]-36)/(z+1)*Hlog(z,[0, 0])-1/8*(200*z*zeta[2]-42*z+200*zeta[2]-45)/(z+1)*Hlog(z,[0, 0, 0])-3/8*(z-1)/(z+1)*Hlog(z,[0, 0, 0, 0])"
+  },
+  "raw_J_remainder": "O(eps^2)",
+  "color_factors": {
+    "CF*CA^2": "(10-6*eps)/(3-2*eps)",
+    "CF*CA*TF*nf": "-8*(1-eps)/(3-2*eps)"
+  },
+  "color_channel_coefficients": {
+    "CF*CA^2": {
+      "-4": "0",
+      "-3": "-(5/576 - 5*zeta_2/288)",
+      "-2": "-(-5*M_0_1/128 + 5*M_1_1/192 - 31*zeta_2/864 - 5*zeta_3/288 + 1/108)",
+      "-1": "-(-25*M_0_1**2/2304 + 5*M_0_1*zeta_2/384 - M_0_1/24 - 5*M_0_2*chi/1536 - 7*M_1_1/288 + 35*M_2_1/768 - 193*zeta_2**2/576 + 193*zeta_2/10368 - 31*zeta_3/864 + 205/2592)",
+      "0": "-(-605*M_0_1**2/6912 - 5*M_0_1*M_1_1/768 - 613*M_0_1*zeta_2/2304 - 25*M_0_1*zeta_3/48 - 35*M_0_1/288 - M_0_2*chi/288 - 65*M_1_1*zeta_2/768 + 11*M_1_1/432 - 85*M_1_3/4608 + 41*M_2_1/1152 + 15*M_3_1/512 + 25*N_1_2/384 - 5983*zeta_2**2/8640 + 695*zeta_2*zeta_3/576 - 1591*zeta_2/7776 + 479*zeta_3/5184 - 65*zeta_5/288 + 1193/7776)"
+    },
+    "CF*CA*TF*nf": {
+      "-4": "0",
+      "-3": "-(zeta_2/72 - 1/144)",
+      "-2": "-(M_0_1/32 - M_1_1/48 + 5*zeta_2/216 + zeta_3/72 - 1/216)",
+      "-1": "-(5*M_0_1**2/576 - M_0_1*zeta_2/96 + M_0_1/48 + M_0_2*chi/384 + M_1_1/36 - 7*M_2_1/192 + 193*zeta_2**2/720 - 77*zeta_2/2592 + 5*zeta_3/216 - 19/324)",
+      "0": "-(115*M_0_1**2/1728 + M_0_1*M_1_1/192 + 125*M_0_1*zeta_2/576 + 5*M_0_1*zeta_3/12 + 11*M_0_1/144 + M_0_2*chi/576 + 13*M_1_1*zeta_2/192 - 5*M_1_1/216 + 17*M_1_3/1152 - M_2_1/72 - 3*M_3_1/128 - 5*N_1_2/96 + 193*zeta_2**2/432 - 139*zeta_2*zeta_3/144 + 625*zeta_2/3888 - 115*zeta_3/1296 + 13*zeta_5/72 - 23/243)"
+    }
+  },
+  "color_coefficient_semantics": "coefficients of bg(eps)*I and bf(eps)*I; lambda_b^3*(S14+S12) kept outside",
+  "all_epsilon": {
+    "fully_integrated_closed_form": false,
+    "remaining_dimension": 5,
+    "exact_representation": "Both longitudinal endpoints linked by reflection, each reduced to Gamma endpoints, U differences and finite 3D Y/YB densities; six scalar faces and nonzero Euler-regularized recoil retained; derivation.md",
+    "MN_closure": "Finite coefficients through eps^0 verified; all-epsilon M/N closure not established"
+  },
+  "reflection": {
+    "raw": "J11(eps,z)=z^(3eps)*J11(eps,1/z)",
+    "longitudinal_upper": "z^(3eps)*longitudinal_lower(eps,1/z)",
+    "normalized_I": "I11(eps,z)=4R*J11(eps,z)/(1+z^(3eps))=I11(eps,1/z)",
+    "scope": "Complete actual source with leg2 weight; eta rescales to eta/z before common limit"
+  },
+  "paired_cancellation": {
+    "statement": "Alternative scalar y0/y1 pair is odd under the normalized C4 map and cancels in I",
+    "scope": "Both faces retained in raw J; neither face separately zero; complete longitudinal endpoints and recoil retained"
+  },
+  "regularization": {
+    "recoil_region": [
+      "r",
+      "1/u"
+    ],
+    "omega": "2*eps",
+    "operator": "f -> f-(r*d_r-u*d_u)f/(2*eps)",
+    "explicit_recoil_pole": 1,
+    "bridge_to_10": "Geometric scalar recoil unchanged, new base=s^(-eps)*old base; E annihilates extra s weight; coefficient log=old log-ln(s); region rescanned"
+  },
+  "initial_region": "z>0, A0>0, small positive Re(eps)<1/3; common eta and alpha cutoff first; convergent face limit before mixed derivative identity; dimensional continuation and Euler IBP before expansion",
+  "formal": "not_run",
+  "limitations": [
+    "No callable Wilson mathematical MCP; no formal receipt",
+    "No all-epsilon finite standard-function closed form or all-epsilon M/N closure",
+    "No general complex-z continuation or independent full 5D raw quadrature",
+    "Recoil control is randomized QMC after exact w-path integration; reported error is empirical, not an interval certificate",
+    "Full physical scales, graph assembly and RG remain open"
+  ],
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "legacy_input": null,
+  "input": {
+    "native_package": "benchmarks/self-energy/tgv-pi1/sources/montopar-r002.json",
+    "native_package_sha256": "72436e94de62c72f7231e08851052268ba59bc20b28406d3fc91ba2fe8f189b5",
+    "orbit_id": "3e-3g+Pi1-11",
+    "assembly_sign": 1
+  },
+  "legacy_evidence": {
+    "evidence": "workflow/checks/tgv-pi1-11/README.md"
+  },
+  "migration": {
+    "legacy_result": {
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-11/r001.json",
+      "sha256": "42a2782a355d56880acad0d1680744c7f67e9e3553bdbf1a2893454fb882d817"
+    },
+    "factor_from_native_CJ": -1,
+    "basis": "same J/domain/branch and C_native/C_legacy from native-check.json; integral linearity",
+    "new_integration_performed": false,
+    "old_formal_status_not_inherited": true
+  },
+  "native_verification": "workflow/checks/shared-sign-production/publication-check.json"
+}

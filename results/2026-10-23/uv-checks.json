@@ -1,0 +1,852 @@
+{
+  "format": "wilson-three-matter-uv-delivery-audit/1",
+  "status": "passed",
+  "run_at_utc": "2026-10-23T05:24:35.740428+00:00",
+  "source_root": "D:\\wilson-agent",
+  "check_count": 115,
+  "negative_controls": 6,
+  "checks": [
+    {
+      "name": "qcd-total binds the selected UV bridge bytes",
+      "category": "source_binding",
+      "passed": true
+    },
+    {
+      "name": "preserved UV bridge reports all checks passed",
+      "category": "source_binding",
+      "passed": true
+    },
+    {
+      "name": "UV bridge input bytes retained: workflow/checks/matter-rg-20261017/check.py",
+      "category": "source_binding",
+      "passed": true
+    },
+    {
+      "name": "UV bridge input bytes retained: benchmarks/renormalization/one-loop/result-r001.json",
+      "category": "source_binding",
+      "passed": true
+    },
+    {
+      "name": "UV bridge input bytes retained: benchmarks/renormalization/two-loop/result-r002.json",
+      "category": "source_binding",
+      "passed": true
+    },
+    {
+      "name": "UV bridge input bytes retained: benchmarks/renormalization/n4-two-loop/comparison-r002.json",
+      "category": "source_binding",
+      "passed": true
+    },
+    {
+      "name": "UV bridge input bytes retained: workflow/checks/n4-five-family-20261019/renormalized-difference-r001.json",
+      "category": "source_binding",
+      "passed": true
+    },
+    {
+      "name": "UV bridge input bytes retained: workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "category": "source_binding",
+      "passed": true
+    },
+    {
+      "name": "project raw bare factor gives its native coordinate scale",
+      "category": "uv_scale_algebra",
+      "passed": true,
+      "channel": null,
+      "residual": "0"
+    },
+    {
+      "name": "closed raw bare factor gives its native coordinate scale",
+      "category": "uv_scale_algebra",
+      "passed": true,
+      "channel": null,
+      "residual": "0"
+    },
+    {
+      "name": "FGM_local raw bare factor gives its native coordinate scale",
+      "category": "uv_scale_algebra",
+      "passed": true,
+      "channel": null,
+      "residual": "0"
+    },
+    {
+      "name": "mu_closed_squared equals twice mu_x_squared",
+      "category": "uv_scale_algebra",
+      "passed": true,
+      "channel": null,
+      "residual": "0"
+    },
+    {
+      "name": "mu_FGM_local_squared equals twice mu_closed_squared",
+      "category": "uv_scale_algebra",
+      "passed": true,
+      "channel": null,
+      "residual": "0"
+    },
+    {
+      "name": "s=2q makes the closed and project logarithm arguments equal",
+      "category": "uv_scale_algebra",
+      "passed": true,
+      "channel": null,
+      "residual": "0"
+    },
+    {
+      "name": "Af current selector source hash",
+      "category": "source_binding",
+      "passed": true
+    },
+    {
+      "name": "Af complete post-counterterm epsilon table",
+      "category": "input_budget",
+      "passed": true
+    },
+    {
+      "name": "Af UV comparison epsilon table complete",
+      "category": "input_budget",
+      "passed": true
+    },
+    {
+      "name": "Af selected k3 versus external cusp reference",
+      "category": "external_uv_reference",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af selected h3 versus external Gamma_Box/2 reference",
+      "category": "external_uv_reference",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af October 19 k3 versus reference dictionary",
+      "category": "external_uv_reference",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af October 19 h3 versus reference dictionary",
+      "category": "external_uv_reference",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af independently predicted log Z4 epsilon^-6",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af selected pole versus October 19 epsilon^-6",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af independently predicted log Z4 epsilon^-5",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af selected pole versus October 19 epsilon^-5",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af independently predicted log Z4 epsilon^-4",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af selected pole versus October 19 epsilon^-4",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af independently predicted log Z4 epsilon^-3",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af selected pole versus October 19 epsilon^-3",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af independently predicted log Z4 epsilon^-2",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af selected pole versus October 19 epsilon^-2",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af independently predicted log Z4 epsilon^-1",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af selected pole versus October 19 epsilon^-1",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af selected finite equals post-counterterm epsilon^0",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af selected shape equals F3 at L=0",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af full finite equals October 19 QCD total",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af finite shape equals October 19 QCD total at L=0",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af finite RG with external k3 and h3",
+      "category": "external_uv_finite_rg",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af compact finite_MN versus finite_GPL",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af compact shape_MN versus shape_GPL",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af stored log_Z4 matches selected poles epsilon^-6",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af stored log_Z4 matches selected poles epsilon^-5",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af stored log_Z4 matches selected poles epsilon^-4",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af stored log_Z4 matches selected poles epsilon^-3",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af stored log_Z4 matches selected poles epsilon^-2",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af stored log_Z4 matches selected poles epsilon^-1",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Af finite requires only M/N moments and scale logs",
+      "category": "function_budget",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "unexpected_symbols": []
+    },
+    {
+      "name": "Af shape requires only M/N moments and scale logs",
+      "category": "function_budget",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "unexpected_symbols": []
+    },
+    {
+      "name": "Af selected finite has no C3_N4 dependence",
+      "category": "matter_completeness",
+      "passed": true,
+      "channel": "CF*CA*TF*nf"
+    },
+    {
+      "name": "Af UV total finite has no C3_N4 dependence",
+      "category": "matter_completeness",
+      "passed": true,
+      "channel": "CF*CA*TF*nf"
+    },
+    {
+      "name": "Af negative control: h3=Gamma_Box is rejected",
+      "category": "negative_control",
+      "passed": true,
+      "channel": "CF*CA*TF*nf"
+    },
+    {
+      "name": "Af negative control: finite constant shift is detected by comparison",
+      "category": "negative_control",
+      "passed": true,
+      "channel": "CF*CA*TF*nf"
+    },
+    {
+      "name": "Af RG is blind to an added L-independent even shape",
+      "category": "validation_limit_demonstration",
+      "passed": true,
+      "channel": "CF*CA*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff current selector source hash",
+      "category": "source_binding",
+      "passed": true
+    },
+    {
+      "name": "Ff complete post-counterterm epsilon table",
+      "category": "input_budget",
+      "passed": true
+    },
+    {
+      "name": "Ff UV comparison epsilon table complete",
+      "category": "input_budget",
+      "passed": true
+    },
+    {
+      "name": "Ff selected k3 versus external cusp reference",
+      "category": "external_uv_reference",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff selected h3 versus external Gamma_Box/2 reference",
+      "category": "external_uv_reference",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff October 19 k3 versus reference dictionary",
+      "category": "external_uv_reference",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff October 19 h3 versus reference dictionary",
+      "category": "external_uv_reference",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff independently predicted log Z4 epsilon^-6",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff selected pole versus October 19 epsilon^-6",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff independently predicted log Z4 epsilon^-5",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff selected pole versus October 19 epsilon^-5",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff independently predicted log Z4 epsilon^-4",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff selected pole versus October 19 epsilon^-4",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff independently predicted log Z4 epsilon^-3",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff selected pole versus October 19 epsilon^-3",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff independently predicted log Z4 epsilon^-2",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff selected pole versus October 19 epsilon^-2",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff independently predicted log Z4 epsilon^-1",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff selected pole versus October 19 epsilon^-1",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff selected finite equals post-counterterm epsilon^0",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff selected shape equals F3 at L=0",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff full finite equals October 19 QCD total",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff finite shape equals October 19 QCD total at L=0",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff finite RG with external k3 and h3",
+      "category": "external_uv_finite_rg",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "Ff finite requires only M/N moments and scale logs",
+      "category": "function_budget",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "unexpected_symbols": []
+    },
+    {
+      "name": "Ff shape requires only M/N moments and scale logs",
+      "category": "function_budget",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "unexpected_symbols": []
+    },
+    {
+      "name": "Ff selected finite has no C3_N4 dependence",
+      "category": "matter_completeness",
+      "passed": true,
+      "channel": "CF^2*TF*nf"
+    },
+    {
+      "name": "Ff UV total finite has no C3_N4 dependence",
+      "category": "matter_completeness",
+      "passed": true,
+      "channel": "CF^2*TF*nf"
+    },
+    {
+      "name": "Ff negative control: h3=Gamma_Box is rejected",
+      "category": "negative_control",
+      "passed": true,
+      "channel": "CF^2*TF*nf"
+    },
+    {
+      "name": "Ff negative control: finite constant shift is detected by comparison",
+      "category": "negative_control",
+      "passed": true,
+      "channel": "CF^2*TF*nf"
+    },
+    {
+      "name": "Ff RG is blind to an added L-independent even shape",
+      "category": "validation_limit_demonstration",
+      "passed": true,
+      "channel": "CF^2*TF*nf",
+      "residual": "0"
+    },
+    {
+      "name": "ff current selector source hash",
+      "category": "source_binding",
+      "passed": true
+    },
+    {
+      "name": "ff complete post-counterterm epsilon table",
+      "category": "input_budget",
+      "passed": true
+    },
+    {
+      "name": "ff UV comparison epsilon table complete",
+      "category": "input_budget",
+      "passed": true
+    },
+    {
+      "name": "ff selected k3 versus external cusp reference",
+      "category": "external_uv_reference",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff selected h3 versus external Gamma_Box/2 reference",
+      "category": "external_uv_reference",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff October 19 k3 versus reference dictionary",
+      "category": "external_uv_reference",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff October 19 h3 versus reference dictionary",
+      "category": "external_uv_reference",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff independently predicted log Z4 epsilon^-6",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff selected pole versus October 19 epsilon^-6",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff independently predicted log Z4 epsilon^-5",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff selected pole versus October 19 epsilon^-5",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff independently predicted log Z4 epsilon^-4",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff selected pole versus October 19 epsilon^-4",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff independently predicted log Z4 epsilon^-3",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff selected pole versus October 19 epsilon^-3",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff independently predicted log Z4 epsilon^-2",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff selected pole versus October 19 epsilon^-2",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff independently predicted log Z4 epsilon^-1",
+      "category": "independent_pole_prediction",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff selected pole versus October 19 epsilon^-1",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff selected finite equals post-counterterm epsilon^0",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff selected shape equals F3 at L=0",
+      "category": "finite_representation_identity",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff full finite equals October 19 QCD total",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff finite shape equals October 19 QCD total at L=0",
+      "category": "later_source_consistency",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff finite RG with external k3 and h3",
+      "category": "external_uv_finite_rg",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    },
+    {
+      "name": "ff finite requires only M/N moments and scale logs",
+      "category": "function_budget",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "unexpected_symbols": []
+    },
+    {
+      "name": "ff shape requires only M/N moments and scale logs",
+      "category": "function_budget",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "unexpected_symbols": []
+    },
+    {
+      "name": "ff selected finite has no C3_N4 dependence",
+      "category": "matter_completeness",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2"
+    },
+    {
+      "name": "ff UV total finite has no C3_N4 dependence",
+      "category": "matter_completeness",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2"
+    },
+    {
+      "name": "ff negative control: h3=Gamma_Box is rejected",
+      "category": "negative_control",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2"
+    },
+    {
+      "name": "ff negative control: finite constant shift is detected by comparison",
+      "category": "negative_control",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2"
+    },
+    {
+      "name": "ff RG is blind to an added L-independent even shape",
+      "category": "validation_limit_demonstration",
+      "passed": true,
+      "channel": "CF*(TF*nf)^2",
+      "residual": "0"
+    }
+  ],
+  "channels": {
+    "CF*CA*TF*nf": {
+      "short_name": "Af",
+      "k3_external": "-7*zeta(3)/6 - 209/216 + 5*pi**2/54",
+      "h3_external": "-pi**4/30 - 5921/5832 + 91*zeta(3)/54 + 707*pi**2/1944",
+      "independently_predicted_log_Z4": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "121/162",
+        "-3": "11*L/27 - 485/486 + 5*pi**2/324",
+        "-2": "-167*L/162 + pi**2*L/54 - 503/972 + 13*pi**2/972 + 35*zeta(3)/54",
+        "-1": "-5*pi**2*L/81 + 209*L/324 + 7*L*zeta(3)/9 - 707*pi**2/5832 - 91*zeta(3)/162 + 5921/17496 + pi**4/90"
+      },
+      "selected_finite_MN": "11*L**4/108 + L**3*(289/324 - pi**2/54) + L**2*(-11*rho**2/72 - 43*pi**2/108 + 2051/648) + L*(11*M_1_1/18 + rho**2*(-289/432 + pi**2/72) - 2807*pi**2/1944 - 113*zeta(3)/54 + 17*pi**4/360 + 31313/5832) - 11*M_0_1**2/432 + M_0_1*(-zeta(3)/2 - pi**2/48 + 2051/1296) + 289*M_1_1/216 - M_1_3/36 + 11*M_2_1/72 - N_1_2/24 - 56071*pi**2/69984 - 76*zeta(3)/81 + 7*pi**2*zeta(3)/108 + 2*zeta(5) + 2239*pi**4/77760 + 412765/104976",
+      "selected_shape_MN": "-11*M_0_1**2/432 + M_0_1*(-zeta(3)/2 - pi**2/48 + 2051/1296) + 289*M_1_1/216 - M_1_3/36 + 11*M_2_1/72 - N_1_2/24 - 56071*pi**2/69984 - 76*zeta(3)/81 + 7*pi**2*zeta(3)/108 + 2*zeta(5) + 2239*pi**4/77760 + 412765/104976",
+      "required_moments": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "N_1_2"
+      ],
+      "C3_N4_dependency": false,
+      "finite_comparison_independent_original_integral": false
+    },
+    "CF^2*TF*nf": {
+      "short_name": "Ff",
+      "k3_external": "-55/48 + zeta(3)",
+      "h3_external": "-1711/432 + pi**2/24 + pi**4/90 + 19*zeta(3)/9",
+      "independently_predicted_log_Z4": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "-2/9",
+        "-2": "-L/6 - 2*zeta(3)/9 + 55/216",
+        "-1": "-2*L*zeta(3)/3 + 55*L/72 - 19*zeta(3)/27 - pi**4/270 - pi**2/72 + 1711/1296"
+      },
+      "selected_finite_MN": "L**3/12 - L**2*zeta(3) + 55*L**2/48 - L*rho**2/16 - 19*L*zeta(3)/9 - pi**2*L/8 - pi**4*L/90 + 1711*L/432 + M_1_1/8 - 55*rho**2/192 + rho**2*zeta(3)/4 - 55*pi**2/108 - 355*zeta(3)/162 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776",
+      "selected_shape_MN": "M_1_1/8 - 55*rho**2/192 + rho**2*zeta(3)/4 - 55*pi**2/108 - 355*zeta(3)/162 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776",
+      "required_moments": [
+        "M_1_1"
+      ],
+      "C3_N4_dependency": false,
+      "finite_comparison_independent_original_integral": false
+    },
+    "CF*(TF*nf)^2": {
+      "short_name": "ff",
+      "k3_external": "-1/27",
+      "h3_external": "-260/729 - 5*pi**2/162 + 14*zeta(3)/27",
+      "independently_predicted_log_Z4": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-11/81",
+        "-3": "25/243 - 2*L/27",
+        "-2": "10*L/81 - pi**2/162 + 10/81",
+        "-1": "2*L/81 - 14*zeta(3)/81 + 5*pi**2/486 + 260/2187"
+      },
+      "selected_finite_MN": "-L**4/54 - 10*L**3/81 + L**2*rho**2/36 - 25*L**2/81 + pi**2*L**2/18 - L*M_1_1/9 + 5*L*rho**2/54 - 4*L*zeta(3)/9 - 232*L/729 + 5*pi**2*L/27 - 5*M_1_1/27 - M_2_1/36 + rho**4/864 + pi**2*rho**2/216 + 25*rho**2/324 - 110*zeta(3)/243 - 7*pi**4/19440 + 32/6561 + 38*pi**2/243",
+      "selected_shape_MN": "-5*M_1_1/27 - M_2_1/36 + rho**4/864 + pi**2*rho**2/216 + 25*rho**2/324 - 110*zeta(3)/243 - 7*pi**4/19440 + 32/6561 + 38*pi**2/243",
+      "required_moments": [
+        "M_1_1",
+        "M_2_1"
+      ],
+      "C3_N4_dependency": false,
+      "finite_comparison_independent_original_integral": false
+    }
+  },
+  "sympy_version": "1.14.0",
+  "elapsed_seconds": 1.245,
+  "scope": {
+    "fresh_exact_arithmetic": true,
+    "fresh_external_reference_pole_prediction": true,
+    "external_reference_source": "Preserved October 19 bridge kref/href and finite-line scale dictionary",
+    "fresh_literature_retrieval": false,
+    "fresh_three_loop_integration": false,
+    "fresh_moment_integration": false,
+    "finite_comparison_is_shared_input_consistency": true,
+    "independent_Af_finite_shape": false,
+    "independent_primitive_three_loop_UV": false,
+    "formal": "not_run",
+    "full_four_color_result": false,
+    "science_selectors_changed": false
+  }
+}

@@ -1,0 +1,1228 @@
+{
+  "format": "wilson-matter-rg-current-inputs/1",
+  "root": "D:\\wilson-agent",
+  "source_sha256": {
+    "benchmarks/renormalization/three-loop/current.json": "0a196bf93d0995edc9ade3b1aabb26e8c79e9a39a33868f8c9a96acb505a7100",
+    "benchmarks/renormalization/three-loop/results/CF-CA-TF-nf/r001.json": "bbf1aac15c171e30388a7bfa045a03eb52d32ae8c61e4c483e2134d222f0210d",
+    "benchmarks/renormalization/three-loop/matter-channels-r001.json": "de3f1a6db8bd6278114aabcb1cdcc9f6f77909b4015c05048bcc91d7fac79727",
+    "workflow/checks/w3-ca-nf/prepare.py": "be87f4ef1546ab38cb18a705e942b8a86011e4740e246bd804327a8e4d6a3667",
+    "workflow/checks/w3-ca-nf/inputs.json": "b754bcd1e1fd04c2b924d8daecd3a1e660dabd5b79c710f6b1def80f36e15108",
+    "workflow/checks/w3-ca-nf/source_inputs.mpl": "94fd6b172a428dbaf6de14ca373f527d4aa731b7f61b4370d6435de28d70dce3",
+    "workflow/checks/w3-ca-nf/physical_bridge.py": "dcc3b90bd2ac4845d94d2d19a71db1cd44a262c9d733f2d159d3c717986578c3",
+    "workflow/checks/w3-ca-nf/physical-bridge.json": "958d7e9d7afb21c122c9362ce1f36449d28c18e49507afc17e591554eb66c287",
+    "workflow/checks/w3-ca-nf/generate_physical.py": "b2c62af63c78869153859d881ebc2521617b8d9b321906ca32b9d805d3be40a1",
+    "workflow/checks/w3-ca-nf/assemble.mpl": "eb491abe3cb983fee86324c357d6981379e42a09bbc3824a18cd6891d36dfc83",
+    "workflow/checks/w3-ca-nf/assemble.log": "c285f6e5de9ca67e6ada9675cbea66fed76ebc855fed8b5575d5fc7ba57c72f5",
+    "workflow/checks/w3-ca-nf/assembly-coefficients.txt": "ecb70df3c37242430826b83db9d35559fa378369d90ffd0f096b7d48fb54122c",
+    "workflow/checks/w3-ca-nf/physical.mpl": "f54c3bc53e2b5b238fd2159ad0d9befd477da698f5e8852a62148c0a90436d86",
+    "workflow/checks/w3-ca-nf/physical.log": "4350055211998a30133837742f975f97b47c15f09330b8f6dc4508effdccc409",
+    "workflow/checks/w3-ca-nf/physical-run.json": "76303b1b67cdef16ed757b6e2410427f07e590875bc4324239b253e9920827ce",
+    "workflow/checks/w3-ca-nf/physical-coefficients.txt": "4ecada51a758fdb0a122a27d05db00105b4f3e7427698cd126ae2abb79b8d7b1",
+    "workflow/checks/w3-ca-nf/compact.mpl": "d72e2bc8339896029585907b7fd234a6331f354c5bacce9439cd327b2f2cca0b",
+    "workflow/checks/w3-ca-nf/compact.log": "8625b3d11f52704b833f3ccd8a6a0549e7fd6304cba04c1915a751c1baec361e",
+    "workflow/checks/w3-ca-nf/compact-run.json": "296861a9c8ba2afe867f7ea1396e337679d20895ed84558717ea3be227a56c9e",
+    "workflow/checks/w3-ca-nf/compact-coefficients.txt": "444df14cd7d9ed3fb31280de1618c5f918bb50a721c35b498bb7b7a2075838bc",
+    "workflow/checks/w3-ca-nf/source_controls.mpl": "5d7ed1569ca80c6bc210866dde0dadd5f452b7c0967f5c50fbc55220edae2e18",
+    "workflow/checks/w3-ca-nf/source_controls.log": "74e212fc43151600dd5f8a5be08ad1d101e9b4a29d7906a553b5434e26c84952",
+    "workflow/checks/w3-ca-nf/source-crossing.txt": "8bf7222aed7bb4229756cae494015443d36a59110d491c85ef11d0d9aeb51498",
+    "workflow/checks/w3-ca-nf/direct_export.mpl": "e7238beceb1bcdb3884242431167e234d894723aa425469e6cfa442b20d79e5a",
+    "workflow/checks/w3-ca-nf/direct_export.log": "3d1cc0e8cf3aaa8a1cd9be7f99a2fe10940863e5fcb2f8ec0ce671b8b481a953",
+    "workflow/checks/w3-ca-nf/direct-export-checks.txt": "27b0d78ca40ccb4cac9ba6abfeae89bf94294569c214f556ca8324d0e5c395f8",
+    "workflow/checks/w3-ca-nf/numeric.py": "03084552a706ffb9cdb5dfbc2adb4bb08204840e05e53719d3a8a287bad3b614",
+    "workflow/checks/w3-ca-nf/numeric-checks.json": "6d7e5f663b932b02b4720e5917c1fd8c975f2084eb10174a313373ecf9faded8",
+    "workflow/checks/w3-ca-nf/publish.py": "512909c790bb78c8f7dff245063c14a5f2740d20f825bf5a311788bf25d89b00",
+    "benchmarks/self-energy/current-r002.json": "b141e672ae85e4cb119413968115e9da3cc8852f14f2b422f2f7d4b756c9eddd",
+    "benchmarks/self-energy/tgv-pi1/current.json": "1d25a2bf5eb5e3fc4a70c8a34fd06030bfa33202ffc22a7171a89997d94389e5",
+    "benchmarks/self-energy/gamma1/current.json": "421a7bb8d8bd91443794fc25348c87f51761465adc0802a37961b13817b930c9",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/gamma1/current.json": "87d36c58523bec0fc2274fd6e9f33cbae0c32c54f76914f044bf72cec0c92e65",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-01/r002.json": "22da1c140fa1da316d4859388cf1d6fe66bcfcfc5df5e58c1b88629d71dcb0f5",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-02/r002.json": "f4ef60739c56f6950b523a6b6755f5c19b4020f34f34564ca6480cc8198451c5",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-03/r002.json": "928e181315e388c55416e507eadfc496fc07132eab9c656d80dd5ebb6b624354",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-04/r002.json": "cb67dd178a5f02cb9c3dbd9b34a29f47a4054fb0be19cb85d09687abcce16cd9",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-05/r002.json": "6869b5e35cb56aaf77f19b80ac55bab5e45869f06da10c705caf26e83494a2b4",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-06/r002.json": "9da31233ebc761d2d659ec28ab4e8022c42f730865d49e8d2cf3abe66fa084f6",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-07/r002.json": "baafb42f20e8266ad5b5eca46db2d00eac1c2727226e8c5dd86eb1812517d8d9",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-08/r002.json": "c14243865814c45343f68cc8990f8793356c7c23d88e7a62058b69b599c100dd",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-09/r002.json": "753efcab2092a5954ce44bc0b91f8880fc9e1943b7fed9648b75085165ad85d3",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-10/r002.json": "75654d49701d92ad1c0fca96febd12d6ee9d8ae296a84525aa80ae89dfc2ebe4",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-11/r002.json": "f04657a1aab9b963470d66587a2886628d2cb9bf9c59fa92f64a22f4fa666fef",
+    "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r002.json": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926",
+    "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+    "benchmarks/self-energy/pi2/results/2e-Pi2-01/r002.json": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a",
+    "benchmarks/self-energy/pi2/results/2e-Pi2-02/r002.json": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-01/r003.json": "b0b007dd4d387ffd744376bb54d62dadbaaf9948421d2f3819af6d09c5200e0f",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-01/r002.json": "7a3bcd6cfb375de12775de7d2591089a10645c42e6a1fd24bfbfe8435bc27978",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-02/r003.json": "809e43e98fb22c31c63ddb4985e5c1b08d4f060a72008e28f83918daccc97389",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-02/r002.json": "7331ed55cbe82639ce0b27b2cc2e8cb9a47eef1504b927882753df2d7fb0a00e",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-03/r003.json": "ed477d05e9da0bead80c34bb4babb08c164ca57206cae260a901def6a5e177e1",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-03/r002.json": "5afecbf5a02e97183e4a06be80921ac43385fd2d328b6a904ce64d61ea72c3d0",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-04/r003.json": "0f3e9e0b82b51f3821a4f612a0cefeff1eb6bff2513ad1e885fabed2a8a630ec",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-04/r002.json": "bab138514789fec411cb6110503b9bbd68387864ac708924c48c2aab8b769e4d",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-05/r003.json": "32b15a8aae68502fa406e1b659c06cfbf07cb23edbcbb0d151da9276f09c757d",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-05/r002.json": "a467d50b9eaa49e73dde216c8aeee0863cb65447a0e41cbd275f0f763fbd643c",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-06/r003.json": "8a334297e7e8afe8b95f0bed3c24fc826ec67b13792df8f29105b27cc0dbfcd5",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-06/r002.json": "cddce30e9ff2b68906dcc5f39bbff3fed9573ad3c3349a4cd936a1ec29d81ab5",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-07/r003.json": "fac4e545879c642b4c0eb3214760e9ba467ecc14ac522f1ee842bc3b7389dcb0",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-07/r002.json": "232f2dccb0ff2f2544afb6e538983f6eea6b1375230d05359c20f0802f0a829f",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-08/r003.json": "cb3f9d781bea07cb85fb9547a559dd6c59f8f044c9fe2ceb7b5434b9ab75d801",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-08/r002.json": "6064cdb61008ca5571919231ee3c4a7323488638daa9ca8bd5467d572aa6c8fc",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-09/r003.json": "dfc0663ca2e01e55574ddf3ae50e7149f4fd294943ffe3e842237e8ca079e326",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-09/r002.json": "f2730f152230189c0b89ebeadbf49305a8aaf9a75c6cb985a2dd737ec0062245",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-10/r003.json": "10d267285d6165845287d72f077c6c6384835348bafa7717367d0af869864413",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-10/r002.json": "8b0c6a13d84059c299b4a135160b140edf6198c83cad0e5ee61282748e16487c",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-11/r003.json": "2617946d55e88e9dcbcf1457605d332fc2ee5170165a930399ad1489c3f00c35",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-11/r002.json": "83ef5c2cf1003efa4292b59e1c911aab4275ce0cda288d25b2fb7e26355c5c1e",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-12/r003.json": "f81e2f392727a44c8016606af30e394080e9668f35be94373332054b8976a92b",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-12/r002.json": "657afcaf444df11ef4bbd584f569aafc76bf4c70b2498f5f6ffc6599970cd136",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-01/r002.json": "414c5ca5942257846ae88b083d9b4c8c6a135370dbff8f49563a104568c20c33",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/gamma1/results/3e-Gamma1-01/r002.json": "414c5ca5942257846ae88b083d9b4c8c6a135370dbff8f49563a104568c20c33",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-02/r002.json": "7c77526e84b52809aab0990fde75cf37789978741c0af92696ffb339c31f6a8b",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/gamma1/results/3e-Gamma1-02/r002.json": "7c77526e84b52809aab0990fde75cf37789978741c0af92696ffb339c31f6a8b",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-03/z-r003.json": "68afb9c88590c00b58a8dea4fba66f4f820416be9c139d5a5dda556f8daa4e17",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/gamma1/results/3e-Gamma1-03/z-r002.json": "5c4d53f7a8ca14bc777b7ca9fd2e1dae0b684920f67bc96859b2b223dcfd509e",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-03/r003.json": "6a8e8a16c6c2b40b97f9e8da408dcddb9b8a32978b5d6f5b6d37b1d9e122d3ee",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-03/r002.json": "517839d295091d12c8fb367d09c73f5dae48366ddd71a27b6bce6c0768694655",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-04/r003.json": "473a7c442c48c1da04a2fb9287b6b02becd2c254f6cb7045a653c57a5c2d12c8",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/gamma1/results/3e-Gamma1-04/r002.json": "c2463431a9aa411fe6aa374cc4d02958338dcb49f6b1a7f3e5642d29bcb3fbe3",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-04/r002.json": "c2463431a9aa411fe6aa374cc4d02958338dcb49f6b1a7f3e5642d29bcb3fbe3",
+    "workflow/checks/shared-sign-production/native-assembly-check.json": "b584e70167a9121f6b0c8270f36e5adc39d3c72542b6145c1d4ab87153dcd1b3",
+    "benchmarks/renormalization/one-loop/result-r001.json": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+    "benchmarks/renormalization/three-loop/lower-order-inputs-r001.json": "557dbb38a6338a9c5b2c1fbbfad782cccbd9d4ced7cb0e66f2e880e4ede20991",
+    "benchmarks/renormalization/two-loop/result-r002.json": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+    "benchmarks/renormalization/three-loop/counterterms-r001.json": "8418c4be88da475c58796385e647a2d6d2c9ee186acf8a9b7a4883e6e116810e",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f"
+  },
+  "graph_consumption": [
+    {
+      "orbit_id": "4e-Pi1-01",
+      "part": "Pi1",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-01/r002.json",
+      "sha256": "22da1c140fa1da316d4859388cf1d6fe66bcfcfc5df5e58c1b88629d71dcb0f5",
+      "field": "/laurent/coefficients",
+      "field_sha256": "017fef7a1c1890e90435046ee1779676a92a09d1974c2655fb44f27f236755b4",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "4e-Pi1-02",
+      "part": "Pi1",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-02/r002.json",
+      "sha256": "f4ef60739c56f6950b523a6b6755f5c19b4020f34f34564ca6480cc8198451c5",
+      "field": "/laurent/coefficients",
+      "field_sha256": "017fef7a1c1890e90435046ee1779676a92a09d1974c2655fb44f27f236755b4",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "4e-Pi1-03",
+      "part": "Pi1",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-03/r002.json",
+      "sha256": "928e181315e388c55416e507eadfc496fc07132eab9c656d80dd5ebb6b624354",
+      "field": "/laurent/coefficients",
+      "field_sha256": "2a24e5ffc221d5763b4bde7aa81040d58a7c8320bb634524b17765e8d9eb4d03",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "4e-Pi1-04",
+      "part": "Pi1",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-04/r002.json",
+      "sha256": "cb67dd178a5f02cb9c3dbd9b34a29f47a4054fb0be19cb85d09687abcce16cd9",
+      "field": "/laurent/coefficients",
+      "field_sha256": "f13e9a0693b823561bfa00c9c50afb5d424f2df67a8107eb856ed1d411232c09",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "4e-Pi1-05",
+      "part": "Pi1",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-05/r002.json",
+      "sha256": "6869b5e35cb56aaf77f19b80ac55bab5e45869f06da10c705caf26e83494a2b4",
+      "field": "/laurent/coefficients",
+      "field_sha256": "cd1b61bc78b424312be648cee0d44ba1f53ac27b4fda0d5246b18ce59f8c9056",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "4e-Pi1-06",
+      "part": "Pi1",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-06/r002.json",
+      "sha256": "9da31233ebc761d2d659ec28ab4e8022c42f730865d49e8d2cf3abe66fa084f6",
+      "field": "/laurent/coefficients",
+      "field_sha256": "cd1b61bc78b424312be648cee0d44ba1f53ac27b4fda0d5246b18ce59f8c9056",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "4e-Pi1-07",
+      "part": "Pi1",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-07/r002.json",
+      "sha256": "baafb42f20e8266ad5b5eca46db2d00eac1c2727226e8c5dd86eb1812517d8d9",
+      "field": "/laurent/coefficients",
+      "field_sha256": "ef11fd75a4511b89aec2d4935856cad8728c8415f1a5d047d5527882071e95bd",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "4e-Pi1-08",
+      "part": "Pi1",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-08/r002.json",
+      "sha256": "c14243865814c45343f68cc8990f8793356c7c23d88e7a62058b69b599c100dd",
+      "field": "/laurent/coefficients",
+      "field_sha256": "ef11fd75a4511b89aec2d4935856cad8728c8415f1a5d047d5527882071e95bd",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "4e-Pi1-09",
+      "part": "Pi1",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-09/r002.json",
+      "sha256": "753efcab2092a5954ce44bc0b91f8880fc9e1943b7fed9648b75085165ad85d3",
+      "field": "/laurent/coefficients",
+      "field_sha256": "f13e9a0693b823561bfa00c9c50afb5d424f2df67a8107eb856ed1d411232c09",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "4e-Pi1-10",
+      "part": "Pi1",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-10/r002.json",
+      "sha256": "75654d49701d92ad1c0fca96febd12d6ee9d8ae296a84525aa80ae89dfc2ebe4",
+      "field": "/laurent/coefficients",
+      "field_sha256": "2a24e5ffc221d5763b4bde7aa81040d58a7c8320bb634524b17765e8d9eb4d03",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "4e-Pi1-11",
+      "part": "Pi1",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-11/r002.json",
+      "sha256": "f04657a1aab9b963470d66587a2886628d2cb9bf9c59fa92f64a22f4fa666fef",
+      "field": "/laurent/coefficients",
+      "field_sha256": "124a4a18ff1485081973687bc27226209cf006fba1bc94e1e5005854bf9d5df0",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-01",
+      "part": "chain",
+      "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r002.json",
+      "sha256": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926",
+      "field": "/color_channels[CA*CF*TF*nf]/coefficients",
+      "field_sha256": "76aacb8fb46f7d2482f7c4569f143e57eadd6b2d4c97dffa6b65b6de98fe4223",
+      "scalar_multiplier": "1",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-02",
+      "part": "chain",
+      "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json",
+      "sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+      "field": "/color_channels[CA*CF*TF*nf]/coefficients",
+      "field_sha256": "cd245ed0444be8e1847573cd5424bea4e3e5c6c889cfe6c7a7300312262e4e96",
+      "scalar_multiplier": "1",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "2e-Pi2-01",
+      "part": "Pi2",
+      "path": "benchmarks/self-energy/pi2/results/2e-Pi2-01/r002.json",
+      "sha256": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a",
+      "field": "/color_channels[Af]/laurent/coefficients",
+      "field_sha256": "9c07793bbf1196c9452b4453c81bae6c708babec68066c012e67af932937a537",
+      "scalar_multiplier": "1",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "2e-Pi2-02",
+      "part": "Pi2",
+      "path": "benchmarks/self-energy/pi2/results/2e-Pi2-02/r002.json",
+      "sha256": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d",
+      "field": "/color_channels[Af]/laurent/coefficients",
+      "field_sha256": "fd2f73064465de176925e871cf72e71ec0b7653ba39f4be34c14ab87aaa9875d",
+      "scalar_multiplier": "1",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": 1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-01",
+      "part": "legs",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-01/r003.json",
+      "sha256": "b0b007dd4d387ffd744376bb54d62dadbaaf9948421d2f3819af6d09c5200e0f",
+      "field": "/laurent_coefficients",
+      "field_sha256": "b5cde5e4dc0ddc900a974de46ae113ec37f28cefbf2b9ba27166db50debf3e01",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-02",
+      "part": "legs",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-02/r003.json",
+      "sha256": "809e43e98fb22c31c63ddb4985e5c1b08d4f060a72008e28f83918daccc97389",
+      "field": "/laurent_coefficients",
+      "field_sha256": "2d54f3c63460c3eb0bc7a745c0b8a99c7b920b4f36fc1acbe5c448d369050ec6",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-03",
+      "part": "legs",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-03/r003.json",
+      "sha256": "ed477d05e9da0bead80c34bb4babb08c164ca57206cae260a901def6a5e177e1",
+      "field": "/laurent_coefficients",
+      "field_sha256": "4729410dc0d629d2ec82bc3029c63936656a6ad73e28f3af0ce7b6d943074b62",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-04",
+      "part": "legs",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-04/r003.json",
+      "sha256": "0f3e9e0b82b51f3821a4f612a0cefeff1eb6bff2513ad1e885fabed2a8a630ec",
+      "field": "/laurent_coefficients",
+      "field_sha256": "4729410dc0d629d2ec82bc3029c63936656a6ad73e28f3af0ce7b6d943074b62",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-05",
+      "part": "legs",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-05/r003.json",
+      "sha256": "32b15a8aae68502fa406e1b659c06cfbf07cb23edbcbb0d151da9276f09c757d",
+      "field": "/laurent_coefficients",
+      "field_sha256": "2d54f3c63460c3eb0bc7a745c0b8a99c7b920b4f36fc1acbe5c448d369050ec6",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-06",
+      "part": "legs",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-06/r003.json",
+      "sha256": "8a334297e7e8afe8b95f0bed3c24fc826ec67b13792df8f29105b27cc0dbfcd5",
+      "field": "/laurent_coefficients",
+      "field_sha256": "b5cde5e4dc0ddc900a974de46ae113ec37f28cefbf2b9ba27166db50debf3e01",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-07",
+      "part": "legs",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-07/r003.json",
+      "sha256": "fac4e545879c642b4c0eb3214760e9ba467ecc14ac522f1ee842bc3b7389dcb0",
+      "field": "/laurent_coefficients",
+      "field_sha256": "1db270095b71eace186e4ac5b791c723982020c7488a6e361d337eb733b172f7",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-08",
+      "part": "legs",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-08/r003.json",
+      "sha256": "cb3f9d781bea07cb85fb9547a559dd6c59f8f044c9fe2ceb7b5434b9ab75d801",
+      "field": "/laurent_coefficients",
+      "field_sha256": "a76ed51ef361a8b78e168a8bfa591d393bc68df1c29ebd1c967594774b18e643",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-09",
+      "part": "legs",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-09/r003.json",
+      "sha256": "dfc0663ca2e01e55574ddf3ae50e7149f4fd294943ffe3e842237e8ca079e326",
+      "field": "/laurent_Hlog_coefficients",
+      "field_sha256": "821f548079062df54d888989ef934d5930df23f69c5128572b4d38e5cbe57014",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-10",
+      "part": "legs",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-10/r003.json",
+      "sha256": "10d267285d6165845287d72f077c6c6384835348bafa7717367d0af869864413",
+      "field": "/laurent_Hlog_coefficients",
+      "field_sha256": "e8f9e5d8e6cfb9ec4577555e1153a1f6a12c4a8b65cb29172c0d9be7cb5b86c7",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-11",
+      "part": "legs",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-11/r003.json",
+      "sha256": "2617946d55e88e9dcbcf1457605d332fc2ee5170165a930399ad1489c3f00c35",
+      "field": "/laurent_Hlog_coefficients",
+      "field_sha256": "4032682390d57e8488f59ebd9152027d1d5f41538f44a74d780b30299d0fb2b1",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-12",
+      "part": "legs",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-12/r003.json",
+      "sha256": "f81e2f392727a44c8016606af30e394080e9668f35be94373332054b8976a92b",
+      "field": "/laurent_Hlog_coefficients",
+      "field_sha256": "13778cd94aff35a303ddb75cfa9ef85901783ec610df09c7e52a4746521e7cbb",
+      "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-Gamma1-01",
+      "part": "Gamma",
+      "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-01/r002.json",
+      "sha256": "414c5ca5942257846ae88b083d9b4c8c6a135370dbff8f49563a104568c20c33",
+      "field": "/channels/q/I_coefficients",
+      "field_sha256": "002ef382c1db90525d3b7b96ddb0834f0c4459a1035e59a71f945628e066fc38",
+      "scalar_multiplier": "1",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-Gamma1-02",
+      "part": "Gamma",
+      "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-02/r002.json",
+      "sha256": "7c77526e84b52809aab0990fde75cf37789978741c0af92696ffb339c31f6a8b",
+      "field": "/channels/q/I_coefficients",
+      "field_sha256": "002ef382c1db90525d3b7b96ddb0834f0c4459a1035e59a71f945628e066fc38",
+      "scalar_multiplier": "1",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-Gamma1-03",
+      "part": "Gamma",
+      "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-03/z-r003.json",
+      "sha256": "68afb9c88590c00b58a8dea4fba66f4f820416be9c139d5a5dda556f8daa4e17",
+      "field": "/channels/q/I_coefficients",
+      "field_sha256": "91aa7cfc688060e2268849f1fc29e8890c28d1b3c9c79e4df76961ed74f65db4",
+      "scalar_multiplier": "1",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "orbit_id": "3e-Gamma1-04",
+      "part": "Gamma",
+      "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-04/r003.json",
+      "sha256": "473a7c442c48c1da04a2fb9287b6b02becd2c254f6cb7045a653c57a5c2d12c8",
+      "field": "/channels/q/I_coefficients",
+      "field_sha256": "cb44248be511a3365c9558d71eeece00187d6a6f857245fec2f1c9bfb0463811",
+      "scalar_multiplier": "1",
+      "native_physical_sign": 1,
+      "legacy_physical_sign": -1,
+      "consumed_powers": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    }
+  ],
+  "historical_bindings": [
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/current-r002.json",
+      "original_sha256": "b141e672ae85e4cb119413968115e9da3cc8852f14f2b422f2f7d4b756c9eddd",
+      "current_sha256": "b141e672ae85e4cb119413968115e9da3cc8852f14f2b422f2f7d4b756c9eddd",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-01/r002.json",
+      "original_sha256": "22da1c140fa1da316d4859388cf1d6fe66bcfcfc5df5e58c1b88629d71dcb0f5",
+      "current_sha256": "22da1c140fa1da316d4859388cf1d6fe66bcfcfc5df5e58c1b88629d71dcb0f5",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-02/r002.json",
+      "original_sha256": "f4ef60739c56f6950b523a6b6755f5c19b4020f34f34564ca6480cc8198451c5",
+      "current_sha256": "f4ef60739c56f6950b523a6b6755f5c19b4020f34f34564ca6480cc8198451c5",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-03/r002.json",
+      "original_sha256": "928e181315e388c55416e507eadfc496fc07132eab9c656d80dd5ebb6b624354",
+      "current_sha256": "928e181315e388c55416e507eadfc496fc07132eab9c656d80dd5ebb6b624354",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-04/r002.json",
+      "original_sha256": "cb67dd178a5f02cb9c3dbd9b34a29f47a4054fb0be19cb85d09687abcce16cd9",
+      "current_sha256": "cb67dd178a5f02cb9c3dbd9b34a29f47a4054fb0be19cb85d09687abcce16cd9",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-05/r002.json",
+      "original_sha256": "6869b5e35cb56aaf77f19b80ac55bab5e45869f06da10c705caf26e83494a2b4",
+      "current_sha256": "6869b5e35cb56aaf77f19b80ac55bab5e45869f06da10c705caf26e83494a2b4",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-06/r002.json",
+      "original_sha256": "9da31233ebc761d2d659ec28ab4e8022c42f730865d49e8d2cf3abe66fa084f6",
+      "current_sha256": "9da31233ebc761d2d659ec28ab4e8022c42f730865d49e8d2cf3abe66fa084f6",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-07/r002.json",
+      "original_sha256": "baafb42f20e8266ad5b5eca46db2d00eac1c2727226e8c5dd86eb1812517d8d9",
+      "current_sha256": "baafb42f20e8266ad5b5eca46db2d00eac1c2727226e8c5dd86eb1812517d8d9",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-08/r002.json",
+      "original_sha256": "c14243865814c45343f68cc8990f8793356c7c23d88e7a62058b69b599c100dd",
+      "current_sha256": "c14243865814c45343f68cc8990f8793356c7c23d88e7a62058b69b599c100dd",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-09/r002.json",
+      "original_sha256": "753efcab2092a5954ce44bc0b91f8880fc9e1943b7fed9648b75085165ad85d3",
+      "current_sha256": "753efcab2092a5954ce44bc0b91f8880fc9e1943b7fed9648b75085165ad85d3",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-10/r002.json",
+      "original_sha256": "75654d49701d92ad1c0fca96febd12d6ee9d8ae296a84525aa80ae89dfc2ebe4",
+      "current_sha256": "75654d49701d92ad1c0fca96febd12d6ee9d8ae296a84525aa80ae89dfc2ebe4",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-11/r002.json",
+      "original_sha256": "f04657a1aab9b963470d66587a2886628d2cb9bf9c59fa92f64a22f4fa666fef",
+      "current_sha256": "f04657a1aab9b963470d66587a2886628d2cb9bf9c59fa92f64a22f4fa666fef",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r002.json",
+      "original_sha256": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926",
+      "current_sha256": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json",
+      "original_sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+      "current_sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi2/results/2e-Pi2-01/r002.json",
+      "original_sha256": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a",
+      "current_sha256": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/pi2/results/2e-Pi2-02/r002.json",
+      "original_sha256": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d",
+      "current_sha256": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/tgv-pi1/current.json",
+      "original_sha256": "d68e7e85a47198229ff136b6f83138f4c92831e499ad4eb1a4e8bd58a9ee7417",
+      "current_sha256": "1d25a2bf5eb5e3fc4a70c8a34fd06030bfa33202ffc22a7171a89997d94389e5",
+      "original_bytes_present": false
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-01/r001.json",
+      "original_sha256": "888097606bc94fe28c183cc4c92a551a6a60e99c60fda0f320c2ab74f61b5d01",
+      "current_sha256": "888097606bc94fe28c183cc4c92a551a6a60e99c60fda0f320c2ab74f61b5d01",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-02/r001.json",
+      "original_sha256": "2d062dc3ef514188b99e017c29265da3d27b5329b9e075409b33769316836f2e",
+      "current_sha256": "2d062dc3ef514188b99e017c29265da3d27b5329b9e075409b33769316836f2e",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-03/r001.json",
+      "original_sha256": "71ab69326065388817c629d19c0c0b7664054157f49b89b70e871511cb64a2aa",
+      "current_sha256": "71ab69326065388817c629d19c0c0b7664054157f49b89b70e871511cb64a2aa",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-04/r001.json",
+      "original_sha256": "defee871225cc124f709540d689d723c75f994354508751f4f21aab3a8dc3357",
+      "current_sha256": "defee871225cc124f709540d689d723c75f994354508751f4f21aab3a8dc3357",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-05/r001.json",
+      "original_sha256": "c140adeb2f5d996a5ebbdffe056a251ee9ea2fcfe918d0b53180fd3cde6683c8",
+      "current_sha256": "c140adeb2f5d996a5ebbdffe056a251ee9ea2fcfe918d0b53180fd3cde6683c8",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-06/r001.json",
+      "original_sha256": "b4101d9952c8f11cb3d706a6ff939a712dc5eca6bcd008f3be1b362978290eed",
+      "current_sha256": "b4101d9952c8f11cb3d706a6ff939a712dc5eca6bcd008f3be1b362978290eed",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-07/r001.json",
+      "original_sha256": "3147a290c8a2a8719805ac82074f782b2b3cd60d9891fe51d7f91fd3869c1184",
+      "current_sha256": "3147a290c8a2a8719805ac82074f782b2b3cd60d9891fe51d7f91fd3869c1184",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-08/r001.json",
+      "original_sha256": "dee87cbb5b7b45fcfa83d883641b754425c58d8b74aaaf1cdfe6dee0dfbad4c3",
+      "current_sha256": "dee87cbb5b7b45fcfa83d883641b754425c58d8b74aaaf1cdfe6dee0dfbad4c3",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-09/r001.json",
+      "original_sha256": "20703301dddbeb537db1acbe44a30514994216f5b57ee989aba9f66ccbed4bd3",
+      "current_sha256": "20703301dddbeb537db1acbe44a30514994216f5b57ee989aba9f66ccbed4bd3",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-10/r001.json",
+      "original_sha256": "cef0a4445eded52bc6d393ab3675a6e790e4e6436fefbb08e32db227fc25f622",
+      "current_sha256": "cef0a4445eded52bc6d393ab3675a6e790e4e6436fefbb08e32db227fc25f622",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-11/r001.json",
+      "original_sha256": "42a2782a355d56880acad0d1680744c7f67e9e3553bdbf1a2893454fb882d817",
+      "current_sha256": "42a2782a355d56880acad0d1680744c7f67e9e3553bdbf1a2893454fb882d817",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-12/r001.json",
+      "original_sha256": "fcad00be092296da9ca296eadc95ce133343532b69c35c6ae2fc1bcaf373da01",
+      "current_sha256": "fcad00be092296da9ca296eadc95ce133343532b69c35c6ae2fc1bcaf373da01",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/gamma1/current.json",
+      "original_sha256": "ca62a8e060cbefa0ea28641d7391da14b8cd8c56269224ab446d1dcef14ee0a9",
+      "current_sha256": "421a7bb8d8bd91443794fc25348c87f51761465adc0802a37961b13817b930c9",
+      "original_bytes_present": false
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-01/r001.json",
+      "original_sha256": "a21f87044cc4da71299d1fec7c989c25cefd93de5fd20a4949a10487d66619f1",
+      "current_sha256": "a21f87044cc4da71299d1fec7c989c25cefd93de5fd20a4949a10487d66619f1",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-02/r001.json",
+      "original_sha256": "1d4ff9b131bbce9a4c214eee8a41830b8002f1eb5f8b7df163f6e8d1394ff365",
+      "current_sha256": "1d4ff9b131bbce9a4c214eee8a41830b8002f1eb5f8b7df163f6e8d1394ff365",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-03/z-r001.json",
+      "original_sha256": "145716ef8ca54543d6c323dc0647945e59f32b211d9199719290ade6216741c3",
+      "current_sha256": "145716ef8ca54543d6c323dc0647945e59f32b211d9199719290ade6216741c3",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-04/r001.json",
+      "original_sha256": "06ed0a3f7262c9e000dd7f986fb03d84942800326746faad90aed068786c8fbd",
+      "current_sha256": "06ed0a3f7262c9e000dd7f986fb03d84942800326746faad90aed068786c8fbd",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/renormalization/three-loop/lower-order-inputs-r001.json",
+      "original_sha256": "557dbb38a6338a9c5b2c1fbbfad782cccbd9d4ced7cb0e66f2e880e4ede20991",
+      "current_sha256": "557dbb38a6338a9c5b2c1fbbfad782cccbd9d4ced7cb0e66f2e880e4ede20991",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/renormalization/three-loop/counterterms-r001.json",
+      "original_sha256": "8418c4be88da475c58796385e647a2d6d2c9ee186acf8a9b7a4883e6e116810e",
+      "current_sha256": "8418c4be88da475c58796385e647a2d6d2c9ee186acf8a9b7a4883e6e116810e",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "benchmarks/renormalization/two-loop/result-r002.json",
+      "original_sha256": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+      "current_sha256": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+      "original_sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "current_sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "original_sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "current_sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+      "original_sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "current_sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt",
+      "original_sha256": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+      "current_sha256": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt",
+      "original_sha256": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+      "current_sha256": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*CA*TF*nf",
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt",
+      "original_sha256": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f",
+      "current_sha256": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF^2*TF*nf",
+      "path": "benchmarks/self-energy/pi2/results/2e-Pi2-01/r002.json",
+      "original_sha256": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a",
+      "current_sha256": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF^2*TF*nf",
+      "path": "benchmarks/self-energy/pi2/results/2e-Pi2-02/r002.json",
+      "original_sha256": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d",
+      "current_sha256": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF^2*TF*nf",
+      "path": "benchmarks/renormalization/one-loop/result-r001.json",
+      "original_sha256": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+      "current_sha256": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF^2*TF*nf",
+      "path": "benchmarks/renormalization/two-loop/result-r002.json",
+      "original_sha256": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+      "current_sha256": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*(TF*nf)^2",
+      "path": "benchmarks/renormalization/two-loop/result-r002.json",
+      "original_sha256": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+      "current_sha256": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*(TF*nf)^2",
+      "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r002.json",
+      "original_sha256": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926",
+      "current_sha256": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*(TF*nf)^2",
+      "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json",
+      "original_sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+      "current_sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "CF*(TF*nf)^2",
+      "path": "benchmarks/renormalization/one-loop/result-r001.json",
+      "original_sha256": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+      "current_sha256": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/renormalization/two-loop/assembly-bridge-r001.json",
+      "original_sha256": "cda39b2cc3473909a260a0d1f18eb726f9390938f9444d9e084b87cbbbccc1f3",
+      "current_sha256": "cda39b2cc3473909a260a0d1f18eb726f9390938f9444d9e084b87cbbbccc1f3",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/self-energy/current-r002.json",
+      "original_sha256": "b141e672ae85e4cb119413968115e9da3cc8852f14f2b422f2f7d4b756c9eddd",
+      "current_sha256": "b141e672ae85e4cb119413968115e9da3cc8852f14f2b422f2f7d4b756c9eddd",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/self-energy/pi1/results/2e-Pi1-01/r002.json",
+      "original_sha256": "122067c4f01aa9942db2e9040b577416c83c8439d2baa7c4b1ac1d18e21646c7",
+      "current_sha256": "122067c4f01aa9942db2e9040b577416c83c8439d2baa7c4b1ac1d18e21646c7",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/self-energy/pi1/results/2e-Pi1-02/r002.json",
+      "original_sha256": "8b214b54a6e32f78804d0f1bfa3077488abeaa6114f9ed89fe825446056cd0a8",
+      "current_sha256": "8b214b54a6e32f78804d0f1bfa3077488abeaa6114f9ed89fe825446056cd0a8",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/tgv/3e-3g/results/3e-3g-01/r001.json",
+      "original_sha256": "9979c454377dfdaaf25b74323f1da9e72838e77ef73ef8d99860b105d4941d20",
+      "current_sha256": "9979c454377dfdaaf25b74323f1da9e72838e77ef73ef8d99860b105d4941d20",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/tgv/3e-3g/results/3e-3g-02/r001.json",
+      "original_sha256": "fe88da122908c8337a9775296135cfca9ebb94f6614593cd971f17b495d33263",
+      "current_sha256": "fe88da122908c8337a9775296135cfca9ebb94f6614593cd971f17b495d33263",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/tgv/3e-3g/results/3e-3g-03/r001.json",
+      "original_sha256": "211e6f4310d0d2b24cf9154d77a5d113467efa0ac61dafe25cbeaf9b0aad27b8",
+      "current_sha256": "211e6f4310d0d2b24cf9154d77a5d113467efa0ac61dafe25cbeaf9b0aad27b8",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/tgv/3e-3g/results/3e-3g-04/r001.json",
+      "original_sha256": "3c099acf58c2e4f9d91c6bfe1a25b67222bce5fac9a16e44fa3ee5eb6926b3b5",
+      "current_sha256": "3c099acf58c2e4f9d91c6bfe1a25b67222bce5fac9a16e44fa3ee5eb6926b3b5",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "workflow/checks/tgv04-high-order/compact.json",
+      "original_sha256": "5d01cdffe96cd64914b62eff4348ed89d5e951bd655ad2c2d3e72ef0ee9b61ab",
+      "current_sha256": "5d01cdffe96cd64914b62eff4348ed89d5e951bd655ad2c2d3e72ef0ee9b61ab",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/2ne/results/4e-01/r002.json",
+      "original_sha256": "4d6bd1ba781a2f01c1197e9ddaa299599e17e2060cf8fdc2fbe03c0ad82cb1dd",
+      "current_sha256": "4d6bd1ba781a2f01c1197e9ddaa299599e17e2060cf8fdc2fbe03c0ad82cb1dd",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/2ne/results/4e-02/r002.json",
+      "original_sha256": "a1f97e0fdace7878ba9688fe35f4aaae854c7aa76821da4b7a029ca0c1268959",
+      "current_sha256": "a1f97e0fdace7878ba9688fe35f4aaae854c7aa76821da4b7a029ca0c1268959",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/2ne/results/4e-03/r002.json",
+      "original_sha256": "c10be113752bfde5072957a5c26f63674327bae8aadc7e1a01a275f34224c390",
+      "current_sha256": "c10be113752bfde5072957a5c26f63674327bae8aadc7e1a01a275f34224c390",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/2ne/results/4e-04/r002.json",
+      "original_sha256": "3053908df767b60c9dcf062161a2373391aeb53d6e482a6a39f58a04f321d753",
+      "current_sha256": "3053908df767b60c9dcf062161a2373391aeb53d6e482a6a39f58a04f321d753",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/2ne/results/4e-05/r001.json",
+      "original_sha256": "0ea95ad21c361fb536cf5e1b3c10c2cbde1a321dba034b527b59015845b50915",
+      "current_sha256": "0ea95ad21c361fb536cf5e1b3c10c2cbde1a321dba034b527b59015845b50915",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/2ne/results/4e-06/r002.json",
+      "original_sha256": "b2d08ce064c2efd54aa2f555d33077903c18eff369ef7039a51fa7248aa5c00f",
+      "current_sha256": "b2d08ce064c2efd54aa2f555d33077903c18eff369ef7039a51fa7248aa5c00f",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "benchmarks/renormalization/two-loop/result-r002.json",
+      "original_sha256": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+      "current_sha256": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "lower w2 through eps1",
+      "path": "workflow/checks/w3-p0/nf2.json",
+      "original_sha256": "bed9f1eeb383a1afbae548175281546e5512dec67973e51704e4b394f8245bfb",
+      "current_sha256": "bed9f1eeb383a1afbae548175281546e5512dec67973e51704e4b394f8245bfb",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "coupling counterterms",
+      "path": "workflow/checks/w3-p0/w2-eps1.json",
+      "original_sha256": "6d6314a3a6c13751ca8460c6eb1c7cf61e3d73db87e06be5303b884e206da62f",
+      "current_sha256": "6d6314a3a6c13751ca8460c6eb1c7cf61e3d73db87e06be5303b884e206da62f",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "coupling counterterms",
+      "path": "benchmarks/renormalization/one-loop/result-r001.json",
+      "original_sha256": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+      "current_sha256": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "coupling counterterms",
+      "path": "workflow/checks/w3-p0/nf2.json",
+      "original_sha256": "bed9f1eeb383a1afbae548175281546e5512dec67973e51704e4b394f8245bfb",
+      "current_sha256": "bed9f1eeb383a1afbae548175281546e5512dec67973e51704e4b394f8245bfb",
+      "original_bytes_present": true
+    },
+    {
+      "owner": "coupling counterterms",
+      "path": "workflow/checks/w3-p0/cff.json",
+      "original_sha256": "34b97ebb19e4c81cfd11799d1fc9c834d08350400dcbbe5c45f2cd4425c0bfe6",
+      "current_sha256": "34b97ebb19e4c81cfd11799d1fc9c834d08350400dcbbe5c45f2cd4425c0bfe6",
+      "original_bytes_present": true
+    }
+  ]
+}

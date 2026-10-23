@@ -1,0 +1,239 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "nf2 counterterm -6",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CF nf counterterm -6",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "nf2 counterterm -5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CF nf counterterm -5",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "nf2 counterterm -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CF nf counterterm -4",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "nf2 counterterm -3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CF nf counterterm -3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "nf2 counterterm -2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CF nf counterterm -2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "nf2 counterterm -1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CF nf counterterm -1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "nf2 counterterm 0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CF nf counterterm 0",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "normalization": "unit coefficients with external CF extracted; T=TF*nf; lambda=alpha_s/pi",
+  "b0": "11*CA/12 - T/3",
+  "b1": "17*CA**2/24 - 5*CA*T/12 - CF*T/4",
+  "counterterm_over_CF": {
+    "-6": {
+      "sympy": "0",
+      "latex": "0"
+    },
+    "-5": {
+      "sympy": "0",
+      "latex": "0"
+    },
+    "-4": {
+      "sympy": "-121*CA**2/144 + 11*CA*T/18 - T**2/9",
+      "latex": "- \\frac{121 CA^{2}}{144} + \\frac{11 CA T}{18} - \\frac{T^{2}}{9}"
+    },
+    "-3": {
+      "sympy": "-11*pi**2*CA**2/144 + 1043*CA**2/432 - 167*CA*T/108 + pi**2*CA*T/36 - CF*T/4 + 5*T**2/27",
+      "latex": "- \\frac{11 \\pi^{2} CA^{2}}{144} + \\frac{1043 CA^{2}}{432} - \\frac{167 CA T}{108} + \\frac{\\pi^{2} CA T}{36} - \\frac{CF T}{4} + \\frac{5 T^{2}}{27}"
+    },
+    "-2": {
+      "sympy": "121*CA**2*L**2/144 - 11*pi**2*CA**2*L/72 + 445*CA**2*L/108 - 121*CA**2*rho**2/576 - 121*pi**2*CA**2/288 - 77*CA**2*zeta(3)/24 + 1111*CA**2/324 - 11*CA*L**2*T/18 - 289*CA*L*T/108 + pi**2*CA*L*T/18 + 11*CA*T*rho**2/72 - 178*CA*T/81 + 7*CA*T*zeta(3)/6 + 11*pi**2*CA*T/36 - CF*L*T/4 + L**2*T**2/9 + 10*L*T**2/27 - T**2*rho**2/36 - pi**2*T**2/18 + 28*T**2/81",
+      "latex": "\\frac{121 CA^{2} L^{2}}{144} - \\frac{11 \\pi^{2} CA^{2} L}{72} + \\frac{445 CA^{2} L}{108} - \\frac{121 CA^{2} \\rho^{2}}{576} - \\frac{121 \\pi^{2} CA^{2}}{288} - \\frac{77 CA^{2} \\zeta\\left(3\\right)}{24} + \\frac{1111 CA^{2}}{324} - \\frac{11 CA L^{2} T}{18} - \\frac{289 CA L T}{108} + \\frac{\\pi^{2} CA L T}{18} + \\frac{11 CA T \\rho^{2}}{72} - \\frac{178 CA T}{81} + \\frac{7 CA T \\zeta\\left(3\\right)}{6} + \\frac{11 \\pi^{2} CA T}{36} - \\frac{CF L T}{4} + \\frac{L^{2} T^{2}}{9} + \\frac{10 L T^{2}}{27} - \\frac{T^{2} \\rho^{2}}{36} - \\frac{\\pi^{2} T^{2}}{18} + \\frac{28 T^{2}}{81}"
+    },
+    "-1": {
+      "sympy": "121*CA**2*L**3/144 - 11*pi**2*CA**2*L**2/72 + 1627*CA**2*L**2/432 - 121*CA**2*L*rho**2/192 - 121*pi**2*CA**2*L/108 - 77*CA**2*L*zeta(3)/12 + 1111*CA**2*L/162 + 121*CA**2*M_1_1/96 - 1627*CA**2*rho**2/1728 + 11*pi**2*CA**2*rho**2/288 - 3991*pi**2*CA**2/2592 + 11*pi**4*CA**2/288 + 6677*CA**2/972 - 11*CA*L**3*T/18 - 533*CA*L**2*T/216 + pi**2*CA*L**2*T/18 + 11*CA*L*T*rho**2/24 - 356*CA*L*T/81 + 7*CA*L*T*zeta(3)/3 + 22*pi**2*CA*L*T/27 - 11*CA*M_1_1*T/12 - pi**2*CA*T*rho**2/72 + 533*CA*T*rho**2/864 - 1058*CA*T/243 - pi**4*CA*T/72 + 655*pi**2*CA*T/648 - CF*L**2*T/8 + CF*T*rho**2/32 + pi**2*CF*T/24 + L**3*T**2/9 + 10*L**2*T**2/27 - L*T**2*rho**2/12 - 4*pi**2*L*T**2/27 + 56*L*T**2/81 + M_1_1*T**2/6 - 5*T**2*rho**2/54 - 25*pi**2*T**2/162 + 164*T**2/243",
+      "latex": "\\frac{121 CA^{2} L^{3}}{144} - \\frac{11 \\pi^{2} CA^{2} L^{2}}{72} + \\frac{1627 CA^{2} L^{2}}{432} - \\frac{121 CA^{2} L \\rho^{2}}{192} - \\frac{121 \\pi^{2} CA^{2} L}{108} - \\frac{77 CA^{2} L \\zeta\\left(3\\right)}{12} + \\frac{1111 CA^{2} L}{162} + \\frac{121 CA^{2} M_{1 1}}{96} - \\frac{1627 CA^{2} \\rho^{2}}{1728} + \\frac{11 \\pi^{2} CA^{2} \\rho^{2}}{288} - \\frac{3991 \\pi^{2} CA^{2}}{2592} + \\frac{11 \\pi^{4} CA^{2}}{288} + \\frac{6677 CA^{2}}{972} - \\frac{11 CA L^{3} T}{18} - \\frac{533 CA L^{2} T}{216} + \\frac{\\pi^{2} CA L^{2} T}{18} + \\frac{11 CA L T \\rho^{2}}{24} - \\frac{356 CA L T}{81} + \\frac{7 CA L T \\zeta\\left(3\\right)}{3} + \\frac{22 \\pi^{2} CA L T}{27} - \\frac{11 CA M_{1 1} T}{12} - \\frac{\\pi^{2} CA T \\rho^{2}}{72} + \\frac{533 CA T \\rho^{2}}{864} - \\frac{1058 CA T}{243} - \\frac{\\pi^{4} CA T}{72} + \\frac{655 \\pi^{2} CA T}{648} - \\frac{CF L^{2} T}{8} + \\frac{CF T \\rho^{2}}{32} + \\frac{\\pi^{2} CF T}{24} + \\frac{L^{3} T^{2}}{9} + \\frac{10 L^{2} T^{2}}{27} - \\frac{L T^{2} \\rho^{2}}{12} - \\frac{4 \\pi^{2} L T^{2}}{27} + \\frac{56 L T^{2}}{81} + \\frac{M_{1 1} T^{2}}{6} - \\frac{5 T^{2} \\rho^{2}}{54} - \\frac{25 \\pi^{2} T^{2}}{162} + \\frac{164 T^{2}}{243}"
+    },
+    "0": {
+      "sympy": "847*CA**2*L**4/1728 - 11*pi**2*CA**2*L**3/108 + 3101*CA**2*L**3/1296 - 847*CA**2*L**2*rho**2/1152 - 121*pi**2*CA**2*L**2/96 - 77*CA**2*L**2*zeta(3)/12 + 1111*CA**2*L**2/162 + 847*CA**2*L*M_1_1/288 - 3101*CA**2*L*rho**2/1728 + 11*pi**2*CA**2*L*rho**2/144 - 1919*pi**2*CA**2*L/648 + 121*CA**2*L*zeta(3)/216 + 11*pi**4*CA**2*L/144 + 6677*CA**2*L/486 + 3101*CA**2*M_1_1/864 - 11*CA**2*M_1_3/72 + 847*CA**2*M_2_1/1152 - 11*CA**2*N_1_2/48 - 847*CA**2*rho**4/27648 - 605*pi**2*CA**2*rho**2/3456 - 1111*CA**2*rho**2/648 + 143*CA**2*rho**2*zeta(3)/48 - 5555*pi**2*CA**2/1944 - 6655*pi**4*CA**2/41472 - 253*CA**2*zeta(5)/24 + 445*CA**2*zeta(3)/324 + 10021*CA**2/729 + 1793*pi**2*CA**2*zeta(3)/432 - 77*CA*L**4*T/216 - 1021*CA*L**3*T/648 + pi**2*CA*L**3*T/27 + 77*CA*L**2*T*rho**2/144 - 356*CA*L**2*T/81 + 7*CA*L**2*T*zeta(3)/3 + 11*pi**2*CA*L**2*T/12 - 77*CA*L*M_1_1*T/36 - pi**2*CA*L*T*rho**2/36 + 1021*CA*L*T*rho**2/864 - 2116*CA*L*T/243 - pi**4*CA*L*T/36 - 11*CA*L*T*zeta(3)/27 + 1265*pi**2*CA*L*T/648 - 1021*CA*M_1_1*T/432 + CA*M_1_3*T/18 - 77*CA*M_2_1*T/144 + CA*N_1_2*T/12 + 77*CA*T*rho**4/3456 - 13*CA*T*rho**2*zeta(3)/12 + 89*CA*T*rho**2/81 + 55*pi**2*CA*T*rho**2/432 - 163*pi**2*CA*T*zeta(3)/108 - 6328*CA*T/729 - 289*CA*T*zeta(3)/324 + 23*CA*T*zeta(5)/6 + 605*pi**4*CA*T/5184 + 445*pi**2*CA*T/243 - CF*L**3*T/24 + CF*L*T*rho**2/32 + pi**2*CF*L*T/24 - CF*M_1_1*T/16 - CF*T*zeta(3)/12 + 7*L**4*T**2/108 + 20*L**3*T**2/81 - 7*L**2*T**2*rho**2/72 - pi**2*L**2*T**2/6 + 56*L**2*T**2/81 + 7*L*M_1_1*T**2/18 - 5*L*T**2*rho**2/27 - 25*pi**2*L*T**2/81 + 2*L*T**2*zeta(3)/27 + 328*L*T**2/243 + 10*M_1_1*T**2/27 + 7*M_2_1*T**2/72 - 7*T**2*rho**4/1728 - 5*pi**2*T**2*rho**2/216 - 14*T**2*rho**2/81 - 70*pi**2*T**2/243 - 55*pi**4*T**2/2592 + 10*T**2*zeta(3)/81 + 976*T**2/729",
+      "latex": "\\frac{847 CA^{2} L^{4}}{1728} - \\frac{11 \\pi^{2} CA^{2} L^{3}}{108} + \\frac{3101 CA^{2} L^{3}}{1296} - \\frac{847 CA^{2} L^{2} \\rho^{2}}{1152} - \\frac{121 \\pi^{2} CA^{2} L^{2}}{96} - \\frac{77 CA^{2} L^{2} \\zeta\\left(3\\right)}{12} + \\frac{1111 CA^{2} L^{2}}{162} + \\frac{847 CA^{2} L M_{1 1}}{288} - \\frac{3101 CA^{2} L \\rho^{2}}{1728} + \\frac{11 \\pi^{2} CA^{2} L \\rho^{2}}{144} - \\frac{1919 \\pi^{2} CA^{2} L}{648} + \\frac{121 CA^{2} L \\zeta\\left(3\\right)}{216} + \\frac{11 \\pi^{4} CA^{2} L}{144} + \\frac{6677 CA^{2} L}{486} + \\frac{3101 CA^{2} M_{1 1}}{864} - \\frac{11 CA^{2} M_{1 3}}{72} + \\frac{847 CA^{2} M_{2 1}}{1152} - \\frac{11 CA^{2} N_{1 2}}{48} - \\frac{847 CA^{2} \\rho^{4}}{27648} - \\frac{605 \\pi^{2} CA^{2} \\rho^{2}}{3456} - \\frac{1111 CA^{2} \\rho^{2}}{648} + \\frac{143 CA^{2} \\rho^{2} \\zeta\\left(3\\right)}{48} - \\frac{5555 \\pi^{2} CA^{2}}{1944} - \\frac{6655 \\pi^{4} CA^{2}}{41472} - \\frac{253 CA^{2} \\zeta\\left(5\\right)}{24} + \\frac{445 CA^{2} \\zeta\\left(3\\right)}{324} + \\frac{10021 CA^{2}}{729} + \\frac{1793 \\pi^{2} CA^{2} \\zeta\\left(3\\right)}{432} - \\frac{77 CA L^{4} T}{216} - \\frac{1021 CA L^{3} T}{648} + \\frac{\\pi^{2} CA L^{3} T}{27} + \\frac{77 CA L^{2} T \\rho^{2}}{144} - \\frac{356 CA L^{2} T}{81} + \\frac{7 CA L^{2} T \\zeta\\left(3\\right)}{3} + \\frac{11 \\pi^{2} CA L^{2} T}{12} - \\frac{77 CA L M_{1 1} T}{36} - \\frac{\\pi^{2} CA L T \\rho^{2}}{36} + \\frac{1021 CA L T \\rho^{2}}{864} - \\frac{2116 CA L T}{243} - \\frac{\\pi^{4} CA L T}{36} - \\frac{11 CA L T \\zeta\\left(3\\right)}{27} + \\frac{1265 \\pi^{2} CA L T}{648} - \\frac{1021 CA M_{1 1} T}{432} + \\frac{CA M_{1 3} T}{18} - \\frac{77 CA M_{2 1} T}{144} + \\frac{CA N_{1 2} T}{12} + \\frac{77 CA T \\rho^{4}}{3456} - \\frac{13 CA T \\rho^{2} \\zeta\\left(3\\right)}{12} + \\frac{89 CA T \\rho^{2}}{81} + \\frac{55 \\pi^{2} CA T \\rho^{2}}{432} - \\frac{163 \\pi^{2} CA T \\zeta\\left(3\\right)}{108} - \\frac{6328 CA T}{729} - \\frac{289 CA T \\zeta\\left(3\\right)}{324} + \\frac{23 CA T \\zeta\\left(5\\right)}{6} + \\frac{605 \\pi^{4} CA T}{5184} + \\frac{445 \\pi^{2} CA T}{243} - \\frac{CF L^{3} T}{24} + \\frac{CF L T \\rho^{2}}{32} + \\frac{\\pi^{2} CF L T}{24} - \\frac{CF M_{1 1} T}{16} - \\frac{CF T \\zeta\\left(3\\right)}{12} + \\frac{7 L^{4} T^{2}}{108} + \\frac{20 L^{3} T^{2}}{81} - \\frac{7 L^{2} T^{2} \\rho^{2}}{72} - \\frac{\\pi^{2} L^{2} T^{2}}{6} + \\frac{56 L^{2} T^{2}}{81} + \\frac{7 L M_{1 1} T^{2}}{18} - \\frac{5 L T^{2} \\rho^{2}}{27} - \\frac{25 \\pi^{2} L T^{2}}{81} + \\frac{2 L T^{2} \\zeta\\left(3\\right)}{27} + \\frac{328 L T^{2}}{243} + \\frac{10 M_{1 1} T^{2}}{27} + \\frac{7 M_{2 1} T^{2}}{72} - \\frac{7 T^{2} \\rho^{4}}{1728} - \\frac{5 \\pi^{2} T^{2} \\rho^{2}}{216} - \\frac{14 T^{2} \\rho^{2}}{81} - \\frac{70 \\pi^{2} T^{2}}{243} - \\frac{55 \\pi^{4} T^{2}}{2592} + \\frac{10 T^{2} \\zeta\\left(3\\right)}{81} + \\frac{976 T^{2}}{729}"
+    }
+  },
+  "color_channels": {
+    "CF*CA^2": {
+      "-6": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-5": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-4": {
+        "sympy": "-121/144",
+        "latex": "- \\frac{121}{144}"
+      },
+      "-3": {
+        "sympy": "1043/432 - 11*pi**2/144",
+        "latex": "\\frac{1043}{432} - \\frac{11 \\pi^{2}}{144}"
+      },
+      "-2": {
+        "sympy": "121*L**2/144 - 11*pi**2*L/72 + 445*L/108 - 121*rho**2/576 - 121*pi**2/288 - 77*zeta(3)/24 + 1111/324",
+        "latex": "\\frac{121 L^{2}}{144} - \\frac{11 \\pi^{2} L}{72} + \\frac{445 L}{108} - \\frac{121 \\rho^{2}}{576} - \\frac{121 \\pi^{2}}{288} - \\frac{77 \\zeta\\left(3\\right)}{24} + \\frac{1111}{324}"
+      },
+      "-1": {
+        "sympy": "121*L**3/144 - 11*pi**2*L**2/72 + 1627*L**2/432 - 121*L*rho**2/192 - 121*pi**2*L/108 - 77*L*zeta(3)/12 + 1111*L/162 + 121*M_1_1/96 - 1627*rho**2/1728 + 11*pi**2*rho**2/288 - 3991*pi**2/2592 + 11*pi**4/288 + 6677/972",
+        "latex": "\\frac{121 L^{3}}{144} - \\frac{11 \\pi^{2} L^{2}}{72} + \\frac{1627 L^{2}}{432} - \\frac{121 L \\rho^{2}}{192} - \\frac{121 \\pi^{2} L}{108} - \\frac{77 L \\zeta\\left(3\\right)}{12} + \\frac{1111 L}{162} + \\frac{121 M_{1 1}}{96} - \\frac{1627 \\rho^{2}}{1728} + \\frac{11 \\pi^{2} \\rho^{2}}{288} - \\frac{3991 \\pi^{2}}{2592} + \\frac{11 \\pi^{4}}{288} + \\frac{6677}{972}"
+      },
+      "0": {
+        "sympy": "847*L**4/1728 - 11*pi**2*L**3/108 + 3101*L**3/1296 - 847*L**2*rho**2/1152 - 121*pi**2*L**2/96 - 77*L**2*zeta(3)/12 + 1111*L**2/162 + 847*L*M_1_1/288 - 3101*L*rho**2/1728 + 11*pi**2*L*rho**2/144 - 1919*pi**2*L/648 + 121*L*zeta(3)/216 + 11*pi**4*L/144 + 6677*L/486 + 3101*M_1_1/864 - 11*M_1_3/72 + 847*M_2_1/1152 - 11*N_1_2/48 - 847*rho**4/27648 - 605*pi**2*rho**2/3456 - 1111*rho**2/648 + 143*rho**2*zeta(3)/48 - 5555*pi**2/1944 - 6655*pi**4/41472 - 253*zeta(5)/24 + 445*zeta(3)/324 + 10021/729 + 1793*pi**2*zeta(3)/432",
+        "latex": "\\frac{847 L^{4}}{1728} - \\frac{11 \\pi^{2} L^{3}}{108} + \\frac{3101 L^{3}}{1296} - \\frac{847 L^{2} \\rho^{2}}{1152} - \\frac{121 \\pi^{2} L^{2}}{96} - \\frac{77 L^{2} \\zeta\\left(3\\right)}{12} + \\frac{1111 L^{2}}{162} + \\frac{847 L M_{1 1}}{288} - \\frac{3101 L \\rho^{2}}{1728} + \\frac{11 \\pi^{2} L \\rho^{2}}{144} - \\frac{1919 \\pi^{2} L}{648} + \\frac{121 L \\zeta\\left(3\\right)}{216} + \\frac{11 \\pi^{4} L}{144} + \\frac{6677 L}{486} + \\frac{3101 M_{1 1}}{864} - \\frac{11 M_{1 3}}{72} + \\frac{847 M_{2 1}}{1152} - \\frac{11 N_{1 2}}{48} - \\frac{847 \\rho^{4}}{27648} - \\frac{605 \\pi^{2} \\rho^{2}}{3456} - \\frac{1111 \\rho^{2}}{648} + \\frac{143 \\rho^{2} \\zeta\\left(3\\right)}{48} - \\frac{5555 \\pi^{2}}{1944} - \\frac{6655 \\pi^{4}}{41472} - \\frac{253 \\zeta\\left(5\\right)}{24} + \\frac{445 \\zeta\\left(3\\right)}{324} + \\frac{10021}{729} + \\frac{1793 \\pi^{2} \\zeta\\left(3\\right)}{432}"
+      }
+    },
+    "CF*CA*TF*nf": {
+      "-6": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-5": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-4": {
+        "sympy": "11/18",
+        "latex": "\\frac{11}{18}"
+      },
+      "-3": {
+        "sympy": "-167/108 + pi**2/36",
+        "latex": "- \\frac{167}{108} + \\frac{\\pi^{2}}{36}"
+      },
+      "-2": {
+        "sympy": "-11*L**2/18 - 289*L/108 + pi**2*L/18 + 11*rho**2/72 - 178/81 + 7*zeta(3)/6 + 11*pi**2/36",
+        "latex": "- \\frac{11 L^{2}}{18} - \\frac{289 L}{108} + \\frac{\\pi^{2} L}{18} + \\frac{11 \\rho^{2}}{72} - \\frac{178}{81} + \\frac{7 \\zeta\\left(3\\right)}{6} + \\frac{11 \\pi^{2}}{36}"
+      },
+      "-1": {
+        "sympy": "-11*L**3/18 - 533*L**2/216 + pi**2*L**2/18 + 11*L*rho**2/24 - 356*L/81 + 7*L*zeta(3)/3 + 22*pi**2*L/27 - 11*M_1_1/12 - pi**2*rho**2/72 + 533*rho**2/864 - 1058/243 - pi**4/72 + 655*pi**2/648",
+        "latex": "- \\frac{11 L^{3}}{18} - \\frac{533 L^{2}}{216} + \\frac{\\pi^{2} L^{2}}{18} + \\frac{11 L \\rho^{2}}{24} - \\frac{356 L}{81} + \\frac{7 L \\zeta\\left(3\\right)}{3} + \\frac{22 \\pi^{2} L}{27} - \\frac{11 M_{1 1}}{12} - \\frac{\\pi^{2} \\rho^{2}}{72} + \\frac{533 \\rho^{2}}{864} - \\frac{1058}{243} - \\frac{\\pi^{4}}{72} + \\frac{655 \\pi^{2}}{648}"
+      },
+      "0": {
+        "sympy": "-77*L**4/216 - 1021*L**3/648 + pi**2*L**3/27 + 77*L**2*rho**2/144 - 356*L**2/81 + 7*L**2*zeta(3)/3 + 11*pi**2*L**2/12 - 77*L*M_1_1/36 - pi**2*L*rho**2/36 + 1021*L*rho**2/864 - 2116*L/243 - pi**4*L/36 - 11*L*zeta(3)/27 + 1265*pi**2*L/648 - 1021*M_1_1/432 + M_1_3/18 - 77*M_2_1/144 + N_1_2/12 + 77*rho**4/3456 - 13*rho**2*zeta(3)/12 + 89*rho**2/81 + 55*pi**2*rho**2/432 - 163*pi**2*zeta(3)/108 - 6328/729 - 289*zeta(3)/324 + 23*zeta(5)/6 + 605*pi**4/5184 + 445*pi**2/243",
+        "latex": "- \\frac{77 L^{4}}{216} - \\frac{1021 L^{3}}{648} + \\frac{\\pi^{2} L^{3}}{27} + \\frac{77 L^{2} \\rho^{2}}{144} - \\frac{356 L^{2}}{81} + \\frac{7 L^{2} \\zeta\\left(3\\right)}{3} + \\frac{11 \\pi^{2} L^{2}}{12} - \\frac{77 L M_{1 1}}{36} - \\frac{\\pi^{2} L \\rho^{2}}{36} + \\frac{1021 L \\rho^{2}}{864} - \\frac{2116 L}{243} - \\frac{\\pi^{4} L}{36} - \\frac{11 L \\zeta\\left(3\\right)}{27} + \\frac{1265 \\pi^{2} L}{648} - \\frac{1021 M_{1 1}}{432} + \\frac{M_{1 3}}{18} - \\frac{77 M_{2 1}}{144} + \\frac{N_{1 2}}{12} + \\frac{77 \\rho^{4}}{3456} - \\frac{13 \\rho^{2} \\zeta\\left(3\\right)}{12} + \\frac{89 \\rho^{2}}{81} + \\frac{55 \\pi^{2} \\rho^{2}}{432} - \\frac{163 \\pi^{2} \\zeta\\left(3\\right)}{108} - \\frac{6328}{729} - \\frac{289 \\zeta\\left(3\\right)}{324} + \\frac{23 \\zeta\\left(5\\right)}{6} + \\frac{605 \\pi^{4}}{5184} + \\frac{445 \\pi^{2}}{243}"
+      }
+    },
+    "CF^2*TF*nf": {
+      "-6": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-5": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "-1/4",
+        "latex": "- \\frac{1}{4}"
+      },
+      "-2": {
+        "sympy": "-L/4",
+        "latex": "- \\frac{L}{4}"
+      },
+      "-1": {
+        "sympy": "-L**2/8 + rho**2/32 + pi**2/24",
+        "latex": "- \\frac{L^{2}}{8} + \\frac{\\rho^{2}}{32} + \\frac{\\pi^{2}}{24}"
+      },
+      "0": {
+        "sympy": "-L**3/24 + L*rho**2/32 + pi**2*L/24 - M_1_1/16 - zeta(3)/12",
+        "latex": "- \\frac{L^{3}}{24} + \\frac{L \\rho^{2}}{32} + \\frac{\\pi^{2} L}{24} - \\frac{M_{1 1}}{16} - \\frac{\\zeta\\left(3\\right)}{12}"
+      }
+    },
+    "CF*(TF*nf)^2": {
+      "-6": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-5": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-4": {
+        "sympy": "-1/9",
+        "latex": "- \\frac{1}{9}"
+      },
+      "-3": {
+        "sympy": "5/27",
+        "latex": "\\frac{5}{27}"
+      },
+      "-2": {
+        "sympy": "L**2/9 + 10*L/27 - rho**2/36 - pi**2/18 + 28/81",
+        "latex": "\\frac{L^{2}}{9} + \\frac{10 L}{27} - \\frac{\\rho^{2}}{36} - \\frac{\\pi^{2}}{18} + \\frac{28}{81}"
+      },
+      "-1": {
+        "sympy": "L**3/9 + 10*L**2/27 - L*rho**2/12 - 4*pi**2*L/27 + 56*L/81 + M_1_1/6 - 5*rho**2/54 - 25*pi**2/162 + 164/243",
+        "latex": "\\frac{L^{3}}{9} + \\frac{10 L^{2}}{27} - \\frac{L \\rho^{2}}{12} - \\frac{4 \\pi^{2} L}{27} + \\frac{56 L}{81} + \\frac{M_{1 1}}{6} - \\frac{5 \\rho^{2}}{54} - \\frac{25 \\pi^{2}}{162} + \\frac{164}{243}"
+      },
+      "0": {
+        "sympy": "7*L**4/108 + 20*L**3/81 - 7*L**2*rho**2/72 - pi**2*L**2/6 + 56*L**2/81 + 7*L*M_1_1/18 - 5*L*rho**2/27 - 25*pi**2*L/81 + 2*L*zeta(3)/27 + 328*L/243 + 10*M_1_1/27 + 7*M_2_1/72 - 7*rho**4/1728 - 5*pi**2*rho**2/216 - 14*rho**2/81 - 70*pi**2/243 - 55*pi**4/2592 + 10*zeta(3)/81 + 976/729",
+        "latex": "\\frac{7 L^{4}}{108} + \\frac{20 L^{3}}{81} - \\frac{7 L^{2} \\rho^{2}}{72} - \\frac{\\pi^{2} L^{2}}{6} + \\frac{56 L^{2}}{81} + \\frac{7 L M_{1 1}}{18} - \\frac{5 L \\rho^{2}}{27} - \\frac{25 \\pi^{2} L}{81} + \\frac{2 L \\zeta\\left(3\\right)}{27} + \\frac{328 L}{243} + \\frac{10 M_{1 1}}{27} + \\frac{7 M_{2 1}}{72} - \\frac{7 \\rho^{4}}{1728} - \\frac{5 \\pi^{2} \\rho^{2}}{216} - \\frac{14 \\rho^{2}}{81} - \\frac{70 \\pi^{2}}{243} - \\frac{55 \\pi^{4}}{2592} + \\frac{10 \\zeta\\left(3\\right)}{81} + \\frac{976}{729}"
+      }
+    }
+  },
+  "bare_CA2_status": "unknown until the missing sources/results are completed",
+  "bare_CA_nf_status": "unknown until TGV legs and Gamma1 are completed",
+  "source_sha256": {
+    "workflow/checks/w3-p0/w2-eps1.json": "6d6314a3a6c13751ca8460c6eb1c7cf61e3d73db87e06be5303b884e206da62f",
+    "benchmarks/renormalization/one-loop/result-r001.json": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+    "workflow/checks/w3-p0/nf2.json": "bed9f1eeb383a1afbae548175281546e5512dec67973e51704e4b394f8245bfb",
+    "workflow/checks/w3-p0/cff.json": "34b97ebb19e4c81cfd11799d1fc9c834d08350400dcbbe5c45f2cd4425c0bfe6"
+  },
+  "formal": "not_run"
+}

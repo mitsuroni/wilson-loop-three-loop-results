@@ -1,0 +1,1149 @@
+{
+  "format": "wilson-three-matter-compact-coefficients/1",
+  "date": "2026-10-23",
+  "status": "passed",
+  "powers": [
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0
+  ],
+  "expression_language": "SymPy exact strings; ** powers; zeta(n); M_i_j and N_i_j are raw moments",
+  "normalization": "Coefficient of lambda**3 times the displayed color in log(W); no repeated exponentiation, C4 or Euler factor",
+  "channels": {
+    "CF*CA*TF*nf": {
+      "short_label": "Af",
+      "U_compact": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "11/162",
+        "-3": "533/1944 - pi**2/162",
+        "-2": "-11*M_0_1/36 - 11*rho**2/36 - 581*pi**2/1944 - 7*zeta(3)/27 + 1633/1944",
+        "-1": "5*M_0_1/48 + 11*M_1_1/24 - 61*rho**2/108 + pi**2*rho**2/72 - 11989*pi**2/23328 - 91*zeta(3)/324 + pi**4/80 + 82097/34992",
+        "0": "11*M_0_1*rho**2/32 - 31*pi**2*M_0_1/864 - M_0_1*zeta(3)/4 + 2051*M_0_1/2592 + 533*M_1_1/288 - M_1_3/24 + 11*M_2_1/32 - N_1_2/16 + 121*rho**4/384 - 7747*rho**2/5184 + 5*rho**2*zeta(3)/6 + 73*pi**2*rho**2/288 - 184231*pi**2/139968 - 9311*pi**4/155520 - 11*zeta(5)/12 - 5*zeta(3)/216 + 1323997/209952 + 85*pi**2*zeta(3)/108"
+      },
+      "bare_compact": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "11/81",
+        "-3": "11*L/27 - pi**2/81 + 533/972",
+        "-2": "11*L**2/18 - pi**2*L/27 + 533*L/324 - 11*M_0_1/18 - 11*rho**2/24 - 581*pi**2/972 - 14*zeta(3)/27 + 1633/972",
+        "-1": "11*L**3/18 - pi**2*L**2/18 + 533*L**2/216 - 11*L*M_0_1/18 - 55*L*rho**2/72 - 383*pi**2*L/324 - 14*L*zeta(3)/9 + 1633*L/324 + 5*M_0_1/24 + 11*M_1_1/12 - 443*rho**2/864 + pi**2*rho**2/72 - 11989*pi**2/11664 - 91*zeta(3)/162 + pi**4/40 + 82097/17496",
+        "0": "11*L**4/24 - pi**2*L**3/18 + 533*L**3/216 - 11*L**2*M_0_1/36 - 121*L**2*rho**2/144 - 317*pi**2*L**2/216 - 7*L**2*zeta(3)/3 + 1633*L**2/216 + 5*L*M_0_1/24 + 11*L*M_1_1/4 - 503*L*rho**2/288 + pi**2*L*rho**2/24 - 12799*pi**2*L/3888 - 91*L*zeta(3)/54 + 3*pi**4*L/40 + 82097*L/5832 - 31*pi**2*M_0_1/432 - M_0_1*zeta(3)/2 + 2051*M_0_1/1296 + 533*M_1_1/144 - M_1_3/12 + 11*M_2_1/16 - N_1_2/8 - 11*rho**4/384 - 143*pi**2*rho**2/864 - 89*rho**2/81 + 13*rho**2*zeta(3)/12 - 184231*pi**2/69984 - 9311*pi**4/77760 - 11*zeta(5)/6 - 5*zeta(3)/108 + 1323997/104976 + 85*pi**2*zeta(3)/54"
+      },
+      "CT_compact": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "11/18",
+        "-3": "-167/108 + pi**2/36",
+        "-2": "-11*L**2/18 - 289*L/108 + pi**2*L/18 + 11*M_0_1/18 + 11*rho**2/24 - 178/81 + 7*zeta(3)/6 + 11*pi**2/18",
+        "-1": "-11*L**3/18 - 533*L**2/216 + pi**2*L**2/18 + 11*L*M_0_1/18 + 55*L*rho**2/72 - 356*L/81 + 7*L*zeta(3)/3 + 121*pi**2*L/108 - 5*M_0_1/24 - 11*M_1_1/12 - pi**2*rho**2/72 + 443*rho**2/864 - 1058/243 - pi**4/72 + 1175*pi**2/1296",
+        "0": "-77*L**4/216 - 1021*L**3/648 + pi**2*L**3/27 + 11*L**2*M_0_1/36 + 11*L**2*rho**2/16 - 356*L**2/81 + 7*L**2*zeta(3)/3 + 77*pi**2*L**2/72 - 5*L*M_0_1/24 - 77*L*M_1_1/36 - pi**2*L*rho**2/36 + 931*L*rho**2/864 - 2116*L/243 - pi**4*L/36 - 11*L*zeta(3)/27 + 2395*pi**2*L/1296 - 11*M_0_1**2/432 + 11*pi**2*M_0_1/216 - 1021*M_1_1/432 + M_1_3/18 - 77*M_2_1/144 + N_1_2/12 + 11*rho**4/384 - 13*rho**2*zeta(3)/12 + 89*rho**2/81 + 143*pi**2*rho**2/864 - 163*pi**2*zeta(3)/108 - 6328/729 - 289*zeta(3)/324 + 23*zeta(5)/6 + 385*pi**4/2592 + 445*pi**2/243"
+      },
+      "post_compact": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "121/162",
+        "-3": "11*L/27 - 485/486 + 5*pi**2/324",
+        "-2": "-167*L/162 + pi**2*L/54 - 503/972 + 13*pi**2/972 + 35*zeta(3)/54",
+        "-1": "-5*pi**2*L/81 + 209*L/324 + 7*L*zeta(3)/9 - 707*pi**2/5832 - 91*zeta(3)/162 + 5921/17496 + pi**4/90",
+        "0": "11*L**4/108 - pi**2*L**3/54 + 289*L**3/324 - 11*L**2*rho**2/72 - 43*pi**2*L**2/108 + 2051*L**2/648 + 11*L*M_1_1/18 - 289*L*rho**2/432 + pi**2*L*rho**2/72 - 2807*pi**2*L/1944 - 113*L*zeta(3)/54 + 17*pi**4*L/360 + 31313*L/5832 - 11*M_0_1**2/432 - M_0_1*zeta(3)/2 - pi**2*M_0_1/48 + 2051*M_0_1/1296 + 289*M_1_1/216 - M_1_3/36 + 11*M_2_1/72 - N_1_2/24 - 56071*pi**2/69984 - 76*zeta(3)/81 + 7*pi**2*zeta(3)/108 + 2*zeta(5) + 2239*pi**4/77760 + 412765/104976"
+      },
+      "F": "11*L**4/108 - pi**2*L**3/54 + 289*L**3/324 - 11*L**2*rho**2/72 - 43*pi**2*L**2/108 + 2051*L**2/648 + 11*L*M_1_1/18 - 289*L*rho**2/432 + pi**2*L*rho**2/72 - 2807*pi**2*L/1944 - 113*L*zeta(3)/54 + 17*pi**4*L/360 + 31313*L/5832 - 11*M_0_1**2/432 - M_0_1*zeta(3)/2 - pi**2*M_0_1/48 + 2051*M_0_1/1296 + 289*M_1_1/216 - M_1_3/36 + 11*M_2_1/72 - N_1_2/24 - 56071*pi**2/69984 - 76*zeta(3)/81 + 7*pi**2*zeta(3)/108 + 2*zeta(5) + 2239*pi**4/77760 + 412765/104976",
+      "f": "-11*M_0_1**2/432 - M_0_1*zeta(3)/2 - pi**2*M_0_1/48 + 2051*M_0_1/1296 + 289*M_1_1/216 - M_1_3/36 + 11*M_2_1/72 - N_1_2/24 - 56071*pi**2/69984 - 76*zeta(3)/81 + 7*pi**2*zeta(3)/108 + 2*zeta(5) + 2239*pi**4/77760 + 412765/104976",
+      "k": "-7*zeta(3)/6 - 209/216 + 5*pi**2/54",
+      "h": "-pi**4/30 - 5921/5832 + 91*zeta(3)/54 + 707*pi**2/1944",
+      "provenance": {
+        "method": "reconstruct compact post from selected poles and finite_MN; subtract independently rebuilt CT; divide S3 by exact coefficient recursion; verify every coefficient against original selected GPL",
+        "reconstruction_is_not_a_new_independent_sum": true,
+        "selection": {
+          "path": "benchmarks/renormalization/three-loop/results/CF-CA-TF-nf/r001.json",
+          "sha256": "bbf1aac15c171e30388a7bfa045a03eb52d32ae8c61e4c483e2134d222f0210d",
+          "field": "/"
+        },
+        "sources": [
+          {
+            "orbit_id": "4e-Pi1-01",
+            "part": "Pi1",
+            "path": "benchmarks/self-energy/pi1/results/4e-Pi1-01/r002.json",
+            "sha256": "22da1c140fa1da316d4859388cf1d6fe66bcfcfc5df5e58c1b88629d71dcb0f5",
+            "field": "/laurent/coefficients",
+            "field_sha256": "017fef7a1c1890e90435046ee1779676a92a09d1974c2655fb44f27f236755b4",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "4e-Pi1-02",
+            "part": "Pi1",
+            "path": "benchmarks/self-energy/pi1/results/4e-Pi1-02/r002.json",
+            "sha256": "f4ef60739c56f6950b523a6b6755f5c19b4020f34f34564ca6480cc8198451c5",
+            "field": "/laurent/coefficients",
+            "field_sha256": "017fef7a1c1890e90435046ee1779676a92a09d1974c2655fb44f27f236755b4",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "4e-Pi1-03",
+            "part": "Pi1",
+            "path": "benchmarks/self-energy/pi1/results/4e-Pi1-03/r002.json",
+            "sha256": "928e181315e388c55416e507eadfc496fc07132eab9c656d80dd5ebb6b624354",
+            "field": "/laurent/coefficients",
+            "field_sha256": "2a24e5ffc221d5763b4bde7aa81040d58a7c8320bb634524b17765e8d9eb4d03",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "4e-Pi1-04",
+            "part": "Pi1",
+            "path": "benchmarks/self-energy/pi1/results/4e-Pi1-04/r002.json",
+            "sha256": "cb67dd178a5f02cb9c3dbd9b34a29f47a4054fb0be19cb85d09687abcce16cd9",
+            "field": "/laurent/coefficients",
+            "field_sha256": "f13e9a0693b823561bfa00c9c50afb5d424f2df67a8107eb856ed1d411232c09",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "4e-Pi1-05",
+            "part": "Pi1",
+            "path": "benchmarks/self-energy/pi1/results/4e-Pi1-05/r002.json",
+            "sha256": "6869b5e35cb56aaf77f19b80ac55bab5e45869f06da10c705caf26e83494a2b4",
+            "field": "/laurent/coefficients",
+            "field_sha256": "cd1b61bc78b424312be648cee0d44ba1f53ac27b4fda0d5246b18ce59f8c9056",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "4e-Pi1-06",
+            "part": "Pi1",
+            "path": "benchmarks/self-energy/pi1/results/4e-Pi1-06/r002.json",
+            "sha256": "9da31233ebc761d2d659ec28ab4e8022c42f730865d49e8d2cf3abe66fa084f6",
+            "field": "/laurent/coefficients",
+            "field_sha256": "cd1b61bc78b424312be648cee0d44ba1f53ac27b4fda0d5246b18ce59f8c9056",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "4e-Pi1-07",
+            "part": "Pi1",
+            "path": "benchmarks/self-energy/pi1/results/4e-Pi1-07/r002.json",
+            "sha256": "baafb42f20e8266ad5b5eca46db2d00eac1c2727226e8c5dd86eb1812517d8d9",
+            "field": "/laurent/coefficients",
+            "field_sha256": "ef11fd75a4511b89aec2d4935856cad8728c8415f1a5d047d5527882071e95bd",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "4e-Pi1-08",
+            "part": "Pi1",
+            "path": "benchmarks/self-energy/pi1/results/4e-Pi1-08/r002.json",
+            "sha256": "c14243865814c45343f68cc8990f8793356c7c23d88e7a62058b69b599c100dd",
+            "field": "/laurent/coefficients",
+            "field_sha256": "ef11fd75a4511b89aec2d4935856cad8728c8415f1a5d047d5527882071e95bd",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "4e-Pi1-09",
+            "part": "Pi1",
+            "path": "benchmarks/self-energy/pi1/results/4e-Pi1-09/r002.json",
+            "sha256": "753efcab2092a5954ce44bc0b91f8880fc9e1943b7fed9648b75085165ad85d3",
+            "field": "/laurent/coefficients",
+            "field_sha256": "f13e9a0693b823561bfa00c9c50afb5d424f2df67a8107eb856ed1d411232c09",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "4e-Pi1-10",
+            "part": "Pi1",
+            "path": "benchmarks/self-energy/pi1/results/4e-Pi1-10/r002.json",
+            "sha256": "75654d49701d92ad1c0fca96febd12d6ee9d8ae296a84525aa80ae89dfc2ebe4",
+            "field": "/laurent/coefficients",
+            "field_sha256": "2a24e5ffc221d5763b4bde7aa81040d58a7c8320bb634524b17765e8d9eb4d03",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "4e-Pi1-11",
+            "part": "Pi1",
+            "path": "benchmarks/self-energy/pi1/results/4e-Pi1-11/r002.json",
+            "sha256": "f04657a1aab9b963470d66587a2886628d2cb9bf9c59fa92f64a22f4fa666fef",
+            "field": "/laurent/coefficients",
+            "field_sha256": "124a4a18ff1485081973687bc27226209cf006fba1bc94e1e5005854bf9d5df0",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "2e-Pi1+Pi1-01",
+            "part": "chain",
+            "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r002.json",
+            "sha256": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926",
+            "field": "/color_channels[CA*CF*TF*nf]/coefficients",
+            "field_sha256": "76aacb8fb46f7d2482f7c4569f143e57eadd6b2d4c97dffa6b65b6de98fe4223",
+            "scalar_multiplier": "1",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "2e-Pi1+Pi1-02",
+            "part": "chain",
+            "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json",
+            "sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+            "field": "/color_channels[CA*CF*TF*nf]/coefficients",
+            "field_sha256": "cd245ed0444be8e1847573cd5424bea4e3e5c6c889cfe6c7a7300312262e4e96",
+            "scalar_multiplier": "1",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "2e-Pi2-01",
+            "part": "Pi2",
+            "path": "benchmarks/self-energy/pi2/results/2e-Pi2-01/r002.json",
+            "sha256": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a",
+            "field": "/color_channels[Af]/laurent/coefficients",
+            "field_sha256": "9c07793bbf1196c9452b4453c81bae6c708babec68066c012e67af932937a537",
+            "scalar_multiplier": "1",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "2e-Pi2-02",
+            "part": "Pi2",
+            "path": "benchmarks/self-energy/pi2/results/2e-Pi2-02/r002.json",
+            "sha256": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d",
+            "field": "/color_channels[Af]/laurent/coefficients",
+            "field_sha256": "fd2f73064465de176925e871cf72e71ec0b7653ba39f4be34c14ab87aaa9875d",
+            "scalar_multiplier": "1",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": 1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-3g+Pi1-01",
+            "part": "legs",
+            "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-01/r003.json",
+            "sha256": "b0b007dd4d387ffd744376bb54d62dadbaaf9948421d2f3819af6d09c5200e0f",
+            "field": "/laurent_coefficients",
+            "field_sha256": "b5cde5e4dc0ddc900a974de46ae113ec37f28cefbf2b9ba27166db50debf3e01",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-3g+Pi1-02",
+            "part": "legs",
+            "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-02/r003.json",
+            "sha256": "809e43e98fb22c31c63ddb4985e5c1b08d4f060a72008e28f83918daccc97389",
+            "field": "/laurent_coefficients",
+            "field_sha256": "2d54f3c63460c3eb0bc7a745c0b8a99c7b920b4f36fc1acbe5c448d369050ec6",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-3g+Pi1-03",
+            "part": "legs",
+            "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-03/r003.json",
+            "sha256": "ed477d05e9da0bead80c34bb4babb08c164ca57206cae260a901def6a5e177e1",
+            "field": "/laurent_coefficients",
+            "field_sha256": "4729410dc0d629d2ec82bc3029c63936656a6ad73e28f3af0ce7b6d943074b62",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-3g+Pi1-04",
+            "part": "legs",
+            "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-04/r003.json",
+            "sha256": "0f3e9e0b82b51f3821a4f612a0cefeff1eb6bff2513ad1e885fabed2a8a630ec",
+            "field": "/laurent_coefficients",
+            "field_sha256": "4729410dc0d629d2ec82bc3029c63936656a6ad73e28f3af0ce7b6d943074b62",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-3g+Pi1-05",
+            "part": "legs",
+            "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-05/r003.json",
+            "sha256": "32b15a8aae68502fa406e1b659c06cfbf07cb23edbcbb0d151da9276f09c757d",
+            "field": "/laurent_coefficients",
+            "field_sha256": "2d54f3c63460c3eb0bc7a745c0b8a99c7b920b4f36fc1acbe5c448d369050ec6",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-3g+Pi1-06",
+            "part": "legs",
+            "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-06/r003.json",
+            "sha256": "8a334297e7e8afe8b95f0bed3c24fc826ec67b13792df8f29105b27cc0dbfcd5",
+            "field": "/laurent_coefficients",
+            "field_sha256": "b5cde5e4dc0ddc900a974de46ae113ec37f28cefbf2b9ba27166db50debf3e01",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-3g+Pi1-07",
+            "part": "legs",
+            "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-07/r003.json",
+            "sha256": "fac4e545879c642b4c0eb3214760e9ba467ecc14ac522f1ee842bc3b7389dcb0",
+            "field": "/laurent_coefficients",
+            "field_sha256": "1db270095b71eace186e4ac5b791c723982020c7488a6e361d337eb733b172f7",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-3g+Pi1-08",
+            "part": "legs",
+            "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-08/r003.json",
+            "sha256": "cb3f9d781bea07cb85fb9547a559dd6c59f8f044c9fe2ceb7b5434b9ab75d801",
+            "field": "/laurent_coefficients",
+            "field_sha256": "a76ed51ef361a8b78e168a8bfa591d393bc68df1c29ebd1c967594774b18e643",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-3g+Pi1-09",
+            "part": "legs",
+            "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-09/r003.json",
+            "sha256": "dfc0663ca2e01e55574ddf3ae50e7149f4fd294943ffe3e842237e8ca079e326",
+            "field": "/laurent_Hlog_coefficients",
+            "field_sha256": "821f548079062df54d888989ef934d5930df23f69c5128572b4d38e5cbe57014",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-3g+Pi1-10",
+            "part": "legs",
+            "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-10/r003.json",
+            "sha256": "10d267285d6165845287d72f077c6c6384835348bafa7717367d0af869864413",
+            "field": "/laurent_Hlog_coefficients",
+            "field_sha256": "e8f9e5d8e6cfb9ec4577555e1153a1f6a12c4a8b65cb29172c0d9be7cb5b86c7",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-3g+Pi1-11",
+            "part": "legs",
+            "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-11/r003.json",
+            "sha256": "2617946d55e88e9dcbcf1457605d332fc2ee5170165a930399ad1489c3f00c35",
+            "field": "/laurent_Hlog_coefficients",
+            "field_sha256": "4032682390d57e8488f59ebd9152027d1d5f41538f44a74d780b30299d0fb2b1",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-3g+Pi1-12",
+            "part": "legs",
+            "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-12/r003.json",
+            "sha256": "f81e2f392727a44c8016606af30e394080e9668f35be94373332054b8976a92b",
+            "field": "/laurent_Hlog_coefficients",
+            "field_sha256": "13778cd94aff35a303ddb75cfa9ef85901783ec610df09c7e52a4746521e7cbb",
+            "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-Gamma1-01",
+            "part": "Gamma",
+            "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-01/r002.json",
+            "sha256": "414c5ca5942257846ae88b083d9b4c8c6a135370dbff8f49563a104568c20c33",
+            "field": "/channels/q/I_coefficients",
+            "field_sha256": "002ef382c1db90525d3b7b96ddb0834f0c4459a1035e59a71f945628e066fc38",
+            "scalar_multiplier": "1",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-Gamma1-02",
+            "part": "Gamma",
+            "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-02/r002.json",
+            "sha256": "7c77526e84b52809aab0990fde75cf37789978741c0af92696ffb339c31f6a8b",
+            "field": "/channels/q/I_coefficients",
+            "field_sha256": "002ef382c1db90525d3b7b96ddb0834f0c4459a1035e59a71f945628e066fc38",
+            "scalar_multiplier": "1",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-Gamma1-03",
+            "part": "Gamma",
+            "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-03/z-r003.json",
+            "sha256": "68afb9c88590c00b58a8dea4fba66f4f820416be9c139d5a5dda556f8daa4e17",
+            "field": "/channels/q/I_coefficients",
+            "field_sha256": "91aa7cfc688060e2268849f1fc29e8890c28d1b3c9c79e4df76961ed74f65db4",
+            "scalar_multiplier": "1",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          },
+          {
+            "orbit_id": "3e-Gamma1-04",
+            "part": "Gamma",
+            "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-04/r003.json",
+            "sha256": "473a7c442c48c1da04a2fb9287b6b02becd2c254f6cb7045a653c57a5c2d12c8",
+            "field": "/channels/q/I_coefficients",
+            "field_sha256": "cb44248be511a3365c9558d71eeece00187d6a6f857245fec2f1c9bfb0463811",
+            "scalar_multiplier": "1",
+            "native_physical_sign": 1,
+            "legacy_physical_sign": -1,
+            "consumed_powers": [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0
+            ]
+          }
+        ],
+        "current_graph_connection": "reused passing rg-replay; original argument-change canonicalization in workflow/checks/w3-ca-nf/physical.mpl"
+      },
+      "logZ": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "121/162",
+        "-3": "11*L/27 - 485/486 + 5*pi**2/324",
+        "-2": "-167*L/162 + pi**2*L/54 - 503/972 + 13*pi**2/972 + 35*zeta(3)/54",
+        "-1": "-5*pi**2*L/81 + 209*L/324 + 7*L*zeta(3)/9 - 707*pi**2/5832 - 91*zeta(3)/162 + 5921/17496 + pi**4/90",
+        "0": "0"
+      },
+      "gamma4": "-pi**4/15 - 5921/2916 + 91*zeta(3)/27 + 707*pi**2/972",
+      "lower_RG": "11*L**3/27 - pi**2*L**2/18 + 289*L**2/108 - 11*L*rho**2/36 - 11*pi**2*L/18 - 7*L*zeta(3)/3 + 356*L/81 + 11*M_1_1/18 - 289*rho**2/432 + pi**2*rho**2/72 - 175*pi**2/162 - 11*zeta(3)/27 + pi**4/72 + 1058/243",
+      "moment_symbols": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "N_1_2"
+      ]
+    },
+    "CF^2*TF*nf": {
+      "short_label": "Ff",
+      "U_compact": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "1/72",
+        "-2": "55/432 - zeta(3)/9",
+        "-1": "M_0_1/16 - 19*zeta(3)/54 - pi**4/540 + pi**2/288 + 1711/2592",
+        "0": "-M_0_1*zeta(3)/2 + 55*M_0_1/96 + 3*M_1_1/32 - 683*zeta(3)/648 - 7*zeta(5)/9 - 19*pi**4/3240 - pi**2*zeta(3)/36 + 55*pi**2/1728 + 42727/15552"
+      },
+      "bare_compact": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "1/36",
+        "-2": "L/12 - 2*zeta(3)/9 + 55/216",
+        "-1": "L**2/8 - 2*L*zeta(3)/3 + 55*L/72 + M_0_1/8 + rho**2/32 - 19*zeta(3)/27 - pi**4/270 + pi**2/144 + 1711/1296",
+        "0": "L**3/8 - L**2*zeta(3) + 55*L**2/48 + 3*L*M_0_1/8 + 3*L*rho**2/32 - 19*L*zeta(3)/9 - pi**4*L/90 + pi**2*L/48 + 1711*L/432 - M_0_1*zeta(3) + 55*M_0_1/48 + 3*M_1_1/16 - rho**2*zeta(3)/4 + 55*rho**2/192 - 683*zeta(3)/324 - 14*zeta(5)/9 - 19*pi**4/1620 - pi**2*zeta(3)/18 + 55*pi**2/864 + 42727/7776"
+      },
+      "CT_compact": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "-1/4",
+        "-2": "-L/4",
+        "-1": "-L**2/8 - M_0_1/8 - rho**2/32 - pi**2/48",
+        "0": "-L**3/24 - L*M_0_1/8 - L*rho**2/32 - pi**2*L/48 - M_1_1/16 - zeta(3)/12"
+      },
+      "post_compact": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "-2/9",
+        "-2": "-L/6 - 2*zeta(3)/9 + 55/216",
+        "-1": "-2*L*zeta(3)/3 + 55*L/72 - 19*zeta(3)/27 - pi**4/270 - pi**2/72 + 1711/1296",
+        "0": "L**3/12 - L**2*zeta(3) + 55*L**2/48 + L*M_0_1/4 + L*rho**2/16 - 19*L*zeta(3)/9 - pi**4*L/90 + 1711*L/432 - M_0_1*zeta(3) + 55*M_0_1/48 + M_1_1/8 - rho**2*zeta(3)/4 + 55*rho**2/192 - 355*zeta(3)/162 - 14*zeta(5)/9 - 19*pi**4/1620 - pi**2*zeta(3)/18 + 55*pi**2/864 + 42727/7776"
+      },
+      "F": "L**3/12 - L**2*zeta(3) + 55*L**2/48 - L*rho**2/16 - 19*L*zeta(3)/9 - pi**2*L/8 - pi**4*L/90 + 1711*L/432 + M_1_1/8 - 55*rho**2/192 + rho**2*zeta(3)/4 - 55*pi**2/108 - 355*zeta(3)/162 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776",
+      "f": "M_1_1/8 - 55*rho**2/192 + rho**2*zeta(3)/4 - 55*pi**2/108 - 355*zeta(3)/162 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776",
+      "k": "-55/48 + zeta(3)",
+      "h": "-1711/432 + pi**2/24 + pi**4/90 + 19*zeta(3)/9",
+      "provenance": {
+        "method": "direct current raw moment-series assembly",
+        "selection": {
+          "path": "benchmarks/renormalization/three-loop/matter-channels-r001.json",
+          "sha256": "de3f1a6db8bd6278114aabcb1cdcc9f6f77909b4015c05048bcc91d7fac79727",
+          "field": "/cff"
+        },
+        "sources": [
+          {
+            "orbit_id": "2e-Pi2-01",
+            "path": "benchmarks/self-energy/pi2/results/2e-Pi2-01/r002.json",
+            "sha256": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a",
+            "field": "Ff",
+            "field_sha256": "38d03fac1eb2b0fee94045ae1620b15a327fef9c00a566737f4520b30611b3a1"
+          },
+          {
+            "orbit_id": "2e-Pi2-02",
+            "path": "benchmarks/self-energy/pi2/results/2e-Pi2-02/r002.json",
+            "sha256": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d",
+            "field": "Ff",
+            "field_sha256": "a52535e84502634ec5ba2d4394f89e2357f080af57f50b43567a8ef6828820fc"
+          }
+        ]
+      },
+      "logZ": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "-2/9",
+        "-2": "-L/6 - 2*zeta(3)/9 + 55/216",
+        "-1": "-2*L*zeta(3)/3 + 55*L/72 - 19*zeta(3)/27 - pi**4/270 - pi**2/72 + 1711/1296",
+        "0": "0"
+      },
+      "gamma4": "-1711/216 + pi**2/12 + pi**4/45 + 38*zeta(3)/9",
+      "lower_RG": "L**2/4 - rho**2/16 - pi**2/12",
+      "moment_symbols": [
+        "M_0_1",
+        "M_1_1"
+      ]
+    },
+    "CF*(TF*nf)^2": {
+      "short_label": "ff",
+      "U_compact": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-1/81",
+        "-3": "-10/243",
+        "-2": "-M_0_1/18 - 1/9 - pi**2/324",
+        "-1": "-5*M_0_1/27 - M_1_1/12 - 608/2187 - 7*zeta(3)/81 - 5*pi**2/486",
+        "0": "M_0_1**2/48 + M_0_1*rho**2/16 - M_0_1/2 - pi**2*M_0_1/72 - 5*M_1_1/18 - M_2_1/16 - 4376/6561 - 70*zeta(3)/243 - pi**2/36 - 67*pi**4/38880"
+      },
+      "bare_compact": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-2/81",
+        "-3": "-2*L/27 - 20/243",
+        "-2": "-L**2/9 - 20*L/81 - M_0_1/9 - rho**2/36 - 2/9 - pi**2/162",
+        "-1": "-L**3/9 - 10*L**2/27 - L*M_0_1/3 - L*rho**2/12 - 2*L/3 - pi**2*L/54 - 10*M_0_1/27 - M_1_1/6 - 5*rho**2/54 - 1216/2187 - 14*zeta(3)/81 - 5*pi**2/243",
+        "0": "-L**4/12 - 10*L**3/27 - L**2*M_0_1/2 - L**2*rho**2/8 - L**2 - pi**2*L**2/36 - 10*L*M_0_1/9 - L*M_1_1/2 - 5*L*rho**2/18 - 1216*L/729 - 14*L*zeta(3)/27 - 5*pi**2*L/81 + M_0_1**2/24 - M_0_1 - pi**2*M_0_1/36 - 5*M_1_1/9 - M_2_1/8 - rho**4/192 - rho**2/4 - pi**2*rho**2/144 - 8752/6561 - 140*zeta(3)/243 - pi**2/18 - 67*pi**4/19440"
+      },
+      "CT_compact": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-1/9",
+        "-3": "5/27",
+        "-2": "L**2/9 + 10*L/27 - M_0_1/9 - rho**2/12 - pi**2/9 + 28/81",
+        "-1": "L**3/9 + 10*L**2/27 - L*M_0_1/9 - 5*L*rho**2/36 - 11*pi**2*L/54 + 56*L/81 + M_1_1/6 - 5*rho**2/54 - 25*pi**2/162 + 164/243",
+        "0": "7*L**4/108 + 20*L**3/81 - L**2*M_0_1/18 - L**2*rho**2/8 - 7*pi**2*L**2/36 + 56*L**2/81 + 7*L*M_1_1/18 - 5*L*rho**2/27 - 25*pi**2*L/81 + 2*L*zeta(3)/27 + 328*L/243 + M_0_1**2/216 - pi**2*M_0_1/108 + 10*M_1_1/27 + 7*M_2_1/72 - rho**4/192 - 13*pi**2*rho**2/432 - 14*rho**2/81 - 70*pi**2/243 - 35*pi**4/1296 + 10*zeta(3)/81 + 976/729"
+      },
+      "post_compact": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-11/81",
+        "-3": "25/243 - 2*L/27",
+        "-2": "10*L/81 - 2*M_0_1/9 - rho**2/9 - 19*pi**2/162 + 10/81",
+        "-1": "-4*L*M_0_1/9 - 2*L*rho**2/9 - 2*pi**2*L/9 + 2*L/81 - 10*M_0_1/27 - 5*rho**2/27 - 85*pi**2/486 - 14*zeta(3)/81 + 260/2187",
+        "0": "-L**4/54 - 10*L**3/81 - 5*L**2*M_0_1/9 - L**2*rho**2/4 - 2*pi**2*L**2/9 - 25*L**2/81 - 10*L*M_0_1/9 - L*M_1_1/9 - 25*L*rho**2/54 - 10*pi**2*L/27 - 4*L*zeta(3)/9 - 232*L/729 + 5*M_0_1**2/108 - M_0_1 - pi**2*M_0_1/27 - 5*M_1_1/27 - M_2_1/36 - rho**4/96 - 137*rho**2/324 - pi**2*rho**2/27 - 167*pi**2/486 - 37*pi**4/1215 - 110*zeta(3)/243 + 32/6561"
+      },
+      "F": "-L**4/54 - 10*L**3/81 + L**2*rho**2/36 - 25*L**2/81 + pi**2*L**2/18 - L*M_1_1/9 + 5*L*rho**2/54 - 4*L*zeta(3)/9 - 232*L/729 + 5*pi**2*L/27 - 5*M_1_1/27 - M_2_1/36 + rho**4/864 + pi**2*rho**2/216 + 25*rho**2/324 - 110*zeta(3)/243 - 7*pi**4/19440 + 32/6561 + 38*pi**2/243",
+      "f": "-5*M_1_1/27 - M_2_1/36 + rho**4/864 + pi**2*rho**2/216 + 25*rho**2/324 - 110*zeta(3)/243 - 7*pi**4/19440 + 32/6561 + 38*pi**2/243",
+      "k": "-1/27",
+      "h": "-260/729 - 5*pi**2/162 + 14*zeta(3)/27",
+      "provenance": {
+        "method": "direct current raw moment-series assembly",
+        "selection": {
+          "path": "benchmarks/renormalization/three-loop/matter-channels-r001.json",
+          "sha256": "de3f1a6db8bd6278114aabcb1cdcc9f6f77909b4015c05048bcc91d7fac79727",
+          "field": "/nf2"
+        },
+        "sources": [
+          {
+            "orbit_id": "2e-Pi1+Pi1-01",
+            "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r002.json",
+            "sha256": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926",
+            "field": "CF*(TF*nf)^2",
+            "field_sha256": "5c2302fd2983a0caca8a0d1a420d5dbe46585dfa77fce40ced52d4b8be20f4b9"
+          },
+          {
+            "orbit_id": "2e-Pi1+Pi1-02",
+            "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json",
+            "sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+            "field": "CF*(TF*nf)^2",
+            "field_sha256": "a188e23eb80202d0f316b3359488f082f760d672854a73d1b9856546c1f5a336"
+          }
+        ]
+      },
+      "logZ": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-11/81",
+        "-3": "25/243 - 2*L/27",
+        "-2": "10*L/81 - 2*M_0_1/9 - rho**2/9 - 19*pi**2/162 + 10/81",
+        "-1": "-4*L*M_0_1/9 - 2*L*rho**2/9 - 2*pi**2*L/9 + 2*L/81 - 10*M_0_1/27 - 5*rho**2/27 - 85*pi**2/486 - 14*zeta(3)/81 + 260/2187",
+        "0": "0"
+      },
+      "gamma4": "-520/729 - 5*pi**2/81 + 28*zeta(3)/27",
+      "lower_RG": "-2*L**3/27 - 10*L**2/27 + L*rho**2/18 - 56*L/81 + pi**2*L/9 - M_1_1/9 + 5*rho**2/54 - 164/243 + 2*zeta(3)/27 + 25*pi**2/162",
+      "moment_symbols": [
+        "M_0_1",
+        "M_1_1",
+        "M_2_1"
+      ]
+    }
+  },
+  "lower_orders": {
+    "normalization": "All displayed lower-order quantities have the common outer CF removed; existing S1/S2 are retained in w1/w2.",
+    "b0": "11*CA/12 - T/3",
+    "b1": "17*CA**2/24 - 5*CA*T/12 - CF*T/4",
+    "w1_full_scale": {
+      "-2": "-2",
+      "-1": "-2*L",
+      "0": "-L**2 - M_0_1 - rho**2/4 - pi**2/6",
+      "1": "-L**3/3 - L*M_0_1 - L*rho**2/4 - pi**2*L/6 - M_1_1/2 - 2*zeta(3)/3",
+      "2": "-L**4/12 - L**2*M_0_1/2 - L**2*rho**2/8 - pi**2*L**2/12 - L*M_1_1/2 - 2*L*zeta(3)/3 + M_0_1**2/24 - pi**2*M_0_1/12 - M_2_1/8 - rho**4/192 - pi**2*rho**2/48 - pi**4/80"
+    },
+    "w1_consumed_range": [
+      -2,
+      2
+    ],
+    "w2_full_scale": {
+      "-4": "0",
+      "-3": "-11*CA/24 + T/6",
+      "-2": "-11*CA*L/12 - 67*CA/72 + pi**2*CA/24 + L*T/3 + 5*T/18",
+      "-1": "-11*CA*L**2/12 - 67*CA*L/36 + pi**2*CA*L/12 + 11*CA*rho**2/48 - 101*CA/54 + 7*CA*zeta(3)/4 + 55*pi**2*CA/144 + L**2*T/3 + 5*L*T/9 - T*rho**2/12 - 5*pi**2*T/36 + 14*T/27",
+      "0": "-11*CA*L**3/18 - 67*CA*L**2/36 + pi**2*CA*L**2/12 + 11*CA*L*rho**2/24 - 101*CA*L/27 + 7*CA*L*zeta(3)/2 + 55*pi**2*CA*L/72 - 11*CA*M_1_1/12 - pi**2*CA*rho**2/48 + 67*CA*rho**2/144 - 607*CA/162 - pi**4*CA/48 - 11*CA*zeta(3)/36 + 335*pi**2*CA/432 + 2*L**3*T/9 + 5*L**2*T/9 - L*T*rho**2/6 - 5*pi**2*L*T/18 + 28*L*T/27 + M_1_1*T/3 - 5*T*rho**2/36 - 25*pi**2*T/108 + T*zeta(3)/9 + 82*T/81",
+      "1": "-11*CA*L**4/36 - 67*CA*L**3/54 + pi**2*CA*L**3/18 + 11*CA*L**2*rho**2/24 - 101*CA*L**2/27 + 7*CA*L**2*zeta(3)/2 + 55*pi**2*CA*L**2/72 - 11*CA*L*M_1_1/6 - pi**2*CA*L*rho**2/24 + 67*CA*L*rho**2/72 - 607*CA*L/81 - pi**4*CA*L/24 - 11*CA*L*zeta(3)/18 + 335*pi**2*CA*L/216 - 67*CA*M_1_1/36 + CA*M_1_3/12 - 11*CA*M_2_1/24 + CA*N_1_2/8 + 11*CA*rho**4/576 - 13*CA*rho**2*zeta(3)/8 + 101*CA*rho**2/108 + 11*pi**2*CA*rho**2/96 - 163*pi**2*CA*zeta(3)/72 - 1822*CA/243 - 67*CA*zeta(3)/108 + 23*CA*zeta(5)/4 + 913*pi**4*CA/8640 + 505*pi**2*CA/324 + L**4*T/9 + 10*L**3*T/27 - L**2*T*rho**2/6 - 5*pi**2*L**2*T/18 + 28*L**2*T/27 + 2*L*M_1_1*T/3 - 5*L*T*rho**2/18 - 25*pi**2*L*T/54 + 2*L*T*zeta(3)/9 + 164*L*T/81 + 5*M_1_1*T/9 + M_2_1*T/6 - T*rho**4/144 - pi**2*T*rho**2/24 - 7*T*rho**2/27 - 35*pi**2*T/81 - 83*pi**4*T/2160 + 5*T*zeta(3)/27 + 488*T/243"
+    },
+    "w2_consumed_range": [
+      -4,
+      1
+    ],
+    "w2_unscaled": {
+      "-4": "0",
+      "-3": "-11*CA/48 + T/12",
+      "-2": "-67*CA/144 + pi**2*CA/48 + 5*T/36",
+      "-1": "-11*CA*M_0_1/24 - 101*CA/108 - 11*pi**2*CA/288 + 7*CA*zeta(3)/8 + M_0_1*T/6 + pi**2*T/72 + 7*T/27",
+      "0": "-CA*M_0_1**2/8 - CA*M_0_1*rho**2/16 - 67*CA*M_0_1/72 + pi**2*CA*M_0_1/48 - 11*CA*M_1_1/24 + pi**2*CA*rho**2/48 - 607*CA/324 - 67*pi**2*CA/864 - 11*CA*zeta(3)/72 + pi**4*CA/32 + 5*M_0_1*T/18 + M_1_1*T/6 + T*zeta(3)/18 + 5*pi**2*T/216 + 41*T/81",
+      "1": "11*CA*M_0_1**2/144 - 3*CA*M_0_1*M_1_1/16 + 11*CA*M_0_1*rho**2/48 - 101*CA*M_0_1/54 - 11*pi**2*CA*M_0_1/144 + 2*CA*M_0_1*zeta(3) - 3*CA*M_1_1*rho**2/32 - 67*CA*M_1_1/72 - 3*pi**2*CA*M_1_1/32 + CA*M_1_3/24 - 11*CA*M_2_1/48 + CA*N_1_2/16 - CA*rho**2*zeta(3)/4 - 911*CA/243 - 19*pi**2*CA*zeta(3)/144 - 101*pi**2*CA/648 - 77*pi**4*CA/17280 - 67*CA*zeta(3)/216 + 23*CA*zeta(5)/8 - M_0_1**2*T/36 - M_0_1*T*rho**2/12 + pi**2*M_0_1*T/36 + 14*M_0_1*T/27 + 5*M_1_1*T/18 + M_2_1*T/12 + 5*T*zeta(3)/54 + 7*pi**4*T/4320 + 7*pi**2*T/162 + 244*T/243"
+    },
+    "F1_over_CF": "-L**2 + rho**2/4 + pi**2/3",
+    "F2_over_CF": "-11*CA*L**3/36 - 67*CA*L**2/36 + pi**2*CA*L**2/12 + 11*CA*L*rho**2/48 - 101*CA*L/27 + 7*CA*L*zeta(3)/2 + 11*pi**2*CA*L/24 - 11*CA*M_1_1/24 - pi**2*CA*rho**2/48 + 67*CA*rho**2/144 - 607*CA/162 - pi**4*CA/48 + 11*CA*zeta(3)/36 + 335*pi**2*CA/432 + L**3*T/9 + 5*L**2*T/9 - L*T*rho**2/12 - pi**2*L*T/6 + 28*L*T/27 + M_1_1*T/6 - 5*T*rho**2/36 - 25*pi**2*T/108 - T*zeta(3)/9 + 82*T/81",
+    "CT3_over_CF": {
+      "-6": "0",
+      "-5": "0",
+      "-4": "-121*CA**2/144 + 11*CA*T/18 - T**2/9",
+      "-3": "-11*pi**2*CA**2/144 + 1043*CA**2/432 - 167*CA*T/108 + pi**2*CA*T/36 - CF*T/4 + 5*T**2/27",
+      "-2": "121*CA**2*L**2/144 - 11*pi**2*CA**2*L/72 + 445*CA**2*L/108 - 121*CA**2*M_0_1/144 - 121*CA**2*rho**2/192 - 121*pi**2*CA**2/144 - 77*CA**2*zeta(3)/24 + 1111*CA**2/324 - 11*CA*L**2*T/18 - 289*CA*L*T/108 + pi**2*CA*L*T/18 + 11*CA*M_0_1*T/18 + 11*CA*T*rho**2/24 - 178*CA*T/81 + 7*CA*T*zeta(3)/6 + 11*pi**2*CA*T/18 - CF*L*T/4 + L**2*T**2/9 + 10*L*T**2/27 - M_0_1*T**2/9 - T**2*rho**2/12 - pi**2*T**2/9 + 28*T**2/81",
+      "-1": "121*CA**2*L**3/144 - 11*pi**2*CA**2*L**2/72 + 1627*CA**2*L**2/432 - 121*CA**2*L*M_0_1/144 - 605*CA**2*L*rho**2/576 - 1331*pi**2*CA**2*L/864 - 77*CA**2*L*zeta(3)/12 + 1111*CA**2*L/162 + 17*CA**2*M_0_1/48 + 121*CA**2*M_1_1/96 - 1321*CA**2*rho**2/1728 + 11*pi**2*CA**2*rho**2/288 - 883*pi**2*CA**2/648 + 11*pi**4*CA**2/288 + 6677*CA**2/972 - 11*CA*L**3*T/18 - 533*CA*L**2*T/216 + pi**2*CA*L**2*T/18 + 11*CA*L*M_0_1*T/18 + 55*CA*L*T*rho**2/72 - 356*CA*L*T/81 + 7*CA*L*T*zeta(3)/3 + 121*pi**2*CA*L*T/108 - 5*CA*M_0_1*T/24 - 11*CA*M_1_1*T/12 - pi**2*CA*T*rho**2/72 + 443*CA*T*rho**2/864 - 1058*CA*T/243 - pi**4*CA*T/72 + 1175*pi**2*CA*T/1296 - CF*L**2*T/8 - CF*M_0_1*T/8 - CF*T*rho**2/32 - pi**2*CF*T/48 + L**3*T**2/9 + 10*L**2*T**2/27 - L*M_0_1*T**2/9 - 5*L*T**2*rho**2/36 - 11*pi**2*L*T**2/54 + 56*L*T**2/81 + M_1_1*T**2/6 - 5*T**2*rho**2/54 - 25*pi**2*T**2/162 + 164*T**2/243",
+      "0": "847*CA**2*L**4/1728 - 11*pi**2*CA**2*L**3/108 + 3101*CA**2*L**3/1296 - 121*CA**2*L**2*M_0_1/288 - 121*CA**2*L**2*rho**2/128 - 847*pi**2*CA**2*L**2/576 - 77*CA**2*L**2*zeta(3)/12 + 1111*CA**2*L**2/162 + 17*CA**2*L*M_0_1/48 + 847*CA**2*L*M_1_1/288 - 2795*CA**2*L*rho**2/1728 + 11*pi**2*CA**2*L*rho**2/144 - 7217*pi**2*CA**2*L/2592 + 121*CA**2*L*zeta(3)/216 + 11*pi**4*CA**2*L/144 + 6677*CA**2*L/486 + 121*CA**2*M_0_1**2/3456 - 121*pi**2*CA**2*M_0_1/1728 + 3101*CA**2*M_1_1/864 - 11*CA**2*M_1_3/72 + 847*CA**2*M_2_1/1152 - 11*CA**2*N_1_2/48 - 121*CA**2*rho**4/3072 - 1573*pi**2*CA**2*rho**2/6912 - 1111*CA**2*rho**2/648 + 143*CA**2*rho**2*zeta(3)/48 - 5555*pi**2*CA**2/1944 - 4235*pi**4*CA**2/20736 - 253*CA**2*zeta(5)/24 + 445*CA**2*zeta(3)/324 + 10021*CA**2/729 + 1793*pi**2*CA**2*zeta(3)/432 - 77*CA*L**4*T/216 - 1021*CA*L**3*T/648 + pi**2*CA*L**3*T/27 + 11*CA*L**2*M_0_1*T/36 + 11*CA*L**2*T*rho**2/16 - 356*CA*L**2*T/81 + 7*CA*L**2*T*zeta(3)/3 + 77*pi**2*CA*L**2*T/72 - 5*CA*L*M_0_1*T/24 - 77*CA*L*M_1_1*T/36 - pi**2*CA*L*T*rho**2/36 + 931*CA*L*T*rho**2/864 - 2116*CA*L*T/243 - pi**4*CA*L*T/36 - 11*CA*L*T*zeta(3)/27 + 2395*pi**2*CA*L*T/1296 - 11*CA*M_0_1**2*T/432 + 11*pi**2*CA*M_0_1*T/216 - 1021*CA*M_1_1*T/432 + CA*M_1_3*T/18 - 77*CA*M_2_1*T/144 + CA*N_1_2*T/12 + 11*CA*T*rho**4/384 - 13*CA*T*rho**2*zeta(3)/12 + 89*CA*T*rho**2/81 + 143*pi**2*CA*T*rho**2/864 - 163*pi**2*CA*T*zeta(3)/108 - 6328*CA*T/729 - 289*CA*T*zeta(3)/324 + 23*CA*T*zeta(5)/6 + 385*pi**4*CA*T/2592 + 445*pi**2*CA*T/243 - CF*L**3*T/24 - CF*L*M_0_1*T/8 - CF*L*T*rho**2/32 - pi**2*CF*L*T/48 - CF*M_1_1*T/16 - CF*T*zeta(3)/12 + 7*L**4*T**2/108 + 20*L**3*T**2/81 - L**2*M_0_1*T**2/18 - L**2*T**2*rho**2/8 - 7*pi**2*L**2*T**2/36 + 56*L**2*T**2/81 + 7*L*M_1_1*T**2/18 - 5*L*T**2*rho**2/27 - 25*pi**2*L*T**2/81 + 2*L*T**2*zeta(3)/27 + 328*L*T**2/243 + M_0_1**2*T**2/216 - pi**2*M_0_1*T**2/108 + 10*M_1_1*T**2/27 + 7*M_2_1*T**2/72 - T**2*rho**4/192 - 13*pi**2*T**2*rho**2/432 - 14*T**2*rho**2/81 - 70*pi**2*T**2/243 - 35*pi**4*T**2/1296 + 10*T**2*zeta(3)/81 + 976*T**2/729"
+    },
+    "sources": {
+      "w1": "benchmarks/renormalization/one-loop/result-r001.json#/laurent_unit_coefficients",
+      "w2": "benchmarks/renormalization/three-loop/lower-order-inputs-r001.json#/hat_w2_over_CF",
+      "F1_F2": "benchmarks/renormalization/two-loop/result-r002.json"
+    }
+  },
+  "conversion_dictionary": {
+    "expression_language": "SymPy exact strings; ** powers; zeta(n); M_i_j and N_i_j are raw moments",
+    "domain": "z>0; rho=log(z); L=(L_s+L_t)/2; L_s=L+rho/2 and L_t=L-rho/2",
+    "regulator": "D=4-2*eps; coefficient [eps^q] carries no q!",
+    "moments": {
+      "r_z": "z/(1+z)",
+      "W_beta": "log(beta*(1-beta))",
+      "R_beta": "log((1-beta)/beta)",
+      "L_beta": "rho+R_beta",
+      "M_i_j": "Integral(W_beta**i*L_beta**j/(beta-r_z), (beta,0,1))",
+      "N_i_j": "Integral(W_beta**i*R_beta*L_beta**j/(beta-r_z), (beta,0,1))",
+      "index_domain": "i>=0, j>=1; no factorial denominators; removable point beta=r_z",
+      "identities": {
+        "N_i_j": "M_i_(j+1)-rho*M_i_j",
+        "M_0_1": "-(rho**2+pi**2)/2",
+        "M_0_3": "-M_0_1**2"
+      },
+      "reflection": {
+        "M_i_j(1/z)": "(-1)**(j+1)*M_i_j(z)",
+        "N_i_j(1/z)": "(-1)**j*N_i_j(z)"
+      },
+      "source": "benchmarks/2ne/families/single-opposite/three-loop.md"
+    },
+    "hlog": {
+      "definition": "G(a1,...,an;z)=Integral(G(a2,...,an;t)/(t-a1),(t,0,z))",
+      "word_order": "first letter is outermost; empty word is 1",
+      "zeros": "G(0,...,0;z)=log(z)**n/n!",
+      "alphabet": [
+        0,
+        -1
+      ],
+      "branch": "real z>0; continuation outside this domain requires the source branch prescription",
+      "symbol_encoding": "H_z_m1_0_0 denotes Hlog(z,[-1,0,0]); all-zero words are replaced by rho**n/n!",
+      "source": "workflow/checks/matter-rg-20261017/check.py"
+    },
+    "moment_to_hlog": {
+      "M_0_1": {
+        "source": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+        "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+        "maple_hlog": "-3*zeta[2]-Hlog(z,[0, 0])",
+        "sympy_hlog": "-rho**2/2 - pi**2/2"
+      },
+      "M_1_1": {
+        "source": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+        "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+        "maple_hlog": "-Hlog(z,[0, 0, 0])+2*zeta[3]+6*zeta[2]*Hlog(z,[-1])-3*zeta[2]*Hlog(z,[0])+2*Hlog(z,[-1, 0, 0])",
+        "sympy_hlog": "pi**2*H_z_m1 + 2*H_z_m1_0_0 - rho**3/6 - pi**2*rho/2 + 2*zeta(3)"
+      },
+      "M_2_1": {
+        "source": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+        "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+        "maple_hlog": "12*zeta[2]*Hlog(z,[-1, 0])+4*Hlog(z,[0, -1, 0, 0])-24*zeta[2]*Hlog(z,[-1, -1])-8*Hlog(z,[-1, -1, 0, 0])-33/5*zeta[2]^2-4*zeta[2]*Hlog(z,[0, 0])-8*zeta[3]*Hlog(z,[-1])+4*zeta[3]*Hlog(z,[0])-2*Hlog(z,[0, 0, 0, 0])+4*Hlog(z,[-1, 0, 0, 0])+12*zeta[2]*Hlog(z,[0, -1])",
+        "sympy_hlog": "2*pi**2*H_z_0_m1 + 4*H_z_0_m1_0_0 - 8*H_z_m1*zeta(3) + 2*pi**2*H_z_m1_0 + 4*H_z_m1_0_0_0 - 4*pi**2*H_z_m1_m1 - 8*H_z_m1_m1_0_0 - rho**4/12 - pi**2*rho**2/3 + 4*rho*zeta(3) - 11*pi**4/60"
+      },
+      "M_3_1": {
+        "source": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt",
+        "sha256": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+        "maple_hlog": "-24*zeta[3]*Hlog(z,[-1, 0])+48*zeta[3]*Hlog(z,[-1, -1])-12*zeta[2]*Hlog(z,[0, 0, 0])-72*zeta[2]*Hlog(z,[0, -1, -1])+12*Hlog(z,[0, 0, -1, 0, 0])-72*zeta[2]*Hlog(z,[-1, -1, 0])-12*zeta[2]*zeta[3]+36*zeta[5]+48*Hlog(z,[-1, -1, -1, 0, 0])-24*Hlog(z,[0, -1, -1, 0, 0])+36*zeta[2]*Hlog(z,[0, 0, -1])+144*zeta[2]*Hlog(z,[-1, -1, -1])-24*Hlog(z,[-1, -1, 0, 0, 0])-6*Hlog(z,[0, 0, 0, 0, 0])+12*Hlog(z,[0, -1, 0, 0, 0])-72*zeta[2]*Hlog(z,[-1, 0, -1])+12*Hlog(z,[-1, 0, 0, 0, 0])+198/5*zeta[2]^2*Hlog(z,[-1])-24*Hlog(z,[-1, 0, -1, 0, 0])-99/5*zeta[2]^2*Hlog(z,[0])+24*zeta[2]*Hlog(z,[-1, 0, 0])+36*zeta[2]*Hlog(z,[0, -1, 0])-24*zeta[3]*Hlog(z,[0, -1])",
+        "sympy_hlog": "6*pi**2*H_z_0_0_m1 + 12*H_z_0_0_m1_0_0 - 24*H_z_0_m1*zeta(3) + 6*pi**2*H_z_0_m1_0 + 12*H_z_0_m1_0_0_0 - 12*pi**2*H_z_0_m1_m1 - 24*H_z_0_m1_m1_0_0 + 11*pi**4*H_z_m1/10 - 24*H_z_m1_0*zeta(3) + 4*pi**2*H_z_m1_0_0 + 12*H_z_m1_0_0_0_0 - 12*pi**2*H_z_m1_0_m1 - 24*H_z_m1_0_m1_0_0 + 48*H_z_m1_m1*zeta(3) - 12*pi**2*H_z_m1_m1_0 - 24*H_z_m1_m1_0_0_0 + 24*pi**2*H_z_m1_m1_m1 + 48*H_z_m1_m1_m1_0_0 - rho**5/20 - pi**2*rho**3/3 - 11*pi**4*rho/20 - 2*pi**2*zeta(3) + 36*zeta(5)"
+      },
+      "M_1_2": {
+        "source": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt",
+        "sha256": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f",
+        "maple_hlog": "4*zeta[2]*Hlog(z,[-1, 0])+17/5*zeta[2]^2-2*zeta[2]*Hlog(z,[0, 0])+4*zeta[3]*Hlog(z,[0])-2*Hlog(z,[0, 0, 0, 0])+4*Hlog(z,[-1, 0, 0, 0])",
+        "sympy_hlog": "2*pi**2*H_z_m1_0/3 + 4*H_z_m1_0_0_0 - rho**4/12 - pi**2*rho**2/6 + 4*rho*zeta(3) + 17*pi**4/180"
+      },
+      "M_1_3": {
+        "source": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt",
+        "sha256": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+        "maple_hlog": "-6*zeta[2]*Hlog(z,[0, 0, 0])+12*zeta[2]*zeta[3]+12*zeta[5]-6*Hlog(z,[0, 0, 0, 0, 0])+12*zeta[3]*Hlog(z,[0, 0])+12*Hlog(z,[-1, 0, 0, 0, 0])+18*zeta[2]^2*Hlog(z,[-1])-9*zeta[2]^2*Hlog(z,[0])+12*zeta[2]*Hlog(z,[-1, 0, 0])",
+        "sympy_hlog": "pi**4*H_z_m1/2 + 2*pi**2*H_z_m1_0_0 + 12*H_z_m1_0_0_0_0 - rho**5/20 - pi**2*rho**3/6 + 6*rho**2*zeta(3) - pi**4*rho/4 + 12*zeta(5) + 2*pi**2*zeta(3)"
+      }
+    },
+    "N_1_2_to_hlog": "pi**4*H_z_m1/2 + 2*pi**2*H_z_m1_0_0 + 12*H_z_m1_0_0_0_0 - rho**5/20 - pi**2*rho**3/6 + 6*rho**2*zeta(3) - rho*(2*pi**2*H_z_m1_0/3 + 4*H_z_m1_0_0_0 - rho**4/12 - pi**2*rho**2/6 + 4*rho*zeta(3) + 17*pi**4/180) - pi**4*rho/4 + 12*zeta(5) + 2*pi**2*zeta(3)",
+    "normalization": {
+      "T": "TF*nf",
+      "B_f": "-8*(1-eps)/(3-2*eps)",
+      "S_n": "exp(n*eps*(L+rho/2))+exp(n*eps*(L-rho/2))",
+      "U_compact": "scale-stripped bare exponent color coefficient",
+      "bare_compact": "S3*U_compact; lambda_b**3 and color stripped",
+      "CT_compact": "[-2*b0*w2/eps+(b0**2/eps**2-b1/(2*eps))*w1]_color",
+      "post_compact": "bare_compact+CT_compact",
+      "logZ": "negative-power coefficients of log(Z4), with epsilon-zero entry explicitly 0",
+      "F": "post_compact[0]",
+      "f": "F.subs(L,0)",
+      "k": "-3/2*d(post_compact[-1])/dL",
+      "h": "-3*post_compact[-1].subs(L,0)",
+      "gamma4": "2*h"
+    },
+    "unused_in_these_totals": [
+      "tau_plus",
+      "old weight-six E"
+    ],
+    "scope": "Three matter color totals through eps^0 only. This is not a universal Hlog-to-M/N reduction of individual diagrams or an all-order closure claim."
+  },
+  "source_sha256": {
+    "workflow/checks/matter-rg-20261017/check.py": "83267178865ffe75de6ea7bd8702d0e7b8bc032d2cff39585fa35075c0c18572",
+    "benchmarks/renormalization/three-loop/current.json": "0a196bf93d0995edc9ade3b1aabb26e8c79e9a39a33868f8c9a96acb505a7100",
+    "benchmarks/renormalization/three-loop/results/CF-CA-TF-nf/r001.json": "bbf1aac15c171e30388a7bfa045a03eb52d32ae8c61e4c483e2134d222f0210d",
+    "benchmarks/renormalization/three-loop/matter-channels-r001.json": "de3f1a6db8bd6278114aabcb1cdcc9f6f77909b4015c05048bcc91d7fac79727",
+    "workflow/checks/w3-ca-nf/prepare.py": "be87f4ef1546ab38cb18a705e942b8a86011e4740e246bd804327a8e4d6a3667",
+    "workflow/checks/w3-ca-nf/inputs.json": "b754bcd1e1fd04c2b924d8daecd3a1e660dabd5b79c710f6b1def80f36e15108",
+    "workflow/checks/w3-ca-nf/source_inputs.mpl": "94fd6b172a428dbaf6de14ca373f527d4aa731b7f61b4370d6435de28d70dce3",
+    "workflow/checks/w3-ca-nf/physical_bridge.py": "dcc3b90bd2ac4845d94d2d19a71db1cd44a262c9d733f2d159d3c717986578c3",
+    "workflow/checks/w3-ca-nf/physical-bridge.json": "958d7e9d7afb21c122c9362ce1f36449d28c18e49507afc17e591554eb66c287",
+    "workflow/checks/w3-ca-nf/generate_physical.py": "b2c62af63c78869153859d881ebc2521617b8d9b321906ca32b9d805d3be40a1",
+    "workflow/checks/w3-ca-nf/assemble.mpl": "eb491abe3cb983fee86324c357d6981379e42a09bbc3824a18cd6891d36dfc83",
+    "workflow/checks/w3-ca-nf/assemble.log": "c285f6e5de9ca67e6ada9675cbea66fed76ebc855fed8b5575d5fc7ba57c72f5",
+    "workflow/checks/w3-ca-nf/assembly-coefficients.txt": "ecb70df3c37242430826b83db9d35559fa378369d90ffd0f096b7d48fb54122c",
+    "workflow/checks/w3-ca-nf/physical.mpl": "f54c3bc53e2b5b238fd2159ad0d9befd477da698f5e8852a62148c0a90436d86",
+    "workflow/checks/w3-ca-nf/physical.log": "4350055211998a30133837742f975f97b47c15f09330b8f6dc4508effdccc409",
+    "workflow/checks/w3-ca-nf/physical-run.json": "76303b1b67cdef16ed757b6e2410427f07e590875bc4324239b253e9920827ce",
+    "workflow/checks/w3-ca-nf/physical-coefficients.txt": "4ecada51a758fdb0a122a27d05db00105b4f3e7427698cd126ae2abb79b8d7b1",
+    "workflow/checks/w3-ca-nf/compact.mpl": "d72e2bc8339896029585907b7fd234a6331f354c5bacce9439cd327b2f2cca0b",
+    "workflow/checks/w3-ca-nf/compact.log": "8625b3d11f52704b833f3ccd8a6a0549e7fd6304cba04c1915a751c1baec361e",
+    "workflow/checks/w3-ca-nf/compact-run.json": "296861a9c8ba2afe867f7ea1396e337679d20895ed84558717ea3be227a56c9e",
+    "workflow/checks/w3-ca-nf/compact-coefficients.txt": "444df14cd7d9ed3fb31280de1618c5f918bb50a721c35b498bb7b7a2075838bc",
+    "workflow/checks/w3-ca-nf/source_controls.mpl": "5d7ed1569ca80c6bc210866dde0dadd5f452b7c0967f5c50fbc55220edae2e18",
+    "workflow/checks/w3-ca-nf/source_controls.log": "74e212fc43151600dd5f8a5be08ad1d101e9b4a29d7906a553b5434e26c84952",
+    "workflow/checks/w3-ca-nf/source-crossing.txt": "8bf7222aed7bb4229756cae494015443d36a59110d491c85ef11d0d9aeb51498",
+    "workflow/checks/w3-ca-nf/direct_export.mpl": "e7238beceb1bcdb3884242431167e234d894723aa425469e6cfa442b20d79e5a",
+    "workflow/checks/w3-ca-nf/direct_export.log": "3d1cc0e8cf3aaa8a1cd9be7f99a2fe10940863e5fcb2f8ec0ce671b8b481a953",
+    "workflow/checks/w3-ca-nf/direct-export-checks.txt": "27b0d78ca40ccb4cac9ba6abfeae89bf94294569c214f556ca8324d0e5c395f8",
+    "workflow/checks/w3-ca-nf/numeric.py": "03084552a706ffb9cdb5dfbc2adb4bb08204840e05e53719d3a8a287bad3b614",
+    "workflow/checks/w3-ca-nf/numeric-checks.json": "6d7e5f663b932b02b4720e5917c1fd8c975f2084eb10174a313373ecf9faded8",
+    "workflow/checks/w3-ca-nf/publish.py": "512909c790bb78c8f7dff245063c14a5f2740d20f825bf5a311788bf25d89b00",
+    "benchmarks/self-energy/current-r002.json": "b141e672ae85e4cb119413968115e9da3cc8852f14f2b422f2f7d4b756c9eddd",
+    "benchmarks/self-energy/tgv-pi1/current.json": "1d25a2bf5eb5e3fc4a70c8a34fd06030bfa33202ffc22a7171a89997d94389e5",
+    "benchmarks/self-energy/gamma1/current.json": "421a7bb8d8bd91443794fc25348c87f51761465adc0802a37961b13817b930c9",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/gamma1/current.json": "87d36c58523bec0fc2274fd6e9f33cbae0c32c54f76914f044bf72cec0c92e65",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-01/r002.json": "22da1c140fa1da316d4859388cf1d6fe66bcfcfc5df5e58c1b88629d71dcb0f5",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-02/r002.json": "f4ef60739c56f6950b523a6b6755f5c19b4020f34f34564ca6480cc8198451c5",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-03/r002.json": "928e181315e388c55416e507eadfc496fc07132eab9c656d80dd5ebb6b624354",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-04/r002.json": "cb67dd178a5f02cb9c3dbd9b34a29f47a4054fb0be19cb85d09687abcce16cd9",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-05/r002.json": "6869b5e35cb56aaf77f19b80ac55bab5e45869f06da10c705caf26e83494a2b4",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-06/r002.json": "9da31233ebc761d2d659ec28ab4e8022c42f730865d49e8d2cf3abe66fa084f6",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-07/r002.json": "baafb42f20e8266ad5b5eca46db2d00eac1c2727226e8c5dd86eb1812517d8d9",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-08/r002.json": "c14243865814c45343f68cc8990f8793356c7c23d88e7a62058b69b599c100dd",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-09/r002.json": "753efcab2092a5954ce44bc0b91f8880fc9e1943b7fed9648b75085165ad85d3",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-10/r002.json": "75654d49701d92ad1c0fca96febd12d6ee9d8ae296a84525aa80ae89dfc2ebe4",
+    "benchmarks/self-energy/pi1/results/4e-Pi1-11/r002.json": "f04657a1aab9b963470d66587a2886628d2cb9bf9c59fa92f64a22f4fa666fef",
+    "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r002.json": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926",
+    "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+    "benchmarks/self-energy/pi2/results/2e-Pi2-01/r002.json": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a",
+    "benchmarks/self-energy/pi2/results/2e-Pi2-02/r002.json": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-01/r003.json": "b0b007dd4d387ffd744376bb54d62dadbaaf9948421d2f3819af6d09c5200e0f",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-01/r002.json": "7a3bcd6cfb375de12775de7d2591089a10645c42e6a1fd24bfbfe8435bc27978",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-02/r003.json": "809e43e98fb22c31c63ddb4985e5c1b08d4f060a72008e28f83918daccc97389",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-02/r002.json": "7331ed55cbe82639ce0b27b2cc2e8cb9a47eef1504b927882753df2d7fb0a00e",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-03/r003.json": "ed477d05e9da0bead80c34bb4babb08c164ca57206cae260a901def6a5e177e1",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-03/r002.json": "5afecbf5a02e97183e4a06be80921ac43385fd2d328b6a904ce64d61ea72c3d0",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-04/r003.json": "0f3e9e0b82b51f3821a4f612a0cefeff1eb6bff2513ad1e885fabed2a8a630ec",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-04/r002.json": "bab138514789fec411cb6110503b9bbd68387864ac708924c48c2aab8b769e4d",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-05/r003.json": "32b15a8aae68502fa406e1b659c06cfbf07cb23edbcbb0d151da9276f09c757d",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-05/r002.json": "a467d50b9eaa49e73dde216c8aeee0863cb65447a0e41cbd275f0f763fbd643c",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-06/r003.json": "8a334297e7e8afe8b95f0bed3c24fc826ec67b13792df8f29105b27cc0dbfcd5",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-06/r002.json": "cddce30e9ff2b68906dcc5f39bbff3fed9573ad3c3349a4cd936a1ec29d81ab5",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-07/r003.json": "fac4e545879c642b4c0eb3214760e9ba467ecc14ac522f1ee842bc3b7389dcb0",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-07/r002.json": "232f2dccb0ff2f2544afb6e538983f6eea6b1375230d05359c20f0802f0a829f",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-08/r003.json": "cb3f9d781bea07cb85fb9547a559dd6c59f8f044c9fe2ceb7b5434b9ab75d801",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-08/r002.json": "6064cdb61008ca5571919231ee3c4a7323488638daa9ca8bd5467d572aa6c8fc",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-09/r003.json": "dfc0663ca2e01e55574ddf3ae50e7149f4fd294943ffe3e842237e8ca079e326",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-09/r002.json": "f2730f152230189c0b89ebeadbf49305a8aaf9a75c6cb985a2dd737ec0062245",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-10/r003.json": "10d267285d6165845287d72f077c6c6384835348bafa7717367d0af869864413",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-10/r002.json": "8b0c6a13d84059c299b4a135160b140edf6198c83cad0e5ee61282748e16487c",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-11/r003.json": "2617946d55e88e9dcbcf1457605d332fc2ee5170165a930399ad1489c3f00c35",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-11/r002.json": "83ef5c2cf1003efa4292b59e1c911aab4275ce0cda288d25b2fb7e26355c5c1e",
+    "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-12/r003.json": "f81e2f392727a44c8016606af30e394080e9668f35be94373332054b8976a92b",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-12/r002.json": "657afcaf444df11ef4bbd584f569aafc76bf4c70b2498f5f6ffc6599970cd136",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-01/r002.json": "414c5ca5942257846ae88b083d9b4c8c6a135370dbff8f49563a104568c20c33",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/gamma1/results/3e-Gamma1-01/r002.json": "414c5ca5942257846ae88b083d9b4c8c6a135370dbff8f49563a104568c20c33",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-02/r002.json": "7c77526e84b52809aab0990fde75cf37789978741c0af92696ffb339c31f6a8b",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/gamma1/results/3e-Gamma1-02/r002.json": "7c77526e84b52809aab0990fde75cf37789978741c0af92696ffb339c31f6a8b",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-03/z-r003.json": "68afb9c88590c00b58a8dea4fba66f4f820416be9c139d5a5dda556f8daa4e17",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/gamma1/results/3e-Gamma1-03/z-r002.json": "5c4d53f7a8ca14bc777b7ca9fd2e1dae0b684920f67bc96859b2b223dcfd509e",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-03/r003.json": "6a8e8a16c6c2b40b97f9e8da408dcddb9b8a32978b5d6f5b6d37b1d9e122d3ee",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-03/r002.json": "517839d295091d12c8fb367d09c73f5dae48366ddd71a27b6bce6c0768694655",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-04/r003.json": "473a7c442c48c1da04a2fb9287b6b02becd2c254f6cb7045a653c57a5c2d12c8",
+    "workflow/checks/shared-sign-production/publication/benchmarks/self-energy/gamma1/results/3e-Gamma1-04/r002.json": "c2463431a9aa411fe6aa374cc4d02958338dcb49f6b1a7f3e5642d29bcb3fbe3",
+    "benchmarks/self-energy/gamma1/results/3e-Gamma1-04/r002.json": "c2463431a9aa411fe6aa374cc4d02958338dcb49f6b1a7f3e5642d29bcb3fbe3",
+    "workflow/checks/shared-sign-production/native-assembly-check.json": "b584e70167a9121f6b0c8270f36e5adc39d3c72542b6145c1d4ab87153dcd1b3",
+    "benchmarks/renormalization/one-loop/result-r001.json": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+    "benchmarks/renormalization/three-loop/lower-order-inputs-r001.json": "557dbb38a6338a9c5b2c1fbbfad782cccbd9d4ced7cb0e66f2e880e4ede20991",
+    "benchmarks/renormalization/two-loop/result-r002.json": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+    "benchmarks/renormalization/three-loop/counterterms-r001.json": "8418c4be88da475c58796385e647a2d6d2c9ee186acf8a9b7a4883e6e116810e",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f",
+    "benchmarks/2ne/families/single-opposite/three-loop.md": "fb37794f0b41c4de10d4c1e7d3207643174c6a7228b9f3ed0cd79a211fcecd5c",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/compute_moments.mpl": "6671f0240cd08b1b01419b92b25bd0f64dc2f5dda3fd480285f64bf16dbc93a2"
+  },
+  "reused_rg_replay": {
+    "files_sha256": {
+      "checks.json": "5d6f40fc6b6cbe9e8c27b85ad44e1ce0de8b3fde978f4edc24b3f6f5645def7d",
+      "inputs.json": "53a1627565893d1a43f28076c23f396ef52b730701f7354fd0b3bb7ae8f183db",
+      "current-coefficients.json": "da44963785c6664656f7944b2261aa0319d28966669446dec00f34d17f83c980"
+    },
+    "checks": 452,
+    "negative_controls": 7,
+    "role": "current 31-graph Af source connection and existing RG checks, reused with all source hashes rechecked"
+  },
+  "builder_sha256": "9a7d32a1207e3d40046418258a5bd9b6a9b43153ff067ab488e8f5f2f6bb50ea",
+  "verification": {
+    "status": "passed",
+    "checks": 324,
+    "negative_controls": 4,
+    "elapsed_seconds": 3.705,
+    "sympy_version": "1.14.0",
+    "integral_evaluation": "not_run",
+    "formal": "not_run",
+    "scope": "Exact algebra, selected-expression conversions and compact-stage reconstruction; not independent proofs of original integrals or external noncusp/finite-shape verification."
+  },
+  "limitations": [
+    "The pure CF*CA**2 channel is outside this export.",
+    "Af compact raw/bare series are reconstructed and checked, not a newly independent graph integration.",
+    "The external noncusp scale dictionary remains unresolved; internal gamma4=2*h is preserved.",
+    "A compact color total does not prove each individual diagram has an M/N representation."
+  ]
+}

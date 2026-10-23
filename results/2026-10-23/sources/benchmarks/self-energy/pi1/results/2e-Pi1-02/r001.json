@@ -1,0 +1,254 @@
+{
+  "format": "wilson-computational-result/1",
+  "family": "Pi1-baselines",
+  "orbit_id": "2e-Pi1-02",
+  "revision": "r001",
+  "input": {
+    "package": "benchmarks/self-energy/pi1/prepared/2e-Pi1.json",
+    "package_sha256": "09a865bcc4a7d1c6deb90074b7759c28dc8492cc2467d9b2cf97ecdc091d9304",
+    "manifest": "benchmarks/self-energy/pi1/prepared/manifest.json",
+    "manifest_sha256": "fe9abad283046bec0c90689041427eaffc5cce796526996f580822c581293b39"
+  },
+  "normalization": {
+    "scheme": "pi1-color-euler-normalization-1.0",
+    "loop_order": 2,
+    "sym": 2,
+    "a1": "1",
+    "I": "sym/2*G^2/(16*eps*(1-2*eps))*(J(z)+z^(2*eps)*J(1/z))/(1+z^(2*eps))",
+    "G": "exp(-EulerGamma*eps)*Gamma(1-eps)",
+    "external_color": "CF*((10-6*eps)*CA-8*(1-eps)*TF*nf)/(3-2*eps)",
+    "flavor_contribution": "retained in external color prefactor; shared scalar I",
+    "Euler_count": 1
+  },
+  "domain": {
+    "z": "positive real",
+    "epsilon": "initial 0<Re(eps)<1/2, meromorphic near 0",
+    "complex_kinematics": "source i0 retained; full physical complex-z continuation not verified"
+  },
+  "I": {
+    "kind": "Gamma_and_MeijerG_closed_form",
+    "language": "WolframLanguage/InputForm",
+    "expression": "(1/16)*z^(-eps)*(-z - 1)*MeijerG[{{0, 0, 2*eps}, {}}, {{0, 2*eps, 2*eps}, {}}, z]*Exp[-2*EulerGamma*eps]*Gamma[1 - eps]^2/(eps*(1 - 2*eps)*Cosh[eps*Log[z]]*Gamma[1 - 2*eps]*Gamma[2*eps + 1]^2) + (1/32)*Exp[-2*EulerGamma*eps]*Gamma[1 - eps]^2/(eps^2*(1 - 2*eps)*(eps + 1))",
+    "sympy": "(-z - 1)*meijerg(((0, 0, 2*eps), ()), ((0, 2*eps, 2*eps), ()), z)*exp(-2*EulerGamma*eps)*gamma(1 - eps)**2/(16*eps*z**eps*(1 - 2*eps)*cosh(eps*log(z))*gamma(1 - 2*eps)*gamma(2*eps + 1)**2) + exp(-2*EulerGamma*eps)*gamma(1 - eps)**2/(32*eps**2*(1 - 2*eps)*(eps + 1))",
+    "latex": "\\frac{z^{- eps} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, 0, 2 eps &  \\\\0, 2 eps, 2 eps &  \\end{matrix} \\middle| {z} \\right)} e^{- 2 \\gamma eps} \\Gamma^{2}\\left(1 - eps\\right)}{16 eps \\left(1 - 2 eps\\right) \\cosh{\\left(eps \\log{\\left(z \\right)} \\right)} \\Gamma\\left(1 - 2 eps\\right) \\Gamma^{2}\\left(2 eps + 1\\right)} + \\frac{e^{- 2 \\gamma eps} \\Gamma^{2}\\left(1 - eps\\right)}{32 eps^{2} \\left(1 - 2 eps\\right) \\left(eps + 1\\right)}"
+  },
+  "laurent": {
+    "variable": "eps",
+    "from_power": -6,
+    "through_power": 0,
+    "leading_power": -2,
+    "remainder": "O(eps)",
+    "coefficients": {
+      "-6": {
+        "expression": "0",
+        "language": "SymPy/str",
+        "latex": "0",
+        "hlog_terms": [],
+        "classical_polylog_expression": "0"
+      },
+      "-5": {
+        "expression": "0",
+        "language": "SymPy/str",
+        "latex": "0",
+        "hlog_terms": [],
+        "classical_polylog_expression": "0"
+      },
+      "-4": {
+        "expression": "0",
+        "language": "SymPy/str",
+        "latex": "0",
+        "hlog_terms": [],
+        "classical_polylog_expression": "0"
+      },
+      "-3": {
+        "expression": "0",
+        "language": "SymPy/str",
+        "latex": "0",
+        "hlog_terms": [],
+        "classical_polylog_expression": "0"
+      },
+      "-2": {
+        "expression": "1/32",
+        "language": "SymPy/str",
+        "latex": "\\frac{1}{32}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/32"
+          }
+        ],
+        "classical_polylog_expression": "1/32"
+      },
+      "-1": {
+        "expression": "M01/16 + 1/32",
+        "language": "SymPy/str",
+        "latex": "\\frac{M_{0,1}}{16} + \\frac{1}{32}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/32"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/16"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/16"
+          }
+        ],
+        "classical_polylog_expression": "-log(z)**2/32 - pi**2/32 + 1/32"
+      },
+      "0": {
+        "expression": "M01/8 + M11/16 + pi**2/192 + 3/32",
+        "language": "SymPy/str",
+        "latex": "\\frac{M_{0,1}}{8} + \\frac{M_{1,1}}{16} + \\frac{\\pi^{2}}{192} + \\frac{3}{32}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/32"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/8"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-11/32"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/8"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/8"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/16"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/16"
+          }
+        ],
+        "classical_polylog_expression": "(log(z)**2 + pi**2)*log(z + 1)/16 - log(z)**3/96 - log(z)**2/16 + log(z)*polylog(2, -z)/8 - pi**2*log(z)/32 - polylog(3, -z)/8 - 11*pi**2/192 + 3/32 + zeta(3)/8"
+      }
+    }
+  },
+  "functions": {
+    "M01": "-log(z)**2/2 - pi**2/2",
+    "M11": "(log(z)**2 + pi**2)*log(z + 1) - log(z)**3/6 + 2*log(z)*polylog(2, -z) - pi**2*log(z)/2 - 2*polylog(3, -z) + 2*zeta(3)",
+    "H0": {
+      "variable": "delta",
+      "expression": "z^(-1/2*delta)*(-z - 1)*MeijerG[{{0, 0, delta}, {}}, {{0, delta, delta}, {}}, z]/(Gamma[1 - delta]*Gamma[delta + 1]^2)",
+      "latex": "\\frac{z^{- \\frac{\\delta}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, 0, \\delta &  \\\\0, \\delta, \\delta &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\delta\\right) \\Gamma^{2}\\left(\\delta + 1\\right)}"
+    }
+  },
+  "dependencies": [
+    {
+      "path": "benchmarks/2ne/families/single-opposite/basis-functions.json",
+      "sha256": "87ed09c33e6778ba48a0872d0f1c7b8f64eacde962fe7f51f502bc1311642029"
+    },
+    {
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457"
+    },
+    {
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b"
+    },
+    {
+      "path": "benchmarks/2ne/families/single-opposite/basis.md",
+      "sha256": "a36937f757b373e71c6873b7b59c33be64751a4d2101725cc8d7d3d41b3c2a84"
+    }
+  ],
+  "verification": {
+    "exact": "workflow/checks/self-energy-pi1-baselines/exact-checks.json",
+    "numerical": "workflow/checks/self-energy-pi1-baselines/numeric-checks.json"
+  },
+  "formal": "not_run"
+}

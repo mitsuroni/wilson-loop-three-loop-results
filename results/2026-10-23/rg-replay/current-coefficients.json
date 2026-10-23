@@ -1,0 +1,726 @@
+{
+  "CF*(TF*nf)^2": {
+    "bare": {
+      "-6": "0",
+      "-5": "0",
+      "-4": "-2/81",
+      "-3": "-2*L/27 - 20/243",
+      "-2": "-L**2/9 - 20*L/81 + rho**2/36 - 2/9 + 4*pi**2/81",
+      "-1": "-L**3/9 - 10*L**2/27 + L*rho**2/12 - 2*L/3 + 4*pi**2*L/27 - M_1_1/6 + 5*rho**2/54 - 1216/2187 - 14*zeta(3)/81 + 40*pi**2/243",
+      "0": "-L**4/12 - 10*L**3/27 + L**2*rho**2/8 - L**2 + 2*pi**2*L**2/9 - L*M_1_1/2 + 5*L*rho**2/18 - 1216*L/729 - 14*L*zeta(3)/27 + 40*pi**2*L/81 - 5*M_1_1/9 - M_2_1/8 + rho**4/192 + rho**2/4 + pi**2*rho**2/36 - 8752/6561 - 140*zeta(3)/243 + 811*pi**4/38880 + 4*pi**2/9"
+    },
+    "post": {
+      "-6": "0",
+      "-5": "0",
+      "-4": "-11/81",
+      "-3": "25/243 - 2*L/27",
+      "-2": "10*L/81 - pi**2/162 + 10/81",
+      "-1": "2*L/81 - 14*zeta(3)/81 + 5*pi**2/486 + 260/2187",
+      "0": "-L**4/54 - 10*L**3/81 + L**2*rho**2/36 - 25*L**2/81 + pi**2*L**2/18 - L*M_1_1/9 + 5*L*rho**2/54 - 4*L*zeta(3)/9 - 232*L/729 + 5*pi**2*L/27 - 5*M_1_1/27 - M_2_1/36 + rho**4/864 + pi**2*rho**2/216 + 25*rho**2/324 - 110*zeta(3)/243 - 7*pi**4/19440 + 32/6561 + 38*pi**2/243"
+    },
+    "k3": "-1/27",
+    "h3": "-260/729 - 5*pi**2/162 + 14*zeta(3)/27",
+    "finite": "-L**4/54 - 10*L**3/81 + L**2*rho**2/36 - 25*L**2/81 + pi**2*L**2/18 - L*M_1_1/9 + 5*L*rho**2/54 - 4*L*zeta(3)/9 - 232*L/729 + 5*pi**2*L/27 - 5*M_1_1/27 - M_2_1/36 + rho**4/864 + pi**2*rho**2/216 + 25*rho**2/324 - 110*zeta(3)/243 - 7*pi**4/19440 + 32/6561 + 38*pi**2/243",
+    "sources": [
+      {
+        "orbit_id": "2e-Pi1+Pi1-01",
+        "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r002.json",
+        "sha256": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926",
+        "field": "CF*(TF*nf)^2",
+        "field_sha256": "5c2302fd2983a0caca8a0d1a420d5dbe46585dfa77fce40ced52d4b8be20f4b9"
+      },
+      {
+        "orbit_id": "2e-Pi1+Pi1-02",
+        "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json",
+        "sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+        "field": "CF*(TF*nf)^2",
+        "field_sha256": "a188e23eb80202d0f316b3359488f082f760d672854a73d1b9856546c1f5a336"
+      }
+    ]
+  },
+  "CF^2*TF*nf": {
+    "bare": {
+      "-6": "0",
+      "-5": "0",
+      "-4": "0",
+      "-3": "1/36",
+      "-2": "L/12 - 2*zeta(3)/9 + 55/216",
+      "-1": "L**2/8 - 2*L*zeta(3)/3 + 55*L/72 - rho**2/32 - 19*zeta(3)/27 - pi**2/18 - pi**4/270 + 1711/1296",
+      "0": "L**3/8 - L**2*zeta(3) + 55*L**2/48 - 3*L*rho**2/32 - 19*L*zeta(3)/9 - pi**2*L/6 - pi**4*L/90 + 1711*L/432 + 3*M_1_1/16 - 55*rho**2/192 + rho**2*zeta(3)/4 - 55*pi**2/108 - 683*zeta(3)/324 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776"
+    },
+    "post": {
+      "-6": "0",
+      "-5": "0",
+      "-4": "0",
+      "-3": "-2/9",
+      "-2": "-L/6 - 2*zeta(3)/9 + 55/216",
+      "-1": "-2*L*zeta(3)/3 + 55*L/72 - 19*zeta(3)/27 - pi**4/270 - pi**2/72 + 1711/1296",
+      "0": "L**3/12 - L**2*zeta(3) + 55*L**2/48 - L*rho**2/16 - 19*L*zeta(3)/9 - pi**2*L/8 - pi**4*L/90 + 1711*L/432 + M_1_1/8 - 55*rho**2/192 + rho**2*zeta(3)/4 - 55*pi**2/108 - 355*zeta(3)/162 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776"
+    },
+    "k3": "-55/48 + zeta(3)",
+    "h3": "-1711/432 + pi**2/24 + pi**4/90 + 19*zeta(3)/9",
+    "finite": "L**3/12 - L**2*zeta(3) + 55*L**2/48 - L*rho**2/16 - 19*L*zeta(3)/9 - pi**2*L/8 - pi**4*L/90 + 1711*L/432 + M_1_1/8 - 55*rho**2/192 + rho**2*zeta(3)/4 - 55*pi**2/108 - 355*zeta(3)/162 - 14*zeta(5)/9 - 19*pi**4/1620 + 4*pi**2*zeta(3)/9 + 42727/7776",
+    "sources": [
+      {
+        "orbit_id": "2e-Pi2-01",
+        "path": "benchmarks/self-energy/pi2/results/2e-Pi2-01/r002.json",
+        "sha256": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a",
+        "field": "Ff",
+        "field_sha256": "38d03fac1eb2b0fee94045ae1620b15a327fef9c00a566737f4520b30611b3a1"
+      },
+      {
+        "orbit_id": "2e-Pi2-02",
+        "path": "benchmarks/self-energy/pi2/results/2e-Pi2-02/r002.json",
+        "sha256": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d",
+        "field": "Ff",
+        "field_sha256": "a52535e84502634ec5ba2d4394f89e2357f080af57f50b43567a8ef6828820fc"
+      }
+    ]
+  },
+  "CF*CA*TF*nf": {
+    "bare": {
+      "-6": "0",
+      "-5": "0",
+      "-4": "11/81",
+      "-3": "11*L/27 - pi**2/81 + 533/972",
+      "-2": "11*L**2/18 - pi**2*L/27 + 533*L/324 - 11*rho**2/72 - 71*pi**2/243 - 14*zeta(3)/27 + 1633/972",
+      "-1": "11*pi**2*H_z_m1/12 + 11*H_z_m1_0_0/6 + 11*L**3/18 - pi**2*L**2/18 + 533*L**2/216 - 11*L*rho**2/24 - 71*pi**2*L/81 - 14*L*zeta(3)/9 + 1633*L/324 - 11*rho**3/72 - 533*rho**2/864 + pi**2*rho**2/72 - 11*pi**2*rho/24 - 3301*pi**2/2916 + 103*zeta(3)/81 + pi**4/40 + 82097/17496",
+      "0": "11*pi**2*H_z_0_m1/8 + pi**2*H_z_0_m1_0/12 + 11*H_z_0_m1_0_0/4 + H_z_0_m1_0_0_0/2 + 11*pi**2*H_z_m1*L/4 - 5*pi**4*H_z_m1/48 - 11*H_z_m1*zeta(3)/2 + 533*pi**2*H_z_m1/144 + 11*pi**2*H_z_m1_0/8 + 11*H_z_m1_0_0*L/2 - pi**2*H_z_m1_0_0/4 + 533*H_z_m1_0_0/72 + 11*H_z_m1_0_0_0/4 - H_z_m1_0_0_0_0/2 - 11*pi**2*H_z_m1_m1/4 - 11*H_z_m1_m1_0_0/2 + 11*L**4/24 - pi**2*L**3/18 + 533*L**3/216 - 11*L**2*rho**2/16 - 71*pi**2*L**2/54 - 7*L**2*zeta(3)/3 + 1633*L**2/216 - 11*L*rho**3/24 - 533*L*rho**2/288 + pi**2*L*rho**2/24 - 11*pi**2*L*rho/8 - 3301*pi**2*L/972 + 103*L*zeta(3)/27 + 3*pi**4*L/40 + 82097*L/5832 - 11*rho**4/128 - 533*rho**3/864 + pi**2*rho**3/72 - 155*pi**2*rho**2/432 - 1633*rho**2/864 + 7*rho**2*zeta(3)/12 - 533*pi**2*rho/288 + 11*rho*zeta(3)/4 + 23*pi**4*rho/360 - 29951*pi**2/8748 - 8161*pi**4/38880 - 13*zeta(5)/3 + 1589*zeta(3)/216 + 1323997/104976 + 38*pi**2*zeta(3)/27"
+    },
+    "post": {
+      "-6": "0",
+      "-5": "0",
+      "-4": "121/162",
+      "-3": "11*L/27 - 485/486 + 5*pi**2/324",
+      "-2": "-167*L/162 + pi**2*L/54 - 503/972 + 13*pi**2/972 + 35*zeta(3)/54",
+      "-1": "-5*pi**2*L/81 + 209*L/324 + 7*L*zeta(3)/9 - 707*pi**2/5832 - 91*zeta(3)/162 + 5921/17496 + pi**4/90",
+      "0": "11*pi**2*H_z_0_m1/36 + pi**2*H_z_0_m1_0/36 + 11*H_z_0_m1_0_0/18 + H_z_0_m1_0_0_0/6 + H_z_m1*(11*pi**2*L/18 - 5*pi**4/144 - 11*zeta(3)/9 + 289*pi**2/216) + 11*pi**2*H_z_m1_0/36 + H_z_m1_0_0*(11*L/9 - pi**2/12 + 289/108) + 11*H_z_m1_0_0_0/18 - H_z_m1_0_0_0_0/6 - 11*pi**2*H_z_m1_m1/18 - 11*H_z_m1_m1_0_0/9 + 11*L**4/108 - pi**2*L**3/54 + 289*L**3/324 - 43*pi**2*L**2/108 + 2051*L**2/648 - 2807*pi**2*L/1944 - 47*L*zeta(3)/54 + 17*pi**4*L/360 + 31313*L/5832 - 11*rho**4/576 + rho**3*(-11*L/18 - 289/216 + pi**2/36)/6 + rho**2*(-11*L**2/36 - 289*L/216 + pi**2*L/36 - 2051/1296 - 23*pi**2/216)/2 + rho*(-11*pi**2*L/36 - 289*pi**2/432 + 11*zeta(3)/18 + 23*pi**4/1080) - 13931*pi**2/8748 + 47*pi**4/9720 + 7*zeta(5)/6 + 19*pi**2*zeta(3)/108 + 563*zeta(3)/324 + 412765/104976"
+    },
+    "k3": "-7*zeta(3)/6 - 209/216 + 5*pi**2/54",
+    "h3": "-pi**4/30 - 5921/5832 + 91*zeta(3)/54 + 707*pi**2/1944",
+    "finite": "11*L**4/108 + L**3*(289/324 - pi**2/54) + L**2*(-11*rho**2/72 - 43*pi**2/108 + 2051/648) + L*(11*M_1_1/18 + rho**2*(-289/432 + pi**2/72) - 2807*pi**2/1944 - 113*zeta(3)/54 + 17*pi**4/360 + 31313/5832) - 11*M_0_1**2/432 + M_0_1*(-zeta(3)/2 - pi**2/48 + 2051/1296) + 289*M_1_1/216 - M_1_3/36 + 11*M_2_1/72 - N_1_2/24 - 56071*pi**2/69984 - 76*zeta(3)/81 + 7*pi**2*zeta(3)/108 + 2*zeta(5) + 2239*pi**4/77760 + 412765/104976",
+    "sources": [
+      {
+        "orbit_id": "4e-Pi1-01",
+        "part": "Pi1",
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-01/r002.json",
+        "sha256": "22da1c140fa1da316d4859388cf1d6fe66bcfcfc5df5e58c1b88629d71dcb0f5",
+        "field": "/laurent/coefficients",
+        "field_sha256": "017fef7a1c1890e90435046ee1779676a92a09d1974c2655fb44f27f236755b4",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "4e-Pi1-02",
+        "part": "Pi1",
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-02/r002.json",
+        "sha256": "f4ef60739c56f6950b523a6b6755f5c19b4020f34f34564ca6480cc8198451c5",
+        "field": "/laurent/coefficients",
+        "field_sha256": "017fef7a1c1890e90435046ee1779676a92a09d1974c2655fb44f27f236755b4",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "4e-Pi1-03",
+        "part": "Pi1",
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-03/r002.json",
+        "sha256": "928e181315e388c55416e507eadfc496fc07132eab9c656d80dd5ebb6b624354",
+        "field": "/laurent/coefficients",
+        "field_sha256": "2a24e5ffc221d5763b4bde7aa81040d58a7c8320bb634524b17765e8d9eb4d03",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "4e-Pi1-04",
+        "part": "Pi1",
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-04/r002.json",
+        "sha256": "cb67dd178a5f02cb9c3dbd9b34a29f47a4054fb0be19cb85d09687abcce16cd9",
+        "field": "/laurent/coefficients",
+        "field_sha256": "f13e9a0693b823561bfa00c9c50afb5d424f2df67a8107eb856ed1d411232c09",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "4e-Pi1-05",
+        "part": "Pi1",
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-05/r002.json",
+        "sha256": "6869b5e35cb56aaf77f19b80ac55bab5e45869f06da10c705caf26e83494a2b4",
+        "field": "/laurent/coefficients",
+        "field_sha256": "cd1b61bc78b424312be648cee0d44ba1f53ac27b4fda0d5246b18ce59f8c9056",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "4e-Pi1-06",
+        "part": "Pi1",
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-06/r002.json",
+        "sha256": "9da31233ebc761d2d659ec28ab4e8022c42f730865d49e8d2cf3abe66fa084f6",
+        "field": "/laurent/coefficients",
+        "field_sha256": "cd1b61bc78b424312be648cee0d44ba1f53ac27b4fda0d5246b18ce59f8c9056",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "4e-Pi1-07",
+        "part": "Pi1",
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-07/r002.json",
+        "sha256": "baafb42f20e8266ad5b5eca46db2d00eac1c2727226e8c5dd86eb1812517d8d9",
+        "field": "/laurent/coefficients",
+        "field_sha256": "ef11fd75a4511b89aec2d4935856cad8728c8415f1a5d047d5527882071e95bd",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "4e-Pi1-08",
+        "part": "Pi1",
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-08/r002.json",
+        "sha256": "c14243865814c45343f68cc8990f8793356c7c23d88e7a62058b69b599c100dd",
+        "field": "/laurent/coefficients",
+        "field_sha256": "ef11fd75a4511b89aec2d4935856cad8728c8415f1a5d047d5527882071e95bd",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "4e-Pi1-09",
+        "part": "Pi1",
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-09/r002.json",
+        "sha256": "753efcab2092a5954ce44bc0b91f8880fc9e1943b7fed9648b75085165ad85d3",
+        "field": "/laurent/coefficients",
+        "field_sha256": "f13e9a0693b823561bfa00c9c50afb5d424f2df67a8107eb856ed1d411232c09",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "4e-Pi1-10",
+        "part": "Pi1",
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-10/r002.json",
+        "sha256": "75654d49701d92ad1c0fca96febd12d6ee9d8ae296a84525aa80ae89dfc2ebe4",
+        "field": "/laurent/coefficients",
+        "field_sha256": "2a24e5ffc221d5763b4bde7aa81040d58a7c8320bb634524b17765e8d9eb4d03",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "4e-Pi1-11",
+        "part": "Pi1",
+        "path": "benchmarks/self-energy/pi1/results/4e-Pi1-11/r002.json",
+        "sha256": "f04657a1aab9b963470d66587a2886628d2cb9bf9c59fa92f64a22f4fa666fef",
+        "field": "/laurent/coefficients",
+        "field_sha256": "124a4a18ff1485081973687bc27226209cf006fba1bc94e1e5005854bf9d5df0",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "2e-Pi1+Pi1-01",
+        "part": "chain",
+        "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-01/r002.json",
+        "sha256": "1809dd8f94191aadcdf1ae48824324be8121a9bb5a083913ba7f1065b863e926",
+        "field": "/color_channels[CA*CF*TF*nf]/coefficients",
+        "field_sha256": "76aacb8fb46f7d2482f7c4569f143e57eadd6b2d4c97dffa6b65b6de98fe4223",
+        "scalar_multiplier": "1",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "2e-Pi1+Pi1-02",
+        "part": "chain",
+        "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json",
+        "sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+        "field": "/color_channels[CA*CF*TF*nf]/coefficients",
+        "field_sha256": "cd245ed0444be8e1847573cd5424bea4e3e5c6c889cfe6c7a7300312262e4e96",
+        "scalar_multiplier": "1",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "2e-Pi2-01",
+        "part": "Pi2",
+        "path": "benchmarks/self-energy/pi2/results/2e-Pi2-01/r002.json",
+        "sha256": "27d71a2e65cf149854fd9daa1ccc39aff7b8b06401c053d18885cf308b29b42a",
+        "field": "/color_channels[Af]/laurent/coefficients",
+        "field_sha256": "9c07793bbf1196c9452b4453c81bae6c708babec68066c012e67af932937a537",
+        "scalar_multiplier": "1",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "2e-Pi2-02",
+        "part": "Pi2",
+        "path": "benchmarks/self-energy/pi2/results/2e-Pi2-02/r002.json",
+        "sha256": "384da32d14a664a819a959f7e4abf2b0668c0e31ccfdc2963f4eaedbc9af494d",
+        "field": "/color_channels[Af]/laurent/coefficients",
+        "field_sha256": "fd2f73064465de176925e871cf72e71ec0b7653ba39f4be34c14ab87aaa9875d",
+        "scalar_multiplier": "1",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": 1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-3g+Pi1-01",
+        "part": "legs",
+        "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-01/r003.json",
+        "sha256": "b0b007dd4d387ffd744376bb54d62dadbaaf9948421d2f3819af6d09c5200e0f",
+        "field": "/laurent_coefficients",
+        "field_sha256": "b5cde5e4dc0ddc900a974de46ae113ec37f28cefbf2b9ba27166db50debf3e01",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-3g+Pi1-02",
+        "part": "legs",
+        "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-02/r003.json",
+        "sha256": "809e43e98fb22c31c63ddb4985e5c1b08d4f060a72008e28f83918daccc97389",
+        "field": "/laurent_coefficients",
+        "field_sha256": "2d54f3c63460c3eb0bc7a745c0b8a99c7b920b4f36fc1acbe5c448d369050ec6",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-3g+Pi1-03",
+        "part": "legs",
+        "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-03/r003.json",
+        "sha256": "ed477d05e9da0bead80c34bb4babb08c164ca57206cae260a901def6a5e177e1",
+        "field": "/laurent_coefficients",
+        "field_sha256": "4729410dc0d629d2ec82bc3029c63936656a6ad73e28f3af0ce7b6d943074b62",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-3g+Pi1-04",
+        "part": "legs",
+        "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-04/r003.json",
+        "sha256": "0f3e9e0b82b51f3821a4f612a0cefeff1eb6bff2513ad1e885fabed2a8a630ec",
+        "field": "/laurent_coefficients",
+        "field_sha256": "4729410dc0d629d2ec82bc3029c63936656a6ad73e28f3af0ce7b6d943074b62",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-3g+Pi1-05",
+        "part": "legs",
+        "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-05/r003.json",
+        "sha256": "32b15a8aae68502fa406e1b659c06cfbf07cb23edbcbb0d151da9276f09c757d",
+        "field": "/laurent_coefficients",
+        "field_sha256": "2d54f3c63460c3eb0bc7a745c0b8a99c7b920b4f36fc1acbe5c448d369050ec6",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-3g+Pi1-06",
+        "part": "legs",
+        "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-06/r003.json",
+        "sha256": "8a334297e7e8afe8b95f0bed3c24fc826ec67b13792df8f29105b27cc0dbfcd5",
+        "field": "/laurent_coefficients",
+        "field_sha256": "b5cde5e4dc0ddc900a974de46ae113ec37f28cefbf2b9ba27166db50debf3e01",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-3g+Pi1-07",
+        "part": "legs",
+        "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-07/r003.json",
+        "sha256": "fac4e545879c642b4c0eb3214760e9ba467ecc14ac522f1ee842bc3b7389dcb0",
+        "field": "/laurent_coefficients",
+        "field_sha256": "1db270095b71eace186e4ac5b791c723982020c7488a6e361d337eb733b172f7",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-3g+Pi1-08",
+        "part": "legs",
+        "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-08/r003.json",
+        "sha256": "cb3f9d781bea07cb85fb9547a559dd6c59f8f044c9fe2ceb7b5434b9ab75d801",
+        "field": "/laurent_coefficients",
+        "field_sha256": "a76ed51ef361a8b78e168a8bfa591d393bc68df1c29ebd1c967594774b18e643",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-3g+Pi1-09",
+        "part": "legs",
+        "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-09/r003.json",
+        "sha256": "dfc0663ca2e01e55574ddf3ae50e7149f4fd294943ffe3e842237e8ca079e326",
+        "field": "/laurent_Hlog_coefficients",
+        "field_sha256": "821f548079062df54d888989ef934d5930df23f69c5128572b4d38e5cbe57014",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-3g+Pi1-10",
+        "part": "legs",
+        "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-10/r003.json",
+        "sha256": "10d267285d6165845287d72f077c6c6384835348bafa7717367d0af869864413",
+        "field": "/laurent_Hlog_coefficients",
+        "field_sha256": "e8f9e5d8e6cfb9ec4577555e1153a1f6a12c4a8b65cb29172c0d9be7cb5b86c7",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-3g+Pi1-11",
+        "part": "legs",
+        "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-11/r003.json",
+        "sha256": "2617946d55e88e9dcbcf1457605d332fc2ee5170165a930399ad1489c3f00c35",
+        "field": "/laurent_Hlog_coefficients",
+        "field_sha256": "4032682390d57e8488f59ebd9152027d1d5f41538f44a74d780b30299d0fb2b1",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-3g+Pi1-12",
+        "part": "legs",
+        "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-12/r003.json",
+        "sha256": "f81e2f392727a44c8016606af30e394080e9668f35be94373332054b8976a92b",
+        "field": "/laurent_Hlog_coefficients",
+        "field_sha256": "13778cd94aff35a303ddb75cfa9ef85901783ec610df09c7e52a4746521e7cbb",
+        "scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-Gamma1-01",
+        "part": "Gamma",
+        "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-01/r002.json",
+        "sha256": "414c5ca5942257846ae88b083d9b4c8c6a135370dbff8f49563a104568c20c33",
+        "field": "/channels/q/I_coefficients",
+        "field_sha256": "002ef382c1db90525d3b7b96ddb0834f0c4459a1035e59a71f945628e066fc38",
+        "scalar_multiplier": "1",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-Gamma1-02",
+        "part": "Gamma",
+        "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-02/r002.json",
+        "sha256": "7c77526e84b52809aab0990fde75cf37789978741c0af92696ffb339c31f6a8b",
+        "field": "/channels/q/I_coefficients",
+        "field_sha256": "002ef382c1db90525d3b7b96ddb0834f0c4459a1035e59a71f945628e066fc38",
+        "scalar_multiplier": "1",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-Gamma1-03",
+        "part": "Gamma",
+        "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-03/z-r003.json",
+        "sha256": "68afb9c88590c00b58a8dea4fba66f4f820416be9c139d5a5dda556f8daa4e17",
+        "field": "/channels/q/I_coefficients",
+        "field_sha256": "91aa7cfc688060e2268849f1fc29e8890c28d1b3c9c79e4df76961ed74f65db4",
+        "scalar_multiplier": "1",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      },
+      {
+        "orbit_id": "3e-Gamma1-04",
+        "part": "Gamma",
+        "path": "benchmarks/self-energy/gamma1/results/3e-Gamma1-04/r003.json",
+        "sha256": "473a7c442c48c1da04a2fb9287b6b02becd2c254f6cb7045a653c57a5c2d12c8",
+        "field": "/channels/q/I_coefficients",
+        "field_sha256": "cb44248be511a3365c9558d71eeece00187d6a6f857245fec2f1c9bfb0463811",
+        "scalar_multiplier": "1",
+        "native_physical_sign": 1,
+        "legacy_physical_sign": -1,
+        "consumed_powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      }
+    ],
+    "raw_sum_bridge": "workflow/checks/w3-ca-nf/physical.mpl + physical-coefficients.txt; historical exact HyperInt canonicalization"
+  }
+}
