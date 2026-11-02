@@ -1,0 +1,2389 @@
+{
+  "format": "wilson-public-source-snapshot/1",
+  "package": "montopar",
+  "distribution_version": "0.1.0",
+  "source_kind": "current working-tree snapshot, including upstream dirty edits",
+  "scope": "source/tests/reviewed theory documents; original root README preserved separately",
+  "source_files": {
+    "pyproject.toml": {
+      "original_sha256": "bda6b4d176163c8d7b6faff40ce8c04385d4acf195dff51f820edb3a763744fe",
+      "published_path": "pyproject.toml",
+      "published_sha256": "bda6b4d176163c8d7b6faff40ce8c04385d4acf195dff51f820edb3a763744fe",
+      "bytes": 553,
+      "byte_identical": true
+    },
+    "README.md": {
+      "original_sha256": "48b8b75e7a10878d3f5e0cfc80af9ed7764178363f27fc13ab3763d3900e4fe9",
+      "published_path": "README.original.md",
+      "published_sha256": "48b8b75e7a10878d3f5e0cfc80af9ed7764178363f27fc13ab3763d3900e4fe9",
+      "bytes": 11016,
+      "byte_identical": true
+    },
+    "docs/3e-3g-02-contour-ibp-derivation.md": {
+      "original_sha256": "84634e0c263af2f4b635379109f62e5b02b94d24d7b8cb421ba5a83df9a24755",
+      "published_path": "docs/3e-3g-02-contour-ibp-derivation.md",
+      "published_sha256": "84634e0c263af2f4b635379109f62e5b02b94d24d7b8cb421ba5a83df9a24755",
+      "bytes": 10866,
+      "byte_identical": true
+    },
+    "docs/3e-3g-04-contour-ibp-derivation.md": {
+      "original_sha256": "7d32c42bd92fa2f9390471dbbe9c48938b3095405387bdbefe79ad2ac4f9f7c6",
+      "published_path": "docs/3e-3g-04-contour-ibp-derivation.md",
+      "published_sha256": "7d32c42bd92fa2f9390471dbbe9c48938b3095405387bdbefe79ad2ac4f9f7c6",
+      "bytes": 9189,
+      "byte_identical": true
+    },
+    "docs/3e-3g-contour-ibp-sumCJ.md": {
+      "original_sha256": "76f31b5a4482330a00a7051a586b21e3e3f2f20408b70161bd7c1d7c63947c7a",
+      "published_path": "docs/3e-3g-contour-ibp-sumCJ.md",
+      "published_sha256": "76f31b5a4482330a00a7051a586b21e3e3f2f20408b70161bd7c1d7c63947c7a",
+      "bytes": 15093,
+      "byte_identical": true
+    },
+    "docs/3e-3g-old-vs-new-comparison.md": {
+      "original_sha256": "2311f300bf917729ba5cc3ace8155e22718f878ce963a973be5c37aaf5242057",
+      "published_path": "docs/3e-3g-old-vs-new-comparison.md",
+      "published_sha256": "2311f300bf917729ba5cc3ace8155e22718f878ce963a973be5c37aaf5242057",
+      "bytes": 6172,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-1111-derivation.md": {
+      "original_sha256": "8642ec2f7e3adce2a16ae379131daeaf694422cd5ca6d72dbf4a6e8190c3bd80",
+      "published_path": "docs/4e-3g+3g-1111-derivation.md",
+      "published_sha256": "8642ec2f7e3adce2a16ae379131daeaf694422cd5ca6d72dbf4a6e8190c3bd80",
+      "bytes": 23014,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-CJ-formulas.md": {
+      "original_sha256": "7336e0fad167d564a5962fcfe9eb0ff4a822b0125648694a489a4869d8ea4894",
+      "published_path": "docs/4e-3g+3g-CJ-formulas.md",
+      "published_sha256": "7336e0fad167d564a5962fcfe9eb0ff4a822b0125648694a489a4869d8ea4894",
+      "bytes": 24396,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-from-general.md": {
+      "original_sha256": "22c6832256d5af93e3bdb4b1e6113a4794cb0823584cc975e8435948075d0f0f",
+      "published_path": "docs/4e-3g+3g-from-general.md",
+      "published_sha256": "22c6832256d5af93e3bdb4b1e6113a4794cb0823584cc975e8435948075d0f0f",
+      "bytes": 7079,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-general-derivation.md": {
+      "original_sha256": "4223272a31398c8b9fda50b554358f2fb990d31c3b307fef7d61a1e05d7001a5",
+      "published_path": "docs/4e-3g+3g-general-derivation.md",
+      "published_sha256": "4223272a31398c8b9fda50b554358f2fb990d31c3b307fef7d61a1e05d7001a5",
+      "bytes": 18852,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-ibp-theory-r003.md": {
+      "original_sha256": "02808bbbe16a513d560a6ca0df0308be6c1b48d448b84f23d2d4192e27c02761",
+      "published_path": "docs/4e-3g+3g-ibp-theory-r003.md",
+      "published_sha256": "02808bbbe16a513d560a6ca0df0308be6c1b48d448b84f23d2d4192e27c02761",
+      "bytes": 30874,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-S-derivation.md": {
+      "original_sha256": "7a7f876c717eb3c2b54b732dac2dc660b3f2640a27f10a4a63a018fb03398576",
+      "published_path": "docs/4e-3g+3g-S-derivation.md",
+      "published_sha256": "7a7f876c717eb3c2b54b732dac2dc660b3f2640a27f10a4a63a018fb03398576",
+      "bytes": 22675,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-T-derivation.md": {
+      "original_sha256": "843bc78a0c47c065c0907b9b4bbc2ab03511a10d44ecfefd96e5a3a66785990a",
+      "published_path": "docs/4e-3g+3g-T-derivation.md",
+      "published_sha256": "843bc78a0c47c065c0907b9b4bbc2ab03511a10d44ecfefd96e5a3a66785990a",
+      "bytes": 13665,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-U-derivation.md": {
+      "original_sha256": "e8cdcf247ffd83fb1c0a2998d9a36555d71d06f51bb332b0363ae015d63d4864",
+      "published_path": "docs/4e-3g+3g-U-derivation.md",
+      "published_sha256": "e8cdcf247ffd83fb1c0a2998d9a36555d71d06f51bb332b0363ae015d63d4864",
+      "bytes": 1949,
+      "byte_identical": true
+    },
+    "docs/4e-4g-09-derivation.md": {
+      "original_sha256": "cf29bccc742815e65a0e1cc03df5877c5168881eeff18611431ec1e3bead7474",
+      "published_path": "docs/4e-4g-09-derivation.md",
+      "published_sha256": "cf29bccc742815e65a0e1cc03df5877c5168881eeff18611431ec1e3bead7474",
+      "bytes": 1500,
+      "byte_identical": true
+    },
+    "docs/4e-4g-CJ-formulas.md": {
+      "original_sha256": "e98e3c010c77edd9143f7add18328c3943d4a65caf38f6cc1bc89a15f51427e1",
+      "published_path": "docs/4e-4g-CJ-formulas.md",
+      "published_sha256": "e98e3c010c77edd9143f7add18328c3943d4a65caf38f6cc1bc89a15f51427e1",
+      "bytes": 2210,
+      "byte_identical": true
+    },
+    "docs/4GV-general-derivation.md": {
+      "original_sha256": "1efa18b99291e9e37100c71ca8fa006686677824c2145a72523ac226e08907c3",
+      "published_path": "docs/4GV-general-derivation.md",
+      "published_sha256": "1efa18b99291e9e37100c71ca8fa006686677824c2145a72523ac226e08907c3",
+      "bytes": 12668,
+      "byte_identical": true
+    },
+    "docs/5e-3g-CJ-formulas-1.md": {
+      "original_sha256": "e99d79ce2a79dde9de880be3d355cf82a7000363cf52881f14ef647d62f9e1a9",
+      "published_path": "docs/5e-3g-CJ-formulas-1.md",
+      "published_sha256": "e99d79ce2a79dde9de880be3d355cf82a7000363cf52881f14ef647d62f9e1a9",
+      "bytes": 13325,
+      "byte_identical": true
+    },
+    "docs/5e-3g-CJ-formulas.md": {
+      "original_sha256": "5b4e7b483ecfcbece748e71918fc060f3eb5d4867a2e4bd17508d5533728af57",
+      "published_path": "docs/5e-3g-CJ-formulas.md",
+      "published_sha256": "5b4e7b483ecfcbece748e71918fc060f3eb5d4867a2e4bd17508d5533728af57",
+      "bytes": 14039,
+      "byte_identical": true
+    },
+    "docs/compute_pnum_1111.py": {
+      "original_sha256": "f6b473aa075d06b25b54622e2dfe6128054a55f388d14ac6d2cc6ca51b04a71c",
+      "published_path": "docs/compute_pnum_1111.py",
+      "published_sha256": "f6b473aa075d06b25b54622e2dfe6128054a55f388d14ac6d2cc6ca51b04a71c",
+      "bytes": 6532,
+      "byte_identical": true
+    },
+    "docs/double-tgv-ibp.md": {
+      "original_sha256": "f79ba6a38b455d42932335f8f35aef18e1d6cb87fdeb9c73ab0cebd30c2024aa",
+      "published_path": "docs/double-tgv-ibp.md",
+      "published_sha256": "f79ba6a38b455d42932335f8f35aef18e1d6cb87fdeb9c73ab0cebd30c2024aa",
+      "bytes": 4796,
+      "byte_identical": true
+    },
+    "docs/double-tgv-initial-forms.md": {
+      "original_sha256": "75591495a0ce6d8ffec94ad658632fee2b4f332a6cc4b42b55fc4781079e7d43",
+      "published_path": "docs/double-tgv-initial-forms.md",
+      "published_sha256": "75591495a0ce6d8ffec94ad658632fee2b4f332a6cc4b42b55fc4781079e7d43",
+      "bytes": 6227,
+      "byte_identical": true
+    },
+    "docs/double-tgv-operator.md": {
+      "original_sha256": "04928af36baf67da128f64c30686beaa5a7a873457fa32d16df641be8b831c12",
+      "published_path": "docs/double-tgv-operator.md",
+      "published_sha256": "04928af36baf67da128f64c30686beaa5a7a873457fa32d16df641be8b831c12",
+      "bytes": 3784,
+      "byte_identical": true
+    },
+    "docs/double-tgv-source-contract.md": {
+      "original_sha256": "4a7a00755c82af5b8076a03b391f3cc267de03a8b71ad7818db8d66377e54857",
+      "published_path": "docs/double-tgv-source-contract.md",
+      "published_sha256": "4a7a00755c82af5b8076a03b391f3cc267de03a8b71ad7818db8d66377e54857",
+      "bytes": 2528,
+      "byte_identical": true
+    },
+    "docs/effective-vertices.md": {
+      "original_sha256": "7709e3a7284cfa18b44204f70def06647da867b6ef3ddb735ab55140d1de37ac",
+      "published_path": "docs/effective-vertices.md",
+      "published_sha256": "7709e3a7284cfa18b44204f70def06647da867b6ef3ddb735ab55140d1de37ac",
+      "bytes": 8095,
+      "byte_identical": true
+    },
+    "docs/fix_G3.wl": {
+      "original_sha256": "0f4928f03856cbf02b3011f1469deac3e46da1bae99bed96584e16beb411cc83",
+      "published_path": "docs/fix_G3.wl",
+      "published_sha256": "0f4928f03856cbf02b3011f1469deac3e46da1bae99bed96584e16beb411cc83",
+      "bytes": 3887,
+      "byte_identical": true
+    },
+    "docs/gamma1.md": {
+      "original_sha256": "c271294ce8b99bdf729d9e153aa27cffe29950cb41fa87733770e4ad10e2adf4",
+      "published_path": "docs/gamma1.md",
+      "published_sha256": "c271294ce8b99bdf729d9e153aa27cffe29950cb41fa87733770e4ad10e2adf4",
+      "bytes": 23459,
+      "byte_identical": true
+    },
+    "docs/mixed-ordered-ibp.md": {
+      "original_sha256": "4f7fcfd601f9ca61d59bc7b29451c35b1ae99cf5639f26350c4ff88566b14593",
+      "published_path": "docs/mixed-ordered-ibp.md",
+      "published_sha256": "4f7fcfd601f9ca61d59bc7b29451c35b1ae99cf5639f26350c4ff88566b14593",
+      "bytes": 1913,
+      "byte_identical": true
+    },
+    "docs/organize_G3.wl": {
+      "original_sha256": "5335eb883f53e4a105ef93dc6ccb24bb0374047ed567e1ae5d7dabd5da778ad5",
+      "published_path": "docs/organize_G3.wl",
+      "published_sha256": "5335eb883f53e4a105ef93dc6ccb24bb0374047ed567e1ae5d7dabd5da778ad5",
+      "bytes": 3041,
+      "byte_identical": true
+    },
+    "docs/pole-depth-detection.md": {
+      "original_sha256": "e0cb3bcff3a09b377a57a9d5995cb9c5d9999b7f6b9e281e5d38494eae7f9679",
+      "published_path": "docs/pole-depth-detection.md",
+      "published_sha256": "e0cb3bcff3a09b377a57a9d5995cb9c5d9999b7f6b9e281e5d38494eae7f9679",
+      "bytes": 26624,
+      "byte_identical": true
+    },
+    "docs/self-energy-pi1-chain.md": {
+      "original_sha256": "00b041e0e3a2ab239881a8eae770969fcbd3325fc0b6016f9ccf14568bdfadb8",
+      "published_path": "docs/self-energy-pi1-chain.md",
+      "published_sha256": "00b041e0e3a2ab239881a8eae770969fcbd3325fc0b6016f9ccf14568bdfadb8",
+      "bytes": 13672,
+      "byte_identical": true
+    },
+    "docs/self-energy-pi1.md": {
+      "original_sha256": "1458e9870eb159b05cdc6dbbd10aa3a9fcc2503ca09ae199b1402a753b4484a3",
+      "published_path": "docs/self-energy-pi1.md",
+      "published_sha256": "1458e9870eb159b05cdc6dbbd10aa3a9fcc2503ca09ae199b1402a753b4484a3",
+      "bytes": 6675,
+      "byte_identical": true
+    },
+    "docs/self-energy-pi2.md": {
+      "original_sha256": "9701c3dd9061bb4f03ed379716bb7274ec66de8ce4182a20f312a2477aaf0ab6",
+      "published_path": "docs/self-energy-pi2.md",
+      "published_sha256": "9701c3dd9061bb4f03ed379716bb7274ec66de8ce4182a20f312a2477aaf0ab6",
+      "bytes": 14706,
+      "byte_identical": true
+    },
+    "docs/shared-sign-conventions.md": {
+      "original_sha256": "9e29b928f3f78753ba6d5ec33ec21708994ddd2bbb2c9c084b3ed9418337e372",
+      "published_path": "docs/shared-sign-conventions.md",
+      "published_sha256": "9e29b928f3f78753ba6d5ec33ec21708994ddd2bbb2c9c084b3ed9418337e372",
+      "bytes": 2746,
+      "byte_identical": true
+    },
+    "docs/symanzik-parametrization.md": {
+      "original_sha256": "1b1e534e7eaa9d5ba7db4e82570c1240aa44b65cf9e161fa41c4288bf2602f1d",
+      "published_path": "docs/symanzik-parametrization.md",
+      "published_sha256": "1b1e534e7eaa9d5ba7db4e82570c1240aa44b65cf9e161fa41c4288bf2602f1d",
+      "bytes": 7311,
+      "byte_identical": true
+    },
+    "docs/tgv-pi1-ibp.md": {
+      "original_sha256": "8e53fcadd12294a13d9cc6daa0c2b69fd0a5b036724a9d4b4c5a2e1343dd6d42",
+      "published_path": "docs/tgv-pi1-ibp.md",
+      "published_sha256": "8e53fcadd12294a13d9cc6daa0c2b69fd0a5b036724a9d4b4c5a2e1343dd6d42",
+      "bytes": 6662,
+      "byte_identical": true
+    },
+    "docs/tgv-pi1.md": {
+      "original_sha256": "22f0045371a29ae0b60a19684054ada6dedc8728163f00f8f8adb76fb97c43da",
+      "published_path": "docs/tgv-pi1.md",
+      "published_sha256": "22f0045371a29ae0b60a19684054ada6dedc8728163f00f8f8adb76fb97c43da",
+      "bytes": 32487,
+      "byte_identical": true
+    },
+    "docs/verify_4e3g3g_general.wl": {
+      "original_sha256": "3b168936b7686f115108743ede6d63f12f318d57201dc6375d21648ae1d7ace2",
+      "published_path": "docs/verify_4e3g3g_general.wl",
+      "published_sha256": "3b168936b7686f115108743ede6d63f12f318d57201dc6375d21648ae1d7ace2",
+      "bytes": 7106,
+      "byte_identical": true
+    },
+    "docs/verify_G3_factorization.wl": {
+      "original_sha256": "94b2ddd37f992e2d8ea2fb2fe02488896d9b5fd89bd25b63f6a83c2a6cb9d8bf",
+      "published_path": "docs/verify_G3_factorization.wl",
+      "published_sha256": "94b2ddd37f992e2d8ea2fb2fe02488896d9b5fd89bd25b63f6a83c2a6cb9d8bf",
+      "bytes": 4916,
+      "byte_identical": true
+    },
+    "docs/verify_merged_form.wl": {
+      "original_sha256": "5318db0e326f57b979dfd69f021e0ceaf2300ad50e93063a66b3b22f8794acd1",
+      "published_path": "docs/verify_merged_form.wl",
+      "published_sha256": "5318db0e326f57b979dfd69f021e0ceaf2300ad50e93063a66b3b22f8794acd1",
+      "bytes": 4255,
+      "byte_identical": true
+    },
+    "docs/verify_O_operator.wl": {
+      "original_sha256": "e0e6f35b826545e0537e02b42ceebd4edbf8a0a56f5ac78fb46696a47f8210bb",
+      "published_path": "docs/verify_O_operator.wl",
+      "published_sha256": "e0e6f35b826545e0537e02b42ceebd4edbf8a0a56f5ac78fb46696a47f8210bb",
+      "bytes": 7600,
+      "byte_identical": true
+    },
+    "docs/verify_O_v2.wl": {
+      "original_sha256": "b5409d1deeeedb50a43eba8e7cf8a06037e38df794a2e75e3bd55cb1ac6e984d",
+      "published_path": "docs/verify_O_v2.wl",
+      "published_sha256": "b5409d1deeeedb50a43eba8e7cf8a06037e38df794a2e75e3bd55cb1ac6e984d",
+      "bytes": 5285,
+      "byte_identical": true
+    },
+    "docs/verify_pnum_structure.wl": {
+      "original_sha256": "533d18d391c9f8b48430a01ebcddbe25427a6670846f535151a8468b666658d2",
+      "published_path": "docs/verify_pnum_structure.wl",
+      "published_sha256": "533d18d391c9f8b48430a01ebcddbe25427a6670846f535151a8468b666658d2",
+      "bytes": 7882,
+      "byte_identical": true
+    },
+    "docs/verify_section8.wl": {
+      "original_sha256": "90391dd5c58cf5baac9b501a71e67763447d07d934b86aa0bd20cd17433780e6",
+      "published_path": "docs/verify_section8.wl",
+      "published_sha256": "90391dd5c58cf5baac9b501a71e67763447d07d934b86aa0bd20cd17433780e6",
+      "bytes": 16854,
+      "byte_identical": true
+    },
+    "docs/verify_section8_formulas.wl": {
+      "original_sha256": "f7abd9522b32cd5b458f2a2805fe6c8e9e3dfbaeb3b8abddee6c66822b3f200c",
+      "published_path": "docs/verify_section8_formulas.wl",
+      "published_sha256": "f7abd9522b32cd5b458f2a2805fe6c8e9e3dfbaeb3b8abddee6c66822b3f200c",
+      "bytes": 5744,
+      "byte_identical": true
+    },
+    "docs/verify_symanzik_5pt.wl": {
+      "original_sha256": "f80bb144ca25f86129065cd26d91309620bd3309dafe861794140d9e6eab0f60",
+      "published_path": "docs/verify_symanzik_5pt.wl",
+      "published_sha256": "f80bb144ca25f86129065cd26d91309620bd3309dafe861794140d9e6eab0f60",
+      "bytes": 24162,
+      "byte_identical": true
+    },
+    "docs/verify_symanzik_prefactor.wl": {
+      "original_sha256": "97735c3adf70c3d209a9e1bb88d33bd58c0588e2067a3d4c3b55b3e4754e08a3",
+      "published_path": "docs/verify_symanzik_prefactor.wl",
+      "published_sha256": "97735c3adf70c3d209a9e1bb88d33bd58c0588e2067a3d4c3b55b3e4754e08a3",
+      "bytes": 7814,
+      "byte_identical": true
+    },
+    "docs/verify_v2.wl": {
+      "original_sha256": "0809e14dd5ea533e75cb95d336cb237a310453d0ababa4b428f77c73ae72047d",
+      "published_path": "docs/verify_v2.wl",
+      "published_sha256": "0809e14dd5ea533e75cb95d336cb237a310453d0ababa4b428f77c73ae72047d",
+      "bytes": 5971,
+      "byte_identical": true
+    },
+    "docs/verify_v3.wl": {
+      "original_sha256": "fc9a85cdfc12ddf66b361f32adf4b491cbaca858e15d4e44c5a404684d49e5fd",
+      "published_path": "docs/verify_v3.wl",
+      "published_sha256": "fc9a85cdfc12ddf66b361f32adf4b491cbaca858e15d4e44c5a404684d49e5fd",
+      "bytes": 6071,
+      "byte_identical": true
+    },
+    "tests/conftest.py": {
+      "original_sha256": "963c1edba017be3ce7b9d8fa8b63de5876a3d6868cfc594fd43d04c346897cee",
+      "published_path": "tests/conftest.py",
+      "published_sha256": "963c1edba017be3ce7b9d8fa8b63de5876a3d6868cfc594fd43d04c346897cee",
+      "bytes": 294,
+      "byte_identical": true
+    },
+    "tests/test_cli.py": {
+      "original_sha256": "c53d54eff9d051bcb9b3462b196b3391ff5d1792f981b4ce6a21f44ec1570266",
+      "published_path": "tests/test_cli.py",
+      "published_sha256": "c53d54eff9d051bcb9b3462b196b3391ff5d1792f981b4ce6a21f44ec1570266",
+      "bytes": 12441,
+      "byte_identical": true
+    },
+    "tests/test_color.py": {
+      "original_sha256": "9fda3454ca5e77914d265e177280a5b8e35194ee135b01adb94134a6733a9a3f",
+      "published_path": "tests/test_color.py",
+      "published_sha256": "9fda3454ca5e77914d265e177280a5b8e35194ee135b01adb94134a6733a9a3f",
+      "bytes": 4202,
+      "byte_identical": true
+    },
+    "tests/test_c_factor.py": {
+      "original_sha256": "bf30cbf8463223be645b5039f882e9b4a6e375c0afcf7c2e7a7fb2c43de1a55d",
+      "published_path": "tests/test_c_factor.py",
+      "published_sha256": "bf30cbf8463223be645b5039f882e9b4a6e375c0afcf7c2e7a7fb2c43de1a55d",
+      "bytes": 3262,
+      "byte_identical": true
+    },
+    "tests/test_double_tgv.py": {
+      "original_sha256": "7104a10b0d158c6c989391c3fb55cd7b97b080b415b257437756833e8ce48cec",
+      "published_path": "tests/test_double_tgv.py",
+      "published_sha256": "7104a10b0d158c6c989391c3fb55cd7b97b080b415b257437756833e8ce48cec",
+      "bytes": 6936,
+      "byte_identical": true
+    },
+    "tests/test_double_tgv_forms.py": {
+      "original_sha256": "080d1334964c52fd825398a68f17e7d2757e68ec03372bdd88a869cf16483690",
+      "published_path": "tests/test_double_tgv_forms.py",
+      "published_sha256": "080d1334964c52fd825398a68f17e7d2757e68ec03372bdd88a869cf16483690",
+      "bytes": 6436,
+      "byte_identical": true
+    },
+    "tests/test_double_tgv_ibp.py": {
+      "original_sha256": "24f82733b65c245c9ea1d433f7d6380ea4688c21d4f404a432d0e2c4c3858781",
+      "published_path": "tests/test_double_tgv_ibp.py",
+      "published_sha256": "24f82733b65c245c9ea1d433f7d6380ea4688c21d4f404a432d0e2c4c3858781",
+      "bytes": 4320,
+      "byte_identical": true
+    },
+    "tests/test_double_tgv_operator.py": {
+      "original_sha256": "04b9c401f8656a0209c7279a944dc1cfc822b7a53db08b58a2f1c004ef23a44c",
+      "published_path": "tests/test_double_tgv_operator.py",
+      "published_sha256": "04b9c401f8656a0209c7279a944dc1cfc822b7a53db08b58a2f1c004ef23a44c",
+      "bytes": 7309,
+      "byte_identical": true
+    },
+    "tests/test_double_tgv_source_contract.py": {
+      "original_sha256": "fdb208dafa8114c85e0a5d2cd870716ad7a0c4b608d55b9d7b69a49d5acd7387",
+      "published_path": "tests/test_double_tgv_source_contract.py",
+      "published_sha256": "fdb208dafa8114c85e0a5d2cd870716ad7a0c4b608d55b9d7b69a49d5acd7387",
+      "bytes": 4314,
+      "byte_identical": true
+    },
+    "tests/test_emitter.py": {
+      "original_sha256": "7c2c39ae07085eb2840d2147e1ea25e08d5662dbeaa408fde50de6b9f32568c7",
+      "published_path": "tests/test_emitter.py",
+      "published_sha256": "7c2c39ae07085eb2840d2147e1ea25e08d5662dbeaa408fde50de6b9f32568c7",
+      "bytes": 10323,
+      "byte_identical": true
+    },
+    "tests/test_fgv.py": {
+      "original_sha256": "3ec0f91e719a3beab618731cd9e396cc6888b0e9fdc39a6073abd66caa6d246c",
+      "published_path": "tests/test_fgv.py",
+      "published_sha256": "3ec0f91e719a3beab618731cd9e396cc6888b0e9fdc39a6073abd66caa6d246c",
+      "bytes": 4100,
+      "byte_identical": true
+    },
+    "tests/test_fgv_output.py": {
+      "original_sha256": "f2714883424a897e378df76e5fef580dd59418a5389846de8383b92ad8927096",
+      "published_path": "tests/test_fgv_output.py",
+      "published_sha256": "f2714883424a897e378df76e5fef580dd59418a5389846de8383b92ad8927096",
+      "bytes": 4261,
+      "byte_identical": true
+    },
+    "tests/test_gamma1_guard.py": {
+      "original_sha256": "967bc36f2220782ade397a59691ea427aeec918d2268d62448a5dd89cc2872c6",
+      "published_path": "tests/test_gamma1_guard.py",
+      "published_sha256": "967bc36f2220782ade397a59691ea427aeec918d2268d62448a5dd89cc2872c6",
+      "bytes": 468,
+      "byte_identical": true
+    },
+    "tests/test_gamma1_ibp.py": {
+      "original_sha256": "2413287fdaeceb328fc0cd7a85daa57fe1f5452b11fa1ac9e6802d79dc9a0ae9",
+      "published_path": "tests/test_gamma1_ibp.py",
+      "published_sha256": "2413287fdaeceb328fc0cd7a85daa57fe1f5452b11fa1ac9e6802d79dc9a0ae9",
+      "bytes": 6485,
+      "byte_identical": true
+    },
+    "tests/test_gamma1_output.py": {
+      "original_sha256": "969261560fe72a7ecc5fe997b6109653c07e1ff28024042be2617b24764c7767",
+      "published_path": "tests/test_gamma1_output.py",
+      "published_sha256": "969261560fe72a7ecc5fe997b6109653c07e1ff28024042be2617b24764c7767",
+      "bytes": 8460,
+      "byte_identical": true
+    },
+    "tests/test_gamma1_rotation.py": {
+      "original_sha256": "1cc2e7e271580d0989b1511caf20f404813824eb307086a56b2be5eabde8c49b",
+      "published_path": "tests/test_gamma1_rotation.py",
+      "published_sha256": "1cc2e7e271580d0989b1511caf20f404813824eb307086a56b2be5eabde8c49b",
+      "bytes": 12079,
+      "byte_identical": true
+    },
+    "tests/test_gamma1_source.py": {
+      "original_sha256": "152aa212d0f40bcc16c004204caf3ae09e8714b0e1e34a2af0acc203a8fdc777",
+      "published_path": "tests/test_gamma1_source.py",
+      "published_sha256": "152aa212d0f40bcc16c004204caf3ae09e8714b0e1e34a2af0acc203a8fdc777",
+      "bytes": 10422,
+      "byte_identical": true
+    },
+    "tests/test_geometry.py": {
+      "original_sha256": "dbcd544e7c2c2a7aafcbc447cd3ed97dccaa514e661f31467866365e40d38357",
+      "published_path": "tests/test_geometry.py",
+      "published_sha256": "dbcd544e7c2c2a7aafcbc447cd3ed97dccaa514e661f31467866365e40d38357",
+      "bytes": 2489,
+      "byte_identical": true
+    },
+    "tests/test_hypercube.py": {
+      "original_sha256": "509abca93653686330efee71f4114fcc6f1956e2dff234a428a59add15ce6289",
+      "published_path": "tests/test_hypercube.py",
+      "published_sha256": "509abca93653686330efee71f4114fcc6f1956e2dff234a428a59add15ce6289",
+      "bytes": 4462,
+      "byte_identical": true
+    },
+    "tests/test_j_factor.py": {
+      "original_sha256": "242833766ac358ee1dc2448ebca7819b04d980c3342515c82ad57804c2e2cb45",
+      "published_path": "tests/test_j_factor.py",
+      "published_sha256": "242833766ac358ee1dc2448ebca7819b04d980c3342515c82ad57804c2e2cb45",
+      "bytes": 12352,
+      "byte_identical": true
+    },
+    "tests/test_mixed_ibp.py": {
+      "original_sha256": "3d2c26f426f59144c755563d358b1c6dfdecdd229e88cc79c461d5cac89f49b4",
+      "published_path": "tests/test_mixed_ibp.py",
+      "published_sha256": "3d2c26f426f59144c755563d358b1c6dfdecdd229e88cc79c461d5cac89f49b4",
+      "bytes": 3190,
+      "byte_identical": true
+    },
+    "tests/test_models.py": {
+      "original_sha256": "dc69389a6327c1a93a2b6721dc5e999fbd61778bb03812617ae46db0d2d51754",
+      "published_path": "tests/test_models.py",
+      "published_sha256": "dc69389a6327c1a93a2b6721dc5e999fbd61778bb03812617ae46db0d2d51754",
+      "bytes": 4846,
+      "byte_identical": true
+    },
+    "tests/test_package_builder.py": {
+      "original_sha256": "964fbaa3653ec3b6786c817183cbe04c896ee27dd6933ee334b333eadcb445b9",
+      "published_path": "tests/test_package_builder.py",
+      "published_sha256": "964fbaa3653ec3b6786c817183cbe04c896ee27dd6933ee334b333eadcb445b9",
+      "bytes": 5113,
+      "byte_identical": true
+    },
+    "tests/test_parser.py": {
+      "original_sha256": "0702af77869582040da1e44db6f55db7ede59bf0a2f14c83a8e53dc4606e8f17",
+      "published_path": "tests/test_parser.py",
+      "published_sha256": "0702af77869582040da1e44db6f55db7ede59bf0a2f14c83a8e53dc4606e8f17",
+      "bytes": 7654,
+      "byte_identical": true
+    },
+    "tests/test_rotation.py": {
+      "original_sha256": "693d0bb522f54ecaedb3ebdfe8fa308e75ea9a221e364a0aedbf9a015d136721",
+      "published_path": "tests/test_rotation.py",
+      "published_sha256": "693d0bb522f54ecaedb3ebdfe8fa308e75ea9a221e364a0aedbf9a015d136721",
+      "bytes": 10792,
+      "byte_identical": true
+    },
+    "tests/test_self_energy.py": {
+      "original_sha256": "6568ea28d3eb710f3f5a045891849dce9e48e5e7f6c85a09aaef27d379452317",
+      "published_path": "tests/test_self_energy.py",
+      "published_sha256": "6568ea28d3eb710f3f5a045891849dce9e48e5e7f6c85a09aaef27d379452317",
+      "bytes": 8184,
+      "byte_identical": true
+    },
+    "tests/test_self_energy_chain.py": {
+      "original_sha256": "b0c77beb72096ab35c39ecc0d6f90fd4176b37025082175b2cc9201d5a0cde81",
+      "published_path": "tests/test_self_energy_chain.py",
+      "published_sha256": "b0c77beb72096ab35c39ecc0d6f90fd4176b37025082175b2cc9201d5a0cde81",
+      "bytes": 8199,
+      "byte_identical": true
+    },
+    "tests/test_self_energy_pi2.py": {
+      "original_sha256": "5961b2f4652440568c8678fe65b9836460f8997f9d008ba8c751c8f5621bd42e",
+      "published_path": "tests/test_self_energy_pi2.py",
+      "published_sha256": "5961b2f4652440568c8678fe65b9836460f8997f9d008ba8c751c8f5621bd42e",
+      "bytes": 7292,
+      "byte_identical": true
+    },
+    "tests/test_sign_rules.py": {
+      "original_sha256": "44a9abf04c1d9c6c3b0ee40f5aa6c250434d4c8223ff2df115eaea3db4efcf98",
+      "published_path": "tests/test_sign_rules.py",
+      "published_sha256": "44a9abf04c1d9c6c3b0ee40f5aa6c250434d4c8223ff2df115eaea3db4efcf98",
+      "bytes": 2705,
+      "byte_identical": true
+    },
+    "tests/test_snapshot.py": {
+      "original_sha256": "fd4a5756f6d00ae49fbdef4960940741a5a4cd003899a6b0ff5fdd3bd4076efa",
+      "published_path": "tests/test_snapshot.py",
+      "published_sha256": "fd4a5756f6d00ae49fbdef4960940741a5a4cd003899a6b0ff5fdd3bd4076efa",
+      "bytes": 10371,
+      "byte_identical": true
+    },
+    "tests/test_tgv.py": {
+      "original_sha256": "f6737efdd9a0b4d122c8cc34ee7dede03495cc5c7b7946aa48307e6fd72dbab0",
+      "published_path": "tests/test_tgv.py",
+      "published_sha256": "f6737efdd9a0b4d122c8cc34ee7dede03495cc5c7b7946aa48307e6fd72dbab0",
+      "bytes": 1716,
+      "byte_identical": true
+    },
+    "tests/test_tgv_ibp.py": {
+      "original_sha256": "13e830e215b76777aa45c0d0e07ce6d4fc4b087d044902d01d5ec875c8e79604",
+      "published_path": "tests/test_tgv_ibp.py",
+      "published_sha256": "13e830e215b76777aa45c0d0e07ce6d4fc4b087d044902d01d5ec875c8e79604",
+      "bytes": 4866,
+      "byte_identical": true
+    },
+    "tests/test_tgv_pi1.py": {
+      "original_sha256": "686076f04115051b58961db7ed4e3db959a050114d593ca04dc8a162ace67e94",
+      "published_path": "tests/test_tgv_pi1.py",
+      "published_sha256": "686076f04115051b58961db7ed4e3db959a050114d593ca04dc8a162ace67e94",
+      "bytes": 8278,
+      "byte_identical": true
+    },
+    "tests/verify_mixed_degeneration.py": {
+      "original_sha256": "da6efeaaa62082acd849476eb3d5b862e6e70f4545b09af45ec0cc21b929b7c4",
+      "published_path": "tests/verify_mixed_degeneration.py",
+      "published_sha256": "da6efeaaa62082acd849476eb3d5b862e6e70f4545b09af45ec0cc21b929b7c4",
+      "bytes": 5156,
+      "byte_identical": true
+    },
+    "tests/__init__.py": {
+      "original_sha256": "b9eb7718976ce76c40d2454278bbf54719f0c9d7fb2f41664c98c6cbae82161c",
+      "published_path": "tests/__init__.py",
+      "published_sha256": "b9eb7718976ce76c40d2454278bbf54719f0c9d7fb2f41664c98c6cbae82161c",
+      "bytes": 27,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-review/derivation.md": {
+      "original_sha256": "883529a74cc4cd65c398458e0f2fb85cdbf558ea7213677d88f9bad0b53f70ba",
+      "published_path": "docs/4e-3g+3g-review/derivation.md",
+      "published_sha256": "883529a74cc4cd65c398458e0f2fb85cdbf558ea7213677d88f9bad0b53f70ba",
+      "bytes": 46402,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-review/J-integration-3344.md": {
+      "original_sha256": "12460ed82ee2fc02f45da019ed808a9a0f8e681f94b97a4c958dff975731d91d",
+      "published_path": "docs/4e-3g+3g-review/J-integration-3344.md",
+      "published_sha256": "12460ed82ee2fc02f45da019ed808a9a0f8e681f94b97a4c958dff975731d91d",
+      "bytes": 10675,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-review/README.md": {
+      "original_sha256": "7ee57a53f7acde0fa64e1913115327237d87e4bf2c0895f7f25fa6593a72a0c0",
+      "published_path": "docs/4e-3g+3g-review/README.md",
+      "published_sha256": "7ee57a53f7acde0fa64e1913115327237d87e4bf2c0895f7f25fa6593a72a0c0",
+      "bytes": 4356,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-review/verify/v01-lorentz-decomposition.m": {
+      "original_sha256": "553c0f93b6854f1012c82292913fae9f226dd5fbab2868fedb468e9caf2a4f1d",
+      "published_path": "docs/4e-3g+3g-review/verify/v01-lorentz-decomposition.m",
+      "published_sha256": "553c0f93b6854f1012c82292913fae9f226dd5fbab2868fedb468e9caf2a4f1d",
+      "bytes": 10303,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-review/verify/v02-color-factors.m": {
+      "original_sha256": "265ea6e9f40aee0f8014bd994989097ee7daee3b8e5a27866a3d35ee19c41e89",
+      "published_path": "docs/4e-3g+3g-review/verify/v02-color-factors.m",
+      "published_sha256": "265ea6e9f40aee0f8014bd994989097ee7daee3b8e5a27866a3d35ee19c41e89",
+      "bytes": 4686,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-review/verify/v03-operator-table.m": {
+      "original_sha256": "8ce39ae4da97168fca2637419ec3adb3043c61b8bfcc7aba286f91052b5e2999",
+      "published_path": "docs/4e-3g+3g-review/verify/v03-operator-table.m",
+      "published_sha256": "8ce39ae4da97168fca2637419ec3adb3043c61b8bfcc7aba286f91052b5e2999",
+      "bytes": 13502,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-review/verify/v04-symanzik-param.m": {
+      "original_sha256": "6f5878d60b8543e6182495149453b9fa7286c0203035fe9cac255516e89ab1d3",
+      "published_path": "docs/4e-3g+3g-review/verify/v04-symanzik-param.m",
+      "published_sha256": "6f5878d60b8543e6182495149453b9fa7286c0203035fe9cac255516e89ab1d3",
+      "bytes": 8307,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-review/verify/v05-quadratic-chain-rule.m": {
+      "original_sha256": "bc9b45990541d12107540a9776277cd98c37a86255e2c7eb14ada956e0b5c395",
+      "published_path": "docs/4e-3g+3g-review/verify/v05-quadratic-chain-rule.m",
+      "published_sha256": "bc9b45990541d12107540a9776277cd98c37a86255e2c7eb14ada956e0b5c395",
+      "bytes": 8438,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-review/verify/v06-explicit-orbit-CJ.m": {
+      "original_sha256": "edec52a204818fc0e04ebf5dbc8d1806c0772298fbdd4342b5892318f5309d81",
+      "published_path": "docs/4e-3g+3g-review/verify/v06-explicit-orbit-CJ.m",
+      "published_sha256": "edec52a204818fc0e04ebf5dbc8d1806c0772298fbdd4342b5892318f5309d81",
+      "bytes": 14497,
+      "byte_identical": true
+    },
+    "docs/4e-3g+3g-review/verify/v07-orbit25-explicit.m": {
+      "original_sha256": "b6499f97418e8b0a2bf6093ef368672f008be558af115473ca18a09c8b1c8b25",
+      "published_path": "docs/4e-3g+3g-review/verify/v07-orbit25-explicit.m",
+      "published_sha256": "b6499f97418e8b0a2bf6093ef368672f008be558af115473ca18a09c8b1c8b25",
+      "bytes": 17603,
+      "byte_identical": true
+    },
+    "src/montopar/cli.py": {
+      "original_sha256": "c49fe05ff286e93cfd65b99bb3956a6127c819915699a1654b8bfa65cae692b8",
+      "published_path": "src/montopar/cli.py",
+      "published_sha256": "c49fe05ff286e93cfd65b99bb3956a6127c819915699a1654b8bfa65cae692b8",
+      "bytes": 18173,
+      "byte_identical": true
+    },
+    "src/montopar/color.py": {
+      "original_sha256": "d225173b668d3d7b0e6c92bcc03a57917e7b9b5b83de5a0290d18aa8c28d084d",
+      "published_path": "src/montopar/color.py",
+      "published_sha256": "d225173b668d3d7b0e6c92bcc03a57917e7b9b5b83de5a0290d18aa8c28d084d",
+      "bytes": 8040,
+      "byte_identical": true
+    },
+    "src/montopar/c_factor.py": {
+      "original_sha256": "041d61a70929d72899e5c30b312a4c564f5ab465feb888c26b489f7de62aa14e",
+      "published_path": "src/montopar/c_factor.py",
+      "published_sha256": "041d61a70929d72899e5c30b312a4c564f5ab465feb888c26b489f7de62aa14e",
+      "bytes": 3909,
+      "byte_identical": true
+    },
+    "src/montopar/double_tgv.py": {
+      "original_sha256": "1147f2d25dc7c76bfb35683c41cf1fbbaca2c62d0535d2c9b3d06cb4a23cce61",
+      "published_path": "src/montopar/double_tgv.py",
+      "published_sha256": "1147f2d25dc7c76bfb35683c41cf1fbbaca2c62d0535d2c9b3d06cb4a23cce61",
+      "bytes": 5564,
+      "byte_identical": true
+    },
+    "src/montopar/double_tgv_forms.py": {
+      "original_sha256": "e7b266580505871380b873982b40738fc3c2be4668aaf2439993525206282130",
+      "published_path": "src/montopar/double_tgv_forms.py",
+      "published_sha256": "e7b266580505871380b873982b40738fc3c2be4668aaf2439993525206282130",
+      "bytes": 15719,
+      "byte_identical": true
+    },
+    "src/montopar/double_tgv_ibp.py": {
+      "original_sha256": "6c8f40c897ece25bdf18d473aa875bc1a4fbe50a08191effe53c1630e592ca16",
+      "published_path": "src/montopar/double_tgv_ibp.py",
+      "published_sha256": "6c8f40c897ece25bdf18d473aa875bc1a4fbe50a08191effe53c1630e592ca16",
+      "bytes": 10279,
+      "byte_identical": true
+    },
+    "src/montopar/double_tgv_operator.py": {
+      "original_sha256": "b5d0def408d36a72fd7023f5fca047f4bb8ee41c6ebfd633d497f4dc5b97fe62",
+      "published_path": "src/montopar/double_tgv_operator.py",
+      "published_sha256": "b5d0def408d36a72fd7023f5fca047f4bb8ee41c6ebfd633d497f4dc5b97fe62",
+      "bytes": 17633,
+      "byte_identical": true
+    },
+    "src/montopar/double_tgv_output.py": {
+      "original_sha256": "aa432da641b47afbc75e9cd66b007519252f3c5c5808b522f858ab9e5977b2fb",
+      "published_path": "src/montopar/double_tgv_output.py",
+      "published_sha256": "aa432da641b47afbc75e9cd66b007519252f3c5c5808b522f858ab9e5977b2fb",
+      "bytes": 13075,
+      "byte_identical": true
+    },
+    "src/montopar/emitter.py": {
+      "original_sha256": "c9b5b8a8e1d72420f11b677f1aea40553ac4bf38f5b0ed3d2657f06fef933cb9",
+      "published_path": "src/montopar/emitter.py",
+      "published_sha256": "c9b5b8a8e1d72420f11b677f1aea40553ac4bf38f5b0ed3d2657f06fef933cb9",
+      "bytes": 17908,
+      "byte_identical": true
+    },
+    "src/montopar/fgv.py": {
+      "original_sha256": "ef35abe27b0c9b4fa47cfd2d85254d5d7e476ea8d72e4269bfe99e303641c511",
+      "published_path": "src/montopar/fgv.py",
+      "published_sha256": "ef35abe27b0c9b4fa47cfd2d85254d5d7e476ea8d72e4269bfe99e303641c511",
+      "bytes": 2293,
+      "byte_identical": true
+    },
+    "src/montopar/fgv_output.py": {
+      "original_sha256": "e0b14579950f7695dafd80379bfeb637ff4e31d3ec013829aa388d428f28018d",
+      "published_path": "src/montopar/fgv_output.py",
+      "published_sha256": "e0b14579950f7695dafd80379bfeb637ff4e31d3ec013829aa388d428f28018d",
+      "bytes": 9494,
+      "byte_identical": true
+    },
+    "src/montopar/gamma1.py": {
+      "original_sha256": "c9476283c8f0bb7c0b707fa0b8b13abf91cfe9122c407ac0f511d06949d9f49f",
+      "published_path": "src/montopar/gamma1.py",
+      "published_sha256": "c9476283c8f0bb7c0b707fa0b8b13abf91cfe9122c407ac0f511d06949d9f49f",
+      "bytes": 7087,
+      "byte_identical": true
+    },
+    "src/montopar/gamma1_blocks.py": {
+      "original_sha256": "8bdf21f3c28ca5d7113a976282b0dcbc9374f3963300a9cab9fe82bd54defaa1",
+      "published_path": "src/montopar/gamma1_blocks.py",
+      "published_sha256": "8bdf21f3c28ca5d7113a976282b0dcbc9374f3963300a9cab9fe82bd54defaa1",
+      "bytes": 5546,
+      "byte_identical": true
+    },
+    "src/montopar/gamma1_data.py": {
+      "original_sha256": "23835e429de03a152e9063a48a77a64430ef60af28022da292fd821e6746acba",
+      "published_path": "src/montopar/gamma1_data.py",
+      "published_sha256": "23835e429de03a152e9063a48a77a64430ef60af28022da292fd821e6746acba",
+      "bytes": 7233,
+      "byte_identical": true
+    },
+    "src/montopar/gamma1_ibp.py": {
+      "original_sha256": "876c6f0d3efa3ab3cc8aa9d4ac3bf55aa0e4c6e28ef841e80becebae2d0e9be1",
+      "published_path": "src/montopar/gamma1_ibp.py",
+      "published_sha256": "876c6f0d3efa3ab3cc8aa9d4ac3bf55aa0e4c6e28ef841e80becebae2d0e9be1",
+      "bytes": 15525,
+      "byte_identical": true
+    },
+    "src/montopar/gamma1_kernel.py": {
+      "original_sha256": "d5c731ef64968c18b710dfb58184ffda858613b9c720bda6a09b651e3c03048a",
+      "published_path": "src/montopar/gamma1_kernel.py",
+      "published_sha256": "d5c731ef64968c18b710dfb58184ffda858613b9c720bda6a09b651e3c03048a",
+      "bytes": 11095,
+      "byte_identical": true
+    },
+    "src/montopar/gamma1_source.py": {
+      "original_sha256": "7e3e7711984e0c16f3c0e2e8542d51ffdf16ddbce8130459a1d5027ba13f7404",
+      "published_path": "src/montopar/gamma1_source.py",
+      "published_sha256": "7e3e7711984e0c16f3c0e2e8542d51ffdf16ddbce8130459a1d5027ba13f7404",
+      "bytes": 11923,
+      "byte_identical": true
+    },
+    "src/montopar/geometry.py": {
+      "original_sha256": "f508c217b3533481ff79b71b491b7d7f71914276c2b7d35859cfd3573b0dd92d",
+      "published_path": "src/montopar/geometry.py",
+      "published_sha256": "f508c217b3533481ff79b71b491b7d7f71914276c2b7d35859cfd3573b0dd92d",
+      "bytes": 5314,
+      "byte_identical": true
+    },
+    "src/montopar/hypercube.py": {
+      "original_sha256": "10fd2284aa8635361c0e0038f485a5aaed8b82ebd01f5fa8f70160bae6153c9c",
+      "published_path": "src/montopar/hypercube.py",
+      "published_sha256": "10fd2284aa8635361c0e0038f485a5aaed8b82ebd01f5fa8f70160bae6153c9c",
+      "bytes": 6331,
+      "byte_identical": true
+    },
+    "src/montopar/j_factor.py": {
+      "original_sha256": "cfe58a77c471ddfe68f881a015e745e470284bbe59a0cd2c903375caae14302e",
+      "published_path": "src/montopar/j_factor.py",
+      "published_sha256": "cfe58a77c471ddfe68f881a015e745e470284bbe59a0cd2c903375caae14302e",
+      "bytes": 17936,
+      "byte_identical": true
+    },
+    "src/montopar/mixed_ibp.py": {
+      "original_sha256": "54ba74405be778d027dc57aaf695426ea0ab2cc30a517923bb52c103012e9043",
+      "published_path": "src/montopar/mixed_ibp.py",
+      "published_sha256": "54ba74405be778d027dc57aaf695426ea0ab2cc30a517923bb52c103012e9043",
+      "bytes": 12414,
+      "byte_identical": true
+    },
+    "src/montopar/models.py": {
+      "original_sha256": "6a1ba5ad96c2fce122ad62ddfc7c41118005b8049b6e57f6d39d75015a0ac39d",
+      "published_path": "src/montopar/models.py",
+      "published_sha256": "6a1ba5ad96c2fce122ad62ddfc7c41118005b8049b6e57f6d39d75015a0ac39d",
+      "bytes": 7127,
+      "byte_identical": true
+    },
+    "src/montopar/package_builder.py": {
+      "original_sha256": "f01e793636d709c730c1cbcf3e7749a05d7474fbfa5a5006c6e0b9408aadaf59",
+      "published_path": "src/montopar/package_builder.py",
+      "published_sha256": "f01e793636d709c730c1cbcf3e7749a05d7474fbfa5a5006c6e0b9408aadaf59",
+      "bytes": 18339,
+      "byte_identical": true
+    },
+    "src/montopar/parser.py": {
+      "original_sha256": "f132f2d83fd6d9f1f0e67af83d095954668049f06e21ce491c0b96283d7a23ef",
+      "published_path": "src/montopar/parser.py",
+      "published_sha256": "f132f2d83fd6d9f1f0e67af83d095954668049f06e21ce491c0b96283d7a23ef",
+      "bytes": 14945,
+      "byte_identical": true
+    },
+    "src/montopar/rotation.py": {
+      "original_sha256": "3f0307ec3084099de5f518948ed9dd90b09902d03d0fdf4c3ecc19a556c28b39",
+      "published_path": "src/montopar/rotation.py",
+      "published_sha256": "3f0307ec3084099de5f518948ed9dd90b09902d03d0fdf4c3ecc19a556c28b39",
+      "bytes": 6895,
+      "byte_identical": true
+    },
+    "src/montopar/self_energy.py": {
+      "original_sha256": "3ff2196a96c70f874b99f7f9b9a8270a08a03bf191971b68d1a7d5b5998819ef",
+      "published_path": "src/montopar/self_energy.py",
+      "published_sha256": "3ff2196a96c70f874b99f7f9b9a8270a08a03bf191971b68d1a7d5b5998819ef",
+      "bytes": 16738,
+      "byte_identical": true
+    },
+    "src/montopar/self_energy_chain.py": {
+      "original_sha256": "8691bc22c04cf6548daef9ba10e319ac50e22c016df5ad09fea935f1f24cb878",
+      "published_path": "src/montopar/self_energy_chain.py",
+      "published_sha256": "8691bc22c04cf6548daef9ba10e319ac50e22c016df5ad09fea935f1f24cb878",
+      "bytes": 13204,
+      "byte_identical": true
+    },
+    "src/montopar/self_energy_pi2.py": {
+      "original_sha256": "3ab4801a14e921b881c1244c29568429bf9f51a54b620ae67f9db8482476da78",
+      "published_path": "src/montopar/self_energy_pi2.py",
+      "published_sha256": "3ab4801a14e921b881c1244c29568429bf9f51a54b620ae67f9db8482476da78",
+      "bytes": 12022,
+      "byte_identical": true
+    },
+    "src/montopar/sign_rules.py": {
+      "original_sha256": "69c485bd69b3b8a56b05a5fe1ef41918022bf95ecde960977d76669c335aa104",
+      "published_path": "src/montopar/sign_rules.py",
+      "published_sha256": "69c485bd69b3b8a56b05a5fe1ef41918022bf95ecde960977d76669c335aa104",
+      "bytes": 4225,
+      "byte_identical": true
+    },
+    "src/montopar/tgv.py": {
+      "original_sha256": "723a4ff570d15d2d6666e5f01e767a18e460252659ca94a115e7ca6d1a5cd629",
+      "published_path": "src/montopar/tgv.py",
+      "published_sha256": "723a4ff570d15d2d6666e5f01e767a18e460252659ca94a115e7ca6d1a5cd629",
+      "bytes": 4172,
+      "byte_identical": true
+    },
+    "src/montopar/tgv_ibp.py": {
+      "original_sha256": "6507d2f287d6bf397648025390bb2833bc1986c738ac7c650b00ea1012e118a8",
+      "published_path": "src/montopar/tgv_ibp.py",
+      "published_sha256": "6507d2f287d6bf397648025390bb2833bc1986c738ac7c650b00ea1012e118a8",
+      "bytes": 14247,
+      "byte_identical": true
+    },
+    "src/montopar/tgv_pi1.py": {
+      "original_sha256": "ef07f817b32c6a0af5d6a4f7fdbb09be83ffe67ff91c08f5c8fbd623c05bfc58",
+      "published_path": "src/montopar/tgv_pi1.py",
+      "published_sha256": "ef07f817b32c6a0af5d6a4f7fdbb09be83ffe67ff91c08f5c8fbd623c05bfc58",
+      "bytes": 16081,
+      "byte_identical": true
+    },
+    "src/montopar/tgv_pi1_ibp.py": {
+      "original_sha256": "ecdcbdfa6771794efe90ef2621741073670d9c7e04e026482bba5b5257affef6",
+      "published_path": "src/montopar/tgv_pi1_ibp.py",
+      "published_sha256": "ecdcbdfa6771794efe90ef2621741073670d9c7e04e026482bba5b5257affef6",
+      "bytes": 5031,
+      "byte_identical": true
+    },
+    "src/montopar/__init__.py": {
+      "original_sha256": "a1fbcf2d0de4a8ff088762df5c9352d734a07ae5e6e428ad34a695f0eae529cb",
+      "published_path": "src/montopar/__init__.py",
+      "published_sha256": "a1fbcf2d0de4a8ff088762df5c9352d734a07ae5e6e428ad34a695f0eae529cb",
+      "bytes": 63,
+      "byte_identical": true
+    },
+    "src/montopar/templates/color_trace.wl": {
+      "original_sha256": "bfc84fa96622a12ad1f2b517d99813c2c0eddb791c56484a65c1f51411f21e67",
+      "published_path": "src/montopar/templates/color_trace.wl",
+      "published_sha256": "bfc84fa96622a12ad1f2b517d99813c2c0eddb791c56484a65c1f51411f21e67",
+      "bytes": 286,
+      "byte_identical": true
+    },
+    "tests/fixtures/3e-3g-01_orbit.json": {
+      "original_sha256": "f4ebf9b70b3eb9eb6811c79bb611851c47d9678305d18cbff3664c48b7a252db",
+      "published_path": "tests/fixtures/3e-3g-01_orbit.json",
+      "published_sha256": "f4ebf9b70b3eb9eb6811c79bb611851c47d9678305d18cbff3664c48b7a252db",
+      "bytes": 2019,
+      "byte_identical": true
+    },
+    "tests/fixtures/4e-01_orbit.json": {
+      "original_sha256": "555923d51056101f856d34ac95fc2d9a3f4b89c5f363d87afbb030e8d78223bb",
+      "published_path": "tests/fixtures/4e-01_orbit.json",
+      "published_sha256": "555923d51056101f856d34ac95fc2d9a3f4b89c5f363d87afbb030e8d78223bb",
+      "bytes": 1822,
+      "byte_identical": true
+    },
+    "tests/fixtures/4e-4g_orbits.json": {
+      "original_sha256": "7ef635a30b2c090bebadf0492aa36f168564544ce2cb755a66043c08aa962582",
+      "published_path": "tests/fixtures/4e-4g_orbits.json",
+      "published_sha256": "7ef635a30b2c090bebadf0492aa36f168564544ce2cb755a66043c08aa962582",
+      "bytes": 27342,
+      "byte_identical": true
+    },
+    "tests/fixtures/5e-3g-01_orbit.json": {
+      "original_sha256": "17fbc11cbef722429d8a308bda1c3fb812ffa8bf5cf0d22436f94b4cb905b1f2",
+      "published_path": "tests/fixtures/5e-3g-01_orbit.json",
+      "published_sha256": "17fbc11cbef722429d8a308bda1c3fb812ffa8bf5cf0d22436f94b4cb905b1f2",
+      "bytes": 2607,
+      "byte_identical": true
+    },
+    "tests/fixtures/double_tgv_orbits.json": {
+      "original_sha256": "c9df28125c8882da2f67ffd264e043322afd0f833bc42fa063d79926247e6fa7",
+      "published_path": "tests/fixtures/double_tgv_orbits.json",
+      "published_sha256": "c9df28125c8882da2f67ffd264e043322afd0f833bc42fa063d79926247e6fa7",
+      "bytes": 71371,
+      "byte_identical": true
+    },
+    "tests/fixtures/gamma1_orbits.json": {
+      "original_sha256": "b0be12caa7aa27bdec547d2b546ee0090c1525c8aa7e1a644f914cd056c92f0b",
+      "published_path": "tests/fixtures/gamma1_orbits.json",
+      "published_sha256": "b0be12caa7aa27bdec547d2b546ee0090c1525c8aa7e1a644f914cd056c92f0b",
+      "bytes": 48343,
+      "byte_identical": true
+    },
+    "tests/fixtures/self_energy_chain_orbits.json": {
+      "original_sha256": "c44b3d95d31d3c84c460b7886d4aaff787cea5a3d2c4207847b6dd73f5b598c9",
+      "published_path": "tests/fixtures/self_energy_chain_orbits.json",
+      "published_sha256": "c44b3d95d31d3c84c460b7886d4aaff787cea5a3d2c4207847b6dd73f5b598c9",
+      "bytes": 5994,
+      "byte_identical": true
+    },
+    "tests/fixtures/self_energy_pi1_orbits.json": {
+      "original_sha256": "6d577c647724cbe4cf8a3972bbba60910336ff9b3ee85684acfa06284045401d",
+      "published_path": "tests/fixtures/self_energy_pi1_orbits.json",
+      "published_sha256": "6d577c647724cbe4cf8a3972bbba60910336ff9b3ee85684acfa06284045401d",
+      "bytes": 32150,
+      "byte_identical": true
+    },
+    "tests/fixtures/self_energy_pi2_orbits.json": {
+      "original_sha256": "377cf94810bbbcc0e6090621f179580922fdfbd6a23117b950060baf77a9c9d2",
+      "published_path": "tests/fixtures/self_energy_pi2_orbits.json",
+      "published_sha256": "377cf94810bbbcc0e6090621f179580922fdfbd6a23117b950060baf77a9c9d2",
+      "bytes": 3707,
+      "byte_identical": true
+    },
+    "tests/fixtures/tgv_pi1_geometry.json": {
+      "original_sha256": "01fdd4be39fbfe10989335ec891c6aae50c1526771a8eba6a5f20cf8ce9b8fed",
+      "published_path": "tests/fixtures/tgv_pi1_geometry.json",
+      "published_sha256": "01fdd4be39fbfe10989335ec891c6aae50c1526771a8eba6a5f20cf8ce9b8fed",
+      "bytes": 17171,
+      "byte_identical": true
+    },
+    "tests/fixtures/tgv_pi1_orbits.json": {
+      "original_sha256": "62a203c012d5413daf306f3315e1a0baef77d6d235d4ac3d23d09134952067a8",
+      "published_path": "tests/fixtures/tgv_pi1_orbits.json",
+      "published_sha256": "62a203c012d5413daf306f3315e1a0baef77d6d235d4ac3d23d09134952067a8",
+      "bytes": 53568,
+      "byte_identical": true
+    }
+  },
+  "publication_adapters": [],
+  "exclusions": [
+    {
+      "path": "CLAUDE.md",
+      "reason": "outside reviewed source/tests/theory/metadata set"
+    },
+    {
+      "path": ".pytest_cache/.gitignore",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".pytest_cache/CACHEDIR.TAG",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".pytest_cache/README.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "docs/3e-3g-CJ-formulas 1.md",
+      "reason": "historical document containing personal absolute path; not a package dependency"
+    },
+    {
+      "path": "docs/3e-3g-CJ-formulas.md",
+      "reason": "historical document containing personal absolute path; not a package dependency"
+    },
+    {
+      "path": "docs/I95-verification.md",
+      "reason": "historical document containing personal absolute path; not a package dependency"
+    },
+    {
+      "path": ".pytest_cache/v/cache/lastfailed",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".pytest_cache/v/cache/nodeids",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "docs/4e-3g+3g-review/outputs/.gitignore",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/1loop/2e/2e-01/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/1loop/2e/2e-01/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/1loop/2e/2e-01/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/1loop/2e/2e-02/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/1loop/2e/2e-02/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/1loop/2e/2e-02/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/2loop/3e-3g/3e-3g-01/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/2loop/3e-3g/3e-3g-01/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/2loop/3e-3g/3e-3g-01/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/2loop/3e-3g/3e-3g-02/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/2loop/3e-3g/3e-3g-02/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/2loop/3e-3g/3e-3g-02/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/2loop/3e-3g/3e-3g-03/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/2loop/3e-3g/3e-3g-03/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/2loop/3e-3g/3e-3g-03/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/2loop/3e-3g/3e-3g-04/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/2loop/3e-3g/3e-3g-04/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/2loop/3e-3g/3e-3g-04/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-01/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-01/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-01/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-02/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-02/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-02/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-03/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-03/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-03/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-04/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-04/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-04/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-05/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-05/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-05/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-06/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-06/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/2loop/4e/4e-06/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-01/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-01/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-01/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-02/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-02/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-02/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-03/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-03/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-03/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-04/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-04/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-04/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-05/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-05/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-05/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-06/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-06/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-06/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-07/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-07/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-07/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-08/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-08/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-08/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-09/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-09/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/3loop/4e-4g/4e-4g-09/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-01/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-01/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-01/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-02/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-02/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-02/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-03/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-03/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-03/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-04/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-04/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-04/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-05/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-05/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-05/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-06/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-06/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-06/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-07/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-07/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-07/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-08/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-08/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-08/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-09/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-09/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-09/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-10/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-10/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-10/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-11/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-11/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-11/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-12/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-12/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-12/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-13/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-13/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-13/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-14/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-14/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-14/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-15/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-15/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-15/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-16/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-16/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-16/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-17/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-17/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-17/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-18/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-18/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-18/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-19/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-19/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-19/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-20/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-20/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-20/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-21/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-21/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-21/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-22/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-22/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-22/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-23/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-23/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-23/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-24/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-24/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-24/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-25/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-25/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-25/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-26/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-26/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-26/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-27/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-27/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-27/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-28/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-28/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-28/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-29/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-29/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-29/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-30/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-30/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-30/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-31/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-31/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-31/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-32/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-32/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-32/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-33/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-33/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-33/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-34/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-34/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-34/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-35/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-35/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-35/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-36/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-36/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-36/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-37/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-37/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-37/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-38/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-38/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-38/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-39/export.dimreduce.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-39/final.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/3loop/6e/6e-39/state.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/1loop/2e/2e-01/result.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/1loop/2e/2e-01/step01_x1.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/1loop/2e/2e-01/step02_x2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/1loop/2e/2e-01/work.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/1loop/2e/2e-02/result.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/1loop/2e/2e-02/step01_x1.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/1loop/2e/2e-02/step02_x2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/1loop/2e/2e-02/work.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-01/result.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-01/step01_x1_factor.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-01/step02_x2_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-01/step03_x4_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-01/step04_x3_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-01/step05_x1_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-01/work.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step01_x2_factor.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step01_x2_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step01_x4_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step02_x1_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step02_x2_factor.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step02_x2_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step03_x1_apart.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step03_x1_factor.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step03_x1_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step03_x2_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step03_x3_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step03_x4_apart.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step03_x4_factor.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step03_x4_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step04_x1_factor.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step04_x1_integrate_b.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step04_x3_apart.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step04_x4_apart.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step05_x3_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step05_x4_factor.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step05_x4_integrate.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step06_x3_factor.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/work.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-03/result.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-03/step1.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-03/step2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-03/step3.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-03/step4.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-03/work.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/alt1_x1.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/alt2_x2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/path2_x4.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/path2_x4x3.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/path3_apart_x4.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/path3_factor_x4.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/path3_x3.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/path3_x3x1.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/path4_factor_x2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/path4_x3.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/path4_x3fx2x4.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/path5_factor_x1.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/path5_x4.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/path5_x4fx1x3.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/result.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/step1_x3.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/step2b_factor_x1.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/step2c_factor_x2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/step2d_apart_x1.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/step2_x4.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/step3_x1.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/step3_x1_v2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/step3_x2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/try2_fx1.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/try2_fx1_fx2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/try3_apart_x1.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/try4_apart_x2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/try5_apart_x1_x2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/try_fx1.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/try_fx1_apart_x2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-04/work.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-05/result.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-05/work.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-06/result.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-06/step1_x1.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-06/step2_x3.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-06/step3_factor_x2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-06/step3_x2.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-06/step4_x4.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-06/work.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/ibp/boundary.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/ibp/shifted.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/ibp2/boundary.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/ibp2/shifted.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/solve_result/graph.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/solve_result/step0_x4.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/solve_result/step1_x3.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/solve_result/work.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step04_ibp/boundary.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "montopar-outputs/dimreduce-work/2loop/4e/4e-02/step04_ibp/shifted.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar.egg-info/dependency_links.txt",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar.egg-info/entry_points.txt",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar.egg-info/PKG-INFO",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar.egg-info/SOURCES.txt",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar.egg-info/top_level.txt",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/cli.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/color.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/c_factor.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/double_tgv.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/double_tgv_ibp.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/double_tgv_output.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/emitter.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/fgv.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/fgv_output.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/gamma1.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/gamma1_blocks.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/gamma1_data.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/gamma1_ibp.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/gamma1_kernel.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/gamma1_source.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/geometry.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/hypercube.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/j_factor.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/mixed_ibp.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/models.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/package_builder.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/parser.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/rotation.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/self_energy.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/self_energy_chain.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/self_energy_pi2.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/tgv.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/tgv_ibp.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/tgv_pi1.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/tgv_pi1_ibp.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/montopar/__pycache__/__init__.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/conftest.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_cli.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_color.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_c_factor.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_double_tgv.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_double_tgv_ibp.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_double_tgv_source_contract.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_emitter.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_fgv.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_fgv_output.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_geometry.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_hypercube.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_j_factor.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_mixed_ibp.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_models.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_package_builder.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_parser.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_rotation.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_self_energy.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_self_energy_chain.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_self_energy_pi2.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_snapshot.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_tgv.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_tgv_ibp.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_tgv_pi1.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/__init__.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    }
+  ],
+  "external_python_imports": {
+    "src": [],
+    "tests": [
+      "numpy",
+      "pytest",
+      "sympy"
+    ]
+  },
+  "external_programs": {
+    "some_color_dispatches": "wolframscript and FeynCalc; native insertion example does not invoke them"
+  },
+  "historical_product_relationship": "Not inferred from shared package version, parent HEAD or matching directory name. Historical frozen graph/CJ products have separate source/byte manifests.",
+  "original_source_root_disclosed_publicly": false
+}

@@ -1,0 +1,176 @@
+{
+  "orbits": [
+    {
+      "orbit_id": "2e-Pi2-01",
+      "emission_type": "2e-Pi2",
+      "sector": "dg",
+      "nloops": 3,
+      "vertices": [
+        {
+          "line": 3,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l1",
+          "lorentz": [
+            "nu2",
+            "mu2"
+          ],
+          "color": [
+            "b2",
+            "a2"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "se",
+          "propagator": "l1",
+          "se_type": "vacuum-pol-2loop"
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "(1-s31)*v3 + s41*v4"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    },
+    {
+      "orbit_id": "2e-Pi2-02",
+      "emission_type": "2e-Pi2",
+      "sector": "dg",
+      "nloops": 3,
+      "vertices": [
+        {
+          "line": 2,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l1",
+          "lorentz": [
+            "nu2",
+            "mu2"
+          ],
+          "color": [
+            "b2",
+            "a2"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "se",
+          "propagator": "l1",
+          "se_type": "vacuum-pol-2loop"
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-((1-s41)*v4 + v1 + s21*v2)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    }
+  ]
+}

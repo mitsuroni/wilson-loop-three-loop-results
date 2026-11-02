@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qgraf-pipeline"
+version = "0.1.0"
+description = "General n-loop QGRAF pipeline for Wilson loop diagram generation and classification"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+qgraf-pipeline = "qgraf_pipeline.cli:main"
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+qgraf_pipeline = ["data/*"]

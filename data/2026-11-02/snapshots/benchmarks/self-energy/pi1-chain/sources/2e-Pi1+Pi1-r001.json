@@ -1,0 +1,242 @@
+{
+  "n_loops": 3,
+  "n_orbits": 2,
+  "orbits": [
+    {
+      "orbit_id": "2e-Pi1+Pi1-01",
+      "emission_type": "2e-Pi1+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 3,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l1",
+          "lorentz": [
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b2",
+            "b3"
+          ]
+        },
+        {
+          "loop": "l1",
+          "lorentz": [
+            "nu4",
+            "mu2"
+          ],
+          "color": [
+            "b4",
+            "a2"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l1",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "nu1",
+            "nu2"
+          ],
+          "color": [
+            "b1",
+            "b2"
+          ]
+        },
+        {
+          "type": "se",
+          "id": "se2",
+          "propagator": "l1",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "nu3",
+            "nu4"
+          ],
+          "color": [
+            "b3",
+            "b4"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "(1-s31)*v3 + s41*v4"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "self_energy_chain": {
+        "kind": "one_particle_reducible",
+        "insertion_count": 2,
+        "ordered_insertions": [
+          "se1",
+          "se2"
+        ],
+        "subgraph_loop_orders": [
+          1,
+          1
+        ],
+        "dyson_coefficient": "1",
+        "source_external_sign": "+1",
+        "sign_convention": "one minus sign per Pi insertion, matching the existing single-Pi source convention",
+        "not_two_loop_1pi": true
+      }
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-02",
+      "emission_type": "2e-Pi1+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 2,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l1",
+          "lorentz": [
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b2",
+            "b3"
+          ]
+        },
+        {
+          "loop": "l1",
+          "lorentz": [
+            "nu4",
+            "mu2"
+          ],
+          "color": [
+            "b4",
+            "a2"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l1",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "nu1",
+            "nu2"
+          ],
+          "color": [
+            "b1",
+            "b2"
+          ]
+        },
+        {
+          "type": "se",
+          "id": "se2",
+          "propagator": "l1",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "nu3",
+            "nu4"
+          ],
+          "color": [
+            "b3",
+            "b4"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-((1-s41)*v4 + v1 + s21*v2)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "self_energy_chain": {
+        "kind": "one_particle_reducible",
+        "insertion_count": 2,
+        "ordered_insertions": [
+          "se1",
+          "se2"
+        ],
+        "subgraph_loop_orders": [
+          1,
+          1
+        ],
+        "dyson_coefficient": "1",
+        "source_external_sign": "+1",
+        "sign_convention": "one minus sign per Pi insertion, matching the existing single-Pi source convention",
+        "not_two_loop_1pi": true
+      }
+    }
+  ]
+}

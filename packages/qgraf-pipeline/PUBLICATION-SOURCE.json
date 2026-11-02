@@ -1,0 +1,767 @@
+{
+  "format": "wilson-public-source-snapshot/1",
+  "package": "qgraf-pipeline",
+  "distribution_version": "0.1.0",
+  "source_kind": "current working-tree snapshot, including upstream dirty edits",
+  "scope": "source/tests/reviewed theory documents; original root README preserved separately",
+  "source_files": {
+    "pyproject.toml": {
+      "original_sha256": "fb2dd8c6c29ff81ef63164565d74add5e9bebd45bfcb568cab743a10ac54562f",
+      "published_path": "pyproject.toml",
+      "published_sha256": "fb2dd8c6c29ff81ef63164565d74add5e9bebd45bfcb568cab743a10ac54562f",
+      "bytes": 498,
+      "byte_identical": true
+    },
+    "README.md": {
+      "original_sha256": "e2c78d936c794f2e8e99339269ac4534a9d253bce2679902e6673188a8850d67",
+      "published_path": "README.original.md",
+      "published_sha256": "e2c78d936c794f2e8e99339269ac4534a9d253bce2679902e6673188a8850d67",
+      "bytes": 1923,
+      "byte_identical": true
+    },
+    "docs/gamma1-source.md": {
+      "original_sha256": "0484d10c2e5a614caec1b8b04395d5dfaf7b08ae312821e614cada61196672ad",
+      "published_path": "docs/gamma1-source.md",
+      "published_sha256": "0484d10c2e5a614caec1b8b04395d5dfaf7b08ae312821e614cada61196672ad",
+      "bytes": 1834,
+      "byte_identical": true
+    },
+    "docs/self-energy-chain.md": {
+      "original_sha256": "498e96ca2d1ed93f453dab37f7578a950891272f438de1ef84145e1c49a32992",
+      "published_path": "docs/self-energy-chain.md",
+      "published_sha256": "498e96ca2d1ed93f453dab37f7578a950891272f438de1ef84145e1c49a32992",
+      "bytes": 2348,
+      "byte_identical": true
+    },
+    "docs/tgv-self-energy-pi1.md": {
+      "original_sha256": "79a0383001015da7ffc8d641e62bbaceea58591ce2a8998fb134e3b1c9c163e2",
+      "published_path": "docs/tgv-self-energy-pi1.md",
+      "published_sha256": "79a0383001015da7ffc8d641e62bbaceea58591ce2a8998fb134e3b1c9c163e2",
+      "bytes": 1231,
+      "byte_identical": true
+    },
+    "tests/test_central_vertex.py": {
+      "original_sha256": "846952c0b86094a356ec76c7447b37e79cea89be6bec311c73c37531a7ead688",
+      "published_path": "tests/test_central_vertex.py",
+      "published_sha256": "846952c0b86094a356ec76c7447b37e79cea89be6bec311c73c37531a7ead688",
+      "bytes": 4743,
+      "byte_identical": true
+    },
+    "tests/test_generator.py": {
+      "original_sha256": "e25b07f4a3d6c6748cadee50f07c7987c82a8f6638b1ee3430c490c709852ef2",
+      "published_path": "tests/test_generator.py",
+      "published_sha256": "e25b07f4a3d6c6748cadee50f07c7987c82a8f6638b1ee3430c490c709852ef2",
+      "bytes": 21116,
+      "byte_identical": true
+    },
+    "tests/test_recursion_audit.py": {
+      "original_sha256": "06176ffec531570e8d9e00978023b835fd3aff499aad89bb88b4709d01d24d18",
+      "published_path": "tests/test_recursion_audit.py",
+      "published_sha256": "06176ffec531570e8d9e00978023b835fd3aff499aad89bb88b4709d01d24d18",
+      "bytes": 2773,
+      "byte_identical": true
+    },
+    "tests/test_self_energy_chain.py": {
+      "original_sha256": "9d98965f5d594e7cceec38ef3d7d7643d238081c0111bbd1b15929896f92b773",
+      "published_path": "tests/test_self_energy_chain.py",
+      "published_sha256": "9d98965f5d594e7cceec38ef3d7d7643d238081c0111bbd1b15929896f92b773",
+      "bytes": 4022,
+      "byte_identical": true
+    },
+    "tests/test_tgv_self_energy.py": {
+      "original_sha256": "a2bb548614249fbc12185ac4e67b45ffc7a6ad829158feee71ca5e8560dc0232",
+      "published_path": "tests/test_tgv_self_energy.py",
+      "published_sha256": "a2bb548614249fbc12185ac4e67b45ffc7a6ad829158feee71ca5e8560dc0232",
+      "bytes": 5893,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/central_vertex.py": {
+      "original_sha256": "fbe2e8d485ac8e84530bee866240097bfdc323906f19bba460382fe801ce1280",
+      "published_path": "src/qgraf_pipeline/central_vertex.py",
+      "published_sha256": "fbe2e8d485ac8e84530bee866240097bfdc323906f19bba460382fe801ce1280",
+      "bytes": 5615,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/classifier.py": {
+      "original_sha256": "740aa3ab2aa9278069297a3e3132d96d5f751086d2a8e7266847d98f2ddf5b02",
+      "published_path": "src/qgraf_pipeline/classifier.py",
+      "published_sha256": "740aa3ab2aa9278069297a3e3132d96d5f751086d2a8e7266847d98f2ddf5b02",
+      "bytes": 21460,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/cli.py": {
+      "original_sha256": "17e4c45f45e92413ecf3487e4c41cb68ea7e1f07243d38f65122b1c28490d2f8",
+      "published_path": "src/qgraf_pipeline/cli.py",
+      "published_sha256": "8ecfac87fc827590c7a90d7683cb9e32fdb2f214633bdb6ba3562e2dac6ef510",
+      "bytes": 4069,
+      "byte_identical": false
+    },
+    "src/qgraf_pipeline/control_gen.py": {
+      "original_sha256": "9edc29179c45a5b25f032fbd4b6f07049aa3b8bf98562b5d6c61ccd3c9fc90ec",
+      "published_path": "src/qgraf_pipeline/control_gen.py",
+      "published_sha256": "9edc29179c45a5b25f032fbd4b6f07049aa3b8bf98562b5d6c61ccd3c9fc90ec",
+      "bytes": 949,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/definition_exporter.py": {
+      "original_sha256": "3953e8ac8f7356e29b6fda285d49ab591cb45e6f10eb8ace7f344a1567ff2389",
+      "published_path": "src/qgraf_pipeline/definition_exporter.py",
+      "published_sha256": "3953e8ac8f7356e29b6fda285d49ab591cb45e6f10eb8ace7f344a1567ff2389",
+      "bytes": 10076,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/double_vertex.py": {
+      "original_sha256": "3f27be7047f1b9f03d6702b6a0e6e91f803c8f4594d0f0b72c667e58cd58bd26",
+      "published_path": "src/qgraf_pipeline/double_vertex.py",
+      "published_sha256": "3f27be7047f1b9f03d6702b6a0e6e91f803c8f4594d0f0b72c667e58cd58bd26",
+      "bytes": 1615,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/emitter.py": {
+      "original_sha256": "578207c698261a7ebcc9f31d068e17b0d53ee6b636f39d4141ab77953f3b3240",
+      "published_path": "src/qgraf_pipeline/emitter.py",
+      "published_sha256": "578207c698261a7ebcc9f31d068e17b0d53ee6b636f39d4141ab77953f3b3240",
+      "bytes": 10781,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/gamma1_operator.py": {
+      "original_sha256": "39b32bde9b07f5f22bc077c2c6048089ea2fd9c90cf0ce8949fcaaec8acb56ce",
+      "published_path": "src/qgraf_pipeline/gamma1_operator.py",
+      "published_sha256": "39b32bde9b07f5f22bc077c2c6048089ea2fd9c90cf0ce8949fcaaec8acb56ce",
+      "bytes": 6021,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/generator.py": {
+      "original_sha256": "e1a261b89e832460e900aadca63fe31c9f5d1c57ebc11679213ded92287fbffb",
+      "published_path": "src/qgraf_pipeline/generator.py",
+      "published_sha256": "e1a261b89e832460e900aadca63fe31c9f5d1c57ebc11679213ded92287fbffb",
+      "bytes": 17829,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/internal_types.py": {
+      "original_sha256": "6e805ddbcac3c7a7286504a39b83be1d2c1de38389dafead8b8513006269c5be",
+      "published_path": "src/qgraf_pipeline/internal_types.py",
+      "published_sha256": "6e805ddbcac3c7a7286504a39b83be1d2c1de38389dafead8b8513006269c5be",
+      "bytes": 7206,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/json_emitter.py": {
+      "original_sha256": "d3ce721966bcdbd3510d5abc4cad2b8d665a969315901f7ac2063b4058c67a70",
+      "published_path": "src/qgraf_pipeline/json_emitter.py",
+      "published_sha256": "d3ce721966bcdbd3510d5abc4cad2b8d665a969315901f7ac2063b4058c67a70",
+      "bytes": 1069,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/parser.py": {
+      "original_sha256": "d36f524112470a929ff4b2ad0cacac35293421b3a4cd80f18ac5febcd73e35f0",
+      "published_path": "src/qgraf_pipeline/parser.py",
+      "published_sha256": "d36f524112470a929ff4b2ad0cacac35293421b3a4cd80f18ac5febcd73e35f0",
+      "bytes": 4826,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/pdf_emitter.py": {
+      "original_sha256": "778e652fde15328d1ee512c47227b47fc8ea9548135ddfe4fbcb0d8b80ff8fbf",
+      "published_path": "src/qgraf_pipeline/pdf_emitter.py",
+      "published_sha256": "778e652fde15328d1ee512c47227b47fc8ea9548135ddfe4fbcb0d8b80ff8fbf",
+      "bytes": 7410,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/qgraf_runner.py": {
+      "original_sha256": "17fe67536bac7ee8d3fea3752decbbacd3a58c9dc92dc5f890fdaebf32f8e614",
+      "published_path": "src/qgraf_pipeline/qgraf_runner.py",
+      "published_sha256": "17fe67536bac7ee8d3fea3752decbbacd3a58c9dc92dc5f890fdaebf32f8e614",
+      "bytes": 1085,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/recursion_audit.py": {
+      "original_sha256": "b390e23ca19534de6e318d87706cf88bcc18aa052f7e86553c1e61394a189cc2",
+      "published_path": "src/qgraf_pipeline/recursion_audit.py",
+      "published_sha256": "b390e23ca19534de6e318d87706cf88bcc18aa052f7e86553c1e61394a189cc2",
+      "bytes": 3260,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/self_energy_chain.py": {
+      "original_sha256": "d40cea612b817ad4a311707c1de6131b0a62355376bc41ac6e0247cf25ecf929",
+      "published_path": "src/qgraf_pipeline/self_energy_chain.py",
+      "published_sha256": "d40cea612b817ad4a311707c1de6131b0a62355376bc41ac6e0247cf25ecf929",
+      "bytes": 3963,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/sign_rules.py": {
+      "original_sha256": "a37454525ccb4fed466166249f726405011cb18ed4022ea656d9e9d37183bac2",
+      "published_path": "src/qgraf_pipeline/sign_rules.py",
+      "published_sha256": "a37454525ccb4fed466166249f726405011cb18ed4022ea656d9e9d37183bac2",
+      "bytes": 890,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/tgv_self_energy.py": {
+      "original_sha256": "65356d77dd1852614cff039f67b4e452125fa66240dea6d1fc27b18281f34651",
+      "published_path": "src/qgraf_pipeline/tgv_self_energy.py",
+      "published_sha256": "65356d77dd1852614cff039f67b4e452125fa66240dea6d1fc27b18281f34651",
+      "bytes": 5968,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/tikz_emitter.py": {
+      "original_sha256": "6ed763b1de145a0a10f60e023a3133a0d7c9082f93a2d5873a592cbf43dde587",
+      "published_path": "src/qgraf_pipeline/tikz_emitter.py",
+      "published_sha256": "6ed763b1de145a0a10f60e023a3133a0d7c9082f93a2d5873a592cbf43dde587",
+      "bytes": 9569,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/topology.py": {
+      "original_sha256": "a3d321d9c6e5e9b35259ba9df2ce2dd95fea020fd176e443dd5540691c250e5c",
+      "published_path": "src/qgraf_pipeline/topology.py",
+      "published_sha256": "a3d321d9c6e5e9b35259ba9df2ce2dd95fea020fd176e443dd5540691c250e5c",
+      "bytes": 14615,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/__init__.py": {
+      "original_sha256": "83393ec7976570710cb91e177e719f914d61c672e0de34e52f77bfb62052f883",
+      "published_path": "src/qgraf_pipeline/__init__.py",
+      "published_sha256": "83393ec7976570710cb91e177e719f914d61c672e0de34e52f77bfb62052f883",
+      "bytes": 194,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/data/qcd_wl.mod": {
+      "original_sha256": "35291da516ebe170d89a3227194f67ee82f0820e29beef5466c755991d390d44",
+      "published_path": "src/qgraf_pipeline/data/qcd_wl.mod",
+      "published_sha256": "35291da516ebe170d89a3227194f67ee82f0820e29beef5466c755991d390d44",
+      "bytes": 711,
+      "byte_identical": true
+    },
+    "src/qgraf_pipeline/data/style.sty": {
+      "original_sha256": "6b41ecf0bc67caab8186c06a65ec8850a8dc9d288c682948c4edff0a91ea6c4b",
+      "published_path": "src/qgraf_pipeline/data/style.sty",
+      "published_sha256": "6b41ecf0bc67caab8186c06a65ec8850a8dc9d288c682948c4edff0a91ea6c4b",
+      "bytes": 383,
+      "byte_identical": true
+    }
+  },
+  "publication_adapters": [
+    {
+      "path": "src/qgraf_pipeline/cli.py",
+      "change": "Add opt-in --no-pdf to skip rendering only; default and all mathematical generation unchanged",
+      "original_sha256": "17e4c45f45e92413ecf3487e4c41cb68ea7e1f07243d38f65122b1c28490d2f8",
+      "published_sha256": "8ecfac87fc827590c7a90d7683cb9e32fdb2f214633bdb6ba3562e2dac6ef510",
+      "patch": "patches/no-pdf.patch",
+      "authorization": "Root integrator explicitly authorized this publication-only portability adapter; original source unchanged"
+    }
+  ],
+  "exclusions": [
+    {
+      "path": ".gitignore",
+      "reason": "outside reviewed source/tests/theory/metadata set"
+    },
+    {
+      "path": "CLAUDE.md",
+      "reason": "outside reviewed source/tests/theory/metadata set"
+    },
+    {
+      "path": "qgraf_paths.yaml",
+      "reason": "outside reviewed source/tests/theory/metadata set"
+    },
+    {
+      "path": ".pytest_cache/.gitignore",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".pytest_cache/CACHEDIR.TAG",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".pytest_cache/README.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".pytest_cache/v/cache/lastfailed",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".pytest_cache/v/cache/nodeids",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/.gitignore",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/progress.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/review-0af37bd..c04c640.diff",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/review-10ec0c7..23a7fc4.diff",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/review-10ec0c7..568e50c.diff",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/review-23a7fc4..0af37bd.diff",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/review-974704e..a7f1d76.diff",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/review-c04c640..974704e.diff",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-1-brief.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-1-report.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-2-brief.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-2-report.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-3-brief.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-3-report.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-4-brief.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-4-report.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-5-brief.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-5-report.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-6-brief.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-6-report.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-7-report.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": ".superpowers/sdd/task-8-report.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-22-combinatorial-generator.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-08-22-mixed-dispatch-fix.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-22-combinatorial-generator-design.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-08-22-mixed-dispatch-edge-distribution.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/1loop/diagrams.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/1loop/integrals.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/1loop/integrals.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/1loop/orbit_definitions.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/2loop/diagrams.aux",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/2loop/diagrams.log",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/2loop/diagrams.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/2loop/diagrams.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/2loop/integrals.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/2loop/integrals.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/2loop/orbit_definitions.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/diagrams.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/integrals.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/integrals.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/orbit_definitions.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/diagrams.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/integrals.json",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/integrals.md",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/1loop/pdfs/2e.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/1loop/pdfs/2e.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/2loop/pdfs/2e-Pi1.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/2loop/pdfs/2e-Pi1.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/2loop/pdfs/3e-3g.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/2loop/pdfs/3e-3g.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/2loop/pdfs/4e.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/2loop/pdfs/4e.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/2e-Pi1+Pi1.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/2e-Pi1+Pi1.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/2e-Pi2.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/2e-Pi2.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/3e-3g+Pi1.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/3e-3g+Pi1.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/3e-Gamma1.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/3e-Gamma1.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/4e-3g+3g.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/4e-3g+3g.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/4e-4g.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/4e-4g.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/4e-Pi1.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/4e-Pi1.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/5e-3g.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/5e-3g.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/6e.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/3loop/pdfs/6e.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/2e-Pi3.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/2e-Pi3.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/3e-Gamma2.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/3e-Gamma2.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/4e-3g+Gamma1.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/4e-3g+Gamma1.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/4e-L1N4.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/4e-L1N4.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/4e-Pi2.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/4e-Pi2.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/5e-3g+4g.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/5e-3g+4g.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/5e-Gamma1.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/5e-Gamma1.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/6e-3g+3g.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/6e-3g+3g.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/6e-4g.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/6e-4g.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/6e-Pi1.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/6e-Pi1.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/7e-3g.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/7e-3g.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/8e.pdf",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "outputs/4loop/pdfs/8e.tex",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline.egg-info/dependency_links.txt",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline.egg-info/entry_points.txt",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline.egg-info/PKG-INFO",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline.egg-info/SOURCES.txt",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline.egg-info/top_level.txt",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/classifier.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/cli.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/control_gen.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/definition_exporter.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/emitter.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/generator.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/internal_types.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/json_emitter.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/parser.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/pdf_emitter.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/qgraf_runner.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/recursion_audit.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/self_energy_chain.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/sign_rules.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/tgv_self_energy.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/tikz_emitter.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/topology.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "src/qgraf_pipeline/__pycache__/__init__.cpython-312.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    },
+    {
+      "path": "tests/__pycache__/test_generator.cpython-312-pytest-9.0.2.pyc",
+      "reason": "cache, local output, internal plan or installation metadata"
+    }
+  ],
+  "external_python_imports": {
+    "src": [],
+    "tests": [
+      "pytest"
+    ]
+  },
+  "external_programs": {
+    "optional_rendering": "pdflatex unless --no-pdf; optional QGRAF binary only for separately invoked native runner"
+  },
+  "historical_product_relationship": "Not inferred from shared package version, parent HEAD or matching directory name. Historical frozen graph/CJ products have separate source/byte manifests.",
+  "original_source_root_disclosed_publicly": false
+}

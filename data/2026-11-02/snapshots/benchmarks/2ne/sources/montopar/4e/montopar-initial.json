@@ -1,0 +1,920 @@
+{
+  "schema_version": "1.0",
+  "package_kind": "montopar-initial-integrals",
+  "loop_order": 2,
+  "emission_type": "4e",
+  "geometry": {
+    "n_lines": 4,
+    "line_vectors": [
+      "v1",
+      "v2",
+      "v3",
+      "v4"
+    ],
+    "lightlike": true,
+    "cross_ratios": [
+      {
+        "name": "z1",
+        "definition": "v34/v14"
+      }
+    ],
+    "reference_scale": "v14"
+  },
+  "orbits": [
+    {
+      "orbit_id": "4e-01",
+      "dispatch": "pure",
+      "topology": {
+        "vertices": [
+          {
+            "line": 3,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 3,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu3",
+            "color": "a3"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu4",
+            "color": "a4"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "mu3"
+            ],
+            "color": [
+              "a1",
+              "a3"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "mu4"
+            ],
+            "color": [
+              "a2",
+              "a4"
+            ]
+          }
+        ],
+        "internal_vertices": [],
+        "phases": [
+          {
+            "loop": "l1",
+            "expression": "(1-s31)*v3 + s41*v4"
+          },
+          {
+            "loop": "l2",
+            "expression": "(1-s32)*v3 + s42*v4"
+          }
+        ],
+        "bounds": [
+          {
+            "var": "s31",
+            "low": "0",
+            "high": "s32"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "s42"
+          },
+          {
+            "var": "s32",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s42",
+            "low": "0",
+            "high": "1"
+          }
+        ]
+      },
+      "c4_symmetry": {
+        "orbit_multiplicity": 4,
+        "stabilizer_order": 1,
+        "stabilizer_rotations": [
+          0
+        ]
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "identity"
+        },
+        "direct_opposite_edge_links": {
+          "definition": "direct_eikonal_to_eikonal_only",
+          "channels": {
+            "13": 0,
+            "24": 0
+          },
+          "channel_partition": [],
+          "structure": "1",
+          "total_order": 0
+        },
+        "symbol": "1"
+      },
+      "C": {
+        "components": {
+          "color": "-1/2*((CA - 2*CF)*CF)",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-eps]^2/(4*Pi^(2-eps))^2",
+          "v14_scale": "v14^2",
+          "i_factor": "I^4"
+        },
+        "combined": "(-1/2*((CA - 2*CF)*CF)) * ((4*Pi*alphaS)^2) * (Gamma[1-eps]^2/(4*Pi^(2-eps))^2) * ((-2*v14+I0)^(2*eps)) * ((-2)^(-2))"
+      },
+      "J": {
+        "integrand": "(z1^2) * (x1*x2) * f1^(-1+eps) * f2^(-1+eps)",
+        "expanded": "(z1^2) * (x1*x2) * (x2*x4*z1 - x1*x2*x3*x4*z1)^(-1+eps) * (x2*z1 - x1*x2*z1)^(-1+eps)",
+        "variables": [
+          "x1",
+          "x2",
+          "x3",
+          "x4"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ],
+          "x3": [
+            0,
+            1
+          ],
+          "x4": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {}
+      }
+    },
+    {
+      "orbit_id": "4e-02",
+      "dispatch": "pure",
+      "topology": {
+        "vertices": [
+          {
+            "line": 2,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 3,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu3",
+            "color": "a3"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu4",
+            "color": "a4"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "mu3"
+            ],
+            "color": [
+              "a1",
+              "a3"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "mu4"
+            ],
+            "color": [
+              "a2",
+              "a4"
+            ]
+          }
+        ],
+        "internal_vertices": [],
+        "phases": [
+          {
+            "loop": "l1",
+            "expression": "-((1-s41)*v4 + v1 + s21*v2)"
+          },
+          {
+            "loop": "l2",
+            "expression": "(1-s31)*v3 + s42*v4"
+          }
+        ],
+        "bounds": [
+          {
+            "var": "s21",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "s42"
+          },
+          {
+            "var": "s31",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s42",
+            "low": "0",
+            "high": "1"
+          }
+        ]
+      },
+      "c4_symmetry": {
+        "orbit_multiplicity": 4,
+        "stabilizer_order": 1,
+        "stabilizer_rotations": [
+          0
+        ]
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "identity"
+        },
+        "direct_opposite_edge_links": {
+          "definition": "direct_eikonal_to_eikonal_only",
+          "channels": {
+            "13": 0,
+            "24": 1
+          },
+          "channel_partition": [
+            1
+          ],
+          "structure": "L24",
+          "total_order": 1
+        },
+        "symbol": "L24"
+      },
+      "C": {
+        "components": {
+          "color": "-1/2*((CA - 2*CF)*CF)",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-eps]^2/(4*Pi^(2-eps))^2",
+          "v14_scale": "v14^2",
+          "i_factor": "I^4"
+        },
+        "combined": "(-1/2*((CA - 2*CF)*CF)) * ((4*Pi*alphaS)^2) * (Gamma[1-eps]^2/(4*Pi^(2-eps))^2) * ((-2*v14+I0)^(2*eps)) * ((-2)^(-2))"
+      },
+      "J": {
+        "integrand": "(-(1+z1)*z1) * (x3) * f1^(-1+eps) * f2^(-1+eps)",
+        "expanded": "(-(1+z1)*z1) * (x3) * (1 - x1 - x3*x4 + x1*x3*x4 + x1*x3*x4*z1)^(-1+eps) * (x3*z1 - x2*x3*z1)^(-1+eps)",
+        "variables": [
+          "x1",
+          "x2",
+          "x3",
+          "x4"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ],
+          "x3": [
+            0,
+            1
+          ],
+          "x4": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {}
+      }
+    },
+    {
+      "orbit_id": "4e-03",
+      "dispatch": "pure",
+      "topology": {
+        "vertices": [
+          {
+            "line": 2,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 3,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 3,
+            "lorentz": "mu3",
+            "color": "a3"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu4",
+            "color": "a4"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "mu3"
+            ],
+            "color": [
+              "a1",
+              "a3"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "mu4"
+            ],
+            "color": [
+              "a2",
+              "a4"
+            ]
+          }
+        ],
+        "internal_vertices": [],
+        "phases": [
+          {
+            "loop": "l1",
+            "expression": "(1-s21)*v2 + s32*v3"
+          },
+          {
+            "loop": "l2",
+            "expression": "(1-s31)*v3 + s41*v4"
+          }
+        ],
+        "bounds": [
+          {
+            "var": "s21",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s32",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s31",
+            "low": "0",
+            "high": "s32"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "1"
+          }
+        ]
+      },
+      "c4_symmetry": {
+        "orbit_multiplicity": 4,
+        "stabilizer_order": 1,
+        "stabilizer_rotations": [
+          0
+        ]
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "identity"
+        },
+        "direct_opposite_edge_links": {
+          "definition": "direct_eikonal_to_eikonal_only",
+          "channels": {
+            "13": 0,
+            "24": 0
+          },
+          "channel_partition": [],
+          "structure": "1",
+          "total_order": 0
+        },
+        "symbol": "1"
+      },
+      "C": {
+        "components": {
+          "color": "-1/2*((CA - 2*CF)*CF)",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-eps]^2/(4*Pi^(2-eps))^2",
+          "v14_scale": "v14^2",
+          "i_factor": "I^4"
+        },
+        "combined": "(-1/2*((CA - 2*CF)*CF)) * ((4*Pi*alphaS)^2) * (Gamma[1-eps]^2/(4*Pi^(2-eps))^2) * ((-2*v14+I0)^(2*eps)) * ((-2)^(-2))"
+      },
+      "J": {
+        "integrand": "(1*z1) * (x2) * f1^(-1+eps) * f2^(-1+eps)",
+        "expanded": "(1*z1) * (x2) * (x2 - x1*x2)^(-1+eps) * (x3*z1 - x2*x3*x4*z1)^(-1+eps)",
+        "variables": [
+          "x1",
+          "x2",
+          "x3",
+          "x4"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ],
+          "x3": [
+            0,
+            1
+          ],
+          "x4": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {}
+      }
+    },
+    {
+      "orbit_id": "4e-04",
+      "dispatch": "pure",
+      "topology": {
+        "vertices": [
+          {
+            "line": 2,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 2,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu3",
+            "color": "a3"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu4",
+            "color": "a4"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "mu3"
+            ],
+            "color": [
+              "a1",
+              "a3"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "mu4"
+            ],
+            "color": [
+              "a2",
+              "a4"
+            ]
+          }
+        ],
+        "internal_vertices": [],
+        "phases": [
+          {
+            "loop": "l1",
+            "expression": "-((1-s41)*v4 + v1 + s21*v2)"
+          },
+          {
+            "loop": "l2",
+            "expression": "-((1-s42)*v4 + v1 + s22*v2)"
+          }
+        ],
+        "bounds": [
+          {
+            "var": "s21",
+            "low": "0",
+            "high": "s22"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "s42"
+          },
+          {
+            "var": "s22",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s42",
+            "low": "0",
+            "high": "1"
+          }
+        ]
+      },
+      "c4_symmetry": {
+        "orbit_multiplicity": 2,
+        "stabilizer_order": 2,
+        "stabilizer_rotations": [
+          0,
+          2
+        ]
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "identity"
+        },
+        "direct_opposite_edge_links": {
+          "definition": "direct_eikonal_to_eikonal_only",
+          "channels": {
+            "13": 0,
+            "24": 2
+          },
+          "channel_partition": [
+            2
+          ],
+          "structure": "L24^2",
+          "total_order": 2
+        },
+        "symbol": "L24^2"
+      },
+      "C": {
+        "components": {
+          "color": "-1/2*((CA - 2*CF)*CF)",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-eps]^2/(4*Pi^(2-eps))^2",
+          "v14_scale": "v14^2",
+          "i_factor": "I^4"
+        },
+        "combined": "(-1/2*((CA - 2*CF)*CF)) * ((4*Pi*alphaS)^2) * (Gamma[1-eps]^2/(4*Pi^(2-eps))^2) * ((-2*v14+I0)^(2*eps)) * ((-2)^(-2))"
+      },
+      "J": {
+        "integrand": "((-(1+z1))^2) * (x1*x2) * f1^(-1+eps) * f2^(-1+eps)",
+        "expanded": "((-(1+z1))^2) * (x1*x2) * (1 - x1*x3 - x2*x4 + x1*x2*x3*x4 + x1*x2*x3*x4*z1)^(-1+eps) * (1 - x1 - x2 + x1*x2 + x1*x2*z1)^(-1+eps)",
+        "variables": [
+          "x1",
+          "x2",
+          "x3",
+          "x4"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ],
+          "x3": [
+            0,
+            1
+          ],
+          "x4": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {}
+      }
+    },
+    {
+      "orbit_id": "4e-05",
+      "dispatch": "pure",
+      "topology": {
+        "vertices": [
+          {
+            "line": 2,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 2,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 3,
+            "lorentz": "mu3",
+            "color": "a3"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu4",
+            "color": "a4"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "mu3"
+            ],
+            "color": [
+              "a1",
+              "a3"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "mu4"
+            ],
+            "color": [
+              "a2",
+              "a4"
+            ]
+          }
+        ],
+        "internal_vertices": [],
+        "phases": [
+          {
+            "loop": "l1",
+            "expression": "(1-s21)*v2 + s31*v3"
+          },
+          {
+            "loop": "l2",
+            "expression": "-((1-s41)*v4 + v1 + s22*v2)"
+          }
+        ],
+        "bounds": [
+          {
+            "var": "s21",
+            "low": "0",
+            "high": "s22"
+          },
+          {
+            "var": "s31",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s22",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "1"
+          }
+        ]
+      },
+      "c4_symmetry": {
+        "orbit_multiplicity": 4,
+        "stabilizer_order": 1,
+        "stabilizer_rotations": [
+          0
+        ]
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "identity"
+        },
+        "direct_opposite_edge_links": {
+          "definition": "direct_eikonal_to_eikonal_only",
+          "channels": {
+            "13": 0,
+            "24": 1
+          },
+          "channel_partition": [
+            1
+          ],
+          "structure": "L24",
+          "total_order": 1
+        },
+        "symbol": "L24"
+      },
+      "C": {
+        "components": {
+          "color": "-1/2*((CA - 2*CF)*CF)",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-eps]^2/(4*Pi^(2-eps))^2",
+          "v14_scale": "v14^2",
+          "i_factor": "I^4"
+        },
+        "combined": "(-1/2*((CA - 2*CF)*CF)) * ((4*Pi*alphaS)^2) * (Gamma[1-eps]^2/(4*Pi^(2-eps))^2) * ((-2*v14+I0)^(2*eps)) * ((-2)^(-2))"
+      },
+      "J": {
+        "integrand": "(-(1+z1)*1) * (x2) * f1^(-1+eps) * f2^(-1+eps)",
+        "expanded": "(-(1+z1)*1) * (x2) * (x1 - x1*x2*x4)^(-1+eps) * (1 - x2 - x3 + x2*x3 + x2*x3*z1)^(-1+eps)",
+        "variables": [
+          "x1",
+          "x2",
+          "x3",
+          "x4"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ],
+          "x3": [
+            0,
+            1
+          ],
+          "x4": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {}
+      }
+    },
+    {
+      "orbit_id": "4e-06",
+      "dispatch": "pure",
+      "topology": {
+        "vertices": [
+          {
+            "line": 1,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 2,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 3,
+            "lorentz": "mu3",
+            "color": "a3"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu4",
+            "color": "a4"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "mu3"
+            ],
+            "color": [
+              "a1",
+              "a3"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "mu4"
+            ],
+            "color": [
+              "a2",
+              "a4"
+            ]
+          }
+        ],
+        "internal_vertices": [],
+        "phases": [
+          {
+            "loop": "l1",
+            "expression": "-((1-s31)*v3 + v4 + s11*v1)"
+          },
+          {
+            "loop": "l2",
+            "expression": "-((1-s41)*v4 + v1 + s21*v2)"
+          }
+        ],
+        "bounds": [
+          {
+            "var": "s11",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s31",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s21",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "1"
+          }
+        ]
+      },
+      "c4_symmetry": {
+        "orbit_multiplicity": 1,
+        "stabilizer_order": 4,
+        "stabilizer_rotations": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "identity"
+        },
+        "direct_opposite_edge_links": {
+          "definition": "direct_eikonal_to_eikonal_only",
+          "channels": {
+            "13": 1,
+            "24": 1
+          },
+          "channel_partition": [
+            1,
+            1
+          ],
+          "structure": "L13 × L24",
+          "total_order": 2
+        },
+        "symbol": "L13 × L24"
+      },
+      "C": {
+        "components": {
+          "color": "-1/2*((CA - 2*CF)*CF)",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-eps]^2/(4*Pi^(2-eps))^2",
+          "v14_scale": "v14^2",
+          "i_factor": "I^4"
+        },
+        "combined": "(-1/2*((CA - 2*CF)*CF)) * ((4*Pi*alphaS)^2) * (Gamma[1-eps]^2/(4*Pi^(2-eps))^2) * ((-2*v14+I0)^(2*eps)) * ((-2)^(-2))"
+      },
+      "J": {
+        "integrand": "((-(1+z1))^2) * (1) * f1^(-1+eps) * f2^(-1+eps)",
+        "expanded": "((-(1+z1))^2) * (1) * (z1 - x1*z1 + x1*x2 - x2*z1 + x1*x2*z1)^(-1+eps) * (1 - x3 - x4 + x3*x4 + x3*x4*z1)^(-1+eps)",
+        "variables": [
+          "x1",
+          "x2",
+          "x3",
+          "x4"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ],
+          "x3": [
+            0,
+            1
+          ],
+          "x4": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "format": "wilson-upstream-integral-input-index/1",
+  "path_base": "data/2026-11-02",
+  "stable_id": "L3/4e-4g-06",
+  "orbit_id": "4e-4g-06",
+  "loop_order": 3,
+  "family": "4e-4g",
+  "graph_definition": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+    "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+    "json_pointer": "/orbits/51",
+    "field_sha256": "8974c736fdddf9219d03dcf9084719f1c93ccc5a107a3a1271f10a3aea4a04ea",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "graph_catalogue": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/integrals.json",
+    "sha256": "fbc406891bb8eeef30b3912dc140972a1ddc23994105e62997a19d393a5813ea",
+    "json_pointer": "/orbits/51",
+    "field_sha256": "8ce231781ca524af93b0d02e58e0881cfc16d648b38146f2dc46ae6a56450291",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "graph_summary": {
+    "orbit_id": "4e-4g-06",
+    "emission_type": "4e-4g",
+    "category": "tree",
+    "edge_counts": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "eikonal_count": 4,
+    "g_power": 6,
+    "n_diagrams": 1,
+    "wl_wl_pairs": 0,
+    "mirror_relation": "self-mirror",
+    "mirror_of": null,
+    "is_2pi": true,
+    "reducible_to": [],
+    "diagram_indices": [
+      556
+    ]
+  },
+  "prepared_inputs": [
+    {
+      "snapshot_role": "historical_FGV_cube_prepared_snapshot",
+      "normalization_note": "Existing family-specific prepared input uses its declared unit-cube order/Jacobian. It is not relabelled as an original ordered-s root or an updated physical-sign version.",
+      "orbit": {
+        "path": "snapshots/benchmarks/fgv/4e-4g/prepared/f4-r001.json",
+        "sha256": "47c10217aedb7d12506974f07f8bff2f46069305816257000e74c874eb1e1529",
+        "json_pointer": "/orbits/0",
+        "field_sha256": "14f35fb70f91f861c7c07b1aea1fc368826f8bbc9259fcc6000f9f96f3683241",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "C": {
+        "path": "snapshots/benchmarks/fgv/4e-4g/prepared/f4-r001.json",
+        "sha256": "47c10217aedb7d12506974f07f8bff2f46069305816257000e74c874eb1e1529",
+        "json_pointer": "/orbits/0/C",
+        "field_sha256": "65555312e948c7ecfda88e43044f1779551b32b849d70db6b92cf2589a6ace12",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "J": {
+        "path": "snapshots/benchmarks/fgv/4e-4g/prepared/f4-r001.json",
+        "sha256": "47c10217aedb7d12506974f07f8bff2f46069305816257000e74c874eb1e1529",
+        "json_pointer": "/orbits/0/J",
+        "field_sha256": "4fe0fa7adddd4239086bf50b74fe1e49c90d8ab62450bc5ba1a08e5d84616eb6",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "declared_domain": {
+        "representation": "unit_cube",
+        "variables": [
+          "x1",
+          "x2",
+          "x3",
+          "x4"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ],
+          "x3": [
+            0,
+            1
+          ],
+          "x4": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3+alpha4": "1"
+        },
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3",
+          "alpha4"
+        ],
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4"
+          ],
+          "constraint": "alpha1+alpha2+alpha3+alpha4=1",
+          "nonnegative_variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4"
+          ],
+          "independent_variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "substitution": {
+            "alpha4": "1-alpha1-alpha2-alpha3"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ],
+            "alpha3": [
+              "0",
+              "1-alpha1-alpha2"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "jacobian": "1",
+          "weight_location": "integrand"
+        },
+        "declared_order": [
+          "x1",
+          "x2",
+          "x3",
+          "x4"
+        ],
+        "declared_order_field": "iterated_order_outer_to_inner",
+        "available": true,
+        "no_order_permutation_performed": true
+      },
+      "whole_package_format": "wilson-fgv-calculation-input/1",
+      "package_I_definition": "I=Exp[-3*EulerGamma*eps]*Gamma[2-3*eps]/8*(J(z,eps)+z^(3*eps)*J(1/z,eps))/(1+z^(3*eps))",
+      "not_new_integral_evaluation": true
+    }
+  ],
+  "raw_kernels": [
+    {
+      "role": "J",
+      "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-4g/montopar-initial.json",
+      "sha256": "f0966697b6e41b2d266deaf3c55ca366c87b8d417c5a9d9c4d6d45a172e43222",
+      "json_pointer": "/orbits/5/J",
+      "field_sha256": "4fe0fa7adddd4239086bf50b74fe1e49c90d8ab62450bc5ba1a08e5d84616eb6",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false",
+      "declared_domain": {
+        "representation": "unit_cube",
+        "variables": [
+          "x1",
+          "x2",
+          "x3",
+          "x4"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ],
+          "x3": [
+            0,
+            1
+          ],
+          "x4": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3+alpha4": "1"
+        },
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3",
+          "alpha4"
+        ],
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4"
+          ],
+          "constraint": "alpha1+alpha2+alpha3+alpha4=1",
+          "nonnegative_variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4"
+          ],
+          "independent_variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "substitution": {
+            "alpha4": "1-alpha1-alpha2-alpha3"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ],
+            "alpha3": [
+              "0",
+              "1-alpha1-alpha2"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "jacobian": "1",
+          "weight_location": "integrand"
+        },
+        "declared_order": [
+          "x1",
+          "x2",
+          "x3",
+          "x4"
+        ],
+        "declared_order_field": "iterated_order_outer_to_inner",
+        "available": true,
+        "no_order_permutation_performed": true
+      }
+    },
+    {
+      "role": "J_raw_s",
+      "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-4g/montopar-initial.json",
+      "sha256": "f0966697b6e41b2d266deaf3c55ca366c87b8d417c5a9d9c4d6d45a172e43222",
+      "json_pointer": "/orbits/5/J_raw_s",
+      "field_sha256": "174dac6b78e19db7bbc0df5ca375591e2019dde7ac0aef732e1756adeb4d30b5",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false",
+      "declared_domain": {
+        "representation": "ordered_s",
+        "variables": [
+          "s21",
+          "s31",
+          "s32",
+          "s41"
+        ],
+        "bounds": {
+          "s21": [
+            "0",
+            "1"
+          ],
+          "s31": [
+            "0",
+            "s32"
+          ],
+          "s32": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "1"
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3+alpha4": "1"
+        },
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3",
+          "alpha4"
+        ],
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4"
+          ],
+          "constraint": "alpha1+alpha2+alpha3+alpha4=1",
+          "nonnegative_variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4"
+          ],
+          "independent_variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "substitution": {
+            "alpha4": "1-alpha1-alpha2-alpha3"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ],
+            "alpha3": [
+              "0",
+              "1-alpha1-alpha2"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "jacobian": "1",
+          "weight_location": "integrand"
+        },
+        "declared_order": [
+          "s21",
+          "s32",
+          "s31",
+          "s41"
+        ],
+        "declared_order_field": "iterated_order_outer_to_inner",
+        "available": true,
+        "no_order_permutation_performed": true
+      }
+    }
+  ],
+  "joint_four_leg_object": "I2334",
+  "native_raw_orbit": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-4g/montopar-initial.json",
+    "sha256": "f0966697b6e41b2d266deaf3c55ca366c87b8d417c5a9d9c4d6d45a172e43222",
+    "json_pointer": "/orbits/5",
+    "field_sha256": "819493832c8e4c02afcca95af70bec34ee0c452678ca9ddfc4d33989d217d924",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "raw_C": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-4g/montopar-initial.json",
+    "sha256": "f0966697b6e41b2d266deaf3c55ca366c87b8d417c5a9d9c4d6d45a172e43222",
+    "json_pointer": "/orbits/5/C",
+    "field_sha256": "7e2d4fc47d97907aae7f60cfca3a33987c5f3406778428dd35487bce7c608d78",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "geometry": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-4g/montopar-initial.json",
+    "sha256": "f0966697b6e41b2d266deaf3c55ca366c87b8d417c5a9d9c4d6d45a172e43222",
+    "json_pointer": "/geometry",
+    "field_sha256": "15274c8ef3116dc4205ff92b6626cdad350a138bead45668a75e4d51936b778c",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "native_package_schema_version": "1.2",
+  "physical_convention": {
+    "id": "wilson-qcd-action-path-fourier/1.0",
+    "wilson_transport": "U'=ig*A*U",
+    "wilson_word": [
+      "a4",
+      "a3",
+      "a2",
+      "a1"
+    ],
+    "chronological_word": [
+      "a1",
+      "a2",
+      "a3",
+      "a4"
+    ],
+    "vertex_labels_unchanged": true,
+    "momentum_Fourier": "exp(-ipX)",
+    "momentum_Wick": "I",
+    "coordinate_Wick": "-I",
+    "one_pi_includes_internal_loop_signs": true,
+    "Dyson_external_coefficient": 1,
+    "raw_Euler_count": 0
+  },
+  "c4_symmetry": {
+    "orbit_multiplicity": 4,
+    "stabilizer_order": 1,
+    "stabilizer_rotations": [
+      0
+    ]
+  },
+  "source_normalization": {
+    "scheme": "montopar-raw-CJ",
+    "loop_order": 3,
+    "euler_compensation_count": 0,
+    "color_projection": "none",
+    "color_trace": "normalized fundamental SU(N) trace",
+    "orbit_multiplicity_included": false,
+    "crossing_assembled": false,
+    "note": "Euler compensation and physical I assembly belong to downstream preparation"
+  },
+  "color_factor_components": {
+    "color": "CA^2*CF"
+  },
+  "color_channels": null,
+  "C_component_semantics": "multiplicative",
+  "zero_declarations": {
+    "J.physical_zero": false,
+    "J_raw_s.physical_zero": false
+  },
+  "native_production_connection": {
+    "receipt": {
+      "path": "snapshots/workflow/checks/shared-sign-production/native-check.json",
+      "sha256": "c9ebb9c69f70b75ce82a2fb29a8b6daf15f85c004ee050f453c5565c2314b65b"
+    },
+    "record": {
+      "orbit_id": "4e-4g-06",
+      "C_residual": "0",
+      "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+      "native_package": "workflow/checks/shared-sign-production/generated/montopar/3loop/4e-4g/montopar-initial.json",
+      "legacy_C_ratio": -1,
+      "J_connection": "same mathematical blocks"
+    },
+    "rerun_in_this_publication": false
+  },
+  "raw_snapshot_stage": "frozen native-sign production snapshot, adopted for input publication",
+  "source_operator_kind": "4v",
+  "historical_graph_definitions": [
+    {
+      "path": "snapshots/workflow/checks/w3-p0/sources/qgraf/3loop/orbit_definitions.json",
+      "sha256": "d1227d1e3756bc8678013535b85b206442dc06aab706ef46f2e5e1dbb4d1564e",
+      "json_pointer": "/orbits/51",
+      "field_sha256": "1be21fc698b2f46e6ea1d2c9712b8cc183a41359fc0c97dcc18e7cc5ff31ddc3",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+    }
+  ],
+  "historical_evaluation_labels": {
+    "evaluation_status": "not_evaluated",
+    "formal": "not_run"
+  },
+  "archival_calculation_sources": [
+    {
+      "orbit": {
+        "path": "snapshots/benchmarks/fgv/4e-4g/sources/montopar-r001.json",
+        "sha256": "f7a86fb1e0e3fcf41ce6f3aca684faf01d40379bb24690f30dd81a4030efe9ff",
+        "json_pointer": "/orbits/5",
+        "field_sha256": "6d9cc6fa8a982e82752db585894784c507bfe7aaf1ea55eaae59e9cd077dd81e",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "contains_CJ": true,
+      "revision_label": "montopar-r001",
+      "sign_convention": null,
+      "scope": "Byte-preserved source used by historical mathematical calculations. Its own C/J convention and source bindings remain authoritative; not silently substituted for or identified with the adopted native-sign snapshot."
+    },
+    {
+      "orbit": {
+        "path": "snapshots/benchmarks/fgv/4e-4g/sources/montopar-r002.json",
+        "sha256": "824e543d9e98a4f37f89f86f1382597644804e6dc70df9781f5e99ded1ed5834",
+        "json_pointer": "/orbits/5",
+        "field_sha256": "819493832c8e4c02afcca95af70bec34ee0c452678ca9ddfc4d33989d217d924",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "contains_CJ": true,
+      "revision_label": "montopar-r002",
+      "sign_convention": null,
+      "scope": "Byte-preserved source used by historical mathematical calculations. Its own C/J convention and source bindings remain authoritative; not silently substituted for or identified with the adopted native-sign snapshot."
+    }
+  ],
+  "input_path": "integrals/3loop/4e-4g-06/input.json",
+  "readme_path": "integrals/3loop/4e-4g-06/README.md",
+  "stage_scope": {
+    "graph_and_raw_CJ": "exported from byte-preserved frozen payloads",
+    "prepared_input": "available",
+    "Laurent_tables": "not exported in this upstream-only batch",
+    "new_Laurent_derivation": "not run",
+    "formal": "not_run"
+  }
+}

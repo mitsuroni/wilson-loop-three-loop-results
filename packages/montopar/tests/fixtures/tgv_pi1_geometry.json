@@ -1,0 +1,434 @@
+[
+  {
+    "orbit_id": "3e-3g+Pi1-01",
+    "marked_leg": 3,
+    "s_aliases": [
+      "s31",
+      "s41",
+      "s42"
+    ],
+    "original_bounds": [
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "s42"
+      },
+      {
+        "var": "s42",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "original_order": [
+      "s31",
+      "s42",
+      "s41"
+    ],
+    "q": "-a*z*(s1 - 1)*(-a*s3 + b*s2 - b*s3 + s3)",
+    "L": "a*z**2*(s1 - 1)*(a + 2*b - 1)/4",
+    "E": "-a*z**2*(s1 - 1)*(2*a*e - 5*a - 2*b*e + 2*b)/4",
+    "F": "a**2*z**3*(s1 - 1)**2*(-a**2*s3 + a*b*s2 + a*s3 - b**2*s2 + b**2*s3)/8",
+    "status": "audit_fixture_not_montopar_output"
+  },
+  {
+    "orbit_id": "3e-3g+Pi1-02",
+    "marked_leg": 2,
+    "s_aliases": [
+      "s31",
+      "s41",
+      "s42"
+    ],
+    "original_bounds": [
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "s42"
+      },
+      {
+        "var": "s42",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "original_order": [
+      "s31",
+      "s42",
+      "s41"
+    ],
+    "q": "-a*z*(s1 - 1)*(-a*s3 + b*s2 - b*s3 + s3)",
+    "L": "a*z**2*(s1 - 1)*(a + 2*b - 1)/4",
+    "E": "a*z**2*(s1 - 1)*(4*a*e - 7*a + 2*b*e - 2*b - 2*e + 2)/4",
+    "F": "-a**2*z**3*(s1 - 1)**2*(-2*a**2*s3 + 2*a*b*s2 - 3*a*b*s3 - a*s2 + 3*a*s3 + b**2*s2 - b**2*s3 - 2*b*s2 + 2*b*s3 + s2 - s3)/8",
+    "status": "audit_fixture_not_montopar_output"
+  },
+  {
+    "orbit_id": "3e-3g+Pi1-03",
+    "marked_leg": 1,
+    "s_aliases": [
+      "s31",
+      "s41",
+      "s42"
+    ],
+    "original_bounds": [
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "s42"
+      },
+      {
+        "var": "s42",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "original_order": [
+      "s31",
+      "s42",
+      "s41"
+    ],
+    "q": "-a*z*(s1 - 1)*(-a*s3 + b*s2 - b*s3 + s3)",
+    "L": "a*z**2*(s1 - 1)*(a + 2*b - 1)/4",
+    "E": "-z**2*(a - 1)*(s1 - 1)*(a + 2*b - 1)/4",
+    "F": "-a*z**3*(a - 1)*(s1 - 1)**2*(a + 2*b - 1)*(-a*s3 + b*s2 - b*s3 + s3)/8",
+    "status": "audit_fixture_not_montopar_output"
+  },
+  {
+    "orbit_id": "3e-3g+Pi1-04",
+    "marked_leg": 3,
+    "s_aliases": [
+      "s31",
+      "s32",
+      "s41"
+    ],
+    "original_bounds": [
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "s32"
+      },
+      {
+        "var": "s32",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "original_order": [
+      "s32",
+      "s31",
+      "s41"
+    ],
+    "q": "s3*z*(a + b - 1)*(a*s1 - a + b*s2 - b)",
+    "L": "-s3*z**2*(a - b)*(a + b - 1)/4",
+    "E": "s3*z**2*(a - b)*(a + b)/4",
+    "F": "-s3**2*z**3*(a - b)*(a + b)*(a + b - 1)*(a*s1 - a + b*s2 - b)/8",
+    "status": "audit_fixture_not_montopar_output"
+  },
+  {
+    "orbit_id": "3e-3g+Pi1-05",
+    "marked_leg": 2,
+    "s_aliases": [
+      "s31",
+      "s32",
+      "s41"
+    ],
+    "original_bounds": [
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "s32"
+      },
+      {
+        "var": "s32",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "original_order": [
+      "s32",
+      "s31",
+      "s41"
+    ],
+    "q": "s3*z*(a + b - 1)*(a*s1 - a + b*s2 - b)",
+    "L": "-s3*z**2*(a - b)*(a + b - 1)/4",
+    "E": "-s3*z**2*(a + b - 1)*(4*a*e - 7*a + 2*b*e - 5*b - 2*e + 5)/4",
+    "F": "-s3**2*z**3*(a + b - 1)**2*(2*a**2*s1 - 2*a**2 + a*b*s1 + 2*a*b*s2 - 3*a*b - a*s1 - a*s2 + 2*a + b**2*s2 - b**2 - b*s2 + b)/8",
+    "status": "audit_fixture_not_montopar_output"
+  },
+  {
+    "orbit_id": "3e-3g+Pi1-06",
+    "marked_leg": 1,
+    "s_aliases": [
+      "s31",
+      "s32",
+      "s41"
+    ],
+    "original_bounds": [
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "s32"
+      },
+      {
+        "var": "s32",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "original_order": [
+      "s32",
+      "s31",
+      "s41"
+    ],
+    "q": "s3*z*(a + b - 1)*(a*s1 - a + b*s2 - b)",
+    "L": "-s3*z**2*(a - b)*(a + b - 1)/4",
+    "E": "s3*z**2*(a + b - 1)*(2*a*e - 5*a + 4*b*e - 7*b - 2*e + 5)/4",
+    "F": "s3**2*z**3*(a + b - 1)**2*(a**2*s1 - a**2 + 2*a*b*s1 + a*b*s2 - 3*a*b - a*s1 + a + 2*b**2*s2 - 2*b**2 - b*s1 - b*s2 + 2*b)/8",
+    "status": "audit_fixture_not_montopar_output"
+  },
+  {
+    "orbit_id": "3e-3g+Pi1-07",
+    "marked_leg": 3,
+    "s_aliases": [
+      "s21",
+      "s41",
+      "s42"
+    ],
+    "original_bounds": [
+      {
+        "var": "s21",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "s42"
+      },
+      {
+        "var": "s42",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "original_order": [
+      "s21",
+      "s42",
+      "s41"
+    ],
+    "q": "a*(-a*s1*s3*z - a*s1*s3 + a*s1 + a*s3 - a + b*s1*s2*z + b*s1*s2 - b*s1*s3*z - b*s1*s3 - b*s2 + b*s3 + s1*s3*z + s1*s3 - s1 - s3 + 1)",
+    "L": "a*(z + 1)*(a + 2*b - 1)*(s1*z + s1 - 1)/4",
+    "E": "-a*(z + 1)*(s1*z + s1 - 1)*(2*a*e - 5*a - 2*b*e + 2*b)/4",
+    "F": "-a**2*(s1*z + s1 - 1)*(-a**2*s1*s3*z**2 - 2*a**2*s1*s3*z - a**2*s1*s3 + a**2*s1*z + a**2*s1 + a**2*s3*z + a**2*s3 - 2*a**2*z - a**2 + a*b*s1*s2*z**2 + 2*a*b*s1*s2*z + a*b*s1*s2 - a*b*s1*z - a*b*s1 - a*b*s2*z - a*b*s2 + 2*a*b*z + a*b + a*s1*s3*z**2 + 2*a*s1*s3*z + a*s1*s3 - a*s1*z - a*s1 - a*s3*z - a*s3 + 2*a*z + a - b**2*s1*s2*z**2 - 2*b**2*s1*s2*z - b**2*s1*s2 + b**2*s1*s3*z**2 + 2*b**2*s1*s3*z + b**2*s1*s3 + b**2*s2*z + b**2*s2 - b**2*s3*z - b**2*s3)/8",
+    "status": "audit_fixture_not_montopar_output"
+  },
+  {
+    "orbit_id": "3e-3g+Pi1-08",
+    "marked_leg": 2,
+    "s_aliases": [
+      "s21",
+      "s41",
+      "s42"
+    ],
+    "original_bounds": [
+      {
+        "var": "s21",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "s42"
+      },
+      {
+        "var": "s42",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "original_order": [
+      "s21",
+      "s42",
+      "s41"
+    ],
+    "q": "a*(-a*s1*s3*z - a*s1*s3 + a*s1 + a*s3 - a + b*s1*s2*z + b*s1*s2 - b*s1*s3*z - b*s1*s3 - b*s2 + b*s3 + s1*s3*z + s1*s3 - s1 - s3 + 1)",
+    "L": "a*(z + 1)*(a + 2*b - 1)*(s1*z + s1 - 1)/4",
+    "E": "a*(z + 1)*(s1*z + s1 - 1)*(4*a*e - 7*a + 2*b*e - 2*b - 2*e + 2)/4",
+    "F": "a**2*(s1*z + s1 - 1)*(-2*a**2*s1*s3*z**2 - 4*a**2*s1*s3*z - 2*a**2*s1*s3 + 2*a**2*s1*z + 2*a**2*s1 + 2*a**2*s3*z + 2*a**2*s3 - 4*a**2*z - 2*a**2 + 2*a*b*s1*s2*z**2 + 4*a*b*s1*s2*z + 2*a*b*s1*s2 - 3*a*b*s1*s3*z**2 - 6*a*b*s1*s3*z - 3*a*b*s1*s3 + a*b*s1*z + a*b*s1 - 2*a*b*s2*z - 2*a*b*s2 + 3*a*b*s3*z + 3*a*b*s3 - 2*a*b*z - a*b - a*s1*s2*z**2 - 2*a*s1*s2*z - a*s1*s2 + 3*a*s1*s3*z**2 + 6*a*s1*s3*z + 3*a*s1*s3 - 2*a*s1*z - 2*a*s1 + a*s2*z + a*s2 - 3*a*s3*z - 3*a*s3 + 4*a*z + 2*a + b**2*s1*s2*z**2 + 2*b**2*s1*s2*z + b**2*s1*s2 - b**2*s1*s3*z**2 - 2*b**2*s1*s3*z - b**2*s1*s3 - b**2*s2*z - b**2*s2 + b**2*s3*z + b**2*s3 - 2*b*s1*s2*z**2 - 4*b*s1*s2*z - 2*b*s1*s2 + 2*b*s1*s3*z**2 + 4*b*s1*s3*z + 2*b*s1*s3 + 2*b*s2*z + 2*b*s2 - 2*b*s3*z - 2*b*s3 + s1*s2*z**2 + 2*s1*s2*z + s1*s2 - s1*s3*z**2 - 2*s1*s3*z - s1*s3 - s2*z - s2 + s3*z + s3)/8",
+    "status": "audit_fixture_not_montopar_output"
+  },
+  {
+    "orbit_id": "3e-3g+Pi1-09",
+    "marked_leg": 1,
+    "s_aliases": [
+      "s21",
+      "s41",
+      "s42"
+    ],
+    "original_bounds": [
+      {
+        "var": "s21",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "s42"
+      },
+      {
+        "var": "s42",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "original_order": [
+      "s21",
+      "s42",
+      "s41"
+    ],
+    "q": "a*(-a*s1*s3*z - a*s1*s3 + a*s1 + a*s3 - a + b*s1*s2*z + b*s1*s2 - b*s1*s3*z - b*s1*s3 - b*s2 + b*s3 + s1*s3*z + s1*s3 - s1 - s3 + 1)",
+    "L": "a*(z + 1)*(a + 2*b - 1)*(s1*z + s1 - 1)/4",
+    "E": "-(a - 1)*(z + 1)*(a + 2*b - 1)*(s1*z + s1 - 1)/4",
+    "F": "a*(a - 1)*(a + 2*b - 1)*(s1*z + s1 - 1)**2*(-a*s3*z - a*s3 + a + b*s2*z + b*s2 - b*s3*z - b*s3 + s3*z + s3 - 1)/8",
+    "status": "audit_fixture_not_montopar_output"
+  },
+  {
+    "orbit_id": "3e-3g+Pi1-10",
+    "marked_leg": 3,
+    "s_aliases": [
+      "s21",
+      "s31",
+      "s41"
+    ],
+    "original_bounds": [
+      {
+        "var": "s21",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "original_order": [
+      "s21",
+      "s31",
+      "s41"
+    ],
+    "q": "-a**2*s1*s3*z - a**2*s1*s3 + a**2*s1 + a**2*s3 - a**2 - a*b*s1*s2 - a*b*s1*s3*z - a*b*s1*s3 + a*b*s1 + a*b*s2*s3*z + a*b*s2 - a*b*s3*z + a*b*s3 - a*b + a*s1*s3*z + a*s1*s3 - a*s1 - a*s3 + a + b**2*s2*s3*z - b**2*s3*z - b*s2*s3*z + b*s3*z",
+    "L": "(-a**2*s1*z - a**2*s1 + a**2*s3*z**2 + a**2*s3*z + 3*a**2*z + a**2 - 2*a*b*s1*z - 2*a*b*s1 - 2*a*b*s2*z + 5*a*b*z + 2*a*b + a*s1*z + a*s1 - a*s3*z**2 - a*s3*z - 3*a*z - a - b**2*s2*z - b**2*s3*z**2 - b**2*s3*z + b**2*z + b*s2*z + b*s3*z**2 + b*s3*z - b*z)/4",
+    "E": "-(-2*a**2*e*s1*z - 2*a**2*e*s1 + 2*a**2*e + 5*a**2*s1*z + 5*a**2*s1 + a**2*s3*z**2 + a**2*s3*z - 3*a**2*z - 5*a**2 + 2*a*b*e*s1*z + 2*a*b*e*s1 + 2*a*b*e*s2*z - 2*a*b*e*z - 2*a*b*e - 2*a*b*s1*z - 2*a*b*s1 - 2*a*b*s2*z - a*b*z + 2*a*b - 2*b**2*e*s2*z + 2*b**2*e*z + 5*b**2*s2*z - b**2*s3*z**2 - b**2*s3*z - 5*b**2*z)/4",
+    "F": "-(a*s1*z + a*s1 - a - b*s2*z + b*z)*(a**3*s1*s3*z + a**3*s1*s3 - a**3*s1 + a**3*s3**2*z**2 + a**3*s3**2*z - a**3*s3 + a**3 + a**2*b*s1*s2 - a**2*b*s2*s3*z - a**2*b*s2 + a**2*b*s3**2*z**2 + a**2*b*s3**2*z + a**2*b*s3*z - a**2*s1*s3*z - a**2*s1*s3 + a**2*s1 - a**2*s3**2*z**2 - a**2*s3**2*z + a**2*s3 - a**2 - a*b**2*s1*s2 - a*b**2*s1*s3*z - a*b**2*s1*s3 + a*b**2*s1 + a*b**2*s2 - a*b**2*s3**2*z**2 - a*b**2*s3**2*z + a*b**2*s3 - a*b**2 + b**3*s2*s3*z - b**3*s3**2*z**2 - b**3*s3**2*z - b**3*s3*z - b**2*s2*s3*z + b**2*s3**2*z**2 + b**2*s3**2*z + b**2*s3*z)/8",
+    "status": "audit_fixture_not_montopar_output"
+  },
+  {
+    "orbit_id": "3e-3g+Pi1-11",
+    "marked_leg": 2,
+    "s_aliases": [
+      "s21",
+      "s31",
+      "s41"
+    ],
+    "original_bounds": [
+      {
+        "var": "s21",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "original_order": [
+      "s21",
+      "s31",
+      "s41"
+    ],
+    "q": "-a**2*s1*s3*z - a**2*s1*s3 + a**2*s1 + a**2*s3 - a**2 - a*b*s1*s2 - a*b*s1*s3*z - a*b*s1*s3 + a*b*s1 + a*b*s2*s3*z + a*b*s2 - a*b*s3*z + a*b*s3 - a*b + a*s1*s3*z + a*s1*s3 - a*s1 - a*s3 + a + b**2*s2*s3*z - b**2*s3*z - b*s2*s3*z + b*s3*z",
+    "L": "(-a**2*s1*z - a**2*s1 + a**2*s3*z**2 + a**2*s3*z + 3*a**2*z + a**2 - 2*a*b*s1*z - 2*a*b*s1 - 2*a*b*s2*z + 5*a*b*z + 2*a*b + a*s1*z + a*s1 - a*s3*z**2 - a*s3*z - 3*a*z - a - b**2*s2*z - b**2*s3*z**2 - b**2*s3*z + b**2*z + b*s2*z + b*s3*z**2 + b*s3*z - b*z)/4",
+    "E": "(-4*a**2*e*s1*z - 4*a**2*e*s1 + 4*a**2*e*s3*z**2 + 4*a**2*e*s3*z + 4*a**2*e*z + 4*a**2*e + 7*a**2*s1*z + 7*a**2*s1 - 7*a**2*s3*z**2 - 7*a**2*s3*z - 9*a**2*z - 7*a**2 - 2*a*b*e*s1*z - 2*a*b*e*s1 + 6*a*b*e*s3*z**2 + 6*a*b*e*s3*z + 2*a*b*e*z + 2*a*b*e + 2*a*b*s1*z + 2*a*b*s1 + 2*a*b*s2*z - 12*a*b*s3*z**2 - 12*a*b*s3*z - 5*a*b*z - 2*a*b + 2*a*e*s1*z + 2*a*e*s1 - 6*a*e*s3*z**2 - 6*a*e*s3*z - 2*a*e*z - 2*a*e - 2*a*s1*z - 2*a*s1 - 2*a*s2*z + 12*a*s3*z**2 + 12*a*s3*z + 5*a*z + 2*a + 2*b**2*e*s3*z**2 + 2*b**2*e*s3*z + b**2*s2*z - 5*b**2*s3*z**2 - 5*b**2*s3*z - b**2*z - 4*b*e*s3*z**2 - 4*b*e*s3*z - 2*b*s2*z + 10*b*s3*z**2 + 10*b*s3*z + 2*b*z + 2*e*s3*z**2 + 2*e*s3*z + s2*z - 5*s3*z**2 - 5*s3*z - z)/4",
+    "F": "-(-a*s1 + a*s3*z + a + b*s3*z - s3*z)*(2*a**3*s1*s3*z**2 + 4*a**3*s1*s3*z + 2*a**3*s1*s3 - 2*a**3*s1*z - 2*a**3*s1 - 2*a**3*s3*z - 2*a**3*s3 + 4*a**3*z + 2*a**3 + 2*a**2*b*s1*s2*z + 2*a**2*b*s1*s2 + 3*a**2*b*s1*s3*z**2 + 6*a**2*b*s1*s3*z + 3*a**2*b*s1*s3 - 3*a**2*b*s1*z - 3*a**2*b*s1 - 2*a**2*b*s2*s3*z**2 - 2*a**2*b*s2*s3*z - 6*a**2*b*s2*z - 2*a**2*b*s2 + 2*a**2*b*s3*z**2 - a**2*b*s3*z - 3*a**2*b*s3 + 8*a**2*b*z + 3*a**2*b - a**2*s1*s2*z - a**2*s1*s2 - 3*a**2*s1*s3*z**2 - 6*a**2*s1*s3*z - 3*a**2*s1*s3 + 3*a**2*s1*z + 3*a**2*s1 + a**2*s2*s3*z**2 + a**2*s2*s3*z + 3*a**2*s2*z + a**2*s2 - a**2*s3*z**2 + 2*a**2*s3*z + 3*a**2*s3 - 7*a**2*z - 3*a**2 + a*b**2*s1*s2*z + a*b**2*s1*s2 + a*b**2*s1*s3*z**2 + 2*a*b**2*s1*s3*z + a*b**2*s1*s3 - a*b**2*s1*z - a*b**2*s1 + 2*a*b**2*s2**2*z - 3*a*b**2*s2*s3*z**2 - 3*a*b**2*s2*s3*z - 7*a*b**2*s2*z - a*b**2*s2 + 3*a*b**2*s3*z**2 + 2*a*b**2*s3*z - a*b**2*s3 + 5*a*b**2*z + a*b**2 - 2*a*b*s1*s2*z - 2*a*b*s1*s2 - 2*a*b*s1*s3*z**2 - 4*a*b*s1*s3*z - 2*a*b*s1*s3 + 2*a*b*s1*z + 2*a*b*s1 - 2*a*b*s2**2*z + 4*a*b*s2*s3*z**2 + 4*a*b*s2*s3*z + 10*a*b*s2*z + 2*a*b*s2 - 4*a*b*s3*z**2 - 2*a*b*s3*z + 2*a*b*s3 - 8*a*b*z - 2*a*b + a*s1*s2*z + a*s1*s2 + a*s1*s3*z**2 + 2*a*s1*s3*z + a*s1*s3 - a*s1*z - a*s1 - a*s2*s3*z**2 - a*s2*s3*z - 3*a*s2*z - a*s2 + a*s3*z**2 - a*s3 + 3*a*z + a + b**3*s2**2*z - b**3*s2*s3*z**2 - b**3*s2*s3*z - 2*b**3*s2*z + b**3*s3*z**2 + b**3*s3*z + b**3*z - 2*b**2*s2**2*z + 2*b**2*s2*s3*z**2 + 2*b**2*s2*s3*z + 4*b**2*s2*z - 2*b**2*s3*z**2 - 2*b**2*s3*z - 2*b**2*z + b*s2**2*z - b*s2*s3*z**2 - b*s2*s3*z - 2*b*s2*z + b*s3*z**2 + b*s3*z + b*z)/8",
+    "status": "audit_fixture_not_montopar_output"
+  },
+  {
+    "orbit_id": "3e-3g+Pi1-12",
+    "marked_leg": 1,
+    "s_aliases": [
+      "s21",
+      "s31",
+      "s41"
+    ],
+    "original_bounds": [
+      {
+        "var": "s21",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "original_order": [
+      "s21",
+      "s31",
+      "s41"
+    ],
+    "q": "-a**2*s1*s3*z - a**2*s1*s3 + a**2*s1 + a**2*s3 - a**2 - a*b*s1*s2 - a*b*s1*s3*z - a*b*s1*s3 + a*b*s1 + a*b*s2*s3*z + a*b*s2 - a*b*s3*z + a*b*s3 - a*b + a*s1*s3*z + a*s1*s3 - a*s1 - a*s3 + a + b**2*s2*s3*z - b**2*s3*z - b*s2*s3*z + b*s3*z",
+    "L": "(-a**2*s1*z - a**2*s1 + a**2*s3*z**2 + a**2*s3*z + 3*a**2*z + a**2 - 2*a*b*s1*z - 2*a*b*s1 - 2*a*b*s2*z + 5*a*b*z + 2*a*b + a*s1*z + a*s1 - a*s3*z**2 - a*s3*z - 3*a*z - a - b**2*s2*z - b**2*s3*z**2 - b**2*s3*z + b**2*z + b*s2*z + b*s3*z**2 + b*s3*z - b*z)/4",
+    "E": "-(2*a**2*e*s3*z**2 + 2*a**2*e*s3*z - 2*a**2*e*z - a**2*s1*z - a**2*s1 - 5*a**2*s3*z**2 - 5*a**2*s3*z + 3*a**2*z + a**2 + 2*a*b*e*s2*z + 6*a*b*e*s3*z**2 + 6*a*b*e*s3*z - 6*a*b*e*z - 2*a*b*s1*z - 2*a*b*s1 - 2*a*b*s2*z - 12*a*b*s3*z**2 - 12*a*b*s3*z + 11*a*b*z + 2*a*b - 4*a*e*s3*z**2 - 4*a*e*s3*z + 4*a*e*z + 2*a*s1*z + 2*a*s1 + 10*a*s3*z**2 + 10*a*s3*z - 6*a*z - 2*a + 4*b**2*e*s2*z + 4*b**2*e*s3*z**2 + 4*b**2*e*s3*z - 4*b**2*e*z - 7*b**2*s2*z - 7*b**2*s3*z**2 - 7*b**2*s3*z + 7*b**2*z - 2*b*e*s2*z - 6*b*e*s3*z**2 - 6*b*e*s3*z + 6*b*e*z + 2*b*s1*z + 2*b*s1 + 2*b*s2*z + 12*b*s3*z**2 + 12*b*s3*z - 11*b*z - 2*b + 2*e*s3*z**2 + 2*e*s3*z - 2*e*z - s1*z - s1 - 5*s3*z**2 - 5*s3*z + 3*z + 1)/4",
+    "F": "(a*s3*z + a*s3 - a + b*s2 + b*s3*z + b*s3 - b - s3*z - s3 + 1)*(a**3*s1**2*z + a**3*s1**2 + a**3*s1*s3*z**2 + a**3*s1*s3*z - 3*a**3*s1*z - 2*a**3*s1 - a**3*s3*z + 2*a**3*z + a**3 + 2*a**2*b*s1**2*z + 2*a**2*b*s1**2 + a**2*b*s1*s2*z + 3*a**2*b*s1*s3*z**2 + 3*a**2*b*s1*s3*z - 7*a**2*b*s1*z - 4*a**2*b*s1 - a**2*b*s2*s3*z**2 - a**2*b*s2*z + a**2*b*s3*z**2 - 3*a**2*b*s3*z + 5*a**2*b*z + 2*a**2*b - 2*a**2*s1**2*z - 2*a**2*s1**2 - 2*a**2*s1*s3*z**2 - 2*a**2*s1*s3*z + 6*a**2*s1*z + 4*a**2*s1 + 2*a**2*s3*z - 4*a**2*z - 2*a**2 + 2*a*b**2*s1*s2*z + 2*a*b**2*s1*s3*z**2 + 2*a*b**2*s1*s3*z - 2*a*b**2*s1*z - 3*a*b**2*s2*s3*z**2 - 2*a*b**2*s2*z + 3*a*b**2*s3*z**2 - 2*a*b**2*s3*z + 2*a*b**2*z - 2*a*b*s1**2*z - 2*a*b*s1**2 - 2*a*b*s1*s2*z - 4*a*b*s1*s3*z**2 - 4*a*b*s1*s3*z + 8*a*b*s1*z + 4*a*b*s1 + 2*a*b*s2*s3*z**2 + 2*a*b*s2*z - 2*a*b*s3*z**2 + 4*a*b*s3*z - 6*a*b*z - 2*a*b + a*s1**2*z + a*s1**2 + a*s1*s3*z**2 + a*s1*s3*z - 3*a*s1*z - 2*a*s1 - a*s3*z + 2*a*z + a - 2*b**3*s2*s3*z**2 + 2*b**3*s3*z**2 - b**2*s1*s2*z - b**2*s1*s3*z**2 - b**2*s1*s3*z + b**2*s1*z + 3*b**2*s2*s3*z**2 + b**2*s2*z - 3*b**2*s3*z**2 + b**2*s3*z - b**2*z + b*s1*s2*z + b*s1*s3*z**2 + b*s1*s3*z - b*s1*z - b*s2*s3*z**2 - b*s2*z + b*s3*z**2 - b*s3*z + b*z)/8",
+    "status": "audit_fixture_not_montopar_output"
+  }
+]

@@ -1,40 +1,46 @@
-# Three-loop Wilson-loop research results
+# Three-loop Wilson-loop research data
 
-Research data for the fundamental lightlike quadrilateral Wilson-loop exponent in massless QCD. Prepared by Dengyao for sharing and review.
+Research materials for the fundamental lightlike quadrilateral Wilson-loop exponent in massless QCD, prepared by Dengyao for sharing and review.
 
-## Start here
+## Follow the calculation
 
-- [Illustrated end-to-end data flow](docs/data-flow/README.md) · [中文说明](docs/data-flow/reading-guide-zh.md)
+| Stage | Public entry | This publication |
+|---|---|---|
+| 1. Generate and classify diagram orbits | [Homemade generator](packages/qgraf-pipeline/README.md) · [guide](docs/upstream/generation.md) | Source, tests, frozen definitions and provenance |
+| 2. Convert diagram definitions to parameter integrals C and J | [Montopar](packages/montopar/README.md) · [guide](docs/upstream/parameterization.md) | Source, tests, integral inputs and versioned contracts |
+| 3. Evaluate individual or joint integrals | [Integral input catalogue](data/README.md) · [derivation structure](integrals/README.md) | Input records and English entry pages; full evaluation articles will be curated next |
+| 4. Assemble color channels | [Result archive](results/README.md) | The dated three-matter-color delivery remains available |
+| 5. Renormalize, extract finite terms and verify RG | [Reporting conventions](docs/results/conventions.md) · [validation scope](docs/results/validation-scope.md) | Existing dated evidence remains in its original scope |
 
-- [Research summary and reading order](docs/results/index.md)
-- [Color-channel expressions](results/2026-10-23/coefficients.json): bare sums, counterterms, poles of log Z4, finite functions and anomalous dimensions.
-- [Individual diagram data](results/2026-10-23/diagram-ledger.json): 31 unique orbits and 35 matter-channel contributions.
-- [Function dictionary](docs/results/conventions.md) and [exact M/N–Hlog conversions](results/2026-10-23/conversion-dictionary.json).
-- [Validation and limitations](docs/results/validation-scope.md).
-- [Downloadable archives](https://github.com/mitsuroni/wilson-loop-three-loop-results/releases): the new three-channel delivery and the historical all-diagram catalogue.
+Start with the [upstream publication guide](docs/upstream/README.md), then open one integral's input record. The release is being organized in data-flow order. A source package, a parameter-integral definition, an evaluated Laurent coefficient, and an independent validation are distinct deliverables.
 
-The linked guides and result reading pages render formulas directly on GitHub. For offline reading, download the latest complete research snapshot from Releases and open `docs/data-flow/index.html`. The dated three-channel ZIP remains available with its original data and `index.html` report.
+## First upstream snapshot: 2 November 2026
 
-## Results and scope
+- [Source packages](packages/README.md): the self-authored combinatorial diagram generator and Montopar. Source provenance, publication adaptations, dependencies and actual tests are recorded with each package.
+- [163-integral English index](docs/upstream/catalogue.md) and [versioned inputs](data/README.md): frozen diagram definitions and raw C/J packages for one, two and three loops, plus available ordered/prepared inputs. Each integral has an English entry page and exact source pointers.
+- [Reproduction levels](docs/reproduction.md): inspect the frozen inputs, run the source packages, then move to evaluated results. Generating C/J does not evaluate J.
+- [Actual upstream checks](validation/upstream-2026-11-02/README.md) and the [publication manifest](UPSTREAM-PUBLICATION.json).
+- [Roadmap and publication status](docs/publication-status.md): what is already public, what is being curated next, and how historical snapshots should be read.
 
-The CF CA TF nf, CF^2 TF nf and CF (TF nf)^2 channels are available through epsilon^0, including coupling and contour renormalization. Their totals use the original M/N moments, logarithms and zeta constants. All three pass the cusp anomalous-dimension, pole-structure and finite RG checks in the stated conventions.
+The calculation workspace reached a complete four-color Laurent-through-finite and RG research milestone on 2 November. This repository update deliberately publishes the upstream packages and input data first. The older result files below remain a dated three-color snapshot until the new downstream release is curated; they are not relabeled as a four-color data release.
 
-The mixed CF CA TF nf finite result is calculated, but its independent original-input reconstruction remains open. Independent finite reconstructions for the other two matter colors are preserved historical evidence. A same-definition external complete finite comparison remains open. Computational checks are distinguished from formal proofs.
+## Existing result archives
 
-The direct pure-gluon CF CA^2 calculation still lacks the finite coefficients of double-TGV diagrams 15 and 24 (reflection-related), and the single-pole and finite coefficients of diagram 16. These gaps do not affect the three delivered matter channels. Additional total-level research does not determine those missing individual coefficients.
+- [23 October matter-channel summary](docs/results/index.md).
+- [Exact three-channel coefficients](results/2026-10-23/coefficients.json), [31-orbit ledger](results/2026-10-23/diagram-ledger.json), and [M/N–Hlog dictionary](results/2026-10-23/conversion-dictionary.json).
+- [Illustrated end-to-end data flow](docs/data-flow/README.md) · [中文说明](docs/data-flow/reading-guide-zh.md).
+- [Original downloadable archives](https://github.com/mitsuroni/wilson-loop-three-loop-results/releases).
 
-## Reproduce
-
-With Python 3.12, SymPy 1.14.0 and mpmath 1.3.0, run from the repository root:
+The 23 October standalone result replay remains:
 
 ```text
 python results/2026-10-23/reproduce/reproduce.py --output-dir replay-output
 ```
 
-The script verifies the bundled source hashes and writes into a new directory. It requires no Maple or Mathematica session. The historical HyperInt mixed-argument summation witness is reused, not newly integrated. The packaged standalone replay passed; see its [record](results/2026-10-23/validation/standalone-reproduction.json).
+Its original dependencies and validation boundaries are preserved in that dated package. The 18 October archive preserves the wider historical catalogue.
 
-## Provenance
+## Provenance and reuse
 
-The versioned delivery contains 185 source snapshots, exact expressions, check records and 41 offline report pages. Sources retain their original bytes and scientific revision labels. [Source manifest](results/2026-10-23/source-manifest.json) and [package manifest](results/2026-10-23/package-manifest.json) identify the snapshot. This repository is a delivery repository, not the Wilson calculation framework or its live selector database.
+Use the source manifests and stable orbit IDs when comparing versions. Frozen mathematical inputs retain their original bytes, fields, domains and continuation conventions. Current package source snapshots may differ from historical producer versions; each relationship is reported explicitly. The generator's native path is a homemade combinatorial implementation; optional QGRAF interfaces do not make the catalogue a newly rerun native-QGRAF calculation.
 
-The October 18 archive in Releases preserves the broader 149-orbit catalogue as a historical snapshot. Its progress labels should be read alongside the newer three-channel report. Original third-party notices are retained under the delivery assets; this repository does not assign a new license to those materials.
+This is a research delivery repository. It contains no Wilson proof database, CAS installation, downloaded third-party source tree, credentials, or personal execution environment. Original third-party notices in historical assets remain intact; no new license is assigned to those assets.

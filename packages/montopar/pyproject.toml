@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "montopar"
+version = "0.1.0"
+description = "Direct parameter-space integral generation from QGRAF orbit definitions"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+montopar = "montopar.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+montopar = ["templates/*"]
+
+[tool.pytest.ini_options]
+markers = [
+    "slow: marks tests as slow (deselect with -k 'not slow')",
+]

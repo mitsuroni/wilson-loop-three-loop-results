@@ -1,0 +1,106 @@
+{
+  "n_loops": 1,
+  "n_orbits": 2,
+  "orbits": [
+    {
+      "orbit_id": "2e-01",
+      "emission_type": "2e",
+      "sector": "dg",
+      "nloops": 1,
+      "vertices": [
+        {
+          "line": 3,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "mu2"
+          ],
+          "color": [
+            "a1",
+            "a2"
+          ]
+        }
+      ],
+      "internal_vertices": [],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "(1-s31)*v3 + s41*v4"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ]
+    },
+    {
+      "orbit_id": "2e-02",
+      "emission_type": "2e",
+      "sector": "dg",
+      "nloops": 1,
+      "vertices": [
+        {
+          "line": 2,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "mu2"
+          ],
+          "color": [
+            "a1",
+            "a2"
+          ]
+        }
+      ],
+      "internal_vertices": [],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-((1-s41)*v4 + v1 + s21*v2)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ]
+    }
+  ]
+}

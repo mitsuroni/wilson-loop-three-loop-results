@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "run_utc": "2026-11-02T08:54:16.530348+00:00",
+  "package": "montopar",
+  "source_manifest_sha256": "d8fccbbb9b3a565891ce3abea48d833226eceffe7b08697324bdf6684174a55d",
+  "original_tests_executed": 960,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "deselected_scope": "not slow; explicit external Wolfram/FeynCalc integration deselected",
+  "elapsed_seconds": 1017.954000000027,
+  "portable_test_command": "python -m pytest -q tests -p no:cacheprovider -m \"not slow\"",
+  "test_dependency_versions": {
+    "pytest": "9.0.2",
+    "sympy": "1.14.0",
+    "numpy": "2.2.6"
+  },
+  "copied_source_import_verified": true,
+  "original_and_published_bytes_checked": true,
+  "offline_wheel_build_target_install": "passed; copied package builds, no network/dependency/global installation",
+  "installed_CLI_help_with_python_site_disabled": "passed",
+  "publication_adapter_check": null,
+  "scope": "Software regression, native output and portability checks. No new Laurent evaluation, complete mathematical proof or optional external backend claim.",
+  "local_test_diagnostic": null
+}

@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "run_utc": "2026-11-02T08:37:32.098886+00:00",
+  "package": "qgraf-pipeline",
+  "source_manifest_sha256": "ed0bf5fbd6e2b6a1e568b3c570fe3852b10cc2383e78015cdad2f2d779986adf",
+  "original_tests_executed": 102,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "deselected_scope": "all original test modules",
+  "elapsed_seconds": 13.5,
+  "portable_test_command": "python -m pytest -q tests -p no:cacheprovider",
+  "test_dependency_versions": {
+    "pytest": "9.0.2",
+    "sympy": "1.14.0",
+    "numpy": "2.2.6"
+  },
+  "copied_source_import_verified": true,
+  "original_and_published_bytes_checked": true,
+  "offline_wheel_build_target_install": "passed; copied package builds, no network/dependency/global installation",
+  "installed_CLI_help_with_python_site_disabled": "passed",
+  "publication_adapter_check": {
+    "status": "passed",
+    "skip_pdf_renderer_calls": 0,
+    "default_renderer_calls": 1,
+    "all_four_mathematical_exports_byte_identical": true,
+    "mathematical_export_sha256": {
+      "integrals.md": "e8a38d4abd28c675be3d2cc2a9f504d9a12a0e45033be17931028c94f1d03efd",
+      "integrals.json": "39216d8c277ec642a974c79e15da246c6982f1ccf3352062cee42ab30effd54b",
+      "diagrams.tex": "efbd998cdd2e1032c3e84ea0eeeb39225226d5e0548ebe2bc688c9945242be70",
+      "orbit_definitions.json": "c28b7e0e62ad331d7991cc089e0d93f6f49e4d4286dc35e0f96f53e9aefa23a3"
+    },
+    "uses_real_combination_generation_and_export": true,
+    "mock_scope": "Only external PDF rendering is mocked. --no-pdf path raises if the renderer is touched; default path must call it once.",
+    "generated_orbits": 2
+  },
+  "scope": "Software regression, native output and portability checks. No new Laurent evaluation, complete mathematical proof or optional external backend claim.",
+  "local_test_diagnostic": "qgraf pytest exited0 and all102 tests passed; local pyreadline shutdown emitted an ignored Windows console destructor exception after the test summary"
+}

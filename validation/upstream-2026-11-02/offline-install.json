@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "started_utc": "2026-11-02T08:40:55.438674+00:00",
+  "seconds": 12.84399999998277,
+  "command": [
+    "D:\\py\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "pip",
+    "--disable-pip-version-check",
+    "install",
+    "--no-index",
+    "--no-deps",
+    "--no-build-isolation",
+    "--no-compile",
+    "--target",
+    "D:\\wilson-agent\\workflow\\checks\\upstream-publication-20261102\\packages\\install-local-temp\\target",
+    "D:\\wilson-agent\\workflow\\checks\\upstream-publication-20261102\\packages\\install-local-temp\\source\\qgraf-pipeline",
+    "D:\\wilson-agent\\workflow\\checks\\upstream-publication-20261102\\packages\\install-local-temp\\source\\montopar"
+  ],
+  "exit_code": 0,
+  "isolated_install_target": "D:\\wilson-agent\\workflow\\checks\\upstream-publication-20261102\\packages\\install-local-temp\\target",
+  "pip_network_disabled": true,
+  "package_dependencies_not_installed": true,
+  "source_copy_only_build": true,
+  "system_python_site_packages_unchanged": true,
+  "CLI_probes_with_site_disabled": [
+    {
+      "command": [
+        "D:\\py\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "-S",
+        "-m",
+        "qgraf_pipeline.cli",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: cli.py [-h] [--output-dir OUTPUT_DIR] [--out-file OUT_FILE]\n              [--audit-recursion] [--no-pdf]\n              n\n\nn-loop Wilson loop diagram pipeline\n\npositional arguments:\n  n                     Number of loops\n\noptions:\n  -h, --help            show this help message and exit\n  --output-dir OUTPUT_DIR\n                        Output directory\n  --out-file OUT_FILE   Use existing QGRAF .out file (skip generator)\n  --audit-recursion     Export pre-2PI recursion audit only (loops 1-3;\n                        separate filenames)\n  --no-pdf              Skip optional pdflatex rendering; preserve all\n                        mathematical exports\n"
+    },
+    {
+      "command": [
+        "D:\\py\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "-S",
+        "-m",
+        "montopar.cli",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: cli.py [-h] --source SOURCE [--out-dir OUT_DIR] [--orbit-id ORBIT_ID]\n              [--type TYPE] [--all] [--suffix SUFFIX] [--tgv-ibp]\n              [--package-initial] [--double-tgv-forms] [--double-tgv-operator]\n              [--package-only] [--fgv-compat-out-dir FGV_COMPAT_OUT_DIR]\n\nmontopar — direct parameter-space integral generation\n\noptions:\n  -h, --help            show this help message and exit\n  --source SOURCE       Path to orbit_definitions.json\n  --out-dir OUT_DIR     Output directory (default: <repo_root>/workspaces/)\n  --orbit-id ORBIT_ID   Process a specific orbit by ID\n  --type TYPE           Process all orbits of a given emission type (e.g. 4e,\n                        6e, 3e-3g, 4e-4g)\n  --all                 Process all orbits (pure, tgv, fourv)\n  --suffix SUFFIX       Suffix for output filename (e.g. '_new' writes\n                        montopar_new.json)\n  --tgv-ibp, --gamma1-ibp\n                        Add contour-IBP sums for TGV, mixed, double-TGV, TGV-\n                        Pi1, and Gamma1 orbits\n  --package-initial     Write one montopar-initial.json package for the\n                        selected emission type(s)\n  --double-tgv-forms    Add compact and analytically reduced double-TGV C/J\n                        forms; retain all raw fields\n  --double-tgv-operator\n                        Add an unapplied parent-position double-TGV operator;\n                        retain all scalar fields\n  --package-only        Build the initial package from existing montopar.json\n                        files without regeneration\n  --fgv-compat-out-dir FGV_COMPAT_OUT_DIR\n                        Also regenerate FGV final/state/export.dimreduce files\n                        under this output root\n"
+    }
+  ],
+  "attempts": "Initial sandbox-local TEMP pip build tracker was denied. Its original install.log is retained. This successful retry redirects TEMP/TMP/cache and installation target inside the writable evidence workspace.",
+  "scope": "Actual local wheel build and target install, plus installed module CLI help with Python -S; not a claim about optional Wolfram/FeynCalc/TeX backend availability"
+}

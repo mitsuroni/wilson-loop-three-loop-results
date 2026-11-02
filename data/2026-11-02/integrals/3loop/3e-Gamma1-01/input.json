@@ -1,0 +1,2397 @@
+{
+  "format": "wilson-upstream-integral-input-index/1",
+  "path_base": "data/2026-11-02",
+  "stable_id": "L3/3e-Gamma1-01",
+  "orbit_id": "3e-Gamma1-01",
+  "loop_order": 3,
+  "family": "3e-Gamma1",
+  "graph_definition": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+    "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+    "json_pointer": "/orbits/16",
+    "field_sha256": "919ddc19a36af941b52475f73977ed70889be017b6f0ff6c5da25f2bc847ead2",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "graph_catalogue": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/integrals.json",
+    "sha256": "fbc406891bb8eeef30b3912dc140972a1ddc23994105e62997a19d393a5813ea",
+    "json_pointer": "/orbits/16",
+    "field_sha256": "a29fd2f82293fc16b788e8b77d8dbb32b11fc9a4d2c24199ca3c2e83754879df",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "graph_summary": {
+    "orbit_id": "3e-Gamma1-01",
+    "emission_type": "3e-Gamma1",
+    "category": "loop",
+    "edge_counts": [
+      0,
+      0,
+      1,
+      2
+    ],
+    "eikonal_count": 3,
+    "g_power": 6,
+    "n_diagrams": 1,
+    "wl_wl_pairs": 0,
+    "mirror_relation": "mirror-pair-1",
+    "mirror_of": "3e-Gamma1-02",
+    "is_2pi": true,
+    "reducible_to": [],
+    "diagram_indices": [
+      547
+    ]
+  },
+  "prepared_inputs": [],
+  "raw_kernels": [
+    {
+      "role": "J",
+      "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/3e-Gamma1/montopar-initial.json",
+      "sha256": "0d3ae8a515ab180d83858333a23bc8bdab557f1cf708c89980a0823ab58e26f1",
+      "json_pointer": "/orbits/0/J",
+      "field_sha256": "e654eefc7a4669884f31e226cda706acfbcecf8588ecae69bad32a6d9f0145af",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false",
+      "declared_domain": {
+        "representation": "ordered_channel_block_sum",
+        "source_bounds_array": [
+          {
+            "var": "s31",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "s42"
+          },
+          {
+            "var": "s42",
+            "low": "0",
+            "high": "1"
+          }
+        ],
+        "declared_order": [
+          "s31",
+          "s42",
+          "s41"
+        ],
+        "declared_order_field": "source_order_outer_to_inner",
+        "block_count": 7,
+        "block_orders": [
+          {
+            "term_id": "raw_g_N0",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "raw_g_L0",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "raw_g_M1",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ]
+          },
+          {
+            "term_id": "raw_g_M2",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ]
+          },
+          {
+            "term_id": "raw_g_M3",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ]
+          },
+          {
+            "term_id": "raw_q_N0",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "raw_q_L0",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          }
+        ],
+        "available": true,
+        "no_order_permutation_performed": true
+      }
+    },
+    {
+      "role": "J_raw_s",
+      "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/3e-Gamma1/montopar-initial.json",
+      "sha256": "0d3ae8a515ab180d83858333a23bc8bdab557f1cf708c89980a0823ab58e26f1",
+      "json_pointer": "/orbits/0/J_raw_s",
+      "field_sha256": "e654eefc7a4669884f31e226cda706acfbcecf8588ecae69bad32a6d9f0145af",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false",
+      "declared_domain": {
+        "representation": "ordered_channel_block_sum",
+        "source_bounds_array": [
+          {
+            "var": "s31",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "s42"
+          },
+          {
+            "var": "s42",
+            "low": "0",
+            "high": "1"
+          }
+        ],
+        "declared_order": [
+          "s31",
+          "s42",
+          "s41"
+        ],
+        "declared_order_field": "source_order_outer_to_inner",
+        "block_count": 7,
+        "block_orders": [
+          {
+            "term_id": "raw_g_N0",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "raw_g_L0",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "raw_g_M1",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ]
+          },
+          {
+            "term_id": "raw_g_M2",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ]
+          },
+          {
+            "term_id": "raw_g_M3",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ]
+          },
+          {
+            "term_id": "raw_q_N0",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "raw_q_L0",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          }
+        ],
+        "available": true,
+        "no_order_permutation_performed": true
+      }
+    },
+    {
+      "role": "J_ibp",
+      "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/3e-Gamma1/montopar-initial.json",
+      "sha256": "0d3ae8a515ab180d83858333a23bc8bdab557f1cf708c89980a0823ab58e26f1",
+      "json_pointer": "/orbits/0/J_ibp",
+      "field_sha256": "4f57a9748b8c9c53896b8edabd811df83f42625cadaa38458a7248fc18c665cd",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false",
+      "declared_domain": {
+        "representation": "ordered_face_sum_with_recoil_by_color_and_block",
+        "block_count": 16,
+        "block_orders": [
+          {
+            "term_id": "ibp_001",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "ibp_002",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "ibp_003",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "ibp_004",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "ibp_005",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "ibp_006",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "ibp_007",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2"
+            ]
+          },
+          {
+            "term_id": "ibp_008",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2"
+            ]
+          },
+          {
+            "term_id": "ibp_009",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ]
+          },
+          {
+            "term_id": "ibp_010",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2"
+            ]
+          },
+          {
+            "term_id": "ibp_011",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "ibp_012",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "ibp_013",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "ibp_014",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "ibp_015",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          },
+          {
+            "term_id": "ibp_016",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "t1": [
+                "0",
+                "1"
+              ],
+              "t2": [
+                "0",
+                "1-t1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "alpha1",
+              "alpha2",
+              "t1",
+              "t2"
+            ]
+          }
+        ],
+        "available": true,
+        "no_order_permutation_performed": true
+      }
+    },
+    {
+      "role": "J_sector",
+      "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/3e-Gamma1/montopar-initial.json",
+      "sha256": "0d3ae8a515ab180d83858333a23bc8bdab557f1cf708c89980a0823ab58e26f1",
+      "json_pointer": "/orbits/0/J_sector",
+      "field_sha256": "17d7d34e5977ef2ad97b553c8c68bd43d8716963680183830754c5beab66e40c",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false",
+      "declared_domain": {
+        "representation": "ordered_channel_rectangular_sector_sum",
+        "block_count": 15,
+        "block_orders": [
+          {
+            "term_id": "raw_g_N0_sector1",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "u": [
+                "1",
+                "Infinity"
+              ],
+              "v": [
+                "1",
+                "Infinity"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ]
+          },
+          {
+            "term_id": "raw_g_N0_sector2",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "u": [
+                "1",
+                "Infinity"
+              ],
+              "v": [
+                "1",
+                "Infinity"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ]
+          },
+          {
+            "term_id": "raw_g_N0_sector3",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "u": [
+                "1",
+                "Infinity"
+              ],
+              "v": [
+                "1",
+                "Infinity"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ]
+          },
+          {
+            "term_id": "raw_g_L0_sector1",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "u": [
+                "1",
+                "Infinity"
+              ],
+              "v": [
+                "1",
+                "Infinity"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ]
+          },
+          {
+            "term_id": "raw_g_L0_sector2",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "u": [
+                "1",
+                "Infinity"
+              ],
+              "v": [
+                "1",
+                "Infinity"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ]
+          },
+          {
+            "term_id": "raw_g_L0_sector3",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "u": [
+                "1",
+                "Infinity"
+              ],
+              "v": [
+                "1",
+                "Infinity"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ]
+          },
+          {
+            "term_id": "raw_g_M1",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ]
+          },
+          {
+            "term_id": "raw_g_M2",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ]
+          },
+          {
+            "term_id": "raw_g_M3",
+            "channel": "g",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2"
+            ]
+          },
+          {
+            "term_id": "raw_q_N0_sector1",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "u": [
+                "1",
+                "Infinity"
+              ],
+              "v": [
+                "1",
+                "Infinity"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ]
+          },
+          {
+            "term_id": "raw_q_N0_sector2",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "u": [
+                "1",
+                "Infinity"
+              ],
+              "v": [
+                "1",
+                "Infinity"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ]
+          },
+          {
+            "term_id": "raw_q_N0_sector3",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "u": [
+                "1",
+                "Infinity"
+              ],
+              "v": [
+                "1",
+                "Infinity"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ]
+          },
+          {
+            "term_id": "raw_q_L0_sector1",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "u": [
+                "1",
+                "Infinity"
+              ],
+              "v": [
+                "1",
+                "Infinity"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ]
+          },
+          {
+            "term_id": "raw_q_L0_sector2",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "u": [
+                "1",
+                "Infinity"
+              ],
+              "v": [
+                "1",
+                "Infinity"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ]
+          },
+          {
+            "term_id": "raw_q_L0_sector3",
+            "channel": "q",
+            "variables": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "alpha1": [
+                "0",
+                "1"
+              ],
+              "alpha2": [
+                "0",
+                "1-alpha1"
+              ],
+              "u": [
+                "1",
+                "Infinity"
+              ],
+              "v": [
+                "1",
+                "Infinity"
+              ]
+            },
+            "declared_order": [
+              "s31",
+              "s42",
+              "s41",
+              "alpha1",
+              "alpha2",
+              "u",
+              "v"
+            ]
+          }
+        ],
+        "available": true,
+        "no_order_permutation_performed": true
+      }
+    }
+  ],
+  "joint_four_leg_object": null,
+  "native_raw_orbit": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/3e-Gamma1/montopar-initial.json",
+    "sha256": "0d3ae8a515ab180d83858333a23bc8bdab557f1cf708c89980a0823ab58e26f1",
+    "json_pointer": "/orbits/0",
+    "field_sha256": "7ffbdc989f4c8437a50f114f32de9e79028140f42b6c1b5b8ee9fa6d42488200",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "raw_C": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/3e-Gamma1/montopar-initial.json",
+    "sha256": "0d3ae8a515ab180d83858333a23bc8bdab557f1cf708c89980a0823ab58e26f1",
+    "json_pointer": "/orbits/0/C",
+    "field_sha256": "d4c159b4a6b063a1a3d501947c2ed5a209d6a8b4d286672ca7a0bf7975d453af",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "geometry": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/3e-Gamma1/montopar-initial.json",
+    "sha256": "0d3ae8a515ab180d83858333a23bc8bdab557f1cf708c89980a0823ab58e26f1",
+    "json_pointer": "/geometry",
+    "field_sha256": "000f6953405ecbd1761dd77cd56b8ba450d086ff3adcc7d72679635e27b9ee98",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "native_package_schema_version": "1.8",
+  "physical_convention": {
+    "id": "wilson-qcd-action-path-fourier/1.0",
+    "wilson_transport": "U'=ig*A*U",
+    "wilson_word": [
+      "a3",
+      "a2",
+      "a1"
+    ],
+    "chronological_word": [
+      "a1",
+      "a2",
+      "a3"
+    ],
+    "vertex_labels_unchanged": true,
+    "momentum_Fourier": "exp(-ipX)",
+    "momentum_Wick": "I",
+    "coordinate_Wick": "-I",
+    "one_pi_includes_internal_loop_signs": true,
+    "Dyson_external_coefficient": 1,
+    "raw_Euler_count": 0
+  },
+  "c4_symmetry": {
+    "orbit_multiplicity": 4,
+    "stabilizer_order": 1,
+    "stabilizer_rotations": [
+      0
+    ],
+    "basis": "three ordered contour endpoints; central Gamma1 operator",
+    "included_in_C": false
+  },
+  "source_normalization": {
+    "scheme": "montopar-raw-CJ",
+    "loop_order": 3,
+    "color_projection": "none",
+    "euler_compensation_count": 0,
+    "orbit_multiplicity_included": false,
+    "crossing_assembled": false,
+    "extra_factorial": "none",
+    "normalized_wilson_trace": "Tr/N",
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+    "assembly_sign": 1
+  },
+  "color_factor_components": {
+    "wilson_color": "CA*CF"
+  },
+  "color_channels": {
+    "g": {
+      "color": "CA",
+      "full_color": "CF*CA^2",
+      "combined": "((CA*CF)*((alpha_s/Pi)^3)*(Gamma[1-3*eps])*(-1/128)*((Pi*mu^2*(-2*v14+I0))^(3*eps)))*(CA)",
+      "bare_coupling_form": "-1*g0^6*(CF*CA^2)*Gamma[1-3*eps]*(-2*v14+I0)^(3*eps)/(8192*Pi^(6-3*eps))"
+    },
+    "q": {
+      "color": "TF*nf",
+      "full_color": "CF*CA*TF*nf",
+      "combined": "((CA*CF)*((alpha_s/Pi)^3)*(Gamma[1-3*eps])*(-1/128)*((Pi*mu^2*(-2*v14+I0))^(3*eps)))*(TF*nf)",
+      "bare_coupling_form": "-1*g0^6*(CF*CA*TF*nf)*Gamma[1-3*eps]*(-2*v14+I0)^(3*eps)/(8192*Pi^(6-3*eps))"
+    }
+  },
+  "C_component_semantics": "multiplicative",
+  "zero_declarations": {},
+  "native_production_connection": {
+    "receipt": {
+      "path": "snapshots/workflow/checks/shared-sign-production/native-check.json",
+      "sha256": "c9ebb9c69f70b75ce82a2fb29a8b6daf15f85c004ee050f453c5565c2314b65b"
+    },
+    "record": {
+      "orbit_id": "3e-Gamma1-01",
+      "C_residual": "0",
+      "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+      "native_package": "workflow/checks/shared-sign-production/generated/montopar/3loop/3e-Gamma1/montopar-initial.json",
+      "legacy_C_ratio": -1,
+      "J_connection": "same mathematical blocks"
+    },
+    "rerun_in_this_publication": false
+  },
+  "raw_snapshot_stage": "frozen native-sign production snapshot, adopted for input publication",
+  "source_operator_kind": "gamma1",
+  "historical_graph_definitions": [
+    {
+      "path": "snapshots/workflow/checks/w3-p0/sources/qgraf/3loop/orbit_definitions.json",
+      "sha256": "d1227d1e3756bc8678013535b85b206442dc06aab706ef46f2e5e1dbb4d1564e",
+      "json_pointer": "/orbits/16",
+      "field_sha256": "d52e9ed0ccef502119cef24d6c6d2e6381b4e2ea2e7fe826010a874d21a2274a",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+    }
+  ],
+  "historical_evaluation_labels": {
+    "evaluation_status": "not_evaluated",
+    "translation_status": "translated",
+    "formal": "not_run"
+  },
+  "archival_calculation_sources": [
+    {
+      "orbit": {
+        "path": "snapshots/benchmarks/self-energy/gamma1/sources/montopar-r001.json",
+        "sha256": "3b92e23125cb6b654ad63d5c19c17fead9cfeb3bff56739dd9f07c6eda87e65a",
+        "json_pointer": "/orbits/0",
+        "field_sha256": "092a9b4373e85c153c47fa28683512257a2314d5469c9f5694dcadf67bac9a6d",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "contains_CJ": true,
+      "revision_label": "montopar-r001",
+      "sign_convention": null,
+      "scope": "Byte-preserved source used by historical mathematical calculations. Its own C/J convention and source bindings remain authoritative; not silently substituted for or identified with the adopted native-sign snapshot."
+    },
+    {
+      "orbit": {
+        "path": "snapshots/benchmarks/self-energy/gamma1/sources/montopar-r002.json",
+        "sha256": "17c63f14fa10f05da173da48ffc153392ed5d19221dfd3ee4775e65c44aa6b98",
+        "json_pointer": "/orbits/0",
+        "field_sha256": "7ffbdc989f4c8437a50f114f32de9e79028140f42b6c1b5b8ee9fa6d42488200",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "contains_CJ": true,
+      "revision_label": "montopar-r002",
+      "sign_convention": null,
+      "scope": "Byte-preserved source used by historical mathematical calculations. Its own C/J convention and source bindings remain authoritative; not silently substituted for or identified with the adopted native-sign snapshot."
+    }
+  ],
+  "input_path": "integrals/3loop/3e-Gamma1-01/input.json",
+  "readme_path": "integrals/3loop/3e-Gamma1-01/README.md",
+  "stage_scope": {
+    "graph_and_raw_CJ": "exported from byte-preserved frozen payloads",
+    "prepared_input": "no standalone prepared payload found for this orbit in this batch",
+    "Laurent_tables": "not exported in this upstream-only batch",
+    "new_Laurent_derivation": "not run",
+    "formal": "not_run"
+  }
+}

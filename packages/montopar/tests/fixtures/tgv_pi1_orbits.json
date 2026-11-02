@@ -1,0 +1,2422 @@
+{
+  "format": "wilson-tgv-pi1-source/1",
+  "n_loops": 3,
+  "n_orbits": 12,
+  "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+  "orbits": [
+    {
+      "orbit_id": "3e-3g+Pi1-01",
+      "emission_type": "3e-3g+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 3,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu3",
+          "color": "a3"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "color": [
+            "a2",
+            "b2"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "mu3",
+            "rho"
+          ],
+          "color": [
+            "a3",
+            "c"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "sigma",
+            "nu3"
+          ],
+          "color": [
+            "d",
+            "b3"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "tgv",
+          "id": "v1",
+          "loops": [
+            "l1",
+            "l2",
+            "l3"
+          ],
+          "lorentz": [
+            "nu1",
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b1",
+            "b2",
+            "b3"
+          ],
+          "incoming_momenta": [
+            "-l1",
+            "-l2",
+            "-l3"
+          ],
+          "vertex_loop_order": 0
+        },
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l3",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "rho",
+            "sigma"
+          ],
+          "color": [
+            "c",
+            "d"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-(v1 + v2 + s31*v3)"
+        },
+        {
+          "loop": "l2",
+          "expression": "-(v1 + v2 + v3 + s41*v4)"
+        },
+        {
+          "loop": "l3",
+          "expression": "-(v1 + v2 + v3 + s42*v4)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "iterated_order_outer_to_inner": [
+        "s31",
+        "s42",
+        "s41"
+      ],
+      "momentum_constraints": [
+        {
+          "type": "delta",
+          "expression": "l1+l2+l3",
+          "normalization": "(2*pi)^D*delta^D(l1+l2+l3)"
+        }
+      ],
+      "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+      "self_energy_insertion": {
+        "kind": "1pi",
+        "operator": "Pi1",
+        "insertion_count": 1,
+        "subgraph_loop_order": 1,
+        "skeleton_loop_order": 2,
+        "total_loop_order": 3,
+        "marked_contour_position": 3,
+        "marked_endpoint": [
+          4,
+          2
+        ],
+        "shared_momentum": "l3",
+        "source_external_sign": "+1",
+        "dyson_coefficient": "1",
+        "tensor": "Pi1=-i*(k^2*g-k*k)*P1",
+        "not_vertex_correction": true,
+        "scalar_contains_color": true,
+        "renormalization": "bare"
+      },
+      "downstream_status": {
+        "montopar": "not_implemented",
+        "C_J": "not_available",
+        "I": "not_solved"
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-02",
+      "emission_type": "3e-3g+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 3,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu3",
+          "color": "a3"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "mu2",
+            "rho"
+          ],
+          "color": [
+            "a2",
+            "c"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "sigma",
+            "nu2"
+          ],
+          "color": [
+            "d",
+            "b2"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "color": [
+            "a3",
+            "b3"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "tgv",
+          "id": "v1",
+          "loops": [
+            "l1",
+            "l2",
+            "l3"
+          ],
+          "lorentz": [
+            "nu1",
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b1",
+            "b2",
+            "b3"
+          ],
+          "incoming_momenta": [
+            "-l1",
+            "-l2",
+            "-l3"
+          ],
+          "vertex_loop_order": 0
+        },
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l2",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "rho",
+            "sigma"
+          ],
+          "color": [
+            "c",
+            "d"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-(v1 + v2 + s31*v3)"
+        },
+        {
+          "loop": "l2",
+          "expression": "-(v1 + v2 + v3 + s41*v4)"
+        },
+        {
+          "loop": "l3",
+          "expression": "-(v1 + v2 + v3 + s42*v4)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "iterated_order_outer_to_inner": [
+        "s31",
+        "s42",
+        "s41"
+      ],
+      "momentum_constraints": [
+        {
+          "type": "delta",
+          "expression": "l1+l2+l3",
+          "normalization": "(2*pi)^D*delta^D(l1+l2+l3)"
+        }
+      ],
+      "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+      "self_energy_insertion": {
+        "kind": "1pi",
+        "operator": "Pi1",
+        "insertion_count": 1,
+        "subgraph_loop_order": 1,
+        "skeleton_loop_order": 2,
+        "total_loop_order": 3,
+        "marked_contour_position": 2,
+        "marked_endpoint": [
+          4,
+          1
+        ],
+        "shared_momentum": "l2",
+        "source_external_sign": "+1",
+        "dyson_coefficient": "1",
+        "tensor": "Pi1=-i*(k^2*g-k*k)*P1",
+        "not_vertex_correction": true,
+        "scalar_contains_color": true,
+        "renormalization": "bare"
+      },
+      "downstream_status": {
+        "montopar": "not_implemented",
+        "C_J": "not_available",
+        "I": "not_solved"
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-03",
+      "emission_type": "3e-3g+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 3,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu3",
+          "color": "a3"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "rho"
+          ],
+          "color": [
+            "a1",
+            "c"
+          ]
+        },
+        {
+          "loop": "l1",
+          "lorentz": [
+            "sigma",
+            "nu1"
+          ],
+          "color": [
+            "d",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "color": [
+            "a2",
+            "b2"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "color": [
+            "a3",
+            "b3"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "tgv",
+          "id": "v1",
+          "loops": [
+            "l1",
+            "l2",
+            "l3"
+          ],
+          "lorentz": [
+            "nu1",
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b1",
+            "b2",
+            "b3"
+          ],
+          "incoming_momenta": [
+            "-l1",
+            "-l2",
+            "-l3"
+          ],
+          "vertex_loop_order": 0
+        },
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l1",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "rho",
+            "sigma"
+          ],
+          "color": [
+            "c",
+            "d"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-(v1 + v2 + s31*v3)"
+        },
+        {
+          "loop": "l2",
+          "expression": "-(v1 + v2 + v3 + s41*v4)"
+        },
+        {
+          "loop": "l3",
+          "expression": "-(v1 + v2 + v3 + s42*v4)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "iterated_order_outer_to_inner": [
+        "s31",
+        "s42",
+        "s41"
+      ],
+      "momentum_constraints": [
+        {
+          "type": "delta",
+          "expression": "l1+l2+l3",
+          "normalization": "(2*pi)^D*delta^D(l1+l2+l3)"
+        }
+      ],
+      "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+      "self_energy_insertion": {
+        "kind": "1pi",
+        "operator": "Pi1",
+        "insertion_count": 1,
+        "subgraph_loop_order": 1,
+        "skeleton_loop_order": 2,
+        "total_loop_order": 3,
+        "marked_contour_position": 1,
+        "marked_endpoint": [
+          3,
+          1
+        ],
+        "shared_momentum": "l1",
+        "source_external_sign": "+1",
+        "dyson_coefficient": "1",
+        "tensor": "Pi1=-i*(k^2*g-k*k)*P1",
+        "not_vertex_correction": true,
+        "scalar_contains_color": true,
+        "renormalization": "bare"
+      },
+      "downstream_status": {
+        "montopar": "not_implemented",
+        "C_J": "not_available",
+        "I": "not_solved"
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-04",
+      "emission_type": "3e-3g+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 3,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 3,
+          "lorentz": "mu2",
+          "color": "a2"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu3",
+          "color": "a3"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "color": [
+            "a2",
+            "b2"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "mu3",
+            "rho"
+          ],
+          "color": [
+            "a3",
+            "c"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "sigma",
+            "nu3"
+          ],
+          "color": [
+            "d",
+            "b3"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "tgv",
+          "id": "v1",
+          "loops": [
+            "l1",
+            "l2",
+            "l3"
+          ],
+          "lorentz": [
+            "nu1",
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b1",
+            "b2",
+            "b3"
+          ],
+          "incoming_momenta": [
+            "-l1",
+            "-l2",
+            "-l3"
+          ],
+          "vertex_loop_order": 0
+        },
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l3",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "rho",
+            "sigma"
+          ],
+          "color": [
+            "c",
+            "d"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-(v1 + v2 + s31*v3)"
+        },
+        {
+          "loop": "l2",
+          "expression": "-(v1 + v2 + s32*v3)"
+        },
+        {
+          "loop": "l3",
+          "expression": "-(v1 + v2 + v3 + s41*v4)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "s32"
+        },
+        {
+          "var": "s32",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "iterated_order_outer_to_inner": [
+        "s32",
+        "s31",
+        "s41"
+      ],
+      "momentum_constraints": [
+        {
+          "type": "delta",
+          "expression": "l1+l2+l3",
+          "normalization": "(2*pi)^D*delta^D(l1+l2+l3)"
+        }
+      ],
+      "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+      "self_energy_insertion": {
+        "kind": "1pi",
+        "operator": "Pi1",
+        "insertion_count": 1,
+        "subgraph_loop_order": 1,
+        "skeleton_loop_order": 2,
+        "total_loop_order": 3,
+        "marked_contour_position": 3,
+        "marked_endpoint": [
+          4,
+          1
+        ],
+        "shared_momentum": "l3",
+        "source_external_sign": "+1",
+        "dyson_coefficient": "1",
+        "tensor": "Pi1=-i*(k^2*g-k*k)*P1",
+        "not_vertex_correction": true,
+        "scalar_contains_color": true,
+        "renormalization": "bare"
+      },
+      "downstream_status": {
+        "montopar": "not_implemented",
+        "C_J": "not_available",
+        "I": "not_solved"
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-05",
+      "emission_type": "3e-3g+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 3,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 3,
+          "lorentz": "mu2",
+          "color": "a2"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu3",
+          "color": "a3"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "mu2",
+            "rho"
+          ],
+          "color": [
+            "a2",
+            "c"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "sigma",
+            "nu2"
+          ],
+          "color": [
+            "d",
+            "b2"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "color": [
+            "a3",
+            "b3"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "tgv",
+          "id": "v1",
+          "loops": [
+            "l1",
+            "l2",
+            "l3"
+          ],
+          "lorentz": [
+            "nu1",
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b1",
+            "b2",
+            "b3"
+          ],
+          "incoming_momenta": [
+            "-l1",
+            "-l2",
+            "-l3"
+          ],
+          "vertex_loop_order": 0
+        },
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l2",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "rho",
+            "sigma"
+          ],
+          "color": [
+            "c",
+            "d"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-(v1 + v2 + s31*v3)"
+        },
+        {
+          "loop": "l2",
+          "expression": "-(v1 + v2 + s32*v3)"
+        },
+        {
+          "loop": "l3",
+          "expression": "-(v1 + v2 + v3 + s41*v4)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "s32"
+        },
+        {
+          "var": "s32",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "iterated_order_outer_to_inner": [
+        "s32",
+        "s31",
+        "s41"
+      ],
+      "momentum_constraints": [
+        {
+          "type": "delta",
+          "expression": "l1+l2+l3",
+          "normalization": "(2*pi)^D*delta^D(l1+l2+l3)"
+        }
+      ],
+      "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+      "self_energy_insertion": {
+        "kind": "1pi",
+        "operator": "Pi1",
+        "insertion_count": 1,
+        "subgraph_loop_order": 1,
+        "skeleton_loop_order": 2,
+        "total_loop_order": 3,
+        "marked_contour_position": 2,
+        "marked_endpoint": [
+          3,
+          2
+        ],
+        "shared_momentum": "l2",
+        "source_external_sign": "+1",
+        "dyson_coefficient": "1",
+        "tensor": "Pi1=-i*(k^2*g-k*k)*P1",
+        "not_vertex_correction": true,
+        "scalar_contains_color": true,
+        "renormalization": "bare"
+      },
+      "downstream_status": {
+        "montopar": "not_implemented",
+        "C_J": "not_available",
+        "I": "not_solved"
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-06",
+      "emission_type": "3e-3g+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 3,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 3,
+          "lorentz": "mu2",
+          "color": "a2"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu3",
+          "color": "a3"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "rho"
+          ],
+          "color": [
+            "a1",
+            "c"
+          ]
+        },
+        {
+          "loop": "l1",
+          "lorentz": [
+            "sigma",
+            "nu1"
+          ],
+          "color": [
+            "d",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "color": [
+            "a2",
+            "b2"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "color": [
+            "a3",
+            "b3"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "tgv",
+          "id": "v1",
+          "loops": [
+            "l1",
+            "l2",
+            "l3"
+          ],
+          "lorentz": [
+            "nu1",
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b1",
+            "b2",
+            "b3"
+          ],
+          "incoming_momenta": [
+            "-l1",
+            "-l2",
+            "-l3"
+          ],
+          "vertex_loop_order": 0
+        },
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l1",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "rho",
+            "sigma"
+          ],
+          "color": [
+            "c",
+            "d"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-(v1 + v2 + s31*v3)"
+        },
+        {
+          "loop": "l2",
+          "expression": "-(v1 + v2 + s32*v3)"
+        },
+        {
+          "loop": "l3",
+          "expression": "-(v1 + v2 + v3 + s41*v4)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "s32"
+        },
+        {
+          "var": "s32",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "iterated_order_outer_to_inner": [
+        "s32",
+        "s31",
+        "s41"
+      ],
+      "momentum_constraints": [
+        {
+          "type": "delta",
+          "expression": "l1+l2+l3",
+          "normalization": "(2*pi)^D*delta^D(l1+l2+l3)"
+        }
+      ],
+      "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+      "self_energy_insertion": {
+        "kind": "1pi",
+        "operator": "Pi1",
+        "insertion_count": 1,
+        "subgraph_loop_order": 1,
+        "skeleton_loop_order": 2,
+        "total_loop_order": 3,
+        "marked_contour_position": 1,
+        "marked_endpoint": [
+          3,
+          1
+        ],
+        "shared_momentum": "l1",
+        "source_external_sign": "+1",
+        "dyson_coefficient": "1",
+        "tensor": "Pi1=-i*(k^2*g-k*k)*P1",
+        "not_vertex_correction": true,
+        "scalar_contains_color": true,
+        "renormalization": "bare"
+      },
+      "downstream_status": {
+        "montopar": "not_implemented",
+        "C_J": "not_available",
+        "I": "not_solved"
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-07",
+      "emission_type": "3e-3g+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 2,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu3",
+          "color": "a3"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "color": [
+            "a2",
+            "b2"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "mu3",
+            "rho"
+          ],
+          "color": [
+            "a3",
+            "c"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "sigma",
+            "nu3"
+          ],
+          "color": [
+            "d",
+            "b3"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "tgv",
+          "id": "v1",
+          "loops": [
+            "l1",
+            "l2",
+            "l3"
+          ],
+          "lorentz": [
+            "nu1",
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b1",
+            "b2",
+            "b3"
+          ],
+          "incoming_momenta": [
+            "-l1",
+            "-l2",
+            "-l3"
+          ],
+          "vertex_loop_order": 0
+        },
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l3",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "rho",
+            "sigma"
+          ],
+          "color": [
+            "c",
+            "d"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-(v1 + s21*v2)"
+        },
+        {
+          "loop": "l2",
+          "expression": "-(v1 + v2 + v3 + s41*v4)"
+        },
+        {
+          "loop": "l3",
+          "expression": "-(v1 + v2 + v3 + s42*v4)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "iterated_order_outer_to_inner": [
+        "s21",
+        "s42",
+        "s41"
+      ],
+      "momentum_constraints": [
+        {
+          "type": "delta",
+          "expression": "l1+l2+l3",
+          "normalization": "(2*pi)^D*delta^D(l1+l2+l3)"
+        }
+      ],
+      "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+      "self_energy_insertion": {
+        "kind": "1pi",
+        "operator": "Pi1",
+        "insertion_count": 1,
+        "subgraph_loop_order": 1,
+        "skeleton_loop_order": 2,
+        "total_loop_order": 3,
+        "marked_contour_position": 3,
+        "marked_endpoint": [
+          4,
+          2
+        ],
+        "shared_momentum": "l3",
+        "source_external_sign": "+1",
+        "dyson_coefficient": "1",
+        "tensor": "Pi1=-i*(k^2*g-k*k)*P1",
+        "not_vertex_correction": true,
+        "scalar_contains_color": true,
+        "renormalization": "bare"
+      },
+      "downstream_status": {
+        "montopar": "not_implemented",
+        "C_J": "not_available",
+        "I": "not_solved"
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-08",
+      "emission_type": "3e-3g+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 2,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu3",
+          "color": "a3"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "mu2",
+            "rho"
+          ],
+          "color": [
+            "a2",
+            "c"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "sigma",
+            "nu2"
+          ],
+          "color": [
+            "d",
+            "b2"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "color": [
+            "a3",
+            "b3"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "tgv",
+          "id": "v1",
+          "loops": [
+            "l1",
+            "l2",
+            "l3"
+          ],
+          "lorentz": [
+            "nu1",
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b1",
+            "b2",
+            "b3"
+          ],
+          "incoming_momenta": [
+            "-l1",
+            "-l2",
+            "-l3"
+          ],
+          "vertex_loop_order": 0
+        },
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l2",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "rho",
+            "sigma"
+          ],
+          "color": [
+            "c",
+            "d"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-(v1 + s21*v2)"
+        },
+        {
+          "loop": "l2",
+          "expression": "-(v1 + v2 + v3 + s41*v4)"
+        },
+        {
+          "loop": "l3",
+          "expression": "-(v1 + v2 + v3 + s42*v4)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "iterated_order_outer_to_inner": [
+        "s21",
+        "s42",
+        "s41"
+      ],
+      "momentum_constraints": [
+        {
+          "type": "delta",
+          "expression": "l1+l2+l3",
+          "normalization": "(2*pi)^D*delta^D(l1+l2+l3)"
+        }
+      ],
+      "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+      "self_energy_insertion": {
+        "kind": "1pi",
+        "operator": "Pi1",
+        "insertion_count": 1,
+        "subgraph_loop_order": 1,
+        "skeleton_loop_order": 2,
+        "total_loop_order": 3,
+        "marked_contour_position": 2,
+        "marked_endpoint": [
+          4,
+          1
+        ],
+        "shared_momentum": "l2",
+        "source_external_sign": "+1",
+        "dyson_coefficient": "1",
+        "tensor": "Pi1=-i*(k^2*g-k*k)*P1",
+        "not_vertex_correction": true,
+        "scalar_contains_color": true,
+        "renormalization": "bare"
+      },
+      "downstream_status": {
+        "montopar": "not_implemented",
+        "C_J": "not_available",
+        "I": "not_solved"
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-09",
+      "emission_type": "3e-3g+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 2,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu3",
+          "color": "a3"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "rho"
+          ],
+          "color": [
+            "a1",
+            "c"
+          ]
+        },
+        {
+          "loop": "l1",
+          "lorentz": [
+            "sigma",
+            "nu1"
+          ],
+          "color": [
+            "d",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "color": [
+            "a2",
+            "b2"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "color": [
+            "a3",
+            "b3"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "tgv",
+          "id": "v1",
+          "loops": [
+            "l1",
+            "l2",
+            "l3"
+          ],
+          "lorentz": [
+            "nu1",
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b1",
+            "b2",
+            "b3"
+          ],
+          "incoming_momenta": [
+            "-l1",
+            "-l2",
+            "-l3"
+          ],
+          "vertex_loop_order": 0
+        },
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l1",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "rho",
+            "sigma"
+          ],
+          "color": [
+            "c",
+            "d"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-(v1 + s21*v2)"
+        },
+        {
+          "loop": "l2",
+          "expression": "-(v1 + v2 + v3 + s41*v4)"
+        },
+        {
+          "loop": "l3",
+          "expression": "-(v1 + v2 + v3 + s42*v4)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "iterated_order_outer_to_inner": [
+        "s21",
+        "s42",
+        "s41"
+      ],
+      "momentum_constraints": [
+        {
+          "type": "delta",
+          "expression": "l1+l2+l3",
+          "normalization": "(2*pi)^D*delta^D(l1+l2+l3)"
+        }
+      ],
+      "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+      "self_energy_insertion": {
+        "kind": "1pi",
+        "operator": "Pi1",
+        "insertion_count": 1,
+        "subgraph_loop_order": 1,
+        "skeleton_loop_order": 2,
+        "total_loop_order": 3,
+        "marked_contour_position": 1,
+        "marked_endpoint": [
+          2,
+          1
+        ],
+        "shared_momentum": "l1",
+        "source_external_sign": "+1",
+        "dyson_coefficient": "1",
+        "tensor": "Pi1=-i*(k^2*g-k*k)*P1",
+        "not_vertex_correction": true,
+        "scalar_contains_color": true,
+        "renormalization": "bare"
+      },
+      "downstream_status": {
+        "montopar": "not_implemented",
+        "C_J": "not_available",
+        "I": "not_solved"
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-10",
+      "emission_type": "3e-3g+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 2,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 3,
+          "lorentz": "mu2",
+          "color": "a2"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu3",
+          "color": "a3"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "color": [
+            "a2",
+            "b2"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "mu3",
+            "rho"
+          ],
+          "color": [
+            "a3",
+            "c"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "sigma",
+            "nu3"
+          ],
+          "color": [
+            "d",
+            "b3"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "tgv",
+          "id": "v1",
+          "loops": [
+            "l1",
+            "l2",
+            "l3"
+          ],
+          "lorentz": [
+            "nu1",
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b1",
+            "b2",
+            "b3"
+          ],
+          "incoming_momenta": [
+            "-l1",
+            "-l2",
+            "-l3"
+          ],
+          "vertex_loop_order": 0
+        },
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l3",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "rho",
+            "sigma"
+          ],
+          "color": [
+            "c",
+            "d"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-(v1 + s21*v2)"
+        },
+        {
+          "loop": "l2",
+          "expression": "-(v1 + v2 + s31*v3)"
+        },
+        {
+          "loop": "l3",
+          "expression": "-(v1 + v2 + v3 + s41*v4)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "iterated_order_outer_to_inner": [
+        "s21",
+        "s31",
+        "s41"
+      ],
+      "momentum_constraints": [
+        {
+          "type": "delta",
+          "expression": "l1+l2+l3",
+          "normalization": "(2*pi)^D*delta^D(l1+l2+l3)"
+        }
+      ],
+      "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+      "self_energy_insertion": {
+        "kind": "1pi",
+        "operator": "Pi1",
+        "insertion_count": 1,
+        "subgraph_loop_order": 1,
+        "skeleton_loop_order": 2,
+        "total_loop_order": 3,
+        "marked_contour_position": 3,
+        "marked_endpoint": [
+          4,
+          1
+        ],
+        "shared_momentum": "l3",
+        "source_external_sign": "+1",
+        "dyson_coefficient": "1",
+        "tensor": "Pi1=-i*(k^2*g-k*k)*P1",
+        "not_vertex_correction": true,
+        "scalar_contains_color": true,
+        "renormalization": "bare"
+      },
+      "downstream_status": {
+        "montopar": "not_implemented",
+        "C_J": "not_available",
+        "I": "not_solved"
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-11",
+      "emission_type": "3e-3g+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 2,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 3,
+          "lorentz": "mu2",
+          "color": "a2"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu3",
+          "color": "a3"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "mu2",
+            "rho"
+          ],
+          "color": [
+            "a2",
+            "c"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "sigma",
+            "nu2"
+          ],
+          "color": [
+            "d",
+            "b2"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "color": [
+            "a3",
+            "b3"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "tgv",
+          "id": "v1",
+          "loops": [
+            "l1",
+            "l2",
+            "l3"
+          ],
+          "lorentz": [
+            "nu1",
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b1",
+            "b2",
+            "b3"
+          ],
+          "incoming_momenta": [
+            "-l1",
+            "-l2",
+            "-l3"
+          ],
+          "vertex_loop_order": 0
+        },
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l2",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "rho",
+            "sigma"
+          ],
+          "color": [
+            "c",
+            "d"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-(v1 + s21*v2)"
+        },
+        {
+          "loop": "l2",
+          "expression": "-(v1 + v2 + s31*v3)"
+        },
+        {
+          "loop": "l3",
+          "expression": "-(v1 + v2 + v3 + s41*v4)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "iterated_order_outer_to_inner": [
+        "s21",
+        "s31",
+        "s41"
+      ],
+      "momentum_constraints": [
+        {
+          "type": "delta",
+          "expression": "l1+l2+l3",
+          "normalization": "(2*pi)^D*delta^D(l1+l2+l3)"
+        }
+      ],
+      "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+      "self_energy_insertion": {
+        "kind": "1pi",
+        "operator": "Pi1",
+        "insertion_count": 1,
+        "subgraph_loop_order": 1,
+        "skeleton_loop_order": 2,
+        "total_loop_order": 3,
+        "marked_contour_position": 2,
+        "marked_endpoint": [
+          3,
+          1
+        ],
+        "shared_momentum": "l2",
+        "source_external_sign": "+1",
+        "dyson_coefficient": "1",
+        "tensor": "Pi1=-i*(k^2*g-k*k)*P1",
+        "not_vertex_correction": true,
+        "scalar_contains_color": true,
+        "renormalization": "bare"
+      },
+      "downstream_status": {
+        "montopar": "not_implemented",
+        "C_J": "not_available",
+        "I": "not_solved"
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    },
+    {
+      "orbit_id": "3e-3g+Pi1-12",
+      "emission_type": "3e-3g+Pi1",
+      "sector": "dg",
+      "nloops": 3,
+      "g_power": 6,
+      "vertices": [
+        {
+          "line": 2,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 3,
+          "lorentz": "mu2",
+          "color": "a2"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu3",
+          "color": "a3"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "rho"
+          ],
+          "color": [
+            "a1",
+            "c"
+          ]
+        },
+        {
+          "loop": "l1",
+          "lorentz": [
+            "sigma",
+            "nu1"
+          ],
+          "color": [
+            "d",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l2",
+          "lorentz": [
+            "mu2",
+            "nu2"
+          ],
+          "color": [
+            "a2",
+            "b2"
+          ]
+        },
+        {
+          "loop": "l3",
+          "lorentz": [
+            "mu3",
+            "nu3"
+          ],
+          "color": [
+            "a3",
+            "b3"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "tgv",
+          "id": "v1",
+          "loops": [
+            "l1",
+            "l2",
+            "l3"
+          ],
+          "lorentz": [
+            "nu1",
+            "nu2",
+            "nu3"
+          ],
+          "color": [
+            "b1",
+            "b2",
+            "b3"
+          ],
+          "incoming_momenta": [
+            "-l1",
+            "-l2",
+            "-l3"
+          ],
+          "vertex_loop_order": 0
+        },
+        {
+          "type": "se",
+          "id": "se1",
+          "propagator": "l1",
+          "se_type": "vacuum-pol",
+          "lorentz": [
+            "rho",
+            "sigma"
+          ],
+          "color": [
+            "c",
+            "d"
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-(v1 + s21*v2)"
+        },
+        {
+          "loop": "l2",
+          "expression": "-(v1 + v2 + s31*v3)"
+        },
+        {
+          "loop": "l3",
+          "expression": "-(v1 + v2 + v3 + s41*v4)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "iterated_order_outer_to_inner": [
+        "s21",
+        "s31",
+        "s41"
+      ],
+      "momentum_constraints": [
+        {
+          "type": "delta",
+          "expression": "l1+l2+l3",
+          "normalization": "(2*pi)^D*delta^D(l1+l2+l3)"
+        }
+      ],
+      "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+      "self_energy_insertion": {
+        "kind": "1pi",
+        "operator": "Pi1",
+        "insertion_count": 1,
+        "subgraph_loop_order": 1,
+        "skeleton_loop_order": 2,
+        "total_loop_order": 3,
+        "marked_contour_position": 1,
+        "marked_endpoint": [
+          2,
+          1
+        ],
+        "shared_momentum": "l1",
+        "source_external_sign": "+1",
+        "dyson_coefficient": "1",
+        "tensor": "Pi1=-i*(k^2*g-k*k)*P1",
+        "not_vertex_correction": true,
+        "scalar_contains_color": true,
+        "renormalization": "bare"
+      },
+      "downstream_status": {
+        "montopar": "not_implemented",
+        "C_J": "not_available",
+        "I": "not_solved"
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      }
+    }
+  ],
+  "status": "qgraf_pipeline_source_only",
+  "source_full_export_sha256": "d1227d1e3756bc8678013535b85b206442dc06aab706ef46f2e5e1dbb4d1564e"
+}

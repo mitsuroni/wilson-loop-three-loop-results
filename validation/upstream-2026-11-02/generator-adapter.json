@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "skip_pdf_renderer_calls": 0,
+  "default_renderer_calls": 1,
+  "all_four_mathematical_exports_byte_identical": true,
+  "mathematical_export_sha256": {
+    "integrals.md": "e8a38d4abd28c675be3d2cc2a9f504d9a12a0e45033be17931028c94f1d03efd",
+    "integrals.json": "39216d8c277ec642a974c79e15da246c6982f1ccf3352062cee42ab30effd54b",
+    "diagrams.tex": "efbd998cdd2e1032c3e84ea0eeeb39225226d5e0548ebe2bc688c9945242be70",
+    "orbit_definitions.json": "c28b7e0e62ad331d7991cc089e0d93f6f49e4d4286dc35e0f96f53e9aefa23a3"
+  },
+  "uses_real_combination_generation_and_export": true,
+  "mock_scope": "Only external PDF rendering is mocked. --no-pdf path raises if the renderer is touched; default path must call it once.",
+  "generated_orbits": 2
+}

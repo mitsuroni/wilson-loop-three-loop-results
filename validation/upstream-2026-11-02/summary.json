@@ -1,0 +1,172 @@
+{
+  "status": "passed",
+  "task": "WILSON-5.20",
+  "utc": "2026-11-02T08:55:50.648216+00:00",
+  "publication_stage": "diagram_generator_to_parameter_integral_inputs",
+  "packages": {
+    "qgraf-pipeline": {
+      "status": "passed",
+      "run_utc": "2026-11-02T08:37:32.098886+00:00",
+      "package": "qgraf-pipeline",
+      "source_manifest_sha256": "ed0bf5fbd6e2b6a1e568b3c570fe3852b10cc2383e78015cdad2f2d779986adf",
+      "original_tests_executed": 102,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "deselected_scope": "all original test modules",
+      "elapsed_seconds": 13.5,
+      "portable_test_command": "python -m pytest -q tests -p no:cacheprovider",
+      "test_dependency_versions": {
+        "pytest": "9.0.2",
+        "sympy": "1.14.0",
+        "numpy": "2.2.6"
+      },
+      "copied_source_import_verified": true,
+      "original_and_published_bytes_checked": true,
+      "offline_wheel_build_target_install": "passed; copied package builds, no network/dependency/global installation",
+      "installed_CLI_help_with_python_site_disabled": "passed",
+      "publication_adapter_check": {
+        "status": "passed",
+        "skip_pdf_renderer_calls": 0,
+        "default_renderer_calls": 1,
+        "all_four_mathematical_exports_byte_identical": true,
+        "mathematical_export_sha256": {
+          "integrals.md": "e8a38d4abd28c675be3d2cc2a9f504d9a12a0e45033be17931028c94f1d03efd",
+          "integrals.json": "39216d8c277ec642a974c79e15da246c6982f1ccf3352062cee42ab30effd54b",
+          "diagrams.tex": "efbd998cdd2e1032c3e84ea0eeeb39225226d5e0548ebe2bc688c9945242be70",
+          "orbit_definitions.json": "c28b7e0e62ad331d7991cc089e0d93f6f49e4d4286dc35e0f96f53e9aefa23a3"
+        },
+        "uses_real_combination_generation_and_export": true,
+        "mock_scope": "Only external PDF rendering is mocked. --no-pdf path raises if the renderer is touched; default path must call it once.",
+        "generated_orbits": 2
+      },
+      "scope": "Software regression, native output and portability checks. No new Laurent evaluation, complete mathematical proof or optional external backend claim.",
+      "local_test_diagnostic": "qgraf pytest exited0 and all102 tests passed; local pyreadline shutdown emitted an ignored Windows console destructor exception after the test summary"
+    },
+    "montopar": {
+      "status": "passed",
+      "run_utc": "2026-11-02T08:54:16.530348+00:00",
+      "package": "montopar",
+      "source_manifest_sha256": "d8fccbbb9b3a565891ce3abea48d833226eceffe7b08697324bdf6684174a55d",
+      "original_tests_executed": 960,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "deselected_scope": "not slow; explicit external Wolfram/FeynCalc integration deselected",
+      "elapsed_seconds": 1017.954000000027,
+      "portable_test_command": "python -m pytest -q tests -p no:cacheprovider -m \"not slow\"",
+      "test_dependency_versions": {
+        "pytest": "9.0.2",
+        "sympy": "1.14.0",
+        "numpy": "2.2.6"
+      },
+      "copied_source_import_verified": true,
+      "original_and_published_bytes_checked": true,
+      "offline_wheel_build_target_install": "passed; copied package builds, no network/dependency/global installation",
+      "installed_CLI_help_with_python_site_disabled": "passed",
+      "publication_adapter_check": null,
+      "scope": "Software regression, native output and portability checks. No new Laurent evaluation, complete mathematical proof or optional external backend claim.",
+      "local_test_diagnostic": null
+    }
+  },
+  "data_coverage": {
+    "total_orbits": 163,
+    "by_loop": {
+      "1": 2,
+      "2": 12,
+      "3": 149
+    },
+    "by_family": {
+      "2e": 2,
+      "2e-Pi1": 2,
+      "2e-Pi1+Pi1": 2,
+      "2e-Pi2": 2,
+      "3e-3g": 4,
+      "3e-3g+Pi1": 12,
+      "3e-Gamma1": 4,
+      "4e": 6,
+      "4e-3g+3g": 26,
+      "4e-4g": 9,
+      "4e-Pi1": 11,
+      "5e-3g": 44,
+      "6e": 39
+    },
+    "native_raw_CJ_orbits": 163,
+    "ordered_original_default_orbits": 47,
+    "orbits_with_any_existing_prepared_payload": 126,
+    "prepared_representation_occurrences": 144,
+    "orbits_without_separate_prepared_payload": [
+      "3e-3g+Pi1-01",
+      "3e-3g+Pi1-02",
+      "3e-3g+Pi1-03",
+      "3e-3g+Pi1-04",
+      "3e-3g+Pi1-05",
+      "3e-3g+Pi1-06",
+      "3e-3g+Pi1-07",
+      "3e-3g+Pi1-08",
+      "3e-3g+Pi1-09",
+      "3e-3g+Pi1-10",
+      "3e-3g+Pi1-11",
+      "3e-3g+Pi1-12",
+      "3e-Gamma1-01",
+      "3e-Gamma1-02",
+      "3e-Gamma1-03",
+      "3e-Gamma1-04",
+      "4e-3g+3g-02",
+      "4e-3g+3g-03",
+      "4e-3g+3g-05",
+      "4e-3g+3g-06",
+      "4e-3g+3g-08",
+      "4e-3g+3g-09",
+      "4e-3g+3g-11",
+      "4e-3g+3g-12",
+      "4e-3g+3g-14",
+      "4e-3g+3g-15",
+      "4e-3g+3g-17",
+      "4e-3g+3g-18",
+      "4e-3g+3g-20",
+      "4e-3g+3g-21",
+      "4e-3g+3g-23",
+      "4e-3g+3g-24",
+      "4e-3g+3g-25",
+      "4e-3g+3g-26",
+      "4e-4g-01",
+      "4e-4g-03",
+      "4e-4g-04"
+    ],
+    "native_contract_prepared_orbits": 17,
+    "ordered_prepared_orbits": 120,
+    "ordered_prepared_counting_rule": "Source explicitly declares an ordered representation, or declares an iterated order with original s variables. Source representation fields themselves are never rewritten.",
+    "graph_generation_replayed_here": false,
+    "native_QGRAF_binary_used_here": false,
+    "CAS_CJ_generation_rerun_here": false,
+    "Laurent_coefficients_exported_here": false,
+    "formal": "not_run"
+  },
+  "representative_regeneration": "Two-loop12 and three-loop149 orbit definitions, plus native two-loop2e-Pi1 two-orbit raw C/J package, exactly reproduce the recorded frozen bytes. No claim all13families were regenerated.",
+  "copied_evidence": {
+    "generator-adapter.json": {
+      "source_local_evidence": "workflow/checks/upstream-publication-20261102/packages/adapter-check.json",
+      "sha256": "7f35f7b9cd4803ab060ab38771fac261ae44ca253cfe005dac6312362b0bce17"
+    },
+    "offline-install.json": {
+      "source_local_evidence": "workflow/checks/upstream-publication-20261102/packages/install-check.json",
+      "sha256": "b56d2a414d41d3ad8cdaf2cc97824de66666feae7b7511c3fe449c014b8fecc9"
+    },
+    "representative-replay.json": {
+      "source_local_evidence": "workflow/checks/upstream-publication-20261102/review/e2e.json",
+      "sha256": "487dc05e6e4553ea1820cbc13a4c0ef9c2fadcd46b66d2b67105603dbe2ba42f"
+    },
+    "independent-audit.json": {
+      "source_local_evidence": "workflow/checks/upstream-publication-20261102/review/audit.json",
+      "sha256": "e1d9d53b5b2e8777a037fa0a42c9f9939c00fafc41ddcf8348aa96280998e6e6"
+    },
+    "data-export-checks.json": {
+      "source_local_evidence": "workflow/checks/upstream-publication-20261102/data/checks.json",
+      "sha256": "798192762af2bb182423f983899e81f2a277fed6058e2d3a020dde0c958fc631"
+    }
+  },
+  "unchanged_previous_public_files": 395,
+  "data_input_changes": "None; original snapshot bytes and scientific selectors retained",
+  "formal": "not_run"
+}

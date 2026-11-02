@@ -1,0 +1,121 @@
+{
+  "orbit_id": "3e-3g-01",
+  "emission_type": "3e-3g",
+  "sector": "dg",
+  "nloops": 2,
+  "vertices": [
+    {
+      "line": 3,
+      "lorentz": "mu1",
+      "color": "a1"
+    },
+    {
+      "line": 4,
+      "lorentz": "mu2",
+      "color": "a2"
+    },
+    {
+      "line": 4,
+      "lorentz": "mu3",
+      "color": "a3"
+    }
+  ],
+  "propagators": [
+    {
+      "loop": "l1",
+      "lorentz": [
+        "mu1",
+        "nu1"
+      ],
+      "color": [
+        "a1",
+        "b1"
+      ]
+    },
+    {
+      "loop": "l2",
+      "lorentz": [
+        "mu2",
+        "nu2"
+      ],
+      "color": [
+        "a2",
+        "b2"
+      ]
+    },
+    {
+      "loop": "l3",
+      "lorentz": [
+        "mu3",
+        "nu3"
+      ],
+      "color": [
+        "a3",
+        "b3"
+      ]
+    }
+  ],
+  "internal_vertices": [
+    {
+      "type": "tgv",
+      "id": "v1",
+      "loops": [
+        "l1",
+        "l2",
+        "l3"
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "loop": "l1",
+      "expression": "-(v1 + v2 + s31*v3)"
+    },
+    {
+      "loop": "l2",
+      "expression": "-(v1 + v2 + v3 + s41*v4)"
+    },
+    {
+      "loop": "l3",
+      "expression": "-(v1 + v2 + v3 + s42*v4)"
+    }
+  ],
+  "bounds": [
+    {
+      "var": "s31",
+      "low": "0",
+      "high": "1"
+    },
+    {
+      "var": "s41",
+      "low": "0",
+      "high": "s42"
+    },
+    {
+      "var": "s42",
+      "low": "0",
+      "high": "1"
+    }
+  ],
+  "physical_convention": {
+    "id": "wilson-qcd-action-path-fourier/1.0",
+    "wilson_transport": "U'=ig*A*U",
+    "wilson_word": [
+      "a3",
+      "a2",
+      "a1"
+    ],
+    "chronological_word": [
+      "a1",
+      "a2",
+      "a3"
+    ],
+    "vertex_labels_unchanged": true,
+    "momentum_Fourier": "exp(-ipX)",
+    "momentum_Wick": "I",
+    "coordinate_Wick": "-I",
+    "one_pi_includes_internal_loop_signs": true,
+    "Dyson_external_coefficient": 1,
+    "raw_Euler_count": 0
+  }
+}

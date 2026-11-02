@@ -1,0 +1,216 @@
+{
+  "schema": "pi2-theory-source-1",
+  "status": "theory_source_not_montopar",
+  "upstream": [
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\learning\\wilsonloop\\qgraf-pipeline\\outputs\\3loop\\orbit_definitions.json",
+      "sha256": "62b9ffae50a0dc057d3a791058772d50b1ffe9de0004cb9a94859bac20267912"
+    },
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\learning\\wilsonloop\\qgraf-pipeline\\outputs\\3loop\\integrals.json",
+      "sha256": "540bf218527097c60b0f2d76a0ccd27d719fe9bc6c2ef23f265ebcef1e774d4b"
+    },
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\learning\\wilsonloop\\qgraf-pipeline\\outputs\\3loop\\integrals.md",
+      "sha256": "026b04f05ec0ce7e41c4c8523b8bfc1262d84786cc9f26375eea652f67d6213c"
+    }
+  ],
+  "definitions": [
+    {
+      "orbit_id": "2e-Pi2-01",
+      "emission_type": "2e-Pi2",
+      "sector": "dg",
+      "nloops": 3,
+      "vertices": [
+        {
+          "line": 3,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l1",
+          "lorentz": [
+            "nu2",
+            "mu2"
+          ],
+          "color": [
+            "b2",
+            "a2"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "se",
+          "propagator": "l1",
+          "se_type": "vacuum-pol-2loop"
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "(1-s31)*v3 + s41*v4"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ]
+    },
+    {
+      "orbit_id": "2e-Pi2-02",
+      "emission_type": "2e-Pi2",
+      "sector": "dg",
+      "nloops": 3,
+      "vertices": [
+        {
+          "line": 2,
+          "lorentz": "mu1",
+          "color": "a1"
+        },
+        {
+          "line": 4,
+          "lorentz": "mu2",
+          "color": "a2"
+        }
+      ],
+      "propagators": [
+        {
+          "loop": "l1",
+          "lorentz": [
+            "mu1",
+            "nu1"
+          ],
+          "color": [
+            "a1",
+            "b1"
+          ]
+        },
+        {
+          "loop": "l1",
+          "lorentz": [
+            "nu2",
+            "mu2"
+          ],
+          "color": [
+            "b2",
+            "a2"
+          ]
+        }
+      ],
+      "internal_vertices": [
+        {
+          "type": "se",
+          "propagator": "l1",
+          "se_type": "vacuum-pol-2loop"
+        }
+      ],
+      "phases": [
+        {
+          "loop": "l1",
+          "expression": "-((1-s41)*v4 + v1 + s21*v2)"
+        }
+      ],
+      "bounds": [
+        {
+          "var": "s21",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "1"
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "orbit_id": "2e-Pi2-01",
+      "emission_type": "2e-Pi2",
+      "category": "loop",
+      "edge_counts": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "eikonal_count": 2,
+      "g_power": 6,
+      "n_diagrams": 1,
+      "wl_wl_pairs": 0,
+      "mirror_relation": "self-mirror",
+      "mirror_of": null,
+      "is_2pi": true,
+      "reducible_to": [],
+      "diagram_indices": [
+        209
+      ]
+    },
+    {
+      "orbit_id": "2e-Pi2-02",
+      "emission_type": "2e-Pi2",
+      "category": "loop",
+      "edge_counts": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "eikonal_count": 2,
+      "g_power": 6,
+      "n_diagrams": 1,
+      "wl_wl_pairs": 0,
+      "mirror_relation": "self-mirror",
+      "mirror_of": null,
+      "is_2pi": true,
+      "reducible_to": [],
+      "diagram_indices": [
+        210
+      ]
+    }
+  ],
+  "source_markdown": {
+    "2e-Pi2-01": "\n- **Type**: `2e-Pi2`\n- **Category**: `loop`\n- **Edge counts**: `[0, 0, 1, 1]`\n- **Eikonal count**: 2\n- **Diagrams**: 1\n- **Mirror**: self-mirror\n- **2PI**: True\n\n$$\nI_{(2e-Pi2-01)} = -\\int_0^1 ds_{3,1} \\int_0^1 ds_{4,1}\\;(ig\\,v_{3}^{\\mu_{1}} t^{a_{1}}) (ig\\,v_{4}^{\\mu_{2}} t^{a_{2}})\n\\times \\int \\frac{d^D\\ell}{(2\\pi)^D}\\,\\frac{-ig_{\\mu_{1}\\nu_1}}{\\ell^2+i0}\\,\\Pi^{(2)}_{b_1 b_2}^{\\nu_1\\nu_2}(\\ell)\\,\\frac{-ig_{\\nu_2\\mu_{2}}}{\\ell^2+i0}\\,e^{-i\\ell\\cdot\\bigl(-\\bigl[(1-s_{3,1})\\,v_{3} + s_{4,1}\\,v_{4}\\bigr]\\bigr)}\n\\quad\\text{(SE: ghost+quark+gluon-bubble+4g-tadpole)}\n$$\n",
+    "2e-Pi2-02": "\n- **Type**: `2e-Pi2`\n- **Category**: `loop`\n- **Edge counts**: `[0, 1, 0, 1]`\n- **Eikonal count**: 2\n- **Diagrams**: 1\n- **Mirror**: self-mirror\n- **2PI**: True\n\n$$\nI_{(2e-Pi2-02)} = -\\int_0^1 ds_{2,1} \\int_0^1 ds_{4,1}\\;(ig\\,v_{2}^{\\mu_{1}} t^{a_{1}}) (ig\\,v_{4}^{\\mu_{2}} t^{a_{2}})\n\\times \\int \\frac{d^D\\ell}{(2\\pi)^D}\\,\\frac{-ig_{\\mu_{1}\\nu_1}}{\\ell^2+i0}\\,\\Pi^{(2)}_{b_1 b_2}^{\\nu_1\\nu_2}(\\ell)\\,\\frac{-ig_{\\nu_2\\mu_{2}}}{\\ell^2+i0}\\,e^{-i\\ell\\cdot\\bigl((1-s_{4,1})\\,v_{4} + v_{1} + s_{2,1}\\,v_{2}\\bigr)}\n\\quad\\text{(SE: ghost+quark+gluon-bubble+4g-tadpole)}\n$$\n"
+  },
+  "operator_source": {
+    "url": "https://arxiv.org/src/1703.08532v2/anc/gluonB.h",
+    "full_file_sha256": "7d33d4f63e9a776a736c1d75a22376a0cb8f97b68fe4cb3f3ce9f8edea056ee3",
+    "a2_block_exact": "\n         +ca^2*rat(98*ep^4-297*ep^3+281*ep^2-56*ep-24,32*ep^4-48*ep^3)\n         +ca^2*G10*rat(-408*ep^7+1172*ep^6-158*ep^5-2733*ep^4+3473*ep^3\n         -1486*ep^2+100*ep+48,288*ep^7-432*ep^6-224*ep^5+400*ep^4-96*\n         ep^3)\n         +tf*nf*ca*rat(18*ep^3-30*ep^2+16*ep-4,2*ep^4-3*ep^3)\n         +tf*nf*ca*G10*rat(-80*ep^6+176*ep^5-36*ep^4-188*ep^3+186*ep^2-\n         66*ep+8,18*ep^7-27*ep^6-14*ep^5+25*ep^4-6*ep^3)\n         +tf*nf*cf*rat(-8*ep^3+12*ep^2-12*ep+8,2*ep^4-3*ep^3)\n         +tf*nf*cf*G10*rat(32*ep^5-128*ep^4+232*ep^3-216*ep^2+96*ep-16,\n         18*ep^6-45*ep^5+31*ep^4-6*ep^3)\n         +xi*ca^2*rat(-168*ep^4+446*ep^3-347*ep^2+48*ep+16,32*ep^4-48*\n         ep^3)\n         +xi*ca^2*G10*rat(792*ep^7-2100*ep^6+846*ep^5+2045*ep^4-2113*\n         ep^3+506*ep^2+84*ep-32,288*ep^7-432*ep^6-224*ep^5+400*ep^4-96*\n         ep^3)\n         +xi*tf*nf*ca*rat(-12*ep^2+18*ep-6,2*ep^3-3*ep^2)\n         +xi*tf*nf*ca*G10*rat(24*ep^4-24*ep^3-14*ep^2+18*ep-4,6*ep^5-5*\n         ep^4-8*ep^3+3*ep^2)\n         +xi^2*ca^2*rat(22*ep^2-17*ep+8,16*ep^2)\n         +xi^2*ca^2*G10*rat(-120*ep^5+244*ep^4-78*ep^3-61*ep^2+51*ep-12\n         ,96*ep^5-80*ep^4-128*ep^3+48*ep^2)\n         +xi^2*tf*nf*ca*rat(-2*ep+2,2*ep^2-3*ep)\n         +xi^3*ca^2*rat(12*ep-5,16*ep)\n         +xi^3*ca^2*G10*rat(-4*ep^3-ep+1,48*ep^3+32*ep^2-16*ep)\n         +xi^4*ca^2*rat(1,16)\n         "
+  },
+  "convention": {
+    "source_external_sign": -1,
+    "D": "4-2*eps",
+    "xi_RUVV": 1,
+    "operator": "-i delta T P2_scalar",
+    "formal": "not_run"
+  }
+}

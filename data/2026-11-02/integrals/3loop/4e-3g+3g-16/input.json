@@ -1,0 +1,1032 @@
+{
+  "format": "wilson-upstream-integral-input-index/1",
+  "path_base": "data/2026-11-02",
+  "stable_id": "L3/4e-3g+3g-16",
+  "orbit_id": "4e-3g+3g-16",
+  "loop_order": 3,
+  "family": "4e-3g+3g",
+  "graph_definition": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+    "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+    "json_pointer": "/orbits/35",
+    "field_sha256": "6db89e4105aa025e6e6036663b0891be551e0a6dcdee9febba23f95694629fff",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "graph_catalogue": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/integrals.json",
+    "sha256": "fbc406891bb8eeef30b3912dc140972a1ddc23994105e62997a19d393a5813ea",
+    "json_pointer": "/orbits/35",
+    "field_sha256": "a6f917be399f928de5ec10b98993c0d9fe41b87439b5aad0de800e8a6d0a313c",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "graph_summary": {
+    "orbit_id": "4e-3g+3g-16",
+    "emission_type": "4e-3g+3g",
+    "category": "tree",
+    "edge_counts": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "eikonal_count": 4,
+    "g_power": 6,
+    "n_diagrams": 2,
+    "wl_wl_pairs": 0,
+    "mirror_relation": "self-mirror",
+    "mirror_of": null,
+    "is_2pi": true,
+    "reducible_to": [],
+    "diagram_indices": [
+      590,
+      595
+    ]
+  },
+  "prepared_inputs": [
+    {
+      "snapshot_role": "historical_double_TGV_ordered_prepared_snapshot",
+      "normalization_note": "Existing family-specific ordered C/J and original numerator/measure; preserved exactly, including historical completion labels. A frozen progress label is not the current mathematical status.",
+      "orbit": {
+        "path": "snapshots/benchmarks/double-tgv/4e-3g+3g/prepared/dt7s-r001.json",
+        "sha256": "1c29d4a419a49b816023e236b16196a7bead94c44c275afb8ecb703262e91484",
+        "json_pointer": "",
+        "field_sha256": "663568ec39834e09d6b56f8288889e969506147979d0dea0f4d36114c4e02906",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "C": {
+        "path": "snapshots/benchmarks/double-tgv/4e-3g+3g/prepared/dt7s-r001.json",
+        "sha256": "1c29d4a419a49b816023e236b16196a7bead94c44c275afb8ecb703262e91484",
+        "json_pointer": "/C",
+        "field_sha256": "853b78f9ff38af4bbc39657c22a96739cd8750c65f373f02fc2800f9e5ef4c6e",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "J": {
+        "path": "snapshots/benchmarks/double-tgv/4e-3g+3g/prepared/dt7s-r001.json",
+        "sha256": "1c29d4a419a49b816023e236b16196a7bead94c44c275afb8ecb703262e91484",
+        "json_pointer": "/J",
+        "field_sha256": "d3e35550ba376f637304fc4d298b8fe0b75c9d9c1e6e3a1f8699d27e02595578",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "declared_domain": {
+        "representation": "ordered_s",
+        "variables": [
+          "s21",
+          "s31",
+          "s32",
+          "s41"
+        ],
+        "bounds": {
+          "s21": [
+            "0",
+            "1"
+          ],
+          "s31": [
+            "0",
+            "s32"
+          ],
+          "s32": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "1"
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3+alpha4+alpha5": "1"
+        },
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3",
+          "alpha4",
+          "alpha5"
+        ],
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4",
+            "alpha5"
+          ],
+          "constraint": "alpha1+alpha2+alpha3+alpha4+alpha5=1",
+          "nonnegative_variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4",
+            "alpha5"
+          ],
+          "independent_variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4"
+          ],
+          "substitution": {
+            "alpha5": "1-alpha1-alpha2-alpha3-alpha4"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ],
+            "alpha3": [
+              "0",
+              "1-alpha1-alpha2"
+            ],
+            "alpha4": [
+              "0",
+              "1-alpha1-alpha2-alpha3"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4"
+          ],
+          "jacobian": "1",
+          "weight_location": "integrand"
+        },
+        "declared_order": [
+          "s21",
+          "s32",
+          "s31",
+          "s41"
+        ],
+        "declared_order_field": "iterated_order_outer_to_inner",
+        "available": true,
+        "no_order_permutation_performed": true
+      },
+      "whole_package_format": "wilson-double-tgv-calculation-input/1",
+      "package_I_definition": null,
+      "not_new_integral_evaluation": true
+    }
+  ],
+  "raw_kernels": [
+    {
+      "role": "J",
+      "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-3g+3g/montopar-initial.json",
+      "sha256": "a77c1ae73090c47dbaff4424c879b11300993e03aa5fcc3aa3a1ee4ddeb95ee9",
+      "json_pointer": "/orbits/15/J",
+      "field_sha256": "db55d5a4607ff37c24c75bb093826226e4b06a93781dc89d9e7b0efdd2398001",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false",
+      "declared_domain": {
+        "representation": "unit_cube",
+        "variables": [
+          "x1",
+          "x2",
+          "x3",
+          "x4"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ],
+          "x3": [
+            0,
+            1
+          ],
+          "x4": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3+alpha4+alpha5": "1"
+        },
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3",
+          "alpha4",
+          "alpha5"
+        ],
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4",
+            "alpha5"
+          ],
+          "constraint": "alpha1+alpha2+alpha3+alpha4+alpha5=1",
+          "nonnegative_variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4",
+            "alpha5"
+          ],
+          "independent_variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4"
+          ],
+          "substitution": {
+            "alpha5": "1-alpha1-alpha2-alpha3-alpha4"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ],
+            "alpha3": [
+              "0",
+              "1-alpha1-alpha2"
+            ],
+            "alpha4": [
+              "0",
+              "1-alpha1-alpha2-alpha3"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4"
+          ],
+          "jacobian": "1",
+          "weight_location": "integrand"
+        },
+        "declared_order": [
+          "x1",
+          "x2",
+          "x3",
+          "x4"
+        ],
+        "declared_order_field": "iterated_order_outer_to_inner",
+        "available": true,
+        "no_order_permutation_performed": true
+      }
+    },
+    {
+      "role": "J_raw_s",
+      "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-3g+3g/montopar-initial.json",
+      "sha256": "a77c1ae73090c47dbaff4424c879b11300993e03aa5fcc3aa3a1ee4ddeb95ee9",
+      "json_pointer": "/orbits/15/J_raw_s",
+      "field_sha256": "d3e35550ba376f637304fc4d298b8fe0b75c9d9c1e6e3a1f8699d27e02595578",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false",
+      "declared_domain": {
+        "representation": "ordered_s",
+        "variables": [
+          "s21",
+          "s31",
+          "s32",
+          "s41"
+        ],
+        "bounds": {
+          "s21": [
+            "0",
+            "1"
+          ],
+          "s31": [
+            "0",
+            "s32"
+          ],
+          "s32": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "1"
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3+alpha4+alpha5": "1"
+        },
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3",
+          "alpha4",
+          "alpha5"
+        ],
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4",
+            "alpha5"
+          ],
+          "constraint": "alpha1+alpha2+alpha3+alpha4+alpha5=1",
+          "nonnegative_variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4",
+            "alpha5"
+          ],
+          "independent_variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4"
+          ],
+          "substitution": {
+            "alpha5": "1-alpha1-alpha2-alpha3-alpha4"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ],
+            "alpha3": [
+              "0",
+              "1-alpha1-alpha2"
+            ],
+            "alpha4": [
+              "0",
+              "1-alpha1-alpha2-alpha3"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2",
+            "alpha3",
+            "alpha4"
+          ],
+          "jacobian": "1",
+          "weight_location": "integrand"
+        },
+        "declared_order": [
+          "s21",
+          "s32",
+          "s31",
+          "s41"
+        ],
+        "declared_order_field": "iterated_order_outer_to_inner",
+        "available": true,
+        "no_order_permutation_performed": true
+      }
+    },
+    {
+      "role": "J_ibp",
+      "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-3g+3g/montopar-initial.json",
+      "sha256": "a77c1ae73090c47dbaff4424c879b11300993e03aa5fcc3aa3a1ee4ddeb95ee9",
+      "json_pointer": "/orbits/15/J_ibp",
+      "field_sha256": "29132c0fe7f60b6b5e7ea94d6e93c92693171ab21ba4d3c56783690327965e3e",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false",
+      "declared_domain": {
+        "representation": "ordered_two_layer_contour_ibp",
+        "block_count": 19,
+        "block_orders": [
+          {
+            "term_id": "ibp_001",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2"
+            ]
+          },
+          {
+            "term_id": "ibp_002",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2"
+            ]
+          },
+          {
+            "term_id": "ibp_003",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2"
+            ]
+          },
+          {
+            "term_id": "ibp_004",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2"
+            ]
+          },
+          {
+            "term_id": "ibp_005",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2"
+            ]
+          },
+          {
+            "term_id": "ibp_006",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2"
+            ]
+          },
+          {
+            "term_id": "ibp_007",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2"
+            ]
+          },
+          {
+            "term_id": "ibp_008",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2"
+            ]
+          },
+          {
+            "term_id": "ibp_009",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2"
+            ]
+          },
+          {
+            "term_id": "ibp_010",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2"
+            ]
+          },
+          {
+            "term_id": "ibp_011",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2",
+              "x3"
+            ]
+          },
+          {
+            "term_id": "ibp_012",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2",
+              "x3"
+            ]
+          },
+          {
+            "term_id": "ibp_013",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2",
+              "x3"
+            ]
+          },
+          {
+            "term_id": "ibp_014",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2",
+              "x3"
+            ]
+          },
+          {
+            "term_id": "ibp_015",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2",
+              "x3"
+            ]
+          },
+          {
+            "term_id": "ibp_016",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2",
+              "x3"
+            ]
+          },
+          {
+            "term_id": "ibp_017",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2",
+              "x3"
+            ]
+          },
+          {
+            "term_id": "ibp_018",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2",
+              "x3",
+              "x4"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ],
+              "x4": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2",
+              "x3",
+              "x4"
+            ]
+          },
+          {
+            "term_id": "ibp_019",
+            "channel": null,
+            "variables": [
+              "x1",
+              "x2",
+              "x3",
+              "x4"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ],
+              "x4": [
+                0,
+                1
+              ]
+            },
+            "declared_order": [
+              "x1",
+              "x2",
+              "x3",
+              "x4"
+            ]
+          }
+        ],
+        "available": true,
+        "no_order_permutation_performed": true
+      }
+    }
+  ],
+  "joint_four_leg_object": "I2334",
+  "native_raw_orbit": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-3g+3g/montopar-initial.json",
+    "sha256": "a77c1ae73090c47dbaff4424c879b11300993e03aa5fcc3aa3a1ee4ddeb95ee9",
+    "json_pointer": "/orbits/15",
+    "field_sha256": "eecb5df1dfd617c33c5d359817ce05f2ee4069a5447c8ed54b94c4aa417f1d70",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "raw_C": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-3g+3g/montopar-initial.json",
+    "sha256": "a77c1ae73090c47dbaff4424c879b11300993e03aa5fcc3aa3a1ee4ddeb95ee9",
+    "json_pointer": "/orbits/15/C",
+    "field_sha256": "b8c19a290c8034b98a83129bd74287e9655a134add6a2ed7fc22eabf786bf914",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "geometry": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-3g+3g/montopar-initial.json",
+    "sha256": "a77c1ae73090c47dbaff4424c879b11300993e03aa5fcc3aa3a1ee4ddeb95ee9",
+    "json_pointer": "/geometry",
+    "field_sha256": "25131b984a7a8e36f61557d4bf07c07bc4108e6fab521bdfe0d3c3c1650c8293",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "native_package_schema_version": "1.3",
+  "physical_convention": {
+    "id": "wilson-qcd-action-path-fourier/1.0",
+    "wilson_transport": "U'=ig*A*U",
+    "wilson_word": [
+      "a4",
+      "a3",
+      "a2",
+      "a1"
+    ],
+    "chronological_word": [
+      "a1",
+      "a2",
+      "a3",
+      "a4"
+    ],
+    "vertex_labels_unchanged": true,
+    "momentum_Fourier": "exp(-ipX)",
+    "momentum_Wick": "I",
+    "coordinate_Wick": "-I",
+    "one_pi_includes_internal_loop_signs": true,
+    "Dyson_external_coefficient": 1,
+    "raw_Euler_count": 0
+  },
+  "c4_symmetry": {
+    "orbit_multiplicity": 4,
+    "stabilizer_order": 1,
+    "stabilizer_rotations": [
+      0
+    ],
+    "definition": "unoriented endpoint pairs and exchange of the two identical internal vertices; same-edge order retained"
+  },
+  "source_normalization": {
+    "scheme": "montopar-raw-CJ",
+    "loop_order": 3,
+    "color_projection": "none",
+    "euler_compensation_count": 0,
+    "orbit_multiplicity_included": false,
+    "crossing_assembled": false,
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+    "assembly_sign": 1
+  },
+  "color_factor_components": {
+    "color": "(-1/4)*CA^2*CF"
+  },
+  "color_channels": null,
+  "C_component_semantics": "multiplicative",
+  "zero_declarations": {
+    "zero_reason": null,
+    "zero_policy": "effective J is zero after color screening; geometric kernel retained without evaluation",
+    "J.physical_zero": false,
+    "J_raw_s.physical_zero": false
+  },
+  "native_production_connection": {
+    "receipt": {
+      "path": "snapshots/workflow/checks/shared-sign-production/native-check.json",
+      "sha256": "c9ebb9c69f70b75ce82a2fb29a8b6daf15f85c004ee050f453c5565c2314b65b"
+    },
+    "record": {
+      "orbit_id": "4e-3g+3g-16",
+      "C_residual": "0",
+      "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+      "native_package": "workflow/checks/shared-sign-production/generated/montopar/3loop/4e-3g+3g/montopar-initial.json",
+      "legacy_C_ratio": 1,
+      "J_connection": "same mathematical blocks"
+    },
+    "rerun_in_this_publication": false
+  },
+  "raw_snapshot_stage": "frozen native-sign production snapshot, adopted for input publication",
+  "source_operator_kind": "double_tgv",
+  "historical_graph_definitions": [
+    {
+      "path": "snapshots/workflow/checks/w3-p0/sources/qgraf/3loop/orbit_definitions.json",
+      "sha256": "d1227d1e3756bc8678013535b85b206442dc06aab706ef46f2e5e1dbb4d1564e",
+      "json_pointer": "/orbits/35",
+      "field_sha256": "c04d921a051d3b8d4fd9aea4f9d44c9d3ca4024b346e59984f240192d9bf2fc8",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+    }
+  ],
+  "historical_evaluation_labels": {
+    "evaluation_status": "not_evaluated",
+    "formal": "not_run"
+  },
+  "archival_calculation_sources": [
+    {
+      "orbit": {
+        "path": "snapshots/benchmarks/double-tgv/4e-3g+3g/sources/montopar-ibp-r001.json",
+        "sha256": "8414da522c3fa126f061b84f4a6f71d371fd5b1baf62a2176ced17c5dbdf7204",
+        "json_pointer": "/orbits/15",
+        "field_sha256": "c4f039d773cbb1c857fc6ee613cce76d079731895c4ca019c695bc50b27ebeab",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "contains_CJ": true,
+      "revision_label": "montopar-ibp-r001",
+      "sign_convention": null,
+      "scope": "Byte-preserved source used by historical mathematical calculations. Its own C/J convention and source bindings remain authoritative; not silently substituted for or identified with the adopted native-sign snapshot."
+    },
+    {
+      "orbit": {
+        "path": "snapshots/benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+        "sha256": "0cccb22b4528fe9ab23bb59f38a9bcda6fae704b4dfdf72d7d3218a5303ba921",
+        "json_pointer": "/orbits/15",
+        "field_sha256": "675d88ddf3c88fe293017190f8b4201f5e79ed786cbb3ce0b12c0d5c0b35d2f5",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "contains_CJ": true,
+      "revision_label": "montopar-r001",
+      "sign_convention": null,
+      "scope": "Byte-preserved source used by historical mathematical calculations. Its own C/J convention and source bindings remain authoritative; not silently substituted for or identified with the adopted native-sign snapshot."
+    }
+  ],
+  "input_path": "integrals/3loop/4e-3g+3g-16/input.json",
+  "readme_path": "integrals/3loop/4e-3g+3g-16/README.md",
+  "stage_scope": {
+    "graph_and_raw_CJ": "exported from byte-preserved frozen payloads",
+    "prepared_input": "available",
+    "Laurent_tables": "not exported in this upstream-only batch",
+    "new_Laurent_derivation": "not run",
+    "formal": "not_run"
+  }
+}
