@@ -1,0 +1,156 @@
+{
+  "format": "wilson-tgv-integral-result/1",
+  "orbit_id": "5e-3g-06",
+  "revision": "r001",
+  "family": "T2[]",
+  "status": "computed_and_checked",
+  "formal": "not_run",
+  "domain": "fixed positive real z; meromorphic epsilon continuation from 1/2<Re(eps)<1",
+  "normalization": "prepared fixed CA^2*CF channel, sym=4, exactly one exp(-3*EulerGamma*eps)",
+  "I_definition": "sym/32*exp(-3*EulerGamma*eps)*Gamma(1-eps)*Gamma(2-2*eps)*(J(z)+z^(3*eps)*J(1/z))/(1+z^(3*eps))",
+  "full_epsilon": {
+    "expression": "lambda*G*(h0-h1)/(576*eps^5)",
+    "definitions": {
+      "lambda": "1-2*eps",
+      "G": "exp(-3*EulerGamma*eps)*Gamma(1-eps)*Gamma(1-2*eps)",
+      "R": "cosh(eps*log(z)/2)/cosh(3*eps*log(z)/2)",
+      "B": "Beta(1-eps,1-eps)",
+      "A": "Gamma(1+eps)*Gamma(1-eps)",
+      "U": "2*A-B",
+      "V": "Gamma(1+eps)*Gamma(1+2*eps)/Gamma(1+3*eps)",
+      "W": "Gamma(1+eps)^2/Gamma(1+2*eps)",
+      "F(eps,nu)": "Beta(2-eps,1-eps)/(1+nu)*HypergeometricPFQ([1,1,2-eps],[2+nu,3-2*eps],1)",
+      "h0": "U/(lambda*eps)",
+      "h1": "B/(2*eps)-2*F(eps,2*eps)",
+      "Z": "-Sum(Pochhammer(-eps,k)/(factorial(k)*(k+2*eps))*F(eps,eps+k),k=1..infinity)",
+      "Q": "B*(1-2*W+V)/(2*eps^2)-2*Z"
+    },
+    "class": "Gamma_and_3F2",
+    "series_convergence": "Z sum justified for real 0<eps<1, then continuation; removable intermediate singularities by limits",
+    "Z_positive_tail_bound": "Beta(2-eps,1-eps)*Pochhammer(1-eps,N)/factorial(N)/((N+1+eps)*(N+1+2*eps))"
+  },
+  "laurent": {
+    "minimum_power": -6,
+    "maximum_power": 0,
+    "remainder": "O(eps) at fixed z>0",
+    "ell_definition": "log(z)",
+    "coefficients": {
+      "-6": "1/1152",
+      "-5": "0",
+      "-4": "-5*pi**2/13824",
+      "-3": "7*zeta(3)/384",
+      "-2": "-127*pi**4/184320",
+      "-1": "-(-6012*zeta(5) + 175*pi**2*zeta(3))/23040",
+      "0": "-(-440640*zeta(3)**2 + 3581*pi**6)/6635520"
+    }
+  },
+  "hlog_coefficients": {
+    "-6": [
+      {
+        "coefficient": "1/1152",
+        "pi_power": 0,
+        "zeta3_power": 0,
+        "zeta5_power": 0,
+        "Hlog_word": []
+      }
+    ],
+    "-5": [],
+    "-4": [
+      {
+        "coefficient": "-5/13824",
+        "pi_power": 2,
+        "zeta3_power": 0,
+        "zeta5_power": 0,
+        "Hlog_word": []
+      }
+    ],
+    "-3": [
+      {
+        "coefficient": "7/384",
+        "pi_power": 0,
+        "zeta3_power": 1,
+        "zeta5_power": 0,
+        "Hlog_word": []
+      }
+    ],
+    "-2": [
+      {
+        "coefficient": "-127/184320",
+        "pi_power": 4,
+        "zeta3_power": 0,
+        "zeta5_power": 0,
+        "Hlog_word": []
+      }
+    ],
+    "-1": [
+      {
+        "coefficient": "-35/4608",
+        "pi_power": 2,
+        "zeta3_power": 1,
+        "zeta5_power": 0,
+        "Hlog_word": []
+      },
+      {
+        "coefficient": "167/640",
+        "pi_power": 0,
+        "zeta3_power": 0,
+        "zeta5_power": 1,
+        "Hlog_word": []
+      }
+    ],
+    "0": [
+      {
+        "coefficient": "-3581/6635520",
+        "pi_power": 6,
+        "zeta3_power": 0,
+        "zeta5_power": 0,
+        "Hlog_word": []
+      },
+      {
+        "coefficient": "17/256",
+        "pi_power": 0,
+        "zeta3_power": 2,
+        "zeta5_power": 0,
+        "Hlog_word": []
+      }
+    ]
+  },
+  "hlog_convention": "Hlog(z,[0]*n)=log(z)^n/n!, Hlog(z,[])=1",
+  "pole_order": 6,
+  "derivation": "benchmarks/tgv/families/t2-empty/method.md",
+  "evidence_run": "workflow/checks/tgv-t2-empty/runs/20260917T124803186622Z",
+  "source": {
+    "prepared_path": "benchmarks/tgv/5e-3g/prepared/5e-3g-r001.json",
+    "prepared_sha256": "9b6594b75e56704d5d21cffe122578ce30b77c93565ada12df029b10cfb9c1b8",
+    "canonical_source_sha256": "2b936391d19bbb339012234078e714d6cd7e62d217085b578b001f13d58bf9c2"
+  },
+  "calculation_method": "exact full-epsilon reflection bridge to a checked T1 result",
+  "reflection": {
+    "T2": "5e-3g-06",
+    "T1": "5e-3g-03",
+    "substitution_T2_in_T1_coordinates": {
+      "s31": "1 - s43",
+      "s32": "1 - s42",
+      "s33": "1 - s41",
+      "s41": "1 - s32",
+      "s42": "1 - s31",
+      "alpha1": "alpha3",
+      "alpha2": "alpha2",
+      "alpha3": "alpha1"
+    },
+    "ordered_domain_bijection": true,
+    "s_absolute_jacobian": "1",
+    "alpha_absolute_jacobian": "1",
+    "S_P_pure_equal": true,
+    "colour_and_C_equal": true,
+    "raw_J_ratio": 1,
+    "physical_I_ratio": 1
+  },
+  "reused_result": {
+    "path": "benchmarks/tgv/5e-3g/results/5e-3g-03/r001.json",
+    "sha256": "b703a5c5e5fdcc1b2dc518af2a2fbd2e7da494fcba9e7395afe6a31ce5123cbe",
+    "delivery": "workflow/checks/tgv-t1-empty/deliveries/20260917T121331052088Z",
+    "fresh_HyperInt_run": false,
+    "remainder": "O(eps) preserved by exact equality"
+  }
+}

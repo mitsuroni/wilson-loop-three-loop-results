@@ -1,0 +1,285 @@
+{
+  "format": "wilson-fgv-integral-result/1",
+  "orbit_id": "4e-4g-06",
+  "family": "F4[]",
+  "revision": "r003",
+  "status": "computed_and_checked",
+  "formal": "not_run",
+  "kernel_root_registered": false,
+  "domain": "fixed real z>0; initial 1/2<Re(eps)<2/3, meromorphic continuation near eps=0",
+  "normalization": {
+    "loop_order": 3,
+    "color_coordinates": [
+      "1",
+      "0",
+      "0"
+    ],
+    "Euler_compensation_count": 1,
+    "sym": 4,
+    "assembly_sign": 1,
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+  },
+  "I_definition": "-(Exp[-3*EulerGamma*eps]*Gamma[2-3*eps]/8*(J(z,eps)+z^(3*eps)*J(1/z,eps))/(1+z^(3*eps)))",
+  "full_epsilon": {
+    "class": "explicit_convergent_polynomial_Beta_series",
+    "J_expression": "-z*B(z,eps)/4",
+    "I_expression": "-(-z*G3*B(z,eps)/(16*(1+z^(3*eps))))",
+    "IBP_expression": "B=(F(z,eps)+z^(-2+3*eps)*F(1/z,eps)-(2-3*eps)*K(z,eps))/(3*eps)",
+    "definitions": {
+      "G3": "Exp[-3*EulerGamma*eps]*Gamma[2-3*eps]",
+      "p": "2-3*eps",
+      "L": "1+z",
+      "S": "a*b*y*(1-x)+a*c*((1-x)*(1-w)+z*x*w)+z*b*c*w*(1-y)",
+      "c_n(r,s,t,i,j,k)": "coefficient of x^r*y^s*w^t*a^i*b^j*c^k in (1-S/L)^n",
+      "mu(s)": "Sum[Beta[h+1-eps,1-eps],{h,0,s}]/((s+1)*(s+2))",
+      "Dirichlet(i,j,k)": "Gamma[i+1-eps]*Gamma[j+2-2*eps]*Gamma[k+1-eps]/Gamma[i+j+k+4-4*eps]",
+      "B": "L^(-p)*Sum[Pochhammer[p,n]/n!*Sum[c_n(r,s,t,i,j,k)*Dirichlet(i,j,k)*mu(s)/((r+1)*(t+1)),{finite polynomial indices}],{n,0,Infinity}]"
+    },
+    "summation_rule": "complete each finite polynomial block before summing n",
+    "remaining_unevaluated_integrals": false,
+    "finite_special_function_closed_form": false,
+    "physical_complex_z_continuation": "not_verified",
+    "full_I_small_epsilon_numerical_remainder": "not_run"
+  },
+  "laurent": {
+    "minimum_power": -6,
+    "maximum_power": 0,
+    "remainder": "O(eps)",
+    "remainder_justification": "outer Euler identity extracts 1/eps; two face Euler regularizers extract at most eps^-2; locally integrable face expansion through order 3 and remainder through order 1",
+    "coefficients": {
+      "-6": {
+        "hlog_terms": [],
+        "compact_expression": "0",
+        "input_form": "0",
+        "latex": "0",
+        "weight": null
+      },
+      "-5": {
+        "hlog_terms": [],
+        "compact_expression": "0",
+        "input_form": "0",
+        "latex": "0",
+        "weight": null
+      },
+      "-4": {
+        "hlog_terms": [],
+        "compact_expression": "0",
+        "input_form": "0",
+        "latex": "0",
+        "weight": null
+      },
+      "-3": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(-1/48)"
+          }
+        ],
+        "compact_expression": "Z2/48",
+        "input_form": "-(-1/48*Z2)",
+        "latex": "-(- \\frac{Z_{2}}{48})",
+        "weight": 2
+      },
+      "-2": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-(1/16)"
+          }
+        ],
+        "compact_expression": "-Z3/16",
+        "input_form": "-((1/16)*Z3)",
+        "latex": "-(\\frac{Z_{3}}{16})",
+        "weight": 3
+      },
+      "-1": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-(-49/480)"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(1/16)"
+          }
+        ],
+        "compact_expression": "49*Z2**2/480 - Z2*ell**2/32",
+        "input_form": "-(-49/480*Z2^2 + (1/32)*Z2*ell^2)",
+        "latex": "-(- \\frac{49 Z_{2}^{2}}{480} + \\frac{Z_{2} \\ell^{2}}{32})",
+        "weight": 4
+      },
+      "0": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-(5/16)"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-(7/96)"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-(-3/16)"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(-1/16)"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-(3/32)"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-(-3/16)"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(1/32)"
+          }
+        ],
+        "compact_expression": "M11*Z2/32 - 13*Z2*Z3/96 + 3*Z3*ell**2/32 - 5*Z5/16",
+        "input_form": "-(-1/32*M11*Z2 + (13/96)*Z2*Z3 - 3/32*Z3*ell^2 + (5/16)*Z5)",
+        "latex": "-(- \\frac{M_{11} Z_{2}}{32} + \\frac{13 Z_{2} Z_{3}}{96} - \\frac{3 Z_{3} \\ell^{2}}{32} + \\frac{5 Z_{5}}{16})",
+        "weight": 5
+      }
+    },
+    "compact_definitions": {
+      "ell": "Log[z]",
+      "Z2": "Zeta[2]",
+      "Z3": "Zeta[3]",
+      "Z5": "Zeta[5]",
+      "M11": "M(1,1;z)"
+    },
+    "coefficient_field": "Q; Hlog products expanded in shuffle coordinates"
+  },
+  "pole_order": 3,
+  "nonzero_weights": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "new_basis_functions": [],
+  "tau_derivative_required": false,
+  "rational_z_prefactors_remaining": false,
+  "method": "benchmarks/fgv/families/f4-repeated-middle/method.md",
+  "derivation": "benchmarks/fgv/4e-4g/workspaces/4e-4g-06/derivation.md",
+  "evidence_directory": "workflow/checks/fgv-f4",
+  "date": "2026-10-09",
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "legacy_input": null,
+  "input": {
+    "native_package": "benchmarks/fgv/4e-4g/sources/montopar-r002.json",
+    "native_package_sha256": "824e543d9e98a4f37f89f86f1382597644804e6dc70df9781f5e99ded1ed5834",
+    "orbit_id": "4e-4g-06",
+    "assembly_sign": 1
+  },
+  "legacy_evidence": {
+    "source": {
+      "prepared_path": "benchmarks/fgv/4e-4g/prepared/f4-r001.json",
+      "prepared_sha256": "47c10217aedb7d12506974f07f8bff2f46069305816257000e74c874eb1e1529",
+      "raw_path": "benchmarks/fgv/4e-4g/sources/montopar-r001.json",
+      "raw_sha256": "f7a86fb1e0e3fcf41ce6f3aca684faf01d40379bb24690f30dd81a4030efe9ff"
+    }
+  },
+  "migration": {
+    "legacy_result": {
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-06/r001.json",
+      "sha256": "cc0a039a9945f8d0bf282d8b3f9a2027afbd3a9e3471f22f67f9c277f39082f0"
+    },
+    "factor_from_native_CJ": -1,
+    "basis": "same J/domain/branch and C_native/C_legacy from native-check.json; integral linearity",
+    "new_integration_performed": false,
+    "old_formal_status_not_inherited": true
+  },
+  "native_verification": "workflow/checks/shared-sign-production/publication-check.json",
+  "representation_update": {
+    "previous_result": "benchmarks/fgv/4e-4g/results/4e-4g-06/r002.json",
+    "previous_sha256": "f884784f585ffa43b0552e81ed63d8aaa405c2f333dbd4008fbdd4ab3dad3abf",
+    "reason": "compact_expression retained the pre-2026-10-06 sign while input_form and Hlog already had the current physical sign",
+    "changed_powers": [
+      -3,
+      -2,
+      -1,
+      0
+    ],
+    "mathematical_I_changed": false,
+    "input_form_and_Hlog_unchanged": true,
+    "evidence": "workflow/checks/fgv-effective-sum/comparison.json"
+  }
+}

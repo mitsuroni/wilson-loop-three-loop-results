@@ -1,0 +1,1224 @@
+{
+  "format": "wilson-current-integral/1",
+  "orbit_id": "4e-02",
+  "loop_order": 2,
+  "family": "pure",
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "quantity": "I",
+  "domain": "z>0; inherited Feynman boundary where proved",
+  "normalization": {
+    "assembly_sign": 1,
+    "Euler_compensation_count": 1,
+    "orbit_crossing_included": true,
+    "external_CF_removed": true,
+    "external_common_scale_removed": true
+  },
+  "coefficients": {
+    "-4": {
+      "sympy": "0",
+      "hlog_terms": []
+    },
+    "-3": {
+      "sympy": "0",
+      "hlog_terms": []
+    },
+    "-2": {
+      "sympy": "0",
+      "hlog_terms": []
+    },
+    "-1": {
+      "sympy": "M_1_1/8",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1/4"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/4"
+        },
+        {
+          "word": [
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-3/8"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/8"
+        }
+      ]
+    },
+    "0": {
+      "sympy": "M_0_1**2/32 + pi**2*M_0_1/32 + 3*M_2_1/32",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-9/10"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-3/4"
+        },
+        {
+          "word": [
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-9/4"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-3/4"
+        },
+        {
+          "word": [
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "9/8"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "3/8"
+        },
+        {
+          "word": [
+            0
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "3/8"
+        },
+        {
+          "word": [
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "9/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "3/8"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-3/8"
+        }
+      ]
+    },
+    "1": {
+      "sympy": "5*M_0_1*M_1_1/32 + 19*pi**2*M_1_1/192 + 7*M_1_3/192 + 7*M_3_1/192",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": "7/4"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": "1/4"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "57/20"
+        },
+        {
+          "word": [
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "7/4"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "21/4"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "7/4"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-21/8"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-7/8"
+        },
+        {
+          "word": [
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-7/8"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-21/8"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-7/8"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "5/8"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "word": [
+            0
+          ],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-57/40"
+        },
+        {
+          "word": [
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-7/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-21/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-7/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "3/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/2"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1/8"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "3/8"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/8"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "5/8"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "9/8"
+        }
+      ]
+    },
+    "2": {
+      "sympy": "5*M_0_1**3/192 + 37*pi**2*M_0_1**2/768 + 13*M_0_1*M_2_1/128 + 31*pi**4*M_0_1/1536 + M_0_5/512 + M_1_1*zeta(3)/12 + 17*pi**2*M_2_1/256 + 5*M_2_3/256 + 5*M_4_1/512",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": "1/6"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": "-243/70"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-15/4"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": "-1/4"
+        },
+        {
+          "word": [
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-27/4"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-15/4"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-45/4"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-15/4"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "45/8"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "15/8"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "15/8"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "45/8"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "15/8"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-9/8"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "3"
+        },
+        {
+          "word": [
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "27/8"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "15/8"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "45/8"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "15/8"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-3/8"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "3/2"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1/24"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-3/8"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/8"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-15/8"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-25/8"
+        },
+        {
+          "word": [
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": "15/8"
+        },
+        {
+          "word": [
+            0
+          ],
+          "zeta_powers": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": "1/8"
+        },
+        {
+          "word": [
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "27/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "15/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "45/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "15/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-3/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "3/2"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-3/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-15/8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-25/8"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-21/40"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/8"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-3/8"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/8"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-9/4"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-19/8"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-5/6"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-9/4"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-3/4"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "15/8"
+        }
+      ]
+    }
+  },
+  "remainder": "O(eps^3)",
+  "formal": "not_run",
+  "color_weights_over_CF": {
+    "CA": "1",
+    "T": "0"
+  }
+}

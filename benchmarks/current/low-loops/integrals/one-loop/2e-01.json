@@ -1,0 +1,38 @@
+{
+  "format": "wilson-current-integral/1",
+  "orbit_id": "2e-01",
+  "loop_order": 1,
+  "family": "exchange",
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "quantity": "I",
+  "domain": "z>0; inherited Feynman boundary where proved",
+  "normalization": {
+    "assembly_sign": 1,
+    "Euler_compensation_count": 1,
+    "orbit_crossing_included": true,
+    "external_CF_removed": true,
+    "external_common_scale_removed": true
+  },
+  "coefficients": {
+    "-2": {
+      "sympy": "-1"
+    },
+    "-1": {
+      "sympy": "0"
+    },
+    "0": {
+      "sympy": "-pi**2/12"
+    },
+    "1": {
+      "sympy": "-zeta(3)/3"
+    },
+    "2": {
+      "sympy": "-pi**4/160"
+    },
+    "3": {
+      "sympy": "-pi**2*zeta(3)/36 - zeta(5)/5"
+    }
+  },
+  "remainder": "O(eps^4)",
+  "formal": "not_run"
+}

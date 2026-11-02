@@ -1,0 +1,130 @@
+{
+  "format": "wilson-current-integral/1",
+  "orbit_id": "4e-01",
+  "loop_order": 2,
+  "family": "pure",
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "quantity": "I",
+  "domain": "z>0; inherited Feynman boundary where proved",
+  "normalization": {
+    "assembly_sign": 1,
+    "Euler_compensation_count": 1,
+    "orbit_crossing_included": true,
+    "external_CF_removed": true,
+    "external_common_scale_removed": true
+  },
+  "coefficients": {
+    "-4": {
+      "sympy": "-1/16",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/16"
+        }
+      ]
+    },
+    "-3": {
+      "sympy": "0",
+      "hlog_terms": []
+    },
+    "-2": {
+      "sympy": "-pi**2/96",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1/16"
+        }
+      ]
+    },
+    "-1": {
+      "sympy": "-zeta(3)/24",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/24"
+        }
+      ]
+    },
+    "0": {
+      "sympy": "-7*pi**4/5760",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-7/160"
+        }
+      ]
+    },
+    "1": {
+      "sympy": "-pi**2*zeta(3)/144 - zeta(5)/40",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1/40"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": "-1/24"
+        }
+      ]
+    },
+    "2": {
+      "sympy": "-31*pi**6/241920 - zeta(3)**2/72",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": "-1/72"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": "-31/1120"
+        }
+      ]
+    }
+  },
+  "remainder": "O(eps^3)",
+  "formal": "not_run",
+  "color_weights_over_CF": {
+    "CA": "1",
+    "T": "0"
+  }
+}

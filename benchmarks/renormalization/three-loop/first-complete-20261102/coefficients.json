@@ -1,0 +1,1033 @@
+{
+  "format": "wilson-four-color-three-loop-first-complete/1",
+  "task": "WILSON-2.18",
+  "run_utc": "2026-11-02T07:29:42.135165+00:00",
+  "status": "complete_through_finite_and_RG_accepted_research_milestone",
+  "powers": [
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0
+  ],
+  "normalization": {
+    "lambda": "alpha_s_MSbar/pi",
+    "quantity": "coefficient w3 in connected log W; external CF removed from the color polynomial below",
+    "T": "TF*nf",
+    "L": "(L_s+L_t)/2",
+    "rho": "log(z)=L_s-L_t",
+    "mu_x_squared": "exp(2*EulerGamma)*mu_MSbar_squared/4",
+    "S_n": "exp(n*epsilon*(L+rho/2))+exp(n*epsilon*(L-rho/2))",
+    "bare": "S3*U3",
+    "post": "bare+CT3; pole part is logZ4; finite part F3 is the coefficient in log W_R",
+    "CT3_over_CF": "-2*b0*w2_over_CF/epsilon+(b0^2/epsilon^2-b1/(2epsilon))*w1_over_CF",
+    "b0": "11*CA/12 - T/3",
+    "b1": "17*CA**2/24 - 5*CA*T/12 - CF*T/4",
+    "no_extra_operations": "Do not restore Euler factors, orbit multiplicities, FGV/DT values, or W-to-logW products a second time"
+  },
+  "domain": "General positive real z with real rho, inherited Feynman continuation where separately proved; not a new global complex-domain theorem",
+  "moment_convention": "Raw powers without factorials; N_kj=M_k,j+1-rho*M_kj, M01=-(rho^2+pi^2)/2",
+  "channels": {
+    "AA": {
+      "color": "CF*CA^2",
+      "U": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-121/1296",
+        "-3": "11*zeta_2/108 - 1627/3888",
+        "-2": "-121*M_0_1/288 - 11*zeta_2**2/180 + 173*zeta_2/2592 + 55*zeta_3/54 - 11093/7776",
+        "-1": "11*M_0_1*zeta_2/24 - 1627*M_0_1/864 - 121*M_1_1/192 + 77*zeta_2**2/240 - 11*zeta_2*zeta_3/36 - 1685*zeta_2/7776 + 329*zeta_3/144 - zeta_5 - 617525/139968",
+        "0": "-605*M_0_1**2/768 - 11*M_0_1*zeta_2**2/40 - 2921*M_0_1*zeta_2/1152 + 319*M_0_1*zeta_3/48 - 11093*M_0_1/1728 - 1627*M_1_1/576 + 11*M_1_3/96 - 121*M_2_1/256 + 11*N_1_2/64 - 1661*zeta_2**3/3780 + 12173*zeta_2**2/17280 + 11*zeta_2*zeta_3/9 - 61565*zeta_2/46656 - 161*zeta_3**2/72 + 19093*zeta_3/3888 + 671*zeta_5/144 - 10984045/839808"
+      },
+      "bare": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-121/648",
+        "-3": "-121*L/216 + 11*zeta_2/54 - 1627/1944",
+        "-2": "-121*L**2/144 + 11*L*zeta_2/18 - 1627*L/648 - 121*M_0_1/288 - 11*zeta_2**2/90 + 3613*zeta_2/2592 + 55*zeta_3/27 - 11093/3888",
+        "-1": "-121*L**3/144 + 11*L**2*zeta_2/12 - 1627*L**2/432 - 121*L*M_0_1/96 - 11*L*zeta_2**2/30 + 3613*L*zeta_2/864 + 55*L*zeta_3/9 - 11093*L/1296 + 11*M_0_1*zeta_2/24 - 1627*M_0_1/864 - 121*M_1_1/96 - 11*zeta_2**2/15 - 11*zeta_2*zeta_3/18 + 40559*zeta_2/7776 + 329*zeta_3/72 - 2*zeta_5 - 617525/69984",
+        "0": "-121*L**4/192 + 11*L**3*zeta_2/12 - 1627*L**3/432 - 121*L**2*M_0_1/64 - 11*L**2*zeta_2**2/20 + 3613*L**2*zeta_2/576 + 55*L**2*zeta_3/6 - 11093*L**2/864 + 11*L*M_0_1*zeta_2/8 - 1627*L*M_0_1/288 - 121*L*M_1_1/32 - 11*L*zeta_2**2/5 - 11*L*zeta_2*zeta_3/6 + 40559*L*zeta_2/2592 + 329*L*zeta_3/24 - 6*L*zeta_5 - 617525*L/23328 + 121*M_0_1**2/768 - 11*M_0_1*zeta_2**2/40 - 743*M_0_1*zeta_2/1152 + 209*M_0_1*zeta_3/24 - 11093*M_0_1/1728 - 1627*M_1_1/288 + 11*M_1_3/48 - 121*M_2_1/128 + 11*N_1_2/32 - 407*zeta_2**3/7560 - 31453*zeta_2**2/34560 - 407*zeta_2*zeta_3/36 + 775403*zeta_2/46656 - 161*zeta_3**2/36 + 19093*zeta_3/1944 + 671*zeta_5/72 - 10984045/419904"
+      },
+      "counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-121/144",
+        "-3": "1043/432 - 11*zeta_2/24",
+        "-2": "121*L**2/144 - 11*L*zeta_2/12 + 445*L/108 + 121*M_0_1/288 - 121*zeta_2/96 - 77*zeta_3/24 + 1111/324",
+        "-1": "121*L**3/144 - 11*L**2*zeta_2/12 + 1627*L**2/432 + 121*L*M_0_1/96 - 847*L*zeta_2/288 - 77*L*zeta_3/12 + 1111*L/162 - 11*M_0_1*zeta_2/24 + 1627*M_0_1/864 + 121*M_1_1/96 - 3101*zeta_2/864 + 6677/972",
+        "0": "847*L**4/1728 - 11*L**3*zeta_2/18 + 3101*L**3/1296 + 847*L**2*M_0_1/576 - 605*L**2*zeta_2/192 - 77*L**2*zeta_3/12 + 1111*L**2/162 - 11*L*M_0_1*zeta_2/12 + 3101*L*M_0_1/864 + 847*L*M_1_1/288 - 6049*L*zeta_2/864 + 121*L*zeta_3/216 + 6677*L/486 - 847*M_0_1**2/6912 + 1573*M_0_1*zeta_2/1152 - 143*M_0_1*zeta_3/24 + 1111*M_0_1/324 + 3101*M_1_1/864 - 11*M_1_3/72 + 847*M_2_1/1152 - 11*N_1_2/48 - 1331*zeta_2**2/2304 + 253*zeta_2*zeta_3/36 - 1111*zeta_2/162 + 445*zeta_3/324 - 253*zeta_5/24 + 10021/729"
+      },
+      "post_counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-1331/1296",
+        "-3": "-121*L/216 - 55*zeta_2/216 + 6133/3888",
+        "-2": "-11*L*zeta_2/36 + 1043*L/648 - 11*zeta_2**2/90 + 173*zeta_2/1296 - 253*zeta_3/216 + 2239/3888",
+        "-1": "-11*L*zeta_2**2/30 + 67*L*zeta_2/54 - 11*L*zeta_3/36 - 245*L/144 - 11*zeta_2**2/15 - 11*zeta_2*zeta_3/18 + 6325*zeta_2/3888 + 329*zeta_3/72 - 2*zeta_5 - 136781/69984",
+        "0": "-121*L**4/864 + 11*L**3*zeta_2/36 - 445*L**3/324 - 121*L**2*M_0_1/288 - 11*L**2*zeta_2**2/20 + 899*L**2*zeta_2/288 + 11*L**2*zeta_3/4 - 15503*L**2/2592 + 11*L*M_0_1*zeta_2/24 - 445*L*M_0_1/216 - 121*L*M_1_1/144 - 11*L*zeta_2**2/5 - 11*L*zeta_2*zeta_3/6 + 5603*L*zeta_2/648 + 1541*L*zeta_3/108 - 6*L*zeta_5 - 297029*L/23328 + 121*M_0_1**2/3456 - 11*M_0_1*zeta_2**2/40 + 415*M_0_1*zeta_2/576 + 11*M_0_1*zeta_3/4 - 15503*M_0_1/5184 - 445*M_1_1/216 + 11*M_1_3/144 - 121*M_2_1/576 + 11*N_1_2/96 - 407*zeta_2**3/7560 - 25709*zeta_2**2/17280 - 77*zeta_2*zeta_3/18 + 455435*zeta_2/46656 - 161*zeta_3**2/36 + 21763*zeta_3/1944 - 11*zeta_5/9 - 5211949/419904"
+      },
+      "logZ": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-1331/1296",
+        "-3": "-121*L/216 - 55*zeta_2/216 + 6133/3888",
+        "-2": "-11*L*zeta_2/36 + 1043*L/648 - 11*zeta_2**2/90 + 173*zeta_2/1296 - 253*zeta_3/216 + 2239/3888",
+        "-1": "-11*L*zeta_2**2/30 + 67*L*zeta_2/54 - 11*L*zeta_3/36 - 245*L/144 - 11*zeta_2**2/15 - 11*zeta_2*zeta_3/18 + 6325*zeta_2/3888 + 329*zeta_3/72 - 2*zeta_5 - 136781/69984"
+      },
+      "F": "-121*L**4/864 + 11*L**3*zeta_2/36 - 445*L**3/324 - 121*L**2*M_0_1/288 - 11*L**2*zeta_2**2/20 + 899*L**2*zeta_2/288 + 11*L**2*zeta_3/4 - 15503*L**2/2592 + 11*L*M_0_1*zeta_2/24 - 445*L*M_0_1/216 - 121*L*M_1_1/144 - 11*L*zeta_2**2/5 - 11*L*zeta_2*zeta_3/6 + 5603*L*zeta_2/648 + 1541*L*zeta_3/108 - 6*L*zeta_5 - 297029*L/23328 + 121*M_0_1**2/3456 - 11*M_0_1*zeta_2**2/40 + 415*M_0_1*zeta_2/576 + 11*M_0_1*zeta_3/4 - 15503*M_0_1/5184 - 445*M_1_1/216 + 11*M_1_3/144 - 121*M_2_1/576 + 11*N_1_2/96 - 407*zeta_2**3/7560 - 25709*zeta_2**2/17280 - 77*zeta_2*zeta_3/18 + 455435*zeta_2/46656 - 161*zeta_3**2/36 + 21763*zeta_3/1944 - 11*zeta_5/9 - 5211949/419904",
+      "f_at_L0": "121*M_0_1**2/3456 - 11*M_0_1*zeta_2**2/40 + 415*M_0_1*zeta_2/576 + 11*M_0_1*zeta_3/4 - 15503*M_0_1/5184 - 445*M_1_1/216 + 11*M_1_3/144 - 121*M_2_1/576 + 11*N_1_2/96 - 407*zeta_2**3/7560 - 25709*zeta_2**2/17280 - 77*zeta_2*zeta_3/18 + 455435*zeta_2/46656 - 161*zeta_3**2/36 + 21763*zeta_3/1944 - 11*zeta_5/9 - 5211949/419904",
+      "k3": "11*zeta_2**2/20 - 67*zeta_2/36 + 11*zeta_3/24 + 245/96",
+      "h3": "11*zeta_2**2/5 + 11*zeta_2*zeta_3/6 - 6325*zeta_2/1296 - 329*zeta_3/24 + 6*zeta_5 + 136781/23328",
+      "adoption": "Existing I2344 research solution plus newly independently completed I1234 and accepted remaining families; accepted at user-authorized first-complete RG milestone, not a new independent whole-finite-shape proof"
+    },
+    "Af": {
+      "color": "CF*CA*TF*nf",
+      "U": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "11/162",
+        "-3": "533/1944 - zeta_2/27",
+        "-2": "11*M_0_1/36 + 13*zeta_2/324 - 7*zeta_3/27 + 1633/1944",
+        "-1": "-M_0_1*zeta_2/6 + 533*M_0_1/432 + 11*M_1_1/24 - zeta_2**2/20 + 1187*zeta_2/3888 - 91*zeta_3/324 + 82097/34992",
+        "0": "55*M_0_1**2/96 + 323*M_0_1*zeta_2/144 - 23*M_0_1*zeta_3/12 + 1633*M_0_1/432 + 533*M_1_1/288 - M_1_3/24 + 11*M_2_1/32 - N_1_2/16 + 137*zeta_2**2/2160 - 5*zeta_2*zeta_3/18 + 12469*zeta_2/11664 - 5*zeta_3/216 - 11*zeta_5/12 + 1323997/209952"
+      },
+      "bare": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "11/81",
+        "-3": "11*L/27 - 2*zeta_2/27 + 533/972",
+        "-2": "11*L**2/18 - 2*L*zeta_2/9 + 533*L/324 + 11*M_0_1/36 - 271*zeta_2/324 - 14*zeta_3/27 + 1633/972",
+        "-1": "11*L**3/18 - L**2*zeta_2/3 + 533*L**2/216 + 11*L*M_0_1/12 - 271*L*zeta_2/108 - 14*L*zeta_3/9 + 1633*L/324 - M_0_1*zeta_2/6 + 533*M_0_1/432 + 11*M_1_1/12 + 2*zeta_2**2/5 - 12017*zeta_2/3888 - 91*zeta_3/162 + 82097/17496",
+        "0": "11*L**4/24 - L**3*zeta_2/3 + 533*L**3/216 + 11*L**2*M_0_1/8 - 271*L**2*zeta_2/72 - 7*L**2*zeta_3/3 + 1633*L**2/216 - L*M_0_1*zeta_2/2 + 533*L*M_0_1/144 + 11*L*M_1_1/4 + 6*L*zeta_2**2/5 - 12017*L*zeta_2/1296 - 91*L*zeta_3/54 + 82097*L/5832 - 11*M_0_1**2/96 + 125*M_0_1*zeta_2/144 - 8*M_0_1*zeta_3/3 + 1633*M_0_1/432 + 533*M_1_1/144 - M_1_3/12 + 11*M_2_1/16 - N_1_2/8 + 2663*zeta_2**2/4320 + 53*zeta_2*zeta_3/18 - 107335*zeta_2/11664 - 5*zeta_3/108 - 11*zeta_5/6 + 1323997/104976"
+      },
+      "counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "11/18",
+        "-3": "zeta_2/6 - 167/108",
+        "-2": "-11*L**2/18 + L*zeta_2/3 - 289*L/108 - 11*M_0_1/36 + 11*zeta_2/12 + 7*zeta_3/6 - 178/81",
+        "-1": "-11*L**3/18 + L**2*zeta_2/3 - 533*L**2/216 - 11*L*M_0_1/12 + 77*L*zeta_2/36 + 7*L*zeta_3/3 - 356*L/81 + M_0_1*zeta_2/6 - 533*M_0_1/432 - 11*M_1_1/12 + 1021*zeta_2/432 - 1058/243",
+        "0": "-77*L**4/216 + 2*L**3*zeta_2/9 - 1021*L**3/648 - 77*L**2*M_0_1/72 + 55*L**2*zeta_2/24 + 7*L**2*zeta_3/3 - 356*L**2/81 + L*M_0_1*zeta_2/3 - 1021*L*M_0_1/432 - 77*L*M_1_1/36 + 1997*L*zeta_2/432 - 11*L*zeta_3/27 - 2116*L/243 + 77*M_0_1**2/864 - 143*M_0_1*zeta_2/144 + 13*M_0_1*zeta_3/6 - 178*M_0_1/81 - 1021*M_1_1/432 + M_1_3/18 - 77*M_2_1/144 + N_1_2/12 + 121*zeta_2**2/288 - 23*zeta_2*zeta_3/9 + 356*zeta_2/81 - 289*zeta_3/324 + 23*zeta_5/6 - 6328/729"
+      },
+      "post_counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "121/162",
+        "-3": "11*L/27 + 5*zeta_2/54 - 485/486",
+        "-2": "L*zeta_2/9 - 167*L/162 + 13*zeta_2/162 + 35*zeta_3/54 - 503/972",
+        "-1": "-10*L*zeta_2/27 + 7*L*zeta_3/9 + 209*L/324 + 2*zeta_2**2/5 - 707*zeta_2/972 - 91*zeta_3/162 + 5921/17496",
+        "0": "11*L**4/108 - L**3*zeta_2/9 + 289*L**3/324 + 11*L**2*M_0_1/36 - 53*L**2*zeta_2/36 + 2051*L**2/648 - L*M_0_1*zeta_2/6 + 289*L*M_0_1/216 + 11*L*M_1_1/18 + 6*L*zeta_2**2/5 - 3013*L*zeta_2/648 - 113*L*zeta_3/54 + 31313*L/5832 - 11*M_0_1**2/432 - M_0_1*zeta_2/8 - M_0_1*zeta_3/2 + 2051*M_0_1/1296 + 289*M_1_1/216 - M_1_3/36 + 11*M_2_1/72 - N_1_2/24 + 2239*zeta_2**2/2160 + 7*zeta_2*zeta_3/18 - 56071*zeta_2/11664 - 76*zeta_3/81 + 2*zeta_5 + 412765/104976"
+      },
+      "logZ": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "121/162",
+        "-3": "11*L/27 + 5*zeta_2/54 - 485/486",
+        "-2": "L*zeta_2/9 - 167*L/162 + 13*zeta_2/162 + 35*zeta_3/54 - 503/972",
+        "-1": "-10*L*zeta_2/27 + 7*L*zeta_3/9 + 209*L/324 + 2*zeta_2**2/5 - 707*zeta_2/972 - 91*zeta_3/162 + 5921/17496"
+      },
+      "F": "11*L**4/108 - L**3*zeta_2/9 + 289*L**3/324 + 11*L**2*M_0_1/36 - 53*L**2*zeta_2/36 + 2051*L**2/648 - L*M_0_1*zeta_2/6 + 289*L*M_0_1/216 + 11*L*M_1_1/18 + 6*L*zeta_2**2/5 - 3013*L*zeta_2/648 - 113*L*zeta_3/54 + 31313*L/5832 - 11*M_0_1**2/432 - M_0_1*zeta_2/8 - M_0_1*zeta_3/2 + 2051*M_0_1/1296 + 289*M_1_1/216 - M_1_3/36 + 11*M_2_1/72 - N_1_2/24 + 2239*zeta_2**2/2160 + 7*zeta_2*zeta_3/18 - 56071*zeta_2/11664 - 76*zeta_3/81 + 2*zeta_5 + 412765/104976",
+      "f_at_L0": "-11*M_0_1**2/432 - M_0_1*zeta_2/8 - M_0_1*zeta_3/2 + 2051*M_0_1/1296 + 289*M_1_1/216 - M_1_3/36 + 11*M_2_1/72 - N_1_2/24 + 2239*zeta_2**2/2160 + 7*zeta_2*zeta_3/18 - 56071*zeta_2/11664 - 76*zeta_3/81 + 2*zeta_5 + 412765/104976",
+      "k3": "5*zeta_2/9 - 7*zeta_3/6 - 209/216",
+      "h3": "-6*zeta_2**2/5 + 707*zeta_2/324 + 91*zeta_3/54 - 5921/5832",
+      "adoption": "Existing complete matter result rechecked against current bound sources; original-integral evidence retained at its prior scope"
+    },
+    "Ff": {
+      "color": "CF^2*TF*nf",
+      "U": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "1/72",
+        "-2": "55/432 - zeta_3/9",
+        "-1": "M_0_1/16 - zeta_2**2/15 + zeta_2/48 - 19*zeta_3/54 + 1711/2592",
+        "0": "-M_0_1*zeta_3/2 + 55*M_0_1/96 + 3*M_1_1/32 - 19*zeta_2**2/90 - zeta_2*zeta_3/6 + 55*zeta_2/288 - 683*zeta_3/648 - 7*zeta_5/9 + 42727/15552"
+      },
+      "bare": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "1/36",
+        "-2": "L/12 - 2*zeta_3/9 + 55/216",
+        "-1": "L**2/8 - 2*L*zeta_3/3 + 55*L/72 + M_0_1/16 - 2*zeta_2**2/15 - 7*zeta_2/48 - 19*zeta_3/27 + 1711/1296",
+        "0": "L**3/8 - L**2*zeta_3 + 55*L**2/48 + 3*L*M_0_1/16 - 2*L*zeta_2**2/5 - 7*L*zeta_2/16 - 19*L*zeta_3/9 + 1711*L/432 - M_0_1*zeta_3/2 + 55*M_0_1/96 + 3*M_1_1/16 - 19*zeta_2**2/45 + 7*zeta_2*zeta_3/6 - 385*zeta_2/288 - 683*zeta_3/324 - 14*zeta_5/9 + 42727/7776"
+      },
+      "counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "-1/4",
+        "-2": "-L/4",
+        "-1": "-L**2/8 - M_0_1/16 + zeta_2/16",
+        "0": "-L**3/24 - L*M_0_1/16 + L*zeta_2/16 - M_1_1/16 - zeta_3/12"
+      },
+      "post_counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "-2/9",
+        "-2": "-L/6 - 2*zeta_3/9 + 55/216",
+        "-1": "-2*L*zeta_3/3 + 55*L/72 - 2*zeta_2**2/15 - zeta_2/12 - 19*zeta_3/27 + 1711/1296",
+        "0": "L**3/12 - L**2*zeta_3 + 55*L**2/48 + L*M_0_1/8 - 2*L*zeta_2**2/5 - 3*L*zeta_2/8 - 19*L*zeta_3/9 + 1711*L/432 - M_0_1*zeta_3/2 + 55*M_0_1/96 + M_1_1/8 - 19*zeta_2**2/45 + 7*zeta_2*zeta_3/6 - 385*zeta_2/288 - 355*zeta_3/162 - 14*zeta_5/9 + 42727/7776"
+      },
+      "logZ": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "-2/9",
+        "-2": "-L/6 - 2*zeta_3/9 + 55/216",
+        "-1": "-2*L*zeta_3/3 + 55*L/72 - 2*zeta_2**2/15 - zeta_2/12 - 19*zeta_3/27 + 1711/1296"
+      },
+      "F": "L**3/12 - L**2*zeta_3 + 55*L**2/48 + L*M_0_1/8 - 2*L*zeta_2**2/5 - 3*L*zeta_2/8 - 19*L*zeta_3/9 + 1711*L/432 - M_0_1*zeta_3/2 + 55*M_0_1/96 + M_1_1/8 - 19*zeta_2**2/45 + 7*zeta_2*zeta_3/6 - 385*zeta_2/288 - 355*zeta_3/162 - 14*zeta_5/9 + 42727/7776",
+      "f_at_L0": "-M_0_1*zeta_3/2 + 55*M_0_1/96 + M_1_1/8 - 19*zeta_2**2/45 + 7*zeta_2*zeta_3/6 - 385*zeta_2/288 - 355*zeta_3/162 - 14*zeta_5/9 + 42727/7776",
+      "k3": "zeta_3 - 55/48",
+      "h3": "2*zeta_2**2/5 + zeta_2/4 + 19*zeta_3/9 - 1711/432",
+      "adoption": "Existing complete matter result rechecked against current bound sources; original-integral evidence retained at its prior scope"
+    },
+    "ff": {
+      "color": "CF*(TF*nf)^2",
+      "U": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-1/81",
+        "-3": "-10/243",
+        "-2": "-M_0_1/18 - zeta_2/54 - 1/9",
+        "-1": "-5*M_0_1/27 - M_1_1/12 - 5*zeta_2/81 - 7*zeta_3/81 - 608/2187",
+        "0": "-5*M_0_1**2/48 - 11*M_0_1*zeta_2/24 - M_0_1/2 - 5*M_1_1/18 - M_2_1/16 - 67*zeta_2**2/1080 - zeta_2/6 - 70*zeta_3/243 - 4376/6561"
+      },
+      "bare": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-2/81",
+        "-3": "-2*L/27 - 20/243",
+        "-2": "-L**2/9 - 20*L/81 - M_0_1/18 + 7*zeta_2/54 - 2/9",
+        "-1": "-L**3/9 - 10*L**2/27 - L*M_0_1/6 + 7*L*zeta_2/18 - 2*L/3 - 5*M_0_1/27 - M_1_1/6 + 35*zeta_2/81 - 14*zeta_3/81 - 1216/2187",
+        "0": "-L**4/12 - 10*L**3/27 - L**2*M_0_1/4 + 7*L**2*zeta_2/12 - L**2 - 5*L*M_0_1/9 - L*M_1_1/2 + 35*L*zeta_2/27 - 14*L*zeta_3/27 - 1216*L/729 + M_0_1**2/48 - 5*M_0_1*zeta_2/24 - M_0_1/2 - 5*M_1_1/9 - M_2_1/8 - 133*zeta_2**2/2160 + 7*zeta_2/6 - 140*zeta_3/243 - 8752/6561"
+      },
+      "counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-1/9",
+        "-3": "5/27",
+        "-2": "L**2/9 + 10*L/27 + M_0_1/18 - zeta_2/6 + 28/81",
+        "-1": "L**3/9 + 10*L**2/27 + L*M_0_1/6 - 7*L*zeta_2/18 + 56*L/81 + 5*M_0_1/27 + M_1_1/6 - 10*zeta_2/27 + 164/243",
+        "0": "7*L**4/108 + 20*L**3/81 + 7*L**2*M_0_1/36 - 5*L**2*zeta_2/12 + 56*L**2/81 + 10*L*M_0_1/27 + 7*L*M_1_1/18 - 20*L*zeta_2/27 + 2*L*zeta_3/27 + 328*L/243 - 7*M_0_1**2/432 + 13*M_0_1*zeta_2/72 + 28*M_0_1/81 + 10*M_1_1/27 + 7*M_2_1/72 - 11*zeta_2**2/144 - 56*zeta_2/81 + 10*zeta_3/81 + 976/729"
+      },
+      "post_counterterm": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-11/81",
+        "-3": "25/243 - 2*L/27",
+        "-2": "10*L/81 - zeta_2/27 + 10/81",
+        "-1": "2*L/81 + 5*zeta_2/81 - 14*zeta_3/81 + 260/2187",
+        "0": "-L**4/54 - 10*L**3/81 - L**2*M_0_1/18 + L**2*zeta_2/6 - 25*L**2/81 - 5*L*M_0_1/27 - L*M_1_1/9 + 5*L*zeta_2/9 - 4*L*zeta_3/9 - 232*L/729 + M_0_1**2/216 - M_0_1*zeta_2/36 - 25*M_0_1/162 - 5*M_1_1/27 - M_2_1/36 - 149*zeta_2**2/1080 + 77*zeta_2/162 - 110*zeta_3/243 + 32/6561"
+      },
+      "logZ": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-11/81",
+        "-3": "25/243 - 2*L/27",
+        "-2": "10*L/81 - zeta_2/27 + 10/81",
+        "-1": "2*L/81 + 5*zeta_2/81 - 14*zeta_3/81 + 260/2187"
+      },
+      "F": "-L**4/54 - 10*L**3/81 - L**2*M_0_1/18 + L**2*zeta_2/6 - 25*L**2/81 - 5*L*M_0_1/27 - L*M_1_1/9 + 5*L*zeta_2/9 - 4*L*zeta_3/9 - 232*L/729 + M_0_1**2/216 - M_0_1*zeta_2/36 - 25*M_0_1/162 - 5*M_1_1/27 - M_2_1/36 - 149*zeta_2**2/1080 + 77*zeta_2/162 - 110*zeta_3/243 + 32/6561",
+      "f_at_L0": "M_0_1**2/216 - M_0_1*zeta_2/36 - 25*M_0_1/162 - 5*M_1_1/27 - M_2_1/36 - 149*zeta_2**2/1080 + 77*zeta_2/162 - 110*zeta_3/243 + 32/6561",
+      "k3": "-1/27",
+      "h3": "-5*zeta_2/27 + 14*zeta_3/27 - 260/729",
+      "adoption": "Existing complete matter result rechecked against current bound sources; original-integral evidence retained at its prior scope"
+    }
+  },
+  "finite_scale_RG_equation_over_CF": "d_L F3-2*b0*F2-b1*F1=-2*k3*L-h3",
+  "full_RG_residual": "0",
+  "checks": [
+    {
+      "name": "AA fresh scale restoration and coupling CT[-6]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "AA fresh scale restoration and coupling CT[-5]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "AA fresh scale restoration and coupling CT[-4]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "AA fresh scale restoration and coupling CT[-3]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "AA fresh scale restoration and coupling CT[-2]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "AA fresh scale restoration and coupling CT[-1]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "AA fresh scale restoration and coupling CT[0]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "AA extracted cusp",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "AA extracted noncusp",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current bare[-6] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current post[-6] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current bare[-5] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current post[-5] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current bare[-4] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current post[-4] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current bare[-3] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current post[-3] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current bare[-2] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current post[-2] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current bare[-1] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current post[-1] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current bare[0] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh current post[0] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh scale restoration and coupling CT[-6]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af bare compact table[-6]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af CT compact table[-6]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh scale restoration and coupling CT[-5]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af bare compact table[-5]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af CT compact table[-5]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh scale restoration and coupling CT[-4]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af bare compact table[-4]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af CT compact table[-4]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh scale restoration and coupling CT[-3]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af bare compact table[-3]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af CT compact table[-3]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh scale restoration and coupling CT[-2]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af bare compact table[-2]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af CT compact table[-2]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh scale restoration and coupling CT[-1]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af bare compact table[-1]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af CT compact table[-1]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af fresh scale restoration and coupling CT[0]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af bare compact table[0]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af CT compact table[0]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af extracted cusp",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af extracted noncusp",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current bare[-6] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current post[-6] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current bare[-5] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current post[-5] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current bare[-4] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current post[-4] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current bare[-3] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current post[-3] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current bare[-2] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current post[-2] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current bare[-1] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current post[-1] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current bare[0] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh current post[0] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh scale restoration and coupling CT[-6]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff bare compact table[-6]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff CT compact table[-6]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh scale restoration and coupling CT[-5]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff bare compact table[-5]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff CT compact table[-5]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh scale restoration and coupling CT[-4]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff bare compact table[-4]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff CT compact table[-4]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh scale restoration and coupling CT[-3]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff bare compact table[-3]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff CT compact table[-3]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh scale restoration and coupling CT[-2]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff bare compact table[-2]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff CT compact table[-2]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh scale restoration and coupling CT[-1]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff bare compact table[-1]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff CT compact table[-1]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff fresh scale restoration and coupling CT[0]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff bare compact table[0]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff CT compact table[0]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff extracted cusp",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff extracted noncusp",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current bare[-6] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current post[-6] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current bare[-5] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current post[-5] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current bare[-4] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current post[-4] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current bare[-3] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current post[-3] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current bare[-2] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current post[-2] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current bare[-1] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current post[-1] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current bare[0] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh current post[0] equals frozen accepted replay",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh scale restoration and coupling CT[-6]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff bare compact table[-6]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff CT compact table[-6]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh scale restoration and coupling CT[-5]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff bare compact table[-5]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff CT compact table[-5]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh scale restoration and coupling CT[-4]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff bare compact table[-4]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff CT compact table[-4]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh scale restoration and coupling CT[-3]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff bare compact table[-3]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff CT compact table[-3]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh scale restoration and coupling CT[-2]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff bare compact table[-2]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff CT compact table[-2]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh scale restoration and coupling CT[-1]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff bare compact table[-1]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff CT compact table[-1]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff fresh scale restoration and coupling CT[0]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff bare compact table[0]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff CT compact table[0]",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff extracted cusp",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff extracted noncusp",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "full four-color finite RG polynomial",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "AA coefficient of full finite RG",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Af coefficient of full finite RG",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "Ff coefficient of full finite RG",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "ff coefficient of full finite RG",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    },
+    {
+      "name": "wrong finite L term detected",
+      "passed": true,
+      "residual": "M_1_1",
+      "negative_control": true
+    },
+    {
+      "name": "missing lower-order beta term detected",
+      "passed": true,
+      "residual": "-121*CA**2*L**3/216 - 445*CA**2*L**2/108 + 11*pi**2*CA**2*L**2/72 + 121*CA**2*L*rho**2/288 - 1111*CA**2*L/162 + 77*CA**2*L*zeta(3)/12 + 121*pi**2*CA**2*L/144 - 121*CA**2*M_1_1/144 - 11*pi**2*CA**2*rho**2/288 + 445*CA**2*rho**2/432 - 6677*CA**2/972 - 11*pi**4*CA**2/288 + 121*CA**2*zeta(3)/216 + 4297*pi**2*CA**2/2592 + 11*CA*L**3*T/27 - pi**2*CA*L**2*T/18 + 289*CA*L**2*T/108 - 11*CA*L*T*rho**2/36 - 11*pi**2*CA*L*T/18 - 7*CA*L*T*zeta(3)/3 + 356*CA*L*T/81 + 11*CA*M_1_1*T/18 - 289*CA*T*rho**2/432 + pi**2*CA*T*rho**2/72 - 175*pi**2*CA*T/162 - 11*CA*T*zeta(3)/27 + pi**4*CA*T/72 + 1058*CA*T/243 + CF*L**2*T/4 - CF*T*rho**2/16 - pi**2*CF*T/12 - 2*L**3*T**2/27 - 10*L**2*T**2/27 + L*T**2*rho**2/18 - 56*L*T**2/81 + pi**2*L*T**2/9 - M_1_1*T**2/9 + 5*T**2*rho**2/54 - 164*T**2/243 + 2*T**2*zeta(3)/27 + 25*pi**2*T**2/162",
+      "negative_control": true
+    },
+    {
+      "name": "RG cannot constrain an arbitrary L-independent finite function",
+      "passed": true,
+      "residual": "0",
+      "negative_control": false
+    }
+  ],
+  "first_target_completed_under_user_scope": true,
+  "independent_whole_finite_shape_proven_by_RG": false,
+  "formal": "not_run",
+  "scientific_selectors_changed": false,
+  "git_commit_or_push": false,
+  "inputs": {
+    "workflow/checks/rg-first-completion-20261102/aa-replay/assembly.json": "5803fe25e46419c954356771db01d37528ea48543f8f65f8ea6ce185768235cb",
+    "workflow/checks/rg-first-completion-20261102/aa-replay/full-word-check.json": "61c6966a8af48485f0afcb53c052f9033773d6fd9d07e58af167e4a26bbd13d1",
+    "workflow/checks/rg-first-completion-20261102/independent-review/report.json": "494576d586ba29fb802344069eb36d28534b27dbd53eb06f396014c2625e0cfd",
+    "workflow/checks/three-matter-channels-20261023/coefficients.json": "98f2d1bf799b1c1ee5a8f607b2b8cc986045e487e7254a37d03c4696a0aecfa2",
+    "workflow/checks/rg-first-completion-20261102/matter-rg/current-coefficients.json": "da44963785c6664656f7944b2261aa0319d28966669446dec00f34d17f83c980",
+    "workflow/checks/matter-unified-validation-20261028/rg-replay/current-coefficients.json": "da44963785c6664656f7944b2261aa0319d28966669446dec00f34d17f83c980",
+    "workflow/checks/rg-first-completion-20261102/matter-rg/checks.json": "4613188dc7115e24076c2c7e7af0d3d1f6dadcff306b67babae539eed0be2251",
+    "workflow/checks/rg-first-completion-20261102/matter-uv/uv-checks.json": "9f42f7908ab0ede7b26904042d3c09c3b3f152107220ba1e58fb2d36cf208e05",
+    "workflow/checks/rg-first-completion-20261102/matter-review/summary.json": "92c6073f33b445ed08a2b30cb7cbf46f9a06eec092fb00d34e145de9c317a2dc",
+    "benchmarks/renormalization/one-loop/result-r001.json": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+    "benchmarks/renormalization/two-loop/result-r002.json": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f",
+    "benchmarks/renormalization/three-loop/lower-order-inputs-r001.json": "557dbb38a6338a9c5b2c1fbbfad782cccbd9d4ced7cb0e66f2e880e4ede20991"
+  }
+}

@@ -1,5 +1,7 @@
 # From diagrams to parameter-integral inputs
 
+Continue to the [single current calculation](../current/README.md) after inspecting a source definition. It now connects current native integral coefficients to the complete four-color result and its direct replay.
+
 This is the first curated part of the research repository. It follows the scientific data flow without requiring the full Wilson development environment.
 
 1. Read the [diagram-generation guide](generation.md) and the [generator source](../../packages/qgraf-pipeline/README.md).

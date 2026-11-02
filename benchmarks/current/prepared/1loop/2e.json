@@ -1,0 +1,387 @@
+{
+  "schema_version": "1.0",
+  "package_kind": "montopar-initial-integrals",
+  "loop_order": 1,
+  "emission_type": "2e",
+  "geometry": {
+    "n_lines": 4,
+    "line_vectors": [
+      "v1",
+      "v2",
+      "v3",
+      "v4"
+    ],
+    "lightlike": true,
+    "cross_ratios": [
+      {
+        "name": "z1",
+        "definition": "v34/v14"
+      }
+    ],
+    "reference_scale": "v14"
+  },
+  "orbits": [
+    {
+      "orbit_id": "2e-01",
+      "dispatch": "pure",
+      "topology": {
+        "vertices": [
+          {
+            "line": 3,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu2",
+            "color": "a2"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "mu2"
+            ],
+            "color": [
+              "a1",
+              "a2"
+            ]
+          }
+        ],
+        "internal_vertices": [],
+        "phases": [
+          {
+            "loop": "l1",
+            "expression": "(1-s31)*v3 + s41*v4"
+          }
+        ],
+        "bounds": [
+          {
+            "var": "s31",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "1"
+          }
+        ]
+      },
+      "c4_symmetry": {
+        "orbit_multiplicity": 4,
+        "stabilizer_order": 1,
+        "stabilizer_rotations": [
+          0
+        ]
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "identity"
+        },
+        "direct_opposite_edge_links": {
+          "definition": "direct_eikonal_to_eikonal_only",
+          "channels": {
+            "13": 0,
+            "24": 0
+          },
+          "channel_partition": [],
+          "structure": "1",
+          "total_order": 0
+        },
+        "symbol": "1"
+      },
+      "C": {
+        "components": {
+          "color": "CF",
+          "coupling": "(4*Pi*alphaS)^1",
+          "ft_prefactor": "Gamma[1-eps]^1/(4*Pi^(2-eps))^1",
+          "v14_scale": "(-2*v14+I0)^(1*eps)",
+          "twoscale": "(-2)^(-1)",
+          "i_factor": "1",
+          "euler": "exp(-1*EulerGamma*eps)"
+        },
+        "component_semantics": "multiplicative",
+        "factor_order": [
+          "color",
+          "coupling",
+          "ft_prefactor",
+          "v14_scale",
+          "twoscale",
+          "i_factor",
+          "euler"
+        ],
+        "combined": "(CF)*((4*Pi*alphaS)^1)*(Gamma[1-eps]^1/(4*Pi^(2-eps))^1)*((-2*v14+I0)^(1*eps))*((-2)^(-1))*(1)*(exp(-1*EulerGamma*eps))",
+        "phase_provenance": {
+          "wilson_vertices": "I^2",
+          "coordinate_propagators": "(-1)^1",
+          "product": "1"
+        }
+      },
+      "J": {
+        "integrand": "(z1) * (1) * f1^(-1+eps)",
+        "expanded": "(z1) * (1) * (x2*z1 - x1*x2*z1)^(-1+eps)",
+        "variables": [
+          "x1",
+          "x2"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {}
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      },
+      "original_C": {
+        "components": {
+          "color": "CF",
+          "coupling": "(4*Pi*alphaS)^1",
+          "ft_prefactor": "Gamma[1-eps]^1/(4*Pi^(2-eps))^1",
+          "v14_scale": "(-2*v14+I0)^(1*eps)",
+          "twoscale": "(-2)^(-1)",
+          "i_factor": "1"
+        },
+        "component_semantics": "multiplicative",
+        "factor_order": [
+          "color",
+          "coupling",
+          "ft_prefactor",
+          "v14_scale",
+          "twoscale",
+          "i_factor"
+        ],
+        "combined": "(CF) * ((4*Pi*alphaS)^1) * (Gamma[1-eps]^1/(4*Pi^(2-eps))^1) * ((-2*v14+I0)^(1*eps)) * ((-2)^(-1)) * (1)",
+        "phase_provenance": {
+          "wilson_vertices": "I^2",
+          "coordinate_propagators": "(-1)^1",
+          "product": "1"
+        }
+      },
+      "normalization": {
+        "euler_compensation_count": 1,
+        "assembly_sign": 1,
+        "scheme": "native-physical-CJ",
+        "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+      },
+      "preparation": {
+        "native_sign_conversion_count": 0,
+        "Euler_compensation_count": 1,
+        "J_changed": false,
+        "colour_conversion": false,
+        "original_C_preserved": true,
+        "Gamma_Euler_weight": "1",
+        "formal": "not_run"
+      }
+    },
+    {
+      "orbit_id": "2e-02",
+      "dispatch": "pure",
+      "topology": {
+        "vertices": [
+          {
+            "line": 2,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu2",
+            "color": "a2"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "mu2"
+            ],
+            "color": [
+              "a1",
+              "a2"
+            ]
+          }
+        ],
+        "internal_vertices": [],
+        "phases": [
+          {
+            "loop": "l1",
+            "expression": "-((1-s41)*v4 + v1 + s21*v2)"
+          }
+        ],
+        "bounds": [
+          {
+            "var": "s21",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "1"
+          }
+        ]
+      },
+      "c4_symmetry": {
+        "orbit_multiplicity": 2,
+        "stabilizer_order": 2,
+        "stabilizer_rotations": [
+          0,
+          2
+        ]
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "identity"
+        },
+        "direct_opposite_edge_links": {
+          "definition": "direct_eikonal_to_eikonal_only",
+          "channels": {
+            "13": 0,
+            "24": 1
+          },
+          "channel_partition": [
+            1
+          ],
+          "structure": "L24",
+          "total_order": 1
+        },
+        "symbol": "L24"
+      },
+      "C": {
+        "components": {
+          "color": "CF",
+          "coupling": "(4*Pi*alphaS)^1",
+          "ft_prefactor": "Gamma[1-eps]^1/(4*Pi^(2-eps))^1",
+          "v14_scale": "(-2*v14+I0)^(1*eps)",
+          "twoscale": "(-2)^(-1)",
+          "i_factor": "1",
+          "euler": "exp(-1*EulerGamma*eps)"
+        },
+        "component_semantics": "multiplicative",
+        "factor_order": [
+          "color",
+          "coupling",
+          "ft_prefactor",
+          "v14_scale",
+          "twoscale",
+          "i_factor",
+          "euler"
+        ],
+        "combined": "(CF)*((4*Pi*alphaS)^1)*(Gamma[1-eps]^1/(4*Pi^(2-eps))^1)*((-2*v14+I0)^(1*eps))*((-2)^(-1))*(1)*(exp(-1*EulerGamma*eps))",
+        "phase_provenance": {
+          "wilson_vertices": "I^2",
+          "coordinate_propagators": "(-1)^1",
+          "product": "1"
+        }
+      },
+      "J": {
+        "integrand": "(-(1+z1)) * (1) * f1^(-1+eps)",
+        "expanded": "(-(1+z1)) * (1) * (1 - x1 - x2 + x1*x2 + x1*x2*z1)^(-1+eps)",
+        "variables": [
+          "x1",
+          "x2"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {}
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      },
+      "original_C": {
+        "components": {
+          "color": "CF",
+          "coupling": "(4*Pi*alphaS)^1",
+          "ft_prefactor": "Gamma[1-eps]^1/(4*Pi^(2-eps))^1",
+          "v14_scale": "(-2*v14+I0)^(1*eps)",
+          "twoscale": "(-2)^(-1)",
+          "i_factor": "1"
+        },
+        "component_semantics": "multiplicative",
+        "factor_order": [
+          "color",
+          "coupling",
+          "ft_prefactor",
+          "v14_scale",
+          "twoscale",
+          "i_factor"
+        ],
+        "combined": "(CF) * ((4*Pi*alphaS)^1) * (Gamma[1-eps]^1/(4*Pi^(2-eps))^1) * ((-2*v14+I0)^(1*eps)) * ((-2)^(-1)) * (1)",
+        "phase_provenance": {
+          "wilson_vertices": "I^2",
+          "coordinate_propagators": "(-1)^1",
+          "product": "1"
+        }
+      },
+      "normalization": {
+        "euler_compensation_count": 1,
+        "assembly_sign": 1,
+        "scheme": "native-physical-CJ",
+        "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+      },
+      "preparation": {
+        "native_sign_conversion_count": 0,
+        "Euler_compensation_count": 1,
+        "J_changed": false,
+        "colour_conversion": false,
+        "original_C_preserved": true,
+        "Gamma_Euler_weight": "1",
+        "formal": "not_run"
+      }
+    }
+  ],
+  "format": "wilson-native-physical-calculation-input/1",
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "default_47_inputs_modified": false
+}

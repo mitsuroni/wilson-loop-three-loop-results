@@ -1,0 +1,536 @@
+{
+  "format": "wilson-computational-result/1",
+  "family": "[1]",
+  "orbit_id": "4e-05",
+  "revision": "r001",
+  "input": {
+    "manifest": "benchmarks/2ne/prepared/manifest.json",
+    "manifest_sha256": "0e9e55dad06bb5adb185689bdf03ea11f7b0c32386a9020fd2b2041fac1ac22c",
+    "package": "benchmarks/2ne/prepared/4e.json",
+    "package_sha256": "0193d668525fdcc4f184896cfc7445f7201dc65557657c1f316a8b9ae8af57c7",
+    "orbit_sha256": "022dad433c29b3dd64697c02576f18de29cafec26049f3336ca5dafeb9cce4e0",
+    "normalization_version": "ordered-parameters+fixed-loop-color-a1+per-loop-euler-compensation/0.3"
+  },
+  "domain": {
+    "J": "z>0, Re(eps)>0",
+    "I": "z>0, real 0<eps<1; fixed positive z local meromorphic epsilon continuation",
+    "complex_z": "not analyzed"
+  },
+  "normalization": {
+    "n": 2,
+    "a1": "-1/2",
+    "sym": 4,
+    "kappa": "-1/4",
+    "Euler": "already included exactly once in prepared C"
+  },
+  "J_reduction": {
+    "r": 0,
+    "pole_prefactor": 2,
+    "chains": [
+      {
+        "variables_low_to_high": [
+          "s21",
+          "s22"
+        ],
+        "word": "BO",
+        "normalized_weight": "1 - BT"
+      },
+      {
+        "variables_low_to_high": [
+          "s31"
+        ],
+        "word": "A",
+        "normalized_weight": "1"
+      },
+      {
+        "variables_low_to_high": [
+          "s41"
+        ],
+        "word": "O",
+        "normalized_weight": "1"
+      }
+    ],
+    "opposite": [
+      "s22",
+      "s41"
+    ],
+    "weight": "1 - BT",
+    "paired_weight": "-AT*exp(ell*eps/2)/2 - BT*exp(-ell*eps/2)/2 + exp(ell*eps/2)/2 + exp(-ell*eps/2)/2"
+  },
+  "I": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "-1/4*(-1/2*z^((1/2)*eps)*(-1 - 1/z)*MeijerG[{{0, eps, -eps}, {}}, {{0, eps, eps}, {}}, z^(-1)]*Exp[-1/2*eps*Log[z]]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[2*eps + 1]) + (1/2)*z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, 0, eps}, {}}, {{0, eps, eps}, {}}, z]*Exp[(1/2)*eps*Log[z]]/(Gamma[1 - eps]*Gamma[eps + 1]^2) + (1/2)*z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, 0, eps}, {}}, {{0, eps, eps}, {}}, z]*Exp[-1/2*eps*Log[z]]/(Gamma[1 - eps]*Gamma[eps + 1]^2) - 1/2*z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, eps, -eps}, {}}, {{0, eps, eps}, {}}, z]*Exp[(1/2)*eps*Log[z]]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[2*eps + 1]))*Exp[-2*EulerGamma*eps]*Gamma[1 - eps]^2/(eps^2*Cosh[eps*Log[z]])",
+    "latex": "- \\frac{\\left(- \\frac{z^{\\frac{\\varepsilon}{2}} \\left(-1 - \\frac{1}{z}\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {\\frac{1}{z}} \\right)} e^{- \\frac{\\varepsilon \\log{\\left(z \\right)}}{2}}}{2 \\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(2 \\varepsilon + 1\\right)} + \\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, 0, \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)} e^{\\frac{\\varepsilon \\log{\\left(z \\right)}}{2}}}{2 \\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(\\varepsilon + 1\\right)} + \\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, 0, \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)} e^{- \\frac{\\varepsilon \\log{\\left(z \\right)}}{2}}}{2 \\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(\\varepsilon + 1\\right)} - \\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)} e^{\\frac{\\varepsilon \\log{\\left(z \\right)}}{2}}}{2 \\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(2 \\varepsilon + 1\\right)}\\right) e^{- 2 \\gamma \\varepsilon} \\Gamma^{2}\\left(1 - \\varepsilon\\right)}{4 \\varepsilon^{2} \\cosh{\\left(\\varepsilon \\log{\\left(z \\right)} \\right)}}"
+  },
+  "I_compact": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "-1/4*G^2*((1/2)*H0*Exp[(1/2)*ell*eps] + (1/2)*H0*Exp[-1/2*ell*eps] - 1/2*H1*Exp[(1/2)*ell*eps] - 1/2*H1bar*Exp[-1/2*ell*eps])/(eps^2*Cosh[ell*eps])",
+    "latex": "- \\frac{G^{2} \\left(\\frac{H_{0} e^{\\frac{\\ell \\varepsilon}{2}}}{2} + \\frac{H_{0} e^{- \\frac{\\ell \\varepsilon}{2}}}{2} - \\frac{H_{1} e^{\\frac{\\ell \\varepsilon}{2}}}{2} - \\frac{\\bar{H1} e^{- \\frac{\\ell \\varepsilon}{2}}}{2}\\right)}{4 \\varepsilon^{2} \\cosh{\\left(\\ell \\varepsilon \\right)}}"
+  },
+  "definitions": {
+    "G": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Exp[-EulerGamma*eps]*Gamma[1 - eps]",
+      "latex": "e^{- \\gamma \\varepsilon} \\Gamma\\left(1 - \\varepsilon\\right)"
+    },
+    "R2": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Gamma[eps + 1]^2/Gamma[2*eps + 1]",
+      "latex": "\\frac{\\Gamma^{2}\\left(\\varepsilon + 1\\right)}{\\Gamma\\left(2 \\varepsilon + 1\\right)}"
+    },
+    "H0": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, 0, eps}, {}}, {{0, eps, eps}, {}}, z]/(Gamma[1 - eps]*Gamma[eps + 1]^2)",
+      "latex": "\\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, 0, \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(\\varepsilon + 1\\right)}"
+    },
+    "H1": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, eps, -eps}, {}}, {{0, eps, eps}, {}}, z]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[2*eps + 1])",
+      "latex": "\\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(2 \\varepsilon + 1\\right)}"
+    },
+    "H2": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, eps, -2*eps}, {}}, {{0, eps, eps}, {}}, z]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[3*eps + 1])",
+      "latex": "\\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - 2 \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(3 \\varepsilon + 1\\right)}"
+    },
+    "HW": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, eps, -eps}, {}}, {{0, eps, 2*eps}, {}}, z]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[3*eps + 1])",
+      "latex": "\\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, 2 \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(3 \\varepsilon + 1\\right)}"
+    },
+    "HD": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^(-1/2*eps)*(-z - 1)*MeijerG[{{eps, -eps, -eps}, {}}, {{0, eps, eps}, {}}, z]/(Gamma[1 - eps]*Gamma[2*eps + 1]^2)",
+      "latex": "\\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} \\varepsilon, - \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(2 \\varepsilon + 1\\right)}"
+    },
+    "HX": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, eps, -eps}, {}}, {{0, eps, 2*eps}, {}}, z]/(Gamma[1 - eps]*Gamma[2*eps + 1]^2)",
+      "latex": "\\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, 2 \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(2 \\varepsilon + 1\\right)}"
+    },
+    "H1bar": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^((1/2)*eps)*(-1 - 1/z)*MeijerG[{{0, eps, -eps}, {}}, {{0, eps, eps}, {}}, z^(-1)]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[2*eps + 1])",
+      "latex": "\\frac{z^{\\frac{\\varepsilon}{2}} \\left(-1 - \\frac{1}{z}\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {\\frac{1}{z}} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(2 \\varepsilon + 1\\right)}"
+    },
+    "H2bar": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^((1/2)*eps)*(-1 - 1/z)*MeijerG[{{0, eps, -2*eps}, {}}, {{0, eps, eps}, {}}, z^(-1)]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[3*eps + 1])",
+      "latex": "\\frac{z^{\\frac{\\varepsilon}{2}} \\left(-1 - \\frac{1}{z}\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - 2 \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {\\frac{1}{z}} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(3 \\varepsilon + 1\\right)}"
+    },
+    "HDbar": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^((1/2)*eps)*(-1 - 1/z)*MeijerG[{{eps, -eps, -eps}, {}}, {{0, eps, eps}, {}}, z^(-1)]/(Gamma[1 - eps]*Gamma[2*eps + 1]^2)",
+      "latex": "\\frac{z^{\\frac{\\varepsilon}{2}} \\left(-1 - \\frac{1}{z}\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} \\varepsilon, - \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {\\frac{1}{z}} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(2 \\varepsilon + 1\\right)}"
+    }
+  },
+  "laurent": {
+    "variable": "eps",
+    "from_power": -6,
+    "through_power": 0,
+    "remainder": "O(eps)",
+    "leading_power": -1,
+    "coefficients": {
+      "-6": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0",
+        "basis_comparison": {
+          "M": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          },
+          "M_plus_log": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          }
+        },
+        "MN_alternative": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        }
+      },
+      "-5": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0",
+        "basis_comparison": {
+          "M": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          },
+          "M_plus_log": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          }
+        },
+        "MN_alternative": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        }
+      },
+      "-4": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0",
+        "basis_comparison": {
+          "M": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          },
+          "M_plus_log": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          }
+        },
+        "MN_alternative": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        }
+      },
+      "-3": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0",
+        "basis_comparison": {
+          "M": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          },
+          "M_plus_log": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          }
+        },
+        "MN_alternative": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        }
+      },
+      "-2": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0",
+        "basis_comparison": {
+          "M": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          },
+          "M_plus_log": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          }
+        },
+        "MN_alternative": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        }
+      },
+      "-1": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "(1/4)*tau0q1",
+          "latex": "\\frac{\\tau_{0,1}}{4}"
+        },
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/4"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/4"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/4"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/8"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/8"
+          }
+        ],
+        "hlog_latex": "\\frac{\\zeta\\left(3\\right)}{4} + \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1,\\right) \\right)}}{8} - \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0,\\right) \\right)}}{16} + \\frac{\\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  0\\right) \\right)}}{4} - \\frac{\\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0\\right) \\right)}}{8}",
+        "basis_comparison": {
+          "M": {
+            "rank": 2,
+            "augmented_rank": 2,
+            "candidate_count": 2
+          },
+          "M_plus_log": {
+            "rank": 2,
+            "augmented_rank": 2,
+            "candidate_count": 2
+          }
+        },
+        "MN_alternative": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "(1/8)*WilsonM[1, 1, z]",
+          "latex": "\\frac{M{\\left(1,1,z \\right)}}{8}"
+        }
+      },
+      "0": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "((1/16)*tau0q0^2 + (1/32)*Pi^2*tau0q0 + (3/4)*tau0q2)",
+          "latex": "\\frac{2 \\tau_{0,0}^{2} + \\pi^{2} \\tau_{0,0} + 24 \\tau_{0,2}}{32}"
+        },
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-9/10"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-3/4"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-9/4"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-3/4"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/8"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/8"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "3/8"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/8"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/8"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/8"
+          }
+        ],
+        "hlog_latex": "- \\frac{\\pi^{4}}{40} - \\frac{3 \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( -1,\\right) \\right)}}{4} + \\frac{3 \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( 0,\\right) \\right)}}{8} - \\frac{3 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1\\right) \\right)}}{8} + \\frac{3 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0\\right) \\right)}}{16} + \\frac{3 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1\\right) \\right)}}{16} - \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0\\right) \\right)}}{16} - \\frac{3 \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  0, \\  0\\right) \\right)}}{4} + \\frac{3 \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  0, \\  0\\right) \\right)}}{8} + \\frac{3 \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  0, \\  0\\right) \\right)}}{8}",
+        "basis_comparison": {
+          "M": {
+            "rank": 4,
+            "augmented_rank": 4,
+            "candidate_count": 5
+          },
+          "M_plus_log": {
+            "rank": 4,
+            "augmented_rank": 4,
+            "candidate_count": 6
+          }
+        },
+        "MN_alternative": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "(1/32)*Pi^2*WilsonM[0, 1, z] - 1/32*WilsonM[0, 3, z] + (3/32)*WilsonM[2, 1, z]",
+          "latex": "\\frac{\\pi^{2} M{\\left(0,1,z \\right)}}{32} - \\frac{M{\\left(0,3,z \\right)}}{32} + \\frac{3 M{\\left(2,1,z \\right)}}{32}"
+        }
+      }
+    }
+  },
+  "basis_registry": "benchmarks/2ne/families/single-opposite/basis-functions.json",
+  "function_bindings": {
+    "WilsonM": "Original M(k,n,z) defined in basis.md section 7",
+    "WilsonN": "Original N(k,n,z) defined in basis.md section 7; avoids the Wolfram built-in N"
+  },
+  "status": {
+    "analytic": "derived_exact",
+    "checks": "passed",
+    "formal": "not_run"
+  },
+  "derivation": "benchmarks/2ne/workspaces/4e-05/derivation.md",
+  "evidence": {
+    "checks": "workflow/checks/single-opposite/runs/20260916T093258061172Z/4e-05-checks.json",
+    "checks_sha256": "a39902bc1023df54af96e9d157559e307fc9f2491a5a0e384a36b83d3a07c34e",
+    "code_sha256": {
+      "workflow/checks/single-opposite/check_numeric.py": "fc49d0e3e0f572928c182dcb983c618d10e13fb8ca91525a253f75a50b19324e",
+      "workflow/checks/single-opposite/coefficient_math.py": "a948a9e6f871a1fa8cbb5b6e5ae91e1470e27aa88490daa2f56284f798f1b59d",
+      "workflow/checks/single-opposite/compact_basis.py": "19ce22927713b88a5560949cf464aed71bbb74bee711e2d1809c93d39fd0c70d",
+      "workflow/checks/single-opposite/hlog_algebra.py": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+      "workflow/checks/single-opposite/initialize.py": "b151de2a3bc36c7607ef611fdd1677677fdfa128288aff14c6a2e43d7c2398e1",
+      "workflow/checks/single-opposite/numeric_hlog.py": "2f7ff121f0f2b0ce5ac6c0d53b96269bee30e3331e1370ee25af6427ae36549b",
+      "workflow/checks/single-opposite/reduce_inputs.py": "ee53e5320bbbd6d5b0142adc4ae3fa046198052ce4ba86a1a23de4ed13a9f6fb",
+      "workflow/checks/single-opposite/remainder_check.py": "de248059de18826b2a30734e20123389176bda0e12f17e9d75e9ba5b265af480",
+      "workflow/checks/single-opposite/run_maple.py": "06b2e2d738c5deca552a6a831ed0f382a19ffa8d185e0cc59a0f49c5d1c85b13",
+      "workflow/checks/single-opposite/solve_single.py": "e1cef2acd3e865095b0aac566a1f4c59fcf4568e328ea29e529e151ec8f3c30e",
+      "workflow/checks/single-opposite/test_single.py": "1a713281146f62f9f1c4580eecfb399bd84201c940817d2a09c10dec6240932d",
+      "workflow/checks/single-opposite/compute_moments.mpl": "6671f0240cd08b1b01419b92b25bd0f64dc2f5dda3fd480285f64bf16dbc93a2",
+      "workflow/checks/empty-family/empty_math.py": "c844a76f2eb7a1591d7cccd732821be488890d1196704ca397dce6eb0cd49373",
+      "workflow/checks/empty-family/setup_workspaces.py": "f1331140c5f07a197b4a96ca021342d77a3f5cb9a901647c145a712c5166bc1e",
+      "preprocessing/ordered.py": "67bebf72c4350ff886a8007932644afa53deae4fefd5f51f1c6b9c5664b2ccec"
+    },
+    "moment_run": "workflow/checks/single-opposite/runs/20260916T090538777022Z",
+    "basis_snapshot": "workflow/checks/single-opposite/runs/20260916T093258061172Z/basis-functions.json",
+    "basis_snapshot_sha256": "87ed09c33e6778ba48a0872d0f1c7b8f64eacde962fe7f51f502bc1311642029",
+    "method_sha256": "a36937f757b373e71c6873b7b59c33be64751a4d2101725cc8d7d3d41b3c2a84",
+    "derivation_snapshot": "workflow/checks/single-opposite/runs/20260916T093258061172Z/4e-05-derivation.md",
+    "derivation_snapshot_sha256": "3eecb7e9bb7a83e0ccbd52f17c544f762da92241680dd7e1520aa211db6da272"
+  }
+}

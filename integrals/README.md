@@ -1,5 +1,7 @@
 # Integral evaluation articles
 
+For normal reading and assembly use the [single current entrypoint](../docs/current/README.md). It selects explicit whole-I fields, preserves channel/operator identity and rejects J/partial contributions being presented as I. The current catalogue also preserves the four-leg joint/source boundary.
+
 Start with the [per-integral input catalogue](../data/README.md). Its entries contain exact definitions and provenance; a raw parameter definition is distinct from an evaluated Laurent coefficient.
 
 The [one-loop packet](one-loop/README.md) contains both exchange orbits through epsilon3. The [two-loop packet](two-loop/README.md) contains all twelve exchange, TGV and Pi1 orbits through epsilon2. Every orbit has a continuous English derivation, exact coefficients and a declared calculation route. Shared family programs and historical integration reuse are explicitly identified.

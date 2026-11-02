@@ -1,0 +1,57 @@
+{
+  "revision": "r001",
+  "date": "2026-09-22",
+  "orbit_id": "4e-3g+3g-01",
+  "family": "DT3-S[]",
+  "full_epsilon_I": "-exp(-3*EulerGamma*eps)*gamma(2-3*eps)*K/(1152*eps**4*(1-3*eps))",
+  "definitions": {
+    "lambda": "1-3*eps",
+    "A_gamma": "gamma(1-eps)**2/gamma(1-2*eps)",
+    "B_gamma": "gamma(1+2*eps)*gamma(1-eps)/gamma(1+eps)",
+    "F": "hyper([1,1-eps,2-2*eps],[2-3*eps,3-2*eps],1)",
+    "S": "pi/sin(pi*eps)",
+    "K": "S*(lambda*B_gamma-2*A_gamma)/(eps*(1-2*eps))+2*S*pi/sin(2*pi*eps)-gamma(1-eps)**3/(eps*gamma(2-3*eps))*(-lambda/(2*eps)+F-2*(2-3*eps)/(1-2*eps))",
+    "J": "z**(3*eps)*K/(36*eps**4*(1-3*eps))"
+  },
+  "source_sha256": "0cccb22b4528fe9ab23bb59f38a9bcda6fae704b4dfdf72d7d3218a5303ba921",
+  "laurent_coefficients": {
+    "-6": "-1/2304",
+    "-5": "1/384",
+    "-4": "-3*zeta(2)/512",
+    "-3": "-1/64 + 23*zeta(3)/2304 + 5*zeta(2)/256",
+    "-2": "-61*zeta(2)**2/2048 - 5/64 + 11*zeta(3)/384 + zeta(2)/32",
+    "-1": "-19/64 - 49*zeta(2)*zeta(3)/1536 + 5*zeta(3)/96 + 5*zeta(2)/128 + 599*zeta(5)/3840 + 459*zeta(2)**2/5120",
+    "0": "-65/64 - 48997*zeta(2)**3/430080 + zeta(2)/128 + 215*zeta(3)**2/4608 + 17*zeta(3)/192 + 353*zeta(5)/1920 + 39*zeta(2)*zeta(3)/256 + 11*zeta(2)**2/64"
+  },
+  "coefficient_notation": "zeta(n), exact rational arithmetic; no PSLQ",
+  "pole_order": 6,
+  "remainder": "O(eps)",
+  "z_dependence": "I independent of z; J=z**(3*eps)*j(eps)",
+  "domain": "z>0; initial 0<Re(eps)<1/3; meromorphic continuation near eps=0",
+  "normalization": {
+    "color_basis": [
+      "CA^2*CF",
+      "CA*CF^2",
+      "CF^3"
+    ],
+    "color_vector": [
+      "-1/4",
+      "0",
+      "0"
+    ],
+    "a1": "-1/4",
+    "Euler_compensation_count": 1,
+    "orbit_multiplicity": 4,
+    "I_assembly": "-exp(-3*EulerGamma*eps)*gamma(2-3*eps)/32*(J(z,eps)+z**(3*eps)*J(1/z,eps))/(1+z**(3*eps))"
+  },
+  "relation": "I_01=I_07, exact full-kernel reflected ordered domain",
+  "formal": "not_run",
+  "kernel_root_registered": false,
+  "checks": "workflow/checks/double-tgv-dt3s/checks.json",
+  "derivation": "benchmarks/double-tgv/4e-3g+3g/workspaces/4e-3g+3g-01/derivation.md",
+  "limitations": [
+    "original eight-dimensional independent quadrature not run",
+    "physical complex z/i0 continuation not checked",
+    "no Kernel/Lean chain"
+  ]
+}

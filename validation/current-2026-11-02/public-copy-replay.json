@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "runtime_source_files": 248,
+  "definitions_read": 163,
+  "integrals_read": 163,
+  "full_replay_stages": [
+    "low",
+    "matter",
+    "AA",
+    "combine"
+  ],
+  "low_checks": 51,
+  "matter_checks": 101,
+  "AA_checks": 30,
+  "AA_convolution_checks": 217,
+  "combined_checks": 197,
+  "final_loop_results_byte_identical": [
+    1,
+    2,
+    3
+  ],
+  "children": [
+    {
+      "script": "workflow/checks/canonical-conventions-20261102/assemble_low.py",
+      "args_count": 2,
+      "flags": [
+        "-I",
+        "-S",
+        "-B"
+      ]
+    },
+    {
+      "script": "workflow/checks/canonical-conventions-20261102/consumer-agent/assemble_matter.py",
+      "args_count": 4,
+      "flags": [
+        "-I",
+        "-S",
+        "-B"
+      ]
+    },
+    {
+      "script": "workflow/checks/canonical-conventions-20261102/aa-agent/rebuild.py",
+      "args_count": 2,
+      "flags": [
+        "-I",
+        "-S",
+        "-B"
+      ]
+    },
+    {
+      "script": "workflow/checks/canonical-conventions-20261102/combine.py",
+      "args_count": 8,
+      "flags": [
+        "-I",
+        "-S",
+        "-B"
+      ]
+    }
+  ],
+  "blocked_attempts": [],
+  "profile_sha256": "fdadbaba9ace71a0c62ffd270f70634e1b886f04154be32d6856177c76b81961",
+  "program_sha256": "39478d3ebe36f6404b9e71de0806058e602195fb0e171d8e99fe884d68d83e93",
+  "seconds": 92.90600000001723,
+  "formal": "not_run",
+  "scope": "Actual public-closure reader plus full native low/matter/AA/scales/CT/RG replay; every mathematical child uses isolated flags and file/network guards. Reused original integrations and dictionaries retain prior scope.",
+  "all_copied_source_files_unchanged": 251,
+  "report_original_sha256": "dfc5036af4bba23cb45d887478b7bd3534e1be7369047488a7cf8381729a0114"
+}

@@ -1,0 +1,38 @@
+{
+  "format": "wilson-three-loop-physical-colors-current/2",
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "current_entry": "workflow/current-calculation.json",
+  "channels": {
+    "CF*CA^2": {
+      "result": "../../current/results/3loop.json",
+      "sha256": "33a13158e68fca790f9b01dd9ac2abd6b88af95437018aa41f5d9485e3cc60de",
+      "json_pointer": "/channels/AA",
+      "status": "complete_through_finite_RG_accepted_research"
+    },
+    "CF*CA*TF*nf": {
+      "result": "../../current/results/3loop.json",
+      "sha256": "33a13158e68fca790f9b01dd9ac2abd6b88af95437018aa41f5d9485e3cc60de",
+      "json_pointer": "/channels/Af",
+      "status": "complete_through_finite_RG_accepted_research"
+    },
+    "CF^2*TF*nf": {
+      "result": "../../current/results/3loop.json",
+      "sha256": "33a13158e68fca790f9b01dd9ac2abd6b88af95437018aa41f5d9485e3cc60de",
+      "json_pointer": "/channels/Ff",
+      "status": "complete_through_finite_RG_accepted_research"
+    },
+    "CF*(TF*nf)^2": {
+      "result": "../../current/results/3loop.json",
+      "sha256": "33a13158e68fca790f9b01dd9ac2abd6b88af95437018aa41f5d9485e3cc60de",
+      "json_pointer": "/channels/ff",
+      "status": "complete_through_finite_RG_accepted_research"
+    }
+  },
+  "complete_color_channels": 4,
+  "total_color_channels": 4,
+  "full_w3_complete": true,
+  "extra_family_signs": false,
+  "formal": "not_run",
+  "adoption": "Direct native-current single/joint coefficient reassembly; original integrations and research acceptance scopes retained.",
+  "migration_evidence": "workflow/checks/canonical-conventions-20261102/README.md"
+}

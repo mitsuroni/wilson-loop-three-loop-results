@@ -1,5 +1,19 @@
 # Publication status and next steps
 
+## Current convention and complete four-color calculation
+
+The [single current interface](current/README.md) now publishes the completed
+convention/consumer migration: all163 native source orbits,13 full-color prepared
+packages, canonical low-loop tables and complete one-to-three-loop results.
+Af and AA are directly assembled from current individual/joint coefficients,
+without a runtime legacy sign mode. The [complete four-color snapshot](../results/2026-11-02-current/README.md)
+and [actual isolated replay](../validation/current-2026-11-02/README.md) are public.
+
+The next curation layer is detailed English three-loop integral/joint-object
+evaluation articles. The earlier staged uploads below retain their dated scope;
+they are not the normal entrypoint for current reading and assembly.
+
+
 ## 2 November 2026: complete low-loop pilot
 
 All two one-loop and twelve two-loop orbit contributions are now curated end to end. Each has an English derivation, exact Laurent data and a declared real calculation route, with shared family engines and explicitly identified integration reuse. The [complete pilot](../results/2026-11-02-low-loops/README.md) continues through full color assembly, counterterms, logZ, finite functions, RG and the independent author finite result. Isolated reproduction tests portability, separately from the mathematical evidence.

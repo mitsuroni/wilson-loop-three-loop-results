@@ -2,6 +2,25 @@
 
 Research materials for the fundamental lightlike quadrilateral Wilson-loop exponent in massless QCD, prepared by Dengyao for sharing and review.
 
+## Current calculation: one convention and one entrypoint
+
+Start with the [current guide](docs/current/README.md) and [single convention](workflow/current-conventions.md).
+The current catalogue covers all163 source orbits. The directly assembled
+[four-color three-loop result](results/2026-11-02-current/README.md) is available
+through the finite term, with scale/counterterm/RG checks and explicit research
+reuse boundaries. You do not choose an old revision or apply a family sign patch.
+
+```text
+python -m pip install -r docs/current/requirements.txt
+python -m workflow.current_calculation check
+python -m workflow.current_calculation result 3
+python -m workflow.current_calculation replay --output-dir replay-output/current-new
+```
+
+The exact public runtime closure has passed an [isolated complete replay](validation/current-2026-11-02/README.md).
+Older dated deliveries remain intact. Detailed three-loop English per-integral
+evaluation articles are the next curation layer.
+
 ## Follow the calculation
 
 | Stage | Public entry | This publication |
@@ -9,7 +28,7 @@ Research materials for the fundamental lightlike quadrilateral Wilson-loop expon
 | 1. Generate and classify diagram orbits | [Homemade generator](packages/qgraf-pipeline/README.md) · [guide](docs/upstream/generation.md) | Source, tests, frozen definitions and provenance |
 | 2. Convert diagram definitions to parameter integrals C and J | [Montopar](packages/montopar/README.md) · [guide](docs/upstream/parameterization.md) | Source, tests, integral inputs and versioned contracts |
 | 3. Evaluate individual or joint integrals | [One-loop articles](integrals/one-loop/README.md) · [two-loop articles](integrals/two-loop/README.md) | English derivations, actual programs and exact series for 2+12 orbits |
-| 4. Assemble color channels | [Complete low-loop example](results/2026-11-02-low-loops/README.md) · [result archive](results/README.md) | One/two-loop full color sums; dated three-matter-color delivery retained |
+| 4. Assemble color channels | [Current four-color calculation](results/2026-11-02-current/README.md) · [low-loop example](results/2026-11-02-low-loops/README.md) | Direct native-current low/matter/AA assembly and exact current results |
 | 5. Renormalize, extract finite terms and verify RG | [Low-loop derivation](results/2026-11-02-low-loops/derivation.md) · [checks](results/2026-11-02-low-loops/validation/README.md) | Counterterms, logZ, finite results, RG and complete external finite comparison |
 
 Start with the [complete one/two-loop example](results/2026-11-02-low-loops/README.md) to follow the full calculation, or the [upstream guide](docs/upstream/README.md) to inspect its source packages. A source package, a parameter-integral definition, an evaluated Laurent coefficient, and an independent validation are distinct deliverables.
@@ -26,7 +45,7 @@ All fourteen one/two-loop orbits now have English derivations, exact data and po
 - [Actual upstream checks](validation/upstream-2026-11-02/README.md) and the [historical full-tree manifest at its original commit](https://github.com/mitsuroni/wilson-loop-three-loop-results/blob/ed854f02b0e79840f96c7a73c2642c21fef07307/UPSTREAM-PUBLICATION.json). It binds that snapshot, not this evolving navigation.
 - [Roadmap and publication status](docs/publication-status.md): what is already public, what is being curated next, and how historical snapshots should be read.
 
-The calculation workspace reached a complete four-color three-loop Laurent-through-finite and RG research milestone on 2 November. The upstream foundation and complete low-loop pilot are now public. The new three-loop per-integral and four-color downstream release is the next curation stage; older three-color files retain their dated scope.
+The calculation workspace reached a complete four-color three-loop Laurent-through-finite and RG research milestone on 2 November. The upstream foundation and complete low-loop pilot are now public. The current four-color data and direct reconstruction are now public. Detailed three-loop per-integral articles are the next curation stage; older three-color files retain their dated scope.
 
 ## Existing result archives
 

@@ -1,0 +1,107 @@
+{
+  "format": "wilson-tgv-pi1-integral-result/1",
+  "revision": "r003",
+  "date": "2026-10-15",
+  "orbit_id": "3e-3g+Pi1-03",
+  "input_sha256": "72436e94de62c72f7231e08851052268ba59bc20b28406d3fc91ba2fe8f189b5",
+  "status": "exact_closed_form",
+  "definition": "I=2 R(eps) [J(eps,z)+z^(3eps)J(eps,1/z)]/(1+z^(3eps))",
+  "normalization": {
+    "euler_compensation_count": 1,
+    "c4_multiplicity": 4,
+    "color_factor_extracted": "CF*CA*B1(eps)",
+    "scale_factor_extracted": "S14+S12",
+    "raw_input_modified": false,
+    "relation_to_bare_full_color": "prepared=sum_C4(raw)*exp(-3 EulerGamma eps)",
+    "assembly_sign": 1,
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+  },
+  "I": "-((3 - 2*gamma(1 - eps)*gamma(eps + 1)/((1 - 2*eps)*gamma(1 - 2*eps)*gamma(2*eps + 1)))*(-eps - 2)*exp(-3*EulerGamma*eps)*gamma(1 - 3*eps)*gamma(1 - eps)**3*gamma(eps + 1)/(2304*eps**5*(1 - 2*eps)*(2*eps + 1)*gamma(1 - 2*eps)))",
+  "I_trigonometric": "-((-eps - 2)*(-6*eps - 2*cos(pi*eps) + 3)*exp(-3*EulerGamma*eps)*gamma(1 - 3*eps)*gamma(1 - eps)**3*gamma(eps + 1)/(2304*eps**5*(1 - 2*eps)**2*(2*eps + 1)*gamma(1 - 2*eps)))",
+  "J_over_z3eps": "(eps + 1)*(eps + 2)*(6*eps*gamma(1 - 2*eps)*gamma(2*eps + 1) - 3*gamma(1 - 2*eps)*gamma(2*eps + 1) + 2*gamma(1 - eps)*gamma(eps + 1))*gamma(1 - eps)*gamma(eps + 1)/(72*eps**4*(2*eps - 1)*(2*eps + 1)*(3*eps - 1)*gamma(1 - 2*eps)*gamma(2*eps + 1))",
+  "highest_pole_order": 5,
+  "laurent_coefficients": {
+    "-5": "-(-1/1152)",
+    "-4": "-(7/2304)",
+    "-3": "-(1/192 - 7*pi**2/4608)",
+    "-2": "-(-7*zeta(3)/1152 + pi**2/9216 + 17/576)",
+    "-1": "-(-547*pi**4/552960 - pi**2/256 + 49*zeta(3)/2304 + 1/18)",
+    "0": "-(-49*pi**2*zeta(3)/4608 - 71*zeta(5)/1920 - 11*pi**4/1105920 + 7*zeta(3)/192 + 11*pi**2/2304 + 3/16)"
+  },
+  "laurent_remainder": "O(eps)",
+  "color_channel_coefficients": {
+    "CF*CA^2": {
+      "-5": "-(-5/1728)",
+      "-4": "-(103/10368)",
+      "-3": "-(557/31104 - 35*pi**2/6912)",
+      "-2": "-(-35*zeta(3)/1728 + pi**2/41472 + 4661/46656)",
+      "-1": "-(-547*pi**4/165888 - 1645*pi**2/124416 + 721*zeta(3)/10368 + 6745/34992)",
+      "0": "-(-245*pi**2*zeta(3)/6912 - 71*zeta(5)/576 - 1259*pi**4/4976640 + 2783*pi**2/186624 + 3899*zeta(3)/31104 + 16859/26244)"
+    },
+    "CF*CA*TF*nf": {
+      "-5": "-(1/432)",
+      "-4": "-(-23/2592)",
+      "-3": "-(-91/7776 + 7*pi**2/1728)",
+      "-2": "-(-847/11664 - 17*pi**2/10368 + 7*zeta(3)/432)",
+      "-1": "-(-1031/8748 - 161*zeta(3)/2592 + 299*pi**2/31104 + 547*pi**4/207360)",
+      "0": "-(-2824/6561 - 781*pi**2/46656 - 637*zeta(3)/7776 - 1061*pi**4/1244160 + 71*zeta(5)/720 + 49*pi**2*zeta(3)/1728)"
+    }
+  },
+  "color_coefficient_semantics": "coefficients of bg(eps)*I and bf(eps)*I; lambda_b^3*(S14+S12) kept outside",
+  "color_factors": {
+    "CF*CA^2": "(10-6*eps)/(3-2*eps)",
+    "CF*CA*TF*nf": "-8*(1-eps)/(3-2*eps)"
+  },
+  "z_dependence": "independent after the specified C4 normalization",
+  "initial_region": "z>0, A0=-2*v14>0, 0<Re(eps)<1/3; then meromorphic epsilon continuation",
+  "formal": "not_run",
+  "limitations": [
+    "Wilson mathematical MCP not available",
+    "No general complex continuation validation",
+    "Numerical comparisons are not interval enclosures"
+  ],
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "legacy_input": {
+    "package": "benchmarks/self-energy/tgv-pi1/sources/montopar-r001.json",
+    "sha256": "cc9a45b9a3aecd1437fea5fbe222680f67001f8137c09cb38f46ba6fff337e90",
+    "scope": "Historical r001 root; the r001-to-r002 native-C migration is retained in migration."
+  },
+  "input": {
+    "native_package": "benchmarks/self-energy/tgv-pi1/sources/montopar-r002.json",
+    "native_package_sha256": "72436e94de62c72f7231e08851052268ba59bc20b28406d3fc91ba2fe8f189b5",
+    "orbit_id": "3e-3g+Pi1-03",
+    "assembly_sign": 1
+  },
+  "legacy_evidence": {
+    "evidence": "workflow/checks/tgv-pi1-03/README.md"
+  },
+  "migration": {
+    "legacy_result": {
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-03/r001.json",
+      "sha256": "71ab69326065388817c629d19c0c0b7664054157f49b89b70e871511cb64a2aa"
+    },
+    "factor_from_native_CJ": -1,
+    "basis": "same J/domain/branch and C_native/C_legacy from native-check.json; integral linearity",
+    "new_integration_performed": false,
+    "old_formal_status_not_inherited": true,
+    "scope": "Historical r001-to-r002 physical-sign migration; r003 preserves the r002 primary result."
+  },
+  "native_verification": "workflow/checks/shared-sign-production/publication-check.json",
+  "R": "exp(-3*EulerGamma*eps)*(gamma(1-eps)**2*gamma(2-3*eps)/gamma(2-2*eps))*(-1/(64*eps*(1+eps)))",
+  "native_verification_scope": "Historical native-source/sign checks; r003 representation and reference checks are recorded separately.",
+  "representation_verification": "workflow/checks/tgv-pi1-representation-r003/verification.json",
+  "representation_revision": {
+    "previous_result": {
+      "path": "benchmarks/self-energy/tgv-pi1/results/3e-3g+Pi1-03/r002.json",
+      "sha256": "5afecbf5a02e97183e4a06be80921ac43385fd2d328b6a904ce64d61ea72c3d0"
+    },
+    "factor_on_primary_I": 1,
+    "primary_laurent_coefficients_changed": false,
+    "new_integration_performed": false,
+    "formal_status": "not_run",
+    "reason": "Correct auxiliary representations and bind all current inputs/references explicitly.",
+    "corrected_fields": [
+      "I_trigonometric"
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "format": "wilson-computational-result/1",
+  "family": "TGV-3e-3g",
+  "orbit_id": "3e-3g-04",
+  "revision": "r001",
+  "input": {
+    "package": "benchmarks/tgv/3e-3g/prepared/3e-3g.json",
+    "package_sha256": "dcfc43a3fffccdf81eeed48c1d8ac851c66eb66ccdae5b2cdd9b15ab80480068",
+    "manifest": "benchmarks/tgv/3e-3g/prepared/manifest.json",
+    "manifest_sha256": "3c098ff3cd3f4d49678bd8272309fbc778f4af1f5c28e6e8fe116e17b7b48dc1"
+  },
+  "normalization": {
+    "loop_order": 2,
+    "sym": 4,
+    "Euler": "exp(-2*EulerGamma*eps), included exactly once",
+    "representation": "single canonical representative; physical rotation from z inversion",
+    "I": "(1-2eps)*G2/2*(J(z)+z^(2eps)*J(1/z))/(1+z^(2eps)); G2=exp(-2 EulerGamma eps) Gamma(1-2eps)"
+  },
+  "domain": {
+    "z": "positive real",
+    "epsilon": "meromorphic expansion at 0",
+    "complex_kinematics": "source i0 preserved; no new physical complex-z continuation claim"
+  },
+  "I": {
+    "kind": "explicit_integrated_series",
+    "expression": "exp(-2*EulerGamma*eps)*Gamma(2-2*eps)/(1+z^(2*eps)) * (1+z)^(-p) * Sum((p)_k/k! * B_k(eps,z), k=0..infinity), p=2-2*eps",
+    "block_definition": "If P*(1-S/(1+z))^k = Sum c_(a,b) s^a alpha^b, B_k=Sum c_(a,b)*Prod_i 1/(a_i+1)*Prod_j Gamma(b_j+1-eps)/Gamma(sum(b)+3-3eps)",
+    "convergence": "z>0, 1/2<Re(eps)<1; meromorphic continuation to eps=0; finite signed block before outer sum",
+    "method": "benchmarks/tgv/3e-3g/method.md",
+    "finite_special_function_compression": false
+  },
+  "laurent": {
+    "variable": "eps",
+    "from_power": -6,
+    "through_power": 0,
+    "leading_power": -2,
+    "remainder": "O(eps)",
+    "coefficients": {
+      "-6": {
+        "expression": "0",
+        "language": "SymPy/str",
+        "latex": "0",
+        "hlog_terms": []
+      },
+      "-5": {
+        "expression": "0",
+        "language": "SymPy/str",
+        "latex": "0",
+        "hlog_terms": []
+      },
+      "-4": {
+        "expression": "0",
+        "language": "SymPy/str",
+        "latex": "0",
+        "hlog_terms": []
+      },
+      "-3": {
+        "expression": "0",
+        "language": "SymPy/str",
+        "latex": "0",
+        "hlog_terms": []
+      },
+      "-2": {
+        "expression": "pi**2/48",
+        "language": "SymPy/str",
+        "latex": "\\frac{\\pi^{2}}{48}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/8"
+          }
+        ]
+      },
+      "-1": {
+        "expression": "-M11/8 + zeta(3)/8",
+        "language": "SymPy/str",
+        "latex": "- \\frac{M_{1,1}}{8} + \\frac{\\zeta\\left(3\\right)}{8}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/4"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/4"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/8"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/8"
+          }
+        ]
+      },
+      "0": {
+        "expression": "M01**2/48 - M21/8 + pi**4/40",
+        "language": "SymPy/str",
+        "latex": "\\frac{M_{0,1}^{2}}{48} - \\frac{M_{2,1}}{8} + \\frac{\\pi^{4}}{40}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "153/80"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/2"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/2"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/2"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/2"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/2"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "5/8"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/8"
+          }
+        ]
+      }
+    }
+  },
+  "status": {
+    "analytic": "derived_exact",
+    "checks": "passed",
+    "formal": "not_run"
+  },
+  "evidence": {
+    "delivery": "workflow/checks/tgv-solve/deliveries/20260917T084348202454Z",
+    "fresh_04_run": "workflow/checks/tgv-solve/runs/20260917T081202905587Z-04",
+    "numeric_checks": "workflow/checks/tgv-solve/runs/20260917T082219982476Z-checks",
+    "source_audit": "workflow/checks/tgv-audit/runs/20260917T083010065973Z"
+  }
+}

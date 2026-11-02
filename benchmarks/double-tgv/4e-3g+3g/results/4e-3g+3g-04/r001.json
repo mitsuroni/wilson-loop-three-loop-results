@@ -1,0 +1,46 @@
+{
+  "revision": "r001",
+  "orbit_id": "4e-3g+3g-04",
+  "family": "DT1-S[]",
+  "source_sha256": "0cccb22b4528fe9ab23bb59f38a9bcda6fae704b4dfdf72d7d3218a5303ba921",
+  "full_epsilon_I": "-exp(-3*EulerGamma*eps)*gamma(1-3*eps)*gamma(1+eps)**2/(2304*eps**6*gamma(1+2*eps))*(3*gamma(1+2*eps)*gamma(1-eps)/gamma(1+eps)-2*gamma(1-eps)**2/gamma(2-2*eps))**2",
+  "definitions": {
+    "V": "3*gamma(1+2*eps)*gamma(1-eps)/gamma(1+eps)-2*gamma(1-eps)**2/gamma(2-2*eps)",
+    "L": "V/(6*eps**2*(1-3*eps))",
+    "J": "z**(3*eps)*(1-3*eps)/(4*eps)*beta(eps,eps)*L**2"
+  },
+  "laurent_coefficients": {
+    "-6": "-1/2304",
+    "-5": "1/288",
+    "-4": "-13*zeta(2)/1536",
+    "-3": "-1/72 - 7*zeta(3)/2304 + 7*zeta(2)/192",
+    "-2": "-2107*zeta(2)**2/30720 - 1/18 + 7*zeta(3)/288 + zeta(2)/16",
+    "-1": "-1/6 - 91*zeta(2)*zeta(3)/1536 - 71*zeta(5)/3840 + 5*zeta(2)/48 + 547*zeta(2)**2/3840",
+    "0": "-91991*zeta(2)**3/258048 - 4/9 - 7*zeta(3)/72 - 49*zeta(3)**2/4608 + 71*zeta(5)/480 + zeta(2)/6 + 49*zeta(2)*zeta(3)/192 + zeta(2)**2/4"
+  },
+  "coefficient_notation": "zeta(n); exact rational arithmetic",
+  "pole_order": 6,
+  "remainder": "O(eps)",
+  "z_dependence": "I independent of z to all epsilon orders; J proportional to z^(3*eps)",
+  "domain": "z>0, starting strip 0<Re(eps)<1/3, meromorphic continuation near eps=0",
+  "normalization": {
+    "color_basis": [
+      "CA^2*CF",
+      "CA*CF^2",
+      "CF^3"
+    ],
+    "color_vector": [
+      "-1/4",
+      "0",
+      "0"
+    ],
+    "a1": "-1/4",
+    "Euler_compensation_count": 1,
+    "orbit_multiplicity": 4,
+    "I_assembly": "I=-Exp[-3*EulerGamma*eps]*Gamma[2-3*eps]/32*(J(z,eps)+z^(3*eps)*J(1/z,eps))/(1+z^(3*eps))"
+  },
+  "formal": "not_run",
+  "kernel_root_registered": false,
+  "checks": "workflow/checks/double-tgv-dt1s/checks.json",
+  "independent_checks": "workflow/checks/double-tgv-dt1s/independent-checks.json"
+}

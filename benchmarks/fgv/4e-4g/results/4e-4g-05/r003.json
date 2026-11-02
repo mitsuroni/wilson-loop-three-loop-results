@@ -1,0 +1,663 @@
+{
+  "format": "wilson-fgv-integral-result/1",
+  "revision": "r003",
+  "family": "F3[]",
+  "status": "computed_and_checked",
+  "formal": "not_run",
+  "kernel_root_registered": false,
+  "domain": "fixed real z>0; initial 1/2<Re(eps)<2/3; meromorphic continuation near eps=0",
+  "normalization": {
+    "loop_order": 3,
+    "color_coordinates": [
+      "1",
+      "0",
+      "0"
+    ],
+    "Euler_compensation_count": 1,
+    "sym": 4,
+    "assembly_sign": 1,
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+  },
+  "I_definition": "-(Exp[-3*EulerGamma*eps]*Gamma[2-3*eps]/8*(J(z,eps)+z^(3*eps)*J(1/z,eps))/(1+z^(3*eps)))",
+  "full_epsilon": {
+    "class": "explicit_convergent_polynomial_Beta_series",
+    "I_expression": "-(G3/8*(J05(z,eps)+z^(3*eps)*J05(1/z,eps))/(1+z^(3*eps)))",
+    "J05": "z*(1+z)/4*B(z,eps)",
+    "J08": "z^(3*eps)*J05(1/z,eps)",
+    "definitions": {
+      "G3": "Exp[-3*EulerGamma*eps]*Gamma[2-3*eps]",
+      "p": "2-3*eps",
+      "L": "1+z",
+      "S": "a*b*y*(1-x)+a*c*((1-x)*(1-w)+z*x*w)+z*b*c*w*(1-y)",
+      "c_n(r,s,t,i,j,k)": "coefficient of x^r*y^s*w^t*a^i*b^j*c^k in (1-S/L)^n",
+      "mu(t)": "Sum[Beta[h+1-eps,1-eps],{h,0,t}]/((t+1)*(t+2))",
+      "Dirichlet(i,j,k)": "Gamma[i+1-eps]*Gamma[j+1-eps]*Gamma[k+2-2*eps]/Gamma[i+j+k+4-4*eps]",
+      "B": "L^(-p)*Sum[Pochhammer[p,n]/n!*Sum[c_n(r,s,t,i,j,k)*Dirichlet(i,j,k)*mu(t)/((r+1)*(s+1)),{finite polynomial indices}],{n,0,Infinity}]"
+    },
+    "summation_rule": "perform the entire finite polynomial coefficient sum before summing n",
+    "remaining_unevaluated_integrals": false,
+    "finite_special_function_closed_form": false,
+    "physical_complex_z_continuation": "not_verified",
+    "full_I_small_epsilon_numerical_remainder": "not_run"
+  },
+  "laurent": {
+    "minimum_power": -6,
+    "maximum_power": 0,
+    "remainder": "O(eps)",
+    "remainder_justification": "two exact Euler regularizers extract at most eps^-2; remaining kernel has locally integrable coefficient expansion through degree two and an analytic neighborhood",
+    "coefficients": {
+      "-6": {
+        "hlog_terms": [],
+        "compact_expression": "0",
+        "input_form": "0",
+        "latex": "0",
+        "weight": null
+      },
+      "-5": {
+        "hlog_terms": [],
+        "compact_expression": "0",
+        "input_form": "0",
+        "latex": "0",
+        "weight": null
+      },
+      "-4": {
+        "hlog_terms": [],
+        "compact_expression": "0",
+        "input_form": "0",
+        "latex": "0",
+        "weight": null
+      },
+      "-3": {
+        "hlog_terms": [],
+        "compact_expression": "0",
+        "input_form": "0",
+        "latex": "0",
+        "weight": null
+      },
+      "-2": {
+        "hlog_terms": [
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(3*(z + 1)**2/(128*z))"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-((z + 1)**2/(128*z))"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(-3*(z + 1)/128)"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-(-(z + 1)/128)"
+          }
+        ],
+        "compact_expression": "-M02*z/512 + M02/(512*z) - M11*z/256 - M11/128 - M11/(256*z) + Z2*ell*z/128 - Z2*ell/(128*z) + Z3*z/128 + Z3/64 + Z3/(128*z)",
+        "input_form": "-((1/512)*M02*z - 1/512*M02/z + (1/256)*M11*z + (1/128)*M11 + (1/256)*M11/z - 1/128*Z2*ell*z + (1/128)*Z2*ell/z - 1/128*Z3*z - 1/64*Z3 - 1/128*Z3/z)",
+        "latex": "-(\\frac{M_{02} z}{512} - \\frac{M_{02}}{512 z} + \\frac{M_{11} z}{256} + \\frac{M_{11}}{128} + \\frac{M_{11}}{256 z} - \\frac{Z_{2} \\ell z}{128} + \\frac{Z_{2} \\ell}{128 z} - \\frac{Z_{3} z}{128} - \\frac{Z_{3}}{64} - \\frac{Z_{3}}{128 z})",
+        "weight": 3
+      },
+      "-1": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-((34*z - 101)/1280)"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-(-5*(z + 1)**2/(128*z))"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(-15*(z + 1)**2/(128*z))"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-(-5*(z + 1)**2/(128*z))"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(5*(z + 1)*(5*z + 1)/(256*z))"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-(5*(z + 1)*(3*z - 1)/(256*z))"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-(5*(z + 1)/128)"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(3*(z + 1)*(7*z + 3)/(256*z))"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-((z + 1)*(7*z + 3)/(256*z))"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(-(8*z + 9)/128)"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-(-(6*z - 1)/128)"
+          }
+        ],
+        "compact_expression": "-M02*ell*z/2048 + 15*M02*ell/1024 - M02*ell/(2048*z) - 5*M03*z/3072 - 23*M03/1536 - 5*M03/(3072*z) - M11*ell*z/256 + M11*ell/(256*z) - M12*z/256 + M12/(256*z) - 5*M21*z/1024 - 5*M21/512 - 5*M21/(1024*z) - 77*Z2**2*z/1280 - 77*Z2**2/640 - 77*Z2**2/(1280*z) + Z3*ell*z/256 - Z3*ell/(256*z)",
+        "input_form": "-((1/2048)*M02*ell*z - 15/1024*M02*ell + (1/2048)*M02*ell/z + (5/3072)*M03*z + (23/1536)*M03 + (5/3072)*M03/z + (1/256)*M11*ell*z - 1/256*M11*ell/z + (1/256)*M12*z - 1/256*M12/z + (5/1024)*M21*z + (5/512)*M21 + (5/1024)*M21/z + (77/1280)*Z2^2*z + (77/640)*Z2^2 + (77/1280)*Z2^2/z - 1/256*Z3*ell*z + (1/256)*Z3*ell/z)",
+        "latex": "-(\\frac{M_{02} \\ell z}{2048} - \\frac{15 M_{02} \\ell}{1024} + \\frac{M_{02} \\ell}{2048 z} + \\frac{5 M_{03} z}{3072} + \\frac{23 M_{03}}{1536} + \\frac{5 M_{03}}{3072 z} + \\frac{M_{11} \\ell z}{256} - \\frac{M_{11} \\ell}{256 z} + \\frac{M_{12} z}{256} - \\frac{M_{12}}{256 z} + \\frac{5 M_{21} z}{1024} + \\frac{5 M_{21}}{512} + \\frac{5 M_{21}}{1024 z} + \\frac{77 Z_{2}^{2} z}{1280} + \\frac{77 Z_{2}^{2}}{640} + \\frac{77 Z_{2}^{2}}{1280 z} - \\frac{Z_{3} \\ell z}{256} + \\frac{Z_{3} \\ell}{256 z})",
+        "weight": 4
+      },
+      "0": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-(-1/128)"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-(-(8*z - 5)/128)"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-((119*z**2 + 711*z + 187)/(1280*z))"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-(19*(z + 1)**2/(128*z))"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(57*(z + 1)**2/(128*z))"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-(19*(z + 1)**2/(128*z))"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(-(z + 1)*(101*z + 13)/(256*z))"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-(-(z + 1)*(63*z - 25)/(256*z))"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-(-(z + 1)*(39*z - 1)/(256*z))"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(-3*(z + 1)*(31*z + 7)/(256*z))"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-(-(z + 1)*(31*z + 7)/(256*z))"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-((59*z**2 + 44*z - 21)/(256*z))"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-((19*z**2 - 11*z - 9)/(128*z))"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-(-(340*z + 677)/2560)"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-(-(z + 1)*(23*z + 15)/(256*z))"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(-3*(z + 1)*(23*z + 15)/(256*z))"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-(-(z + 1)*(23*z + 15)/(256*z))"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-((25*z**2 + 8*z - 3)/(128*z))"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-((27*z**2 - 22*z - 21)/(256*z))"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-((12*z + 13)/128)"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(3*(4*z + 1)/64)"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-((4*z + 1)/64)"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-(-(8*z - 21)/256)"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-(-(2*z - 39)/256)"
+          }
+        ],
+        "compact_expression": "-Dtau*z/128 + Dtau/(128*z) + 67*M03*ell*z/24576 - 67*M03*ell/(24576*z) - 133*M04*z/98304 + 133*M04/(98304*z) - 3*M11*Z2*z/512 + 7*M11*Z2/256 - 3*M11*Z2/(512*z) + 3*M11*ell**2*z/2048 + 15*M11*ell**2/1024 + 3*M11*ell**2/(2048*z) - M12*ell*z/256 + M12*ell/128 - M12*ell/(256*z) - M13*z/12288 - 45*M13/2048 - M13/(12288*z) - M21*ell*z/512 + M21*ell/(512*z) - 5*M22*z/1024 + 5*M22/(1024*z) - 119*M31*z/12288 + 43*M31/6144 - 119*M31/(12288*z) + 1853*Z2**2*ell*z/20480 - 1853*Z2**2*ell/(20480*z) - 29*Z2*Z3*z/256 + 43*Z2*Z3/128 - 29*Z2*Z3/(256*z) - 3*Z3*ell**2*z/128 + 3*Z3*ell**2/64 - 3*Z3*ell**2/(128*z) + 23*Z5*z/128 + 23*Z5/64 + 23*Z5/(128*z)",
+        "input_form": "-((1/128)*Dtau*z - 1/128*Dtau/z - 67/24576*M03*ell*z + (67/24576)*M03*ell/z + (133/98304)*M04*z - 133/98304*M04/z + (3/512)*M11*Z2*z - 7/256*M11*Z2 + (3/512)*M11*Z2/z - 3/2048*M11*ell^2*z - 15/1024*M11*ell^2 - 3/2048*M11*ell^2/z + (1/256)*M12*ell*z - 1/128*M12*ell + (1/256)*M12*ell/z + (1/12288)*M13*z + (45/2048)*M13 + (1/12288)*M13/z + (1/512)*M21*ell*z - 1/512*M21*ell/z + (5/1024)*M22*z - 5/1024*M22/z + (119/12288)*M31*z - 43/6144*M31 + (119/12288)*M31/z - 1853/20480*Z2^2*ell*z + (1853/20480)*Z2^2*ell/z + (29/256)*Z2*Z3*z - 43/128*Z2*Z3 + (29/256)*Z2*Z3/z + (3/128)*Z3*ell^2*z - 3/64*Z3*ell^2 + (3/128)*Z3*ell^2/z - 23/128*Z5*z - 23/64*Z5 - 23/128*Z5/z)",
+        "latex": "-(\\frac{Dtau z}{128} - \\frac{Dtau}{128 z} - \\frac{67 M_{03} \\ell z}{24576} + \\frac{67 M_{03} \\ell}{24576 z} + \\frac{133 M_{04} z}{98304} - \\frac{133 M_{04}}{98304 z} + \\frac{3 M_{11} Z_{2} z}{512} - \\frac{7 M_{11} Z_{2}}{256} + \\frac{3 M_{11} Z_{2}}{512 z} - \\frac{3 M_{11} \\ell^{2} z}{2048} - \\frac{15 M_{11} \\ell^{2}}{1024} - \\frac{3 M_{11} \\ell^{2}}{2048 z} + \\frac{M_{12} \\ell z}{256} - \\frac{M_{12} \\ell}{128} + \\frac{M_{12} \\ell}{256 z} + \\frac{M_{13} z}{12288} + \\frac{45 M_{13}}{2048} + \\frac{M_{13}}{12288 z} + \\frac{M_{21} \\ell z}{512} - \\frac{M_{21} \\ell}{512 z} + \\frac{5 M_{22} z}{1024} - \\frac{5 M_{22}}{1024 z} + \\frac{119 M_{31} z}{12288} - \\frac{43 M_{31}}{6144} + \\frac{119 M_{31}}{12288 z} - \\frac{1853 Z_{2}^{2} \\ell z}{20480} + \\frac{1853 Z_{2}^{2} \\ell}{20480 z} + \\frac{29 Z_{2} Z_{3} z}{256} - \\frac{43 Z_{2} Z_{3}}{128} + \\frac{29 Z_{2} Z_{3}}{256 z} + \\frac{3 Z_{3} \\ell^{2} z}{128} - \\frac{3 Z_{3} \\ell^{2}}{64} + \\frac{3 Z_{3} \\ell^{2}}{128 z} - \\frac{23 Z_{5} z}{128} - \\frac{23 Z_{5}}{64} - \\frac{23 Z_{5}}{128 z})",
+        "weight": 5
+      }
+    },
+    "compact_definitions": {
+      "ell": "Log[z]",
+      "Z2": "Zeta[2]",
+      "Z3": "Zeta[3]",
+      "Z5": "Zeta[5]",
+      "Mkr": "M(k,r;z) with M02=M(0,2;z), etc.",
+      "Dtau": "z*d/dz tau_D,4^+(z); explicit evaluated Hlog in basis-functions.json"
+    },
+    "coefficient_field": "Q(z), formal Hlog/period coordinates"
+  },
+  "pole_order": 2,
+  "nonzero_weights": [
+    3,
+    4,
+    5
+  ],
+  "old_M_N_weight_five_sufficient": false,
+  "representation_extension": "derivative of the existing weight-six tau_D,4^+; one additional coordinate direction in the tested weight-five space",
+  "new_Hlog_letters": [],
+  "IBP_master_minimality": "not_proven",
+  "method": "benchmarks/fgv/families/f3-repeated-end/method.md",
+  "evidence_directory": "workflow/checks/fgv-f3",
+  "orbit_id": "4e-4g-05",
+  "derivation": "benchmarks/fgv/4e-4g/workspaces/4e-4g-05/derivation.md",
+  "equal_I_partner": "4e-4g-08",
+  "date": "2026-10-09",
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "legacy_input": null,
+  "input": {
+    "native_package": "benchmarks/fgv/4e-4g/sources/montopar-r002.json",
+    "native_package_sha256": "824e543d9e98a4f37f89f86f1382597644804e6dc70df9781f5e99ded1ed5834",
+    "orbit_id": "4e-4g-05",
+    "assembly_sign": 1
+  },
+  "legacy_evidence": {
+    "source": {
+      "prepared_path": "benchmarks/fgv/4e-4g/prepared/f3-r001.json",
+      "prepared_sha256": "bc47a2fbd7bff460121236a8f865403fdb385db867bea7b52cbc6557a604a301",
+      "raw_path": "benchmarks/fgv/4e-4g/sources/montopar-r001.json",
+      "raw_sha256": "f7a86fb1e0e3fcf41ce6f3aca684faf01d40379bb24690f30dd81a4030efe9ff"
+    }
+  },
+  "migration": {
+    "legacy_result": {
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-05/r001.json",
+      "sha256": "515eeaa6fa0f8dd2690f21f08ca44dec68d2c6086739f8f2d328351c4878db00"
+    },
+    "factor_from_native_CJ": -1,
+    "basis": "same J/domain/branch and C_native/C_legacy from native-check.json; integral linearity",
+    "new_integration_performed": false,
+    "old_formal_status_not_inherited": true
+  },
+  "native_verification": "workflow/checks/shared-sign-production/publication-check.json",
+  "representation_update": {
+    "previous_result": "benchmarks/fgv/4e-4g/results/4e-4g-05/r002.json",
+    "previous_sha256": "97df959bfaeaad377a1492c6642712088f488be9513e2b264cf832eef31ab27e",
+    "reason": "compact_expression retained the pre-2026-10-06 sign while input_form and Hlog already had the current physical sign",
+    "changed_powers": [
+      -2,
+      -1,
+      0
+    ],
+    "mathematical_I_changed": false,
+    "input_form_and_Hlog_unchanged": true,
+    "evidence": "workflow/checks/fgv-effective-sum/comparison.json"
+  }
+}

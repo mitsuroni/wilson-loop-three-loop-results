@@ -1,0 +1,748 @@
+{
+  "status": "complete_fresh_I1234_Laurent_HLOG_candidate_validation_pending",
+  "definition": "I1234(eps,z)=c_-2(z)/eps^2+c_-1(z)/eps+c0(z)+O(eps)",
+  "normalization": "Fresh physical contract, exactly one contactC0/32 and(k0(z)+k0(1/z))/32, with known Gamma/Euler pole mixing",
+  "coefficients": {
+    "-2": {
+      "terms": [
+        {
+          "word": [],
+          "coefficient": "43*Z2**2/1280"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "coefficient": "Z3/32"
+        },
+        {
+          "word": [
+            0
+          ],
+          "coefficient": "-Z3/64"
+        },
+        {
+          "word": [
+            -1,
+            -1
+          ],
+          "coefficient": "3*Z2/32"
+        },
+        {
+          "word": [
+            -1,
+            0
+          ],
+          "coefficient": "-3*Z2/64"
+        },
+        {
+          "word": [
+            0,
+            -1
+          ],
+          "coefficient": "-3*Z2/64"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "coefficient": "3*Z2/128"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "1/32"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/64"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "-1/64"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/128"
+        }
+      ],
+      "word_count": 11,
+      "uniform_weight": 4,
+      "coefficients_independent_of_z": true
+    },
+    "-1": {
+      "terms": [
+        {
+          "word": [],
+          "coefficient": "-65*Z2*Z3/128 - 3*Z5/128"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "coefficient": "-507*Z2**2/1280"
+        },
+        {
+          "word": [
+            0
+          ],
+          "coefficient": "47*Z2**2/512"
+        },
+        {
+          "word": [
+            -1,
+            -1
+          ],
+          "coefficient": "-7*Z3/16"
+        },
+        {
+          "word": [
+            -1,
+            0
+          ],
+          "coefficient": "7*Z3/32"
+        },
+        {
+          "word": [
+            0,
+            -1
+          ],
+          "coefficient": "7*Z3/32"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "coefficient": "-7*Z3/128"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1
+          ],
+          "coefficient": "-21*Z2/16"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0
+          ],
+          "coefficient": "21*Z2/32"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1
+          ],
+          "coefficient": "21*Z2/32"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "-31*Z2/128"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1
+          ],
+          "coefficient": "21*Z2/32"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0
+          ],
+          "coefficient": "-13*Z2/32"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1
+          ],
+          "coefficient": "-9*Z2/32"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "35*Z2/256"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "-7/16"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "7/32"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "7/32"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-17/128"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "7/32"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-3/16"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "-3/32"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "25/256"
+        }
+      ],
+      "word_count": 23,
+      "uniform_weight": 5,
+      "coefficients_independent_of_z": true
+    },
+    "0": {
+      "terms": [
+        {
+          "word": [],
+          "coefficient": "7951*Z2**3/53760 + 69*Z3**2/256"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "coefficient": "251*Z2*Z3/128 + 183*Z5/128"
+        },
+        {
+          "word": [
+            0
+          ],
+          "coefficient": "-91*Z2*Z3/256 - 123*Z5/256"
+        },
+        {
+          "word": [
+            -1,
+            -1
+          ],
+          "coefficient": "33*Z2**2/1280"
+        },
+        {
+          "word": [
+            -1,
+            0
+          ],
+          "coefficient": "-1971*Z2**2/2560"
+        },
+        {
+          "word": [
+            0,
+            -1
+          ],
+          "coefficient": "-203*Z2**2/2560"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "coefficient": "103*Z2**2/320"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1
+          ],
+          "coefficient": "31*Z3/32"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0
+          ],
+          "coefficient": "-31*Z3/64"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1
+          ],
+          "coefficient": "-31*Z3/64"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "15*Z3/128"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1
+          ],
+          "coefficient": "-31*Z3/64"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0
+          ],
+          "coefficient": "11*Z3/32"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1
+          ],
+          "coefficient": "Z3/32"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-Z3/256"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "coefficient": "93*Z2/32"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1,
+            0
+          ],
+          "coefficient": "-93*Z2/64"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            -1
+          ],
+          "coefficient": "-93*Z2/64"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "35*Z2/128"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1,
+            -1
+          ],
+          "coefficient": "-93*Z2/64"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1,
+            0
+          ],
+          "coefficient": "21*Z2/16"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "coefficient": "141*Z2/64"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-299*Z2/256"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "coefficient": "-93*Z2/64"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            0
+          ],
+          "coefficient": "19*Z2/16"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            -1
+          ],
+          "coefficient": "81*Z2/64"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "-163*Z2/256"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            -1
+          ],
+          "coefficient": "3*Z2/32"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            0
+          ],
+          "coefficient": "-73*Z2/128"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            -1
+          ],
+          "coefficient": "-135*Z2/128"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "83*Z2/256"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "31/32"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-31/64"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "-31/64"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "43/128"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "-31/64"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "53/64"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "47/64"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-181/256"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "-31/64"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "45/64"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "27/64"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-125/256"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "1/32"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-69/128"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "-45/128"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/8"
+        }
+      ],
+      "word_count": 47,
+      "uniform_weight": 6,
+      "coefficients_independent_of_z": true
+    }
+  },
+  "alphabet": [
+    0,
+    -1
+  ],
+  "HLOG_definition": "G([a1,...,an];z)=int_0^z dt/(t-a1) G([a2,...,an];t);G([];z)=1;G([0]*n;z)=log(z)^n/n!",
+  "coefficient_convention": "Z2=zeta(2),Z3=zeta(3),Z5=zeta(5)",
+  "branch": "Candidate from ordered z-upper source germ, same upper-m path; full0/-1 HLOG analytic continuation on Re z>0; original-source equality/continuation review remains separate",
+  "contact_route_difference": "0: scaled42-word I(a) versus complete classical raw contact C0",
+  "physical_normalization_forms_difference": "0",
+  "all_explicit_rational_z_coefficients_cancelled": true,
+  "all_odd_iPi_and_contour_markers_cancelled": true,
+  "JP_source": "D:\\wilson-agent\\workflow\\checks\\four-leg-1234-b-h1-20261101\\positive-D-primitives\\constant-m-integrand\\final-z-fibration\\complete-JP-HLOG.m",
+  "JP_words": 49,
+  "k0_words": 55,
+  "remaining_validation": [
+    "Independent complete634-source compression replay",
+    "Independent wholeJP source numerics",
+    "Physical Laurent/source boundary validation and negative-one connection",
+    "Exact known-family reconstruction and native reverse check",
+    "Only after captured full new candidate: held-out comparison"
+  ],
+  "old_full_physical_finite_read": false,
+  "formal": "not_run",
+  "whole_goal_achieved": false
+}

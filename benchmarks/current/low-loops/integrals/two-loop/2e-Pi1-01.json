@@ -1,0 +1,211 @@
+{
+  "format": "wilson-current-integral/1",
+  "orbit_id": "2e-Pi1-01",
+  "loop_order": 2,
+  "family": "Pi1",
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "quantity": "I",
+  "domain": "z>0; inherited Feynman boundary where proved",
+  "normalization": {
+    "assembly_sign": 1,
+    "Euler_compensation_count": 1,
+    "orbit_crossing_included": true,
+    "external_CF_removed": true,
+    "external_common_scale_removed": true
+  },
+  "coefficients": {
+    "-4": {
+      "sympy": "0",
+      "hlog_terms": []
+    },
+    "-3": {
+      "sympy": "-1/32",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/32"
+        }
+      ]
+    },
+    "-2": {
+      "sympy": "-1/32",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/32"
+        }
+      ]
+    },
+    "-1": {
+      "sympy": "-3/32 - pi**2/192",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-3/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1/32"
+        }
+      ]
+    },
+    "0": {
+      "sympy": "-5/32 - pi**2/192 - zeta(3)/48",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-5/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/48"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1/32"
+        }
+      ]
+    },
+    "1": {
+      "sympy": "-11/32 - pi**2/64 - 7*pi**4/11520 - zeta(3)/48",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-11/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/48"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-3/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-7/320"
+        }
+      ]
+    },
+    "2": {
+      "sympy": "-21/32 - 5*pi**2/192 - zeta(3)/16 - 7*pi**4/11520 - pi**2*zeta(3)/288 - zeta(5)/80",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-21/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1/80"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/16"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-5/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": "-1/48"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-7/320"
+        }
+      ]
+    }
+  },
+  "remainder": "O(eps^3)",
+  "formal": "not_run",
+  "color_weights_over_CF": {
+    "CA": "(10-6*eps)/(3-2*eps)",
+    "T": "-8*(1-eps)/(3-2*eps)"
+  }
+}

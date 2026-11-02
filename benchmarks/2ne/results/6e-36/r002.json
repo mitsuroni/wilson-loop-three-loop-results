@@ -1,0 +1,1504 @@
+{
+  "format": "wilson-computational-result/1",
+  "family": "[1]",
+  "orbit_id": "6e-36",
+  "revision": "r002",
+  "input": {
+    "manifest": "benchmarks/2ne/prepared/manifest.json",
+    "manifest_sha256": "0e9e55dad06bb5adb185689bdf03ea11f7b0c32386a9020fd2b2041fac1ac22c",
+    "package": "benchmarks/2ne/prepared/6e.json",
+    "package_sha256": "9699532d1ee3a4027c2eb93c961a5b467a9bceda229c0204c13775cfa2451406",
+    "orbit_sha256": "42231e36193f324bc5c0466129425e6d7f757b6f45375b1b1158074881f68553",
+    "normalization_version": "ordered-parameters+fixed-loop-color-a1+per-loop-euler-compensation/0.3"
+  },
+  "domain": {
+    "J": "z>0, Re(eps)>0",
+    "I": "z>0, real 0<eps<1; fixed positive z local meromorphic epsilon continuation",
+    "complex_z": "not analyzed"
+  },
+  "normalization": {
+    "n": 3,
+    "a1": "1/4",
+    "sym": 2,
+    "kappa": "-1/32",
+    "Euler": "already included exactly once in prepared C"
+  },
+  "J_reduction": {
+    "r": 2,
+    "pole_prefactor": 4,
+    "chains": [
+      {
+        "variables_low_to_high": [
+          "s11"
+        ],
+        "word": "B",
+        "normalized_weight": "1"
+      },
+      {
+        "variables_low_to_high": [
+          "s21",
+          "s22"
+        ],
+        "word": "OA",
+        "normalized_weight": "1 - AT"
+      },
+      {
+        "variables_low_to_high": [
+          "s31"
+        ],
+        "word": "B",
+        "normalized_weight": "1"
+      },
+      {
+        "variables_low_to_high": [
+          "s41",
+          "s42"
+        ],
+        "word": "OA",
+        "normalized_weight": "1 - AS"
+      }
+    ],
+    "opposite": [
+      "s21",
+      "s41"
+    ],
+    "weight": "AS*AT - AS - AT + 1",
+    "paired_weight": "AS*AT*exp(ell*eps)/2 - AS*exp(ell*eps)/2 - AT*exp(ell*eps)/2 + BS*BT*exp(-ell*eps)/2 - BS*exp(-ell*eps)/2 - BT*exp(-ell*eps)/2 + exp(ell*eps)/2 + exp(-ell*eps)/2"
+  },
+  "I": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "-1/32*(-z^((1/2)*eps)*(-1 - 1/z)*MeijerG[{{0, eps, -eps}, {}}, {{0, eps, eps}, {}}, z^(-1)]*Exp[-eps*Log[z]]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[2*eps + 1]) + (1/2)*z^((1/2)*eps)*(-1 - 1/z)*MeijerG[{{eps, -eps, -eps}, {}}, {{0, eps, eps}, {}}, z^(-1)]*Exp[-eps*Log[z]]/(Gamma[1 - eps]*Gamma[2*eps + 1]^2) + (1/2)*z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, 0, eps}, {}}, {{0, eps, eps}, {}}, z]*Exp[eps*Log[z]]/(Gamma[1 - eps]*Gamma[eps + 1]^2) + (1/2)*z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, 0, eps}, {}}, {{0, eps, eps}, {}}, z]*Exp[-eps*Log[z]]/(Gamma[1 - eps]*Gamma[eps + 1]^2) - z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, eps, -eps}, {}}, {{0, eps, eps}, {}}, z]*Exp[eps*Log[z]]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[2*eps + 1]) + (1/2)*z^(-1/2*eps)*(-z - 1)*MeijerG[{{eps, -eps, -eps}, {}}, {{0, eps, eps}, {}}, z]*Exp[eps*Log[z]]/(Gamma[1 - eps]*Gamma[2*eps + 1]^2))*Exp[-3*EulerGamma*eps]*Gamma[1 - eps]^3/(eps^4*Cosh[(3/2)*eps*Log[z]])",
+    "latex": "- \\frac{\\left(- \\frac{z^{\\frac{\\varepsilon}{2}} \\left(-1 - \\frac{1}{z}\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {\\frac{1}{z}} \\right)} e^{- \\varepsilon \\log{\\left(z \\right)}}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(2 \\varepsilon + 1\\right)} + \\frac{z^{\\frac{\\varepsilon}{2}} \\left(-1 - \\frac{1}{z}\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} \\varepsilon, - \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {\\frac{1}{z}} \\right)} e^{- \\varepsilon \\log{\\left(z \\right)}}}{2 \\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(2 \\varepsilon + 1\\right)} + \\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, 0, \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)} e^{\\varepsilon \\log{\\left(z \\right)}}}{2 \\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(\\varepsilon + 1\\right)} + \\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, 0, \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)} e^{- \\varepsilon \\log{\\left(z \\right)}}}{2 \\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(\\varepsilon + 1\\right)} - \\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)} e^{\\varepsilon \\log{\\left(z \\right)}}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(2 \\varepsilon + 1\\right)} + \\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} \\varepsilon, - \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)} e^{\\varepsilon \\log{\\left(z \\right)}}}{2 \\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(2 \\varepsilon + 1\\right)}\\right) e^{- 3 \\gamma \\varepsilon} \\Gamma^{3}\\left(1 - \\varepsilon\\right)}{32 \\varepsilon^{4} \\cosh{\\left(\\frac{3 \\varepsilon \\log{\\left(z \\right)}}{2} \\right)}}"
+  },
+  "I_compact": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "-1/32*G^3*((1/2)*H0*Exp[ell*eps] + (1/2)*H0*Exp[-ell*eps] - H1*Exp[ell*eps] - H1bar*Exp[-ell*eps] + (1/2)*HD*Exp[ell*eps] + (1/2)*HDbar*Exp[-ell*eps])/(eps^4*Cosh[(3/2)*ell*eps])",
+    "latex": "- \\frac{G^{3} \\left(\\frac{H_{0} e^{\\ell \\varepsilon}}{2} + \\frac{H_{0} e^{- \\ell \\varepsilon}}{2} - H_{1} e^{\\ell \\varepsilon} - \\bar{H1} e^{- \\ell \\varepsilon} + \\frac{HD e^{\\ell \\varepsilon}}{2} + \\frac{\\bar{HD} e^{- \\ell \\varepsilon}}{2}\\right)}{32 \\varepsilon^{4} \\cosh{\\left(\\frac{3 \\ell \\varepsilon}{2} \\right)}}"
+  },
+  "definitions": {
+    "G": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Exp[-EulerGamma*eps]*Gamma[1 - eps]",
+      "latex": "e^{- \\gamma \\varepsilon} \\Gamma\\left(1 - \\varepsilon\\right)"
+    },
+    "R2": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Gamma[eps + 1]^2/Gamma[2*eps + 1]",
+      "latex": "\\frac{\\Gamma^{2}\\left(\\varepsilon + 1\\right)}{\\Gamma\\left(2 \\varepsilon + 1\\right)}"
+    },
+    "H0": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, 0, eps}, {}}, {{0, eps, eps}, {}}, z]/(Gamma[1 - eps]*Gamma[eps + 1]^2)",
+      "latex": "\\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, 0, \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(\\varepsilon + 1\\right)}"
+    },
+    "H1": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, eps, -eps}, {}}, {{0, eps, eps}, {}}, z]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[2*eps + 1])",
+      "latex": "\\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(2 \\varepsilon + 1\\right)}"
+    },
+    "H2": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, eps, -2*eps}, {}}, {{0, eps, eps}, {}}, z]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[3*eps + 1])",
+      "latex": "\\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - 2 \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(3 \\varepsilon + 1\\right)}"
+    },
+    "HW": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, eps, -eps}, {}}, {{0, eps, 2*eps}, {}}, z]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[3*eps + 1])",
+      "latex": "\\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, 2 \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(3 \\varepsilon + 1\\right)}"
+    },
+    "HD": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^(-1/2*eps)*(-z - 1)*MeijerG[{{eps, -eps, -eps}, {}}, {{0, eps, eps}, {}}, z]/(Gamma[1 - eps]*Gamma[2*eps + 1]^2)",
+      "latex": "\\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} \\varepsilon, - \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(2 \\varepsilon + 1\\right)}"
+    },
+    "HX": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, eps, -eps}, {}}, {{0, eps, 2*eps}, {}}, z]/(Gamma[1 - eps]*Gamma[2*eps + 1]^2)",
+      "latex": "\\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, 2 \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(2 \\varepsilon + 1\\right)}"
+    },
+    "H1bar": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^((1/2)*eps)*(-1 - 1/z)*MeijerG[{{0, eps, -eps}, {}}, {{0, eps, eps}, {}}, z^(-1)]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[2*eps + 1])",
+      "latex": "\\frac{z^{\\frac{\\varepsilon}{2}} \\left(-1 - \\frac{1}{z}\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {\\frac{1}{z}} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(2 \\varepsilon + 1\\right)}"
+    },
+    "H2bar": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^((1/2)*eps)*(-1 - 1/z)*MeijerG[{{0, eps, -2*eps}, {}}, {{0, eps, eps}, {}}, z^(-1)]/(Gamma[1 - eps]*Gamma[eps + 1]*Gamma[3*eps + 1])",
+      "latex": "\\frac{z^{\\frac{\\varepsilon}{2}} \\left(-1 - \\frac{1}{z}\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, \\varepsilon, - 2 \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {\\frac{1}{z}} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(3 \\varepsilon + 1\\right)}"
+    },
+    "HDbar": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^((1/2)*eps)*(-1 - 1/z)*MeijerG[{{eps, -eps, -eps}, {}}, {{0, eps, eps}, {}}, z^(-1)]/(Gamma[1 - eps]*Gamma[2*eps + 1]^2)",
+      "latex": "\\frac{z^{\\frac{\\varepsilon}{2}} \\left(-1 - \\frac{1}{z}\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} \\varepsilon, - \\varepsilon, - \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {\\frac{1}{z}} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(2 \\varepsilon + 1\\right)}"
+    }
+  },
+  "laurent": {
+    "variable": "eps",
+    "from_power": -6,
+    "through_power": 0,
+    "remainder": "O(eps)",
+    "leading_power": -2,
+    "coefficients": {
+      "-6": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0",
+        "basis_comparison": {
+          "M": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          },
+          "M_plus_log": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          }
+        },
+        "MN_alternative": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        }
+      },
+      "-5": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0",
+        "basis_comparison": {
+          "M": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          },
+          "M_plus_log": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          }
+        },
+        "MN_alternative": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        }
+      },
+      "-4": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0",
+        "basis_comparison": {
+          "M": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          },
+          "M_plus_log": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          }
+        },
+        "MN_alternative": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        }
+      },
+      "-3": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0",
+        "basis_comparison": {
+          "M": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          },
+          "M_plus_log": {
+            "rank": 0,
+            "augmented_rank": 0,
+            "candidate_count": 0
+          }
+        },
+        "MN_alternative": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        }
+      },
+      "-2": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "(-1/384*tau0q0^2 + (1/384)*Pi^2*tau0q0 - 1/16*tau0q2)",
+          "latex": "\\frac{- \\tau_{0,0}^{2} + \\pi^{2} \\tau_{0,0} - 24 \\tau_{0,2}}{384}"
+        },
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "3/640"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/16"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/16"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/16"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          }
+        ],
+        "hlog_latex": "\\frac{\\pi^{4}}{7680} + \\frac{\\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( -1,\\right) \\right)}}{16} - \\frac{\\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( 0,\\right) \\right)}}{32} + \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1\\right) \\right)}}{32} - \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0\\right) \\right)}}{64} - \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1\\right) \\right)}}{64} + \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0\\right) \\right)}}{384} + \\frac{\\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  0, \\  0\\right) \\right)}}{16} - \\frac{\\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  0, \\  0\\right) \\right)}}{32} - \\frac{\\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  0, \\  0\\right) \\right)}}{32} + \\frac{\\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0, \\  0\\right) \\right)}}{64}",
+        "basis_comparison": {
+          "M": {
+            "rank": 4,
+            "augmented_rank": 4,
+            "candidate_count": 5
+          },
+          "M_plus_log": {
+            "rank": 4,
+            "augmented_rank": 4,
+            "candidate_count": 6
+          }
+        },
+        "MN_alternative": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "(1/384)*Pi^2*WilsonM[0, 1, z] - 1/128*WilsonM[2, 1, z]",
+          "latex": "\\frac{\\pi^{2} M{\\left(0,1,z \\right)}}{384} - \\frac{M{\\left(2,1,z \\right)}}{128}"
+        }
+      },
+      "-1": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "((1/16)*eta1q2 - 1/32*etaDq2 - 1/32*tau0q3 + (1/16)*tau1q3 - 1/32*tauDq3)",
+          "latex": "\\frac{2 \\eta_{1,2} - \\eta_{D,2} - \\tau_{0,3} + 2 \\tau_{1,3} - \\tau^{+}_{D,3}}{32}"
+        },
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-7/64"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-153/640"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-3/8"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-9/8"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-3/8"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/16"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/16"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "3/16"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/16"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/16"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-7/64"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "51/1280"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "3/16"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/16"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/16"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-9/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-3/32"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/16"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/16"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/128"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-3/128"
+          }
+        ],
+        "hlog_latex": "- \\frac{7 \\pi^{2} \\zeta\\left(3\\right)}{384} + \\frac{\\zeta\\left(5\\right)}{64} - \\frac{17 \\pi^{4} \\operatorname{Hlog}{\\left(z,\\left( -1,\\right) \\right)}}{2560} + \\frac{17 \\pi^{4} \\operatorname{Hlog}{\\left(z,\\left( 0,\\right) \\right)}}{15360} - \\frac{3 \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1\\right) \\right)}}{8} + \\frac{3 \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0\\right) \\right)}}{16} + \\frac{3 \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1\\right) \\right)}}{16} + \\frac{\\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0\\right) \\right)}}{64} - \\frac{3 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  -1\\right) \\right)}}{16} + \\frac{3 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  0\\right) \\right)}}{32} + \\frac{3 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  -1\\right) \\right)}}{32} - \\frac{7 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  0\\right) \\right)}}{384} + \\frac{3 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  -1\\right) \\right)}}{32} - \\frac{3 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  0\\right) \\right)}}{64} - \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  -1\\right) \\right)}}{32} + \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0\\right) \\right)}}{768} - \\frac{3 \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  -1, \\  0, \\  0\\right) \\right)}}{8} + \\frac{3 \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  0, \\  0, \\  0\\right) \\right)}}{16} + \\frac{3 \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  -1, \\  0, \\  0\\right) \\right)}}{16} + \\frac{\\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  0, \\  0, \\  0\\right) \\right)}}{64} + \\frac{3 \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  -1, \\  0, \\  0\\right) \\right)}}{16} - \\frac{3 \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  0, \\  0, \\  0\\right) \\right)}}{32} - \\frac{\\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  -1, \\  0, \\  0\\right) \\right)}}{16} - \\frac{3 \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0, \\  0, \\  0\\right) \\right)}}{128}",
+        "basis_comparison": {
+          "M": {
+            "rank": 7,
+            "augmented_rank": 8,
+            "candidate_count": 7
+          },
+          "M_plus_log": {
+            "rank": 8,
+            "augmented_rank": 8,
+            "candidate_count": 8
+          }
+        },
+        "MN_alternative": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "-1/64*WilsonM[0, 1, z]*WilsonM[1, 1, z] + (1/8)*WilsonM[0, 1, z]*Zeta[3] - 7/384*Pi^2*WilsonM[1, 1, z] + (1/768)*WilsonM[1, 3, z] - 1/128*WilsonM[3, 1, z] + (3/128)*WilsonN[1, 2, z]",
+          "latex": "- \\frac{M{\\left(0,1,z \\right)} M{\\left(1,1,z \\right)}}{64} + \\frac{M{\\left(0,1,z \\right)} \\zeta\\left(3\\right)}{8} - \\frac{7 \\pi^{2} M{\\left(1,1,z \\right)}}{384} + \\frac{M{\\left(1,3,z \\right)}}{768} - \\frac{M{\\left(3,1,z \\right)}}{128} + \\frac{3 N{\\left(1,2,z \\right)}}{128}"
+        }
+      },
+      "0": {
+        "compact": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "((1/16)*eta1q3 - 1/32*etaDq3 - 5/1536*tau0q0^3 + (1/1024)*Pi^2*tau0q0^2 - 5/64*tau0q0*tau0q2 + (7/3072)*Pi^4*tau0q0 - 7/128*Pi^2*tau0q2 - 1/32*tau0q4 + (1/16)*tau1q4 - 1/32*tauDq4)",
+          "latex": "\\frac{192 \\eta_{1,3} - 96 \\eta_{D,3} - 10 \\tau_{0,0}^{3} + 3 \\pi^{2} \\tau_{0,0}^{2} - 240 \\tau_{0,0} \\tau_{0,2} + 7 \\pi^{4} \\tau_{0,0} - 168 \\pi^{2} \\tau_{0,2} - 96 \\tau_{0,4} + 192 \\tau_{1,4} - 96 \\tau^{+}_{D,4}}{3072}"
+        },
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              2,
+              0
+            ],
+            "coefficient": "5/128"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              3,
+              0,
+              0
+            ],
+            "coefficient": "599/8960"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "25/64"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "27/64"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "195/128"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "25/16"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "75/16"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "25/16"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-75/32"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-25/32"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-25/32"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-75/32"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-25/32"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "23/64"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-39/64"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-601/1280"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-25/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-75/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-25/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "23/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/16"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/8"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/8"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "57/128"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "85/128"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-15/128"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-1/128"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-1009/1280"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-25/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-75/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-25/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "23/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/16"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "7/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/4"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/4"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "33/128"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "77/128"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "27/640"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/8"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/8"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/8"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "17/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "25/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "27/128"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "27/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "9/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-23/128"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-31/64"
+          }
+        ],
+        "hlog_latex": "\\frac{5 \\zeta^{2}\\left(3\\right)}{128} + \\frac{599 \\pi^{6}}{1935360} + \\frac{25 \\zeta\\left(5\\right) \\operatorname{Hlog}{\\left(z,\\left( -1,\\right) \\right)}}{64} + \\frac{9 \\pi^{2} \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( -1,\\right) \\right)}}{128} - \\frac{15 \\zeta\\left(5\\right) \\operatorname{Hlog}{\\left(z,\\left( 0,\\right) \\right)}}{128} - \\frac{\\pi^{2} \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( 0,\\right) \\right)}}{768} + \\frac{65 \\pi^{4} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1\\right) \\right)}}{1536} - \\frac{601 \\pi^{4} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0\\right) \\right)}}{46080} - \\frac{1009 \\pi^{4} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1\\right) \\right)}}{46080} + \\frac{3 \\pi^{4} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0\\right) \\right)}}{2560} + \\frac{25 \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  -1\\right) \\right)}}{16} - \\frac{25 \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  0\\right) \\right)}}{32} - \\frac{25 \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  -1\\right) \\right)}}{32} + \\frac{\\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  0\\right) \\right)}}{64} - \\frac{25 \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  -1\\right) \\right)}}{32} + \\frac{7 \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  0\\right) \\right)}}{32} + \\frac{\\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  -1\\right) \\right)}}{8} + \\frac{27 \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0\\right) \\right)}}{128} + \\frac{25 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  -1, \\  -1\\right) \\right)}}{32} - \\frac{25 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  -1, \\  0\\right) \\right)}}{64} - \\frac{25 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  0, \\  -1\\right) \\right)}}{64} + \\frac{23 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  0, \\  0\\right) \\right)}}{384} - \\frac{25 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  -1, \\  -1\\right) \\right)}}{64} + \\frac{23 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  -1, \\  0\\right) \\right)}}{192} + \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  0, \\  -1\\right) \\right)}}{16} + \\frac{19 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  0, \\  0\\right) \\right)}}{256} - \\frac{25 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  -1, \\  -1\\right) \\right)}}{64} + \\frac{23 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  -1, \\  0\\right) \\right)}}{192} + \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  0, \\  -1\\right) \\right)}}{8} + \\frac{11 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  0, \\  0\\right) \\right)}}{256} + \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  -1, \\  -1\\right) \\right)}}{16} + \\frac{17 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  -1, \\  0\\right) \\right)}}{384} + \\frac{9 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0, \\  -1\\right) \\right)}}{128} - \\frac{23 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0, \\  0\\right) \\right)}}{768} + \\frac{25 \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  -1, \\  -1, \\  0, \\  0\\right) \\right)}}{16} - \\frac{25 \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  -1, \\  0, \\  0, \\  0\\right) \\right)}}{32} - \\frac{25 \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  0, \\  -1, \\  0, \\  0\\right) \\right)}}{32} - \\frac{39 \\operatorname{Hlog}{\\left(z,\\left( -1, \\  -1, \\  0, \\  0, \\  0, \\  0\\right) \\right)}}{64} - \\frac{25 \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  -1, \\  -1, \\  0, \\  0\\right) \\right)}}{32} - \\frac{\\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  -1, \\  0, \\  0, \\  0\\right) \\right)}}{16} + \\frac{\\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  0, \\  -1, \\  0, \\  0\\right) \\right)}}{8} + \\frac{85 \\operatorname{Hlog}{\\left(z,\\left( -1, \\  0, \\  0, \\  0, \\  0, \\  0\\right) \\right)}}{128} - \\frac{25 \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  -1, \\  -1, \\  0, \\  0\\right) \\right)}}{32} - \\frac{\\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  -1, \\  0, \\  0, \\  0\\right) \\right)}}{16} + \\frac{\\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  0, \\  -1, \\  0, \\  0\\right) \\right)}}{4} + \\frac{77 \\operatorname{Hlog}{\\left(z,\\left( 0, \\  -1, \\  0, \\  0, \\  0, \\  0\\right) \\right)}}{128} + \\frac{\\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  -1, \\  -1, \\  0, \\  0\\right) \\right)}}{8} + \\frac{25 \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  -1, \\  0, \\  0, \\  0\\right) \\right)}}{64} + \\frac{9 \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0, \\  -1, \\  0, \\  0\\right) \\right)}}{64} - \\frac{31 \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0, \\  0, \\  0, \\  0\\right) \\right)}}{64}",
+        "basis_comparison": {
+          "M": {
+            "rank": 11,
+            "augmented_rank": 12,
+            "candidate_count": 15
+          },
+          "M_plus_log": {
+            "rank": 12,
+            "augmented_rank": 13,
+            "candidate_count": 19
+          }
+        },
+        "MN_alternative": null
+      }
+    }
+  },
+  "basis_registry": "benchmarks/2ne/families/single-opposite/basis-functions.json",
+  "function_bindings": {
+    "WilsonM": "Original M(k,n,z) defined in basis.md section 7",
+    "WilsonN": "Original N(k,n,z) defined in basis.md section 7; avoids the Wolfram built-in N"
+  },
+  "status": {
+    "analytic": "derived_exact",
+    "checks": "passed",
+    "formal": "not_run"
+  },
+  "derivation": "benchmarks/2ne/workspaces/6e-36/derivation.md",
+  "evidence": {
+    "checks": "workflow/checks/single-opposite/runs/20260916T093258061172Z/6e-36-checks.json",
+    "checks_sha256": "c1348bb7fafade12c2498a1fcbb90d39ca93a3aa0664e230ed1b9afc4b55d99c",
+    "code_sha256": {
+      "workflow/checks/single-opposite/check_numeric.py": "fc49d0e3e0f572928c182dcb983c618d10e13fb8ca91525a253f75a50b19324e",
+      "workflow/checks/single-opposite/coefficient_math.py": "a948a9e6f871a1fa8cbb5b6e5ae91e1470e27aa88490daa2f56284f798f1b59d",
+      "workflow/checks/single-opposite/compact_basis.py": "19ce22927713b88a5560949cf464aed71bbb74bee711e2d1809c93d39fd0c70d",
+      "workflow/checks/single-opposite/hlog_algebra.py": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+      "workflow/checks/single-opposite/initialize.py": "b151de2a3bc36c7607ef611fdd1677677fdfa128288aff14c6a2e43d7c2398e1",
+      "workflow/checks/single-opposite/numeric_hlog.py": "2f7ff121f0f2b0ce5ac6c0d53b96269bee30e3331e1370ee25af6427ae36549b",
+      "workflow/checks/single-opposite/reduce_inputs.py": "ee53e5320bbbd6d5b0142adc4ae3fa046198052ce4ba86a1a23de4ed13a9f6fb",
+      "workflow/checks/single-opposite/remainder_check.py": "de248059de18826b2a30734e20123389176bda0e12f17e9d75e9ba5b265af480",
+      "workflow/checks/single-opposite/run_maple.py": "06b2e2d738c5deca552a6a831ed0f382a19ffa8d185e0cc59a0f49c5d1c85b13",
+      "workflow/checks/single-opposite/solve_single.py": "e1cef2acd3e865095b0aac566a1f4c59fcf4568e328ea29e529e151ec8f3c30e",
+      "workflow/checks/single-opposite/test_single.py": "1a713281146f62f9f1c4580eecfb399bd84201c940817d2a09c10dec6240932d",
+      "workflow/checks/single-opposite/compute_moments.mpl": "6671f0240cd08b1b01419b92b25bd0f64dc2f5dda3fd480285f64bf16dbc93a2",
+      "workflow/checks/empty-family/empty_math.py": "c844a76f2eb7a1591d7cccd732821be488890d1196704ca397dce6eb0cd49373",
+      "workflow/checks/empty-family/setup_workspaces.py": "f1331140c5f07a197b4a96ca021342d77a3f5cb9a901647c145a712c5166bc1e",
+      "preprocessing/ordered.py": "67bebf72c4350ff886a8007932644afa53deae4fefd5f51f1c6b9c5664b2ccec"
+    },
+    "moment_run": "workflow/checks/single-opposite/runs/20260916T090538777022Z",
+    "basis_snapshot": "workflow/checks/single-opposite/runs/20260916T093258061172Z/basis-functions.json",
+    "basis_snapshot_sha256": "87ed09c33e6778ba48a0872d0f1c7b8f64eacde962fe7f51f502bc1311642029",
+    "method_sha256": "a36937f757b373e71c6873b7b59c33be64751a4d2101725cc8d7d3d41b3c2a84",
+    "derivation_snapshot": "workflow/checks/single-opposite/runs/20260916T093258061172Z/6e-36-derivation.md",
+    "derivation_snapshot_sha256": "e68fe4b33e7f590ed1802d663ed17a73bc755550757fe445dbf3bbb460b7de0b"
+  }
+}

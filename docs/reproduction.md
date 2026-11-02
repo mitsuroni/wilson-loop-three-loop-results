@@ -1,5 +1,22 @@
 # Reproduction levels
 
+## Current calculation
+
+The [current guide](current/README.md) is the normal reader and assembly route.
+From the repository root:
+
+```text
+python -m workflow.current_calculation check
+python -m workflow.current_calculation integral 2e-Pi1-01
+python -m workflow.current_calculation result 3
+python -m workflow.current_calculation replay --output-dir replay-output/current-new
+```
+
+The complete isolated public-copy replay is [recorded here](../validation/current-2026-11-02/README.md).
+The levels below retain the dated source and low-loop research workflows and
+their precise integration/reuse scopes.
+
+
 ## Inspect and verify input data
 
 Use [data/README.md](../data/README.md) to find an orbit's definition, C/J package, available prepared representation, stable ID and source hash. Run the [upstream package audit](../tools/check_upstream.py) from the repository root:

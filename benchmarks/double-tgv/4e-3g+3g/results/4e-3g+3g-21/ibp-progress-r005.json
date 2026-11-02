@@ -1,0 +1,708 @@
+{
+  "revision": "ibp-progress-r005",
+  "date": "2026-10-13",
+  "orbit_id": "4e-3g+3g-21",
+  "whole_integral_complete": true,
+  "whole_I_laurent": "all_poles_and_finite_analytic",
+  "whole_I_known_Laurent_positions": [
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0
+  ],
+  "completed_terms": [
+    "ibp_001",
+    "ibp_002",
+    "ibp_003",
+    "ibp_004",
+    "ibp_005",
+    "ibp_006",
+    "ibp_007",
+    "ibp_008",
+    "ibp_009",
+    "ibp_010",
+    "ibp_011",
+    "ibp_012",
+    "ibp_013"
+  ],
+  "remaining_terms": [],
+  "normalization": "I21=exp(-3*EulerGamma*eps)*Gamma(2-3*eps)/64*(J(z,eps)+z^(3*eps)*J(1/z,eps))/(1+z^(3*eps))",
+  "known_sum": {
+    "scope": "Historical thirteen-boundary partial coefficients; whole coefficients are recorded separately.",
+    "coefficients": {
+      "eps^-6": "0",
+      "eps^-5": "0",
+      "eps^-4": "0",
+      "eps^-3": "0",
+      "eps^-2": "0",
+      "eps^-1": "-1/64*Hlog(z,[0, 0, -1, 0, 0])+1/64*Hlog(z,[0, -1, 0, 0, 0])+1/16*Hlog(z,[-1, 0, 0, 0, 0])-1/32*Hlog(z,[0, 0, 0, 0, 0])-3/32*zeta[5]-3/64*zeta[2]*Hlog(z,[0, 0, -1])+1/64*zeta[2]*Hlog(z,[0, -1, 0])+5/64*zeta[2]*zeta[3]+3/32*zeta[2]^2*Hlog(z,[-1])+1/16*zeta[2]*Hlog(z,[-1, 0, 0])-1/64*zeta[2]*Hlog(z,[0, 0, 0])+3/64*zeta[3]*Hlog(z,[0, 0])+1/160*zeta[2]^2*Hlog(z,[0])",
+      "eps^0": "1/32*Hlog(z,[0, 0, -1, 0, 0])+7/64*Hlog(z,[-1, 0, 0, -1, 0, 0])+3/64*Hlog(z,[0, 0, 0, -1, 0, 0])-1/32*Hlog(z,[0, -1, 0, 0, 0])+4877/8960*zeta[2]^3-5/32*zeta[3]^2-1/4*Hlog(z,[-1, -1, 0, 0, 0, 0])-19/64*Hlog(z,[-1, 0, -1, 0, 0, 0])-1/32*Hlog(z,[0, -1, 0, -1, 0, 0])+7/32*Hlog(z,[-1, 0, 0, 0, 0, 0])-7/64*Hlog(z,[0, -1, -1, 0, 0, 0])+37/128*Hlog(z,[0, 0, -1, 0, 0, 0])-29/128*Hlog(z,[0, 0, 0, 0, 0, 0])-11/64*Hlog(z,[0, 0, -1, -1, 0, 0])+25/128*Hlog(z,[0, -1, 0, 0, 0, 0])+5/16*zeta[5]+21/64*zeta[2]*Hlog(z,[-1, 0, 0, -1])+223/1280*zeta[2]^2*Hlog(z,[0, -1])+7/64*zeta[3]*Hlog(z,[-1, 0, 0])+9/64*zeta[2]*Hlog(z,[0, 0, 0, -1])-1/4*zeta[2]*Hlog(z,[-1, -1, 0, 0])+59/128*zeta[2]*Hlog(z,[0, 0, -1, 0])-11/32*zeta[2]^2*Hlog(z,[-1, 0])-5/4*zeta[2]*zeta[3]-3/32*zeta[2]*Hlog(z,[0, -1, 0, -1])-7/64*zeta[2]*Hlog(z,[0, -1, -1, 0])-19/64*zeta[2]*Hlog(z,[-1, 0, -1, 0])+29/128*zeta[2]*Hlog(z,[0, -1, 0, 0])-3/8*zeta[2]^2*Hlog(z,[-1, -1])+7/64*zeta[2]*Hlog(z,[-1, 0, 0, 0])-27/128*zeta[2]*Hlog(z,[0, 0, 0, 0])-33/64*zeta[2]*Hlog(z,[0, 0, -1, -1])+1/64*(-23*zeta[2]*zeta[3]+102*zeta[5])*Hlog(z,[-1])+1/64*(-11*zeta[3]+6*zeta[2])*Hlog(z,[0, 0, -1])+1/1280*(103*zeta[2]^2-480*zeta[3])*Hlog(z,[0, 0])+1/128*(-4*zeta[2]+7*zeta[3])*Hlog(z,[0, 0, 0])+1/640*(-68*zeta[2]^2+255*zeta[2]*zeta[3]-460*zeta[5])*Hlog(z,[0])+1/64*(-3*zeta[3]-2*zeta[2])*Hlog(z,[0, -1, 0])"
+    },
+    "basis_projection": [
+      {
+        "partial_coefficient": "pole",
+        "weight": 5,
+        "covered": true,
+        "coordinates": [
+          {
+            "factors": [
+              "M_0_1",
+              "M_1_1"
+            ],
+            "coefficient": "1/128"
+          },
+          {
+            "factors": [
+              "M_0_1",
+              "zeta_3"
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "factors": [
+              "zeta_2",
+              "M_1_1"
+            ],
+            "coefficient": "1/16"
+          },
+          {
+            "factors": [
+              "M_1_3"
+            ],
+            "coefficient": "1/128"
+          },
+          {
+            "factors": [
+              "N_1_2"
+            ],
+            "coefficient": "-1/64"
+          }
+        ],
+        "residual": []
+      },
+      {
+        "partial_coefficient": "finite",
+        "weight": 5,
+        "covered": true,
+        "coordinates": [
+          {
+            "factors": [
+              "M_0_1",
+              "M_1_1"
+            ],
+            "coefficient": "-1/64"
+          },
+          {
+            "factors": [
+              "M_0_1",
+              "zeta_3"
+            ],
+            "coefficient": "15/32"
+          },
+          {
+            "factors": [
+              "zeta_2",
+              "M_1_1"
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "factors": [
+              "M_1_3"
+            ],
+            "coefficient": "-1/192"
+          },
+          {
+            "factors": [
+              "N_1_2"
+            ],
+            "coefficient": "1/32"
+          }
+        ],
+        "residual": []
+      },
+      {
+        "partial_coefficient": "finite",
+        "weight": 6,
+        "covered": true,
+        "coordinates": [
+          {
+            "factors": [
+              "M_0_1",
+              "M_2_1"
+            ],
+            "coefficient": "33/512"
+          },
+          {
+            "factors": [
+              "M_1_1",
+              "M_1_1"
+            ],
+            "coefficient": "-13/256"
+          },
+          {
+            "factors": [
+              "zeta_2",
+              "M_2_1"
+            ],
+            "coefficient": "41/512"
+          },
+          {
+            "factors": [
+              "zeta_3",
+              "M_1_1"
+            ],
+            "coefficient": "17/128"
+          },
+          {
+            "factors": [
+              "M_0_1",
+              "M_0_1",
+              "M_0_1"
+            ],
+            "coefficient": "503/40960"
+          },
+          {
+            "factors": [
+              "zeta_2",
+              "M_0_1",
+              "M_0_1"
+            ],
+            "coefficient": "-2327/61440"
+          },
+          {
+            "factors": [
+              "zeta_2",
+              "zeta_2",
+              "M_0_1"
+            ],
+            "coefficient": "91/640"
+          },
+          {
+            "factors": [
+              "M_4_1"
+            ],
+            "coefficient": "-351/32768"
+          },
+          {
+            "factors": [
+              "M_2_3"
+            ],
+            "coefficient": "83/16384"
+          },
+          {
+            "factors": [
+              "N_2_2"
+            ],
+            "coefficient": "-41/2048"
+          },
+          {
+            "factors": [
+              "tauDq4"
+            ],
+            "coefficient": "13/256"
+          },
+          {
+            "factors": [
+              "E"
+            ],
+            "coefficient": "-11/64"
+          }
+        ],
+        "residual": []
+      }
+    ]
+  },
+  "source_sha256": "0cccb22b4528fe9ab23bb59f38a9bcda6fae704b4dfdf72d7d3218a5303ba921",
+  "ibp_source_sha256": "8414da522c3fa126f061b84f4a6f71d371fd5b1baf62a2176ced17c5dbdf7204",
+  "native_sha256": "cd49d58c45d6eca1e67b7a122eedda72751053528ce1d6c09cfe4e3f5087ed8b",
+  "checks": "workflow/checks/double-tgv-21/verification-r005.json",
+  "checks_sha256": "c42867db931431644d494a3559bd19a617994817955141315935faf4f361c8cb",
+  "derivation": "benchmarks/double-tgv/4e-3g+3g/workspaces/4e-3g+3g-21/derivation.md",
+  "next_step": "No remaining work for eps^-6 through eps^0; all-epsilon evaluation and formal kernel admission are separate scopes.",
+  "formal": "not_run",
+  "kernel_root_registered": false,
+  "whole_I_pole_upper_bound": 1,
+  "whole_I_coefficients": {
+    "eps^-6": "0",
+    "eps^-5": "0",
+    "eps^-4": "0",
+    "eps^-3": "0",
+    "eps^-2": "0",
+    "eps^-1": "1/320*(-60*Hlog(z,[-1, 0, 0, 0, 0])*z+15*Hlog(z,[0, -1, 0, 0, 0])*z+25*Hlog(z,[0, 0, -1, 0, 0])*z+10*Hlog(z,[0, 0, 0, 0, 0])*z-10*Hlog(z,[0, 0, 0, 0])*z+(-10-10*z^2+(-60*zeta[2]-20)*z)*Hlog(z,[-1, 0, 0])+10*(1-3/2*zeta[2]+z)*z*Hlog(z,[0, 0, 0])+15*zeta[2]*Hlog(z,[0, -1, 0])*z+75*zeta[2]*Hlog(z,[0, 0, -1])*z+10*z*(-7/2*zeta[3]+zeta[2])*Hlog(z,[0, 0])-30*zeta[2]*(1+z^2+(3*zeta[2]+2)*z)*Hlog(z,[-1])+30*z*(zeta[2]*(-1/5*zeta[2]+z+1)*Hlog(z,[0])+3/2*zeta[2]^2+5/2*zeta[2]*zeta[3]+zeta[5]))/z",
+    "eps^0": "1/26880*(5040*(zeta[2]*z+107/240*zeta[2]^2+3/2*zeta[2]-1/6*zeta[3])*z*Hlog(z,[0, 0])-8820*(3/7+z^2+(737/420*zeta[2]+10/7)*z)*zeta[2]*Hlog(z,[0, -1])-8820*zeta[2]*(3/7+z^2+(26/35*zeta[2]+10/7)*z)*Hlog(z,[-1, 0])+2940*(zeta[2]-27/14*zeta[3])*z*Hlog(z,[0, 0, 0])+12600*zeta[2]*(1+z^2+(12/5*zeta[2]+2)*z)*Hlog(z,[-1, -1])+4200*(zeta[2]-1/10*zeta[3])*z*Hlog(z,[0, -1, 0])-7560*z*(zeta[2]+17/18*zeta[3])*Hlog(z,[0, 0, -1])-2520*(zeta[2]-15/2*zeta[3])*z*Hlog(z,[-1, 0, 0])+3360*(1/4-3/16*zeta[2]+z)*z*Hlog(z,[0, 0, 0, 0])-2100*Hlog(z,[0, 0, 0, 0, 0])*z+630*Hlog(z,[0, 0, -1, 0, 0, 0])*z+3990*Hlog(z,[0, 0, 0, 0, 0, 0])*z+4200*Hlog(z,[0, -1, 0, 0, 0])*z+4200*Hlog(z,[0, 0, 0, -1, 0, 0])*z+6300*Hlog(z,[-1, 0, -1, 0, 0, 0])*z-9870*Hlog(z,[0, -1, 0, 0, 0, 0])*z+20160*Hlog(z,[-1, -1, 0, 0, 0, 0])*z-2520*Hlog(z,[0, 0, -1, 0, 0])*z-7140*Hlog(z,[0, 0, -1, -1, 0, 0])*z-420*Hlog(z,[0, -1, -1, 0, 0, 0])*z-1260*Hlog(z,[-1, 0, 0, -1, 0, 0])*z+(4200+4200*z^2+(20160*zeta[2]+8400)*z)*Hlog(z,[-1, -1, 0, 0])+(420-4620*z^2+(-11340*zeta[2]-4200)*z)*Hlog(z,[-1, 0, 0, 0])+(-1260-2940*z^2+(-9870*zeta[2]-4200)*z)*Hlog(z,[0, -1, 0, 0])+(4200*z^2*zeta[3]+(-11340*zeta[2]^2+41580*zeta[2]*zeta[3]+8400*zeta[3]-12600*zeta[5])*z+4200*zeta[3])*Hlog(z,[-1])-4200*((z*zeta[3]-373/100*zeta[2]^2+47/20*zeta[2]*zeta[3]+zeta[3]-12/5*zeta[5])*Hlog(z,[0])-8299/4200*zeta[2]^3-27/10*zeta[2]^2-zeta[2]*zeta[3]-3*zeta[3]^2+7*zeta[5])*z+12600*zeta[2]*Hlog(z,[0, 0, 0, -1])*z-420*zeta[2]*Hlog(z,[0, -1, -1, 0])*z+6300*zeta[2]*Hlog(z,[-1, 0, -1, 0])*z+7770*zeta[2]*Hlog(z,[0, 0, -1, 0])*z-21420*zeta[2]*Hlog(z,[0, 0, -1, -1])*z-3780*zeta[2]*Hlog(z,[-1, 0, 0, -1])*z+2520*Hlog(z,[-1, 0, 0, 0, 0])*z-12600*Hlog(z,[-1, 0, 0, 0, 0, 0])*z)/z"
+  },
+  "whole_pole_basis_projection": [
+    {
+      "weight": 3,
+      "covered": false,
+      "coordinates": [
+        {
+          "factors": [
+            "zeta_3"
+          ],
+          "coefficient": "(z**2 + 2*z + 1)/(32*z)"
+        },
+        {
+          "factors": [
+            "M_1_1"
+          ],
+          "coefficient": "(-z**2 - 2*z - 1)/(64*z)"
+        }
+      ],
+      "residual": [
+        {
+          "word": [
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "(3*z**2 - 3)/(64*z)"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "(z**2 - 1)/(64*z)"
+        }
+      ]
+    },
+    {
+      "weight": 4,
+      "covered": true,
+      "coordinates": [
+        {
+          "factors": [
+            "M_0_1",
+            "M_0_1"
+          ],
+          "coefficient": "-1/192"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "M_0_1"
+          ],
+          "coefficient": "-1/16"
+        }
+      ],
+      "residual": []
+    },
+    {
+      "weight": 5,
+      "covered": true,
+      "coordinates": [
+        {
+          "factors": [
+            "M_0_1",
+            "M_1_1"
+          ],
+          "coefficient": "-5/128"
+        },
+        {
+          "factors": [
+            "M_0_1",
+            "zeta_3"
+          ],
+          "coefficient": "-3/32"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "M_1_1"
+          ],
+          "coefficient": "-3/16"
+        },
+        {
+          "factors": [
+            "M_1_3"
+          ],
+          "coefficient": "-5/128"
+        },
+        {
+          "factors": [
+            "N_1_2"
+          ],
+          "coefficient": "3/64"
+        }
+      ],
+      "residual": []
+    }
+  ],
+  "completed_combined_groups": [
+    [
+      "ibp_014",
+      "ibp_015"
+    ]
+  ],
+  "IBP_source_coverage": 15,
+  "completion_scope": "fixed real z>0, eps^-6 through eps^0; remainder O(eps), no all-epsilon closed form claim",
+  "historical_finite_except_core": {
+    "expression": "1/8960*(((1680*zeta[2]+1120*zeta[3])*z^2+(-3780*zeta[2]^2+(14980*zeta[3]+3360)*zeta[2]+2240*zeta[3]-4200*zeta[5])*z+1680*zeta[2]+1120*zeta[3])*Hlog(z,[-1])+(560+560*z^2+(-840*zeta[2]+9660*zeta[3]+1120)*z)*Hlog(z,[-1, 0, 0])+714*z*(((-40/17*zeta[2]-80/51*zeta[3])*z+28/17*zeta[2]^2+(25/17*zeta[3]-40/17)*zeta[2]-80/51*zeta[3]+430/51*zeta[5])*Hlog(z,[0])+zeta[2]^2*z+2591/238*zeta[2]^3+27/17*zeta[2]^2-380/17*zeta[2]*zeta[3]+175/17*zeta[3]^2+60/17*zeta[5])+(1120+1120*z^2+(8960*zeta[2]+2240)*z)*Hlog(z,[-1, -1, 0, 0])+(280-1400*z^2+(-2660*zeta[2]-1120)*z)*Hlog(z,[-1, 0, 0, 0])+(-140-980*z^2+(-5810*zeta[2]-1120)*z)*Hlog(z,[0, -1, 0, 0])-4200*Hlog(z,[-1, 0, 0, 0, 0, 0])*z-3640*Hlog(z,[0, 0, -1, -1, 0, 0])*z-70*Hlog(z,[0, 0, 0, 0, 0, 0])*z-280*Hlog(z,[0, -1, -1, 0, 0, 0])*z+980*Hlog(z,[0, -1, 0, -1, 0, 0])*z+1470*Hlog(z,[0, 0, -1, 0, 0, 0])*z+980*Hlog(z,[-1, 0, -1, 0, 0, 0])*z+8960*Hlog(z,[-1, -1, 0, 0, 0, 0])*z-1540*Hlog(z,[-1, 0, 0, -1, 0, 0])*z+2100*Hlog(z,[0, 0, 0, -1, 0, 0])*z-4830*Hlog(z,[0, -1, 0, 0, 0, 0])*z+980*zeta[2]*Hlog(z,[-1, 0, -1, 0])*z-4620*zeta[2]*Hlog(z,[-1, 0, 0, -1])*z+5110*zeta[2]*Hlog(z,[0, 0, -1, 0])*z-10920*zeta[2]*Hlog(z,[0, 0, -1, -1])*z-280*zeta[2]*Hlog(z,[0, -1, -1, 0])*z+2940*zeta[2]*Hlog(z,[0, -1, 0, -1])*z+6300*zeta[2]*Hlog(z,[0, 0, 0, -1])*z-2240*Hlog(z,[0, -1, 0])*z*zeta[3]+3360*zeta[2]*(1+z^2+(4*zeta[2]+2)*z)*Hlog(z,[-1, -1])-2520*zeta[2]*(1/3+z^2+(7/9*zeta[2]+4/3)*z)*Hlog(z,[-1, 0])-2940*zeta[2]*(1/7+z^2+(193/60*zeta[2]+8/7)*z)*Hlog(z,[0, -1])-560*z*(1+27/8*zeta[3]+z)*Hlog(z,[0, 0, 0])+2100*(zeta[2]*z+109/300*zeta[2]^2+13/15*zeta[2]-2*zeta[3])*z*Hlog(z,[0, 0])+1260*z*(z-29/18*zeta[2]+1/3)*Hlog(z,[0, 0, 0, 0])+840*z*(zeta[2]-13/3*zeta[3])*Hlog(z,[0, 0, -1])-560*Hlog(z,[0, 0, 0, 0, 0])*z+840*Hlog(z,[-1, 0, 0, 0, 0])*z+280*Hlog(z,[0, 0, -1, 0, 0])*z)/z",
+    "missing_physical_term": "(finite_core(z)+finite_core(1/z))/128",
+    "scope": "Endpoint derivatives and thirteen boundaries only. The whole finite coefficient is not determined."
+  },
+  "compact_Laurent_formula": {
+    "domain": "fixed real z>0, ell=log(z), GPL alphabet {0,-1}",
+    "pole_terms": [
+      {
+        "factors": [
+          "zeta_3"
+        ],
+        "coefficient": "(z**2 + 2*z + 1)/(32*z)"
+      },
+      {
+        "factors": [
+          "M_1_1"
+        ],
+        "coefficient": "(-z**2 - 2*z - 1)/(64*z)"
+      },
+      {
+        "factors": [
+          "ell",
+          "ell",
+          "ell"
+        ],
+        "coefficient": "(z**2 - 1)/(384*z)"
+      },
+      {
+        "factors": [
+          "ell",
+          "zeta_2"
+        ],
+        "coefficient": "(3*z**2 - 3)/(64*z)"
+      },
+      {
+        "factors": [
+          "M_0_1",
+          "M_0_1"
+        ],
+        "coefficient": "-1/192"
+      },
+      {
+        "factors": [
+          "zeta_2",
+          "M_0_1"
+        ],
+        "coefficient": "-1/16"
+      },
+      {
+        "factors": [
+          "M_0_1",
+          "M_1_1"
+        ],
+        "coefficient": "-5/128"
+      },
+      {
+        "factors": [
+          "zeta_3",
+          "M_0_1"
+        ],
+        "coefficient": "-3/32"
+      },
+      {
+        "factors": [
+          "zeta_2",
+          "M_1_1"
+        ],
+        "coefficient": "-3/16"
+      },
+      {
+        "factors": [
+          "M_1_3"
+        ],
+        "coefficient": "-5/128"
+      },
+      {
+        "factors": [
+          "N_1_2"
+        ],
+        "coefficient": "3/64"
+      }
+    ],
+    "finite_terms_by_weight": {
+      "4": [
+        {
+          "factors": [
+            "M_0_1",
+            "M_0_1"
+          ],
+          "coefficient": "(z**2 - 2*z + 1)/(256*z)"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "M_0_1"
+          ],
+          "coefficient": "(z**2 - 22*z + 1)/(128*z)"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_2"
+          ],
+          "coefficient": "(-9*z**2 - 18*z - 9)/(64*z)"
+        },
+        {
+          "factors": [
+            "M_2_1"
+          ],
+          "coefficient": "(-5*z**2 - 10*z - 5)/(256*z)"
+        },
+        {
+          "factors": [
+            "ell",
+            "M_1_1"
+          ],
+          "coefficient": "(1 - z**2)/(64*z)"
+        },
+        {
+          "factors": [
+            "ell",
+            "zeta_3"
+          ],
+          "coefficient": "(3 - 3*z**2)/(64*z)"
+        }
+      ],
+      "5": [
+        {
+          "factors": [
+            "M_0_1",
+            "M_1_1"
+          ],
+          "coefficient": "3/64"
+        },
+        {
+          "factors": [
+            "M_0_1",
+            "zeta_3"
+          ],
+          "coefficient": "-9/32"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "M_1_1"
+          ],
+          "coefficient": "11/32"
+        },
+        {
+          "factors": [
+            "M_1_3"
+          ],
+          "coefficient": "7/384"
+        },
+        {
+          "factors": [
+            "N_1_2"
+          ],
+          "coefficient": "-7/64"
+        }
+      ],
+      "6": [
+        {
+          "factors": [
+            "M_0_1",
+            "M_2_1"
+          ],
+          "coefficient": "1/1536"
+        },
+        {
+          "factors": [
+            "M_1_1",
+            "M_1_1"
+          ],
+          "coefficient": "-5/768"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "M_2_1"
+          ],
+          "coefficient": "-23/512"
+        },
+        {
+          "factors": [
+            "zeta_3",
+            "M_1_1"
+          ],
+          "coefficient": "5/128"
+        },
+        {
+          "factors": [
+            "M_0_1",
+            "M_0_1",
+            "M_0_1"
+          ],
+          "coefficient": "4909/1105920"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "M_0_1",
+            "M_0_1"
+          ],
+          "coefficient": "-389/184320"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_2",
+            "M_0_1"
+          ],
+          "coefficient": "133/1920"
+        },
+        {
+          "factors": [
+            "M_4_1"
+          ],
+          "coefficient": "225/32768"
+        },
+        {
+          "factors": [
+            "M_2_3"
+          ],
+          "coefficient": "-647/49152"
+        },
+        {
+          "factors": [
+            "N_2_2"
+          ],
+          "coefficient": "23/2048"
+        },
+        {
+          "factors": [
+            "tauDq4"
+          ],
+          "coefficient": "-25/768"
+        },
+        {
+          "factors": [
+            "E"
+          ],
+          "coefficient": "-13/192"
+        }
+      ]
+    },
+    "exact_full_GPL_reconstruction": {
+      "finite": true,
+      "pole": true
+    },
+    "negative_controls": {
+      "changed_tau_coefficient_rejected": true,
+      "changed_log_term_rejected": true
+    },
+    "gpl_coordinate_counts": {
+      "finite": 58,
+      "pole": 20
+    },
+    "basis_sha256": "c646e42379fd344c45bee8ad02ec25a0f92a050d9ac85da63912cc1265f72c05",
+    "finite_gpl_sha256": "ac89b7f5ea909afb031cd407d7b370ff2748c4a12fc4cc7ad4d2a49b3c732795",
+    "pole_gpl_sha256": "d12b64381351b96445ed7de5196cece18f4c65f00ca80ead49119c08161b711a",
+    "formal": "not_run",
+    "original_C_J_Wilson_Lean_unchanged": true
+  },
+  "finite_core": {
+    "actual_integrals": 8,
+    "raw_words": 4989,
+    "expression": "-4241/105*zeta[2]^3-21*zeta[3]^2-17/5*z*zeta[2]^2-12*Hlog(z,[0, 0, -1, 0, 0, 0])-2*(6*z^2*zeta[2]-z^2*zeta[3]+4*z*zeta[2]*zeta[3]+12*z*zeta[2]-2*z*zeta[3]+6*zeta[2]-zeta[3])/z*Hlog(z,[-1])+2*(z^2-8*z*zeta[2]+2*z+1)/z*Hlog(z,[-1, -1, 0, 0])+2*(9*z*zeta[2]-z-1)/z*Hlog(z,[0, -1, 0, 0])-4*(z^2+6*z*zeta[3]+2*z+1)/z*Hlog(z,[-1, 0, 0])-88*zeta[5]+103/5*zeta[2]^2+124*zeta[2]*zeta[3]+10*Hlog(z,[0, 0, 0, 0, 0, 0])+10*Hlog(z,[0, -1, 0, 0, 0])-8*Hlog(z,[0, 0, 0, -1, 0, 0])+8*Hlog(z,[-1, 0, -1, 0, 0, 0])-24*zeta[2]*Hlog(z,[0, 0, -1, 0])+36*zeta[2]*Hlog(z,[0, 0, -1, -1])+24*zeta[2]*Hlog(z,[-1, 0, 0, -1])+(-4*zeta[2]*z+19/5*zeta[2]^2+4*zeta[2]+28*zeta[3])*Hlog(z,[0, 0])-24*zeta[2]*Hlog(z,[0, 0, 0, -1])+(4+4*z+6*zeta[2]+6*zeta[3])*Hlog(z,[0, 0, 0])+10*zeta[2]*Hlog(z,[0, -1, -1, 0])-12*zeta[2]*Hlog(z,[0, -1, 0, -1])-6*zeta[3]*Hlog(z,[0, -1, -1])+8*zeta[2]*Hlog(z,[-1, 0, -1, 0])-8*zeta[2]*Hlog(z,[-1, 0, 0, 0])+(10*zeta[2]+18*zeta[3])*Hlog(z,[0, -1, 0])+(-2-2*z+16*zeta[2])*Hlog(z,[0, 0, 0, 0])+(12*zeta[2]*z-2*z*zeta[3]+138/5*zeta[2]^2-28*zeta[2]*zeta[3]+12*zeta[2]-2*zeta[3]-22*zeta[5])*Hlog(z,[0])-18*zeta[2]*Hlog(z,[0, -1, -1, -1])+(-24*zeta[2]+12*zeta[3])*Hlog(z,[0, 0, -1])+6*zeta[2]*(z^2-4*z*zeta[2]+2*z+1)/z*Hlog(z,[-1, -1])+2*zeta[2]*(14*z*zeta[2]-3*z-3)/z*Hlog(z,[0, -1])-2/5*zeta[2]*(5*z^2+4*z*zeta[2]+10*z+5)/z*Hlog(z,[-1, 0])-4*Hlog(z,[0, -1, 0, -1, 0, 0])+14*Hlog(z,[0, -1, 0, 0, 0, 0])-16*Hlog(z,[-1, -1, 0, 0, 0, 0])-8*Hlog(z,[0, 0, -1, 0, 0])-6*Hlog(z,[0, -1, -1, -1, 0, 0])+12*Hlog(z,[0, 0, -1, -1, 0, 0])+4*Hlog(z,[0, -1, -1, 0, 0, 0])+8*Hlog(z,[-1, 0, 0, -1, 0, 0])",
+    "physical_contribution": "(H(z)+H(1/z))/128",
+    "branch": "real GPL 0,-1 at fixed positive z"
+  },
+  "numeric_control": {
+    "passed": true,
+    "dps": 65,
+    "series_terms": [
+      256,
+      384
+    ],
+    "records": [
+      {
+        "z": "1/2",
+        "values": {
+          "core": "17.736890994762470096393763295040759696768622805509",
+          "core_reflected": "17.205535385912102880965104806440404556675089836997",
+          "finite": "1.1525934334708398310786883335938361266524291073625",
+          "pole": "-0.11704126314153452029886418239358649729189904877343"
+        },
+        "series_cutoff_difference": {
+          "core": "0.0",
+          "core_reflected": "0.0",
+          "finite": "0.0",
+          "pole": "0.0"
+        },
+        "direct_original_core_QMC_mean": 17.577037620015105,
+        "QMC_absolute_difference": 0.15985337474736383,
+        "QMC_empirical_tolerance": 2.7656587460843465,
+        "QMC_empirical_control_passed": true
+      },
+      {
+        "z": "1",
+        "values": {
+          "core": "14.192389656088131971543868687335661552678902710959",
+          "core_reflected": "14.192389656088131971543868687335661552678902710959",
+          "finite": "1.083620158677222956506329874687472230426566024229",
+          "pole": "-0.10498320783775219114670339277656096279460627609446"
+        },
+        "series_cutoff_difference": {
+          "core": "0.0",
+          "core_reflected": "0.0",
+          "finite": "0.0",
+          "pole": "0.0"
+        },
+        "direct_original_core_QMC_mean": 14.15749052877403,
+        "QMC_absolute_difference": 0.03489912731410172,
+        "QMC_empirical_tolerance": 2.6649560496598372,
+        "QMC_empirical_control_passed": true
+      },
+      {
+        "z": "2",
+        "values": {
+          "core": "17.205535385912102880965104806440404556675089836997",
+          "core_reflected": "17.736890994762470096393763295040759696768622805509",
+          "finite": "1.1525934334708398310786883335938361266524291073625",
+          "pole": "-0.11704126314153452029886418239358649729189904877343"
+        },
+        "series_cutoff_difference": {
+          "core": "5.1206409e-45",
+          "core_reflected": "7.1701103e-45",
+          "finite": "3.3298276e-47",
+          "pole": "4.9805326e-48"
+        },
+        "direct_original_core_QMC_mean": 16.657260843318692,
+        "QMC_absolute_difference": 0.5482745425934112,
+        "QMC_empirical_tolerance": 3.136728301283549,
+        "QMC_empirical_control_passed": true
+      }
+    ],
+    "controls": [
+      {
+        "two_different_parameter_series_max_error": "1.899113549151959749494648453912391430844193166724e-65"
+      }
+    ],
+    "evaluation": "Independent ODE power/log series on 0<t<1 with exact z=t/(1-t) word pullback",
+    "branch": "All ordinary GPLs have real 0,-1 alphabet at positive z; no imaginary part discarded",
+    "QMC_scope": "Empirical original eight-dimensional core control only; no rigorous enclosure",
+    "formal": "not_run",
+    "input_sha256": {
+      "rr-core-eight-z-fibration-r001.txt": "2b3cda29ae1acb3b0cc98eb644a16ba297bc5dd23e6e163ad0e77241e9ea01d0",
+      "rr-core-eight-reflected-r001.txt": "e3e1d042680cb698b75f2d45054844830c51418a44ec268c36bb215d63dcd37b",
+      "twentyone-full-finite-r001.txt": "ac89b7f5ea909afb031cd407d7b370ff2748c4a12fc4cc7ad4d2a49b3c732795",
+      "twentyone-pole-candidate-r001.txt": "d12b64381351b96445ed7de5196cece18f4c65f00ca80ead49119c08161b711a",
+      "numeric-original-core-qmc-r001.json": "0d9f39cdc3f65937769487649ee6d58fe1be2bfb792058685458293eea1dc0bb"
+    }
+  }
+}

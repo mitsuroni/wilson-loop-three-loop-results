@@ -1,0 +1,101 @@
+{
+  "format": "wilson-tgv-pi1-current/1",
+  "orbits": {
+    "3e-3g+Pi1-01": {
+      "revision": "r003",
+      "result": "results/3e-3g+Pi1-01/r003.json",
+      "formal": "not_run",
+      "sha256": "b0b007dd4d387ffd744376bb54d62dadbaaf9948421d2f3819af6d09c5200e0f"
+    },
+    "3e-3g+Pi1-02": {
+      "revision": "r003",
+      "result": "results/3e-3g+Pi1-02/r003.json",
+      "formal": "not_run",
+      "sha256": "809e43e98fb22c31c63ddb4985e5c1b08d4f060a72008e28f83918daccc97389"
+    },
+    "3e-3g+Pi1-03": {
+      "revision": "r003",
+      "result": "results/3e-3g+Pi1-03/r003.json",
+      "formal": "not_run",
+      "sha256": "ed477d05e9da0bead80c34bb4babb08c164ca57206cae260a901def6a5e177e1"
+    },
+    "3e-3g+Pi1-04": {
+      "revision": "r003",
+      "result": "results/3e-3g+Pi1-04/r003.json",
+      "formal": "not_run",
+      "sha256": "0f3e9e0b82b51f3821a4f612a0cefeff1eb6bff2513ad1e885fabed2a8a630ec"
+    },
+    "3e-3g+Pi1-05": {
+      "revision": "r003",
+      "result": "results/3e-3g+Pi1-05/r003.json",
+      "formal": "not_run",
+      "sha256": "32b15a8aae68502fa406e1b659c06cfbf07cb23edbcbb0d151da9276f09c757d"
+    },
+    "3e-3g+Pi1-06": {
+      "revision": "r003",
+      "result": "results/3e-3g+Pi1-06/r003.json",
+      "formal": "not_run",
+      "sha256": "8a334297e7e8afe8b95f0bed3c24fc826ec67b13792df8f29105b27cc0dbfcd5"
+    },
+    "3e-3g+Pi1-07": {
+      "revision": "r003",
+      "result": "results/3e-3g+Pi1-07/r003.json",
+      "status": "laurent_complete",
+      "formal": "not_run",
+      "sha256": "fac4e545879c642b4c0eb3214760e9ba467ecc14ac522f1ee842bc3b7389dcb0",
+      "equivalent_representations": [
+        {
+          "result": "results/3e-3g+Pi1-07/mn-r002.json",
+          "sha256": "4798a2bf9a89926a5ab08a0bdfb7be92bd6b6e2275bf1c22fa4eb6f69bc1af12",
+          "scope": "eps^-1 and eps^0 in the original M basis"
+        }
+      ]
+    },
+    "3e-3g+Pi1-08": {
+      "revision": "r003",
+      "result": "results/3e-3g+Pi1-08/r003.json",
+      "status": "laurent_complete",
+      "formal": "not_run",
+      "sha256": "cb3f9d781bea07cb85fb9547a559dd6c59f8f044c9fe2ceb7b5434b9ab75d801"
+    },
+    "3e-3g+Pi1-09": {
+      "revision": "r003",
+      "result": "results/3e-3g+Pi1-09/r003.json",
+      "status": "exact_closed_form",
+      "formal": "not_run",
+      "sha256": "dfc0663ca2e01e55574ddf3ae50e7149f4fd294943ffe3e842237e8ca079e326"
+    },
+    "3e-3g+Pi1-10": {
+      "revision": "r003",
+      "result": "results/3e-3g+Pi1-10/r003.json",
+      "status": "laurent_complete",
+      "formal": "not_run",
+      "sha256": "10d267285d6165845287d72f077c6c6384835348bafa7717367d0af869864413"
+    },
+    "3e-3g+Pi1-11": {
+      "revision": "r003",
+      "result": "results/3e-3g+Pi1-11/r003.json",
+      "status": "laurent_complete",
+      "formal": "not_run",
+      "sha256": "2617946d55e88e9dcbcf1457605d332fc2ee5170165a930399ad1489c3f00c35"
+    },
+    "3e-3g+Pi1-12": {
+      "revision": "r003",
+      "result": "results/3e-3g+Pi1-12/r003.json",
+      "status": "laurent_complete",
+      "formal": "not_run",
+      "sha256": "f81e2f392727a44c8016606af30e394080e9668f35be94373332054b8976a92b"
+    }
+  },
+  "complete_count": 12,
+  "total_count": 12,
+  "unresolved_count": 0,
+  "completion_semantics": "exact poles through finite Laurent coefficient",
+  "all_epsilon_closed_count": 7,
+  "catalog": "families/catalog-r013.json",
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "date": "2026-10-15",
+  "catalog_sha256": "c96479bc35dec3a908e77be3d78b4146f412f9eac0b3c282c58a0e1889581734",
+  "representation_verification": "workflow/checks/tgv-pi1-representation-r003/verification.json",
+  "revision_note": "Representation and reference repair only; all primary I/J/Laurent values and completion counts are unchanged."
+}

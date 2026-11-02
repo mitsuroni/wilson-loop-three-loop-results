@@ -1,0 +1,57 @@
+{
+  "revision": "r001",
+  "date": "2026-10-10",
+  "orbit_id": "4e-3g+3g-06",
+  "family": "DT1-N[]",
+  "status": "computed",
+  "source_sha256": "0cccb22b4528fe9ab23bb59f38a9bcda6fae704b4dfdf72d7d3218a5303ba921",
+  "kernel_sha256": "9648bd90c1614fb6f28f1015bb95f9cf96eac722e5e0f25f0f749e6ed24c9196",
+  "external_document_sha256": "09e02125760bb839956d0c138258939354e3117a5f7e9d828eff2892044aef85",
+  "laurent_coefficients": {
+    "-6": "-1/1152",
+    "-5": "-1/576",
+    "-4": "-1/192 + 17*pi**2/13824",
+    "-3": "-19*zeta(3)/384 - 1/64 + 7*pi**2/2304",
+    "-2": "-3/64 - 19*zeta(3)/576 + 919*pi**4/1658880 + 17*pi**2/2304",
+    "-1": "-1121*zeta(5)/1920 - 9/64 + 169*pi**2*zeta(3)/13824 + 43*pi**2/2304 + 113*pi**4/55296 + 11*zeta(3)/64",
+    "0": "-1331*zeta(5)/960 - 1093*zeta(3)**2/2304 - 45173*pi**6/83607552 - 27/64 + 7*pi**2*zeta(3)/768 + 113*pi**2/2304 + 161*pi**4/18432 + 155*zeta(3)/192",
+    "1": "-17323*zeta(7)/4032 - 24209*pi**4*zeta(3)/1658880 - 81/64 - 351*zeta(5)/320 - 313*zeta(3)**2/1152 - 15703*pi**6/69672960 + 23*pi**2*zeta(3)/256 + 307*pi**2/2304 + 279*pi**4/10240 + 481*zeta(3)/192 + 23971*pi**2*zeta(5)/69120"
+  },
+  "coefficient_notation": "Exact rational arithmetic and zeta(n); pi denotes the usual real constant; no fitting.",
+  "from_power": -6,
+  "through_power": 1,
+  "pole_order": 6,
+  "remainder": "O(eps^2)",
+  "R_coefficients": {
+    "-4": "-1/4",
+    "-3": "-5/4",
+    "-2": "-21/4 + 13*pi**2/24",
+    "-1": "-81/4 - 12*zeta(3) + 23*pi**2/8",
+    "0": "-297/4 - 41*zeta(3) - 173*pi**4/1440 + 95*pi**2/8",
+    "1": "-1053/4 - 156*zeta(5) - 60*zeta(3) - 73*pi**4/160 + 28*pi**2*zeta(3)/3 + 355*pi**2/8",
+    "2": "-3645/4 - 843*zeta(5) - 44963*pi**6/181440 - 17*pi**4/32 - 37*zeta(3)**2/2 + 93*zeta(3) + 53*pi**2*zeta(3)/2 + 1259*pi**2/8",
+    "3": "-12393/4 - 2772*zeta(5) - 4637*zeta(7)/4 - 23899*pi**6/20160 - 2363*pi**4*zeta(3)/360 - 137*zeta(3)**2/2 + 63*pi**4/32 + 39*pi**2*zeta(3) + 1122*zeta(3) + 599*pi**2*zeta(5)/3 + 4327*pi**2/8"
+  },
+  "D_coefficients": {
+    "0": "-pi**4/15 + 3*zeta(3)",
+    "1": "-7*pi**4/40 - 12*zeta(5) - pi**2*zeta(3)/2 + 30*zeta(3)",
+    "2": "-87*zeta(5) - 3061*pi**6/45360 - 7*pi**2*zeta(3)/2 - 27*zeta(3)**2/2 - 7*pi**4/60 + 171*zeta(3)",
+    "3": "-306*zeta(5) - 170*pi**6/567 - 43*pi**2*zeta(3)/2 - 78*zeta(3)**2 - 19*pi**4*zeta(3)/45 - 251*zeta(7)/8 + 10*pi**2*zeta(5)/3 + 49*pi**4/40 + 762*zeta(3)"
+  },
+  "normalization": "I=exp(-3*EulerGamma*eps)*Gamma(2-3*eps)*R(eps)/(288*eps^2)",
+  "Euler_compensation_count": 1,
+  "I_independent_of_z": true,
+  "domain": "z>0; common starting strip 0<Re(eps)<1/3; meromorphic continuation near zero",
+  "full_epsilon_closed_form": null,
+  "original_requested_positions_complete": 7,
+  "validated_positions": 8,
+  "formal": "not_run",
+  "kernel_root_registered": false,
+  "checks": "workflow/checks/double-tgv-06-external-review-20261010/verification.json",
+  "derivation": "benchmarks/double-tgv/4e-3g+3g/workspaces/4e-3g+3g-06/derivation.md",
+  "provenance": "External proposed derivation reviewed and original finite-master kernels independently recomputed in this session; old partial-r002 is preserved.",
+  "limitations": [
+    "Source polynomial IBP, 30 pure parameter scalings and Euler reductions recomputed; full path-corner derivations reviewed, combined L0 directly sampled. No new exhaustive mixed-corner formal proof.",
+    "No Kernel/Lean chain; no all-epsilon evaluated closed form; full w3 not assembled."
+  ]
+}

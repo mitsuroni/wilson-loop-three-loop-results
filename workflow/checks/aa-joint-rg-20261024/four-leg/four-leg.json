@@ -1,0 +1,6600 @@
+{
+  "schema": "wilson-aa-joint-four-leg/1",
+  "date": "2026-10-24",
+  "status": "pass",
+  "formal": "not_run",
+  "normalization": "Scale-stripped coefficient of CF*CA^2 in connected three-loop exponent. Each selected physical I enters once with coefficient +1. DT25 already includes S and rotated N.",
+  "symbols": {
+    "rho": "log(z), not the average renormalization-scale logarithm L",
+    "M01,M11,M21,M31,M13,N12": "Original unfactorialized project M/N moments; exact basis book bound below",
+    "zeta2,zeta3,zeta5": "Riemann zeta values at 2,3,5",
+    "d16_minus1": "Unknown complete [epsilon^-1] physical I_DT16; not its partial IBP sum"
+  },
+  "groups": {
+    "3444": {
+      "source_orbits": [
+        "4e-4g-01",
+        "4e-3g+3g-01",
+        "4e-3g+3g-02",
+        "4e-3g+3g-03"
+      ],
+      "coefficients": {
+        "-6": "-1/1152",
+        "-5": "1/288",
+        "-4": "-11*zeta2/2304 - 1/288",
+        "-3": "7*zeta2/192 + 7*zeta3/1152 - 11/288",
+        "-2": "-307*zeta2**2/15360 + 11*zeta2/192 + 29*zeta3/576 - 49/288",
+        "-1": "697*zeta2**2/3840 - 25*zeta2*zeta3/768 + 13*zeta2/192 + 13*zeta3/144 + 239*zeta5/1920 - 179/288"
+      },
+      "hlog_coefficients": {
+        "-6": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/1152"
+          }
+        ],
+        "-5": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/288"
+          }
+        ],
+        "-4": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/288"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-11/2304"
+          }
+        ],
+        "-3": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-11/288"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "7/1152"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "7/192"
+          }
+        ],
+        "-2": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-49/288"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "29/576"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "11/192"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-307/15360"
+          }
+        ],
+        "-1": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-179/288"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "239/1920"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "13/144"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "13/192"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-25/768"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "697/3840"
+          }
+        ]
+      },
+      "finite_status": {
+        "status": "selected_coefficients_available_through_finite",
+        "evaluation_performed_here": false
+      }
+    },
+    "3344": {
+      "source_orbits": [
+        "4e-4g-02",
+        "4e-3g+3g-04",
+        "4e-3g+3g-05",
+        "4e-3g+3g-06"
+      ],
+      "coefficients": {
+        "-6": "-1/768",
+        "-5": "1/288",
+        "-4": "-5*zeta2/4608",
+        "-3": "3*zeta2/64 - 121*zeta3/2304 - 1/72",
+        "-2": "-4483*zeta2**2/92160 + zeta2/12 + zeta3/288 - 1/18",
+        "-1": "763*zeta2**2/3840 + 65*zeta2*zeta3/4608 + 7*zeta2/48 + 5*zeta3/24 - 771*zeta5/1280 - 1/6"
+      },
+      "hlog_coefficients": {
+        "-6": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/768"
+          }
+        ],
+        "-5": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/288"
+          }
+        ],
+        "-4": [
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-5/4608"
+          }
+        ],
+        "-3": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/72"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-121/2304"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/64"
+          }
+        ],
+        "-2": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/18"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/288"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/12"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-4483/92160"
+          }
+        ],
+        "-1": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/6"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-771/1280"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "5/24"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "7/48"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "65/4608"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "763/3840"
+          }
+        ]
+      },
+      "finite_status": {
+        "status": "selected_coefficients_available_through_finite",
+        "evaluation_performed_here": false
+      }
+    },
+    "3334": {
+      "source_orbits": [
+        "4e-4g-03",
+        "4e-3g+3g-07",
+        "4e-3g+3g-08",
+        "4e-3g+3g-09"
+      ],
+      "coefficients": {
+        "-6": "-1/1152",
+        "-5": "1/288",
+        "-4": "-11*zeta2/2304 - 1/288",
+        "-3": "7*zeta2/192 + 7*zeta3/1152 - 11/288",
+        "-2": "-307*zeta2**2/15360 + 11*zeta2/192 + 29*zeta3/576 - 49/288",
+        "-1": "697*zeta2**2/3840 - 25*zeta2*zeta3/768 + 13*zeta2/192 + 13*zeta3/144 + 239*zeta5/1920 - 179/288"
+      },
+      "hlog_coefficients": {
+        "-6": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/1152"
+          }
+        ],
+        "-5": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/288"
+          }
+        ],
+        "-4": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/288"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-11/2304"
+          }
+        ],
+        "-3": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-11/288"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "7/1152"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "7/192"
+          }
+        ],
+        "-2": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-49/288"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "29/576"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "11/192"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-307/15360"
+          }
+        ],
+        "-1": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-179/288"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "239/1920"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "13/144"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "13/192"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-25/768"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "697/3840"
+          }
+        ]
+      },
+      "finite_status": {
+        "status": "selected_coefficients_available_through_finite",
+        "evaluation_performed_here": false
+      }
+    },
+    "2444": {
+      "source_orbits": [
+        "4e-4g-04",
+        "4e-3g+3g-10",
+        "4e-3g+3g-11",
+        "4e-3g+3g-12"
+      ],
+      "coefficients": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "0",
+        "-2": "M01**2/384 - 3*M01/32 - 3*M11/64",
+        "-1": "M01**2/768 - M01*M11/64 + 9*M01*zeta2/128 + 3*M01*zeta3/16 - 15*M01/32 - M11*zeta2/8 - 15*M11/64 - 7*M13/768 - 9*M21/256 + N12/32"
+      },
+      "hlog_coefficients": {
+        "-6": [],
+        "-5": [],
+        "-4": [],
+        "-3": [],
+        "-2": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-3/32"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/32"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "3/128"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-9/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-3/32"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/64"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/32"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          }
+        ],
+        "-1": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "17/64"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-15/32"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "45/32"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-29/64"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "21/640"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "9/32"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-45/32"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-9/128"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "27/32"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "9/32"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-27/64"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-15/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/64"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-9/64"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-3/64"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-9/64"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "45/64"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-91/1280"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-27/64"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-9/64"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "15/32"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-9/64"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "5/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/32"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/32"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "15/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/128"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "5/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/128"
+          }
+        ]
+      },
+      "finite_status": {
+        "status": "selected_coefficients_available_through_finite",
+        "evaluation_performed_here": false
+      }
+    },
+    "2344": {
+      "source_orbits": [
+        "4e-4g-05",
+        "4e-3g+3g-13",
+        "4e-3g+3g-14",
+        "4e-3g+3g-15"
+      ],
+      "coefficients": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-zeta2/128",
+        "-3": "M11/256 + zeta2/64 + zeta3/384",
+        "-2": "M01**2/384 - M01*zeta2/256 - 3*M11/128 - 431*zeta2**2/3840 + zeta2/32 + zeta3/64",
+        "-1": "5*M01**2/768 + 31*M01*M11/1024 + M01*zeta2/128 + 37*M01*zeta3/128 + 67*M11*zeta2/1024 - 3*M11/64 + 137*M13/6144 - M21/32 - 19*M31/6144 + N12/256 + 79*zeta2**2/384 - 139*zeta2*zeta3/768 + zeta2/16 - zeta3/32 + 61*zeta5/384"
+      },
+      "hlog_coefficients": {
+        "-6": [],
+        "-5": [],
+        "-4": [
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/128"
+          }
+        ],
+        "-3": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/96"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/128"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/128"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/256"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/256"
+          }
+        ],
+        "-2": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/32"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-37/480"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-9/64"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-3/64"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/128"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "5/256"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/128"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          }
+        ],
+        "-1": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "139/384"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/16"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-287/384"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "1717/3840"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/4"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-9/32"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "63/320"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-19/128"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/4"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-57/128"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-19/128"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "57/256"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/4"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "19/256"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "19/256"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/8"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "57/256"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "19/256"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-3/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/128"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-19/128"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/64"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-143/1280"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "19/256"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/8"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "57/256"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "19/256"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-79/256"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-15/64"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-17/256"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "5/32"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-75/256"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-25/256"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "103/512"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "13/128"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "13/64"
+          }
+        ]
+      },
+      "finite_status": {
+        "status": "common_finite_coefficient_not_accepted",
+        "source_unknowns": [
+          "DT15 finite",
+          "DT24 reflected finite"
+        ],
+        "candidate_review": "benchmarks/theory/four-leg-2344-finite-20261023/weight-audit.md",
+        "evaluation_performed_here": false
+      }
+    },
+    "2334": {
+      "source_orbits": [
+        "4e-4g-06",
+        "4e-3g+3g-16",
+        "4e-3g+3g-17",
+        "4e-3g+3g-18"
+      ],
+      "coefficients": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-zeta2/64",
+        "-3": "M11/128 + zeta2/96 + 13*zeta3/192",
+        "-2": "M01**2/384 - M01*zeta2/64 - M11/64 + M21/256 - 547*zeta2**2/1920 + zeta2/48 + 7*zeta3/96"
+      },
+      "hlog_coefficients": {
+        "-6": [],
+        "-5": [],
+        "-4": [
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/64"
+          }
+        ],
+        "-3": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/12"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/96"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/64"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/128"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/128"
+          }
+        ],
+        "-2": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/24"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/48"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-923/3840"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/32"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/32"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/64"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/64"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/64"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/128"
+          }
+        ]
+      },
+      "finite_status": {
+        "status": "single_pole_and_finite_unknown",
+        "source_unknowns": [
+          "DT16 -1",
+          "DT16 0"
+        ],
+        "evaluation_performed_here": false
+      },
+      "single_pole_with_unknown": "5*M01**2/768 + 43*M01*M11/512 + 7*M01*zeta2/128 + M01*zeta3/16 + 231*M11*zeta2/512 - M11/32 + 155*M13/3072 - 7*M21/256 + 9*M31/1024 - 9*N12/128 + d16_minus1 + 157*zeta2**2/320 - 85*zeta2*zeta3/384 + zeta2/24 + zeta3/48 - 11*zeta5/48"
+    },
+    "2244": {
+      "source_orbits": [
+        "4e-4g-07",
+        "4e-3g+3g-19",
+        "4e-3g+3g-20",
+        "4e-3g+3g-21"
+      ],
+      "coefficients": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "0",
+        "-2": "-M01**2/768 - M01/32 - M11/32 - M21/128",
+        "-1": "-3*M01*M11/64 + M01*zeta2/32 - M01*zeta3/32 - M01/8 - 7*M11*zeta2/32 - 7*M11/64 - 67*M13/1536 - M21/32 - M31/256 + 15*N12/256"
+      },
+      "hlog_coefficients": {
+        "-6": [],
+        "-5": [],
+        "-4": [],
+        "-3": [],
+        "-2": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/16"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/32"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "51/1280"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/16"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/16"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/16"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/16"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/16"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/32"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/32"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/128"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/32"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/128"
+          }
+        ],
+        "-1": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "5/128"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-7/32"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/8"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "21/128"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "9/80"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/4"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-21/32"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-453/1280"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-3/16"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/4"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-9/16"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-3/16"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/32"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/4"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/32"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "3/32"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/8"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-7/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-33/128"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-31/128"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "21/64"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-57/2560"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "3/32"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/8"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/8"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-21/128"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/32"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "7/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-9/256"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/16"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "13/256"
+          }
+        ]
+      },
+      "finite_status": {
+        "status": "selected_coefficients_available_through_finite",
+        "evaluation_performed_here": false
+      }
+    },
+    "2234": {
+      "source_orbits": [
+        "4e-4g-08",
+        "4e-3g+3g-22",
+        "4e-3g+3g-23",
+        "4e-3g+3g-24"
+      ],
+      "coefficients": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "-zeta2/128",
+        "-3": "M11/256 + zeta2/64 + zeta3/384",
+        "-2": "M01**2/384 - M01*zeta2/256 - 3*M11/128 - 431*zeta2**2/3840 + zeta2/32 + zeta3/64",
+        "-1": "5*M01**2/768 + 31*M01*M11/1024 + M01*zeta2/128 + 37*M01*zeta3/128 + 67*M11*zeta2/1024 - 3*M11/64 + 137*M13/6144 - M21/32 - 19*M31/6144 + N12/256 + 79*zeta2**2/384 - 139*zeta2*zeta3/768 + zeta2/16 - zeta3/32 + 61*zeta5/384"
+      },
+      "hlog_coefficients": {
+        "-6": [],
+        "-5": [],
+        "-4": [
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/128"
+          }
+        ],
+        "-3": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/96"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/128"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/128"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/256"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/256"
+          }
+        ],
+        "-2": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/32"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/32"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-37/480"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-9/64"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-3/64"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/128"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "5/256"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/128"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          }
+        ],
+        "-1": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "139/384"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/16"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-287/384"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "1717/3840"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/4"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-9/32"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "63/320"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-19/128"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/4"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-57/128"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-19/128"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "57/256"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/4"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "19/256"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "19/256"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/8"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "57/256"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "19/256"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-3/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/128"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-19/128"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/64"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-143/1280"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "19/256"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/8"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "57/256"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "19/256"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-79/256"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-15/64"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-17/256"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "5/32"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-75/256"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-25/256"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "103/512"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "13/128"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "13/64"
+          }
+        ]
+      },
+      "finite_status": {
+        "status": "common_finite_coefficient_not_accepted",
+        "source_unknowns": [
+          "DT15 finite",
+          "DT24 reflected finite"
+        ],
+        "candidate_review": "benchmarks/theory/four-leg-2344-finite-20261023/weight-audit.md",
+        "evaluation_performed_here": false
+      }
+    },
+    "1234": {
+      "source_orbits": [
+        "4e-4g-09",
+        "4e-3g+3g-25",
+        "4e-3g+3g-26"
+      ],
+      "coefficients": {
+        "-6": "0",
+        "-5": "0",
+        "-4": "0",
+        "-3": "0",
+        "-2": "-M01*zeta2/128 - M21/256 - zeta2**2/64",
+        "-1": "-M01*M11/128 + 13*M01*zeta3/64 - M11*zeta2/8 + M13/1536 - 7*M31/768 + N12/32 - 3*zeta2*zeta3/16 - 5*zeta5/64"
+      },
+      "hlog_coefficients": {
+        "-6": [],
+        "-5": [],
+        "-4": [],
+        "-3": [],
+        "-2": [
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "43/1280"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/32"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/32"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/32"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/64"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/64"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/64"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/64"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/64"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/128"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/128"
+          }
+        ],
+        "-1": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-3/128"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-65/128"
+          },
+          {
+            "word": [
+              -1
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-507/1280"
+          },
+          {
+            "word": [
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-7/16"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-21/16"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-7/16"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "21/32"
+          },
+          {
+            "word": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "7/32"
+          },
+          {
+            "word": [
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "7/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "21/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "7/32"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-31/128"
+          },
+          {
+            "word": [
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-17/128"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "47/512"
+          },
+          {
+            "word": [
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "7/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "21/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "7/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-13/32"
+          },
+          {
+            "word": [
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-3/16"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-7/128"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-9/32"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-3/32"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "35/256"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "25/256"
+          }
+        ]
+      },
+      "finite_status": {
+        "status": "selected_GPL_algebraic_Chen_finite_available_compact_reduction_open",
+        "evaluation_performed_here": false
+      }
+    }
+  },
+  "total": {
+    "coefficients": {
+      "-6": "-7/2304",
+      "-5": "1/96",
+      "-4": "-193*zeta2/4608 - 1/144",
+      "-3": "M11/64 + 31*zeta2/192 + 25*zeta3/768 - 13/144",
+      "-2": "7*M01**2/768 - M01*zeta2/32 - M01/8 - 9*M11/64 - M21/128 - 56551*zeta2**2/92160 + 9*zeta2/32 + 5*zeta3/24 - 19/48"
+    },
+    "hlog_coefficients": {
+      "-6": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-7/2304"
+        }
+      ],
+      "-5": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/96"
+        }
+      ],
+      "-4": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/144"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-193/4608"
+        }
+      ],
+      "-3": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-13/144"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "49/768"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "31/192"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "3/32"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/32"
+        },
+        {
+          "word": [
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-3/64"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/64"
+        }
+      ],
+      "-2": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-19/48"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-7/96"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "21/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-35599/92160"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1/16"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-27/32"
+        },
+        {
+          "word": [
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "3/16"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/16"
+        },
+        {
+          "word": [
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-3/32"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-9/32"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/32"
+        },
+        {
+          "word": [
+            0
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/32"
+        },
+        {
+          "word": [
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "27/64"
+        },
+        {
+          "word": [
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-3/32"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/32"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/8"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "15/128"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "9/64"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "9/128"
+        }
+      ]
+    },
+    "single_pole_known_part": "M01**2/48 + 19*M01*M11/256 + 11*M01*zeta2/64 + M01*zeta3 - 19*M01/32 + 29*M11*zeta2/256 - 15*M11/32 + 11*M13/256 - 5*M21/32 - M31/96 + 15*N12/256 + 5621*zeta2**2/3840 - 3787*zeta2*zeta3/4608 + 43*zeta2/96 + 25*zeta3/72 - 439*zeta5/1280 - 203/144",
+    "single_pole_with_unknown": "M01**2/48 + 19*M01*M11/256 + 11*M01*zeta2/64 + M01*zeta3 - 19*M01/32 + 29*M11*zeta2/256 - 15*M11/32 + 11*M13/256 - 5*M21/32 - M31/96 + 15*N12/256 + d16_minus1 + 5621*zeta2**2/3840 - 3787*zeta2*zeta3/4608 + 43*zeta2/96 + 25*zeta3/72 - 439*zeta5/1280 - 203/144",
+    "finite_status": "Not evaluated here; two missing physical finite functions and compact-reduction questions remain"
+  },
+  "known_2334_single_pole": "5*M01**2/768 + 43*M01*M11/512 + 7*M01*zeta2/128 + M01*zeta3/16 + 231*M11*zeta2/512 - M11/32 + 155*M13/3072 - 7*M21/256 + 9*M31/1024 - 9*N12/128 + 157*zeta2**2/320 - 85*zeta2*zeta3/384 + zeta2/24 + zeta3/48 - 11*zeta5/48",
+  "selected_inputs": {
+    "4e-4g-02": {
+      "selector": "benchmarks/fgv/4e-4g/current.json",
+      "selector_pointer": "/orbits/4e-4g-02",
+      "source_path": "benchmarks/fgv/4e-4g/sources/montopar-r002.json",
+      "source_pointer": "/orbits/1",
+      "revision": "r002",
+      "result": "results/4e-4g-02/r002.json",
+      "sha256": "bace2d7c45e278b3cc07da9cd92a2c7afc6ff29b967ee7620ed4b9cae42b25d5",
+      "assembly_sign": 1
+    },
+    "4e-4g-05": {
+      "selector": "benchmarks/fgv/4e-4g/current.json",
+      "selector_pointer": "/orbits/4e-4g-05",
+      "source_path": "benchmarks/fgv/4e-4g/sources/montopar-r002.json",
+      "source_pointer": "/orbits/4",
+      "revision": "r003",
+      "result": "results/4e-4g-05/r003.json",
+      "sha256": "45e30a8f742ebac78dc13d1ef26ca4e4d5577392948cb572592850fb59690891",
+      "assembly_sign": 1
+    },
+    "4e-4g-06": {
+      "selector": "benchmarks/fgv/4e-4g/current.json",
+      "selector_pointer": "/orbits/4e-4g-06",
+      "source_path": "benchmarks/fgv/4e-4g/sources/montopar-r002.json",
+      "source_pointer": "/orbits/5",
+      "revision": "r003",
+      "result": "results/4e-4g-06/r003.json",
+      "sha256": "2aeb0104fe8cd72033d8f250f1906c0b7bfd022126661b164eae3a0878e425c4",
+      "assembly_sign": 1
+    },
+    "4e-4g-07": {
+      "selector": "benchmarks/fgv/4e-4g/current.json",
+      "selector_pointer": "/orbits/4e-4g-07",
+      "source_path": "benchmarks/fgv/4e-4g/sources/montopar-r002.json",
+      "source_pointer": "/orbits/6",
+      "revision": "r003",
+      "result": "results/4e-4g-07/r003.json",
+      "sha256": "a0d7f76d9f39d095b38463ccff34da6cab4e2671f24f02a57e74e25a669bd0f4",
+      "assembly_sign": 1
+    },
+    "4e-4g-08": {
+      "selector": "benchmarks/fgv/4e-4g/current.json",
+      "selector_pointer": "/orbits/4e-4g-08",
+      "source_path": "benchmarks/fgv/4e-4g/sources/montopar-r002.json",
+      "source_pointer": "/orbits/7",
+      "revision": "r003",
+      "result": "results/4e-4g-08/r003.json",
+      "sha256": "afe94049f09856d675730a60033f3da2681866d0f39b181ea6916c7de6e33523",
+      "assembly_sign": 1
+    },
+    "4e-4g-09": {
+      "selector": "benchmarks/fgv/4e-4g/current.json",
+      "selector_pointer": "/orbits/4e-4g-09",
+      "source_path": "benchmarks/fgv/4e-4g/sources/montopar-r002.json",
+      "source_pointer": "/orbits/8",
+      "revision": "r004",
+      "result": "results/4e-4g-09/r004.json",
+      "sha256": "6642e0b22755be0b0fd58a3bf877f81a21abe392504fe0a534919066e4d35888",
+      "assembly_sign": 1
+    },
+    "4e-4g-01": {
+      "selector": "benchmarks/fgv/4e-4g/current.json",
+      "selector_pointer": "/orbits/4e-4g-01",
+      "source_path": "benchmarks/fgv/4e-4g/sources/montopar-r002.json",
+      "source_pointer": "/orbits/0",
+      "status": "algebraic_zero",
+      "assembly_sign": 1
+    },
+    "4e-4g-03": {
+      "selector": "benchmarks/fgv/4e-4g/current.json",
+      "selector_pointer": "/orbits/4e-4g-03",
+      "source_path": "benchmarks/fgv/4e-4g/sources/montopar-r002.json",
+      "source_pointer": "/orbits/2",
+      "status": "algebraic_zero",
+      "assembly_sign": 1
+    },
+    "4e-4g-04": {
+      "selector": "benchmarks/fgv/4e-4g/current.json",
+      "selector_pointer": "/orbits/4e-4g-04",
+      "source_path": "benchmarks/fgv/4e-4g/sources/montopar-r002.json",
+      "source_pointer": "/orbits/3",
+      "status": "algebraic_zero",
+      "assembly_sign": 1
+    },
+    "4e-3g+3g-01": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-01",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/0",
+      "status": "computed",
+      "result": "results/4e-3g+3g-01/r001.json",
+      "revision": "r001",
+      "sha256": "3f563d948279097fd0ff036e38bf7738149c04b2e8407e9064573fb74ec2b62a"
+    },
+    "4e-3g+3g-02": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-02",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/1",
+      "status": "algebraic_zero"
+    },
+    "4e-3g+3g-03": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-03",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/2",
+      "status": "computed",
+      "result": "results/4e-3g+3g-03/r001.json",
+      "revision": "r001",
+      "sha256": "0e6c2019c6737e615131a7f21c1954ce708cc3edcc6e7b7ea251c35e97d12119"
+    },
+    "4e-3g+3g-04": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-04",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/3",
+      "status": "computed",
+      "result": "results/4e-3g+3g-04/r001.json",
+      "revision": "r001",
+      "sha256": "b660fc72ac8886d6ca0ba57d9707e02db93d1c518160b00cee2d32282f409d0b"
+    },
+    "4e-3g+3g-05": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-05",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/4",
+      "status": "algebraic_zero"
+    },
+    "4e-3g+3g-06": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-06",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/5",
+      "status": "computed",
+      "result": "results/4e-3g+3g-06/r001.json",
+      "revision": "r001",
+      "sha256": "a821814e06b76bfa43089500abf4782c42368450050197240e1487ecc468b9c8",
+      "complete_coefficients": 7,
+      "target_coefficients": 7,
+      "validated_through_power": 1
+    },
+    "4e-3g+3g-07": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-07",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/6",
+      "status": "computed",
+      "result": "results/4e-3g+3g-07/r001.json",
+      "revision": "r001",
+      "sha256": "77cc5f713dbdb115e0d06a091c0b30314ed579b2c0f288eefdf126eb2fa4dcf4"
+    },
+    "4e-3g+3g-08": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-08",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/7",
+      "status": "algebraic_zero"
+    },
+    "4e-3g+3g-09": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-09",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/8",
+      "status": "computed",
+      "result": "results/4e-3g+3g-09/r001.json",
+      "revision": "r001",
+      "sha256": "9ba09ddf786f20bce16cd368d30d7a16cc96f09326ab9a272db7f59d4f0a275d"
+    },
+    "4e-3g+3g-10": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-10",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/9",
+      "status": "computed",
+      "result": "results/4e-3g+3g-10/r001.json",
+      "revision": "r001",
+      "sha256": "b2293a97587f83d1c0fb764e07ed1f6b3ca8b2c1d0fb5dbc028f71342741553e"
+    },
+    "4e-3g+3g-11": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-11",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/10",
+      "status": "algebraic_zero"
+    },
+    "4e-3g+3g-12": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-12",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/11",
+      "status": "computed",
+      "result": "results/4e-3g+3g-12/r001.json",
+      "revision": "r001",
+      "sha256": "6f4fb8eeaa5c3887ca675ab919454a369940eb83ab88d42824e3a88b4335192e"
+    },
+    "4e-3g+3g-13": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-13",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/12",
+      "status": "computed",
+      "result": "results/4e-3g+3g-13/r002.json",
+      "revision": "r002",
+      "sha256": "e009322935b78669a35b07767398c4599e2e1895c8d4df4ef047b070ac3439e6"
+    },
+    "4e-3g+3g-14": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-14",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/13",
+      "status": "algebraic_zero"
+    },
+    "4e-3g+3g-15": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-15",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/14",
+      "status": "in_progress",
+      "result": "results/4e-3g+3g-15/ibp-progress-r012.json",
+      "complete_IBP_terms": 17,
+      "target_IBP_terms": 19,
+      "whole_I_laurent": "partial_analytic",
+      "whole_I_known_Laurent_positions": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "whole_I_pole_upper_bound": 3
+    },
+    "4e-3g+3g-16": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-16",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/15",
+      "status": "in_progress",
+      "result": "results/4e-3g+3g-16/ibp-progress-r006.json",
+      "complete_IBP_terms": 12,
+      "target_IBP_terms": 19,
+      "revision": "ibp-progress-r006",
+      "sha256": "18b127cb290abcee9eb69d3b00d95514efb2927f4805cc4a1a2a3365b4929635",
+      "whole_I_laurent": "partial_analytic",
+      "whole_I_known_Laurent_positions": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2
+      ],
+      "whole_I_pole_upper_bound": 4,
+      "complete_coefficients": 5,
+      "target_coefficients": 7
+    },
+    "4e-3g+3g-17": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-17",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/16",
+      "status": "algebraic_zero"
+    },
+    "4e-3g+3g-18": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-18",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/17",
+      "status": "computed",
+      "result": "results/4e-3g+3g-18/r001.json",
+      "revision": "r001",
+      "sha256": "0b88e4898f90e76c3d2567155cf3d65f2948afa7837cde493e6cef7207b1a608"
+    },
+    "4e-3g+3g-19": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-19",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/18",
+      "status": "computed",
+      "result": "results/4e-3g+3g-19/r001.json",
+      "revision": "r001",
+      "sha256": "6c7665c33317885544c804f43a70abb626ba6569a7ecdcabae28a925b07d7e92"
+    },
+    "4e-3g+3g-20": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-20",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/19",
+      "status": "algebraic_zero"
+    },
+    "4e-3g+3g-21": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-21",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/20",
+      "status": "computed",
+      "result": "results/4e-3g+3g-21/ibp-progress-r005.json",
+      "complete_IBP_terms": 13,
+      "target_IBP_terms": 15,
+      "whole_I_laurent": "all_poles_and_finite_analytic",
+      "whole_I_known_Laurent_positions": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ],
+      "whole_I_pole_upper_bound": 1,
+      "revision": "ibp-progress-r005",
+      "sha256": "216bc6cd5d261b0701ef0ec4277b7d6359b946f5a86a848f265f8666302cbd25",
+      "complete_coefficients": 7,
+      "target_coefficients": 7,
+      "complete_IBP_source_coverage": 15,
+      "jointly_completed_IBP_groups": [
+        [
+          14,
+          15
+        ]
+      ],
+      "IBP_completion_scope": "001..013 individually; 014+015 jointly in the same regulator",
+      "formal": "not_run"
+    },
+    "4e-3g+3g-22": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-22",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/21",
+      "status": "computed",
+      "result": "results/4e-3g+3g-22/r002.json",
+      "revision": "r002",
+      "sha256": "953411ecb5b619333bd305c22bcc4dec18636dada14a78c772447a8d57348d55"
+    },
+    "4e-3g+3g-23": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-23",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/22",
+      "status": "algebraic_zero"
+    },
+    "4e-3g+3g-24": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-24",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/23",
+      "status": "in_progress",
+      "result": "results/4e-3g+3g-24/ibp-progress-r006.json",
+      "complete_IBP_terms": 13,
+      "target_IBP_terms": 19,
+      "whole_I_laurent": "partial_analytic",
+      "whole_I_known_Laurent_positions": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "whole_I_pole_upper_bound": 3,
+      "revision": "ibp-progress-r006",
+      "sha256": "244487b2480e834d71edab4308d43b950b4888dd4a1e895b141170193443d6c5",
+      "complete_coefficients": 6,
+      "target_coefficients": 7,
+      "whole_I_reflection_source": "4e-3g+3g-15:ibp-progress-r012"
+    },
+    "4e-3g+3g-25": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-25",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/24",
+      "status": "computed",
+      "result": "results/4e-3g+3g-25/ibp-progress-r005.json",
+      "complete_IBP_terms": 24,
+      "target_IBP_terms": 26,
+      "whole_I_laurent": "all_poles_and_finite_analytic_GPL_algebraic_Chen",
+      "whole_I_known_Laurent_positions": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ],
+      "revision": "ibp-progress-r005",
+      "sha256": "1741f0bf868755aa9842611d924425331356e1771966d948eafde818fbf3e1e9",
+      "complete_coefficients": 7,
+      "target_coefficients": 7,
+      "complete_negative_IBP_source_coverage": 26,
+      "jointly_negative_IBP_groups": [
+        [
+          25,
+          26
+        ]
+      ],
+      "formal": "not_run",
+      "complete_IBP_source_coverage": 26,
+      "jointly_completed_IBP_groups": [
+        [
+          25,
+          26
+        ]
+      ],
+      "IBP_completion_scope": "001..024 individually; 025+026 jointly in the same regulator",
+      "completion_representation": "explicit finite GPL/algebraic Chen special values; proposed smaller basis not proved"
+    },
+    "4e-3g+3g-26": {
+      "selector": "benchmarks/double-tgv/4e-3g+3g/current.json",
+      "selector_pointer": "/orbits/4e-3g+3g-26",
+      "source_path": "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json",
+      "source_pointer": "/orbits/25",
+      "status": "algebraic_zero"
+    }
+  },
+  "coefficient_source_bindings": [
+    {
+      "orbit": "4e-4g-02",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-02/r002.json",
+      "pointer": "/laurent/coefficients/-6",
+      "file_sha256": "bace2d7c45e278b3cc07da9cd92a2c7afc6ff29b967ee7620ed4b9cae42b25d5",
+      "field_canonical_json_sha256": "98089e6d36f78e9766c9ea34d5acb3611f3a92cd81c5eb102095d924ffc7d08b"
+    },
+    {
+      "orbit": "4e-4g-02",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-02/r002.json",
+      "pointer": "/laurent/coefficients/-5",
+      "file_sha256": "bace2d7c45e278b3cc07da9cd92a2c7afc6ff29b967ee7620ed4b9cae42b25d5",
+      "field_canonical_json_sha256": "600bdcaad15c988c2bb28f06d4618b537f9c4ea6d90a418e181ff39fdfee31a0"
+    },
+    {
+      "orbit": "4e-4g-02",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-02/r002.json",
+      "pointer": "/laurent/coefficients/-4",
+      "file_sha256": "bace2d7c45e278b3cc07da9cd92a2c7afc6ff29b967ee7620ed4b9cae42b25d5",
+      "field_canonical_json_sha256": "09208c368894ffd522e119edbd234e45257f8edaa34d5d83aab2ec7b7cbedf68"
+    },
+    {
+      "orbit": "4e-4g-02",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-02/r002.json",
+      "pointer": "/laurent/coefficients/-3",
+      "file_sha256": "bace2d7c45e278b3cc07da9cd92a2c7afc6ff29b967ee7620ed4b9cae42b25d5",
+      "field_canonical_json_sha256": "a96f9cb831c07eef58ff67758364b6506d262ec6c20748a132825f3fc9377a38"
+    },
+    {
+      "orbit": "4e-4g-02",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-02/r002.json",
+      "pointer": "/laurent/coefficients/-2",
+      "file_sha256": "bace2d7c45e278b3cc07da9cd92a2c7afc6ff29b967ee7620ed4b9cae42b25d5",
+      "field_canonical_json_sha256": "dcdc18a346347bb0b146abd5936013784089be19543829acdd4d5b5bb71804dd"
+    },
+    {
+      "orbit": "4e-4g-02",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-02/r002.json",
+      "pointer": "/laurent/coefficients/-1",
+      "file_sha256": "bace2d7c45e278b3cc07da9cd92a2c7afc6ff29b967ee7620ed4b9cae42b25d5",
+      "field_canonical_json_sha256": "d1e1c0c5afe337ce0c225a6a664e239503b0b5dc53d6cd47785ffdd6c82f6c77"
+    },
+    {
+      "orbit": "4e-4g-05",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-05/r003.json",
+      "pointer": "/laurent/coefficients/-6",
+      "file_sha256": "45e30a8f742ebac78dc13d1ef26ca4e4d5577392948cb572592850fb59690891",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-05",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-05/r003.json",
+      "pointer": "/laurent/coefficients/-5",
+      "file_sha256": "45e30a8f742ebac78dc13d1ef26ca4e4d5577392948cb572592850fb59690891",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-05",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-05/r003.json",
+      "pointer": "/laurent/coefficients/-4",
+      "file_sha256": "45e30a8f742ebac78dc13d1ef26ca4e4d5577392948cb572592850fb59690891",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-05",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-05/r003.json",
+      "pointer": "/laurent/coefficients/-3",
+      "file_sha256": "45e30a8f742ebac78dc13d1ef26ca4e4d5577392948cb572592850fb59690891",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-05",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-05/r003.json",
+      "pointer": "/laurent/coefficients/-2",
+      "file_sha256": "45e30a8f742ebac78dc13d1ef26ca4e4d5577392948cb572592850fb59690891",
+      "field_canonical_json_sha256": "effda46f19ffc79453bbfcca16f931dacf9eaa1fcdc2fbaad82b21fc478259cc"
+    },
+    {
+      "orbit": "4e-4g-05",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-05/r003.json",
+      "pointer": "/laurent/coefficients/-1",
+      "file_sha256": "45e30a8f742ebac78dc13d1ef26ca4e4d5577392948cb572592850fb59690891",
+      "field_canonical_json_sha256": "40e78188f0943c8eb018788cd4ee4a4c5ed92391d0fd4b5535e35a186b7ae7a2"
+    },
+    {
+      "orbit": "4e-4g-06",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-06/r003.json",
+      "pointer": "/laurent/coefficients/-6",
+      "file_sha256": "2aeb0104fe8cd72033d8f250f1906c0b7bfd022126661b164eae3a0878e425c4",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-06",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-06/r003.json",
+      "pointer": "/laurent/coefficients/-5",
+      "file_sha256": "2aeb0104fe8cd72033d8f250f1906c0b7bfd022126661b164eae3a0878e425c4",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-06",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-06/r003.json",
+      "pointer": "/laurent/coefficients/-4",
+      "file_sha256": "2aeb0104fe8cd72033d8f250f1906c0b7bfd022126661b164eae3a0878e425c4",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-06",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-06/r003.json",
+      "pointer": "/laurent/coefficients/-3",
+      "file_sha256": "2aeb0104fe8cd72033d8f250f1906c0b7bfd022126661b164eae3a0878e425c4",
+      "field_canonical_json_sha256": "d225e775f0b713cdb2c9dc71c051c13d0608cc4476115df071b4a9858e1fa810"
+    },
+    {
+      "orbit": "4e-4g-06",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-06/r003.json",
+      "pointer": "/laurent/coefficients/-2",
+      "file_sha256": "2aeb0104fe8cd72033d8f250f1906c0b7bfd022126661b164eae3a0878e425c4",
+      "field_canonical_json_sha256": "2879e5683a8ffa92d127774f7f26ca371d4dc6e7e0f9f324ffec5d7e8f276277"
+    },
+    {
+      "orbit": "4e-4g-06",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-06/r003.json",
+      "pointer": "/laurent/coefficients/-1",
+      "file_sha256": "2aeb0104fe8cd72033d8f250f1906c0b7bfd022126661b164eae3a0878e425c4",
+      "field_canonical_json_sha256": "9fefddddd2b05d622c65ca54ebddbcb999d35b86e4a1a5627e749eb47eeb20c7"
+    },
+    {
+      "orbit": "4e-4g-07",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-07/r003.json",
+      "pointer": "/laurent/coefficients/-6",
+      "file_sha256": "a0d7f76d9f39d095b38463ccff34da6cab4e2671f24f02a57e74e25a669bd0f4",
+      "field_canonical_json_sha256": "c4a82355516fdf6e5ee5a1cea6068cdea58c6e58c3a7e4543d2f852ffb5bf798"
+    },
+    {
+      "orbit": "4e-4g-07",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-07/r003.json",
+      "pointer": "/laurent/coefficients/-5",
+      "file_sha256": "a0d7f76d9f39d095b38463ccff34da6cab4e2671f24f02a57e74e25a669bd0f4",
+      "field_canonical_json_sha256": "c4a82355516fdf6e5ee5a1cea6068cdea58c6e58c3a7e4543d2f852ffb5bf798"
+    },
+    {
+      "orbit": "4e-4g-07",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-07/r003.json",
+      "pointer": "/laurent/coefficients/-4",
+      "file_sha256": "a0d7f76d9f39d095b38463ccff34da6cab4e2671f24f02a57e74e25a669bd0f4",
+      "field_canonical_json_sha256": "c4a82355516fdf6e5ee5a1cea6068cdea58c6e58c3a7e4543d2f852ffb5bf798"
+    },
+    {
+      "orbit": "4e-4g-07",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-07/r003.json",
+      "pointer": "/laurent/coefficients/-3",
+      "file_sha256": "a0d7f76d9f39d095b38463ccff34da6cab4e2671f24f02a57e74e25a669bd0f4",
+      "field_canonical_json_sha256": "c4a82355516fdf6e5ee5a1cea6068cdea58c6e58c3a7e4543d2f852ffb5bf798"
+    },
+    {
+      "orbit": "4e-4g-07",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-07/r003.json",
+      "pointer": "/laurent/coefficients/-2",
+      "file_sha256": "a0d7f76d9f39d095b38463ccff34da6cab4e2671f24f02a57e74e25a669bd0f4",
+      "field_canonical_json_sha256": "c4a82355516fdf6e5ee5a1cea6068cdea58c6e58c3a7e4543d2f852ffb5bf798"
+    },
+    {
+      "orbit": "4e-4g-07",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-07/r003.json",
+      "pointer": "/laurent/coefficients/-1",
+      "file_sha256": "a0d7f76d9f39d095b38463ccff34da6cab4e2671f24f02a57e74e25a669bd0f4",
+      "field_canonical_json_sha256": "5ab6728d6368986395b39277f2ab350c785bbb41f95c9369044a470621edbf7a"
+    },
+    {
+      "orbit": "4e-4g-08",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-08/r003.json",
+      "pointer": "/laurent/coefficients/-6",
+      "file_sha256": "afe94049f09856d675730a60033f3da2681866d0f39b181ea6916c7de6e33523",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-08",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-08/r003.json",
+      "pointer": "/laurent/coefficients/-5",
+      "file_sha256": "afe94049f09856d675730a60033f3da2681866d0f39b181ea6916c7de6e33523",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-08",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-08/r003.json",
+      "pointer": "/laurent/coefficients/-4",
+      "file_sha256": "afe94049f09856d675730a60033f3da2681866d0f39b181ea6916c7de6e33523",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-08",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-08/r003.json",
+      "pointer": "/laurent/coefficients/-3",
+      "file_sha256": "afe94049f09856d675730a60033f3da2681866d0f39b181ea6916c7de6e33523",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-08",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-08/r003.json",
+      "pointer": "/laurent/coefficients/-2",
+      "file_sha256": "afe94049f09856d675730a60033f3da2681866d0f39b181ea6916c7de6e33523",
+      "field_canonical_json_sha256": "effda46f19ffc79453bbfcca16f931dacf9eaa1fcdc2fbaad82b21fc478259cc"
+    },
+    {
+      "orbit": "4e-4g-08",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-08/r003.json",
+      "pointer": "/laurent/coefficients/-1",
+      "file_sha256": "afe94049f09856d675730a60033f3da2681866d0f39b181ea6916c7de6e33523",
+      "field_canonical_json_sha256": "40e78188f0943c8eb018788cd4ee4a4c5ed92391d0fd4b5535e35a186b7ae7a2"
+    },
+    {
+      "orbit": "4e-4g-09",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-09/r004.json",
+      "pointer": "/laurent/coefficients/-6",
+      "file_sha256": "6642e0b22755be0b0fd58a3bf877f81a21abe392504fe0a534919066e4d35888",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-09",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-09/r004.json",
+      "pointer": "/laurent/coefficients/-5",
+      "file_sha256": "6642e0b22755be0b0fd58a3bf877f81a21abe392504fe0a534919066e4d35888",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-09",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-09/r004.json",
+      "pointer": "/laurent/coefficients/-4",
+      "file_sha256": "6642e0b22755be0b0fd58a3bf877f81a21abe392504fe0a534919066e4d35888",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-09",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-09/r004.json",
+      "pointer": "/laurent/coefficients/-3",
+      "file_sha256": "6642e0b22755be0b0fd58a3bf877f81a21abe392504fe0a534919066e4d35888",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-09",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-09/r004.json",
+      "pointer": "/laurent/coefficients/-2",
+      "file_sha256": "6642e0b22755be0b0fd58a3bf877f81a21abe392504fe0a534919066e4d35888",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-4g-09",
+      "path": "benchmarks/fgv/4e-4g/results/4e-4g-09/r004.json",
+      "pointer": "/laurent/coefficients/-1",
+      "file_sha256": "6642e0b22755be0b0fd58a3bf877f81a21abe392504fe0a534919066e4d35888",
+      "field_canonical_json_sha256": "763e56ae3eaa7dbfbf6256a74fabddfe7ad07dfbe78f217189bc8c227014bb27"
+    },
+    {
+      "orbit": "4e-3g+3g-01",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-01/r001.json",
+      "pointer": "/laurent_coefficients/-6",
+      "file_sha256": "3f563d948279097fd0ff036e38bf7738149c04b2e8407e9064573fb74ec2b62a",
+      "field_canonical_json_sha256": "0c30bec653e5a051b050b0dd2c5fcad3a85e2ac6f43410010439931a0f2c06f8"
+    },
+    {
+      "orbit": "4e-3g+3g-01",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-01/r001.json",
+      "pointer": "/laurent_coefficients/-5",
+      "file_sha256": "3f563d948279097fd0ff036e38bf7738149c04b2e8407e9064573fb74ec2b62a",
+      "field_canonical_json_sha256": "7fda3b9b869295bc872c7bebff91726a3ef5d969a8894ecca939d1c0c512f277"
+    },
+    {
+      "orbit": "4e-3g+3g-01",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-01/r001.json",
+      "pointer": "/laurent_coefficients/-4",
+      "file_sha256": "3f563d948279097fd0ff036e38bf7738149c04b2e8407e9064573fb74ec2b62a",
+      "field_canonical_json_sha256": "b1f1476434cffe9159692254b9c8e0e31b26185431d4e0d7e568783336ca93ac"
+    },
+    {
+      "orbit": "4e-3g+3g-01",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-01/r001.json",
+      "pointer": "/laurent_coefficients/-3",
+      "file_sha256": "3f563d948279097fd0ff036e38bf7738149c04b2e8407e9064573fb74ec2b62a",
+      "field_canonical_json_sha256": "e1f27f725c7409d97e855c98cc85a43ca0a0465036f67723056dbf31aad78c3a"
+    },
+    {
+      "orbit": "4e-3g+3g-01",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-01/r001.json",
+      "pointer": "/laurent_coefficients/-2",
+      "file_sha256": "3f563d948279097fd0ff036e38bf7738149c04b2e8407e9064573fb74ec2b62a",
+      "field_canonical_json_sha256": "3a61764f1db711e3ad90b2dc8eb759e3e59f92ca10b1049f2066411240b16632"
+    },
+    {
+      "orbit": "4e-3g+3g-01",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-01/r001.json",
+      "pointer": "/laurent_coefficients/-1",
+      "file_sha256": "3f563d948279097fd0ff036e38bf7738149c04b2e8407e9064573fb74ec2b62a",
+      "field_canonical_json_sha256": "24cafcce38826a480e714ec1362e608e6c1563a8017eceefecb0152b2d9df244"
+    },
+    {
+      "orbit": "4e-3g+3g-03",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-03/r001.json",
+      "pointer": "/laurent_coefficients/-6",
+      "file_sha256": "0e6c2019c6737e615131a7f21c1954ce708cc3edcc6e7b7ea251c35e97d12119",
+      "field_canonical_json_sha256": "0c30bec653e5a051b050b0dd2c5fcad3a85e2ac6f43410010439931a0f2c06f8"
+    },
+    {
+      "orbit": "4e-3g+3g-03",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-03/r001.json",
+      "pointer": "/laurent_coefficients/-5",
+      "file_sha256": "0e6c2019c6737e615131a7f21c1954ce708cc3edcc6e7b7ea251c35e97d12119",
+      "field_canonical_json_sha256": "133178e1bba623a9fc6535ca6aa260f8d0c6f254c04a0b50165f402834466acf"
+    },
+    {
+      "orbit": "4e-3g+3g-03",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-03/r001.json",
+      "pointer": "/laurent_coefficients/-4",
+      "file_sha256": "0e6c2019c6737e615131a7f21c1954ce708cc3edcc6e7b7ea251c35e97d12119",
+      "field_canonical_json_sha256": "de3b9e4f4e26d28620c5ec6be6dccd0894361d6554020e3a0ffee4c1c022a6cf"
+    },
+    {
+      "orbit": "4e-3g+3g-03",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-03/r001.json",
+      "pointer": "/laurent_coefficients/-3",
+      "file_sha256": "0e6c2019c6737e615131a7f21c1954ce708cc3edcc6e7b7ea251c35e97d12119",
+      "field_canonical_json_sha256": "789c97ed63efd40d2d0eeaf5a1eae09bd540bd021fade9cfdc76ee4099ec9fd0"
+    },
+    {
+      "orbit": "4e-3g+3g-03",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-03/r001.json",
+      "pointer": "/laurent_coefficients/-2",
+      "file_sha256": "0e6c2019c6737e615131a7f21c1954ce708cc3edcc6e7b7ea251c35e97d12119",
+      "field_canonical_json_sha256": "5c09345bd3985b693f6301a2c7e08448d02d26fd2407bd9984f4c47584d6554c"
+    },
+    {
+      "orbit": "4e-3g+3g-03",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-03/r001.json",
+      "pointer": "/laurent_coefficients/-1",
+      "file_sha256": "0e6c2019c6737e615131a7f21c1954ce708cc3edcc6e7b7ea251c35e97d12119",
+      "field_canonical_json_sha256": "2db442ad41bc19845f3f2d252d8fce0caae4eea0a875000f89a4e509d235d4ab"
+    },
+    {
+      "orbit": "4e-3g+3g-04",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-04/r001.json",
+      "pointer": "/laurent_coefficients/-6",
+      "file_sha256": "b660fc72ac8886d6ca0ba57d9707e02db93d1c518160b00cee2d32282f409d0b",
+      "field_canonical_json_sha256": "0c30bec653e5a051b050b0dd2c5fcad3a85e2ac6f43410010439931a0f2c06f8"
+    },
+    {
+      "orbit": "4e-3g+3g-04",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-04/r001.json",
+      "pointer": "/laurent_coefficients/-5",
+      "file_sha256": "b660fc72ac8886d6ca0ba57d9707e02db93d1c518160b00cee2d32282f409d0b",
+      "field_canonical_json_sha256": "ea33780136caf6f1d139095213dfb0828c446dbf242bed6bffd078c74a75b428"
+    },
+    {
+      "orbit": "4e-3g+3g-04",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-04/r001.json",
+      "pointer": "/laurent_coefficients/-4",
+      "file_sha256": "b660fc72ac8886d6ca0ba57d9707e02db93d1c518160b00cee2d32282f409d0b",
+      "field_canonical_json_sha256": "6b0873736a31ea1ed8b7661545a14a91b54915f07faea94392422993c55cb94d"
+    },
+    {
+      "orbit": "4e-3g+3g-04",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-04/r001.json",
+      "pointer": "/laurent_coefficients/-3",
+      "file_sha256": "b660fc72ac8886d6ca0ba57d9707e02db93d1c518160b00cee2d32282f409d0b",
+      "field_canonical_json_sha256": "3c346cc25526981d235d66be0235e9239b47a3094c8c76a51be1319acc479990"
+    },
+    {
+      "orbit": "4e-3g+3g-04",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-04/r001.json",
+      "pointer": "/laurent_coefficients/-2",
+      "file_sha256": "b660fc72ac8886d6ca0ba57d9707e02db93d1c518160b00cee2d32282f409d0b",
+      "field_canonical_json_sha256": "ee2578f5e922a2ac1c9956534d8db8b329aeee885fd70bd37d2b45712ef38c41"
+    },
+    {
+      "orbit": "4e-3g+3g-04",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-04/r001.json",
+      "pointer": "/laurent_coefficients/-1",
+      "file_sha256": "b660fc72ac8886d6ca0ba57d9707e02db93d1c518160b00cee2d32282f409d0b",
+      "field_canonical_json_sha256": "4da25e65abb8c28e5f1355efa934bd5cd6783abad0065a703c9f00124223b19b"
+    },
+    {
+      "orbit": "4e-3g+3g-06",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-06/r001.json",
+      "pointer": "/laurent_coefficients/-6",
+      "file_sha256": "a821814e06b76bfa43089500abf4782c42368450050197240e1487ecc468b9c8",
+      "field_canonical_json_sha256": "0b3797a309608b527e681a016b93a4e1e6dbcb12b16e43a6dd1d57998037d31f"
+    },
+    {
+      "orbit": "4e-3g+3g-06",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-06/r001.json",
+      "pointer": "/laurent_coefficients/-5",
+      "file_sha256": "a821814e06b76bfa43089500abf4782c42368450050197240e1487ecc468b9c8",
+      "field_canonical_json_sha256": "169f5c05b341b20025935a3c0e53f3f85fcc07baf3d8c9ba223950fd6252f364"
+    },
+    {
+      "orbit": "4e-3g+3g-06",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-06/r001.json",
+      "pointer": "/laurent_coefficients/-4",
+      "file_sha256": "a821814e06b76bfa43089500abf4782c42368450050197240e1487ecc468b9c8",
+      "field_canonical_json_sha256": "947384cfce5109b0d3c906933279c00625c0d2d9625bef609b5d53355e7ebe39"
+    },
+    {
+      "orbit": "4e-3g+3g-06",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-06/r001.json",
+      "pointer": "/laurent_coefficients/-3",
+      "file_sha256": "a821814e06b76bfa43089500abf4782c42368450050197240e1487ecc468b9c8",
+      "field_canonical_json_sha256": "6d9ebcd00edcf48fe943d7315deedf375482f65a42885dbb5077eb6ef331ef61"
+    },
+    {
+      "orbit": "4e-3g+3g-06",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-06/r001.json",
+      "pointer": "/laurent_coefficients/-2",
+      "file_sha256": "a821814e06b76bfa43089500abf4782c42368450050197240e1487ecc468b9c8",
+      "field_canonical_json_sha256": "d9367434644735ff26c2b7c6d8b7b8a7e586a2cb65dcae7a3d739238454a7432"
+    },
+    {
+      "orbit": "4e-3g+3g-06",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-06/r001.json",
+      "pointer": "/laurent_coefficients/-1",
+      "file_sha256": "a821814e06b76bfa43089500abf4782c42368450050197240e1487ecc468b9c8",
+      "field_canonical_json_sha256": "93167b8d83e5821c8ec78397bd7fce1005478d8add5af5ced4135cde5a66f593"
+    },
+    {
+      "orbit": "4e-3g+3g-07",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-07/r001.json",
+      "pointer": "/laurent_coefficients/-6",
+      "file_sha256": "77cc5f713dbdb115e0d06a091c0b30314ed579b2c0f288eefdf126eb2fa4dcf4",
+      "field_canonical_json_sha256": "0c30bec653e5a051b050b0dd2c5fcad3a85e2ac6f43410010439931a0f2c06f8"
+    },
+    {
+      "orbit": "4e-3g+3g-07",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-07/r001.json",
+      "pointer": "/laurent_coefficients/-5",
+      "file_sha256": "77cc5f713dbdb115e0d06a091c0b30314ed579b2c0f288eefdf126eb2fa4dcf4",
+      "field_canonical_json_sha256": "7fda3b9b869295bc872c7bebff91726a3ef5d969a8894ecca939d1c0c512f277"
+    },
+    {
+      "orbit": "4e-3g+3g-07",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-07/r001.json",
+      "pointer": "/laurent_coefficients/-4",
+      "file_sha256": "77cc5f713dbdb115e0d06a091c0b30314ed579b2c0f288eefdf126eb2fa4dcf4",
+      "field_canonical_json_sha256": "b1f1476434cffe9159692254b9c8e0e31b26185431d4e0d7e568783336ca93ac"
+    },
+    {
+      "orbit": "4e-3g+3g-07",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-07/r001.json",
+      "pointer": "/laurent_coefficients/-3",
+      "file_sha256": "77cc5f713dbdb115e0d06a091c0b30314ed579b2c0f288eefdf126eb2fa4dcf4",
+      "field_canonical_json_sha256": "e1f27f725c7409d97e855c98cc85a43ca0a0465036f67723056dbf31aad78c3a"
+    },
+    {
+      "orbit": "4e-3g+3g-07",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-07/r001.json",
+      "pointer": "/laurent_coefficients/-2",
+      "file_sha256": "77cc5f713dbdb115e0d06a091c0b30314ed579b2c0f288eefdf126eb2fa4dcf4",
+      "field_canonical_json_sha256": "3a61764f1db711e3ad90b2dc8eb759e3e59f92ca10b1049f2066411240b16632"
+    },
+    {
+      "orbit": "4e-3g+3g-07",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-07/r001.json",
+      "pointer": "/laurent_coefficients/-1",
+      "file_sha256": "77cc5f713dbdb115e0d06a091c0b30314ed579b2c0f288eefdf126eb2fa4dcf4",
+      "field_canonical_json_sha256": "24cafcce38826a480e714ec1362e608e6c1563a8017eceefecb0152b2d9df244"
+    },
+    {
+      "orbit": "4e-3g+3g-09",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-09/r001.json",
+      "pointer": "/laurent_coefficients/-6",
+      "file_sha256": "9ba09ddf786f20bce16cd368d30d7a16cc96f09326ab9a272db7f59d4f0a275d",
+      "field_canonical_json_sha256": "0c30bec653e5a051b050b0dd2c5fcad3a85e2ac6f43410010439931a0f2c06f8"
+    },
+    {
+      "orbit": "4e-3g+3g-09",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-09/r001.json",
+      "pointer": "/laurent_coefficients/-5",
+      "file_sha256": "9ba09ddf786f20bce16cd368d30d7a16cc96f09326ab9a272db7f59d4f0a275d",
+      "field_canonical_json_sha256": "133178e1bba623a9fc6535ca6aa260f8d0c6f254c04a0b50165f402834466acf"
+    },
+    {
+      "orbit": "4e-3g+3g-09",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-09/r001.json",
+      "pointer": "/laurent_coefficients/-4",
+      "file_sha256": "9ba09ddf786f20bce16cd368d30d7a16cc96f09326ab9a272db7f59d4f0a275d",
+      "field_canonical_json_sha256": "de3b9e4f4e26d28620c5ec6be6dccd0894361d6554020e3a0ffee4c1c022a6cf"
+    },
+    {
+      "orbit": "4e-3g+3g-09",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-09/r001.json",
+      "pointer": "/laurent_coefficients/-3",
+      "file_sha256": "9ba09ddf786f20bce16cd368d30d7a16cc96f09326ab9a272db7f59d4f0a275d",
+      "field_canonical_json_sha256": "789c97ed63efd40d2d0eeaf5a1eae09bd540bd021fade9cfdc76ee4099ec9fd0"
+    },
+    {
+      "orbit": "4e-3g+3g-09",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-09/r001.json",
+      "pointer": "/laurent_coefficients/-2",
+      "file_sha256": "9ba09ddf786f20bce16cd368d30d7a16cc96f09326ab9a272db7f59d4f0a275d",
+      "field_canonical_json_sha256": "5c09345bd3985b693f6301a2c7e08448d02d26fd2407bd9984f4c47584d6554c"
+    },
+    {
+      "orbit": "4e-3g+3g-09",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-09/r001.json",
+      "pointer": "/laurent_coefficients/-1",
+      "file_sha256": "9ba09ddf786f20bce16cd368d30d7a16cc96f09326ab9a272db7f59d4f0a275d",
+      "field_canonical_json_sha256": "2db442ad41bc19845f3f2d252d8fce0caae4eea0a875000f89a4e509d235d4ab"
+    },
+    {
+      "orbit": "4e-3g+3g-10",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-10/r001.json",
+      "pointer": "/laurent/coefficients/-6",
+      "file_sha256": "b2293a97587f83d1c0fb764e07ed1f6b3ca8b2c1d0fb5dbc028f71342741553e",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-10",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-10/r001.json",
+      "pointer": "/laurent/coefficients/-5",
+      "file_sha256": "b2293a97587f83d1c0fb764e07ed1f6b3ca8b2c1d0fb5dbc028f71342741553e",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-10",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-10/r001.json",
+      "pointer": "/laurent/coefficients/-4",
+      "file_sha256": "b2293a97587f83d1c0fb764e07ed1f6b3ca8b2c1d0fb5dbc028f71342741553e",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-10",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-10/r001.json",
+      "pointer": "/laurent/coefficients/-3",
+      "file_sha256": "b2293a97587f83d1c0fb764e07ed1f6b3ca8b2c1d0fb5dbc028f71342741553e",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-10",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-10/r001.json",
+      "pointer": "/laurent/coefficients/-2",
+      "file_sha256": "b2293a97587f83d1c0fb764e07ed1f6b3ca8b2c1d0fb5dbc028f71342741553e",
+      "field_canonical_json_sha256": "60c26a9ec27d116028bc6b99f89dd8b9dbdd891b4aaced04c1e3bf240efc6520"
+    },
+    {
+      "orbit": "4e-3g+3g-10",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-10/r001.json",
+      "pointer": "/laurent/coefficients/-1",
+      "file_sha256": "b2293a97587f83d1c0fb764e07ed1f6b3ca8b2c1d0fb5dbc028f71342741553e",
+      "field_canonical_json_sha256": "5799d90b63921fb5e466dc7b1277bdfd59a5effdd444e9ba90b4e4ff48251d5f"
+    },
+    {
+      "orbit": "4e-3g+3g-12",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-12/r001.json",
+      "pointer": "/laurent/coefficients/-6",
+      "file_sha256": "6f4fb8eeaa5c3887ca675ab919454a369940eb83ab88d42824e3a88b4335192e",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-12",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-12/r001.json",
+      "pointer": "/laurent/coefficients/-5",
+      "file_sha256": "6f4fb8eeaa5c3887ca675ab919454a369940eb83ab88d42824e3a88b4335192e",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-12",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-12/r001.json",
+      "pointer": "/laurent/coefficients/-4",
+      "file_sha256": "6f4fb8eeaa5c3887ca675ab919454a369940eb83ab88d42824e3a88b4335192e",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-12",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-12/r001.json",
+      "pointer": "/laurent/coefficients/-3",
+      "file_sha256": "6f4fb8eeaa5c3887ca675ab919454a369940eb83ab88d42824e3a88b4335192e",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-12",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-12/r001.json",
+      "pointer": "/laurent/coefficients/-2",
+      "file_sha256": "6f4fb8eeaa5c3887ca675ab919454a369940eb83ab88d42824e3a88b4335192e",
+      "field_canonical_json_sha256": "60c26a9ec27d116028bc6b99f89dd8b9dbdd891b4aaced04c1e3bf240efc6520"
+    },
+    {
+      "orbit": "4e-3g+3g-12",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-12/r001.json",
+      "pointer": "/laurent/coefficients/-1",
+      "file_sha256": "6f4fb8eeaa5c3887ca675ab919454a369940eb83ab88d42824e3a88b4335192e",
+      "field_canonical_json_sha256": "5799d90b63921fb5e466dc7b1277bdfd59a5effdd444e9ba90b4e4ff48251d5f"
+    },
+    {
+      "orbit": "4e-3g+3g-13",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-13/r002.json",
+      "pointer": "/laurent/coefficients/-6",
+      "file_sha256": "e009322935b78669a35b07767398c4599e2e1895c8d4df4ef047b070ac3439e6",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-13",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-13/r002.json",
+      "pointer": "/laurent/coefficients/-5",
+      "file_sha256": "e009322935b78669a35b07767398c4599e2e1895c8d4df4ef047b070ac3439e6",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-13",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-13/r002.json",
+      "pointer": "/laurent/coefficients/-4",
+      "file_sha256": "e009322935b78669a35b07767398c4599e2e1895c8d4df4ef047b070ac3439e6",
+      "field_canonical_json_sha256": "c94c368fa2c24451d3aa45edd1065ee9b4633ce5b9b610e02f96e5598a2c824c"
+    },
+    {
+      "orbit": "4e-3g+3g-13",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-13/r002.json",
+      "pointer": "/laurent/coefficients/-3",
+      "file_sha256": "e009322935b78669a35b07767398c4599e2e1895c8d4df4ef047b070ac3439e6",
+      "field_canonical_json_sha256": "bfc9f78653164b2a063d7e66b22d42a871190d5f48809b47fc68040d96d39aab"
+    },
+    {
+      "orbit": "4e-3g+3g-13",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-13/r002.json",
+      "pointer": "/laurent/coefficients/-2",
+      "file_sha256": "e009322935b78669a35b07767398c4599e2e1895c8d4df4ef047b070ac3439e6",
+      "field_canonical_json_sha256": "ba2813fee9d114d22795b00b0a85eeb68c5fe71fb518680418c486c1465ab5dd"
+    },
+    {
+      "orbit": "4e-3g+3g-13",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-13/r002.json",
+      "pointer": "/laurent/coefficients/-1",
+      "file_sha256": "e009322935b78669a35b07767398c4599e2e1895c8d4df4ef047b070ac3439e6",
+      "field_canonical_json_sha256": "81cc9483988ac6959b041c64d13e174317a3e48712ec3748b05c1c7db2647029"
+    },
+    {
+      "orbit": "4e-3g+3g-15",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-15/ibp-progress-r012.json",
+      "pointer": "/whole_I_known_positions/-6",
+      "file_sha256": "7c9e4dc550a3be2ee896b5ec9127cba1ca558de861c5eed8782a70e2f6fa7cd0",
+      "field_canonical_json_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "orbit": "4e-3g+3g-15",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-15/ibp-progress-r012.json",
+      "pointer": "/whole_I_known_positions/-5",
+      "file_sha256": "7c9e4dc550a3be2ee896b5ec9127cba1ca558de861c5eed8782a70e2f6fa7cd0",
+      "field_canonical_json_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "orbit": "4e-3g+3g-15",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-15/ibp-progress-r012.json",
+      "pointer": "/whole_I_known_positions/-4",
+      "file_sha256": "7c9e4dc550a3be2ee896b5ec9127cba1ca558de861c5eed8782a70e2f6fa7cd0",
+      "field_canonical_json_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "orbit": "4e-3g+3g-15",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-15/ibp-progress-r012.json",
+      "pointer": "/whole_I_known_positions/-3",
+      "file_sha256": "7c9e4dc550a3be2ee896b5ec9127cba1ca558de861c5eed8782a70e2f6fa7cd0",
+      "field_canonical_json_sha256": "bb30591fd12941b4810aaf5a6f2762cc0098f811e7c27bbfa5836b40c0198ca1"
+    },
+    {
+      "orbit": "4e-3g+3g-15",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-15/ibp-progress-r012.json",
+      "pointer": "/whole_I_known_positions/-2",
+      "file_sha256": "7c9e4dc550a3be2ee896b5ec9127cba1ca558de861c5eed8782a70e2f6fa7cd0",
+      "field_canonical_json_sha256": "9145637b782a9c02ce7a3be9894b682928e8a19866fffe3ddd76e900d0d713cb"
+    },
+    {
+      "orbit": "4e-3g+3g-15",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-15/ibp-progress-r012.json",
+      "pointer": "/whole_I_known_positions/-1",
+      "file_sha256": "7c9e4dc550a3be2ee896b5ec9127cba1ca558de861c5eed8782a70e2f6fa7cd0",
+      "field_canonical_json_sha256": "f8cb25efa519e8974b6546241d96661ccdc3ce2844dcd92793d6257d7ee0a38e"
+    },
+    {
+      "orbit": "4e-3g+3g-16",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-16/ibp-progress-r006.json",
+      "pointer": "/whole_I_pole_order_proof/raw_pole_order_bound",
+      "file_sha256": "18b127cb290abcee9eb69d3b00d95514efb2927f4805cc4a1a2a3365b4929635",
+      "field_canonical_json_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+    },
+    {
+      "orbit": "4e-3g+3g-16",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-16/ibp-progress-r006.json",
+      "pointer": "/whole_I_fourth_pole_proof/physical_I_coefficient",
+      "file_sha256": "18b127cb290abcee9eb69d3b00d95514efb2927f4805cc4a1a2a3365b4929635",
+      "field_canonical_json_sha256": "addcde0a638e44de46bf61dea5597b2b3fccaef6b183d41a9ee5def5209e6faa"
+    },
+    {
+      "orbit": "4e-3g+3g-16",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-16/ibp-progress-r006.json",
+      "pointer": "/whole_I_third_pole_proof/physical_I_coefficient",
+      "file_sha256": "18b127cb290abcee9eb69d3b00d95514efb2927f4805cc4a1a2a3365b4929635",
+      "field_canonical_json_sha256": "637d97a3f09831dc0dddf291fbd435669685811c94485101929ed9f961106f42"
+    },
+    {
+      "orbit": "4e-3g+3g-16",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-16/ibp-progress-r006.json",
+      "pointer": "/whole_I_second_pole_proof/physical_I_coefficient_Maple_Hlog",
+      "file_sha256": "18b127cb290abcee9eb69d3b00d95514efb2927f4805cc4a1a2a3365b4929635",
+      "field_canonical_json_sha256": "0b2a863f452163cc465fd1b16f11bae28d7b49da8377fe5a84f022eab27f4823"
+    },
+    {
+      "orbit": "4e-3g+3g-18",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-18/r001.json",
+      "pointer": "/laurent_coefficients/-6",
+      "file_sha256": "0b88e4898f90e76c3d2567155cf3d65f2948afa7837cde493e6cef7207b1a608",
+      "field_canonical_json_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "orbit": "4e-3g+3g-18",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-18/r001.json",
+      "pointer": "/laurent_coefficients/-5",
+      "file_sha256": "0b88e4898f90e76c3d2567155cf3d65f2948afa7837cde493e6cef7207b1a608",
+      "field_canonical_json_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "orbit": "4e-3g+3g-18",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-18/r001.json",
+      "pointer": "/laurent_coefficients/-4",
+      "file_sha256": "0b88e4898f90e76c3d2567155cf3d65f2948afa7837cde493e6cef7207b1a608",
+      "field_canonical_json_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "orbit": "4e-3g+3g-18",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-18/r001.json",
+      "pointer": "/laurent_coefficients/-3",
+      "file_sha256": "0b88e4898f90e76c3d2567155cf3d65f2948afa7837cde493e6cef7207b1a608",
+      "field_canonical_json_sha256": "2529812bfdf868acd996d98dd345fa5b1122e618e5c123af8edf7170e4f7bc68"
+    },
+    {
+      "orbit": "4e-3g+3g-18",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-18/r001.json",
+      "pointer": "/laurent_coefficients/-2",
+      "file_sha256": "0b88e4898f90e76c3d2567155cf3d65f2948afa7837cde493e6cef7207b1a608",
+      "field_canonical_json_sha256": "5bb4e5d3b12b77578f10212c9bb5c68360d564d0d4c06537c5799d0fd1eca731"
+    },
+    {
+      "orbit": "4e-3g+3g-18",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-18/r001.json",
+      "pointer": "/laurent_coefficients/-1",
+      "file_sha256": "0b88e4898f90e76c3d2567155cf3d65f2948afa7837cde493e6cef7207b1a608",
+      "field_canonical_json_sha256": "ae4beb0c7c3b23227b87661904a8818531b07741927def5652bc7d34747232a3"
+    },
+    {
+      "orbit": "4e-3g+3g-19",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-19/r001.json",
+      "pointer": "/laurent/coefficients/-6",
+      "file_sha256": "6c7665c33317885544c804f43a70abb626ba6569a7ecdcabae28a925b07d7e92",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-19",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-19/r001.json",
+      "pointer": "/laurent/coefficients/-5",
+      "file_sha256": "6c7665c33317885544c804f43a70abb626ba6569a7ecdcabae28a925b07d7e92",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-19",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-19/r001.json",
+      "pointer": "/laurent/coefficients/-4",
+      "file_sha256": "6c7665c33317885544c804f43a70abb626ba6569a7ecdcabae28a925b07d7e92",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-19",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-19/r001.json",
+      "pointer": "/laurent/coefficients/-3",
+      "file_sha256": "6c7665c33317885544c804f43a70abb626ba6569a7ecdcabae28a925b07d7e92",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-19",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-19/r001.json",
+      "pointer": "/laurent/coefficients/-2",
+      "file_sha256": "6c7665c33317885544c804f43a70abb626ba6569a7ecdcabae28a925b07d7e92",
+      "field_canonical_json_sha256": "0ae9f6cbc39cc9de2f5c6d899b61b22704b290c36a2729cabea44b6ba8f6c694"
+    },
+    {
+      "orbit": "4e-3g+3g-19",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-19/r001.json",
+      "pointer": "/laurent/coefficients/-1",
+      "file_sha256": "6c7665c33317885544c804f43a70abb626ba6569a7ecdcabae28a925b07d7e92",
+      "field_canonical_json_sha256": "03700b21b63b366e7f3c38b84edc1184845336d9a13dc625fbb601a3e17e962e"
+    },
+    {
+      "orbit": "4e-3g+3g-21",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-21/ibp-progress-r005.json",
+      "pointer": "/whole_I_coefficients/eps^-6",
+      "file_sha256": "216bc6cd5d261b0701ef0ec4277b7d6359b946f5a86a848f265f8666302cbd25",
+      "field_canonical_json_sha256": "98089e6d36f78e9766c9ea34d5acb3611f3a92cd81c5eb102095d924ffc7d08b"
+    },
+    {
+      "orbit": "4e-3g+3g-21",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-21/ibp-progress-r005.json",
+      "pointer": "/whole_I_coefficients/eps^-5",
+      "file_sha256": "216bc6cd5d261b0701ef0ec4277b7d6359b946f5a86a848f265f8666302cbd25",
+      "field_canonical_json_sha256": "98089e6d36f78e9766c9ea34d5acb3611f3a92cd81c5eb102095d924ffc7d08b"
+    },
+    {
+      "orbit": "4e-3g+3g-21",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-21/ibp-progress-r005.json",
+      "pointer": "/whole_I_coefficients/eps^-4",
+      "file_sha256": "216bc6cd5d261b0701ef0ec4277b7d6359b946f5a86a848f265f8666302cbd25",
+      "field_canonical_json_sha256": "98089e6d36f78e9766c9ea34d5acb3611f3a92cd81c5eb102095d924ffc7d08b"
+    },
+    {
+      "orbit": "4e-3g+3g-21",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-21/ibp-progress-r005.json",
+      "pointer": "/whole_I_coefficients/eps^-3",
+      "file_sha256": "216bc6cd5d261b0701ef0ec4277b7d6359b946f5a86a848f265f8666302cbd25",
+      "field_canonical_json_sha256": "98089e6d36f78e9766c9ea34d5acb3611f3a92cd81c5eb102095d924ffc7d08b"
+    },
+    {
+      "orbit": "4e-3g+3g-21",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-21/ibp-progress-r005.json",
+      "pointer": "/whole_I_coefficients/eps^-2",
+      "file_sha256": "216bc6cd5d261b0701ef0ec4277b7d6359b946f5a86a848f265f8666302cbd25",
+      "field_canonical_json_sha256": "98089e6d36f78e9766c9ea34d5acb3611f3a92cd81c5eb102095d924ffc7d08b"
+    },
+    {
+      "orbit": "4e-3g+3g-21",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-21/ibp-progress-r005.json",
+      "pointer": "/whole_I_coefficients/eps^-1",
+      "file_sha256": "216bc6cd5d261b0701ef0ec4277b7d6359b946f5a86a848f265f8666302cbd25",
+      "field_canonical_json_sha256": "3173863d3dd0e76247e176fd48fb369eaf4e51ed4b500a5c7812e4e4bcce2d7b"
+    },
+    {
+      "orbit": "4e-3g+3g-21",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-21/ibp-progress-r005.json",
+      "pointer": "/compact_Laurent_formula/pole_terms",
+      "file_sha256": "216bc6cd5d261b0701ef0ec4277b7d6359b946f5a86a848f265f8666302cbd25",
+      "field_canonical_json_sha256": "a430e5b2b8494288909ca0105517482657325d332a64f6a3b91a56b0e15021b9"
+    },
+    {
+      "orbit": "4e-3g+3g-22",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-22/r002.json",
+      "pointer": "/laurent/coefficients/-6",
+      "file_sha256": "953411ecb5b619333bd305c22bcc4dec18636dada14a78c772447a8d57348d55",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-22",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-22/r002.json",
+      "pointer": "/laurent/coefficients/-5",
+      "file_sha256": "953411ecb5b619333bd305c22bcc4dec18636dada14a78c772447a8d57348d55",
+      "field_canonical_json_sha256": "75451811d61eb7dbed1f9193b8705076be4a1e91add8a1cbd982d3de0e4f0738"
+    },
+    {
+      "orbit": "4e-3g+3g-22",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-22/r002.json",
+      "pointer": "/laurent/coefficients/-4",
+      "file_sha256": "953411ecb5b619333bd305c22bcc4dec18636dada14a78c772447a8d57348d55",
+      "field_canonical_json_sha256": "c94c368fa2c24451d3aa45edd1065ee9b4633ce5b9b610e02f96e5598a2c824c"
+    },
+    {
+      "orbit": "4e-3g+3g-22",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-22/r002.json",
+      "pointer": "/laurent/coefficients/-3",
+      "file_sha256": "953411ecb5b619333bd305c22bcc4dec18636dada14a78c772447a8d57348d55",
+      "field_canonical_json_sha256": "bfc9f78653164b2a063d7e66b22d42a871190d5f48809b47fc68040d96d39aab"
+    },
+    {
+      "orbit": "4e-3g+3g-22",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-22/r002.json",
+      "pointer": "/laurent/coefficients/-2",
+      "file_sha256": "953411ecb5b619333bd305c22bcc4dec18636dada14a78c772447a8d57348d55",
+      "field_canonical_json_sha256": "ba2813fee9d114d22795b00b0a85eeb68c5fe71fb518680418c486c1465ab5dd"
+    },
+    {
+      "orbit": "4e-3g+3g-22",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-22/r002.json",
+      "pointer": "/laurent/coefficients/-1",
+      "file_sha256": "953411ecb5b619333bd305c22bcc4dec18636dada14a78c772447a8d57348d55",
+      "field_canonical_json_sha256": "81cc9483988ac6959b041c64d13e174317a3e48712ec3748b05c1c7db2647029"
+    },
+    {
+      "orbit": "4e-3g+3g-24",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-24/ibp-progress-r006.json",
+      "pointer": "/whole_I_known_positions/-6",
+      "file_sha256": "244487b2480e834d71edab4308d43b950b4888dd4a1e895b141170193443d6c5",
+      "field_canonical_json_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "orbit": "4e-3g+3g-24",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-24/ibp-progress-r006.json",
+      "pointer": "/whole_I_known_positions/-5",
+      "file_sha256": "244487b2480e834d71edab4308d43b950b4888dd4a1e895b141170193443d6c5",
+      "field_canonical_json_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "orbit": "4e-3g+3g-24",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-24/ibp-progress-r006.json",
+      "pointer": "/whole_I_known_positions/-4",
+      "file_sha256": "244487b2480e834d71edab4308d43b950b4888dd4a1e895b141170193443d6c5",
+      "field_canonical_json_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "orbit": "4e-3g+3g-24",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-24/ibp-progress-r006.json",
+      "pointer": "/whole_I_known_positions/-3",
+      "file_sha256": "244487b2480e834d71edab4308d43b950b4888dd4a1e895b141170193443d6c5",
+      "field_canonical_json_sha256": "bb30591fd12941b4810aaf5a6f2762cc0098f811e7c27bbfa5836b40c0198ca1"
+    },
+    {
+      "orbit": "4e-3g+3g-24",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-24/ibp-progress-r006.json",
+      "pointer": "/whole_I_known_positions/-2",
+      "file_sha256": "244487b2480e834d71edab4308d43b950b4888dd4a1e895b141170193443d6c5",
+      "field_canonical_json_sha256": "9145637b782a9c02ce7a3be9894b682928e8a19866fffe3ddd76e900d0d713cb"
+    },
+    {
+      "orbit": "4e-3g+3g-24",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-24/ibp-progress-r006.json",
+      "pointer": "/whole_I_known_positions/-1",
+      "file_sha256": "244487b2480e834d71edab4308d43b950b4888dd4a1e895b141170193443d6c5",
+      "field_canonical_json_sha256": "f8cb25efa519e8974b6546241d96661ccdc3ce2844dcd92793d6257d7ee0a38e"
+    },
+    {
+      "orbit": "4e-3g+3g-25",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-25/ibp-progress-r005.json",
+      "pointer": "/whole_I_coefficients/-6",
+      "file_sha256": "1741f0bf868755aa9842611d924425331356e1771966d948eafde818fbf3e1e9",
+      "field_canonical_json_sha256": "98089e6d36f78e9766c9ea34d5acb3611f3a92cd81c5eb102095d924ffc7d08b"
+    },
+    {
+      "orbit": "4e-3g+3g-25",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-25/ibp-progress-r005.json",
+      "pointer": "/whole_I_coefficients/-5",
+      "file_sha256": "1741f0bf868755aa9842611d924425331356e1771966d948eafde818fbf3e1e9",
+      "field_canonical_json_sha256": "98089e6d36f78e9766c9ea34d5acb3611f3a92cd81c5eb102095d924ffc7d08b"
+    },
+    {
+      "orbit": "4e-3g+3g-25",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-25/ibp-progress-r005.json",
+      "pointer": "/whole_I_coefficients/-4",
+      "file_sha256": "1741f0bf868755aa9842611d924425331356e1771966d948eafde818fbf3e1e9",
+      "field_canonical_json_sha256": "98089e6d36f78e9766c9ea34d5acb3611f3a92cd81c5eb102095d924ffc7d08b"
+    },
+    {
+      "orbit": "4e-3g+3g-25",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-25/ibp-progress-r005.json",
+      "pointer": "/whole_I_coefficients/-3",
+      "file_sha256": "1741f0bf868755aa9842611d924425331356e1771966d948eafde818fbf3e1e9",
+      "field_canonical_json_sha256": "98089e6d36f78e9766c9ea34d5acb3611f3a92cd81c5eb102095d924ffc7d08b"
+    },
+    {
+      "orbit": "4e-3g+3g-25",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-25/ibp-progress-r005.json",
+      "pointer": "/whole_I_coefficients/-2",
+      "file_sha256": "1741f0bf868755aa9842611d924425331356e1771966d948eafde818fbf3e1e9",
+      "field_canonical_json_sha256": "62182efd2890148c50a263d829dba0f5912e581ac6e2c3d64c38e7c3657bd630"
+    },
+    {
+      "orbit": "4e-3g+3g-25",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-25/ibp-progress-r005.json",
+      "pointer": "/whole_I_coefficients/-1",
+      "file_sha256": "1741f0bf868755aa9842611d924425331356e1771966d948eafde818fbf3e1e9",
+      "field_canonical_json_sha256": "c055aac610461f21876217195e358b1cf29137dff9e717f19ebcde6b4749a9d6"
+    },
+    {
+      "orbit": "4e-3g+3g-25",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-25/ibp-progress-r005.json",
+      "pointer": "/pole2_GPL",
+      "file_sha256": "1741f0bf868755aa9842611d924425331356e1771966d948eafde818fbf3e1e9",
+      "field_canonical_json_sha256": "94877bd6d34077730a47dd108b9912f05fa138f4867a7234617a6b458c9c9fe8"
+    },
+    {
+      "orbit": "4e-3g+3g-25",
+      "path": "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-25/ibp-progress-r005.json",
+      "pointer": "/pole1_GPL",
+      "file_sha256": "1741f0bf868755aa9842611d924425331356e1771966d948eafde818fbf3e1e9",
+      "field_canonical_json_sha256": "6100b436fd56712543510b463586280dea059d44441e62f30d7b41ef0d16254f"
+    }
+  ],
+  "input_sha256": {
+    "workflow/checks/double-tgv-15-scalar-ibp/gpl_coords.py": "97e3fbef699feed4114e20e65c06efb77e77392813334266da8e5a9c12d0d434",
+    "workflow/checks/single-opposite/hlog_algebra.py": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+    "workflow/checks/unified-weight-six/runs/20260917T043810203852Z/basis-and-conversions.json": "c646e42379fd344c45bee8ad02ec25a0f92a050d9ac85da63912cc1265f72c05",
+    "benchmarks/fgv/4e-4g/current.json": "d57c6167e682445a6e1f3be7aca3474dce7826c206df047634f05e76802a3155",
+    "benchmarks/fgv/4e-4g/sources/montopar-r002.json": "824e543d9e98a4f37f89f86f1382597644804e6dc70df9781f5e99ded1ed5834",
+    "benchmarks/fgv/4e-4g/results/4e-4g-02/r002.json": "bace2d7c45e278b3cc07da9cd92a2c7afc6ff29b967ee7620ed4b9cae42b25d5",
+    "benchmarks/fgv/4e-4g/results/4e-4g-05/r003.json": "45e30a8f742ebac78dc13d1ef26ca4e4d5577392948cb572592850fb59690891",
+    "benchmarks/fgv/4e-4g/results/4e-4g-06/r003.json": "2aeb0104fe8cd72033d8f250f1906c0b7bfd022126661b164eae3a0878e425c4",
+    "benchmarks/fgv/4e-4g/results/4e-4g-07/r003.json": "a0d7f76d9f39d095b38463ccff34da6cab4e2671f24f02a57e74e25a669bd0f4",
+    "benchmarks/fgv/4e-4g/results/4e-4g-08/r003.json": "afe94049f09856d675730a60033f3da2681866d0f39b181ea6916c7de6e33523",
+    "benchmarks/fgv/4e-4g/results/4e-4g-09/r004.json": "6642e0b22755be0b0fd58a3bf877f81a21abe392504fe0a534919066e4d35888",
+    "benchmarks/double-tgv/4e-3g+3g/current.json": "d9cc82921f86d0c27793eb70f75004bc184dea650791a12d7137e5a94b1b5b10",
+    "benchmarks/double-tgv/4e-3g+3g/sources/montopar-r001.json": "0cccb22b4528fe9ab23bb59f38a9bcda6fae704b4dfdf72d7d3218a5303ba921",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-01/r001.json": "3f563d948279097fd0ff036e38bf7738149c04b2e8407e9064573fb74ec2b62a",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-03/r001.json": "0e6c2019c6737e615131a7f21c1954ce708cc3edcc6e7b7ea251c35e97d12119",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-04/r001.json": "b660fc72ac8886d6ca0ba57d9707e02db93d1c518160b00cee2d32282f409d0b",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-06/r001.json": "a821814e06b76bfa43089500abf4782c42368450050197240e1487ecc468b9c8",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-07/r001.json": "77cc5f713dbdb115e0d06a091c0b30314ed579b2c0f288eefdf126eb2fa4dcf4",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-09/r001.json": "9ba09ddf786f20bce16cd368d30d7a16cc96f09326ab9a272db7f59d4f0a275d",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-10/r001.json": "b2293a97587f83d1c0fb764e07ed1f6b3ca8b2c1d0fb5dbc028f71342741553e",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-12/r001.json": "6f4fb8eeaa5c3887ca675ab919454a369940eb83ab88d42824e3a88b4335192e",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-13/r002.json": "e009322935b78669a35b07767398c4599e2e1895c8d4df4ef047b070ac3439e6",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-15/ibp-progress-r012.json": "7c9e4dc550a3be2ee896b5ec9127cba1ca558de861c5eed8782a70e2f6fa7cd0",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-16/ibp-progress-r006.json": "18b127cb290abcee9eb69d3b00d95514efb2927f4805cc4a1a2a3365b4929635",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-18/r001.json": "0b88e4898f90e76c3d2567155cf3d65f2948afa7837cde493e6cef7207b1a608",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-19/r001.json": "6c7665c33317885544c804f43a70abb626ba6569a7ecdcabae28a925b07d7e92",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-21/ibp-progress-r005.json": "216bc6cd5d261b0701ef0ec4277b7d6359b946f5a86a848f265f8666302cbd25",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-22/r002.json": "953411ecb5b619333bd305c22bcc4dec18636dada14a78c772447a8d57348d55",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-24/ibp-progress-r006.json": "244487b2480e834d71edab4308d43b950b4888dd4a1e895b141170193443d6c5",
+    "benchmarks/double-tgv/4e-3g+3g/results/4e-3g+3g-25/ibp-progress-r005.json": "1741f0bf868755aa9842611d924425331356e1771966d948eafde818fbf3e1e9",
+    "workflow/checks/four-leg-contour-sum-20261023/coefficients-check.json": "35fc5a7a8a66d1d261fa8ef98f12ae70191dc63cb15e28eece9e70cc70b7f7a6",
+    "benchmarks/theory/four-leg-2344-finite-20261023/weight-audit.md": "bed1a103e80fd532b345fd1670b6defe2d63db2be9fa83398797e40074291855",
+    "workflow/checks/four-leg-contour-sum-20261023/coefficients_check.py": "00b8b9b0e1b2f550ae18fbffba26e27b28284eee84de8fc52be88c16928bfe7b"
+  },
+  "physical_G2_crossing_prefactors": {
+    "4e-4g-02": "-1/8",
+    "4e-4g-05": "-1/8",
+    "4e-4g-06": "-1/8",
+    "4e-4g-07": "-1/16",
+    "4e-4g-08": "-1/8",
+    "4e-4g-09": "-1/32",
+    "4e-3g+3g-01": "-1/32",
+    "4e-3g+3g-03": "1/32",
+    "4e-3g+3g-04": "-1/32",
+    "4e-3g+3g-06": "1/32",
+    "4e-3g+3g-07": "-1/32",
+    "4e-3g+3g-09": "1/32",
+    "4e-3g+3g-10": "-1/32",
+    "4e-3g+3g-12": "1/32",
+    "4e-3g+3g-13": "-1/32",
+    "4e-3g+3g-15": "1/32",
+    "4e-3g+3g-16": "-1/32",
+    "4e-3g+3g-18": "1/32",
+    "4e-3g+3g-19": "-1/64",
+    "4e-3g+3g-21": "1/64",
+    "4e-3g+3g-22": "-1/32",
+    "4e-3g+3g-24": "1/32",
+    "4e-3g+3g-25": "-1/64"
+  },
+  "checks": [
+    "4e-4g-02 external distribution",
+    "4e-4g-02 orbit multiplicity",
+    "4e-4g-02 selector hash",
+    "4e-4g-02 formal scope",
+    "4e-4g-02 representative C ratio",
+    "4e-4g-02 explicit Euler normalization",
+    "4e-4g-02 physical FGV sign",
+    "4e-4g-05 external distribution",
+    "4e-4g-05 orbit multiplicity",
+    "4e-4g-05 selector hash",
+    "4e-4g-05 formal scope",
+    "4e-4g-05 representative C ratio",
+    "4e-4g-05 one Euler compensation",
+    "4e-4g-05 physical FGV sign",
+    "4e-4g-06 external distribution",
+    "4e-4g-06 orbit multiplicity",
+    "4e-4g-06 selector hash",
+    "4e-4g-06 formal scope",
+    "4e-4g-06 representative C ratio",
+    "4e-4g-06 one Euler compensation",
+    "4e-4g-06 physical FGV sign",
+    "4e-4g-07 external distribution",
+    "4e-4g-07 orbit multiplicity",
+    "4e-4g-07 selector hash",
+    "4e-4g-07 formal scope",
+    "4e-4g-07 representative C ratio",
+    "4e-4g-07 one Euler compensation",
+    "4e-4g-07 physical FGV sign",
+    "4e-4g-08 external distribution",
+    "4e-4g-08 orbit multiplicity",
+    "4e-4g-08 selector hash",
+    "4e-4g-08 formal scope",
+    "4e-4g-08 representative C ratio",
+    "4e-4g-08 one Euler compensation",
+    "4e-4g-08 physical FGV sign",
+    "4e-4g-09 external distribution",
+    "4e-4g-09 orbit multiplicity",
+    "4e-4g-09 selector hash",
+    "4e-4g-09 formal scope",
+    "4e-4g-09 representative C ratio",
+    "4e-4g-09 one Euler compensation",
+    "4e-4g-09 physical FGV sign",
+    "4e-4g-01 external distribution",
+    "4e-4g-01 orbit multiplicity",
+    "4e-4g-01 original zero",
+    "4e-4g-03 external distribution",
+    "4e-4g-03 orbit multiplicity",
+    "4e-4g-03 original zero",
+    "4e-4g-04 external distribution",
+    "4e-4g-04 orbit multiplicity",
+    "4e-4g-04 original zero",
+    "4e-3g+3g-01 external distribution",
+    "4e-3g+3g-01 orbit multiplicity",
+    "4e-3g+3g-01 selector hash",
+    "4e-3g+3g-01 formal scope",
+    "4e-3g+3g-01 original source hash",
+    "4e-3g+3g-01 representative C ratio",
+    "4e-3g+3g-01 one Euler compensation",
+    "4e-3g+3g-02 external distribution",
+    "4e-3g+3g-02 orbit multiplicity",
+    "4e-3g+3g-02 original zero",
+    "4e-3g+3g-03 external distribution",
+    "4e-3g+3g-03 orbit multiplicity",
+    "4e-3g+3g-03 selector hash",
+    "4e-3g+3g-03 formal scope",
+    "4e-3g+3g-03 representative C ratio",
+    "4e-3g+3g-03 one Euler compensation",
+    "4e-3g+3g-04 external distribution",
+    "4e-3g+3g-04 orbit multiplicity",
+    "4e-3g+3g-04 selector hash",
+    "4e-3g+3g-04 formal scope",
+    "4e-3g+3g-04 original source hash",
+    "4e-3g+3g-04 representative C ratio",
+    "4e-3g+3g-04 one Euler compensation",
+    "4e-3g+3g-05 external distribution",
+    "4e-3g+3g-05 orbit multiplicity",
+    "4e-3g+3g-05 original zero",
+    "4e-3g+3g-06 external distribution",
+    "4e-3g+3g-06 orbit multiplicity",
+    "4e-3g+3g-06 selector hash",
+    "4e-3g+3g-06 formal scope",
+    "4e-3g+3g-06 original source hash",
+    "4e-3g+3g-06 representative C ratio",
+    "4e-3g+3g-06 one Euler compensation",
+    "4e-3g+3g-07 external distribution",
+    "4e-3g+3g-07 orbit multiplicity",
+    "4e-3g+3g-07 selector hash",
+    "4e-3g+3g-07 formal scope",
+    "4e-3g+3g-07 original source hash",
+    "4e-3g+3g-07 representative C ratio",
+    "4e-3g+3g-07 one Euler compensation",
+    "4e-3g+3g-08 external distribution",
+    "4e-3g+3g-08 orbit multiplicity",
+    "4e-3g+3g-08 original zero",
+    "4e-3g+3g-09 external distribution",
+    "4e-3g+3g-09 orbit multiplicity",
+    "4e-3g+3g-09 selector hash",
+    "4e-3g+3g-09 formal scope",
+    "4e-3g+3g-09 representative C ratio",
+    "4e-3g+3g-09 one Euler compensation",
+    "4e-3g+3g-10 external distribution",
+    "4e-3g+3g-10 orbit multiplicity",
+    "4e-3g+3g-10 selector hash",
+    "4e-3g+3g-10 formal scope",
+    "4e-3g+3g-10 original source hash",
+    "4e-3g+3g-10 representative C ratio",
+    "4e-3g+3g-10 one Euler compensation",
+    "4e-3g+3g-11 external distribution",
+    "4e-3g+3g-11 orbit multiplicity",
+    "4e-3g+3g-11 original zero",
+    "4e-3g+3g-12 external distribution",
+    "4e-3g+3g-12 orbit multiplicity",
+    "4e-3g+3g-12 selector hash",
+    "4e-3g+3g-12 formal scope",
+    "4e-3g+3g-12 original source hash",
+    "4e-3g+3g-12 representative C ratio",
+    "4e-3g+3g-12 one Euler compensation",
+    "4e-3g+3g-13 external distribution",
+    "4e-3g+3g-13 orbit multiplicity",
+    "4e-3g+3g-13 selector hash",
+    "4e-3g+3g-13 formal scope",
+    "4e-3g+3g-13 original source hash",
+    "4e-3g+3g-13 representative C ratio",
+    "4e-3g+3g-13 one Euler compensation",
+    "4e-3g+3g-14 external distribution",
+    "4e-3g+3g-14 orbit multiplicity",
+    "4e-3g+3g-14 original zero",
+    "4e-3g+3g-15 external distribution",
+    "4e-3g+3g-15 orbit multiplicity",
+    "4e-3g+3g-15 selected ID",
+    "4e-3g+3g-15 formal scope",
+    "4e-3g+3g-15 original source hash",
+    "4e-3g+3g-15 representative C ratio",
+    "4e-3g+3g-15 one Euler compensation",
+    "4e-3g+3g-16 external distribution",
+    "4e-3g+3g-16 orbit multiplicity",
+    "4e-3g+3g-16 selector hash",
+    "4e-3g+3g-16 formal scope",
+    "4e-3g+3g-16 original source hash",
+    "4e-3g+3g-16 representative C ratio",
+    "4e-3g+3g-16 one Euler compensation",
+    "4e-3g+3g-17 external distribution",
+    "4e-3g+3g-17 orbit multiplicity",
+    "4e-3g+3g-17 original zero",
+    "4e-3g+3g-18 external distribution",
+    "4e-3g+3g-18 orbit multiplicity",
+    "4e-3g+3g-18 selector hash",
+    "4e-3g+3g-18 formal scope",
+    "4e-3g+3g-18 original source hash",
+    "4e-3g+3g-18 representative C ratio",
+    "4e-3g+3g-18 one Euler compensation",
+    "4e-3g+3g-19 external distribution",
+    "4e-3g+3g-19 orbit multiplicity",
+    "4e-3g+3g-19 selector hash",
+    "4e-3g+3g-19 formal scope",
+    "4e-3g+3g-19 original source hash",
+    "4e-3g+3g-19 representative C ratio",
+    "4e-3g+3g-19 one Euler compensation",
+    "4e-3g+3g-20 external distribution",
+    "4e-3g+3g-20 orbit multiplicity",
+    "4e-3g+3g-20 original zero",
+    "4e-3g+3g-21 external distribution",
+    "4e-3g+3g-21 orbit multiplicity",
+    "4e-3g+3g-21 selector hash",
+    "4e-3g+3g-21 formal scope",
+    "4e-3g+3g-21 original source hash",
+    "4e-3g+3g-21 representative C ratio",
+    "4e-3g+3g-21 explicit Euler normalization",
+    "4e-3g+3g-22 external distribution",
+    "4e-3g+3g-22 orbit multiplicity",
+    "4e-3g+3g-22 selector hash",
+    "4e-3g+3g-22 formal scope",
+    "4e-3g+3g-22 original source hash",
+    "4e-3g+3g-22 representative C ratio",
+    "4e-3g+3g-22 one Euler compensation",
+    "4e-3g+3g-23 external distribution",
+    "4e-3g+3g-23 orbit multiplicity",
+    "4e-3g+3g-23 original zero",
+    "4e-3g+3g-24 external distribution",
+    "4e-3g+3g-24 orbit multiplicity",
+    "4e-3g+3g-24 selector hash",
+    "4e-3g+3g-24 formal scope",
+    "4e-3g+3g-24 original source hash",
+    "4e-3g+3g-24 representative C ratio",
+    "4e-3g+3g-24 one Euler compensation",
+    "4e-3g+3g-25 external distribution",
+    "4e-3g+3g-25 orbit multiplicity",
+    "4e-3g+3g-25 selector hash",
+    "4e-3g+3g-25 formal scope",
+    "4e-3g+3g-25 representative C ratio",
+    "4e-3g+3g-25 explicit Euler normalization",
+    "4e-3g+3g-26 external distribution",
+    "4e-3g+3g-26 orbit multiplicity",
+    "4e-3g+3g-26 original zero",
+    "all 35 source records covered exactly once",
+    "23 nonzero and 12 zero records",
+    "DT25 normalized orbit includes two orientations",
+    "recognized compact expression 197",
+    "recognized compact expression 198",
+    "recognized compact expression 199",
+    "4e-4g-02 complete through double pole",
+    "4e-4g-05 complete through double pole",
+    "4e-4g-06 complete through double pole",
+    "4e-4g-07 complete through double pole",
+    "4e-4g-08 complete through double pole",
+    "4e-4g-09 complete through double pole",
+    "recognized compact expression 206",
+    "recognized compact expression 207",
+    "recognized compact expression 208",
+    "recognized compact expression 209",
+    "4e-3g+3g-01 complete through double pole",
+    "recognized compact expression 211",
+    "recognized compact expression 212",
+    "recognized compact expression 213",
+    "recognized compact expression 214",
+    "4e-3g+3g-03 complete through double pole",
+    "recognized compact expression 216",
+    "recognized compact expression 217",
+    "recognized compact expression 218",
+    "recognized compact expression 219",
+    "4e-3g+3g-04 complete through double pole",
+    "recognized compact expression 221",
+    "recognized compact expression 222",
+    "recognized compact expression 223",
+    "recognized compact expression 224",
+    "4e-3g+3g-06 complete through double pole",
+    "recognized compact expression 226",
+    "recognized compact expression 227",
+    "recognized compact expression 228",
+    "recognized compact expression 229",
+    "4e-3g+3g-07 complete through double pole",
+    "recognized compact expression 231",
+    "recognized compact expression 232",
+    "recognized compact expression 233",
+    "recognized compact expression 234",
+    "4e-3g+3g-09 complete through double pole",
+    "4e-3g+3g-10 selected compact replay -6",
+    "4e-3g+3g-10 selected compact replay -5",
+    "4e-3g+3g-10 selected compact replay -4",
+    "4e-3g+3g-10 selected compact replay -3",
+    "recognized compact expression 240",
+    "4e-3g+3g-10 selected compact replay -2",
+    "recognized compact expression 242",
+    "4e-3g+3g-10 selected compact replay -1",
+    "4e-3g+3g-10 complete through double pole",
+    "4e-3g+3g-12 selected compact replay -6",
+    "4e-3g+3g-12 selected compact replay -5",
+    "4e-3g+3g-12 selected compact replay -4",
+    "4e-3g+3g-12 selected compact replay -3",
+    "recognized compact expression 249",
+    "4e-3g+3g-12 selected compact replay -2",
+    "recognized compact expression 251",
+    "4e-3g+3g-12 selected compact replay -1",
+    "4e-3g+3g-12 complete through double pole",
+    "4e-3g+3g-13 selected compact replay -6",
+    "4e-3g+3g-13 selected compact replay -5",
+    "recognized compact expression 256",
+    "4e-3g+3g-13 selected compact replay -4",
+    "recognized compact expression 258",
+    "4e-3g+3g-13 selected compact replay -3",
+    "recognized compact expression 260",
+    "4e-3g+3g-13 selected compact replay -2",
+    "recognized compact expression 262",
+    "4e-3g+3g-13 selected compact replay -1",
+    "4e-3g+3g-13 complete through double pole",
+    "4e-3g+3g-15 complete through double pole",
+    "DT16 whole-integral pole bound",
+    "recognized compact expression 267",
+    "recognized compact expression 268",
+    "4e-3g+3g-16 complete through double pole",
+    "4e-3g+3g-18 complete through double pole",
+    "4e-3g+3g-19 selected compact replay -6",
+    "4e-3g+3g-19 selected compact replay -5",
+    "4e-3g+3g-19 selected compact replay -4",
+    "4e-3g+3g-19 selected compact replay -3",
+    "recognized compact expression 275",
+    "4e-3g+3g-19 selected compact replay -2",
+    "recognized compact expression 277",
+    "4e-3g+3g-19 selected compact replay -1",
+    "4e-3g+3g-19 complete through double pole",
+    "recognized compact expression 280",
+    "DT21 compact single pole",
+    "4e-3g+3g-21 complete through double pole",
+    "4e-3g+3g-22 selected compact replay -6",
+    "4e-3g+3g-22 selected compact replay -5",
+    "recognized compact expression 285",
+    "4e-3g+3g-22 selected compact replay -4",
+    "recognized compact expression 287",
+    "4e-3g+3g-22 selected compact replay -3",
+    "recognized compact expression 289",
+    "4e-3g+3g-22 selected compact replay -2",
+    "recognized compact expression 291",
+    "4e-3g+3g-22 selected compact replay -1",
+    "4e-3g+3g-22 complete through double pole",
+    "4e-3g+3g-24 complete through double pole",
+    "recognized compact expression 295",
+    "recognized compact expression 296",
+    "DT25 stored pole GPL -2",
+    "DT25 stored pole GPL -1",
+    "4e-3g+3g-25 complete through double pole",
+    "3444 -6 unique listed-basis coordinates 0",
+    "3444 -6 constant coordinates 0",
+    "3444 -6 exact Hlog back-substitution",
+    "3444 -5 unique listed-basis coordinates 0",
+    "3444 -5 constant coordinates 0",
+    "3444 -5 exact Hlog back-substitution",
+    "3444 -4 unique listed-basis coordinates 0",
+    "3444 -4 constant coordinates 0",
+    "3444 -4 unique listed-basis coordinates 2",
+    "3444 -4 constant coordinates 2",
+    "recognized compact expression 310",
+    "3444 -4 exact Hlog back-substitution",
+    "3444 -3 unique listed-basis coordinates 0",
+    "3444 -3 constant coordinates 0",
+    "3444 -3 unique listed-basis coordinates 2",
+    "3444 -3 constant coordinates 2",
+    "3444 -3 unique listed-basis coordinates 3",
+    "3444 -3 constant coordinates 3",
+    "recognized compact expression 318",
+    "3444 -3 exact Hlog back-substitution",
+    "3444 -2 unique listed-basis coordinates 0",
+    "3444 -2 constant coordinates 0",
+    "3444 -2 unique listed-basis coordinates 2",
+    "3444 -2 constant coordinates 2",
+    "3444 -2 unique listed-basis coordinates 3",
+    "3444 -2 constant coordinates 3",
+    "3444 -2 unique listed-basis coordinates 4",
+    "3444 -2 constant coordinates 4",
+    "recognized compact expression 328",
+    "3444 -2 exact Hlog back-substitution",
+    "3444 -1 unique listed-basis coordinates 0",
+    "3444 -1 constant coordinates 0",
+    "3444 -1 unique listed-basis coordinates 2",
+    "3444 -1 constant coordinates 2",
+    "3444 -1 unique listed-basis coordinates 3",
+    "3444 -1 constant coordinates 3",
+    "3444 -1 unique listed-basis coordinates 4",
+    "3444 -1 constant coordinates 4",
+    "3444 -1 unique listed-basis coordinates 5",
+    "3444 -1 constant coordinates 5",
+    "recognized compact expression 340",
+    "3444 -1 exact Hlog back-substitution",
+    "3344 -6 unique listed-basis coordinates 0",
+    "3344 -6 constant coordinates 0",
+    "3344 -6 exact Hlog back-substitution",
+    "3344 -5 unique listed-basis coordinates 0",
+    "3344 -5 constant coordinates 0",
+    "3344 -5 exact Hlog back-substitution",
+    "3344 -4 unique listed-basis coordinates 2",
+    "3344 -4 constant coordinates 2",
+    "recognized compact expression 350",
+    "3344 -4 exact Hlog back-substitution",
+    "3344 -3 unique listed-basis coordinates 0",
+    "3344 -3 constant coordinates 0",
+    "3344 -3 unique listed-basis coordinates 2",
+    "3344 -3 constant coordinates 2",
+    "3344 -3 unique listed-basis coordinates 3",
+    "3344 -3 constant coordinates 3",
+    "recognized compact expression 358",
+    "3344 -3 exact Hlog back-substitution",
+    "3344 -2 unique listed-basis coordinates 0",
+    "3344 -2 constant coordinates 0",
+    "3344 -2 unique listed-basis coordinates 2",
+    "3344 -2 constant coordinates 2",
+    "3344 -2 unique listed-basis coordinates 3",
+    "3344 -2 constant coordinates 3",
+    "3344 -2 unique listed-basis coordinates 4",
+    "3344 -2 constant coordinates 4",
+    "recognized compact expression 368",
+    "3344 -2 exact Hlog back-substitution",
+    "3344 -1 unique listed-basis coordinates 0",
+    "3344 -1 constant coordinates 0",
+    "3344 -1 unique listed-basis coordinates 2",
+    "3344 -1 constant coordinates 2",
+    "3344 -1 unique listed-basis coordinates 3",
+    "3344 -1 constant coordinates 3",
+    "3344 -1 unique listed-basis coordinates 4",
+    "3344 -1 constant coordinates 4",
+    "3344 -1 unique listed-basis coordinates 5",
+    "3344 -1 constant coordinates 5",
+    "recognized compact expression 380",
+    "3344 -1 exact Hlog back-substitution",
+    "3334 -6 unique listed-basis coordinates 0",
+    "3334 -6 constant coordinates 0",
+    "3334 -6 exact Hlog back-substitution",
+    "3334 -5 unique listed-basis coordinates 0",
+    "3334 -5 constant coordinates 0",
+    "3334 -5 exact Hlog back-substitution",
+    "3334 -4 unique listed-basis coordinates 0",
+    "3334 -4 constant coordinates 0",
+    "3334 -4 unique listed-basis coordinates 2",
+    "3334 -4 constant coordinates 2",
+    "recognized compact expression 392",
+    "3334 -4 exact Hlog back-substitution",
+    "3334 -3 unique listed-basis coordinates 0",
+    "3334 -3 constant coordinates 0",
+    "3334 -3 unique listed-basis coordinates 2",
+    "3334 -3 constant coordinates 2",
+    "3334 -3 unique listed-basis coordinates 3",
+    "3334 -3 constant coordinates 3",
+    "recognized compact expression 400",
+    "3334 -3 exact Hlog back-substitution",
+    "3334 -2 unique listed-basis coordinates 0",
+    "3334 -2 constant coordinates 0",
+    "3334 -2 unique listed-basis coordinates 2",
+    "3334 -2 constant coordinates 2",
+    "3334 -2 unique listed-basis coordinates 3",
+    "3334 -2 constant coordinates 3",
+    "3334 -2 unique listed-basis coordinates 4",
+    "3334 -2 constant coordinates 4",
+    "recognized compact expression 410",
+    "3334 -2 exact Hlog back-substitution",
+    "3334 -1 unique listed-basis coordinates 0",
+    "3334 -1 constant coordinates 0",
+    "3334 -1 unique listed-basis coordinates 2",
+    "3334 -1 constant coordinates 2",
+    "3334 -1 unique listed-basis coordinates 3",
+    "3334 -1 constant coordinates 3",
+    "3334 -1 unique listed-basis coordinates 4",
+    "3334 -1 constant coordinates 4",
+    "3334 -1 unique listed-basis coordinates 5",
+    "3334 -1 constant coordinates 5",
+    "recognized compact expression 422",
+    "3334 -1 exact Hlog back-substitution",
+    "2444 -6 exact Hlog back-substitution",
+    "2444 -5 exact Hlog back-substitution",
+    "2444 -4 exact Hlog back-substitution",
+    "2444 -3 exact Hlog back-substitution",
+    "2444 -2 unique listed-basis coordinates 2",
+    "2444 -2 constant coordinates 2",
+    "2444 -2 unique listed-basis coordinates 3",
+    "2444 -2 constant coordinates 3",
+    "2444 -2 unique listed-basis coordinates 4",
+    "2444 -2 constant coordinates 4",
+    "recognized compact expression 434",
+    "2444 -2 exact Hlog back-substitution",
+    "2444 -1 unique listed-basis coordinates 2",
+    "2444 -1 constant coordinates 2",
+    "2444 -1 unique listed-basis coordinates 3",
+    "2444 -1 constant coordinates 3",
+    "2444 -1 unique listed-basis coordinates 4",
+    "2444 -1 constant coordinates 4",
+    "2444 -1 unique listed-basis coordinates 5",
+    "2444 -1 constant coordinates 5",
+    "recognized compact expression 444",
+    "2444 -1 exact Hlog back-substitution",
+    "2344 -6 exact Hlog back-substitution",
+    "2344 -5 exact Hlog back-substitution",
+    "2344 -4 unique listed-basis coordinates 2",
+    "2344 -4 constant coordinates 2",
+    "recognized compact expression 450",
+    "2344 -4 exact Hlog back-substitution",
+    "2344 -3 unique listed-basis coordinates 2",
+    "2344 -3 constant coordinates 2",
+    "2344 -3 unique listed-basis coordinates 3",
+    "2344 -3 constant coordinates 3",
+    "recognized compact expression 456",
+    "2344 -3 exact Hlog back-substitution",
+    "2344 -2 unique listed-basis coordinates 2",
+    "2344 -2 constant coordinates 2",
+    "2344 -2 unique listed-basis coordinates 3",
+    "2344 -2 constant coordinates 3",
+    "2344 -2 unique listed-basis coordinates 4",
+    "2344 -2 constant coordinates 4",
+    "recognized compact expression 464",
+    "2344 -2 exact Hlog back-substitution",
+    "2344 -1 unique listed-basis coordinates 2",
+    "2344 -1 constant coordinates 2",
+    "2344 -1 unique listed-basis coordinates 3",
+    "2344 -1 constant coordinates 3",
+    "2344 -1 unique listed-basis coordinates 4",
+    "2344 -1 constant coordinates 4",
+    "2344 -1 unique listed-basis coordinates 5",
+    "2344 -1 constant coordinates 5",
+    "recognized compact expression 474",
+    "2344 -1 exact Hlog back-substitution",
+    "2334 -6 exact Hlog back-substitution",
+    "2334 -5 exact Hlog back-substitution",
+    "2334 -4 unique listed-basis coordinates 2",
+    "2334 -4 constant coordinates 2",
+    "recognized compact expression 480",
+    "2334 -4 exact Hlog back-substitution",
+    "2334 -3 unique listed-basis coordinates 2",
+    "2334 -3 constant coordinates 2",
+    "2334 -3 unique listed-basis coordinates 3",
+    "2334 -3 constant coordinates 3",
+    "recognized compact expression 486",
+    "2334 -3 exact Hlog back-substitution",
+    "2334 -2 unique listed-basis coordinates 2",
+    "2334 -2 constant coordinates 2",
+    "2334 -2 unique listed-basis coordinates 3",
+    "2334 -2 constant coordinates 3",
+    "2334 -2 unique listed-basis coordinates 4",
+    "2334 -2 constant coordinates 4",
+    "recognized compact expression 494",
+    "2334 -2 exact Hlog back-substitution",
+    "2244 -6 exact Hlog back-substitution",
+    "2244 -5 exact Hlog back-substitution",
+    "2244 -4 exact Hlog back-substitution",
+    "2244 -3 exact Hlog back-substitution",
+    "2244 -2 unique listed-basis coordinates 2",
+    "2244 -2 constant coordinates 2",
+    "2244 -2 unique listed-basis coordinates 3",
+    "2244 -2 constant coordinates 3",
+    "2244 -2 unique listed-basis coordinates 4",
+    "2244 -2 constant coordinates 4",
+    "recognized compact expression 506",
+    "2244 -2 exact Hlog back-substitution",
+    "2244 -1 unique listed-basis coordinates 2",
+    "2244 -1 constant coordinates 2",
+    "2244 -1 unique listed-basis coordinates 3",
+    "2244 -1 constant coordinates 3",
+    "2244 -1 unique listed-basis coordinates 4",
+    "2244 -1 constant coordinates 4",
+    "2244 -1 unique listed-basis coordinates 5",
+    "2244 -1 constant coordinates 5",
+    "recognized compact expression 516",
+    "2244 -1 exact Hlog back-substitution",
+    "2234 -6 exact Hlog back-substitution",
+    "2234 -5 exact Hlog back-substitution",
+    "2234 -4 unique listed-basis coordinates 2",
+    "2234 -4 constant coordinates 2",
+    "recognized compact expression 522",
+    "2234 -4 exact Hlog back-substitution",
+    "2234 -3 unique listed-basis coordinates 2",
+    "2234 -3 constant coordinates 2",
+    "2234 -3 unique listed-basis coordinates 3",
+    "2234 -3 constant coordinates 3",
+    "recognized compact expression 528",
+    "2234 -3 exact Hlog back-substitution",
+    "2234 -2 unique listed-basis coordinates 2",
+    "2234 -2 constant coordinates 2",
+    "2234 -2 unique listed-basis coordinates 3",
+    "2234 -2 constant coordinates 3",
+    "2234 -2 unique listed-basis coordinates 4",
+    "2234 -2 constant coordinates 4",
+    "recognized compact expression 536",
+    "2234 -2 exact Hlog back-substitution",
+    "2234 -1 unique listed-basis coordinates 2",
+    "2234 -1 constant coordinates 2",
+    "2234 -1 unique listed-basis coordinates 3",
+    "2234 -1 constant coordinates 3",
+    "2234 -1 unique listed-basis coordinates 4",
+    "2234 -1 constant coordinates 4",
+    "2234 -1 unique listed-basis coordinates 5",
+    "2234 -1 constant coordinates 5",
+    "recognized compact expression 546",
+    "2234 -1 exact Hlog back-substitution",
+    "1234 -6 exact Hlog back-substitution",
+    "1234 -5 exact Hlog back-substitution",
+    "1234 -4 exact Hlog back-substitution",
+    "1234 -3 exact Hlog back-substitution",
+    "1234 -2 unique listed-basis coordinates 4",
+    "1234 -2 constant coordinates 4",
+    "recognized compact expression 554",
+    "1234 -2 exact Hlog back-substitution",
+    "1234 -1 unique listed-basis coordinates 5",
+    "1234 -1 constant coordinates 5",
+    "recognized compact expression 558",
+    "1234 -1 exact Hlog back-substitution",
+    "reflection 3444=3334 -6",
+    "reflection 3444=3334 -5",
+    "reflection 3444=3334 -4",
+    "reflection 3444=3334 -3",
+    "reflection 3444=3334 -2",
+    "reflection 3444=3334 -1",
+    "reflection 2344=2234 -6",
+    "reflection 2344=2234 -5",
+    "reflection 2344=2234 -4",
+    "reflection 2344=2234 -3",
+    "reflection 2344=2234 -2",
+    "reflection 2344=2234 -1",
+    "direct 35-source vs nine-object sum -6",
+    "nine-object vs reflected seven-object expression -6",
+    "four-leg total -6 unique listed-basis coordinates 0",
+    "four-leg total -6 constant coordinates 0",
+    "four-leg total -6 exact Hlog back-substitution",
+    "direct 35-source vs nine-object sum -5",
+    "nine-object vs reflected seven-object expression -5",
+    "four-leg total -5 unique listed-basis coordinates 0",
+    "four-leg total -5 constant coordinates 0",
+    "four-leg total -5 exact Hlog back-substitution",
+    "direct 35-source vs nine-object sum -4",
+    "nine-object vs reflected seven-object expression -4",
+    "four-leg total -4 unique listed-basis coordinates 0",
+    "four-leg total -4 constant coordinates 0",
+    "four-leg total -4 unique listed-basis coordinates 2",
+    "four-leg total -4 constant coordinates 2",
+    "recognized compact expression 588",
+    "four-leg total -4 exact Hlog back-substitution",
+    "direct 35-source vs nine-object sum -3",
+    "nine-object vs reflected seven-object expression -3",
+    "four-leg total -3 unique listed-basis coordinates 0",
+    "four-leg total -3 constant coordinates 0",
+    "four-leg total -3 unique listed-basis coordinates 2",
+    "four-leg total -3 constant coordinates 2",
+    "four-leg total -3 unique listed-basis coordinates 3",
+    "four-leg total -3 constant coordinates 3",
+    "recognized compact expression 598",
+    "four-leg total -3 exact Hlog back-substitution",
+    "direct 35-source vs nine-object sum -2",
+    "nine-object vs reflected seven-object expression -2",
+    "four-leg total -2 unique listed-basis coordinates 0",
+    "four-leg total -2 constant coordinates 0",
+    "four-leg total -2 unique listed-basis coordinates 2",
+    "four-leg total -2 constant coordinates 2",
+    "four-leg total -2 unique listed-basis coordinates 3",
+    "four-leg total -2 constant coordinates 3",
+    "four-leg total -2 unique listed-basis coordinates 4",
+    "four-leg total -2 constant coordinates 4",
+    "recognized compact expression 610",
+    "four-leg total -2 exact Hlog back-substitution",
+    "sole missing single pole is DT16",
+    "known four-leg single pole unique listed-basis coordinates 0",
+    "known four-leg single pole constant coordinates 0",
+    "known four-leg single pole unique listed-basis coordinates 2",
+    "known four-leg single pole constant coordinates 2",
+    "known four-leg single pole unique listed-basis coordinates 3",
+    "known four-leg single pole constant coordinates 3",
+    "known four-leg single pole unique listed-basis coordinates 4",
+    "known four-leg single pole constant coordinates 4",
+    "known four-leg single pole unique listed-basis coordinates 5",
+    "known four-leg single pole constant coordinates 5",
+    "recognized compact expression 623",
+    "known four-leg single pole exact Hlog back-substitution",
+    "known 2334 single pole unique listed-basis coordinates 2",
+    "known 2334 single pole constant coordinates 2",
+    "known 2334 single pole unique listed-basis coordinates 3",
+    "known 2334 single pole constant coordinates 3",
+    "known 2334 single pole unique listed-basis coordinates 4",
+    "known 2334 single pole constant coordinates 4",
+    "known 2334 single pole unique listed-basis coordinates 5",
+    "known 2334 single pole constant coordinates 5",
+    "recognized compact expression 633",
+    "known 2334 single pole exact Hlog back-substitution",
+    "historical group report passed",
+    "historical group vs fresh source sum 3444 -6",
+    "historical group vs fresh source sum 3444 -5",
+    "historical group vs fresh source sum 3444 -4",
+    "historical group vs fresh source sum 3444 -3",
+    "historical group vs fresh source sum 3444 -2",
+    "historical group vs fresh source sum 3444 -1",
+    "historical group vs fresh source sum 3344 -6",
+    "historical group vs fresh source sum 3344 -5",
+    "historical group vs fresh source sum 3344 -4",
+    "historical group vs fresh source sum 3344 -3",
+    "historical group vs fresh source sum 3344 -2",
+    "historical group vs fresh source sum 3344 -1",
+    "historical group vs fresh source sum 3334 -6",
+    "historical group vs fresh source sum 3334 -5",
+    "historical group vs fresh source sum 3334 -4",
+    "historical group vs fresh source sum 3334 -3",
+    "historical group vs fresh source sum 3334 -2",
+    "historical group vs fresh source sum 3334 -1",
+    "historical group vs fresh source sum 2444 -6",
+    "historical group vs fresh source sum 2444 -5",
+    "historical group vs fresh source sum 2444 -4",
+    "historical group vs fresh source sum 2444 -3",
+    "historical group vs fresh source sum 2444 -2",
+    "historical group vs fresh source sum 2444 -1",
+    "historical group vs fresh source sum 2344 -6",
+    "historical group vs fresh source sum 2344 -5",
+    "historical group vs fresh source sum 2344 -4",
+    "historical group vs fresh source sum 2344 -3",
+    "historical group vs fresh source sum 2344 -2",
+    "historical group vs fresh source sum 2344 -1",
+    "historical group vs fresh source sum 2334 -6",
+    "historical group vs fresh source sum 2334 -5",
+    "historical group vs fresh source sum 2334 -4",
+    "historical group vs fresh source sum 2334 -3",
+    "historical group vs fresh source sum 2334 -2",
+    "historical group vs fresh source sum 2244 -6",
+    "historical group vs fresh source sum 2244 -5",
+    "historical group vs fresh source sum 2244 -4",
+    "historical group vs fresh source sum 2244 -3",
+    "historical group vs fresh source sum 2244 -2",
+    "historical group vs fresh source sum 2244 -1",
+    "historical group vs fresh source sum 2234 -6",
+    "historical group vs fresh source sum 2234 -5",
+    "historical group vs fresh source sum 2234 -4",
+    "historical group vs fresh source sum 2234 -3",
+    "historical group vs fresh source sum 2234 -2",
+    "historical group vs fresh source sum 2234 -1",
+    "historical group vs fresh source sum 1234 -6",
+    "historical group vs fresh source sum 1234 -5",
+    "historical group vs fresh source sum 1234 -4",
+    "historical group vs fresh source sum 1234 -3",
+    "historical group vs fresh source sum 1234 -2",
+    "historical group vs fresh source sum 1234 -1",
+    "historical total vs fresh source sum -6",
+    "historical total vs fresh source sum -5",
+    "historical total vs fresh source sum -4",
+    "historical total vs fresh source sum -3",
+    "historical total vs fresh source sum -2",
+    "recognized compact expression 694",
+    "historical known single pole vs fresh source sum",
+    "all read inputs preserved byte-for-byte"
+  ],
+  "negative_controls": [
+    "multiplying orbit multiplicities twice changes the double pole",
+    "doubling DT25 again changes the double pole",
+    "wrong FGV02 sign changes known coefficients",
+    "DT16 missing pole is not an admitted zero"
+  ],
+  "checks_count": 697,
+  "negative_control_count": 4,
+  "script_sha256": "f57fc8bbd02c04447b6dcb0073e4451f79d88c6c6d51da9029c6356276d63a62",
+  "scope": [
+    "New exact addition and compact reduction of selected existing coefficients, no new integration.",
+    "No RG template or reference anomalous dimension used to construct coefficients.",
+    "Not the full AA sum and not an RG pass; finite expressions not evaluated.",
+    "No original source, result, selector or old evidence modified."
+  ]
+}

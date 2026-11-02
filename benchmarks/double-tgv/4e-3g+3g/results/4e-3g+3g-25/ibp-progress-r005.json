@@ -1,0 +1,615 @@
+{
+  "revision": "ibp-progress-r005",
+  "date": "2026-10-14",
+  "orbit_id": "4e-3g+3g-25",
+  "whole_integral_complete": true,
+  "whole_I_laurent": "all_poles_and_finite_analytic_GPL_algebraic_Chen",
+  "whole_I_known_Laurent_positions": [
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0
+  ],
+  "completed_terms": [
+    "ibp_001",
+    "ibp_002",
+    "ibp_003",
+    "ibp_004",
+    "ibp_005",
+    "ibp_006",
+    "ibp_007",
+    "ibp_008",
+    "ibp_009",
+    "ibp_010",
+    "ibp_011",
+    "ibp_012",
+    "ibp_013",
+    "ibp_014",
+    "ibp_015",
+    "ibp_016",
+    "ibp_017",
+    "ibp_018",
+    "ibp_019",
+    "ibp_020",
+    "ibp_021",
+    "ibp_022",
+    "ibp_023",
+    "ibp_024"
+  ],
+  "remaining_terms": [],
+  "normalization": "I25=-exp(-3*EulerGamma*eps)*Gamma(2-3*eps)/64*(J(z,eps)+z^(3*eps)*J(1/z,eps))/(1+z^(3*eps))",
+  "domain": "fixed real z>0; four original independent unit paths and projective delta measure",
+  "known_sum": {
+    "scope": "All 24 original boundary contributions through finite; jointRR excluded.",
+    "Laurent_coefficients": {
+      "-6": "0",
+      "-5": "0",
+      "-4": "0",
+      "-3": "0",
+      "-2": "-3/32*Hlog(z1,[-1, -1, 0, 0])+111/1280*zeta[2]^2+3/64*Hlog(z1,[-1, 0, 0, 0])+3/64*Hlog(z1,[0, -1, 0, 0])-3/128*Hlog(z1,[0, 0, 0, 0])-9/32*zeta[2]*Hlog(z1,[-1, -1])-3/32*zeta[3]*Hlog(z1,[-1])+9/64*zeta[2]*Hlog(z1,[0, -1])+9/64*zeta[2]*Hlog(z1,[-1, 0])-1/128*zeta[2]*Hlog(z1,[0, 0])+3/64*zeta[3]*Hlog(z1,[0])",
+      "-1": "3/16*Hlog(z1,[0, -1, 0, 0, 0])+1/16*Hlog(z1,[0, 0, -1, 0, 0])-11/32*Hlog(z1,[-1, 0, -1, 0, 0])+49/128*zeta[5]-11/32*Hlog(z1,[-1, -1, 0, 0, 0])-11/32*Hlog(z1,[0, -1, -1, 0, 0])+11/16*Hlog(z1,[-1, -1, -1, 0, 0])+47/128*Hlog(z1,[-1, 0, 0, 0, 0])-35/256*Hlog(z1,[0, 0, 0, 0, 0])+33/16*zeta[2]*Hlog(z1,[-1, -1, -1])+3/16*zeta[2]*Hlog(z1,[0, 0, -1])+49/128*zeta[2]*Hlog(z1,[-1, 0, 0])+17/32*zeta[2]*Hlog(z1,[0, -1, 0])-33/32*zeta[2]*Hlog(z1,[-1, 0, -1])+247/2560*zeta[2]^2*Hlog(z1,[0])-11/32*zeta[3]*Hlog(z1,[-1, 0])-9/256*zeta[2]*Hlog(z1,[0, 0, 0])+501/1280*zeta[2]^2*Hlog(z1,[-1])-11/32*zeta[3]*Hlog(z1,[0, -1])+27/128*zeta[2]*zeta[3]+11/16*zeta[3]*Hlog(z1,[-1, -1])-33/32*zeta[2]*Hlog(z1,[0, -1, -1])+29/128*zeta[3]*Hlog(z1,[0, 0])-33/32*zeta[2]*Hlog(z1,[-1, -1, 0])",
+      "0": "3/128*(-127*zeta[2]*zeta[3]-147*zeta[5])*Hlog(z1,[-1])+1/256*(113*zeta[2]*zeta[3]+385*zeta[5])*Hlog(z1,[0])+9/32*Hlog(z1,[0, 0, 0, 0, 0, 0])-35/128*Hlog(z1,[0, 0, -1, 0, 0, 0])+2645/3584*zeta[2]^3-111/256*zeta[3]^2-21/64*Hlog(z1,[0, -1, 0, -1, 0, 0])+1/2*Hlog(z1,[0, 0, -1, -1, 0, 0])-69/256*Hlog(z1,[0, -1, 0, 0, 0, 0])-11/128*Hlog(z1,[0, 0, 0, -1, 0, 0])+61/64*Hlog(z1,[-1, -1, -1, 0, 0, 0])+43/128*Hlog(z1,[-1, -1, 0, 0, 0, 0])-61/64*Hlog(z1,[-1, 0, 0, -1, 0, 0])+19/256*Hlog(z1,[-1, 0, 0, 0, 0, 0])+61/64*Hlog(z1,[0, -1, -1, -1, 0, 0])-31/64*Hlog(z1,[-1, 0, -1, 0, 0, 0])-27/64*Hlog(z1,[0, -1, -1, 0, 0, 0])-61/32*Hlog(z1,[-1, -1, -1, -1, 0, 0])+61/64*Hlog(z1,[-1, -1, 0, -1, 0, 0])+61/64*Hlog(z1,[-1, 0, -1, -1, 0, 0])-5/128*zeta[2]*Hlog(z1,[-1, -1, 0, 0])+189/256*zeta[2]*Hlog(z1,[-1, 0, 0, 0])-183/64*zeta[2]*Hlog(z1,[-1, 0, 0, -1])-11/8*zeta[2]*Hlog(z1,[0, -1, -1, 0])-23/32*zeta[3]*Hlog(z1,[0, -1, 0])-787/2560*zeta[2]^2*Hlog(z1,[0, -1])-59/256*zeta[2]*Hlog(z1,[0, -1, 0, 0])-33/128*zeta[2]*Hlog(z1,[0, 0, 0, -1])-65/256*zeta[2]*Hlog(z1,[0, 0, 0, 0])-99/128*zeta[2]*Hlog(z1,[0, 0, -1, 0])-9/80*zeta[2]^2*Hlog(z1,[0, 0])-63/64*zeta[2]*Hlog(z1,[0, -1, 0, -1])-13/256*zeta[3]*Hlog(z1,[0, 0, 0])+1/2*zeta[3]*Hlog(z1,[0, 0, -1])+3/2*zeta[2]*Hlog(z1,[0, 0, -1, -1])+61/64*zeta[3]*Hlog(z1,[-1, -1, 0])-81/128*zeta[3]*Hlog(z1,[-1, 0, 0])-63/1280*zeta[2]^2*Hlog(z1,[-1, -1])+61/64*zeta[3]*Hlog(z1,[-1, 0, -1])+183/64*zeta[2]*Hlog(z1,[-1, -1, -1, 0])-61/32*zeta[3]*Hlog(z1,[-1, -1, -1])+183/64*zeta[2]*Hlog(z1,[0, -1, -1, -1])-23/16*zeta[2]*Hlog(z1,[-1, 0, -1, 0])+3157/2560*zeta[2]^2*Hlog(z1,[-1, 0])-183/32*zeta[2]*Hlog(z1,[-1, -1, -1, -1])+61/64*zeta[3]*Hlog(z1,[0, -1, -1])+183/64*zeta[2]*Hlog(z1,[-1, 0, -1, -1])+183/64*zeta[2]*Hlog(z1,[-1, -1, 0, -1])"
+    }
+  },
+  "verification": "workflow/checks/double-tgv-25/verification-r005.json",
+  "verification_sha256": "906d1cdce1074a84ca5250ad4a8ccbda1c9ae28624f85516dc60a124670a3f19",
+  "formal": "not_run",
+  "limitations": [
+    "Finite answer is a complete explicit GPL/algebraic Chen representation. Full reduction to M/N/zeta/tau+/E is not proved.",
+    "Full Qplus constant-letter GPL flattening and all-head canonical E4 reduction are not run.",
+    "Genus-one kernel curves do not establish a surviving physical elliptic component.",
+    "No independent numerical evaluation of the complete final Chen/GPL expression is claimed.",
+    "Wilson/Lean formal admission is not run; MCP has no orbit25 root. No original input or framework source was modified.",
+    "IBP025+026 are completed jointly in the same regulator, not as independent individual coefficients."
+  ],
+  "whole_I_coefficients": {
+    "-6": "0",
+    "-5": "0",
+    "-4": "0",
+    "-3": "0",
+    "-2": "-M_2_1/256-zeta_2*M_0_1/128-zeta_2^2/64",
+    "-1": "-M_0_1*M_1_1/128+13*M_0_1*zeta_3/64-zeta_2*M_1_1/8-3*zeta_2*zeta_3/16-5*zeta_5/64-7*M_3_1/768+M_1_3/1536+N_1_2/32",
+    "0": "K25(z)-(C0_closed(z)+C0_closed(1/z))/128"
+  },
+  "whole_I_pole_order_at_most": 2,
+  "pole2_compact": "-M_2_1/256-zeta_2*M_0_1/128-zeta_2^2/64",
+  "pole2_GPL": "-1/64*Hlog(z1,[0, -1, 0, 0])+1/32*Hlog(z1,[-1, -1, 0, 0])+43/1280*zeta[2]^2-1/64*Hlog(z1,[-1, 0, 0, 0])+1/128*Hlog(z1,[0, 0, 0, 0])+3/128*zeta[2]*Hlog(z1,[0, 0])+3/32*zeta[2]*Hlog(z1,[-1, -1])+1/32*zeta[3]*Hlog(z1,[-1])-1/64*zeta[3]*Hlog(z1,[0])-3/64*zeta[2]*Hlog(z1,[-1, 0])-3/64*zeta[2]*Hlog(z1,[0, -1])",
+  "complete_negative_IBP_source_coverage": 26,
+  "jointly_negative_IBP_groups": [
+    [
+      25,
+      26
+    ]
+  ],
+  "negative_IBP_scope": "Rows001..024 individually; rows025+026 jointly, now through finite as well.",
+  "pole1_compact": "-M_0_1*M_1_1/128+13*M_0_1*zeta_3/64-zeta_2*M_1_1/8-3*zeta_2*zeta_3/16-5*zeta_5/64-7*M_3_1/768+M_1_3/1536+N_1_2/32",
+  "pole1_GPL": "7/32*Hlog(z1,[0, -1, -1, 0, 0])-7/16*Hlog(z1,[-1, -1, -1, 0, 0])-3/16*Hlog(z1,[0, -1, 0, 0, 0])+7/32*Hlog(z1,[-1, 0, -1, 0, 0])-17/128*Hlog(z1,[-1, 0, 0, 0, 0])+25/256*Hlog(z1,[0, 0, 0, 0, 0])-3/128*zeta[5]-3/32*Hlog(z1,[0, 0, -1, 0, 0])+7/32*Hlog(z1,[-1, -1, 0, 0, 0])-7/16*zeta[3]*Hlog(z1,[-1, -1])+7/32*zeta[3]*Hlog(z1,[0, -1])+47/512*zeta[2]^2*Hlog(z1,[0])+7/32*zeta[3]*Hlog(z1,[-1, 0])-7/128*zeta[3]*Hlog(z1,[0, 0])-507/1280*zeta[2]^2*Hlog(z1,[-1])+21/32*zeta[2]*Hlog(z1,[0, -1, -1])-21/16*zeta[2]*Hlog(z1,[-1, -1, -1])+21/32*zeta[2]*Hlog(z1,[-1, -1, 0])+21/32*zeta[2]*Hlog(z1,[-1, 0, -1])-65/128*zeta[2]*zeta[3]-9/32*zeta[2]*Hlog(z1,[0, 0, -1])-31/128*zeta[2]*Hlog(z1,[-1, 0, 0])+35/256*zeta[2]*Hlog(z1,[0, 0, 0])-13/32*zeta[2]*Hlog(z1,[0, -1, 0])",
+  "single18_family_complete": {
+    "rows": [
+      18,
+      19,
+      22,
+      23
+    ],
+    "coefficients": [
+      {
+        "power": -2,
+        "gpl_coordinate_count": 11,
+        "coefficient_sha256": "0911cb2d26882a1a2a1f49c165cbc1ab0c14088a0033e70a0dcb5702e8c7c619",
+        "records": [
+          {
+            "weight": 4,
+            "covered": true,
+            "named_factor_shuffle_table_verified": true,
+            "coordinates": [
+              {
+                "factors": [
+                  "zeta_2",
+                  "M_0_1"
+                ],
+                "coefficient": "-1/128"
+              },
+              {
+                "factors": [
+                  "zeta_2",
+                  "zeta_2"
+                ],
+                "coefficient": "1/64"
+              },
+              {
+                "factors": [
+                  "M_2_1"
+                ],
+                "coefficient": "1/256"
+              }
+            ],
+            "residual": [],
+            "changed_coefficient_negative_control": {
+              "factors": [
+                "zeta_2",
+                "M_0_1"
+              ],
+              "coefficient_shift": "1",
+              "rejected": true
+            }
+          }
+        ]
+      },
+      {
+        "power": -1,
+        "gpl_coordinate_count": 24,
+        "coefficient_sha256": "2a264ca5809c5cd9c302aa3f24d9cf5bd87e6da538cc340a32869aad39d8a2ea",
+        "records": [
+          {
+            "weight": 5,
+            "covered": true,
+            "named_factor_shuffle_table_verified": true,
+            "coordinates": [
+              {
+                "factors": [
+                  "M_0_1",
+                  "M_1_1"
+                ],
+                "coefficient": "5/512"
+              },
+              {
+                "factors": [
+                  "M_0_1",
+                  "zeta_3"
+                ],
+                "coefficient": "-1/16"
+              },
+              {
+                "factors": [
+                  "zeta_2",
+                  "M_1_1"
+                ],
+                "coefficient": "7/128"
+              },
+              {
+                "factors": [
+                  "zeta_2",
+                  "zeta_3"
+                ],
+                "coefficient": "3/64"
+              },
+              {
+                "factors": [
+                  "zeta_5"
+                ],
+                "coefficient": "15/256"
+              },
+              {
+                "factors": [
+                  "M_3_1"
+                ],
+                "coefficient": "1/256"
+              },
+              {
+                "factors": [
+                  "M_1_3"
+                ],
+                "coefficient": "5/768"
+              },
+              {
+                "factors": [
+                  "N_1_2"
+                ],
+                "coefficient": "-19/1024"
+              }
+            ],
+            "residual": [],
+            "changed_coefficient_negative_control": {
+              "factors": [
+                "M_0_1",
+                "M_1_1"
+              ],
+              "coefficient_shift": "1",
+              "rejected": true
+            }
+          }
+        ]
+      },
+      {
+        "power": 0,
+        "gpl_coordinate_count": 50,
+        "coefficient_sha256": "530ce9c0364680b5f0d5ec984e4fe1a12e493cf4987ee9d5a15d600c99172507",
+        "records": [
+          {
+            "weight": 6,
+            "covered": true,
+            "named_factor_shuffle_table_verified": true,
+            "coordinates": [
+              {
+                "factors": [
+                  "M_0_1",
+                  "M_2_1"
+                ],
+                "coefficient": "-27/1024"
+              },
+              {
+                "factors": [
+                  "M_1_1",
+                  "M_1_1"
+                ],
+                "coefficient": "45/2048"
+              },
+              {
+                "factors": [
+                  "zeta_2",
+                  "M_2_1"
+                ],
+                "coefficient": "-15/2048"
+              },
+              {
+                "factors": [
+                  "zeta_3",
+                  "M_1_1"
+                ],
+                "coefficient": "-55/256"
+              },
+              {
+                "factors": [
+                  "zeta_3",
+                  "zeta_3"
+                ],
+                "coefficient": "-7/256"
+              },
+              {
+                "factors": [
+                  "M_0_1",
+                  "M_0_1",
+                  "M_0_1"
+                ],
+                "coefficient": "-19/2880"
+              },
+              {
+                "factors": [
+                  "zeta_2",
+                  "M_0_1",
+                  "M_0_1"
+                ],
+                "coefficient": "7/640"
+              },
+              {
+                "factors": [
+                  "zeta_2",
+                  "zeta_2",
+                  "M_0_1"
+                ],
+                "coefficient": "-115/2048"
+              },
+              {
+                "factors": [
+                  "zeta_2",
+                  "zeta_2",
+                  "zeta_2"
+                ],
+                "coefficient": "143/4480"
+              },
+              {
+                "factors": [
+                  "M_4_1"
+                ],
+                "coefficient": "29/6144"
+              },
+              {
+                "factors": [
+                  "M_2_3"
+                ],
+                "coefficient": "-25/4096"
+              },
+              {
+                "factors": [
+                  "N_2_2"
+                ],
+                "coefficient": "9/2048"
+              },
+              {
+                "factors": [
+                  "tauDq4"
+                ],
+                "coefficient": "-1/64"
+              },
+              {
+                "factors": [
+                  "E"
+                ],
+                "coefficient": "49/512"
+              }
+            ],
+            "residual": [],
+            "changed_coefficient_negative_control": {
+              "factors": [
+                "M_0_1",
+                "M_2_1"
+              ],
+              "coefficient_shift": "1",
+              "rejected": true
+            }
+          }
+        ]
+      }
+    ],
+    "scope": "One common physical contribution for each exact full-epsilon symmetry partner, through finite."
+  },
+  "single17_family_complete": {
+    "rows": [
+      17,
+      20,
+      21,
+      24
+    ],
+    "power0": {
+      "power": 0,
+      "records": [
+        {
+          "weight": 6,
+          "covered": true,
+          "coordinates": [
+            {
+              "factors": [
+                "M_0_1",
+                "M_2_1"
+              ],
+              "coefficient": "-1207/24576"
+            },
+            {
+              "factors": [
+                "M_1_1",
+                "M_1_1"
+              ],
+              "coefficient": "229/6144"
+            },
+            {
+              "factors": [
+                "zeta_2",
+                "M_2_1"
+              ],
+              "coefficient": "-241/8192"
+            },
+            {
+              "factors": [
+                "zeta_3",
+                "M_1_1"
+              ],
+              "coefficient": "-97/512"
+            },
+            {
+              "factors": [
+                "zeta_3",
+                "zeta_3"
+              ],
+              "coefficient": "-41/256"
+            },
+            {
+              "factors": [
+                "M_0_1",
+                "M_0_1",
+                "M_0_1"
+              ],
+              "coefficient": "-21167/2211840"
+            },
+            {
+              "factors": [
+                "zeta_2",
+                "M_0_1",
+                "M_0_1"
+              ],
+              "coefficient": "1813/92160"
+            },
+            {
+              "factors": [
+                "zeta_2",
+                "zeta_2",
+                "M_0_1"
+              ],
+              "coefficient": "-9391/122880"
+            },
+            {
+              "factors": [
+                "zeta_2",
+                "zeta_2",
+                "zeta_2"
+              ],
+              "coefficient": "-751/6720"
+            },
+            {
+              "factors": [
+                "M_4_1"
+              ],
+              "coefficient": "1147/196608"
+            },
+            {
+              "factors": [
+                "M_2_3"
+              ],
+              "coefficient": "-611/98304"
+            },
+            {
+              "factors": [
+                "N_2_2"
+              ],
+              "coefficient": "9/2048"
+            },
+            {
+              "factors": [
+                "tauDq4"
+              ],
+              "coefficient": "-43/1536"
+            },
+            {
+              "factors": [
+                "E"
+              ],
+              "coefficient": "103/768"
+            }
+          ],
+          "residual": [],
+          "all_GPL_rows_used": true,
+          "independent_named_shuffle_reconstruction": true,
+          "changed_coefficient_negative_controls": [
+            {
+              "factors": [
+                "M_0_1",
+                "M_2_1"
+              ],
+              "coefficient_shift": "1",
+              "rejected": true
+            },
+            {
+              "factors": [
+                "tauDq4"
+              ],
+              "coefficient_shift": "1",
+              "rejected": true
+            },
+            {
+              "factors": [
+                "E"
+              ],
+              "coefficient_shift": "1",
+              "rejected": true
+            }
+          ]
+        }
+      ],
+      "all_grades_exactly_reconstructed": true,
+      "gpl_coordinate_count": 49,
+      "coefficient_sha256": "76a0386266f354699b0a511724e41b4bc1400f8cc989516f2c1f492aede38993",
+      "basis_sha256": "c646e42379fd344c45bee8ad02ec25a0f92a050d9ac85da63912cc1265f72c05",
+      "source_evidence": {
+        "script_sha256": "fe83bd444daa2b13222d13dc1314be3826f7b8577fa3d24b9ba0c16169a62107",
+        "log_sha256": "62c45103a02e37f2a9a8996008438d285db77359fbd5c346822d3fdbd73f7ec9",
+        "report_sha256": "c0473cff5cb218f9984364285c395206a92f1b37def1261b636a3b44e09717f7"
+      },
+      "scope": "Exact coordinate audit of single17-family r045 physical finite coefficient candidate. Original-root mathematical admission, early-tail proof and branch provenance are reviewed separately by root; no current/status file is changed here. No coverage of unknown RR C0 or whole-I25 finite part is assumed.",
+      "domain": "fixed real z>0, GPL alphabet {0,-1}, exact Q(z) coordinate comparison",
+      "formal": "not_run"
+    },
+    "GPL": "61/672*zeta[2]^3-1/32*zeta[3]^2-7/512*Hlog(z1,[-1, 0, -1, -1, 0, 0])+7/256*Hlog(z1,[-1, -1, -1, -1, 0, 0])-45/512*Hlog(z1,[-1, 0, 0, -1, 0, 0])-5/128*Hlog(z1,[-1, 0, -1, 0, 0, 0])+39/512*Hlog(z1,[0, -1, 0, 0, 0, 0])-1/256*Hlog(z1,[-1, -1, 0, 0, 0, 0])+77/512*Hlog(z1,[0, 0, -1, -1, 0, 0])-7/512*Hlog(z1,[-1, -1, 0, -1, 0, 0])+37/512*Hlog(z1,[-1, 0, 0, 0, 0, 0])+1/64*Hlog(z1,[0, 0, -1, 0, 0, 0])-7/512*Hlog(z1,[-1, -1, -1, 0, 0, 0])-11/512*Hlog(z1,[0, 0, 0, -1, 0, 0])-33/256*Hlog(z1,[0, -1, -1, 0, 0, 0])-3/512*Hlog(z1,[0, -1, 0, -1, 0, 0])-7/512*Hlog(z1,[0, -1, -1, -1, 0, 0])+1/512*(-125*zeta[2]*zeta[3]-192*zeta[5])*Hlog(z1,[-1])+1/1024*(-65*zeta[2]*zeta[3]+162*zeta[5])*Hlog(z1,[0])-53/512*zeta[3]*Hlog(z1,[0, -1, 0])+77/512*zeta[3]*Hlog(z1,[0, 0, -1])-1169/5120*zeta[2]^2*Hlog(z1,[0, -1])-21/512*zeta[2]*Hlog(z1,[-1, -1, -1, 0])-29/512*zeta[3]*Hlog(z1,[-1, 0, 0])+93/320*zeta[2]^2*Hlog(z1,[-1, -1])+293/5120*zeta[2]^2*Hlog(z1,[-1, 0])-7/512*zeta[3]*Hlog(z1,[-1, -1, 0])+7/256*zeta[3]*Hlog(z1,[-1, -1, -1])+3/256*zeta[3]*Hlog(z1,[0, 0, 0])-7/512*zeta[3]*Hlog(z1,[0, -1, -1])+119/1024*zeta[2]*Hlog(z1,[-1, 0, 0, 0])+309/5120*zeta[2]^2*Hlog(z1,[0, 0])-59/512*zeta[2]*Hlog(z1,[0, -1, -1, 0])+39/1024*zeta[2]*Hlog(z1,[0, -1, 0, 0])-21/512*zeta[2]*Hlog(z1,[-1, -1, 0, -1])-69/512*zeta[2]*Hlog(z1,[0, 0, -1, 0])-21/512*zeta[2]*Hlog(z1,[-1, 0, -1, -1])+231/512*zeta[2]*Hlog(z1,[0, 0, -1, -1])-15/512*zeta[2]*Hlog(z1,[0, 0, 0, 0])-21/512*zeta[2]*Hlog(z1,[0, -1, -1, -1])-33/512*zeta[2]*Hlog(z1,[0, 0, 0, -1])+25/256*zeta[2]*Hlog(z1,[-1, -1, 0, 0])-9/512*zeta[2]*Hlog(z1,[0, -1, 0, -1])+21/256*zeta[2]*Hlog(z1,[-1, -1, -1, -1])-7/512*zeta[3]*Hlog(z1,[-1, 0, -1])-135/512*zeta[2]*Hlog(z1,[-1, 0, 0, -1])-13/512*zeta[2]*Hlog(z1,[-1, 0, -1, 0])",
+    "scope": "Each original full-epsilon symmetry partner has this physical finite contribution; prior negative coefficients unchanged."
+  },
+  "whole_finite_representation": {
+    "equation": "K25(z)-(C0_closed(z)+C0_closed(1/z))/128",
+    "knownWholeFinite_GPL": "1/128*(267*zeta[2]*zeta[3]+23*zeta[5])*Hlog(z1,[-1])+3/256*(-57*zeta[2]*zeta[3]+7*zeta[5])*Hlog(z1,[0])+1/8*Hlog(z1,[0, 0, 0, 0, 0, 0])-29/128*Hlog(z1,[0, 0, -1, 0, 0, 0])+779/10752*zeta[2]^3+53/256*zeta[3]^2+23/64*Hlog(z1,[0, -1, 0, -1, 0, 0])+5/32*Hlog(z1,[0, 0, -1, -1, 0, 0])-53/256*Hlog(z1,[0, -1, 0, 0, 0, 0])-17/128*Hlog(z1,[0, 0, 0, -1, 0, 0])-39/64*Hlog(z1,[-1, -1, -1, 0, 0, 0])+43/128*Hlog(z1,[-1, -1, 0, 0, 0, 0])+23/64*Hlog(z1,[-1, 0, 0, -1, 0, 0])-85/256*Hlog(z1,[-1, 0, 0, 0, 0, 0])-39/64*Hlog(z1,[0, -1, -1, -1, 0, 0])+37/64*Hlog(z1,[-1, 0, -1, 0, 0, 0])+21/64*Hlog(z1,[0, -1, -1, 0, 0, 0])+39/32*Hlog(z1,[-1, -1, -1, -1, 0, 0])-39/64*Hlog(z1,[-1, -1, 0, -1, 0, 0])-39/64*Hlog(z1,[-1, 0, -1, -1, 0, 0])+67/128*zeta[2]*Hlog(z1,[-1, -1, 0, 0])-123/256*zeta[2]*Hlog(z1,[-1, 0, 0, 0])+69/64*zeta[2]*Hlog(z1,[-1, 0, 0, -1])+15/16*zeta[2]*Hlog(z1,[0, -1, -1, 0])+7/32*zeta[3]*Hlog(z1,[0, -1, 0])-1203/2560*zeta[2]^2*Hlog(z1,[0, -1])-91/256*zeta[2]*Hlog(z1,[0, -1, 0, 0])-51/128*zeta[2]*Hlog(z1,[0, 0, 0, -1])+43/256*zeta[2]*Hlog(z1,[0, 0, 0, 0])-49/128*zeta[2]*Hlog(z1,[0, 0, -1, 0])+17/64*zeta[2]^2*Hlog(z1,[0, 0])+69/64*zeta[2]*Hlog(z1,[0, -1, 0, -1])-33/256*zeta[3]*Hlog(z1,[0, 0, 0])+5/32*zeta[3]*Hlog(z1,[0, 0, -1])+15/32*zeta[2]*Hlog(z1,[0, 0, -1, -1])-39/64*zeta[3]*Hlog(z1,[-1, -1, 0])+63/128*zeta[3]*Hlog(z1,[-1, 0, 0])+897/1280*zeta[2]^2*Hlog(z1,[-1, -1])-39/64*zeta[3]*Hlog(z1,[-1, 0, -1])-117/64*zeta[2]*Hlog(z1,[-1, -1, -1, 0])+39/32*zeta[3]*Hlog(z1,[-1, -1, -1])-117/64*zeta[2]*Hlog(z1,[0, -1, -1, -1])+19/16*zeta[2]*Hlog(z1,[-1, 0, -1, 0])-659/2560*zeta[2]^2*Hlog(z1,[-1, 0])+117/32*zeta[2]*Hlog(z1,[-1, -1, -1, -1])-39/64*zeta[3]*Hlog(z1,[0, -1, -1])-117/64*zeta[2]*Hlog(z1,[-1, 0, -1, -1])-117/64*zeta[2]*Hlog(z1,[-1, -1, 0, -1])",
+    "knownWholeFinite_compact_coordinates": [
+      {
+        "factors": [
+          "M_0_1",
+          "M_2_1"
+        ],
+        "coefficient": "35/3072"
+      },
+      {
+        "factors": [
+          "M_1_1",
+          "M_1_1"
+        ],
+        "coefficient": "-7/1536"
+      },
+      {
+        "factors": [
+          "zeta_2",
+          "M_2_1"
+        ],
+        "coefficient": "19/1024"
+      },
+      {
+        "factors": [
+          "zeta_3",
+          "M_1_1"
+        ],
+        "coefficient": "45/128"
+      },
+      {
+        "factors": [
+          "zeta_3",
+          "zeta_3"
+        ],
+        "coefficient": "-3/8"
+      },
+      {
+        "factors": [
+          "M_0_1",
+          "M_0_1",
+          "M_0_1"
+        ],
+        "coefficient": "283/69120"
+      },
+      {
+        "factors": [
+          "zeta_2",
+          "M_0_1",
+          "M_0_1"
+        ],
+        "coefficient": "-323/11520"
+      },
+      {
+        "factors": [
+          "zeta_2",
+          "zeta_2",
+          "M_0_1"
+        ],
+        "coefficient": "-3271/15360"
+      },
+      {
+        "factors": [
+          "zeta_2",
+          "zeta_2",
+          "zeta_2"
+        ],
+        "coefficient": "-877/13440"
+      },
+      {
+        "factors": [
+          "M_4_1"
+        ],
+        "coefficient": "5/4096"
+      },
+      {
+        "factors": [
+          "M_2_3"
+        ],
+        "coefficient": "9/1024"
+      },
+      {
+        "factors": [
+          "N_2_2"
+        ],
+        "coefficient": "-1/1024"
+      },
+      {
+        "factors": [
+          "tauDq4"
+        ],
+        "coefficient": "-1/48"
+      },
+      {
+        "factors": [
+          "E"
+        ],
+        "coefficient": "-23/384"
+      }
+    ],
+    "C0_status": "complete explicit finite standard Chen/GPL special-value sum, source/branch/common-original-Y endpoints connected",
+    "C0_closed_definition": "C0_closed(z)=Gknown(z)+Delta_Qplus(z)+Delta_13(z)+Delta_34(z)",
+    "C0_closed_period_book": "workflow/checks/double-tgv-25/whole-C0-closed-period-book-r170.json",
+    "C0_closed_period_book_sha256": "9b3f8e08cbc2f3b0c68fccc08d8a1b64ba895ea5580722fbcfadc1c2cc5113cb",
+    "selected_Qplus_base": "I*(1+1/z), both GPL constants and Chen functions",
+    "canonical_basis_membership": "not_proved",
+    "physical_elliptic_survival": "not_proved"
+  },
+  "completed_combined_groups": [
+    [
+      "ibp_025",
+      "ibp_026"
+    ]
+  ],
+  "IBP_source_coverage": 26,
+  "completion_scope": "Complete analytic special-function representation of original I25, fixed real z>0, eps^-6 through eps^0; no all-epsilon claim",
+  "next_step": "Reduce the complete finite Chen/GPL answer to a smaller function basis if possible; no remaining integration gap for the stated analytic-representation scope. Formal admission and final independent numeric evaluation are separate."
+}
