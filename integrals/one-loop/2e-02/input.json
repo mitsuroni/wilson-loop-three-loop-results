@@ -1,0 +1,71 @@
+{
+  "format": "wilson-one-loop-research-input/1",
+  "orbit_id": "2e-02",
+  "references_relative_to": "repository root",
+  "upstream_index": {
+    "path": "data/2026-11-02/integrals/1loop/2e-02/input.json",
+    "sha256": "1fa2c374655f0a2b6d71327aa00956dc987e3205aa1633e617206a31a644862d"
+  },
+  "graph_definition": {
+    "path": "data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/1loop/orbit_definitions.json",
+    "sha256": "c28b7e0e62ad331d7991cc089e0d93f6f49e4d4286dc35e0f96f53e9aefa23a3",
+    "json_pointer": "/orbits/1",
+    "field_sha256": "0e8bda9cfaea798cdd04e3e20481a7ec64f3c3120a99aa6bce1ceb16626cec88",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "native_orbit": {
+    "path": "data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/1loop/2e/montopar-initial.json",
+    "sha256": "83696213079eddfeb36556e69715577596cd1929a3c9f54b61f3006e69402040",
+    "json_pointer": "/orbits/1",
+    "field_sha256": "5f8e448156d934b364b320a211bb91c5155fe685b04eecb151bf0aa23a7fdf42",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "original_ordered_orbit": {
+    "path": "data/2026-11-02/snapshots/benchmarks/2ne/sources/montopar-ordered/2e/montopar-initial.json",
+    "sha256": "6da143214266017bfea452c45c7a09ba157b1e1563776f93b8ed3b8e2718b8fe",
+    "json_pointer": "/orbits/1",
+    "field_sha256": "3170de8cf8e4914e7fecaa10f53e136329c9ce0f0cec22fd67f40789d8cf3c93",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "prepared_orbit": {
+    "path": "data/2026-11-02/snapshots/benchmarks/2ne/prepared/2e.json",
+    "sha256": "d8ce895e6ff1dfd6c6d9b2d241c18988ba34fce234a7770ea47f6109ed366827",
+    "json_pointer": "/orbits/1",
+    "field_sha256": "6856c9a1145e609937154e50a1e9fe871c00b922b6d3943d18dc892aa5b10619",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "geometry": {
+    "path": "data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/1loop/2e/montopar-initial.json",
+    "sha256": "83696213079eddfeb36556e69715577596cd1929a3c9f54b61f3006e69402040",
+    "json_pointer": "/geometry",
+    "field_sha256": "15274c8ef3116dc4205ff92b6626cdad350a138bead45668a75e4d51936b778c",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "historical_result": {
+    "path": "integrals/one-loop/sources/benchmarks/2ne/results/2e-02/r002.json",
+    "sha256": "006832ddc9a153b6be74b94088625518d023dd98c10bdc338d89cc29392beaa8",
+    "bytes": 16303,
+    "role": "unchanged historical research source; not a fresh calculation"
+  },
+  "source_parameters": [
+    "s21",
+    "s41"
+  ],
+  "normalization": {
+    "m": 2,
+    "a1": 1,
+    "I_includes_orbit_and_crossing": true,
+    "Euler_compensation_count": 1,
+    "CF_lambda_common_S1_removed": true,
+    "I_map": "I=-(m/4)*G(eps)*(J(z,eps)+z**eps*J(1/z,eps))/(1+z**eps)",
+    "G": "exp(-EulerGamma*eps)*gamma(1-eps)",
+    "coupling": "lambda=alpha_s/pi"
+  },
+  "domain": {
+    "dimension": "D=4-2*eps",
+    "initial_shape": "z>0",
+    "power_branch": "real logarithm for positive polynomial bases",
+    "analytic_continuation": "Local epsilon continuation near zero; no general physical complex-z continuation is added."
+  },
+  "fresh_calculation_contract": "Rebuild original geometry/C/J and the all-epsilon evaluation, generate coefficients before reading the historical result table; no fitting."
+}

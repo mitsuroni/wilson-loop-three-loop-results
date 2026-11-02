@@ -8,21 +8,25 @@ Research materials for the fundamental lightlike quadrilateral Wilson-loop expon
 |---|---|---|
 | 1. Generate and classify diagram orbits | [Homemade generator](packages/qgraf-pipeline/README.md) · [guide](docs/upstream/generation.md) | Source, tests, frozen definitions and provenance |
 | 2. Convert diagram definitions to parameter integrals C and J | [Montopar](packages/montopar/README.md) · [guide](docs/upstream/parameterization.md) | Source, tests, integral inputs and versioned contracts |
-| 3. Evaluate individual or joint integrals | [Integral input catalogue](data/README.md) · [derivation structure](integrals/README.md) | Input records and English entry pages; full evaluation articles will be curated next |
-| 4. Assemble color channels | [Result archive](results/README.md) | The dated three-matter-color delivery remains available |
-| 5. Renormalize, extract finite terms and verify RG | [Reporting conventions](docs/results/conventions.md) · [validation scope](docs/results/validation-scope.md) | Existing dated evidence remains in its original scope |
+| 3. Evaluate individual or joint integrals | [One-loop articles](integrals/one-loop/README.md) · [two-loop articles](integrals/two-loop/README.md) | English derivations, actual programs and exact series for 2+12 orbits |
+| 4. Assemble color channels | [Complete low-loop example](results/2026-11-02-low-loops/README.md) · [result archive](results/README.md) | One/two-loop full color sums; dated three-matter-color delivery retained |
+| 5. Renormalize, extract finite terms and verify RG | [Low-loop derivation](results/2026-11-02-low-loops/derivation.md) · [checks](results/2026-11-02-low-loops/validation/README.md) | Counterterms, logZ, finite results, RG and complete external finite comparison |
 
-Start with the [upstream publication guide](docs/upstream/README.md), then open one integral's input record. The release is being organized in data-flow order. A source package, a parameter-integral definition, an evaluated Laurent coefficient, and an independent validation are distinct deliverables.
+Start with the [complete one/two-loop example](results/2026-11-02-low-loops/README.md) to follow the full calculation, or the [upstream guide](docs/upstream/README.md) to inspect its source packages. A source package, a parameter-integral definition, an evaluated Laurent coefficient, and an independent validation are distinct deliverables.
+
+## Complete low-loop pilot: 2 November 2026
+
+All fourteen one/two-loop orbits now have English derivations, exact data and portable calculation entrypoints. The tables extend to one-loop epsilon3 and two-loop epsilon2. Their full color/scales/counterterm assembly reproduces the finite functions and independent external finite result, with explicit RG checks and actual isolated reproduction. See the [data-flow table](results/2026-11-02-low-loops/README.md), [reproduction commands](docs/reproduction.md) and [lessons for three-loop publication](docs/low-loops/curation-lessons.md). Original integrations and reused HLOG identities have separate evidence scopes.
 
 ## First upstream snapshot: 2 November 2026
 
 - [Source packages](packages/README.md): the self-authored combinatorial diagram generator and Montopar. Source provenance, publication adaptations, dependencies and actual tests are recorded with each package.
 - [163-integral English index](docs/upstream/catalogue.md) and [versioned inputs](data/README.md): frozen diagram definitions and raw C/J packages for one, two and three loops, plus available ordered/prepared inputs. Each integral has an English entry page and exact source pointers.
 - [Reproduction levels](docs/reproduction.md): inspect the frozen inputs, run the source packages, then move to evaluated results. Generating C/J does not evaluate J.
-- [Actual upstream checks](validation/upstream-2026-11-02/README.md) and the [publication manifest](UPSTREAM-PUBLICATION.json).
+- [Actual upstream checks](validation/upstream-2026-11-02/README.md) and the [historical full-tree manifest at its original commit](https://github.com/mitsuroni/wilson-loop-three-loop-results/blob/ed854f02b0e79840f96c7a73c2642c21fef07307/UPSTREAM-PUBLICATION.json). It binds that snapshot, not this evolving navigation.
 - [Roadmap and publication status](docs/publication-status.md): what is already public, what is being curated next, and how historical snapshots should be read.
 
-The calculation workspace reached a complete four-color Laurent-through-finite and RG research milestone on 2 November. This repository update deliberately publishes the upstream packages and input data first. The older result files below remain a dated three-color snapshot until the new downstream release is curated; they are not relabeled as a four-color data release.
+The calculation workspace reached a complete four-color three-loop Laurent-through-finite and RG research milestone on 2 November. The upstream foundation and complete low-loop pilot are now public. The new three-loop per-integral and four-color downstream release is the next curation stage; older three-color files retain their dated scope.
 
 ## Existing result archives
 

@@ -1,0 +1,102 @@
+{
+  "format": "wilson-independent-isolated-low-loop-review/1",
+  "status": "passed",
+  "reproduction_boundary": "Only copies of the public data, one/two-loop packets and low-loop result packet were used. No source imports, file reads or writes fell back to the development repository or personal source tree; network disabled.",
+  "isolation": {
+    "python_flags_for_every_mathematical_process": [
+      "-I",
+      "-S"
+    ],
+    "ambient_python_paths_removed": true,
+    "declared_installed_math_libraries_explicitly_allowed": true,
+    "editable_site_startup_not_used": true,
+    "source_copy_unchanged": true,
+    "blocked_attempts": 0,
+    "child_execution": "Unchanged public child scripts/arguments wrapped by the independent verification harness under the same flags and file/network audit policy."
+  },
+  "actual_runs": {
+    "one_loop": {
+      "order": 3,
+      "checks": 80,
+      "negative_controls": 4,
+      "numeric_controls": 27,
+      "original_kernel_regeneration": true,
+      "copied_source_files_unchanged": 482
+    },
+    "two_loop": {
+      "order": 2,
+      "integrals": 12,
+      "coefficients": 84,
+      "exact_checks": 149,
+      "negative_controls": 2,
+      "original_kernel_and_moment_controls": 68,
+      "copied_source_files_unchanged": 565
+    },
+    "total_default": {
+      "checks": 68,
+      "negative_controls": 5
+    },
+    "total_with_regenerated_integrals": {
+      "checks": 68,
+      "negative_controls": 5,
+      "isolated_child_processes": 2
+    },
+    "optional_original_author_translation": {
+      "checks": 73,
+      "original_file_hashes": {
+        "WRen.m": "a5523952afa5379026a076bd832fe4188f18d7ae586093a0acf9c6500129a264",
+        "ADs.m": "9577b3d0183feb3952b4bc9cdf88b1f9067d4b5e0cd686eaa731258390083974"
+      },
+      "default_dependency": false,
+      "external_Wolfram_code_executed": false
+    },
+    "final_numeric_program": {
+      "default_samples": 12,
+      "fresh_coefficient_samples": 12,
+      "working_precisions": [
+        40,
+        60
+      ],
+      "maximum_scaled_precision_change": "8.57222152590535e-41",
+      "before_after_end_input_hash_checks_passed": true
+    }
+  },
+  "coefficient_reconstruction": {
+    "default_equals_regenerated_exact_bytes": true,
+    "sha256": "8139dc99d00ad2ee77a59c78c3219185282a8c940a936da1f82658e2f7b2d448",
+    "matches_current_published_file": true,
+    "three_loop_consumed_low_order_budget_checked": true
+  },
+  "scientific_program_and_input_bindings": {
+    "integrals/one-loop/reproduce.py": "fde2854b430fc55da58987b78d0179e65b2f3f65aeffdfc96b2c2725677fa90e",
+    "integrals/one-loop/source-manifest.json": "8f197c213383dd24cc94a8909b3965c52336b711198cd5de70df37d66b861905",
+    "integrals/two-loop/reproduce.py": "dda41520957f2decbcc6b94ada7c87908dd558efdf4e6eccd62dd43f025a4d6f",
+    "integrals/two-loop/check_integrals.py": "fc09136bf167b5797d90e14a5f5e581efd3a611e062a98acefdfd77968ad5ba8",
+    "integrals/two-loop/family_engines.py": "6ac28b4ba47605f196451d3a8096e73dbe8b7fe762f9d8bb09d8b28e7041ee51",
+    "integrals/two-loop/source-manifest.json": "66a4ead0fb5e4e4a7fc4693a21ee69b9c2937e5a0df2857d1de98b178e02fe6f",
+    "results/2026-11-02-low-loops/reproduce.py": "ad1ae98d5c1fb408454153f0b84cd64a43d4e6a4e5844fe9f6e9818b6c2f73e5",
+    "results/2026-11-02-low-loops/reference_extract.py": "0a6b97ab741a381b0ac8c222036c6dcf25af6a3027cc36906880be9207cd4a8f",
+    "results/2026-11-02-low-loops/reference/fixture.json": "940afca3c353e0ad2554a005b1ca8ad0afcdd3dd91350895bf23290bbf3ff939",
+    "data/manifest.json": "73ea2a642f60f7703eafc9a5e17d2844f5384cf65350783d42aa60e2cc34e0aa",
+    "results/2026-11-02-low-loops/numeric.py": "725395adf072e854f3aac7a5aef4f513a2b96903e02189e54f5bcdeb34c6baf0",
+    "results/2026-11-02-low-loops/coefficients.json": "8139dc99d00ad2ee77a59c78c3219185282a8c940a936da1f82658e2f7b2d448"
+  },
+  "reported_environment": {
+    "python": "3.12.10",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "numpy": "2.2.6"
+  },
+  "original_review_report_bindings": {
+    "version-bridge-checks.json": "f9c053ba498102d0a5c3a66e86aeeefbd0b7572b3cf3b7008008e91da8d84386",
+    "isolated-one-loop.json": "a3c133fd22b276e0401487764afd43fdbd6b928bd26373223ad71b7b4f25778f",
+    "isolated-two-loop.json": "48b402ce6b8d01257d618686ae4f290ee6dd199fd361da73bc202513759bdd50",
+    "isolated-totals.json": "5b78db14c7a0857123438334463c0779f80ca063897cdb7743b43746e1d22947",
+    "isolated-final-numeric.json": "e1c0c8857a23b41e266aae9aaf36a7bc2da7824be5b5ef26286bf2dd107b7d46"
+  },
+  "retained_scope": "The one-loop source primitives and generating coefficients are actually regenerated. Two-loop mother/Gamma/series and complete HLOG checks plus specified original kernel/moment controls actually run; historical full TGV04 HyperInt integrations and dictionaries are reused. This is not a new full fourteen-graph CAS integration, general complex-domain theorem or formal proof. Numerical precision/mesh controls are empirical, not interval certificates.",
+  "version_policy": "Historical manifests retain their original mathematical/snapshot version; moving navigation is checked separately. The old upstream full-tree publication manifest applies to commit ed854f0, not automatically to later HEAD.",
+  "public_source_or_old_evidence_modified": false,
+  "Git_operations": false,
+  "formal": "not_run"
+}

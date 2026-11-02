@@ -1,0 +1,213 @@
+{
+  "format": "wilson-two-loop-preread-self-energy/1",
+  "through_power": 2,
+  "remainder": "O(eps^3), fixed z>0",
+  "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+  "scalar_coefficients": {
+    "2e-Pi1-01": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "-1/32",
+        "latex": "- \\frac{1}{32}"
+      },
+      "-2": {
+        "sympy": "-1/32",
+        "latex": "- \\frac{1}{32}"
+      },
+      "-1": {
+        "sympy": "-3/32 - pi**2/192",
+        "latex": "- \\frac{3}{32} - \\frac{\\pi^{2}}{192}"
+      },
+      "0": {
+        "sympy": "-5/32 - pi**2/192 - zeta(3)/48",
+        "latex": "- \\frac{5}{32} - \\frac{\\pi^{2}}{192} - \\frac{\\zeta_{3}}{48}"
+      },
+      "1": {
+        "sympy": "-11/32 - pi**2/64 - 7*pi**4/11520 - zeta(3)/48",
+        "latex": "- \\frac{11}{32} - \\frac{\\pi^{2}}{64} - \\frac{7 \\pi^{4}}{11520} - \\frac{\\zeta_{3}}{48}"
+      },
+      "2": {
+        "sympy": "-21/32 - 5*pi**2/192 - zeta(3)/16 - 7*pi**4/11520 - pi**2*zeta(3)/288 - zeta(5)/80",
+        "latex": "- \\frac{21}{32} - \\frac{5 \\pi^{2}}{192} - \\frac{\\zeta_{3}}{16} - \\frac{7 \\pi^{4}}{11520} - \\frac{\\pi^{2} \\zeta_{3}}{288} - \\frac{\\zeta_{5}}{80}"
+      }
+    },
+    "2e-Pi1-02": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "-1/32",
+        "latex": "- \\frac{1}{32}"
+      },
+      "-1": {
+        "sympy": "-M01/16 - 1/32",
+        "latex": "- \\frac{M_{0,1}}{16} - \\frac{1}{32}"
+      },
+      "0": {
+        "sympy": "-M01/8 - M11/16 - 3/32 - pi**2/192",
+        "latex": "- \\frac{M_{0,1}}{8} - \\frac{M_{1,1}}{16} - \\frac{3}{32} - \\frac{\\pi^{2}}{192}"
+      },
+      "1": {
+        "sympy": "-5*M01**2/96 - pi**2*M01/24 - M01/4 - M11/8 - M21/32 - 5/32 - pi**2/192 - zeta(3)/48",
+        "latex": "- \\frac{5 M_{0,1}^{2}}{96} - \\frac{\\pi^{2} M_{0,1}}{24} - \\frac{M_{0,1}}{4} - \\frac{M_{1,1}}{8} - \\frac{M_{2,1}}{32} - \\frac{5}{32} - \\frac{\\pi^{2}}{192} - \\frac{\\zeta_{3}}{48}"
+      },
+      "2": {
+        "sympy": "-5*M01**2/48 - M01*M11/16 - pi**2*M01/12 - M01/2 - M01*zeta(3)/24 - pi**2*M11/24 - M11/4 - M13/96 - M21/16 - M31/96 - 11/32 - pi**2/64 - 7*pi**4/11520 - zeta(3)/48",
+        "latex": "- \\frac{5 M_{0,1}^{2}}{48} - \\frac{M_{0,1} M_{1,1}}{16} - \\frac{\\pi^{2} M_{0,1}}{12} - \\frac{M_{0,1}}{2} - \\frac{M_{0,1} \\zeta_{3}}{24} - \\frac{\\pi^{2} M_{1,1}}{24} - \\frac{M_{1,1}}{4} - \\frac{M_{1,3}}{96} - \\frac{M_{2,1}}{16} - \\frac{M_{3,1}}{96} - \\frac{11}{32} - \\frac{\\pi^{2}}{64} - \\frac{7 \\pi^{4}}{11520} - \\frac{\\zeta_{3}}{48}"
+      }
+    }
+  },
+  "color_coefficients": {
+    "2e-Pi1-01": {
+      "A": {
+        "-4": {
+          "sympy": "0",
+          "latex": "0"
+        },
+        "-3": {
+          "sympy": "-5/48",
+          "latex": "- \\frac{5}{48}"
+        },
+        "-2": {
+          "sympy": "-1/9",
+          "latex": "- \\frac{1}{9}"
+        },
+        "-1": {
+          "sympy": "-35/108 - 5*pi**2/288",
+          "latex": "- \\frac{35}{108} - \\frac{5 \\pi^{2}}{288}"
+        },
+        "0": {
+          "sympy": "-89/162 - pi**2/54 - 5*zeta(3)/72",
+          "latex": "- \\frac{89}{162} - \\frac{\\pi^{2}}{54} - \\frac{5 \\zeta_{3}}{72}"
+        },
+        "1": {
+          "sympy": "-583/486 - 35*pi**2/648 - 7*pi**4/3456 - 2*zeta(3)/27",
+          "latex": "- \\frac{583}{486} - \\frac{35 \\pi^{2}}{648} - \\frac{7 \\pi^{4}}{3456} - \\frac{2 \\zeta_{3}}{27}"
+        },
+        "2": {
+          "sympy": "-3353/1458 - 89*pi**2/972 - 35*zeta(3)/162 - 7*pi**4/3240 - 5*pi**2*zeta(3)/432 - zeta(5)/24",
+          "latex": "- \\frac{3353}{1458} - \\frac{89 \\pi^{2}}{972} - \\frac{35 \\zeta_{3}}{162} - \\frac{7 \\pi^{4}}{3240} - \\frac{5 \\pi^{2} \\zeta_{3}}{432} - \\frac{\\zeta_{5}}{24}"
+        }
+      },
+      "f": {
+        "-4": {
+          "sympy": "0",
+          "latex": "0"
+        },
+        "-3": {
+          "sympy": "1/12",
+          "latex": "\\frac{1}{12}"
+        },
+        "-2": {
+          "sympy": "1/18",
+          "latex": "\\frac{1}{18}"
+        },
+        "-1": {
+          "sympy": "pi**2/72 + 11/54",
+          "latex": "\\frac{\\pi^{2}}{72} + \\frac{11}{54}"
+        },
+        "0": {
+          "sympy": "zeta(3)/18 + pi**2/108 + 49/162",
+          "latex": "\\frac{\\zeta_{3}}{18} + \\frac{\\pi^{2}}{108} + \\frac{49}{162}"
+        },
+        "1": {
+          "sympy": "zeta(3)/27 + 7*pi**4/4320 + 11*pi**2/324 + 341/486",
+          "latex": "\\frac{\\zeta_{3}}{27} + \\frac{7 \\pi^{4}}{4320} + \\frac{11 \\pi^{2}}{324} + \\frac{341}{486}"
+        },
+        "2": {
+          "sympy": "zeta(5)/30 + 7*pi**4/6480 + pi**2*zeta(3)/108 + 11*zeta(3)/81 + 49*pi**2/972 + 1897/1458",
+          "latex": "\\frac{\\zeta_{5}}{30} + \\frac{7 \\pi^{4}}{6480} + \\frac{\\pi^{2} \\zeta_{3}}{108} + \\frac{11 \\zeta_{3}}{81} + \\frac{49 \\pi^{2}}{972} + \\frac{1897}{1458}"
+        }
+      }
+    },
+    "2e-Pi1-02": {
+      "A": {
+        "-4": {
+          "sympy": "0",
+          "latex": "0"
+        },
+        "-3": {
+          "sympy": "0",
+          "latex": "0"
+        },
+        "-2": {
+          "sympy": "-5/48",
+          "latex": "- \\frac{5}{48}"
+        },
+        "-1": {
+          "sympy": "-5*M01/24 - 1/9",
+          "latex": "- \\frac{5 M_{0,1}}{24} - \\frac{1}{9}"
+        },
+        "0": {
+          "sympy": "-31*M01/72 - 5*M11/24 - 35/108 - 5*pi**2/288",
+          "latex": "- \\frac{31 M_{0,1}}{72} - \\frac{5 M_{1,1}}{24} - \\frac{35}{108} - \\frac{5 \\pi^{2}}{288}"
+        },
+        "1": {
+          "sympy": "-25*M01**2/144 - 5*pi**2*M01/36 - 47*M01/54 - 31*M11/72 - 5*M21/48 - 89/162 - pi**2/54 - 5*zeta(3)/72",
+          "latex": "- \\frac{25 M_{0,1}^{2}}{144} - \\frac{5 \\pi^{2} M_{0,1}}{36} - \\frac{47 M_{0,1}}{54} - \\frac{31 M_{1,1}}{72} - \\frac{5 M_{2,1}}{48} - \\frac{89}{162} - \\frac{\\pi^{2}}{54} - \\frac{5 \\zeta_{3}}{72}"
+        },
+        "2": {
+          "sympy": "-155*M01**2/432 - 5*M01*M11/24 - 31*pi**2*M01/108 - 283*M01/162 - 5*M01*zeta(3)/36 - 5*pi**2*M11/36 - 47*M11/54 - 5*M13/144 - 31*M21/144 - 5*M31/144 - 583/486 - 35*pi**2/648 - 7*pi**4/3456 - 2*zeta(3)/27",
+          "latex": "- \\frac{155 M_{0,1}^{2}}{432} - \\frac{5 M_{0,1} M_{1,1}}{24} - \\frac{31 \\pi^{2} M_{0,1}}{108} - \\frac{283 M_{0,1}}{162} - \\frac{5 M_{0,1} \\zeta_{3}}{36} - \\frac{5 \\pi^{2} M_{1,1}}{36} - \\frac{47 M_{1,1}}{54} - \\frac{5 M_{1,3}}{144} - \\frac{31 M_{2,1}}{144} - \\frac{5 M_{3,1}}{144} - \\frac{583}{486} - \\frac{35 \\pi^{2}}{648} - \\frac{7 \\pi^{4}}{3456} - \\frac{2 \\zeta_{3}}{27}"
+        }
+      },
+      "f": {
+        "-4": {
+          "sympy": "0",
+          "latex": "0"
+        },
+        "-3": {
+          "sympy": "0",
+          "latex": "0"
+        },
+        "-2": {
+          "sympy": "1/12",
+          "latex": "\\frac{1}{12}"
+        },
+        "-1": {
+          "sympy": "M01/6 + 1/18",
+          "latex": "\\frac{M_{0,1}}{6} + \\frac{1}{18}"
+        },
+        "0": {
+          "sympy": "5*M01/18 + M11/6 + pi**2/72 + 11/54",
+          "latex": "\\frac{5 M_{0,1}}{18} + \\frac{M_{1,1}}{6} + \\frac{\\pi^{2}}{72} + \\frac{11}{54}"
+        },
+        "1": {
+          "sympy": "5*M01**2/36 + 14*M01/27 + pi**2*M01/9 + 5*M11/18 + M21/12 + zeta(3)/18 + pi**2/108 + 49/162",
+          "latex": "\\frac{5 M_{0,1}^{2}}{36} + \\frac{14 M_{0,1}}{27} + \\frac{\\pi^{2} M_{0,1}}{9} + \\frac{5 M_{1,1}}{18} + \\frac{M_{2,1}}{12} + \\frac{\\zeta_{3}}{18} + \\frac{\\pi^{2}}{108} + \\frac{49}{162}"
+        },
+        "2": {
+          "sympy": "25*M01**2/108 + M01*M11/6 + M01*zeta(3)/9 + 82*M01/81 + 5*pi**2*M01/27 + 14*M11/27 + pi**2*M11/9 + M13/36 + 5*M21/36 + M31/36 + zeta(3)/27 + 7*pi**4/4320 + 11*pi**2/324 + 341/486",
+          "latex": "\\frac{25 M_{0,1}^{2}}{108} + \\frac{M_{0,1} M_{1,1}}{6} + \\frac{M_{0,1} \\zeta_{3}}{9} + \\frac{82 M_{0,1}}{81} + \\frac{5 \\pi^{2} M_{0,1}}{27} + \\frac{14 M_{1,1}}{27} + \\frac{\\pi^{2} M_{1,1}}{9} + \\frac{M_{1,3}}{36} + \\frac{5 M_{2,1}}{36} + \\frac{M_{3,1}}{36} + \\frac{\\zeta_{3}}{27} + \\frac{7 \\pi^{4}}{4320} + \\frac{11 \\pi^{2}}{324} + \\frac{341}{486}"
+        }
+      }
+    }
+  },
+  "full_epsilon_formulae": {
+    "2e-Pi1-01": "-exp(-2*EulerGamma*eps)*gamma(1 - eps)**2/(32*eps**3*(1 - 2*eps)*(eps + 1))",
+    "2e-Pi1-02": "-((-z - 1)*meijerg(((0, 0, 2*eps), ()), ((0, 2*eps, 2*eps), ()), z)/(z**eps*cosh(eps*log(z))*gamma(1 - 2*eps)*gamma(2*eps + 1)**2) + 1/(2*eps*(eps + 1)))*exp(-2*EulerGamma*eps)*gamma(1 - eps)**2/(16*eps*(1 - 2*eps))"
+  },
+  "dependencies": {
+    "benchmarks/self-energy/current.json": "964465bc36add7b4be0429ee28c445a3cf759c053b13db1c6714c22bbf2821e2",
+    "benchmarks/self-energy/current-r002.json": "b141e672ae85e4cb119413968115e9da3cc8852f14f2b422f2f7d4b756c9eddd",
+    "benchmarks/self-energy/pi1/sources/2e-Pi1-r002.json": "e34105f56dabbcde06c96ac984e4ee07d0a27fd042031a8b82f93f42f11bf170",
+    "benchmarks/self-energy/pi1/prepared/2e-Pi1-r002.json": "1f96bec54d246915abe921bc30b7ab11802da47e65d59efd82cb530d735366a0",
+    "benchmarks/self-energy/pi1/results/2e-Pi1-01/r002.json": "122067c4f01aa9942db2e9040b577416c83c8439d2baa7c4b1ac1d18e21646c7",
+    "benchmarks/self-energy/pi1/results/2e-Pi1-02/r002.json": "8b214b54a6e32f78804d0f1bfa3077488abeaa6114f9ed89fe825446056cd0a8",
+    "benchmarks/self-energy/conventions.md": "71f0c30727d4c4e0333142b194213b4cf9328d24c7d9f0e1218ae4d3bb45d40f",
+    "benchmarks/self-energy/report/common.tex": "c119819e37ea29afc035cfed20e8d7b59e9c907550dac101ed8f7fae71ceaa3f",
+    "benchmarks/self-energy/report/pi1-chain.tex": "96ac0aa55426789cf451557511a48a248efb6838f695491acc86defbcb7b6887",
+    "benchmarks/renormalization/two-loop/derivation.md": "8fa4eee2fbee70e538001bddf03a28eabc4b42539891e1f088f26b3627cb2d1e",
+    "benchmarks/2ne/families/single-opposite/three-loop-r004.md": "2d55c0965fd65b8c55d65145fa79647b125571ab2da10b8bdcccc9b2c96fc2f5",
+    "benchmarks/renormalization/two-loop/result-r002.json": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f"
+  },
+  "formal": "not_run"
+}

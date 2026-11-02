@@ -1,0 +1,196 @@
+{
+  "format": "wilson-computational-result/1",
+  "family": "TGV-3e-3g",
+  "orbit_id": "3e-3g-01",
+  "revision": "r001",
+  "input": {
+    "package": "benchmarks/tgv/3e-3g/prepared/3e-3g.json",
+    "package_sha256": "dcfc43a3fffccdf81eeed48c1d8ac851c66eb66ccdae5b2cdd9b15ab80480068",
+    "manifest": "benchmarks/tgv/3e-3g/prepared/manifest.json",
+    "manifest_sha256": "3c098ff3cd3f4d49678bd8272309fbc778f4af1f5c28e6e8fe116e17b7b48dc1"
+  },
+  "normalization": {
+    "loop_order": 2,
+    "sym": 4,
+    "Euler": "exp(-2*EulerGamma*eps), included exactly once",
+    "representation": "single canonical representative; physical rotation from z inversion",
+    "I": "(1-2eps)*G2/2*(J(z)+z^(2eps)*J(1/z))/(1+z^(2eps)); G2=exp(-2 EulerGamma eps) Gamma(1-2eps)"
+  },
+  "domain": {
+    "z": "positive real",
+    "epsilon": "meromorphic expansion at 0",
+    "complex_kinematics": "source i0 preserved; no new physical complex-z continuation claim"
+  },
+  "I": {
+    "kind": "Gamma_closed_form",
+    "language": "WolframLanguage/InputForm",
+    "expression": "(1/32)*(-Gamma[1 - eps]^2/Gamma[2 - 2*eps] + 2*Gamma[1 - eps]*Gamma[eps + 1])*Exp[-2*EulerGamma*eps]*Gamma[1 - 2*eps]/eps^4",
+    "latex": "\\frac{\\left(- \\frac{\\Gamma^{2}\\left(1 - eps\\right)}{\\Gamma\\left(2 - 2 eps\\right)} + 2 \\Gamma\\left(1 - eps\\right) \\Gamma\\left(eps + 1\\right)\\right) e^{- 2 \\gamma eps} \\Gamma\\left(1 - 2 eps\\right)}{32 eps^{4}}"
+  },
+  "laurent": {
+    "variable": "eps",
+    "from_power": -6,
+    "through_power": 0,
+    "leading_power": -4,
+    "remainder": "O(eps)",
+    "coefficients": {
+      "-6": {
+        "expression": "0",
+        "language": "SymPy/str",
+        "latex": "0",
+        "hlog_terms": []
+      },
+      "-5": {
+        "expression": "0",
+        "language": "SymPy/str",
+        "latex": "0",
+        "hlog_terms": []
+      },
+      "-4": {
+        "expression": "1/32",
+        "language": "SymPy/str",
+        "latex": "\\frac{1}{32}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/32"
+          }
+        ]
+      },
+      "-3": {
+        "expression": "-1/16",
+        "language": "SymPy/str",
+        "latex": "- \\frac{1}{16}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/16"
+          }
+        ]
+      },
+      "-2": {
+        "expression": "-1/8 + 5*pi**2/192",
+        "language": "SymPy/str",
+        "latex": "\\frac{-24 + 5 \\pi^{2}}{192}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "5/32"
+          }
+        ]
+      },
+      "-1": {
+        "expression": "-1/4 - pi**2/96 + 7*zeta(3)/48",
+        "language": "SymPy/str",
+        "latex": "- \\frac{- 14 \\zeta\\left(3\\right) + \\pi^{2} + 24}{96}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/4"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "7/48"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/16"
+          }
+        ]
+      },
+      "0": {
+        "expression": "-1/2 - pi**2/48 - zeta(3)/24 + 119*pi**4/11520",
+        "language": "SymPy/str",
+        "latex": "\\frac{-5760 - 240 \\pi^{2} - 480 \\zeta\\left(3\\right) + 119 \\pi^{4}}{11520}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/2"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/24"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "119/320"
+          }
+        ]
+      }
+    }
+  },
+  "status": {
+    "analytic": "derived_exact",
+    "checks": "passed",
+    "formal": "not_run"
+  },
+  "evidence": {
+    "delivery": "workflow/checks/tgv-solve/deliveries/20260917T084348202454Z",
+    "fresh_04_run": null,
+    "numeric_checks": "workflow/checks/tgv-solve/runs/20260917T082219982476Z-checks",
+    "source_audit": "workflow/checks/tgv-audit/runs/20260917T083010065973Z"
+  }
+}

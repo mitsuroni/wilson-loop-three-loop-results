@@ -1,0 +1,132 @@
+{
+  "format": "wilson-computational-result/1",
+  "orbit_id": "2e-01",
+  "revision": "r002",
+  "input": {
+    "manifest": "benchmarks/2ne/prepared/manifest.json",
+    "manifest_sha256": "0e9e55dad06bb5adb185689bdf03ea11f7b0c32386a9020fd2b2041fac1ac22c",
+    "package": "benchmarks/2ne/prepared/2e.json",
+    "package_sha256": "d8ce895e6ff1dfd6c6d9b2d241c18988ba34fce234a7770ea47f6109ed366827",
+    "orbit_sha256": "aaee911bc89f15882254336ab4a3b447696f86c5c73845613e7e06761fddb70b",
+    "orbit_hash_encoding": "UTF-8 JSON; sorted keys; compact separators; ensure_ascii=false",
+    "normalization_version": "ordered-parameters+fixed-loop-color-a1+per-loop-euler-compensation/0.3"
+  },
+  "domain": {
+    "J_convergence": "z>0, Re(eps)>0",
+    "I_real_domain": "z>0, real 0<eps<1; nonzero common scale/coupling or formal coefficient extraction",
+    "laurent": "fixed z>0, local meromorphic continuation at eps=0; remainder O(eps)",
+    "complex_kinematics": "not analyzed; no physical i0 continuation claimed"
+  },
+  "normalization": {
+    "loop_order": 1,
+    "a1": "1",
+    "sym": 4,
+    "kappa": "-1",
+    "euler_compensation": "already in prepared C; exactly once",
+    "scale_convention": "N=CA^(n-1)*CF*(alphaS/Pi)^n; S12=z^(n eps)*S14 in a common real branch"
+  },
+  "definitions": {
+    "G": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Exp[-EulerGamma*eps]*Gamma[1 - eps]",
+      "latex": "e^{- \\gamma \\varepsilon} \\Gamma\\left(1 - \\varepsilon\\right)"
+    },
+    "R2": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Gamma[eps + 1]^2/Gamma[2*eps + 1]",
+      "latex": "\\frac{\\Gamma^{2}\\left(\\varepsilon + 1\\right)}{\\Gamma\\left(2 \\varepsilon + 1\\right)}"
+    },
+    "R12": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Gamma[eps + 1]*Gamma[2*eps + 1]/Gamma[3*eps + 1]",
+      "latex": "\\frac{\\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(2 \\varepsilon + 1\\right)}{\\Gamma\\left(3 \\varepsilon + 1\\right)}"
+    },
+    "ell": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Log[z]",
+      "latex": "\\log{\\left(z \\right)}"
+    }
+  },
+  "reduction": {
+    "r": 1,
+    "chains": [
+      {
+        "variables_low_to_high": [
+          "s31"
+        ],
+        "word": "B"
+      },
+      {
+        "variables_low_to_high": [
+          "s41"
+        ],
+        "word": "A"
+      }
+    ],
+    "K": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "eps^(-2)",
+      "latex": "\\frac{1}{\\varepsilon^{2}}"
+    },
+    "I_compact": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "-G/eps^2",
+      "latex": "- \\frac{G}{\\varepsilon^{2}}"
+    }
+  },
+  "J": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "z^eps/eps^2",
+    "latex": "\\frac{z^{\\varepsilon}}{\\varepsilon^{2}}"
+  },
+  "I": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "-Exp[-EulerGamma*eps]*Gamma[1 - eps]/eps^2",
+    "latex": "- \\frac{e^{- \\gamma \\varepsilon} \\Gamma\\left(1 - \\varepsilon\\right)}{\\varepsilon^{2}}"
+  },
+  "laurent": {
+    "variable": "eps",
+    "through_power": 0,
+    "stored_from_power": -2,
+    "leading_power": -2,
+    "coefficients": {
+      "-2": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "-1",
+        "latex": "-1"
+      },
+      "-1": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "0",
+        "latex": "0"
+      },
+      "0": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "-1/12*Pi^2",
+        "latex": "- \\frac{\\pi^{2}}{12}"
+      }
+    },
+    "remainder": "O(eps)",
+    "status": "computed"
+  },
+  "status": {
+    "analytic": "derived_exact",
+    "checks": "passed",
+    "formal": "not_run"
+  },
+  "derivation": "benchmarks/2ne/workspaces/2e-01/derivation.md",
+  "evidence": {
+    "run": "workflow/checks/empty-family/runs/20260916T083424975899Z",
+    "checks": "workflow/checks/empty-family/runs/20260916T083424975899Z/2e-01-checks.json",
+    "checks_sha256": "6dbd5d5bd2e20ad4d38e0a352f0c05d29244bfc2f80d04fa88e2fb49faae70e2",
+    "code_sha256": {
+      "workflow/checks/empty-family/empty_math.py": "c844a76f2eb7a1591d7cccd732821be488890d1196704ca397dce6eb0cd49373",
+      "workflow/checks/empty-family/check_math.py": "b64dca9866177584031778dc5ce6cee42c0499f9228a8965038b848843735f39",
+      "workflow/checks/empty-family/solve_empty.py": "dedc7a2505a305f7b47f1ee06ef6063057106b507293c7fd9f1b950da33b160c",
+      "workflow/checks/empty-family/setup_workspaces.py": "f1331140c5f07a197b4a96ca021342d77a3f5cb9a901647c145a712c5166bc1e"
+    },
+    "method_sha256": "2dab6015a123658a65fae14ea770382f548eedd92fe361c31a741b97fe7183ba",
+    "derivation_snapshot": "workflow/checks/empty-family/runs/20260916T083424975899Z/2e-01-derivation.md",
+    "derivation_snapshot_sha256": "ef9082857190b6bbfb6594210c6cf639038799c6297caed97c4ef9de01f1bfbe"
+  }
+}

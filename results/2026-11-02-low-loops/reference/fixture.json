@@ -1,0 +1,58 @@
+{
+  "format": "wilson-derived-author-reference/1",
+  "quantity": "lambda=alpha_s/pi; all values divide out external CF; F2 is log W_R, WR2 is ordinary W_R",
+  "domain": "positive z and the inherited principal-polylog boundary used by the preserved comparison",
+  "symbol_dictionary": {
+    "rho": "log(z)",
+    "B": "log(1+z)",
+    "Li2": "polylog(2,-z)",
+    "Li3": "polylog(3,-z)",
+    "T": "TF*nf, author TR=1/2"
+  },
+  "F1_over_CF": "-L**2 + rho**2/4 + pi**2/3",
+  "F2_over_CF": "-11*B*CA*rho**2/24 - 11*pi**2*B*CA/24 + B*T*rho**2/6 + pi**2*B*T/6 - 11*CA*L**3/36 - 67*CA*L**2/36 + pi**2*CA*L**2/12 + 11*CA*L*rho**2/48 - 101*CA*L/27 + 7*CA*L*zeta(3)/2 + 11*pi**2*CA*L/24 - 11*CA*Li2*rho/12 + 11*CA*Li3/12 + 11*CA*rho**3/144 - pi**2*CA*rho**2/48 + 67*CA*rho**2/144 + 11*pi**2*CA*rho/48 - 607*CA/162 - pi**4*CA/48 - 11*CA*zeta(3)/18 + 335*pi**2*CA/432 + L**3*T/9 + 5*L**2*T/9 - L*T*rho**2/12 - pi**2*L*T/6 + 28*L*T/27 + Li2*T*rho/3 - Li3*T/3 - T*rho**3/36 - 5*T*rho**2/36 - pi**2*T*rho/12 - 25*pi**2*T/108 + 2*T*zeta(3)/9 + 82*T/81",
+  "WR2_over_CF": "-11*B*CA*rho**2/24 - 11*pi**2*B*CA/24 + B*T*rho**2/6 + pi**2*B*T/6 - 11*CA*L**3/36 - 67*CA*L**2/36 + pi**2*CA*L**2/12 + 11*CA*L*rho**2/48 - 101*CA*L/27 + 7*CA*L*zeta(3)/2 + 11*pi**2*CA*L/24 - 11*CA*Li2*rho/12 + 11*CA*Li3/12 + 11*CA*rho**3/144 - pi**2*CA*rho**2/48 + 67*CA*rho**2/144 + 11*pi**2*CA*rho/48 - 607*CA/162 - pi**4*CA/48 - 11*CA*zeta(3)/18 + 335*pi**2*CA/432 + CF*L**4/2 - CF*L**2*rho**2/4 - pi**2*CF*L**2/3 + CF*rho**4/32 + pi**2*CF*rho**2/12 + pi**4*CF/18 + L**3*T/9 + 5*L**2*T/9 - L*T*rho**2/12 - pi**2*L*T/6 + 28*L*T/27 + Li2*T*rho/3 - Li3*T/3 - T*rho**3/36 - 5*T*rho**2/36 - pi**2*T*rho/12 - 25*pi**2*T/108 + 2*T*zeta(3)/9 + 82*T/81",
+  "k2_over_CF": "-pi**2*CA/12 + 67*CA/36 - 5*T/9",
+  "h2_over_CF": "-7*CA*zeta(3)/2 - 11*pi**2*CA/72 + 101*CA/27 - 28*T/27 + pi**2*T/18",
+  "checks": [
+    {
+      "name": "dilog inversion derivative",
+      "residual": "0"
+    },
+    {
+      "name": "fraction dilog derivative",
+      "residual": "0"
+    },
+    {
+      "name": "complement dilog derivative",
+      "residual": "0"
+    },
+    {
+      "name": "trilog inversion derivative",
+      "residual": "0"
+    },
+    {
+      "name": "above-cut trilog pair derivative",
+      "residual": "0"
+    },
+    {
+      "name": "ordinary CF squared cancels in log W",
+      "residual": "0"
+    },
+    {
+      "name": "external finite RG is local",
+      "residual": "0"
+    },
+    {
+      "name": "noncusp finite versus independent threshold AD",
+      "residual": "0"
+    },
+    {
+      "name": "cusp finite versus adopted two-loop cusp",
+      "residual": "0"
+    }
+  ],
+  "source_provenance": "reference/provenance.json",
+  "external_Wolfram_code_executed": false,
+  "formal": "not_run"
+}

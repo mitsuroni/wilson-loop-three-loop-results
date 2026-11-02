@@ -17,6 +17,6 @@ Montopar outputs a parameter-integral definition. In the raw convention a contri
 \mathcal A_\rho=C_{\rho,\mathrm{raw}}J_{\rho,\mathrm{raw}}.
 ```
 
-An optional IBP decomposition instead carries a sum of terms, each with its own coefficient, integrand and domain. It does not supply an evaluated Laurent series. The next curation stage will add a continuous English evaluation article, the actual scripts/data, and checks for each independent integral or joint object.
+An optional IBP decomposition instead carries a sum of terms, each with its own coefficient, integrand and domain. It does not supply an evaluated Laurent series. Continue into the [complete one/two-loop example](../../results/2026-11-02-low-loops/README.md), which now adds English evaluation articles, actual programs, Laurent data, full color assembly and RG/finite checks for all14 low-loop orbits. Three-loop evaluation articles are the next curation stage.
 
 See [publication status](../publication-status.md) and [reproduction levels](../reproduction.md).

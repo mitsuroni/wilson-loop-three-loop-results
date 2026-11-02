@@ -1,0 +1,46 @@
+{
+  "format": "wilson-low-loop-total-source-manifest/1",
+  "scope": "Unmodified historical accepted totals and project scripts are source/holdout records. New portable reproduction uses individual curated coefficients; the historical scripts retain their original root paths and are not portable entrypoints.",
+  "sources": {
+    "benchmarks/renormalization/one-loop/result-r001.json": {
+      "path": "sources/benchmarks/renormalization/one-loop/result-r001.json",
+      "sha256": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007"
+    },
+    "benchmarks/renormalization/two-loop/result-r001.json": {
+      "path": "sources/benchmarks/renormalization/two-loop/result-r001.json",
+      "sha256": "af383e57d52ae54f4328aa5ee022bab3b0166357a6e6c47710884dbf72ce49d2"
+    },
+    "benchmarks/renormalization/two-loop/result-r002.json": {
+      "path": "sources/benchmarks/renormalization/two-loop/result-r002.json",
+      "sha256": "b4280c5de9d16e69832c272bc4094bb6ee59a87ee60df1e281331c117b84885f"
+    },
+    "benchmarks/renormalization/three-loop/lower-order-inputs-r001.json": {
+      "path": "sources/benchmarks/renormalization/three-loop/lower-order-inputs-r001.json",
+      "sha256": "557dbb38a6338a9c5b2c1fbbfad782cccbd9d4ced7cb0e66f2e880e4ede20991"
+    },
+    "benchmarks/renormalization/two-loop/assembly-bridge-r001.json": {
+      "path": "sources/benchmarks/renormalization/two-loop/assembly-bridge-r001.json",
+      "sha256": "cda39b2cc3473909a260a0d1f18eb726f9390938f9444d9e084b87cbbbccc1f3"
+    },
+    "workflow/checks/rg-two-loop/reference.py": {
+      "path": "sources/workflow/checks/rg-two-loop/reference.py",
+      "sha256": "e7ee3deeda6d38702fbb57a835e034360ec7ed1e485a2dd3eb8377be0b143bbe"
+    },
+    "workflow/checks/rg-two-loop/calculate.py": {
+      "path": "sources/workflow/checks/rg-two-loop/calculate.py",
+      "sha256": "080d1ec545ed26c3a39585df23f8c58e442f9f348b6b94d8e9c903e697caa640"
+    },
+    "workflow/checks/rg-two-loop/numeric.py": {
+      "path": "sources/workflow/checks/rg-two-loop/numeric.py",
+      "sha256": "03c098cf4448e7b9be769e02458ec3bff8cae1df4553c85b74c0870301244304"
+    },
+    "workflow/checks/rg-one-loop/calculate.py": {
+      "path": "sources/workflow/checks/rg-one-loop/calculate.py",
+      "sha256": "e6d88f31b224d260b222fa23ce7f37a954acbbb2a154de7466d32024ac0bb2bd"
+    },
+    "workflow/checks/rg-one-loop/numeric.py": {
+      "path": "sources/workflow/checks/rg-one-loop/numeric.py",
+      "sha256": "59c8f28307e7ab449b01205f761b4063851655a860832d81df25807af92cf2e2"
+    }
+  }
+}

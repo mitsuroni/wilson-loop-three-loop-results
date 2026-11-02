@@ -1,0 +1,242 @@
+{
+  "format": "two-loop-report-pure/1",
+  "domain": "fixed real z>0",
+  "powers": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "remainder": "O(eps^3)",
+  "coefficients": {
+    "4e-01": {
+      "-4": {
+        "sympy": "-1/16",
+        "latex": "- \\frac{1}{16}"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "-zeta2/16",
+        "latex": "- \\frac{\\zeta_{2}}{16}"
+      },
+      "-1": {
+        "sympy": "-zeta3/24",
+        "latex": "- \\frac{\\zeta_{3}}{24}"
+      },
+      "0": {
+        "sympy": "-7*zeta2**2/160",
+        "latex": "- \\frac{7 \\zeta_{2}^{2}}{160}"
+      },
+      "1": {
+        "sympy": "-zeta2*zeta3/24 - zeta5/40",
+        "latex": "- \\frac{\\zeta_{2} \\zeta_{3}}{24} - \\frac{\\zeta_{5}}{40}"
+      },
+      "2": {
+        "sympy": "-31*zeta2**3/1120 - zeta3**2/72",
+        "latex": "- \\frac{31 \\zeta_{2}^{3}}{1120} - \\frac{\\zeta_{3}^{2}}{72}"
+      }
+    },
+    "4e-02": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "M1_1/8",
+        "latex": "\\frac{M_{1,1}}{8}"
+      },
+      "0": {
+        "sympy": "M0_1**2/32 + 3*M0_1*zeta2/16 + 3*M2_1/32",
+        "latex": "\\frac{M_{0,1}^{2}}{32} + \\frac{3 M_{0,1} \\zeta_{2}}{16} + \\frac{3 M_{2,1}}{32}"
+      },
+      "1": {
+        "sympy": "5*M0_1*M1_1/32 + 19*M1_1*zeta2/32 + 7*M1_3/192 + 7*M3_1/192",
+        "latex": "\\frac{5 M_{0,1} M_{1,1}}{32} + \\frac{19 M_{1,1} \\zeta_{2}}{32} + \\frac{7 M_{1,3}}{192} + \\frac{7 M_{3,1}}{192}"
+      },
+      "2": {
+        "sympy": "5*M0_1**3/192 + 37*M0_1**2*zeta2/128 + 13*M0_1*M2_1/128 + 93*M0_1*zeta2**2/128 + M0_5/512 + M1_1*zeta3/12 + 51*M2_1*zeta2/128 + 5*M2_3/256 + 5*M4_1/512",
+        "latex": "\\frac{5 M_{0,1}^{3}}{192} + \\frac{37 M_{0,1}^{2} \\zeta_{2}}{128} + \\frac{13 M_{0,1} M_{2,1}}{128} + \\frac{93 M_{0,1} \\zeta_{2}^{2}}{128} + \\frac{M_{0,5}}{512} + \\frac{M_{1,1} \\zeta_{3}}{12} + \\frac{51 M_{2,1} \\zeta_{2}}{128} + \\frac{5 M_{2,3}}{256} + \\frac{5 M_{4,1}}{512}"
+      }
+    },
+    "4e-03": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "-zeta2/4",
+        "latex": "- \\frac{\\zeta_{2}}{4}"
+      },
+      "-1": {
+        "sympy": "zeta3/2",
+        "latex": "\\frac{\\zeta_{3}}{2}"
+      },
+      "0": {
+        "sympy": "-M0_1*zeta2/4 - 49*zeta2**2/40",
+        "latex": "- \\frac{M_{0,1} \\zeta_{2}}{4} - \\frac{49 \\zeta_{2}^{2}}{40}"
+      },
+      "1": {
+        "sympy": "M0_1*zeta3/2 + 4*zeta2*zeta3/3 + 3*zeta5/2",
+        "latex": "\\frac{M_{0,1} \\zeta_{3}}{2} + \\frac{4 \\zeta_{2} \\zeta_{3}}{3} + \\frac{3 \\zeta_{5}}{2}"
+      },
+      "2": {
+        "sympy": "-5*M0_1**2*zeta2/24 - 69*M0_1*zeta2**2/40 - 223*zeta2**3/56 + 5*zeta3**2/6",
+        "latex": "- \\frac{5 M_{0,1}^{2} \\zeta_{2}}{24} - \\frac{69 M_{0,1} \\zeta_{2}^{2}}{40} - \\frac{223 \\zeta_{2}^{3}}{56} + \\frac{5 \\zeta_{3}^{2}}{6}"
+      }
+    },
+    "4e-04": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "-M0_1**2/48",
+        "latex": "- \\frac{M_{0,1}^{2}}{48}"
+      },
+      "1": {
+        "sympy": "-M0_1*M1_1/16 + M0_1*zeta3 - M1_1*zeta2/2 + N1_2/8",
+        "latex": "- \\frac{M_{0,1} M_{1,1}}{16} + M_{0,1} \\zeta_{3} - \\frac{M_{1,1} \\zeta_{2}}{2} + \\frac{N_{1,2}}{8}"
+      },
+      "2": {
+        "sympy": "-41*M0_1**3/576 - M0_1*M2_1/64 + M0_5/30 - M1_1**2/64 + M1_1*zeta3 - M2_1*zeta2/4 - N0_4/32 + N2_2/16",
+        "latex": "- \\frac{41 M_{0,1}^{3}}{576} - \\frac{M_{0,1} M_{2,1}}{64} + \\frac{M_{0,5}}{30} - \\frac{M_{1,1}^{2}}{64} + M_{1,1} \\zeta_{3} - \\frac{M_{2,1} \\zeta_{2}}{4} - \\frac{N_{0,4}}{32} + \\frac{N_{2,2}}{16}"
+      }
+    },
+    "4e-05": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "M1_1/8",
+        "latex": "\\frac{M_{1,1}}{8}"
+      },
+      "0": {
+        "sympy": "M0_1**2/32 + 3*M0_1*zeta2/16 + 3*M2_1/32",
+        "latex": "\\frac{M_{0,1}^{2}}{32} + \\frac{3 M_{0,1} \\zeta_{2}}{16} + \\frac{3 M_{2,1}}{32}"
+      },
+      "1": {
+        "sympy": "5*M0_1*M1_1/32 + 19*M1_1*zeta2/32 + 7*M1_3/192 + 7*M3_1/192",
+        "latex": "\\frac{5 M_{0,1} M_{1,1}}{32} + \\frac{19 M_{1,1} \\zeta_{2}}{32} + \\frac{7 M_{1,3}}{192} + \\frac{7 M_{3,1}}{192}"
+      },
+      "2": {
+        "sympy": "5*M0_1**3/192 + 37*M0_1**2*zeta2/128 + 13*M0_1*M2_1/128 + 93*M0_1*zeta2**2/128 + M0_5/512 + M1_1*zeta3/12 + 51*M2_1*zeta2/128 + 5*M2_3/256 + 5*M4_1/512",
+        "latex": "\\frac{5 M_{0,1}^{3}}{192} + \\frac{37 M_{0,1}^{2} \\zeta_{2}}{128} + \\frac{13 M_{0,1} M_{2,1}}{128} + \\frac{93 M_{0,1} \\zeta_{2}^{2}}{128} + \\frac{M_{0,5}}{512} + \\frac{M_{1,1} \\zeta_{3}}{12} + \\frac{51 M_{2,1} \\zeta_{2}}{128} + \\frac{5 M_{2,3}}{256} + \\frac{5 M_{4,1}}{512}"
+      }
+    },
+    "4e-06": {
+      "-4": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "sympy": "0",
+        "latex": "0"
+      },
+      "0": {
+        "sympy": "-M0_1**2/16",
+        "latex": "- \\frac{M_{0,1}^{2}}{16}"
+      },
+      "1": {
+        "sympy": "-M0_1*M1_1/16",
+        "latex": "- \\frac{M_{0,1} M_{1,1}}{16}"
+      },
+      "2": {
+        "sympy": "-11*M0_1**3/192 - M0_1**2*zeta2/4 - M0_1*M2_1/64 - M1_1**2/64",
+        "latex": "- \\frac{11 M_{0,1}^{3}}{192} - \\frac{M_{0,1}^{2} \\zeta_{2}}{4} - \\frac{M_{0,1} M_{2,1}}{64} - \\frac{M_{1,1}^{2}}{64}"
+      }
+    }
+  },
+  "normalization": {
+    "Z": "exp(-gamma_E eps) Gamma(1-eps)",
+    "c_n": "cosh(n eps log(z)/2)",
+    "Euler": "one e^(-2 gamma_E eps) already included",
+    "C4": "already included; multiplicities 4,4,4,2,4,1",
+    "color": "CA CF; a1=-1/2"
+  },
+  "source_sha256": {
+    "benchmarks/2ne/prepared/4e.json": "0193d668525fdcc4f184896cfc7445f7201dc65557657c1f316a8b9ae8af57c7",
+    "benchmarks/2ne/results/4e-01/r002.json": "4d6bd1ba781a2f01c1197e9ddaa299599e17e2060cf8fdc2fbe03c0ad82cb1dd",
+    "benchmarks/2ne/results/4e-02/r002.json": "a1f97e0fdace7878ba9688fe35f4aaae854c7aa76821da4b7a029ca0c1268959",
+    "benchmarks/2ne/results/4e-03/r002.json": "c10be113752bfde5072957a5c26f63674327bae8aadc7e1a01a275f34224c390",
+    "benchmarks/2ne/results/4e-04/r002.json": "3053908df767b60c9dcf062161a2373391aeb53d6e482a6a39f58a04f321d753",
+    "benchmarks/2ne/results/4e-05/r001.json": "0ea95ad21c361fb536cf5e1b3c10c2cbde1a321dba034b527b59015845b50915",
+    "benchmarks/2ne/results/4e-06/r002.json": "b2d08ce064c2efd54aa2f555d33077903c18eff369ef7039a51fa7248aa5c00f",
+    "benchmarks/2ne/theory/generation/mother-map-r002.json": "d95bc53774872edc4539d887a3c19ccacd8097758d5d7ff1eb41f6707f882159",
+    "workflow/checks/4e04-high-order/hlog8.py": "c1838931e7383c159dc1578d6f03bd01ec50a4df1e27810a31902a96ff5fd530",
+    "workflow/checks/weight-seven/hlog7.py": "f2133831ec60d5e6bc24ddc129b16050cc14a2ec7cf4de5438b36701cc978c64",
+    "workflow/checks/single-opposite/current-moments.json": "c94ea320520c9fd0ce67b3377b7269bbf74d7120a2e4b2f3536297eda11513bb",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_2.txt": "cd56e716a2f6ff5ffdb881802c666ce34650e2097bc006f41c85373024cbec79",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_4.txt": "0e103345155d0d8cf29e95d5cb32549779b6c9ecf97b3ecd9ef4f5faea3bddd7",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_5.txt": "28e4f12e67372785789afc9a3164e3f6627d6452db4fc3deb1e229962c0a0674",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_4.txt": "428adc3c5657bcaf9df5f7e05ac89a9ecb1ff35d9337f5949de3b3c6efd7a45b",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_2.txt": "b7cc73814d33c1d6e6474ed4d0ae774b2de1ea68ded05ba21861ba173e3bfced",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_3.txt": "4c217930ee68940afc732b722f77297b342ef7b2c444e713ba1c52ffbd8a5612",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_2.txt": "7ada1deb03ef81b1bbb568e3c6c6b424d510a845a08e2f2a48141704ed845a9e",
+    "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_4_1.txt": "661bde1122a75bba0884f4e0251a1ff0e5be3b6897b89c2dd251793b45944624",
+    "benchmarks/2ne/theory/generation/4e04-high-order.json": "49fd3ae67a3fcc360a081d7b6c34cd9bb64c37cd83176baeb5a8071f45b8b594",
+    "benchmarks/2ne/theory/generation/unified-language.md": "1e4840ab2e9c35b055ae948c2b6a397aa2db254026ed6a438f36657bb3e19259",
+    "benchmarks/2ne/theory/generation/4e04-high-order.md": "13109766227c5427a55cae860d92d56b5c2b5edf3b3c5209bf8eccafdeeb16a9",
+    "benchmarks/2ne/theory/generation/4e04-direct-mn.md": "7593ea384b38e209181d7f1ce5faadbe72e1e433a577c77d6670204387729709",
+    "benchmarks/2ne/workspaces/4e-01/derivation.md": "96d5e53df7e0dc695956a53280f2b0b7ede2c762c9a2c896060fb598362b8ecf",
+    "benchmarks/2ne/workspaces/4e-02/derivation.md": "91c278f44198e7a7bedb2ab8be7991d456162b87a387ffa774da01ed5258fc6d",
+    "benchmarks/2ne/workspaces/4e-03/derivation.md": "8325ec7d177025f2db5bdabb8f0ff4361242f57d0eb10ac6ebf378dce7854b40",
+    "benchmarks/2ne/workspaces/4e-04/derivation.md": "46f77bbf9826b5fae6e5c540152ebf7ac2021144955932c5bb5dc1dc023b46ca",
+    "benchmarks/2ne/workspaces/4e-05/derivation.md": "3eecb7e9bb7a83e0ccbd52f17c544f762da92241680dd7e1520aa211db6da272",
+    "benchmarks/2ne/workspaces/4e-06/derivation.md": "3883d701f1650c21a39ce512abbe754fdf94c02663b91d9a3b14c6265605dd7f"
+  },
+  "formal": "not_run"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "wilson-low-loop-actual-run-summary/1",
+  "status": "passed",
+  "actual_root_checks": 68,
+  "negative_controls": 5,
+  "command_from_public_root": "python results/2026-11-02-low-loops/reproduce.py --output-dir replay-output/full-new --regenerate-integrals",
+  "executed_children": [
+    {
+      "family": "one-loop",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"checks\": 80, \"order\": 3, \"elapsed_seconds\": 16.524049200001173, \"output_dir\": \"D:\\\\wilson-agent\\\\workflow\\\\checks\\\\low-loop-publication-20261102\\\\totals-final-candidate\\\\one-loop-recomputed\"}\n"
+    },
+    {
+      "family": "two-loop",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"checks\": 149, \"negative_controls\": 2, \"integrals\": 12, \"coefficients\": 84, \"seconds\": 2.9689999999827705, \"formal\": \"not_run\"}\n"
+    }
+  ],
+  "original_run_record_sha256": "22bd67edddcc74f39122e1e0d1f20881ea829700893554e3cd4a2c26e967f203",
+  "scope": "Actual mother/series/HLOG replay followed by color/scales/counterterms/RG. Child routes preserve their stated reused integration identities; this is not a new full CAS integration of fourteen graphs. Personal absolute execution paths are omitted from this public summary.",
+  "formal": "not_run"
+}

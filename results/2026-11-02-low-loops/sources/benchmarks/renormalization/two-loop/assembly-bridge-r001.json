@@ -1,0 +1,266 @@
+{
+  "format": "two-loop-physical-assembly-bridge/1",
+  "domain": "s,t<0; z=s/t>0; common Feynman boundary value",
+  "coupling": "lambda=alpha_s/pi",
+  "scale": "mu_x^2=exp(2*EulerGamma)*mu_MSbar^2/4",
+  "hat_w2": "CF*(Xs^(2eps)+Xt^(2eps))*(CA*(sum_4e_I+sum_TGV_I)-B1(eps)*(I_BA+I_BO))",
+  "existing_I_modified": false,
+  "source_convention_mismatch": "Pi1 source external -1 duplicates insertion convention; physical/source=-1",
+  "rows": [
+    {
+      "orbit_id": "2e-Pi1-01",
+      "family": "2e-Pi1",
+      "edges": [
+        3,
+        4
+      ],
+      "m": 4,
+      "coefficient_m_over_2": "2",
+      "a1": "1",
+      "contracted_color": "CF*B1(eps)",
+      "Lorentz_or_parameter_numerator": "2*s41*z1^2 - 2*s31*s41*z1^2",
+      "physical_multiplier_of_existing_I": -1,
+      "remaining_Gamma_factor": "G(eps)^2/[16eps(1-2eps)]",
+      "result": "benchmarks/self-energy/pi1/results/2e-Pi1-01/r001.json",
+      "leading_power": -3,
+      "status": "retained_in_exponent",
+      "drop_stage": null
+    },
+    {
+      "orbit_id": "2e-Pi1-02",
+      "family": "2e-Pi1",
+      "edges": [
+        2,
+        4
+      ],
+      "m": 2,
+      "coefficient_m_over_2": "1",
+      "a1": "1",
+      "contracted_color": "CF*B1(eps)",
+      "Lorentz_or_parameter_numerator": "-2 + 2*s21 + 2*s41 - z1 - 2*eps*z1 - 2*s21*s41 + 2*s21*z1 + 2*s41*z1 - 4*s21*s41*z1 - 2*s21*s41*z1^2",
+      "physical_multiplier_of_existing_I": -1,
+      "remaining_Gamma_factor": "G(eps)^2/[16eps(1-2eps)]",
+      "result": "benchmarks/self-energy/pi1/results/2e-Pi1-02/r001.json",
+      "leading_power": -2,
+      "status": "retained_in_exponent",
+      "drop_stage": null
+    },
+    {
+      "orbit_id": "3e-3g-01",
+      "family": "3e-3g",
+      "edges": [
+        3,
+        4,
+        4
+      ],
+      "m": 4,
+      "coefficient_m_over_2": "2",
+      "a1": "I/2",
+      "contracted_color": "I*CA*CF/2 (before Fourier phases)",
+      "Lorentz_or_parameter_numerator": "-alpha1*z1**2*(alpha2 - alpha3)*(s31 - 1)/4",
+      "physical_multiplier_of_existing_I": 1,
+      "remaining_Gamma_factor": "(1-2eps)*G2(eps)",
+      "result": "benchmarks/tgv/3e-3g/results/3e-3g-01/r001.json",
+      "leading_power": -4,
+      "status": "retained_in_exponent",
+      "drop_stage": null
+    },
+    {
+      "orbit_id": "3e-3g-02",
+      "family": "3e-3g",
+      "edges": [
+        3,
+        3,
+        4
+      ],
+      "m": 4,
+      "coefficient_m_over_2": "2",
+      "a1": "I/2",
+      "contracted_color": "I*CA*CF/2 (before Fourier phases)",
+      "Lorentz_or_parameter_numerator": "-alpha3*s41*z1**2*(alpha1 - alpha2)/4",
+      "physical_multiplier_of_existing_I": 1,
+      "remaining_Gamma_factor": "(1-2eps)*G2(eps)",
+      "result": "benchmarks/tgv/3e-3g/results/3e-3g-02/r001.json",
+      "leading_power": -4,
+      "status": "retained_in_exponent",
+      "drop_stage": null
+    },
+    {
+      "orbit_id": "3e-3g-03",
+      "family": "3e-3g",
+      "edges": [
+        2,
+        4,
+        4
+      ],
+      "m": 4,
+      "coefficient_m_over_2": "2",
+      "a1": "I/2",
+      "contracted_color": "I*CA*CF/2 (before Fourier phases)",
+      "Lorentz_or_parameter_numerator": "-alpha1*(alpha2 - alpha3)*(z1 + 1)*(s21*z1 + s21 - 1)/4",
+      "physical_multiplier_of_existing_I": 1,
+      "remaining_Gamma_factor": "(1-2eps)*G2(eps)",
+      "result": "benchmarks/tgv/3e-3g/results/3e-3g-03/r001.json",
+      "leading_power": -1,
+      "status": "retained_in_exponent",
+      "drop_stage": null
+    },
+    {
+      "orbit_id": "3e-3g-04",
+      "family": "3e-3g",
+      "edges": [
+        2,
+        3,
+        4
+      ],
+      "m": 4,
+      "coefficient_m_over_2": "2",
+      "a1": "I/2",
+      "contracted_color": "I*CA*CF/2 (before Fourier phases)",
+      "Lorentz_or_parameter_numerator": "(alpha1*alpha2*s21*z1 + alpha1*alpha2*s21 + alpha1*alpha2*s31*z1 - alpha1*alpha2*z1 - alpha1*alpha2 - alpha1*alpha3*s21*z1 - alpha1*alpha3*s21 + alpha1*alpha3*s41*z1**2 + alpha1*alpha3*s41*z1 + 3*alpha1*alpha3*z1 + alpha1*alpha3 - alpha2*alpha3*s31*z1 - alpha2*alpha3*s41*z1**2 - alpha2*alpha3*s41*z1 + alpha2*alpha3*z1)/4",
+      "physical_multiplier_of_existing_I": 1,
+      "remaining_Gamma_factor": "(1-2eps)*G2(eps)",
+      "result": "benchmarks/tgv/3e-3g/results/3e-3g-04/r001.json",
+      "leading_power": -2,
+      "status": "retained_in_exponent",
+      "drop_stage": null
+    },
+    {
+      "orbit_id": "4e-01",
+      "family": "4e",
+      "edges": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "m": 4,
+      "coefficient_m_over_2": "2",
+      "a1": "-1/2",
+      "contracted_color": "-CA*CF/2",
+      "Lorentz_or_parameter_numerator": "z1**2",
+      "physical_multiplier_of_existing_I": 1,
+      "remaining_Gamma_factor": "G(eps)^2",
+      "result": "benchmarks/2ne/results/4e-01/r002.json",
+      "leading_power": -4,
+      "status": "retained_in_exponent",
+      "drop_stage": null
+    },
+    {
+      "orbit_id": "4e-02",
+      "family": "4e",
+      "edges": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "m": 4,
+      "coefficient_m_over_2": "2",
+      "a1": "-1/2",
+      "contracted_color": "-CA*CF/2",
+      "Lorentz_or_parameter_numerator": "-z1**2 - z1",
+      "physical_multiplier_of_existing_I": 1,
+      "remaining_Gamma_factor": "G(eps)^2",
+      "result": "benchmarks/2ne/results/4e-02/r002.json",
+      "leading_power": -1,
+      "status": "retained_in_exponent",
+      "drop_stage": null
+    },
+    {
+      "orbit_id": "4e-03",
+      "family": "4e",
+      "edges": [
+        2,
+        3,
+        3,
+        4
+      ],
+      "m": 4,
+      "coefficient_m_over_2": "2",
+      "a1": "-1/2",
+      "contracted_color": "-CA*CF/2",
+      "Lorentz_or_parameter_numerator": "z1",
+      "physical_multiplier_of_existing_I": 1,
+      "remaining_Gamma_factor": "G(eps)^2",
+      "result": "benchmarks/2ne/results/4e-03/r002.json",
+      "leading_power": -2,
+      "status": "retained_in_exponent",
+      "drop_stage": null
+    },
+    {
+      "orbit_id": "4e-04",
+      "family": "4e",
+      "edges": [
+        2,
+        2,
+        4,
+        4
+      ],
+      "m": 2,
+      "coefficient_m_over_2": "1",
+      "a1": "-1/2",
+      "contracted_color": "-CA*CF/2",
+      "Lorentz_or_parameter_numerator": "z1**2 + 2*z1 + 1",
+      "physical_multiplier_of_existing_I": 1,
+      "remaining_Gamma_factor": "G(eps)^2",
+      "result": "benchmarks/2ne/results/4e-04/r002.json",
+      "leading_power": 0,
+      "status": "retained_in_exponent",
+      "drop_stage": null
+    },
+    {
+      "orbit_id": "4e-05",
+      "family": "4e",
+      "edges": [
+        2,
+        2,
+        3,
+        4
+      ],
+      "m": 4,
+      "coefficient_m_over_2": "2",
+      "a1": "-1/2",
+      "contracted_color": "-CA*CF/2",
+      "Lorentz_or_parameter_numerator": "-z1 - 1",
+      "physical_multiplier_of_existing_I": 1,
+      "remaining_Gamma_factor": "G(eps)^2",
+      "result": "benchmarks/2ne/results/4e-05/r001.json",
+      "leading_power": -1,
+      "status": "retained_in_exponent",
+      "drop_stage": null
+    },
+    {
+      "orbit_id": "4e-06",
+      "family": "4e",
+      "edges": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "m": 1,
+      "coefficient_m_over_2": "1/2",
+      "a1": "-1/2",
+      "contracted_color": "-CA*CF/2",
+      "Lorentz_or_parameter_numerator": "z1**2 + 2*z1 + 1",
+      "physical_multiplier_of_existing_I": 1,
+      "remaining_Gamma_factor": "G(eps)^2",
+      "result": "benchmarks/2ne/results/4e-06/r002.json",
+      "leading_power": 0,
+      "status": "retained_in_exponent",
+      "drop_stage": null
+    }
+  ],
+  "counts": {
+    "4e": 19,
+    "3e-3g": 16,
+    "2e-Pi1": 6
+  },
+  "leading_pole_diagnostic": {
+    "unconverted_residual_over_CF": "5*CA/12 - TF*nf/3",
+    "converted_residual_over_CF": "0"
+  },
+  "status": "source audit completed; upstream convention repair not implemented; finite assembly not performed",
+  "formal": "not_run"
+}

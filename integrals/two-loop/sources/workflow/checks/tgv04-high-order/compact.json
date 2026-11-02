@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "I1 compact MN equality",
+      "passed": true,
+      "residual_terms": 0
+    },
+    {
+      "name": "I2 compact MN plus existing tau equality",
+      "passed": true,
+      "residual_terms": 0
+    },
+    {
+      "name": "M05 low-index reduction",
+      "passed": true,
+      "residual_terms": 0
+    },
+    {
+      "name": "N04 low-index reduction",
+      "passed": true,
+      "residual_terms": 0
+    }
+  ],
+  "I1": "-M_0_1*M_1_1/16 + 3*M_0_1*zeta_3/4 - 3*M_1_1*zeta_2/16 - M_1_3/96 - 5*M_3_1/96 - N_1_2/16 - 37*zeta_2*zeta_3/24 + 5*zeta_5/8",
+  "I2": "223*M_0_1**3/11520 - 13*M_0_1**2*zeta_2/1920 - 5*M_0_1*M_2_1/64 + 169*M_0_1*zeta_2**2/320 + M_1_1**2/32 + 5*M_1_1*zeta_3/3 - 21*M_2_1*zeta_2/64 + 25*M_2_3/1536 - 39*M_4_1/1024 - N_2_2/32 + tauD4/8 + 7381*zeta_2**3/1680 - 19*zeta_3**2/24",
+  "shared_direction_identity": "M_0_1**3/64 + 13*M_0_1**2*zeta_2/96 - 27*M_0_1*M_2_1/128 + 739*M_0_1*zeta_2**2/640 + M_1_1**2/32 + 5*M_1_1*zeta_3/3 - 99*M_2_1*zeta_2/128 - M_2_3/384 - 43*M_4_1/1536 + N_2_2/128 + 7381*zeta_2**3/1680 - 19*zeta_3**2/24",
+  "shared_identity": "[eps^2] I_3e3g04 + 4 [eps^0] I_6e36 = displayed MN polynomial; not an all-epsilon graph identity",
+  "formal": "not_run"
+}

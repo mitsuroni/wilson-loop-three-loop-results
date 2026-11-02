@@ -18,8 +18,23 @@ Current-source replays and frozen historical inputs have separate version identi
 
 ## Reassemble evaluated results
 
-The existing [23 October result replay](../results/2026-10-23/reproduce.md) rebuilds its three-matter-color expressions, scales, counterterms and checks from the already evaluated coefficients. It does not rerun all original integrations. The new complete four-color delivery will be curated in the later downstream publication step.
+The [complete low-loop packet](../results/2026-11-02-low-loops/README.md) rebuilds one/two-loop color sums, scales, counterterms, logZ, finite functions and RG/external finite checks. Run from the public root, with the recorded dependencies:
+
+```text
+python tools/check_low_loops.py --output-dir replay-output/audit-new
+python results/2026-11-02-low-loops/reproduce.py --output-dir replay-output/totals-new
+python results/2026-11-02-low-loops/numeric.py --output-dir replay-output/finite-numeric-new
+```
+
+The [23 October result replay](../results/2026-10-23/reproduce.md) still rebuilds its dated three-matter-color expressions from evaluated coefficients. It does not rerun all original integrations. The new complete three-loop four-color delivery remains the later downstream publication step.
 
 ## Recompute an integral
 
-Each future [evaluation article](../integrals/README.md) will distinguish actual original-integral computation from result verification and reused proved identities. It will list the scripts, source data, CAS versions, branch prescriptions, checkpoints and resource requirements for its actual route. No all-integral one-command recomputation is claimed by this first upstream snapshot.
+The [one-loop](../integrals/one-loop/README.md) and [two-loop](../integrals/two-loop/README.md) articles distinguish actual original/reduced-integral computation from representation verification and reused identities. To execute their declared routes before assembling:
+
+```text
+python results/2026-11-02-low-loops/reproduce.py --output-dir replay-output/full-new --regenerate-integrals
+python integrals/two-loop/check_integrals.py --output-dir replay-output/kernel-controls-new
+```
+
+One-loop primitives and Gamma/M-moment series are freshly computed; the two-loop shared engines expand the documented mother functions and compare complete HLOG coordinates. The original TGV04 HyperInt integration and fixed dictionaries are explicitly reused. No new full CAS integration of fourteen graphs is claimed. Historical CAS source scripts are archival; they retain original installation paths and must not be run as portable output writers.

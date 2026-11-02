@@ -1,0 +1,376 @@
+{
+  "orbit_id": "2e-01",
+  "input": {
+    "manifest": "benchmarks/2ne/prepared/manifest.json",
+    "manifest_sha256": "0e9e55dad06bb5adb185689bdf03ea11f7b0c32386a9020fd2b2041fac1ac22c",
+    "package": "benchmarks/2ne/prepared/2e.json",
+    "package_sha256": "d8ce895e6ff1dfd6c6d9b2d241c18988ba34fce234a7770ea47f6109ed366827",
+    "orbit_sha256": "aaee911bc89f15882254336ab4a3b447696f86c5c73845613e7e06761fddb70b",
+    "orbit_hash_encoding": "UTF-8 JSON; sorted keys; compact separators; ensure_ascii=false",
+    "normalization_version": "ordered-parameters+fixed-loop-color-a1+per-loop-euler-compensation/0.3"
+  },
+  "propagator_reconstruction": [
+    {
+      "propagator": "f1",
+      "A": "s41",
+      "B": "s31",
+      "scale": "z",
+      "polynomial_residual": "0"
+    }
+  ],
+  "normalization_source_checked": true,
+  "word_checks": [
+    {
+      "word": "A",
+      "method": "direct one-dimensional integral of the ordered word after elementary endpoint integration",
+      "checks": [
+        {
+          "eps": "0.5",
+          "quadrature": "1.9999999999999999999999999999999999998896529325524",
+          "closed_form": "2.0",
+          "absolute_error": "1.1034706744764539086289767656200973152402396913678e-37",
+          "scaled_error": "5.5173533723822695431448838281004865762011984568388e-38",
+          "working_dps": 70
+        },
+        {
+          "eps": "0.66666666666666666666666666666666666666666666666667",
+          "quadrature": "1.5",
+          "closed_form": "1.5",
+          "absolute_error": "4.0213467783764099474155307582436517239185378015757e-51",
+          "scaled_error": "2.6808978522509399649436871721624344826123585343838e-51",
+          "working_dps": 70
+        },
+        {
+          "eps": "0.75",
+          "quadrature": "1.3333333333333333333333333333333333333333333333333",
+          "closed_form": "1.3333333333333333333333333333333333333333333333333",
+          "absolute_error": "1.6104915135349794162702273105314189271361173274262e-57",
+          "scaled_error": "1.2078686351512345622026704828985641953520879955696e-57",
+          "working_dps": 70
+        }
+      ],
+      "passed": true
+    },
+    {
+      "word": "B",
+      "method": "direct one-dimensional integral of the ordered word after elementary endpoint integration",
+      "checks": [
+        {
+          "eps": "0.5",
+          "quadrature": "1.9999999999999999999999999999999999998896529585652",
+          "closed_form": "2.0",
+          "absolute_error": "1.1034704143479550233697922623779352717358880978619e-37",
+          "scaled_error": "5.5173520717397751168489613118896763586794404893093e-38",
+          "working_dps": 70
+        },
+        {
+          "eps": "0.66666666666666666666666666666666666666666666666667",
+          "quadrature": "1.5",
+          "closed_form": "1.5",
+          "absolute_error": "3.9766665795624221450663141537479246322253440393185e-51",
+          "scaled_error": "2.6511110530416147633775427691652830881502293595457e-51",
+          "working_dps": 70
+        },
+        {
+          "eps": "0.75",
+          "quadrature": "1.3333333333333333333333333333333333333333333333333",
+          "closed_form": "1.3333333333333333333333333333333333333333333333333",
+          "absolute_error": "1.5893794040307112727783064513400005120956362792501e-57",
+          "scaled_error": "1.1920345530230334545837298385050003840717272094376e-57",
+          "working_dps": 70
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "original_polynomial": {
+    "method": "exact polynomial integration of prepared expanded J in its original outer-to-inner order (integrated inside out)",
+    "scope": "J only; epsilon=1,2,3 are not evaluations of the Gamma-prefactored I",
+    "checks": [
+      {
+        "eps": 1,
+        "z": "2/3",
+        "original_iterated_value": "2/3",
+        "closed_value": "2/3",
+        "residual": "0",
+        "steps": [
+          {
+            "integrated_variable": "s41",
+            "remaining_expression": "2/3"
+          },
+          {
+            "integrated_variable": "s31",
+            "remaining_expression": "2/3"
+          }
+        ]
+      },
+      {
+        "eps": 2,
+        "z": "2/3",
+        "original_iterated_value": "1/9",
+        "closed_value": "1/9",
+        "residual": "0",
+        "steps": [
+          {
+            "integrated_variable": "s41",
+            "remaining_expression": "2/9 - 2*s31/9"
+          },
+          {
+            "integrated_variable": "s31",
+            "remaining_expression": "1/9"
+          }
+        ]
+      },
+      {
+        "eps": 3,
+        "z": "2/3",
+        "original_iterated_value": "8/243",
+        "closed_value": "8/243",
+        "residual": "0",
+        "steps": [
+          {
+            "integrated_variable": "s41",
+            "remaining_expression": "8*s31**2/81 - 16*s31/81 + 8/81"
+          },
+          {
+            "integrated_variable": "s31",
+            "remaining_expression": "8/243"
+          }
+        ]
+      }
+    ],
+    "passed": true
+  },
+  "raw_domain_qmc": {
+    "method": "randomized Sobol expectation of the ORIGINAL bounds indicator under independent normalized A/B endpoint densities; J=z^(r eps)*eps^(-2n)*probability",
+    "scope": "statistical consistency, not a certified numerical enclosure; acceptance max(8 SE,8/N)",
+    "checks": [
+      {
+        "eps": 0.5,
+        "seeds": [
+          4100,
+          4101,
+          4102,
+          4103,
+          4104,
+          4105,
+          4106,
+          4107
+        ],
+        "samples_per_scramble": 65536,
+        "scrambles": 8,
+        "probability_estimates": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean": 1.0,
+        "standard_error_estimate": 0.0,
+        "exact_probability": 1.0,
+        "absolute_difference": 0.0,
+        "acceptance_tolerance": 0.0001220703125
+      },
+      {
+        "eps": 0.7,
+        "seeds": [
+          4200,
+          4201,
+          4202,
+          4203,
+          4204,
+          4205,
+          4206,
+          4207
+        ],
+        "samples_per_scramble": 65536,
+        "scrambles": 8,
+        "probability_estimates": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean": 1.0,
+        "standard_error_estimate": 0.0,
+        "exact_probability": 1.0,
+        "absolute_difference": 0.0,
+        "acceptance_tolerance": 0.0001220703125
+      }
+    ],
+    "passed": true
+  },
+  "cauchy_coefficients": {
+    "method": "Cauchy/Fourier coefficient extraction from the exact Gamma expression after multiplying by eps^(2n); independent of symbolic series recurrence",
+    "working_dps": 70,
+    "circle_radius": "0.025",
+    "samples": 64,
+    "checks": [
+      {
+        "z": "0.5",
+        "coefficients": [
+          {
+            "power": -2,
+            "extracted_real": "-1.0",
+            "imaginary_residual": "-8.5359889998553490677318701811919149360910547602088e-74",
+            "expected": "-1",
+            "absolute_error": "1.8111559309612737499591909389161545906755896721982e-71"
+          },
+          {
+            "power": -1,
+            "extracted_real": "1.4715478503093407597202318847692661643609113196976e-70",
+            "imaginary_residual": "-1.7474630722423421521677753631635035701785821921409e-70",
+            "expected": "0",
+            "absolute_error": "2.2845306442682459818328875022257428579066305660571e-70"
+          },
+          {
+            "power": 0,
+            "extracted_real": "-0.8224670334241132182362075833230125946094749506034",
+            "imaginary_residual": "-1.0187638963680051413447759202248765753267847597907e-69",
+            "expected": "-0.8224670334241132182362075833230125946094749506034",
+            "absolute_error": "2.4991090302515159570330689420316141028542093577367e-69"
+          }
+        ]
+      },
+      {
+        "z": "1.0",
+        "coefficients": [
+          {
+            "power": -2,
+            "extracted_real": "-1.0",
+            "imaginary_residual": "-8.5359889998553490677318701811919149360910547602088e-74",
+            "expected": "-1",
+            "absolute_error": "1.8111559309612737499591909389161545906755896721982e-71"
+          },
+          {
+            "power": -1,
+            "extracted_real": "1.4715478503093407597202318847692661643609113196976e-70",
+            "imaginary_residual": "-1.7474630722423421521677753631635035701785821921409e-70",
+            "expected": "0",
+            "absolute_error": "2.2845306442682459818328875022257428579066305660571e-70"
+          },
+          {
+            "power": 0,
+            "extracted_real": "-0.8224670334241132182362075833230125946094749506034",
+            "imaginary_residual": "-1.0187638963680051413447759202248765753267847597907e-69",
+            "expected": "-0.8224670334241132182362075833230125946094749506034",
+            "absolute_error": "2.4991090302515159570330689420316141028542093577367e-69"
+          }
+        ]
+      },
+      {
+        "z": "2.0",
+        "coefficients": [
+          {
+            "power": -2,
+            "extracted_real": "-1.0",
+            "imaginary_residual": "-8.5359889998553490677318701811919149360910547602088e-74",
+            "expected": "-1",
+            "absolute_error": "1.8111559309612737499591909389161545906755896721982e-71"
+          },
+          {
+            "power": -1,
+            "extracted_real": "1.4715478503093407597202318847692661643609113196976e-70",
+            "imaginary_residual": "-1.7474630722423421521677753631635035701785821921409e-70",
+            "expected": "0",
+            "absolute_error": "2.2845306442682459818328875022257428579066305660571e-70"
+          },
+          {
+            "power": 0,
+            "extracted_real": "-0.8224670334241132182362075833230125946094749506034",
+            "imaginary_residual": "-1.0187638963680051413447759202248765753267847597907e-69",
+            "expected": "-0.8224670334241132182362075833230125946094749506034",
+            "absolute_error": "2.4991090302515159570330689420316141028542093577367e-69"
+          }
+        ]
+      }
+    ],
+    "passed": true
+  },
+  "remainder": {
+    "method": "finite part remainder divided by eps converges to symbolic next coefficient; O(eps) itself follows from analytic expression",
+    "note": "Cauchy check above covers through power 0; next coefficient here is symbolic, with numerical convergence only.",
+    "working_dps": 80,
+    "checks": [
+      {
+        "z": "0.5",
+        "points": [
+          {
+            "eps": "0.001",
+            "remainder_over_eps": "-0.40129497870743118336024951470703531878614688495711",
+            "next_coefficient": "-0.40068563438653142846657938717048333025499543078017",
+            "difference": "0.00060934432089975489367012753655198853115145417694682"
+          },
+          {
+            "eps": "0.0005",
+            "remainder_over_eps": "-0.40099017210075438827363180734095087580520918423357",
+            "next_coefficient": "-0.40068563438653142846657938717048333025499543078017",
+            "difference": "0.00030453771422295980705242017046754555021375345340333"
+          },
+          {
+            "eps": "0.00025",
+            "remainder_over_eps": "-0.40083786965862121398126420350083854077720499081428",
+            "next_coefficient": "-0.40068563438653142846657938717048333025499543078017",
+            "difference": "0.00015223527208978551468481633035521052220956003411589"
+          }
+        ]
+      },
+      {
+        "z": "1.0",
+        "points": [
+          {
+            "eps": "0.001",
+            "remainder_over_eps": "-0.40129497870743118336024951470703531878614688495711",
+            "next_coefficient": "-0.40068563438653142846657938717048333025499543078017",
+            "difference": "0.00060934432089975489367012753655198853115145417694682"
+          },
+          {
+            "eps": "0.0005",
+            "remainder_over_eps": "-0.40099017210075438827363180734095087580520918423357",
+            "next_coefficient": "-0.40068563438653142846657938717048333025499543078017",
+            "difference": "0.00030453771422295980705242017046754555021375345340333"
+          },
+          {
+            "eps": "0.00025",
+            "remainder_over_eps": "-0.40083786965862121398126420350083854077720499081428",
+            "next_coefficient": "-0.40068563438653142846657938717048333025499543078017",
+            "difference": "0.00015223527208978551468481633035521052220956003411589"
+          }
+        ]
+      },
+      {
+        "z": "2.0",
+        "points": [
+          {
+            "eps": "0.001",
+            "remainder_over_eps": "-0.40129497870743118336024951470703531878614688495711",
+            "next_coefficient": "-0.40068563438653142846657938717048333025499543078017",
+            "difference": "0.00060934432089975489367012753655198853115145417694682"
+          },
+          {
+            "eps": "0.0005",
+            "remainder_over_eps": "-0.40099017210075438827363180734095087580520918423357",
+            "next_coefficient": "-0.40068563438653142846657938717048333025499543078017",
+            "difference": "0.00030453771422295980705242017046754555021375345340333"
+          },
+          {
+            "eps": "0.00025",
+            "remainder_over_eps": "-0.40083786965862121398126420350083854077720499081428",
+            "next_coefficient": "-0.40068563438653142846657938717048333025499543078017",
+            "difference": "0.00015223527208978551468481633035521052220956003411589"
+          }
+        ]
+      }
+    ],
+    "passed": true
+  },
+  "formal": "not_run"
+}

@@ -1,0 +1,510 @@
+{
+  "format": "wilson-low-loop-end-to-end-map/1",
+  "path_base": "repository root, except graph_definition/native_raw_orbit use data/2026-11-02",
+  "integrals": [
+    {
+      "orbit_id": "2e-01",
+      "loop_order": 1,
+      "family": "exchange",
+      "input": {
+        "path": "data/2026-11-02/integrals/1loop/2e-01/input.json",
+        "sha256": "d73077e903526f9b4c9a05ae24f89b3e4192221838bdc9ffd4b98e12f7fa345a"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/1loop/orbit_definitions.json",
+        "sha256": "c28b7e0e62ad331d7991cc089e0d93f6f49e4d4286dc35e0f96f53e9aefa23a3",
+        "json_pointer": "/orbits/0",
+        "field_sha256": "5017f448cc6ffe299deb324cf12cf90cbefd12ff2948b6fb6400a294357522f4",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/1loop/2e/montopar-initial.json",
+        "sha256": "83696213079eddfeb36556e69715577596cd1929a3c9f54b61f3006e69402040",
+        "json_pointer": "/orbits/0",
+        "field_sha256": "6487c34affc762fe6e48755ab62def81337c77db5221d612a76ff1247f1f5c06",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/one-loop/2e-01/derivation.md",
+      "result": "integrals/one-loop/2e-01/result.json",
+      "result_sha256": "e9463e95aac73ed11669fb36f6996d16c7a545042233dcd073114a3c00f620bc",
+      "coefficient_range": [
+        -2,
+        3
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "1",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    },
+    {
+      "orbit_id": "2e-02",
+      "loop_order": 1,
+      "family": "exchange",
+      "input": {
+        "path": "data/2026-11-02/integrals/1loop/2e-02/input.json",
+        "sha256": "1fa2c374655f0a2b6d71327aa00956dc987e3205aa1633e617206a31a644862d"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/1loop/orbit_definitions.json",
+        "sha256": "c28b7e0e62ad331d7991cc089e0d93f6f49e4d4286dc35e0f96f53e9aefa23a3",
+        "json_pointer": "/orbits/1",
+        "field_sha256": "0e8bda9cfaea798cdd04e3e20481a7ec64f3c3120a99aa6bce1ceb16626cec88",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/1loop/2e/montopar-initial.json",
+        "sha256": "83696213079eddfeb36556e69715577596cd1929a3c9f54b61f3006e69402040",
+        "json_pointer": "/orbits/1",
+        "field_sha256": "5f8e448156d934b364b320a211bb91c5155fe685b04eecb151bf0aa23a7fdf42",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/one-loop/2e-02/derivation.md",
+      "result": "integrals/one-loop/2e-02/result.json",
+      "result_sha256": "e97408b71fa3039ad68c4733e3a370b4c3b1905b11324f3ec834b02138cd659f",
+      "coefficient_range": [
+        -2,
+        3
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "1",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    },
+    {
+      "orbit_id": "4e-01",
+      "loop_order": 2,
+      "family": "pure",
+      "input": {
+        "path": "data/2026-11-02/integrals/2loop/4e-01/input.json",
+        "sha256": "1a89a4816576e1a642e63f9c2d84e0cb66461deb54c5c8ef92be8fb3bf3390c5"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+        "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+        "json_pointer": "/orbits/6",
+        "field_sha256": "f83f6e13f9802886a1488ea4905c0dd0543037d6c37b5a26ff380f6ae9a02aaa",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json",
+        "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+        "json_pointer": "/orbits/0",
+        "field_sha256": "1d77d9ec3e879398ef154284bf0d8f20f6a33b086440277cda4980b40897a74d",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/two-loop/4e-01/derivation.md",
+      "result": "integrals/two-loop/4e-01/result.json",
+      "result_sha256": "d3213b53a4652711f4ab9480432403d0d57ddf1198be3a0575d2e486f46df7e4",
+      "coefficient_range": [
+        -4,
+        2
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "CA",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    },
+    {
+      "orbit_id": "4e-02",
+      "loop_order": 2,
+      "family": "pure",
+      "input": {
+        "path": "data/2026-11-02/integrals/2loop/4e-02/input.json",
+        "sha256": "d0cdca5d4503a03c8eb5e46ad68eb04039d6c635ccf0e89aad418765bb7a7c2a"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+        "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+        "json_pointer": "/orbits/7",
+        "field_sha256": "60df6193147ee0d40d62b95838191a013d25b7b377e3ceaf2c127b12fd496242",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json",
+        "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+        "json_pointer": "/orbits/1",
+        "field_sha256": "e59806e358a58f2220aefb31a01e917d1d3f908d2ee2fb4b3c3382f0388a074d",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/two-loop/4e-02/derivation.md",
+      "result": "integrals/two-loop/4e-02/result.json",
+      "result_sha256": "e278ce080699f3a1fbb3c6f5d45506c3fc8c63648c1e5b70fe8c7ced676fe4fe",
+      "coefficient_range": [
+        -4,
+        2
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "CA",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    },
+    {
+      "orbit_id": "4e-03",
+      "loop_order": 2,
+      "family": "pure",
+      "input": {
+        "path": "data/2026-11-02/integrals/2loop/4e-03/input.json",
+        "sha256": "47638290d98fef371bfe7fd352c97cc2643c7a8e4492e45e71f97fe7fd410ac8"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+        "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+        "json_pointer": "/orbits/8",
+        "field_sha256": "055d18fcdd547390444bb1bb9d5c01fdfd1d7612245006601a3939fb018b46df",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json",
+        "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+        "json_pointer": "/orbits/2",
+        "field_sha256": "91674ffbff0452bf6a439201bd7bad7576affa7778079e9c64659b537f5acfbd",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/two-loop/4e-03/derivation.md",
+      "result": "integrals/two-loop/4e-03/result.json",
+      "result_sha256": "57e8018a90de77baf03ca359d24e620e5fe81190ba4a48d9900f1637db7055a0",
+      "coefficient_range": [
+        -4,
+        2
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "CA",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    },
+    {
+      "orbit_id": "4e-04",
+      "loop_order": 2,
+      "family": "pure",
+      "input": {
+        "path": "data/2026-11-02/integrals/2loop/4e-04/input.json",
+        "sha256": "3fab16f0e946a411f0dcfc05c8302dc93101c511ddb280a41eceb0ea095b70a6"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+        "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+        "json_pointer": "/orbits/9",
+        "field_sha256": "ff539627d19a4e5bbb53ef598bef7f0f1c805dbdb3d8841c4bb60bd2dbf48e3c",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json",
+        "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+        "json_pointer": "/orbits/3",
+        "field_sha256": "c733ea0aaf917ead291f4e9ceeaea9966436b5483119332ba5c3d1e5ba76f847",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/two-loop/4e-04/derivation.md",
+      "result": "integrals/two-loop/4e-04/result.json",
+      "result_sha256": "6ff28c66c5b59637bd37b8a3dfad48be9342550079b9428aaba7ae9f19fb38de",
+      "coefficient_range": [
+        -4,
+        2
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "CA",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    },
+    {
+      "orbit_id": "4e-05",
+      "loop_order": 2,
+      "family": "pure",
+      "input": {
+        "path": "data/2026-11-02/integrals/2loop/4e-05/input.json",
+        "sha256": "167f98a40a3a3df28217dd80f09c0da4ec0ccc7f80c3e2be3d11e8e5b3c91167"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+        "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+        "json_pointer": "/orbits/10",
+        "field_sha256": "a364277188258f796c31dad22bc58301702cadea0f1a837f1edab27819c0d388",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json",
+        "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+        "json_pointer": "/orbits/4",
+        "field_sha256": "49e2d2f63acca44904d544619a0c5d69fd3100d197ea2f75257cf70344f793c4",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/two-loop/4e-05/derivation.md",
+      "result": "integrals/two-loop/4e-05/result.json",
+      "result_sha256": "94f5811e312c534c922f39205b497608d791f75808d9d06d7dbf0b04b8c5aeee",
+      "coefficient_range": [
+        -4,
+        2
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "CA",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    },
+    {
+      "orbit_id": "4e-06",
+      "loop_order": 2,
+      "family": "pure",
+      "input": {
+        "path": "data/2026-11-02/integrals/2loop/4e-06/input.json",
+        "sha256": "7ce69421b004cc73a3b5c26923befc69e21a7c2ec9fc48baa74fb699b7acc73c"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+        "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+        "json_pointer": "/orbits/11",
+        "field_sha256": "04779d82e64079775127f4c3eacbc706af0e153d2715f89a6988198ba2055e8f",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json",
+        "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+        "json_pointer": "/orbits/5",
+        "field_sha256": "f396a5b5e08c116ea147fdb15b4a29bb5a5b47f5ffb8e54e499cbde16420d6cb",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/two-loop/4e-06/derivation.md",
+      "result": "integrals/two-loop/4e-06/result.json",
+      "result_sha256": "b30e354292e3aebce11bafb56c010c0260a61f0a2180347cac69e07a1fad66c4",
+      "coefficient_range": [
+        -4,
+        2
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "CA",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    },
+    {
+      "orbit_id": "3e-3g-01",
+      "loop_order": 2,
+      "family": "TGV",
+      "input": {
+        "path": "data/2026-11-02/integrals/2loop/3e-3g-01/input.json",
+        "sha256": "8f90dd38a2d8c3e5911ab1f5811206c4300d9e61141b320b5f669ab9051e9134"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+        "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+        "json_pointer": "/orbits/2",
+        "field_sha256": "1debbc596e0973b86346bd735e7bc5957f1fa3d37ff020b2b004f9ae8ffe240e",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/3e-3g/montopar-initial.json",
+        "sha256": "56c76eeb832d2578704c5efc616955431b8371aa8574330da9cfd15e09669853",
+        "json_pointer": "/orbits/0",
+        "field_sha256": "c4d216ba3ad6f9c3a4cacb0275930c50d8443e5c151b942d8bc429ca7c821271",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/two-loop/3e-3g-01/derivation.md",
+      "result": "integrals/two-loop/3e-3g-01/result.json",
+      "result_sha256": "9920361d74234dcf446e996d979fb6517c3e529a84c00c892b629e04d1a387aa",
+      "coefficient_range": [
+        -4,
+        2
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "CA",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    },
+    {
+      "orbit_id": "3e-3g-02",
+      "loop_order": 2,
+      "family": "TGV",
+      "input": {
+        "path": "data/2026-11-02/integrals/2loop/3e-3g-02/input.json",
+        "sha256": "43f120c5307732498265115bb1e4e211a66d1ea7b1244137e2c0e867dd3a9c27"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+        "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+        "json_pointer": "/orbits/3",
+        "field_sha256": "cf777cfea1f7127cf16025ea769e996199004110a3e55627f9a5f5b78ec9957e",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/3e-3g/montopar-initial.json",
+        "sha256": "56c76eeb832d2578704c5efc616955431b8371aa8574330da9cfd15e09669853",
+        "json_pointer": "/orbits/1",
+        "field_sha256": "3c515a6e5bf287abe5a25ed96e85f3c95039e7b65865b4b0ffd5bdc333345140",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/two-loop/3e-3g-02/derivation.md",
+      "result": "integrals/two-loop/3e-3g-02/result.json",
+      "result_sha256": "9e973d3abf273a967f9b158c660d6c66c624f7915e67617dfd4b93f1b60b2d8e",
+      "coefficient_range": [
+        -4,
+        2
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "CA",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    },
+    {
+      "orbit_id": "3e-3g-03",
+      "loop_order": 2,
+      "family": "TGV",
+      "input": {
+        "path": "data/2026-11-02/integrals/2loop/3e-3g-03/input.json",
+        "sha256": "ba06d7c36e47c467b9123d3d1556ca00cf67cc93a1685b1cfa8fea211d71227c"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+        "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+        "json_pointer": "/orbits/4",
+        "field_sha256": "4c5e954bf9477632fba2201d618a8f27207162f170ef3da2598053a96f90451e",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/3e-3g/montopar-initial.json",
+        "sha256": "56c76eeb832d2578704c5efc616955431b8371aa8574330da9cfd15e09669853",
+        "json_pointer": "/orbits/2",
+        "field_sha256": "80388090c81411a050882599d266678b7a3dbb872ecc2fc113a976bc625b926e",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/two-loop/3e-3g-03/derivation.md",
+      "result": "integrals/two-loop/3e-3g-03/result.json",
+      "result_sha256": "853c88ae1da64e42c27ec0f933a85a75c141eac4b8b1f36672b59f7e9e852f31",
+      "coefficient_range": [
+        -4,
+        2
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "CA",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    },
+    {
+      "orbit_id": "3e-3g-04",
+      "loop_order": 2,
+      "family": "TGV",
+      "input": {
+        "path": "data/2026-11-02/integrals/2loop/3e-3g-04/input.json",
+        "sha256": "8686ff9a6df7a6e7b66e9e9bdd2b6eb7a0fcd5e7e1c34cfe5e0dfa5afe6c15aa"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+        "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+        "json_pointer": "/orbits/5",
+        "field_sha256": "fd5a61afc2a692474dd2abbf0883ae0972d546394a9c3cc72b620d6d93699d34",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/3e-3g/montopar-initial.json",
+        "sha256": "56c76eeb832d2578704c5efc616955431b8371aa8574330da9cfd15e09669853",
+        "json_pointer": "/orbits/3",
+        "field_sha256": "75a8d4ae2c498c179972beaea384fc8b670447d9086466146b1fcedb0f90904a",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/two-loop/3e-3g-04/derivation.md",
+      "result": "integrals/two-loop/3e-3g-04/result.json",
+      "result_sha256": "caad26a1d4939aea13fb11d3c2c413368286cf8d93a6684257fd31d83c462295",
+      "coefficient_range": [
+        -4,
+        2
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "CA",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    },
+    {
+      "orbit_id": "2e-Pi1-01",
+      "loop_order": 2,
+      "family": "Pi1",
+      "input": {
+        "path": "data/2026-11-02/integrals/2loop/2e-Pi1-01/input.json",
+        "sha256": "066edaffd098d9c8ab8e5de3dc68b0997acadb92942a3b95d552ec430fc01c19"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+        "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+        "json_pointer": "/orbits/0",
+        "field_sha256": "1d2aab7de1c499be00618acb599b3550a62aa739a01a8e927252456ec70e3027",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/2e-Pi1/montopar-initial.json",
+        "sha256": "bd497777604df23550fb5ab65607561665d348b32cdaed27007351d4fe8b9e85",
+        "json_pointer": "/orbits/0",
+        "field_sha256": "173e8b476b161c26af0251f20d04f600625af7eee982cd4248ea85dbfaea7273",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/two-loop/2e-Pi1-01/derivation.md",
+      "result": "integrals/two-loop/2e-Pi1-01/result.json",
+      "result_sha256": "63b0c699b65c4614408b854bfed769a3efcf096186f0010d0af14b91802e8c3e",
+      "coefficient_range": [
+        -4,
+        2
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "((10-6*eps)*CA-8*(1-eps)*T)/(3-2*eps)",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    },
+    {
+      "orbit_id": "2e-Pi1-02",
+      "loop_order": 2,
+      "family": "Pi1",
+      "input": {
+        "path": "data/2026-11-02/integrals/2loop/2e-Pi1-02/input.json",
+        "sha256": "cb07eeeb7276874128f9810d44e8ec6f68fc1c0bf09a567809742f0523c8ddd2"
+      },
+      "graph_definition": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+        "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+        "json_pointer": "/orbits/1",
+        "field_sha256": "a6935596048d7a9402b393e106f8359640d49e7eca0f81860dbcc863f6a7058d",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "native_raw_orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/2e-Pi1/montopar-initial.json",
+        "sha256": "bd497777604df23550fb5ab65607561665d348b32cdaed27007351d4fe8b9e85",
+        "json_pointer": "/orbits/1",
+        "field_sha256": "abead3812d935d381bbe1f0de5becaf64b136050678485026c4c76a82c34f8e1",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "derivation": "integrals/two-loop/2e-Pi1-02/derivation.md",
+      "result": "integrals/two-loop/2e-Pi1-02/result.json",
+      "result_sha256": "b577aae4fdb48b985d0380d81b0008d7dc1819ecf53825014741339699488dd7",
+      "coefficient_range": [
+        -4,
+        2
+      ],
+      "orbit_and_crossing_already_in_I": true,
+      "Euler_compensation_count": 1,
+      "canonical_external_weight_over_CF": "((10-6*eps)*CA-8*(1-eps)*T)/(3-2*eps)",
+      "downstream": "results/2026-11-02-low-loops/coefficients.json",
+      "verification_scope": "See the per-integral article and family replay. Hash bindings establish version identity, not the original physics."
+    }
+  ],
+  "upstream_base_commit": "ed854f02b0e79840f96c7a73c2642c21fef07307",
+  "stages": [
+    "graph and momentum source",
+    "raw/prepared C,J with ordered domain",
+    "normalized physical I",
+    "family and full color U",
+    "S1/S2 bare exponent",
+    "coupling counterterm",
+    "logZ and finite",
+    "RG and external finite comparison"
+  ],
+  "assembly_ledger": "results/2026-11-02-low-loops/assembly-ledger.json",
+  "next_loop_budget": "results/2026-11-02-low-loops/three-loop-budget.json",
+  "formal": "not_run"
+}

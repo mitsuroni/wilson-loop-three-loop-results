@@ -1,0 +1,131 @@
+{
+  "format": "two-loop-report-coefficients/1",
+  "family": "TGV",
+  "domain": "z>0",
+  "normalization": "Current full I, Euler factor once, C4 rotations included",
+  "through_power": 2,
+  "remainder": "O(eps^3)",
+  "integrals": {
+    "3e-3g-01": {
+      "-4": {
+        "expression": "1/32",
+        "latex": "\\frac{1}{32}"
+      },
+      "-3": {
+        "expression": "-1/16",
+        "latex": "- \\frac{1}{16}"
+      },
+      "-2": {
+        "expression": "5*zeta_2/32 - 1/8",
+        "latex": "\\frac{5 \\zeta_{2}}{32} - \\frac{1}{8}"
+      },
+      "-1": {
+        "expression": "-zeta_2/16 + 7*zeta_3/48 - 1/4",
+        "latex": "- \\frac{\\zeta_{2}}{16} + \\frac{7 \\zeta_{3}}{48} - \\frac{1}{4}"
+      },
+      "0": {
+        "expression": "119*zeta_2**2/320 - zeta_2/8 - zeta_3/24 - 1/2",
+        "latex": "\\frac{119 \\zeta_{2}^{2}}{320} - \\frac{\\zeta_{2}}{8} - \\frac{\\zeta_{3}}{24} - \\frac{1}{2}"
+      },
+      "1": {
+        "expression": "-7*zeta_2**2/160 + 23*zeta_2*zeta_3/48 - zeta_2/4 - zeta_3/12 + 31*zeta_5/80 - 1",
+        "latex": "- \\frac{7 \\zeta_{2}^{2}}{160} + \\frac{23 \\zeta_{2} \\zeta_{3}}{48} - \\frac{\\zeta_{2}}{4} - \\frac{\\zeta_{3}}{12} + \\frac{31 \\zeta_{5}}{80} - 1"
+      },
+      "2": {
+        "expression": "1707*zeta_2**3/2240 - 7*zeta_2**2/80 - zeta_2*zeta_3/24 - zeta_2/2 + 31*zeta_3**2/144 - zeta_3/6 - zeta_5/40 - 2",
+        "latex": "\\frac{1707 \\zeta_{2}^{3}}{2240} - \\frac{7 \\zeta_{2}^{2}}{80} - \\frac{\\zeta_{2} \\zeta_{3}}{24} - \\frac{\\zeta_{2}}{2} + \\frac{31 \\zeta_{3}^{2}}{144} - \\frac{\\zeta_{3}}{6} - \\frac{\\zeta_{5}}{40} - 2"
+      }
+    },
+    "3e-3g-02": {
+      "-4": {
+        "expression": "1/32",
+        "latex": "\\frac{1}{32}"
+      },
+      "-3": {
+        "expression": "-1/16",
+        "latex": "- \\frac{1}{16}"
+      },
+      "-2": {
+        "expression": "5*zeta_2/32 - 1/8",
+        "latex": "\\frac{5 \\zeta_{2}}{32} - \\frac{1}{8}"
+      },
+      "-1": {
+        "expression": "-zeta_2/16 + 7*zeta_3/48 - 1/4",
+        "latex": "- \\frac{\\zeta_{2}}{16} + \\frac{7 \\zeta_{3}}{48} - \\frac{1}{4}"
+      },
+      "0": {
+        "expression": "119*zeta_2**2/320 - zeta_2/8 - zeta_3/24 - 1/2",
+        "latex": "\\frac{119 \\zeta_{2}^{2}}{320} - \\frac{\\zeta_{2}}{8} - \\frac{\\zeta_{3}}{24} - \\frac{1}{2}"
+      },
+      "1": {
+        "expression": "-7*zeta_2**2/160 + 23*zeta_2*zeta_3/48 - zeta_2/4 - zeta_3/12 + 31*zeta_5/80 - 1",
+        "latex": "- \\frac{7 \\zeta_{2}^{2}}{160} + \\frac{23 \\zeta_{2} \\zeta_{3}}{48} - \\frac{\\zeta_{2}}{4} - \\frac{\\zeta_{3}}{12} + \\frac{31 \\zeta_{5}}{80} - 1"
+      },
+      "2": {
+        "expression": "1707*zeta_2**3/2240 - 7*zeta_2**2/80 - zeta_2*zeta_3/24 - zeta_2/2 + 31*zeta_3**2/144 - zeta_3/6 - zeta_5/40 - 2",
+        "latex": "\\frac{1707 \\zeta_{2}^{3}}{2240} - \\frac{7 \\zeta_{2}^{2}}{80} - \\frac{\\zeta_{2} \\zeta_{3}}{24} - \\frac{\\zeta_{2}}{2} + \\frac{31 \\zeta_{3}^{2}}{144} - \\frac{\\zeta_{3}}{6} - \\frac{\\zeta_{5}}{40} - 2"
+      }
+    },
+    "3e-3g-03": {
+      "-4": {
+        "expression": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "expression": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "expression": "0",
+        "latex": "0"
+      },
+      "-1": {
+        "expression": "-M_0_1/4 - M_1_1/8",
+        "latex": "- \\frac{M_{0,1}}{4} - \\frac{M_{1,1}}{8}"
+      },
+      "0": {
+        "expression": "M_0_1*zeta_2/8 - M_0_1/2 - M_1_1/4 - M_2_1/16",
+        "latex": "\\frac{M_{0,1} \\zeta_{2}}{8} - \\frac{M_{0,1}}{2} - \\frac{M_{1,1}}{4} - \\frac{M_{2,1}}{16}"
+      },
+      "1": {
+        "expression": "-5*M_0_1**2/24 - M_0_1*M_1_1/8 - M_0_1*zeta_2 + M_0_1*zeta_3/4 - M_0_1 - M_1_1*zeta_2/2 - M_1_1/2 - M_1_3/48 - M_2_1/8 - M_3_1/48",
+        "latex": "- \\frac{5 M_{0,1}^{2}}{24} - \\frac{M_{0,1} M_{1,1}}{8} - M_{0,1} \\zeta_{2} + \\frac{M_{0,1} \\zeta_{3}}{4} - M_{0,1} - \\frac{M_{1,1} \\zeta_{2}}{2} - \\frac{M_{1,1}}{2} - \\frac{M_{1,3}}{48} - \\frac{M_{2,1}}{8} - \\frac{M_{3,1}}{48}"
+      },
+      "2": {
+        "expression": "5*M_0_1**2*zeta_2/48 - 5*M_0_1**2/12 - M_0_1*M_1_1/4 - M_0_1*M_2_1/16 + 59*M_0_1*zeta_2**2/80 - 2*M_0_1*zeta_2 - M_0_1*zeta_3/6 - 2*M_0_1 - M_1_1*zeta_2 - M_1_1*zeta_3/12 - M_1_1 - M_1_3/24 - M_2_1*zeta_2/4 - M_2_1/4 - M_2_3/96 - M_3_1/24 - M_4_1/192",
+        "latex": "\\frac{5 M_{0,1}^{2} \\zeta_{2}}{48} - \\frac{5 M_{0,1}^{2}}{12} - \\frac{M_{0,1} M_{1,1}}{4} - \\frac{M_{0,1} M_{2,1}}{16} + \\frac{59 M_{0,1} \\zeta_{2}^{2}}{80} - 2 M_{0,1} \\zeta_{2} - \\frac{M_{0,1} \\zeta_{3}}{6} - 2 M_{0,1} - M_{1,1} \\zeta_{2} - \\frac{M_{1,1} \\zeta_{3}}{12} - M_{1,1} - \\frac{M_{1,3}}{24} - \\frac{M_{2,1} \\zeta_{2}}{4} - \\frac{M_{2,1}}{4} - \\frac{M_{2,3}}{96} - \\frac{M_{3,1}}{24} - \\frac{M_{4,1}}{192}"
+      }
+    },
+    "3e-3g-04": {
+      "-4": {
+        "expression": "0",
+        "latex": "0"
+      },
+      "-3": {
+        "expression": "0",
+        "latex": "0"
+      },
+      "-2": {
+        "expression": "zeta_2/8",
+        "latex": "\\frac{\\zeta_{2}}{8}"
+      },
+      "-1": {
+        "expression": "-M_1_1/8 + zeta_3/8",
+        "latex": "- \\frac{M_{1,1}}{8} + \\frac{\\zeta_{3}}{8}"
+      },
+      "0": {
+        "expression": "M_0_1**2/48 - M_2_1/8 + 9*zeta_2**2/10",
+        "latex": "\\frac{M_{0,1}^{2}}{48} - \\frac{M_{2,1}}{8} + \\frac{9 \\zeta_{2}^{2}}{10}"
+      },
+      "1": {
+        "expression": "-M_0_1*M_1_1/16 + 3*M_0_1*zeta_3/4 - 3*M_1_1*zeta_2/16 - M_1_3/96 - 5*M_3_1/96 - N_1_2/16 - 37*zeta_2*zeta_3/24 + 5*zeta_5/8",
+        "latex": "- \\frac{M_{0,1} M_{1,1}}{16} + \\frac{3 M_{0,1} \\zeta_{3}}{4} - \\frac{3 M_{1,1} \\zeta_{2}}{16} - \\frac{M_{1,3}}{96} - \\frac{5 M_{3,1}}{96} - \\frac{N_{1,2}}{16} - \\frac{37 \\zeta_{2} \\zeta_{3}}{24} + \\frac{5 \\zeta_{5}}{8}"
+      },
+      "2": {
+        "expression": "223*M_0_1**3/11520 - 13*M_0_1**2*zeta_2/1920 - 5*M_0_1*M_2_1/64 + 169*M_0_1*zeta_2**2/320 + M_1_1**2/32 + 5*M_1_1*zeta_3/3 - 21*M_2_1*zeta_2/64 + 25*M_2_3/1536 - 39*M_4_1/1024 - N_2_2/32 + tauD4/8 + 7381*zeta_2**3/1680 - 19*zeta_3**2/24",
+        "latex": "\\frac{223 M_{0,1}^{3}}{11520} - \\frac{13 M_{0,1}^{2} \\zeta_{2}}{1920} - \\frac{5 M_{0,1} M_{2,1}}{64} + \\frac{169 M_{0,1} \\zeta_{2}^{2}}{320} + \\frac{M_{1,1}^{2}}{32} + \\frac{5 M_{1,1} \\zeta_{3}}{3} - \\frac{21 M_{2,1} \\zeta_{2}}{64} + \\frac{25 M_{2,3}}{1536} - \\frac{39 M_{4,1}}{1024} - \\frac{N_{2,2}}{32} + \\frac{\\tau^+_{D,4}}{8} + \\frac{7381 \\zeta_{2}^{3}}{1680} - \\frac{19 \\zeta_{3}^{2}}{24}"
+      }
+    }
+  },
+  "formal": "not_run"
+}

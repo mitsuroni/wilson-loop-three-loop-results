@@ -1,0 +1,18 @@
+{
+  "status": "reassembled_and_matched",
+  "one_loop_bare": {
+    "-2": "-2",
+    "-1": "-2*L",
+    "0": "-L**2 + rho**2/4 + pi**2/3",
+    "1": "-L**3/3 + L*rho**2/4 + pi**2*L/3 - M_1_1/2 - 2*zeta(3)/3",
+    "2": "-L**4/12 + L**2*rho**2/8 + pi**2*L**2/6 - L*M_1_1/2 - 2*L*zeta(3)/3 - M_2_1/8 + rho**4/192 + pi**2*rho**2/24 + 19*pi**4/480"
+  },
+  "two_loop_bare": {
+    "-3": "-11*CA/24 + T/6",
+    "-2": "-11*CA*L/12 - 67*CA/72 + pi**2*CA/24 + L*T/3 + 5*T/18",
+    "-1": "-11*CA*L**2/12 - 67*CA*L/36 + pi**2*CA*L/12 + 11*CA*rho**2/48 - 101*CA/54 + 7*CA*zeta(3)/4 + 55*pi**2*CA/144 + L**2*T/3 + 5*L*T/9 - T*rho**2/12 - 5*pi**2*T/36 + 14*T/27",
+    "0": "-11*CA*L**3/18 - 67*CA*L**2/36 + pi**2*CA*L**2/12 + 11*CA*L*rho**2/24 - 101*CA*L/27 + 7*CA*L*zeta(3)/2 + 55*pi**2*CA*L/72 - 11*CA*M_1_1/12 - pi**2*CA*rho**2/48 + 67*CA*rho**2/144 - 607*CA/162 - pi**4*CA/48 - 11*CA*zeta(3)/36 + 335*pi**2*CA/432 + 2*L**3*T/9 + 5*L**2*T/9 - L*T*rho**2/6 - 5*pi**2*L*T/18 + 28*L*T/27 + M_1_1*T/3 - 5*T*rho**2/36 - 25*pi**2*T/108 + T*zeta(3)/9 + 82*T/81",
+    "1": "-11*CA*L**4/36 - 67*CA*L**3/54 + pi**2*CA*L**3/18 + 11*CA*L**2*rho**2/24 - 101*CA*L**2/27 + 7*CA*L**2*zeta(3)/2 + 55*pi**2*CA*L**2/72 - 11*CA*L*M_1_1/6 - pi**2*CA*L*rho**2/24 + 67*CA*L*rho**2/72 - 607*CA*L/81 - pi**4*CA*L/24 - 11*CA*L*zeta(3)/18 + 335*pi**2*CA*L/216 - 67*CA*M_1_1/36 + CA*M_1_3/12 - 11*CA*M_2_1/24 + CA*N_1_2/8 + 11*CA*rho**4/576 - 13*CA*rho**2*zeta(3)/8 + 101*CA*rho**2/108 + 11*pi**2*CA*rho**2/96 - 163*pi**2*CA*zeta(3)/72 - 1822*CA/243 - 67*CA*zeta(3)/108 + 23*CA*zeta(5)/4 + 913*pi**4*CA/8640 + 505*pi**2*CA/324 + L**4*T/9 + 10*L**3*T/27 - L**2*T*rho**2/6 - 5*pi**2*L**2*T/18 + 28*L**2*T/27 + 2*L*M_1_1*T/3 - 5*L*T*rho**2/18 - 25*pi**2*L*T/54 + 2*L*T*zeta(3)/9 + 164*L*T/81 + 5*M_1_1*T/9 + M_2_1*T/6 - T*rho**4/144 - pi**2*T*rho**2/24 - 7*T*rho**2/27 - 35*pi**2*T/81 - 83*pi**4*T/2160 + 5*T*zeta(3)/27 + 488*T/243"
+  },
+  "note": "Actual source-based sums match the accepted three-loop input series. Higher one-loop order3 is additionally supplied for two-loop post epsilon2."
+}
