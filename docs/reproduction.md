@@ -1,5 +1,24 @@
 # Reproduction levels
 
+## Reproduce P5/P6: insertions and tree-three-gluon sources
+
+From the repository root, use fresh output directories and the packet requirements-lock.txt versions:
+
+```text
+python -B evaluations/three-loop-insertions/scripts/verify_manifest.py
+python -B evaluations/three-loop-insertions/scripts/evaluate_batch.py --output replay-output/p5-new
+python -B evaluations/three-loop-insertions/scripts/verify_batch.py --results replay-output/p5-new/generated.json --out replay-output/p5-new/verification.json
+python -B evaluations/three-loop-insertions/scripts/check_representations.py --results replay-output/p5-new/generated.json --out replay-output/p5-new/representations.json
+python -B evaluations/three-loop-insertions/scripts/independent_controls.py --results replay-output/p5-new/generated.json --out replay-output/p5-new/independent-controls.json
+python -B evaluations/three-loop-tree5e/scripts/verify_manifest.py
+python -B evaluations/three-loop-tree5e/scripts/evaluate_batch.py --output replay-output/p6-new
+python -B evaluations/three-loop-tree5e/scripts/verify_batch.py --results replay-output/p6-new/generated.json --out replay-output/p6-new/verification.json
+python -B evaluations/three-loop-tree5e/scripts/check_representations.py --candidate replay-output/p6-new/generated.json --references evaluations/three-loop-tree5e/references/all-results.json --output replay-output/p6-new/representations.json
+python -B evaluations/three-loop-tree5e/scripts/independent_controls.py --results replay-output/p6-new/generated.json --output replay-output/p6-new/independent-controls.json
+```
+
+These reassemble from admitted historical evaluated primitives and Gamma/IBP rules without launching Maple/HyperInt or reading private Wilson paths. The final comparison stage opens copied references after generation. [Actual release replay](../validation/three-loop-p5-p6-2026-11-03/README.md) distinguishes the source, representation and independently tested finite-I coverage. Frozen packet status text is historical; public availability is recorded by the current index.
+
 ## Current calculation
 
 The [current guide](current/README.md) is the normal reader and assembly route.

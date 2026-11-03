@@ -1,0 +1,166 @@
+{
+  "passed": true,
+  "roots": [
+    "27",
+    "28",
+    "29",
+    "41",
+    "42"
+  ],
+  "prepared_sha256": "9b6594b75e56704d5d21cffe122578ce30b77c93565ada12df029b10cfb9c1b8",
+  "canonical_sha256": "2b936391d19bbb339012234078e714d6cd7e62d217085b578b001f13d58bf9c2",
+  "reflections": [
+    {
+      "target": "5e-3g-29",
+      "source": "5e-3g-27",
+      "substitution": {
+        "z1": "1/z1",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1",
+        "s11": "1 - s32",
+        "s12": "1 - s31",
+        "s21": "1 - s21",
+        "s31": "1 - s12",
+        "s32": "1 - s11"
+      },
+      "S_ratio": "1/z",
+      "P_ratio": "1/z^2",
+      "J_relation": "J_target(z)=z^(3*eps)*J_source(1/z)",
+      "I_equal": true
+    },
+    {
+      "target": "5e-3g-28",
+      "source": "5e-3g-28",
+      "substitution": {
+        "z1": "1/z1",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1",
+        "s11": "1 - s32",
+        "s12": "1 - s31",
+        "s21": "1 - s21",
+        "s31": "1 - s12",
+        "s32": "1 - s11"
+      },
+      "S_ratio": "1/z",
+      "P_ratio": "1/z^2",
+      "J_relation": "J_target(z)=z^(3*eps)*J_source(1/z)",
+      "I_equal": true
+    },
+    {
+      "target": "5e-3g-42",
+      "source": "5e-3g-41",
+      "substitution": {
+        "z1": "1/z1",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1",
+        "s11": "1 - s31",
+        "s21": "1 - s22",
+        "s22": "1 - s21",
+        "s31": "1 - s11",
+        "s41": "1 - s41"
+      },
+      "S_ratio": "1/z",
+      "P_ratio": "1/z^2",
+      "J_relation": "J_target(z)=z^(3*eps)*J_source(1/z)",
+      "I_equal": true
+    }
+  ],
+  "negative_examples": [
+    "alpha_swap_missing",
+    "order_reversal_missing",
+    "wrong_P_sign",
+    "wrong_C_factor",
+    "factorized_I_missing_1_over_8"
+  ],
+  "partition_monomial_checks": [
+    {
+      "y_power": 0,
+      "q_power": 0,
+      "difference": "0"
+    },
+    {
+      "y_power": 0,
+      "q_power": 1,
+      "difference": "0"
+    },
+    {
+      "y_power": 0,
+      "q_power": 2,
+      "difference": "0"
+    },
+    {
+      "y_power": 0,
+      "q_power": 3,
+      "difference": "0"
+    },
+    {
+      "y_power": 1,
+      "q_power": 0,
+      "difference": "0"
+    },
+    {
+      "y_power": 1,
+      "q_power": 1,
+      "difference": "0"
+    },
+    {
+      "y_power": 1,
+      "q_power": 2,
+      "difference": "0"
+    },
+    {
+      "y_power": 1,
+      "q_power": 3,
+      "difference": "0"
+    },
+    {
+      "y_power": 2,
+      "q_power": 0,
+      "difference": "0"
+    },
+    {
+      "y_power": 2,
+      "q_power": 1,
+      "difference": "0"
+    },
+    {
+      "y_power": 2,
+      "q_power": 2,
+      "difference": "0"
+    },
+    {
+      "y_power": 2,
+      "q_power": 3,
+      "difference": "0"
+    },
+    {
+      "y_power": 3,
+      "q_power": 0,
+      "difference": "0"
+    },
+    {
+      "y_power": 3,
+      "q_power": 1,
+      "difference": "0"
+    },
+    {
+      "y_power": 3,
+      "q_power": 2,
+      "difference": "0"
+    },
+    {
+      "y_power": 3,
+      "q_power": 3,
+      "difference": "0"
+    }
+  ],
+  "factorization": "J41+J42=J_T4*J_pure; I41=I42",
+  "I_factorized": "exp(-EulerGamma*e)*Gamma(1-e)*cosh(e*log(z))/(8*cosh(3*e*log(z)/2))*I_T4(z,e)*H0(e,z)",
+  "full_D_to_F_bridge": "J_F(z)=z^(3*e)*J_D(1/z), for 27/28/29",
+  "bare_T4_input_sha256": "dcfc43a3fffccdf81eeed48c1d8ac851c66eb66ccdae5b2cdd9b15ab80480068",
+  "bare_T4_SP_match": true,
+  "formal": "not_run"
+}

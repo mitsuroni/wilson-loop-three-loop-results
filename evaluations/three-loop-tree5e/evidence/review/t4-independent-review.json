@@ -1,0 +1,157 @@
+{
+  "format": "wilson-P6-independent-T4-algebra-review/1",
+  "reviewed_at_utc": "2026-11-03T05:12:44.431581+00:00",
+  "reviewer": "/root/p6_t123",
+  "worktree": "D:/wilson-agent",
+  "branch": "master",
+  "scope": "Read-only review of rational inversion and regularized endpoint/MZV algebra through weight six. No producer was edited.",
+  "producer_code_bindings": [
+    {
+      "path": "scripts/t4.py",
+      "sha256": "93d79f63c34093d4392672cb97fd4299af7b77145cf97f52dfbd565c3d394f65"
+    },
+    {
+      "path": "scripts/t4_endpoints.py",
+      "sha256": "b3569d389d9bb2be7552f64dd7224bdbe63c40b2e8d671cc3bf15576e3356df9"
+    }
+  ],
+  "mathematical_review": {
+    "mobius_substitution": "z=u/(1-u); dz/z=du/u-du/(u-1); dz/(z+1)=-du/(u-1). Signs agree with reginf_word.",
+    "inversion_differential": "G(0,v;1/z) derivative is -G(v;1/z)/z; G(-1,v;1/z) derivative is (-1/z+1/(1+z))*G(v;1/z).",
+    "endpoint_regularization": "At u=1 use shuffle-regularized G(0;1)=Reg G(1;1)=0, remove trailing zero and leading one, and translate convergent words to (-1)^depth*MZV.",
+    "mzv_reduction": "Depth-one periods, duality, convergent shuffle/stuffle products, and single-zeta(1) regularization give exact unique reductions through weight six. The zeta(1)^2 case is excluded, avoiding its shuffle/stuffle regularization correction.",
+    "finding": "No issue found in the reviewed scope."
+  },
+  "performed_checks": {
+    "known_MZV_identities": [
+      {
+        "weight": 3,
+        "indices": [
+          2,
+          1
+        ],
+        "expected": "Z3",
+        "actual": "Z3",
+        "passed": true
+      },
+      {
+        "weight": 4,
+        "indices": [
+          3,
+          1
+        ],
+        "expected": "Z2**2/10",
+        "actual": "Z2**2/10",
+        "passed": true
+      },
+      {
+        "weight": 4,
+        "indices": [
+          2,
+          2
+        ],
+        "expected": "3*Z2**2/10",
+        "actual": "3*Z2**2/10",
+        "passed": true
+      },
+      {
+        "weight": 5,
+        "indices": [
+          4,
+          1
+        ],
+        "expected": "-Z2*Z3 + 2*Z5",
+        "actual": "-Z2*Z3 + 2*Z5",
+        "passed": true
+      },
+      {
+        "weight": 5,
+        "indices": [
+          3,
+          2
+        ],
+        "expected": "3*Z2*Z3 - 11*Z5/2",
+        "actual": "3*Z2*Z3 - 11*Z5/2",
+        "passed": true
+      },
+      {
+        "weight": 6,
+        "indices": [
+          3,
+          3
+        ],
+        "expected": "-4*Z2**3/35 + Z3**2/2",
+        "actual": "-4*Z2**3/35 + Z3**2/2",
+        "passed": true
+      },
+      {
+        "weight": 6,
+        "indices": [
+          5,
+          1
+        ],
+        "expected": "6*Z2**3/35 - Z3**2/2",
+        "actual": "6*Z2**3/35 - Z3**2/2",
+        "passed": true
+      }
+    ],
+    "known_RegInf_polylogarithm_constants": [
+      {
+        "word": [
+          0,
+          -1
+        ],
+        "expected": "Z2",
+        "actual": "Z2",
+        "passed": true
+      },
+      {
+        "word": [
+          0,
+          0,
+          -1
+        ],
+        "expected": "0",
+        "actual": "0",
+        "passed": true
+      },
+      {
+        "word": [
+          0,
+          0,
+          0,
+          -1
+        ],
+        "expected": "7*Z2**2/10",
+        "actual": "7*Z2**2/10",
+        "passed": true
+      }
+    ],
+    "all_words_inversion_involution": {
+      "alphabet": [
+        0,
+        -1
+      ],
+      "weight_min": 0,
+      "weight_max": 6,
+      "word_count": 127,
+      "failed_words": [],
+      "passed": true
+    },
+    "admissible_MZV_counts": {
+      "2": 1,
+      "3": 2,
+      "4": 4,
+      "5": 8,
+      "6": 16
+    }
+  },
+  "controls_scope": "Expected MZV and RegInf identities are specified separately from the implementation; involution executes the implementation under review on every word. This is not a second original-integral evaluation or a separate CAS integration.",
+  "limits": [
+    "Exact computational algebra, not a formal proof.",
+    "No new proof of original ordered-domain integrations, complex z or i0 continuation.",
+    "Reference dictionary reuse and coefficient comparisons are documented separately."
+  ],
+  "formal": "not_run",
+  "passed": true
+}

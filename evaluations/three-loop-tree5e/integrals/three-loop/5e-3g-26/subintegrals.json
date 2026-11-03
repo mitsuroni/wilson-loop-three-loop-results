@@ -1,0 +1,17 @@
+{
+  "primitive_inputs": [
+    "snapshots/workflow/checks/tgv-t3-empty/runs/20260917T142141597785Z/E26q2.txt",
+    "snapshots/workflow/checks/tgv-t3-empty/runs/20260917T142141597785Z/E26q3.txt",
+    "snapshots/workflow/checks/tgv-t3-empty/runs/20260917T142141597785Z/E26q4.txt"
+  ],
+  "epsilon_budget": {
+    "physical_E_orders": [
+      2,
+      3,
+      4
+    ],
+    "analytic_multiplier_through": 2,
+    "explicit_denominator_power": 4,
+    "remainder": "O(eps) at fixed z>0"
+  }
+}

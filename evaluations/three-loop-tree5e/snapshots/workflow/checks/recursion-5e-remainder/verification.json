@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "local_effective_sum_goal_complete": true,
+  "all_44_individual_integrals_independently_verified": false,
+  "global_w3_complete": false,
+  "target_positions": 7,
+  "global_zero_residual_positions": 7,
+  "construction_overlap_checks": 11,
+  "budget_diagnosis_checks": 49,
+  "exact_existing_basis_roundtrips": 49,
+  "corrected_integrals": [
+    "5e-3g-13",
+    "5e-3g-14",
+    "5e-3g-15",
+    "5e-3g-33",
+    "5e-3g-34",
+    "5e-3g-35"
+  ],
+  "corrected_individual_positions": 8,
+  "subgroup_old_target_exact_comparisons": 56,
+  "original_pushforward_controls": 16,
+  "parent_alternative_order_exact_check": true,
+  "negative_controls": [
+    {
+      "case": "historical_Maple_relative_truncation",
+      "detected_powers": [
+        -1,
+        0
+      ]
+    },
+    {
+      "case": "T4_parent_truncated_at_eps0",
+      "detected_powers": [
+        -1,
+        0
+      ]
+    },
+    {
+      "case": "omit_two_auxiliary_only_control_domains",
+      "detected_power": -6,
+      "residual": "1/64"
+    },
+    {
+      "case": "repeat_three_loop_Euler_compensation",
+      "detected_power": -5,
+      "residual": "-EulerGamma/32"
+    }
+  ],
+  "exported_files": 601,
+  "exported_bytes": 2281529,
+  "successful_CAS_jobs": 18,
+  "failed_CAS_attempts": 6,
+  "evidence_index_sha256": "937de5cbee702e1681e7de2195c8f6a4c872f9ebb5142b3d53493cf962463084",
+  "first_stage_source_geometry_and_QMC": "workflow/checks/recursion-5e-sum/verification.json",
+  "environment": {
+    "python": "3.12.10",
+    "sympy": "1.14.0"
+  },
+  "source_sha256": {
+    "workflow/checks/recursion-5e-remainder/archive_evidence.py": "3583fa05c0fd4afa41047437add8a155dfb9412249ad195e1e659a29d362064d",
+    "workflow/checks/recursion-5e-remainder/assemble_global.py": "e3d2f1dd679ac70498b6b0d88d73274b5bbda395abaa2293ed9a6ec4f561ead4",
+    "workflow/checks/recursion-5e-remainder/check_budget.py": "7cdaead37fd14166a603dd0c4292c38f1e95cd34d7b4c5380ef385ccc6d4077a",
+    "workflow/checks/recursion-5e-remainder/check_navigation.py": "58ef11c9c3c09fc88429a1627f72b780a14ca50ddf352f6fd6d6891948918158",
+    "workflow/checks/recursion-5e-remainder/compare_t1.py": "37f613770bb90e327a52ab44417bfee5946962df96df7ffedf2a71eede969f11",
+    "workflow/checks/recursion-5e-remainder/compare_t3.py": "461a0bb65f0a09b3ca10478e96a6a32a3acd53f75c9c5351993212ac6399c234",
+    "workflow/checks/recursion-5e-remainder/compare_t4_adj.py": "60e154ca7127250a8d46cee6ee3bed732da4a496d2f5a727d2e6d53c34170d98",
+    "workflow/checks/recursion-5e-remainder/compare_t4_opp.py": "61fa4b5d0f1239926dc3a2588d73dc5abf03bf90ce3bafc0b93c17adbfc60ae1",
+    "workflow/checks/recursion-5e-remainder/materialize_evidence.py": "040dffac049e2dbee9d2f58f30007241b32990e64700deb5ab24d166d29c27e4",
+    "workflow/checks/recursion-5e-remainder/prepare.py": "033c14919c7227259b5f2ec81296db7e8d312974b0f54efc94fb70f5eba9933b",
+    "workflow/checks/recursion-5e-remainder/publish_results.py": "9b17b30581ff95dffc46cb64410aaef4e22d16c058d83fa177597b1b7cb86c48",
+    "workflow/checks/recursion-5e-remainder/run_maple.py": "b5b2f3435c266bd46a35364d9487ee2ea467f9e3a1e0ba50d22dbe0c43867867",
+    "workflow/checks/recursion-5e-remainder/update_docs.py": "7b7903b73f435a7863c2eed4be96a34dd7dc176306a204ef26dddb95e2c88f88",
+    "workflow/checks/recursion-5e-remainder/verify.py": "6d75fba39a6cec9d1c0c6f91766560f62f340d3e6e1ed0e61c04779386a4699c"
+  },
+  "evidence_sha256": {
+    "workflow/checks/recursion-5e-remainder/budget-diagnosis.json": "2508aa36d3b0a91bb9c63c30107a92852336ea82213dcd2ea171650ee363e391",
+    "workflow/checks/recursion-5e-remainder/budget-hypothesis-failed.json": "28dcb0c923d5c059c1eb0e8d8a963de7c87426a6c99a674eb3bb12552f8b20f6",
+    "workflow/checks/recursion-5e-remainder/construction-normalization-failed.json": "7947648029c4e894ce87cec2a213e19f742754da0a18ae8e72f402747a0045dd",
+    "workflow/checks/recursion-5e-remainder/construction.json": "89085496284b8d1e7564c6f370c951c24f0ddf5b4ceac3cca2c4561f23aecdba",
+    "workflow/checks/recursion-5e-remainder/current-global-ingredients.json": "d5f970966f7e5dd3f0d65136e2a6b7a18022856031e76ae02f325929b876f62c",
+    "workflow/checks/recursion-5e-remainder/current-t1-opp.json": "dd5368d97ca0ec2f35b5b5b30fe8cb289f717e42b6fdc93b5130f31a4854af6a",
+    "workflow/checks/recursion-5e-remainder/current-t3-adj.json": "2083dfda2a14b5c908fc40397f5f098ab3c24643e24c512540b7f40f2ac31f53",
+    "workflow/checks/recursion-5e-remainder/current-t3-assemble.json": "976aeaa30b84f1b3b296bce039123e3b8d867cc16851c7b11df345ffc3565cf4",
+    "workflow/checks/recursion-5e-remainder/current-t3-opp.json": "c8e0a84188368345952d2b15384f452163993d6753bf6aaa466863d920f74c9e",
+    "workflow/checks/recursion-5e-remainder/current-t4-assemble.json": "544cc791783dca6015d224f3715f27e0fbcfc00ccbec86e45e9c2f1673f14ce0",
+    "workflow/checks/recursion-5e-remainder/current-t4-budget.json": "df66e1096c7d438501d116bd76782cc33d847ba771ec748fde2b23e42eb75f77",
+    "workflow/checks/recursion-5e-remainder/current-t4-faces.json": "f2aef3966196cdaa87e73cecde62589d8614a4d779686ad11ddfadb3ceee33df",
+    "workflow/checks/recursion-5e-remainder/current-t4-final.json": "6ba76ed7e1871b77fd6932d8dcbf4e1010e0e256cf4d505191245b0563f85c2a",
+    "workflow/checks/recursion-5e-remainder/current-t4-opp.json": "af95c2171d480f411b537d95dd67cfdb26ca07b11d0d356747d0c3bdd19da917",
+    "workflow/checks/recursion-5e-remainder/current-t4-parent-probe.json": "5fac94d3330245e380b6a1299b7d037f21cd0a8ac707341c6c884f46a5dc3f1c",
+    "workflow/checks/recursion-5e-remainder/current-t4-parent.json": "e97efe02dce9972c2172eb955d2b66bbf057ee59bf518d86aa07c5d3a548af16",
+    "workflow/checks/recursion-5e-remainder/current-t4-partial.json": "b379e41cc2699f9f68dd350756c69fa36c521737c9f26165c5290796bcb894d5",
+    "workflow/checks/recursion-5e-remainder/current-t4-recoil.json": "65e076774dff7582f269e2d2a40a5af2b71750b330594ca9d6a143d099de52d9",
+    "workflow/checks/recursion-5e-remainder/current-t4-scan.json": "61545a9ff780260236fd44c0cb7258308aa2e3e8605d8e03b40b5ef4e65eb9d5",
+    "workflow/checks/recursion-5e-remainder/current-t4-volume-vfirst.json": "9ca85c52eaa3c0295b36d41233ab47bf49de50332514110ee842c6f1c0bd59c9",
+    "workflow/checks/recursion-5e-remainder/current-t4-volume.json": "e30858a98a47c5511ea7eb5e776d5bc61615b88f69cec7eaf275d70b519fdbd4",
+    "workflow/checks/recursion-5e-remainder/current-t4-weights.json": "158c22c95b155e248aab505a0879e8fbb96ae58bed2b10793b571d75b8a68666",
+    "workflow/checks/recursion-5e-remainder/evidence-index.json": "937de5cbee702e1681e7de2195c8f6a4c872f9ebb5142b3d53493cf962463084",
+    "workflow/checks/recursion-5e-remainder/global-comparison.json": "ff7c23151575bc31308f518243971c41d024a4c985e898abdee682c0d4e9d125",
+    "workflow/checks/recursion-5e-remainder/input-checks.json": "7e52a868459a71fabfb7409d9f32451dcc14d2ee38d1334e3f9664c926239af7",
+    "workflow/checks/recursion-5e-remainder/navigation-check.json": "a7aded361e05c009e0aa44c4b9cdf0e2020f802e27978d5dca01598e60013b32",
+    "workflow/checks/recursion-5e-remainder/publication.json": "85064a3f8c5a063618c4cb9c58d9c021ba6cd4626ab7c73d53255652f7f0156f",
+    "workflow/checks/recursion-5e-remainder/t1-comparison.json": "4893d8b9ca97b540d90220fb0cb64de3b2c37855758be814b12ac267271ec9d8",
+    "workflow/checks/recursion-5e-remainder/t3-comparison.json": "8b5ac525d8a685f3b11eff99cec5ec69144dcbbc84160d491088ff27646a9daf",
+    "workflow/checks/recursion-5e-remainder/t4-adjacent-comparison.json": "3b6d76be9264b06b3beabb4f5dd5869d640fe777cbccf48e754c5e52b2e0266a",
+    "workflow/checks/recursion-5e-remainder/t4-opposite-comparison.json": "a95d46879dc6b52194cc35a3434b73c83c22f8849e4a317d4e32bf80aa5f4b19"
+  },
+  "remaining": [
+    "Individual cancelling directions/Omega6; stronger relation/anchor audit.",
+    "Full-epsilon T3/T4 auxiliary evaluation, general complex z/i0 and formal proof.",
+    "Other three-loop families, counterterms, contour subtraction and complete w3 RG/cusp."
+  ]
+}

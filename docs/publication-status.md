@@ -1,5 +1,9 @@
 # Publication status and next steps
 
+## P5/P6 publication: 3 November 2026
+
+[The three-loop index](../integrals/three-loop/README.md) now covers98 source memberships:39 pure exchanges,15 two-point/exchange insertions and44 tree-three-gluon sources. The new immutable packets provide59 own articles,413 scalar Laurent positions,238 external-colour positions and651 independent function back-substitutions. See [publication validation](../validation/three-loop-p5-p6-2026-11-03/README.md) for actual copied-public replays and the limits of reused primitive integration. The remaining16 insertions and35 four-leg source memberships are subsequent curation batches; the complete four-colour scientific result is unchanged.
+
 ## 3 November 2026: all39 three-loop pure-exchange evaluation packets
 
 The [39-entry index](../integrals/three-loop/README.md) publishes six shared English methods, original graph/ordered/native C/J, normalization, explicit subintegral budgets, complete273 Laurent positions and HLOG/function-family forms. The [portable packet](../evaluations/three-loop-6e/README.md) preserves all922 declared member bytes from committed Wilson source74df161b. Actual generation repeats ten Gamma expansions and replays checked historical raw CAS primitives for the complex routes before new assembly. Its scope does not become a second independent solution of39 integrals.

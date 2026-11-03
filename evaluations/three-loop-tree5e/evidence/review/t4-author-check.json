@@ -1,0 +1,173 @@
+{
+  "format": "wilson-P6-author-review/1",
+  "created_utc": "2026-11-03T05:13:51.741611+00:00",
+  "author": "/root/p6_t4",
+  "formal": "not_run",
+  "authorship_scope": {
+    "authored": [
+      "scripts/t4.py",
+      "scripts/t4_endpoints.py",
+      "methods/t4.md"
+    ],
+    "reviewed_other_author_files": [
+      "render_packet.py (outside packet)",
+      "methods/README.md"
+    ],
+    "independence": "The endpoint checks below are the T4 producer author self-checks. The prose review of the integrator renderer/common method is separate-author review. Neither is a new cold CAS integral evaluation or formal proof.",
+    "not_reviewed_as_independent_mathematical_proof": [
+      "all original T4 primitive integrations",
+      "all individual full-I finite coefficients",
+      "RG",
+      "complex-z or z=-1 continuation"
+    ]
+  },
+  "producer_sha256": {
+    "scripts/t4.py": "93d79f63c34093d4392672cb97fd4299af7b77145cf97f52dfbd565c3d394f65",
+    "scripts/t4_endpoints.py": "b3569d389d9bb2be7552f64dd7224bdbe63c40b2e8d671cc3bf15576e3356df9"
+  },
+  "method_sha256": "04fad0f5b20460bbe023d97aeef768bc017b12e9fc6763d2efa7f606eb3b8cba",
+  "actual_endpoint_checks": {
+    "known_MZV_identities": [
+      {
+        "id": "zeta21_equals_zeta3",
+        "exact_residual": "0",
+        "passed": true
+      },
+      {
+        "id": "zeta31_equals_zeta2_squared_over10",
+        "exact_residual": "0",
+        "passed": true
+      },
+      {
+        "id": "zeta22_equals_3zeta2_squared_over10",
+        "exact_residual": "0",
+        "passed": true
+      },
+      {
+        "id": "zeta41_equals_2zeta5_minus_zeta2zeta3",
+        "exact_residual": "0",
+        "passed": true
+      },
+      {
+        "id": "zeta33_equals_half_zeta3_squared_minus_zeta6",
+        "exact_residual": "0",
+        "passed": true
+      }
+    ],
+    "binary_word_inversion": {
+      "alphabet": [
+        0,
+        -1
+      ],
+      "weights": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "number_of_words": 127,
+      "operation": "invert_01(invert_01(G_w)) == G_w",
+      "passed": true
+    },
+    "pure_log_reginf": {
+      "words": [
+        [
+          -1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      ],
+      "operation": "RegInf G(-1^n;positive infinity) == 0",
+      "passed": true
+    },
+    "dilog_inversion": {
+      "identity": "G(0,-1;1/z)=zeta(2)+G(0,0;z)-G(0,-1;z)",
+      "passed": true
+    },
+    "T6_derivative": {
+      "identity": "d T6(z)/dz = Phi5(z)/(z+1/2)",
+      "tail_vector_equality": true,
+      "T6_terms": 24,
+      "Phi5_terms": 24,
+      "Omega6_terms": 56,
+      "passed": true
+    },
+    "local_symbol_convention": {
+      "symbol": "kappa=1-2eps",
+      "reserved_global_lambda": "alpha_s/pi",
+      "producer_and_archive_aliases_unchanged": true,
+      "passed": true
+    }
+  },
+  "documentation_review": {
+    "files": [
+      {
+        "path": "../render_packet.py",
+        "sha256": "54464494f5b4d3b6ab9970bb1b88e26b5bc91d8f7d25e15ac53a62b2c8404d8e"
+      },
+      {
+        "path": "methods/README.md",
+        "sha256": "c9e833cf7b8ecde89ace5029cfffbdb40c5a824279314acfb2961bf2f8661bf2"
+      }
+    ],
+    "overall": "The normalization, simplex measure, per-orbit ordered domains, positive-real branch, local meromorphic continuation, raw-output reuse, special alphabet retention, no-new-RG and formal-not-run boundaries are scientifically consistent with the reviewed source/methods.",
+    "findings": [
+      {
+        "id": "source-map-payload",
+        "severity": "payload/documentation gap",
+        "finding": "Renderer originally looked for absent top-level coordinate_mapping/mapping keys, although all44 native roots store the map at representative.hypercube. The prose promised this map and Jacobian in source.json. Reported to integrator for correction.",
+        "all44_actual_native_hypercube_maps_present": true,
+        "renderer_current_has_hypercube_access": true
+      },
+      {
+        "id": "family-independence-wording",
+        "severity": "minor scope wording",
+        "finding": "Use evaluation family instead of independent family; the packet does not prove an IBP master-independence theorem. Reported to integrator.",
+        "renderer_still_says_independent_family": false
+      }
+    ],
+    "no_coefficient_change_requested": true
+  },
+  "execution": {
+    "process": "D:/py/python.exe -B via read-only in-memory check, then evidence JSON write",
+    "CAS_launched": false,
+    "old_writers_executed": false,
+    "selected_final_tables_used_as_generation": false,
+    "changed_paths_this_followup": [
+      "methods/t4.md",
+      "evidence/review/t4-author-check.json",
+      "evidence/historical-runs.json"
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "orbit_id": "2e-Pi1+Pi1-02",
+  "family": "Pi1-chain-opposite",
+  "representative": "2e-Pi1+Pi1-02",
+  "relationship": {
+    "kind": "independently_derived_geometry_with_reused_function_data",
+    "scope": "Original source orbit stays separately counted; function-moment reuse is not a second independent evaluation.",
+    "evidence": [
+      "benchmarks/self-energy/pi1-chain/workspaces/2e-Pi1+Pi1-02/derivation.md"
+    ]
+  },
+  "native_prepared": {
+    "path": "snapshots/benchmarks/current/prepared/3loop/2e-Pi1+Pi1.json",
+    "sha256": "8b68e8b5fe77e72eb27dd2ed9651dbfcd246d27008a0887a1b28cdf2408d152b",
+    "field": "/orbits/1"
+  },
+  "native_raw": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/2e-Pi1+Pi1/montopar-initial.json",
+    "sha256": "372518d691634fc41d9f8d18f2479a2604f67f45bb9a66ce426c060f7f6301f8",
+    "field": "/orbits/1"
+  },
+  "graph": {
+    "path": "inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+    "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+    "field": "/orbits/1",
+    "field_sha256": "fa83d18a073d1138a22c98ab1ead46c88d1158cc6453ac6618762434231214ae"
+  },
+  "selected_reference": {
+    "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json",
+    "sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60"
+  },
+  "catalog_fields": {
+    "source": {
+      "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json",
+      "sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60"
+    },
+    "fields": [
+      {
+        "field": "/laurent/coefficients",
+        "powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ],
+        "value_types": [
+          "dict"
+        ]
+      }
+    ],
+    "note": "Declared fields and channels are preserved; no unproved interchange of representations or missing coefficient filled by inference."
+  },
+  "historical_assets": [
+    {
+      "path": "benchmarks/self-energy/pi1-chain/workspaces/2e-Pi1+Pi1-02/derivation.md",
+      "role": "derivation",
+      "sha256": "e34c9ddf02eac81a49381f0562451e107770a17ecb728898763b7671dc8b9997",
+      "scope": "Per-orbit continuous derivation, domain, normalization, intermediate subintegrals and final result; read with current definitions.",
+      "inspection_note": "Read continuous Markdown; 108 lines; section sample: 2e-Pi1+Pi1-02：正式求解推导; 冻结任务; 1. 原有序J与完整边界; 2. 既有M函数的连接; 3. 至有限项; 颜色重构、数值与证据边界. Historical formulas retain their own revision and must be read with the current physical-convention bridge."
+    },
+    {
+      "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r002.json",
+      "role": "original_evaluation_output",
+      "sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+      "scope": "Current selected evaluated-result table; physical I or shared I_geom, not raw J. Original evaluations may be reused through a sign/representation revision.",
+      "inspection_note": "Selected by current catalog; byte hash verified. This selection itself is not fresh independent evaluation evidence."
+    },
+    {
+      "path": "benchmarks/self-energy/pi1-chain/results/2e-Pi1+Pi1-02/r001.json",
+      "role": "original_evaluation_output",
+      "sha256": "082c1332c631b4125d2c1b1a827e85b89e182311e837564ac302114e7796bf60",
+      "scope": "Original immutable published result in its historical source/sign convention.",
+      "inspection_note": "Keep historical normalization and source hash. It must not be consumed as current physical I by guessing a family sign."
+    },
+    {
+      "path": "benchmarks/2ne/families/single-opposite/basis-functions.json",
+      "role": "representation_dictionary",
+      "sha256": "87ed09c33e6778ba48a0872d0f1c7b8f64eacde962fe7f51f502bc1311642029",
+      "scope": "Exact dependency named by the selected result; inherited older geometry/moment data, not a new independent integration.",
+      "inspection_note": "Current bytes match the historical dependency hash. Reuse is limited to its original quantity, domain and normalization."
+    },
+    {
+      "path": "benchmarks/2ne/families/single-opposite/basis.md",
+      "role": "derivation",
+      "sha256": "a36937f757b373e71c6873b7b59c33be64751a4d2101725cc8d7d3d41b3c2a84",
+      "scope": "Exact dependency named by the selected result; inherited older geometry/moment data, not a new independent integration.",
+      "inspection_note": "Current bytes match the historical dependency hash. Reuse is limited to its original quantity, domain and normalization."
+    },
+    {
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+      "role": "representation_dictionary",
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "scope": "Exact dependency named by the selected result; inherited older geometry/moment data, not a new independent integration.",
+      "inspection_note": "Current bytes match the historical dependency hash. Reuse is limited to its original quantity, domain and normalization."
+    },
+    {
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "role": "representation_dictionary",
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "scope": "Exact dependency named by the selected result; inherited older geometry/moment data, not a new independent integration.",
+      "inspection_note": "Current bytes match the historical dependency hash. Reuse is limited to its original quantity, domain and normalization."
+    },
+    {
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+      "role": "representation_dictionary",
+      "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "scope": "Exact dependency named by the selected result; inherited older geometry/moment data, not a new independent integration.",
+      "inspection_note": "Current bytes match the historical dependency hash. Reuse is limited to its original quantity, domain and normalization."
+    },
+    {
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt",
+      "role": "representation_dictionary",
+      "sha256": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+      "scope": "Exact dependency named by the selected result; inherited older geometry/moment data, not a new independent integration.",
+      "inspection_note": "Current bytes match the historical dependency hash. Reuse is limited to its original quantity, domain and normalization."
+    },
+    {
+      "path": "benchmarks/self-energy/pi1-chain/prepared/normalization.json",
+      "role": "representation_dictionary",
+      "sha256": "0bf157b9b405a482603759a8af97817bc6505fbc82654bd47f4b8fae956a58b2",
+      "scope": "Exact dependency named by the selected result; inherited older geometry/moment data, not a new independent integration.",
+      "inspection_note": "Current bytes match the historical dependency hash. Reuse is limited to its original quantity, domain and normalization."
+    },
+    {
+      "path": "benchmarks/self-energy/pi1-chain/families/opposite/README.md",
+      "role": "derivation",
+      "sha256": "317e69965ceab143c9b59c61f16e31f4da40999aa69e34a124622f17ab72b331",
+      "scope": "Geometry-specific complete I and finite coefficient construction; full operator weights remain separate.",
+      "inspection_note": "Read continuous Markdown; 7 lines; section sample: CH_O：双Π₁串联对边图. Historical formulas retain their own revision and must be read with the current physical-convention bridge."
+    },
+    {
+      "path": "benchmarks/self-energy/pi1-chain/families/opposite/solutions.md",
+      "role": "derivation",
+      "sha256": "e756900e13c2e26931773991213d3580614d4562d3cb72945b67dc35a4ee9bff",
+      "scope": "Geometry-specific complete I and finite coefficient construction; full operator weights remain separate.",
+      "inspection_note": "Read continuous Markdown; 50 lines; section sample: CH_O：2e-Pi1+Pi1-02 完整I与有限项（现行r002）; 2e-Pi1+Pi1-02; 颜色 CA^2*CF; 颜色 CA*CF*TF*nf; 颜色 CF*(TF*nf)^2. Historical formulas retain their own revision and must be read with the current physical-convention bridge."
+    },
+    {
+      "path": "workflow/checks/self-energy-pi1-chain-solve/compute.py",
+      "role": "original_evaluation_code",
+      "sha256": "a157d0f2efacbd4b928a94b6342abad4a4446f76eecea7148e9cbfb0959b5c86",
+      "scope": "Original exact evaluation: kernel/IBP/boundary reduction, Gamma expansion, existing moment substitutions and coefficient construction.",
+      "inspection_note": "Read imports and input/output operations. This historical producer can write/freeze results and is indexed only; never executed in P0."
+    },
+    {
+      "path": "workflow/checks/self-energy-pi1-chain-solve/numeric.py",
+      "role": "verification_code",
+      "sha256": "8037dbf70854304dc00229fa27b2ca7dab361cc26aa7c320bffa837cebadf22d",
+      "scope": "Original scoped numerical/source/delivery verification; not a replacement original evaluation.",
+      "inspection_note": "Read historical README for precision, non-certified quadrature and source scope."
+    },
+    {
+      "path": "workflow/checks/self-energy-pi1-chain-solve/verify.py",
+      "role": "verification_code",
+      "sha256": "72c4f0e4bd538bf3cba4f5a16c0f1e659989f88eedb8ffc834763df8ed7e4a2e",
+      "scope": "Original scoped numerical/source/delivery verification; not a replacement original evaluation.",
+      "inspection_note": "Read historical README for precision, non-certified quadrature and source scope."
+    },
+    {
+      "path": "workflow/checks/self-energy-pi1-chain-solve/exact-checks.json",
+      "role": "verification_record",
+      "sha256": "5a679b4293c0e88ea24fb49a72ed145143e293148b02fffc74444029a58e8991",
+      "scope": "Actual recorded original exact/numerical check output; scope and counts from the original run.",
+      "inspection_note": "These structured records exist, but do not supply a shell process exit record or a full portable environment lock."
+    },
+    {
+      "path": "workflow/checks/self-energy-pi1-chain-solve/numeric-checks.json",
+      "role": "verification_record",
+      "sha256": "0a194a44e2ead9bce05cd60bcd04ba5bad4f2b3a1d706f748f89dc163368cef1",
+      "scope": "Actual recorded original exact/numerical check output; scope and counts from the original run.",
+      "inspection_note": "These structured records exist, but do not supply a shell process exit record or a full portable environment lock."
+    },
+    {
+      "path": "workflow/checks/self-energy-pi1-chain-solve/README.md",
+      "role": "derivation",
+      "sha256": "40a5131dc158aba1766e95204f1edbbb56d7264587197367d507409362491d00",
+      "scope": "Original evaluation workflow, actual operations, checks and limitations.",
+      "inspection_note": "Read continuous Markdown; 17 lines; section sample: 双Π₁串联两图：正式I求解. Historical formulas retain their own revision and must be read with the current physical-convention bridge."
+    },
+    {
+      "path": "benchmarks/self-energy/pi1-chain/normalization-and-colors.md",
+      "role": "derivation",
+      "sha256": "df1a31ba12427a5249a17fc506957dedbd76c818611e63f9d4a32d20b5754fd5",
+      "scope": "Single geometry I and three epsilon-dependent B1^2 color channels.",
+      "inspection_note": "Read continuous Markdown; 110 lines; section sample: 串联积分的I结构与颜色通道; 1. 一个I与三个颜色通道; 2. C/J到唯一I; 3. Gamma比与展开预算; 4. 当前完成边界. Historical formulas retain their own revision and must be read with the current physical-convention bridge."
+    }
+  ],
+  "source_to_I_status": "Current physical convention and original mathematical bridge retained; native preparation is distinct from evaluated I."
+}

@@ -1,0 +1,17 @@
+{
+  "weight_six": {
+    "script": "workflow/checks/unified-weight-six/verify.py",
+    "returncode": 0,
+    "stdout": "{\n  \"passed\": true,\n  \"coefficient_back_substitutions\": 329,\n  \"alias_back_substitutions\": 92,\n  \"hash_checks\": 161,\n  \"weights\": [\n    {\n      \"weight\": 1,\n      \"rank\": 0,\n      \"product_rank\": 0\n    },\n    {\n      \"weight\": 2,\n      \"rank\": 2,\n      \"product_rank\": 0\n    },\n    {\n      \"weight\": 3,\n      \"rank\": 2,\n      \"product_rank\": 0\n    },\n    {\n      \"weight\": 4,\n      \"rank\": 4,\n      \"product_rank\": 3\n    },\n    {\n      \"weight\": 5,\n      \"rank\": 8,\n      \"product_rank\": 4\n    },\n    {\n      \"weight\": 6,\n      \"rank\": 14,\n      \"product_rank\": 9\n    }\n  ],\n  \"formal\": \"not_run\",\n  \"fresh_integration\": false\n}\n"
+  },
+  "mixed": {
+    "script": "workflow/checks/tgv-mixed/verify_delivery.py",
+    "returncode": 0,
+    "stdout": "{\n  \"passed\": true,\n  \"mixed_inputs\": 44,\n  \"IBP_terms\": 196,\n  \"dependency_hash_checks\": 390,\n  \"external_repository_required\": false,\n  \"Laurent_coefficients\": \"not_computed\",\n  \"formal\": \"not_run\"\n}\n"
+  },
+  "two_loop": {
+    "script": "workflow/checks/tgv-solve/verify_results.py",
+    "returncode": 0,
+    "stdout": "{\n  \"passed\": true,\n  \"canonical_inputs\": 4,\n  \"Laurent_coefficients\": 28,\n  \"dependency_hash_checks\": 154,\n  \"formal\": \"not_run\"\n}\n"
+  }
+}

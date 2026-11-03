@@ -1,0 +1,37 @@
+{
+  "t4_empty": {
+    "script": "workflow/checks/tgv-t4-empty/verify_results.py",
+    "returncode": 0,
+    "stdout": "{\n  \"passed\": true,\n  \"integrals\": 8,\n  \"Laurent_coefficients\": 56,\n  \"nonzero_coefficients\": 32,\n  \"exact_basis_Hlog_roundtrips\": 56,\n  \"uniform_weight_nonzero_coefficients\": 32,\n  \"full_epsilon_equalities\": 4,\n  \"coefficient_equalities\": 28,\n  \"new_basis_generators\": 0,\n  \"raw_QMC_cases\": 16,\n  \"full_weighted_IBP_QMC_cases\": 16,\n  \"regularizer_QMC_cases\": 8,\n  \"exact_operator_point_checks\": 6,\n  \"finite_series_blocks\": 12,\n  \"order_encoding_assembly_consistency_checks\": 11,\n  \"source_and_snapshot_hash_checks\": 600,\n  \"I_remainder_check\": \"not_run\",\n  \"formal\": \"not_run\"\n}\n",
+    "stderr": "",
+    "seconds": 2.462858899991261
+  },
+  "two_loop": {
+    "script": "workflow/checks/tgv-solve/verify_results.py",
+    "returncode": 0,
+    "stdout": "{\n  \"passed\": true,\n  \"canonical_inputs\": 4,\n  \"Laurent_coefficients\": 28,\n  \"dependency_hash_checks\": 154,\n  \"formal\": \"not_run\"\n}\n",
+    "stderr": "",
+    "seconds": 2.3267837000021245
+  },
+  "weight_six": {
+    "script": "workflow/checks/unified-weight-six/verify.py",
+    "returncode": 0,
+    "stdout": "{\n  \"passed\": true,\n  \"coefficient_back_substitutions\": 329,\n  \"alias_back_substitutions\": 92,\n  \"hash_checks\": 161,\n  \"weights\": [\n    {\n      \"weight\": 1,\n      \"rank\": 0,\n      \"product_rank\": 0\n    },\n    {\n      \"weight\": 2,\n      \"rank\": 2,\n      \"product_rank\": 0\n    },\n    {\n      \"weight\": 3,\n      \"rank\": 2,\n      \"product_rank\": 0\n    },\n    {\n      \"weight\": 4,\n      \"rank\": 4,\n      \"product_rank\": 3\n    },\n    {\n      \"weight\": 5,\n      \"rank\": 8,\n      \"product_rank\": 4\n    },\n    {\n      \"weight\": 6,\n      \"rank\": 14,\n      \"product_rank\": 9\n    }\n  ],\n  \"formal\": \"not_run\",\n  \"fresh_integration\": false\n}\n",
+    "stderr": "",
+    "seconds": 4.24742959998548
+  },
+  "mixed": {
+    "script": "workflow/checks/tgv-mixed/verify_delivery.py",
+    "returncode": 0,
+    "stdout": "{\n  \"passed\": true,\n  \"mixed_inputs\": 44,\n  \"IBP_terms\": 196,\n  \"dependency_hash_checks\": 390,\n  \"external_repository_required\": false,\n  \"Laurent_coefficients\": \"not_computed\",\n  \"formal\": \"not_run\"\n}\n",
+    "stderr": "",
+    "seconds": 3.5953266999858897
+  },
+  "classification": {
+    "script": "workflow/checks/tgv-classification/check.py",
+    "returncode": 0,
+    "stdout": "{\n  \"passed\": true,\n  \"mixed\": 44,\n  \"bare\": 4,\n  \"groups\": 12,\n  \"unique_membership_checks\": 48,\n  \"C4_rotated_topology_checks\": 144,\n  \"negative_cases\": 5,\n  \"ordered_endpoint_coverage\": 48,\n  \"navigation_links\": 311,\n  \"Laurent_coefficients_added\": 0,\n  \"formal\": \"not_run\"\n}\n",
+    "stderr": "",
+    "seconds": 0.7761313999944832
+  }
+}

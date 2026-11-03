@@ -1,0 +1,12 @@
+{
+  "T1": {
+    "delivery": "workflow/checks/tgv-t1-empty/deliveries/20260917T121331052088Z",
+    "manifest_sha256": "6371760862877ae72babcd1d3eb669ed17b273e4538670bded9336c1a4ed117c",
+    "verification_stdout": "{\n  \"passed\": true,\n  \"integrals\": 7,\n  \"Laurent_coefficients\": 49,\n  \"nonzero_coefficients\": 40,\n  \"Hlog_roundtrips\": 49,\n  \"dependency_hash_checks\": 124,\n  \"external_repository_required\": false,\n  \"formal\": \"not_run\"\n}\n"
+  },
+  "mixed_inputs": {
+    "delivery": "workflow/checks/tgv-mixed/deliveries/20260917T102455040859Z",
+    "manifest_sha256": "d3063eb3527379ad31b3044ff30f3a3236c6f6e8d05553a291f2b4dcef5cb001",
+    "verification_stdout": "{\n  \"passed\": true,\n  \"mixed_inputs\": 44,\n  \"IBP_terms\": 196,\n  \"dependency_hash_checks\": 390,\n  \"external_repository_required\": false,\n  \"Laurent_coefficients\": \"not_computed\",\n  \"formal\": \"not_run\"\n}\n"
+  }
+}

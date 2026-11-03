@@ -1,0 +1,417 @@
+{
+  "format": "wilson-upstream-integral-input-index/1",
+  "path_base": "data/2026-11-02",
+  "stable_id": "L3/2e-Pi1+Pi1-02",
+  "orbit_id": "2e-Pi1+Pi1-02",
+  "loop_order": 3,
+  "family": "2e-Pi1+Pi1",
+  "graph_definition": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+    "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+    "json_pointer": "/orbits/1",
+    "field_sha256": "fa83d18a073d1138a22c98ab1ead46c88d1158cc6453ac6618762434231214ae",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "graph_catalogue": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/integrals.json",
+    "sha256": "fbc406891bb8eeef30b3912dc140972a1ddc23994105e62997a19d393a5813ea",
+    "json_pointer": "/orbits/1",
+    "field_sha256": "ce2162c42192d845cf211b839fc507ab76d96db58579223539998ff1bec05dd5",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "graph_summary": {
+    "orbit_id": "2e-Pi1+Pi1-02",
+    "emission_type": "2e-Pi1+Pi1",
+    "category": "loop",
+    "edge_counts": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "eikonal_count": 2,
+    "g_power": 6,
+    "n_diagrams": 1,
+    "wl_wl_pairs": 0,
+    "mirror_relation": "self-mirror",
+    "mirror_of": null,
+    "is_2pi": true,
+    "reducible_to": [],
+    "diagram_indices": [
+      615
+    ]
+  },
+  "prepared_inputs": [
+    {
+      "snapshot_role": "native_contract_prepared_snapshot",
+      "normalization_note": "Full native-sign source contract, one Euler compensation, no legacy sign conversion; the existing original C/J and all domain information are retained.",
+      "orbit": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/prepared/2e-Pi1+Pi1.json",
+        "sha256": "8b68e8b5fe77e72eb27dd2ed9651dbfcd246d27008a0887a1b28cdf2408d152b",
+        "json_pointer": "/orbits/1",
+        "field_sha256": "50724e20a78c9561465178391687f47eef4102e755c4789de2daa176cfcd98e9",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "C": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/prepared/2e-Pi1+Pi1.json",
+        "sha256": "8b68e8b5fe77e72eb27dd2ed9651dbfcd246d27008a0887a1b28cdf2408d152b",
+        "json_pointer": "/orbits/1/C",
+        "field_sha256": "e5fd2605da2d4fe174039cc9567ad2c0535c0bd38153b50bca1d66b85c71a5f8",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "J": {
+        "path": "snapshots/workflow/checks/shared-sign-production/generated/prepared/2e-Pi1+Pi1.json",
+        "sha256": "8b68e8b5fe77e72eb27dd2ed9651dbfcd246d27008a0887a1b28cdf2408d152b",
+        "json_pointer": "/orbits/1/J",
+        "field_sha256": "69a3e8553dd89857c81ae346617c9bbc945475a81eaa7b4ba11b4d2d132cc950",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "declared_domain": {
+        "representation": "ordered_s",
+        "variables": [
+          "s21",
+          "s41"
+        ],
+        "bounds": {
+          "s21": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "1"
+          ]
+        },
+        "source_bounds_array": [
+          {
+            "var": "s21",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "1"
+          }
+        ],
+        "declared_order": [
+          "s21",
+          "s41"
+        ],
+        "declared_order_field": "iterated_order_outer_to_inner",
+        "available": true,
+        "no_order_permutation_performed": true
+      },
+      "whole_package_format": "wilson-native-physical-calculation-input/1",
+      "package_I_definition": null,
+      "not_new_integral_evaluation": true
+    },
+    {
+      "snapshot_role": "existing_mathematical_prepared_r002_snapshot",
+      "normalization_note": "Existing versioned mathematical prepared input. Its sign/color projection and I_target must be read from this payload, not inferred from the newer native-contract wrapper.",
+      "orbit": {
+        "path": "snapshots/benchmarks/self-energy/pi1-chain/prepared/2e-Pi1+Pi1-r002.json",
+        "sha256": "55b7bcc3980f99aa8dda0a48bc8e4e43d3514a3e13f6ae4119745ef8c4359dc3",
+        "json_pointer": "/orbits/1",
+        "field_sha256": "440cbcfc3a69fb58e6dc045e70208a999af9af612e8d5edadd3b0a5bd25997d6",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "C": {
+        "path": "snapshots/benchmarks/self-energy/pi1-chain/prepared/2e-Pi1+Pi1-r002.json",
+        "sha256": "55b7bcc3980f99aa8dda0a48bc8e4e43d3514a3e13f6ae4119745ef8c4359dc3",
+        "json_pointer": "/orbits/1/C",
+        "field_sha256": "e5fd2605da2d4fe174039cc9567ad2c0535c0bd38153b50bca1d66b85c71a5f8",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "J": {
+        "path": "snapshots/benchmarks/self-energy/pi1-chain/prepared/2e-Pi1+Pi1-r002.json",
+        "sha256": "55b7bcc3980f99aa8dda0a48bc8e4e43d3514a3e13f6ae4119745ef8c4359dc3",
+        "json_pointer": "/orbits/1/J",
+        "field_sha256": "69a3e8553dd89857c81ae346617c9bbc945475a81eaa7b4ba11b4d2d132cc950",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "declared_domain": {
+        "representation": "ordered_s",
+        "variables": [
+          "s21",
+          "s41"
+        ],
+        "bounds": {
+          "s21": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "1"
+          ]
+        },
+        "source_bounds_array": [
+          {
+            "var": "s21",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "1"
+          }
+        ],
+        "declared_order": [
+          "s21",
+          "s41"
+        ],
+        "declared_order_field": "iterated_order_outer_to_inner",
+        "available": true,
+        "no_order_permutation_performed": true
+      },
+      "whole_package_format": "montopar-initial-integrals",
+      "package_I_definition": null,
+      "not_new_integral_evaluation": true
+    }
+  ],
+  "raw_kernels": [
+    {
+      "role": "J",
+      "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/2e-Pi1+Pi1/montopar-initial.json",
+      "sha256": "372518d691634fc41d9f8d18f2479a2604f67f45bb9a66ce426c060f7f6301f8",
+      "json_pointer": "/orbits/1/J",
+      "field_sha256": "69a3e8553dd89857c81ae346617c9bbc945475a81eaa7b4ba11b4d2d132cc950",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false",
+      "declared_domain": {
+        "representation": "ordered_s",
+        "variables": [
+          "s21",
+          "s41"
+        ],
+        "bounds": {
+          "s21": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "1"
+          ]
+        },
+        "source_bounds_array": [
+          {
+            "var": "s21",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "1"
+          }
+        ],
+        "declared_order": [
+          "s21",
+          "s41"
+        ],
+        "declared_order_field": "iterated_order_outer_to_inner",
+        "available": true,
+        "no_order_permutation_performed": true
+      }
+    },
+    {
+      "role": "J_raw_s",
+      "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/2e-Pi1+Pi1/montopar-initial.json",
+      "sha256": "372518d691634fc41d9f8d18f2479a2604f67f45bb9a66ce426c060f7f6301f8",
+      "json_pointer": "/orbits/1/J_raw_s",
+      "field_sha256": "69a3e8553dd89857c81ae346617c9bbc945475a81eaa7b4ba11b4d2d132cc950",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false",
+      "declared_domain": {
+        "representation": "ordered_s",
+        "variables": [
+          "s21",
+          "s41"
+        ],
+        "bounds": {
+          "s21": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "1"
+          ]
+        },
+        "source_bounds_array": [
+          {
+            "var": "s21",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "1"
+          }
+        ],
+        "declared_order": [
+          "s21",
+          "s41"
+        ],
+        "declared_order_field": "iterated_order_outer_to_inner",
+        "available": true,
+        "no_order_permutation_performed": true
+      }
+    }
+  ],
+  "joint_four_leg_object": null,
+  "native_raw_orbit": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/2e-Pi1+Pi1/montopar-initial.json",
+    "sha256": "372518d691634fc41d9f8d18f2479a2604f67f45bb9a66ce426c060f7f6301f8",
+    "json_pointer": "/orbits/1",
+    "field_sha256": "e2ce5efefaa2a332d801a519015d660897e8b76ffbf1af010ccfd33a4cb5d74d",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "raw_C": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/2e-Pi1+Pi1/montopar-initial.json",
+    "sha256": "372518d691634fc41d9f8d18f2479a2604f67f45bb9a66ce426c060f7f6301f8",
+    "json_pointer": "/orbits/1/C",
+    "field_sha256": "aef42189383bbca39ac43f57368862db451494a1952d71e372d2686e363eb013",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "geometry": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/2e-Pi1+Pi1/montopar-initial.json",
+    "sha256": "372518d691634fc41d9f8d18f2479a2604f67f45bb9a66ce426c060f7f6301f8",
+    "json_pointer": "/geometry",
+    "field_sha256": "fe96285b9b8ef0d3c0ff9747c7f5f21a04ddd339610383766a5d37c8fed76ec6",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "native_package_schema_version": "1.5",
+  "physical_convention": {
+    "id": "wilson-qcd-action-path-fourier/1.0",
+    "wilson_transport": "U'=ig*A*U",
+    "wilson_word": [
+      "a2",
+      "a1"
+    ],
+    "chronological_word": [
+      "a1",
+      "a2"
+    ],
+    "vertex_labels_unchanged": true,
+    "momentum_Fourier": "exp(-ipX)",
+    "momentum_Wick": "I",
+    "coordinate_Wick": "-I",
+    "one_pi_includes_internal_loop_signs": true,
+    "Dyson_external_coefficient": 1,
+    "raw_Euler_count": 0
+  },
+  "c4_symmetry": {
+    "orbit_multiplicity": 2,
+    "stabilizer_order": 2,
+    "stabilizer_rotations": [
+      0,
+      2
+    ],
+    "definition": "C4 on the two chain endpoints; identical Pi1 labels do not create extra multiplicity"
+  },
+  "source_normalization": {
+    "scheme": "montopar-raw-CJ",
+    "loop_order": 3,
+    "color_projection": "none",
+    "euler_compensation_count": 0,
+    "orbit_multiplicity_included": false,
+    "crossing_assembled": false,
+    "normalized_wilson_trace": "Tr/N",
+    "extra_factorial": "none",
+    "gamma_residual": "Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps]/(Gamma[1-2*eps]^2*Gamma[1+2*eps])",
+    "gamma_residual_Euler_linear_coefficient": "0",
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+    "assembly_sign": 1
+  },
+  "color_factor_components": {
+    "wilson_color": "CF",
+    "self_energy_color": "(((10-6*eps)*CA-8*(1-eps)*TF*nf)/(3-2*eps))^2"
+  },
+  "color_channels": null,
+  "C_component_semantics": "multiplicative",
+  "zero_declarations": {},
+  "native_production_connection": {
+    "receipt": {
+      "path": "snapshots/workflow/checks/shared-sign-production/native-check.json",
+      "sha256": "c9ebb9c69f70b75ce82a2fb29a8b6daf15f85c004ee050f453c5565c2314b65b"
+    },
+    "record": {
+      "orbit_id": "2e-Pi1+Pi1-02",
+      "C_residual": "0",
+      "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+      "native_package": "workflow/checks/shared-sign-production/generated/montopar/3loop/2e-Pi1+Pi1/montopar-initial.json",
+      "legacy_C_ratio": 1,
+      "J_connection": "same mathematical blocks"
+    },
+    "rerun_in_this_publication": false
+  },
+  "raw_snapshot_stage": "frozen native-sign production snapshot, adopted for input publication",
+  "source_operator_kind": "self_energy_chain",
+  "historical_graph_definitions": [
+    {
+      "path": "snapshots/workflow/checks/w3-p0/sources/qgraf/3loop/orbit_definitions.json",
+      "sha256": "d1227d1e3756bc8678013535b85b206442dc06aab706ef46f2e5e1dbb4d1564e",
+      "json_pointer": "/orbits/1",
+      "field_sha256": "22cf55e54a603fd884bca4b544de6a08abfd0822be2cf37cee889a199ec01e57",
+      "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+    }
+  ],
+  "historical_evaluation_labels": {
+    "evaluation_status": "not_evaluated",
+    "translation_status": "translated",
+    "formal": "not_run"
+  },
+  "archival_calculation_sources": [
+    {
+      "orbit": {
+        "path": "snapshots/benchmarks/self-energy/pi1-chain/sources/2e-Pi1+Pi1-r001.json",
+        "sha256": "5aa1d48fbd0d9ebe9349600e52a2ae8dd4d09f4b62705d2e529069b5056b5c5b",
+        "json_pointer": "/orbits/1",
+        "field_sha256": "22cf55e54a603fd884bca4b544de6a08abfd0822be2cf37cee889a199ec01e57",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "contains_CJ": false,
+      "revision_label": "2e-Pi1+Pi1-r001",
+      "sign_convention": null,
+      "scope": "Byte-preserved source used by historical mathematical calculations. Its own C/J convention and source bindings remain authoritative; not silently substituted for or identified with the adopted native-sign snapshot."
+    },
+    {
+      "orbit": {
+        "path": "snapshots/benchmarks/self-energy/pi1-chain/sources/2e-Pi1+Pi1-r002.json",
+        "sha256": "59ffef3b48dd00afe81602e25541a9795374b4e71e9eaacacd6d5a314b65f100",
+        "json_pointer": "/orbits/1",
+        "field_sha256": "41a3125072e18e39ae2cc6780034d15c20f60569086e9eb82ff9f1519b51ac23",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "contains_CJ": true,
+      "revision_label": "r002",
+      "sign_convention": "wilson-self-energy-1pi-insertion/2.0",
+      "scope": "Byte-preserved source used by historical mathematical calculations. Its own C/J convention and source bindings remain authoritative; not silently substituted for or identified with the adopted native-sign snapshot."
+    },
+    {
+      "orbit": {
+        "path": "snapshots/benchmarks/self-energy/pi1-chain/sources/montopar-2e-Pi1+Pi1-r001.json",
+        "sha256": "f659fd71475c6f281c96fafd542f420e36a0b869c2c5b03df86db5adea7e2419",
+        "json_pointer": "/orbits/1",
+        "field_sha256": "bfd1a66279f62aae4311021b72006ef80d2963ef4daff4827e65b16a39e3b004",
+        "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+      },
+      "contains_CJ": true,
+      "revision_label": "montopar-2e-Pi1+Pi1-r001",
+      "sign_convention": null,
+      "scope": "Byte-preserved source used by historical mathematical calculations. Its own C/J convention and source bindings remain authoritative; not silently substituted for or identified with the adopted native-sign snapshot."
+    }
+  ],
+  "input_path": "integrals/3loop/2e-Pi1+Pi1-02/input.json",
+  "readme_path": "integrals/3loop/2e-Pi1+Pi1-02/README.md",
+  "stage_scope": {
+    "graph_and_raw_CJ": "exported from byte-preserved frozen payloads",
+    "prepared_input": "available",
+    "Laurent_tables": "not exported in this upstream-only batch",
+    "new_Laurent_derivation": "not run",
+    "formal": "not_run"
+  }
+}

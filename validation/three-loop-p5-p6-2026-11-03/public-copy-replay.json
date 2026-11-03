@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "orbits": 59,
+  "I_positions": 413,
+  "function_substitutions": 651,
+  "packets": {
+    "p5": {
+      "status": "passed",
+      "orbits": 15,
+      "I_positions": 105,
+      "function_substitutions": 343,
+      "generated_bytes_identical": true,
+      "evidence": {
+        "generated.json": {
+          "sha256": "05e9d328a35860239bfacccf9a71c5633d9d16a9f9a378a78a6c4100e658fd5d"
+        },
+        "run.json": {
+          "sha256": "93ca92110ef7f9f2f60b6a1bb91a16b7b946d0c1e3ce919a089563e1841da38b"
+        },
+        "verification.json": {
+          "sha256": "d4d49fb7294a028e2e226724704562eda27693fab22cb39f2e223ddb4c786409"
+        },
+        "representations.json": {
+          "sha256": "93b0b34dbb7f56dfd303f9c3a95afc912ce823891ad33e78345ced0c072f1586"
+        },
+        "independent-controls.json": {
+          "sha256": "9097b2c2e4de813a5bbd695af525b2c0b5ad2b1ca8fe5b87b96999f138464dee"
+        }
+      },
+      "actual_subprocess_logs": {
+        "manifest": "c10b6f1d117ad497724011551999999c3f8259dee20ed9dd53e265154e8d59c7",
+        "generation": "7d1336d590bf21d11cc800771ce6ccb74f16fb0b000c639d89c387317158eeda",
+        "verification": "9032aabf8601ffef83f71292a0ab97b1797508334071ee0f5838d27f77fc508d",
+        "representations": "3a3e1a25553e9c2fafbdc48f63359f749d2f9d0ef0b1fde2bbe0cf17ee7cef98",
+        "controls": "be91b33712a5362411522b907af54e8e8d837469684317627728b80472ed4d6a"
+      },
+      "generation_seconds": 6.9724359000101686,
+      "new_CAS_processes": 0,
+      "generation_denials": 0,
+      "scope": "Outputs from actual public-copy commands; supervisor report schema corrected without changing/rerunning mathematical producers."
+    },
+    "p6": {
+      "status": "passed",
+      "orbits": 44,
+      "I_positions": 308,
+      "function_substitutions": 308,
+      "generated_bytes_identical": true,
+      "evidence": {
+        "generated.json": {
+          "sha256": "8c466949db9cb4157d9d0037cfa0e7cbec555129508f9257d3a1309a1f6d4bfa"
+        },
+        "run.json": {
+          "sha256": "ed65c5c3f64f871eaf3b27921376c1508852bd68dbbe21cfc70c397a1c82cdbf"
+        },
+        "verification.json": {
+          "sha256": "4567d929d109509329b37c283427cc9127d257526a097aa702c3d3ead29f2dba"
+        },
+        "representations.json": {
+          "sha256": "67e77f5d5fda12a2a58ffdaef57905f97d9c6aebc56dcbf06927c9cbc6377c78"
+        },
+        "independent-controls.json": {
+          "sha256": "3d13c6e16f92f06457ab9e29e05d3878fabb36a69b35f77e5935f3fb9348b6ec"
+        }
+      },
+      "actual_subprocess_logs": {
+        "manifest": "4382a8d4232dc1797d5a69c06ef237e2e4f4a65c1ff2f4ed7bbe9172fffd09c3",
+        "generation": "de3f5dda360696a8c751ea8f5ccecbdc0022334d4addca250529697883c74b0f",
+        "verification": "729a033cbe3028e1fd1616aade130fa8ee69de1c70bcf63bb9713f6340d37e72",
+        "representations": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "controls": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "generation_seconds": 5.834804099984467,
+      "new_CAS_processes": 0,
+      "generation_denials": 0,
+      "scope": "Outputs from actual public-copy commands; supervisor report schema corrected without changing/rerunning mathematical producers."
+    }
+  },
+  "formal": "not_run",
+  "supervisor_correction": "The first release supervisor read P5 controls.passed instead of controls.status after all subprocesses had completed. All generated/check artifacts were retained and validated with the correct schema. No mathematical test failed; no execution log was edited."
+}

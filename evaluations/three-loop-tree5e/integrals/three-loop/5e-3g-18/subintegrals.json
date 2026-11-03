@@ -1,0 +1,19 @@
+{
+  "primitive_inputs": [
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/Z1.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/Z2.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/Z3.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/Z4.txt"
+  ],
+  "epsilon_budget": {
+    "gamma_and_beta_through": 6,
+    "F_through": null,
+    "Z_through": 4,
+    "explicit_denominator_powers": [
+      6,
+      5,
+      4
+    ],
+    "remainder": "O(eps) at fixed z>0"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "primitive_inputs": [
+    "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+    "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+    "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt"
+  ],
+  "epsilon_budget": {
+    "bare_T4_orders": [
+      -2,
+      -1,
+      0
+    ],
+    "H0_through": 2,
+    "analytic_multiplier_through": 2,
+    "remainder": "O(eps) at fixed z>0"
+  },
+  "known_function_view": {
+    "-2": "zeta(2)*M_0_1/64",
+    "-1": "(M_0_1*(zeta(3)-M_1_1)+zeta(2)*M_1_1/2)/64",
+    "0": "(M_0_1*(-M_2_1/8+M_0_1^2/48+9*zeta(2)^2/10)+M_1_1*(zeta(3)-M_1_1)/16+zeta(2)*(M_2_1/8-M_0_1^2/24)/8+M_0_1*zeta(2)*(5*M_0_1/4+17*zeta(2)/4)/8)/8",
+    "factorized_I": "exp(-EulerGamma*eps)*Gamma(1-eps)*cosh(eps*log(z))/(8*cosh(3*eps*log(z)/2))*I_T4(z,eps)*H0(z,eps)",
+    "bare_T4": "zeta(2)/(8eps^2)+(zeta(3)-M_1_1)/(8eps)-M_2_1/8+M_0_1^2/48+9*zeta(2)^2/10+O(eps)",
+    "H0": "M_0_1+eps*M_1_1/2+eps^2*(M_2_1/8-M_0_1^2/24)+O(eps^3)",
+    "relative_prefactor": "1+eps^2*(5*M_0_1/4+17*zeta(2)/4)+O(eps^3)",
+    "source_weight": "1/8 includes each orbit own reflection and symmetry weight"
+  },
+  "function_definitions": {
+    "M_0_1": {
+      "definition": "existing evaluated M-family generator in the fixed z-Hlog convention",
+      "hlog_terms": [
+        {
+          "word": [],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-3"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      "source": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt"
+    },
+    "M_1_1": {
+      "definition": "existing evaluated M-family generator in the fixed z-Hlog convention",
+      "hlog_terms": [
+        {
+          "word": [],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "6"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "word": [
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-3"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      "source": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt"
+    },
+    "M_2_1": {
+      "definition": "existing evaluated M-family generator in the fixed z-Hlog convention",
+      "hlog_terms": [
+        {
+          "word": [],
+          "period_powers": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-33/5"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-8"
+        },
+        {
+          "word": [
+            -1,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-24"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-8"
+        },
+        {
+          "word": [
+            -1,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "12"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "4"
+        },
+        {
+          "word": [
+            0
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "4"
+        },
+        {
+          "word": [
+            0,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "12"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "4"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-4"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-2"
+        }
+      ],
+      "source": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt"
+    }
+  }
+}

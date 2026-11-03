@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "orbits": 44,
+  "I_positions": 308,
+  "generation_input_files": 935,
+  "mathematical_payloads_identical": true,
+  "byte_identical_generated_result": true,
+  "references_added_after_generation": true,
+  "generation_denials": 0,
+  "new_CAS_processes": 0,
+  "stages": [
+    {
+      "stage": "generation",
+      "returncode": 0,
+      "seconds": 25.09819950000383,
+      "log_sha256": "9e99043eae2339c7ea7b714750a48bf52b22db2e5dfc1e7a57d4f5644d9692fb"
+    },
+    {
+      "stage": "verification",
+      "returncode": 0,
+      "seconds": 12.458158799970988,
+      "log_sha256": "729a033cbe3028e1fd1616aade130fa8ee69de1c70bcf63bb9713f6340d37e72"
+    },
+    {
+      "stage": "representations",
+      "returncode": 0,
+      "seconds": 1.406420299957972,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "stage": "independent-controls",
+      "returncode": 0,
+      "seconds": 64.61179649998667,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scope": "Actual copied closure in same installed Python environment. Original integrated primitives reused; Python access audit, not an OS sandbox or new CAS integration.",
+  "formal": "not_run"
+}

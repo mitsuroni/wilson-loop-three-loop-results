@@ -1,0 +1,31 @@
+{
+  "primitive_inputs": [
+    "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/ET1.txt",
+    "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/ET2.txt",
+    "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/ET3.txt",
+    "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/ET4.txt"
+  ],
+  "epsilon_budget": {
+    "ET_EK_through": 4,
+    "ET_starts": 1,
+    "EK_starts": 2,
+    "analytic_multiplier_through": 3,
+    "explicit_denominator_power": 4,
+    "remainder": "O(eps) at fixed z>0"
+  },
+  "full_epsilon_relation": {
+    "equals": "5e-3g-32",
+    "scope": "full physical I from ordered-source reflection; z fixed",
+    "edge_map": {
+      "1": 2,
+      "2": 1,
+      "3": 4,
+      "4": 3
+    },
+    "alpha_map": {
+      "alpha1": "alpha3",
+      "alpha2": "alpha2",
+      "alpha3": "alpha1"
+    }
+  }
+}

@@ -1,0 +1,2350 @@
+{
+  "primitive_inputs": [
+    "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034029006332Z-global_ibp/I27m1.txt",
+    "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034029006332Z-global_ibp/I27zero.txt"
+  ],
+  "epsilon_budget": {
+    "stored_hard_jet": [
+      -1,
+      0
+    ],
+    "new_cold_integration": false,
+    "remainder": "O(eps) at fixed z>0"
+  },
+  "known_function_view": {
+    "finite": "known old-alphabet part + Omega6_coefficient*Omega6",
+    "Omega6_coefficient": "-1/64",
+    "known_part_hlog_terms": [
+      {
+        "word": [],
+        "period_powers": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-1/8"
+      },
+      {
+        "word": [],
+        "period_powers": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "2363/6720"
+      },
+      {
+        "word": [
+          -1
+        ],
+        "period_powers": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-3/4"
+      },
+      {
+        "word": [
+          -1
+        ],
+        "period_powers": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-7/8"
+      },
+      {
+        "word": [
+          -1,
+          -1
+        ],
+        "period_powers": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-3/8"
+      },
+      {
+        "word": [
+          -1,
+          -1,
+          0,
+          0
+        ],
+        "period_powers": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-11/32"
+      },
+      {
+        "word": [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "period_powers": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-7/16"
+      },
+      {
+        "word": [
+          -1,
+          0
+        ],
+        "period_powers": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "109/128"
+      },
+      {
+        "word": [
+          -1,
+          0,
+          -1,
+          0
+        ],
+        "period_powers": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-5/8"
+      },
+      {
+        "word": [
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        "period_powers": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-5/8"
+      },
+      {
+        "word": [
+          -1,
+          0,
+          0
+        ],
+        "period_powers": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "7/32"
+      },
+      {
+        "word": [
+          -1,
+          0,
+          0,
+          -1
+        ],
+        "period_powers": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-45/32"
+      },
+      {
+        "word": [
+          -1,
+          0,
+          0,
+          -1,
+          0,
+          0
+        ],
+        "period_powers": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-15/32"
+      },
+      {
+        "word": [
+          -1,
+          0,
+          0,
+          0
+        ],
+        "period_powers": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "19/16"
+      },
+      {
+        "word": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "period_powers": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "49/64"
+      },
+      {
+        "word": [
+          0
+        ],
+        "period_powers": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "13/16"
+      },
+      {
+        "word": [
+          0
+        ],
+        "period_powers": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "19/16"
+      },
+      {
+        "word": [
+          0,
+          -1
+        ],
+        "period_powers": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-93/320"
+      },
+      {
+        "word": [
+          0,
+          -1,
+          -1,
+          0
+        ],
+        "period_powers": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "9/32"
+      },
+      {
+        "word": [
+          0,
+          -1,
+          -1,
+          0,
+          0,
+          0
+        ],
+        "period_powers": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "9/32"
+      },
+      {
+        "word": [
+          0,
+          -1,
+          0
+        ],
+        "period_powers": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-9/32"
+      },
+      {
+        "word": [
+          0,
+          -1,
+          0,
+          -1
+        ],
+        "period_powers": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "27/32"
+      },
+      {
+        "word": [
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0
+        ],
+        "period_powers": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "9/32"
+      },
+      {
+        "word": [
+          0,
+          -1,
+          0,
+          0
+        ],
+        "period_powers": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-25/64"
+      },
+      {
+        "word": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "period_powers": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-1/16"
+      },
+      {
+        "word": [
+          0,
+          0
+        ],
+        "period_powers": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-1/16"
+      },
+      {
+        "word": [
+          0,
+          0,
+          -1
+        ],
+        "period_powers": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-1/32"
+      },
+      {
+        "word": [
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "period_powers": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-3/32"
+      },
+      {
+        "word": [
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0
+        ],
+        "period_powers": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-1/32"
+      },
+      {
+        "word": [
+          0,
+          0,
+          -1,
+          0
+        ],
+        "period_powers": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "7/32"
+      },
+      {
+        "word": [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        "period_powers": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "3/16"
+      },
+      {
+        "word": [
+          0,
+          0,
+          0
+        ],
+        "period_powers": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "3/64"
+      },
+      {
+        "word": [
+          0,
+          0,
+          0,
+          -1
+        ],
+        "period_powers": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "21/64"
+      },
+      {
+        "word": [
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0
+        ],
+        "period_powers": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "7/64"
+      },
+      {
+        "word": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "period_powers": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-1/4"
+      },
+      {
+        "word": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "period_powers": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-1/4"
+      }
+    ],
+    "scope": "individual finite coefficient; cancellation in the sum is a separate identity"
+  },
+  "function_definitions": {
+    "Omega6": {
+      "definition": "T6(z)+T6(1/z)",
+      "T6_definition": "integral_0^z Phi5(t)/(t+1/2) dt; T6(0)=0",
+      "hlog_terms": [
+        {
+          "word": [],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "16"
+        },
+        {
+          "word": [],
+          "period_powers": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-31"
+        },
+        {
+          "word": [],
+          "period_powers": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-45/4"
+        },
+        {
+          "word": [],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "32"
+        },
+        {
+          "word": [],
+          "period_powers": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-56"
+        },
+        {
+          "word": [],
+          "period_powers": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "247/70"
+        },
+        {
+          "word": [
+            -2
+          ],
+          "period_powers": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-31"
+        },
+        {
+          "word": [
+            -2
+          ],
+          "period_powers": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-56"
+        },
+        {
+          "word": [
+            -2,
+            -1
+          ],
+          "period_powers": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "11/5"
+        },
+        {
+          "word": [
+            -2,
+            -1,
+            -1
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            -2,
+            -1,
+            -1,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-6"
+        },
+        {
+          "word": [
+            -2,
+            -1,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            -2,
+            -1,
+            -1,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-8"
+        },
+        {
+          "word": [
+            -2,
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-10"
+        },
+        {
+          "word": [
+            -2,
+            -1,
+            0
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "8"
+        },
+        {
+          "word": [
+            -2,
+            -1,
+            0,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-24"
+        },
+        {
+          "word": [
+            -2,
+            -1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-8"
+        },
+        {
+          "word": [
+            -2,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "16"
+        },
+        {
+          "word": [
+            -2,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "12"
+        },
+        {
+          "word": [
+            "-1/2"
+          ],
+          "period_powers": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-7"
+        },
+        {
+          "word": [
+            "-1/2"
+          ],
+          "period_powers": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-16"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1
+          ],
+          "period_powers": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-25"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            -1
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            -1,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-6"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            -1,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "14"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "12"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            0
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-6"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            0,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "30"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "10"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-22"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-8"
+        },
+        {
+          "word": [
+            "-1/2",
+            0
+          ],
+          "period_powers": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "25"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            -1
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            -1,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "6"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            -1,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-14"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-12"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "6"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            0,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-30"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-10"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "22"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "8"
+        },
+        {
+          "word": [
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "31"
+        },
+        {
+          "word": [
+            0
+          ],
+          "period_powers": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "56"
+        },
+        {
+          "word": [
+            0,
+            -1
+          ],
+          "period_powers": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-11/5"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "6"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "10"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "24"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "8"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-16"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-12"
+        }
+      ],
+      "Phi5_hlog_terms": [
+        {
+          "word": [],
+          "period_powers": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-7"
+        },
+        {
+          "word": [],
+          "period_powers": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-16"
+        },
+        {
+          "word": [
+            -1
+          ],
+          "period_powers": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-25"
+        },
+        {
+          "word": [
+            -1,
+            -1
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-6"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "14"
+        },
+        {
+          "word": [
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "12"
+        },
+        {
+          "word": [
+            -1,
+            0
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-6"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "30"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "10"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-22"
+        },
+        {
+          "word": [
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-8"
+        },
+        {
+          "word": [
+            0
+          ],
+          "period_powers": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "25"
+        },
+        {
+          "word": [
+            0,
+            -1
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "6"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-14"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-12"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "6"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-30"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-10"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "22"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "8"
+        }
+      ],
+      "Tprimitive_hlog_terms": [
+        {
+          "word": [
+            "-1/2"
+          ],
+          "period_powers": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-7"
+        },
+        {
+          "word": [
+            "-1/2"
+          ],
+          "period_powers": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-16"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1
+          ],
+          "period_powers": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-25"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            -1
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            -1,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-6"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            -1,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "14"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "12"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            0
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-6"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            0,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "30"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "10"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-22"
+        },
+        {
+          "word": [
+            "-1/2",
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-8"
+        },
+        {
+          "word": [
+            "-1/2",
+            0
+          ],
+          "period_powers": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "25"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            -1
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            -1,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "6"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            -1,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-14"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-12"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "6"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            0,
+            -1
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-30"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-10"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "22"
+        },
+        {
+          "word": [
+            "-1/2",
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "period_powers": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "8"
+        }
+      ],
+      "A4_definition": "sum(n>=1,(-1)^n*H_(n-1)/n^3)",
+      "A6_definition": "sum(n>=1,(-1)^n*H_(n-1)/n^5)",
+      "branch": "z>0, ordinary convergent T6 at zero and real periods"
+    }
+  }
+}

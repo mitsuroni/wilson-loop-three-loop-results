@@ -1,0 +1,20 @@
+05 0.65 0.4 relative 0.0035306501989476008 SE 0.00016797482068002233 passed True
+06 0.65 0.4 relative 0.018899799827215586 SE 0.0007757350430819861 passed True
+07 0.65 0.4 relative 0.0049537505169696 SE 0.0007439154760657037 passed True
+08 0.65 0.4 relative -0.008257644585302825 SE 0.00043869949185170733 passed True
+20 0.65 0.4 relative -0.0002709797616774423 SE 0.00016215383003552846 passed True
+<lambdifygenerated-6>:5: RuntimeWarning: divide by zero encountered in power
+  return x2**2*x4*(-0.040000000000000004*alpha1*x0 + 0.040000000000000004*alpha2*alpha3*x3)*(-x1*x6 + x2*x4)**(-0.34999999999999998)*(0.40000000000000002*alpha1*alpha3*x3 - alpha1*x5*x6*x7 + 0.40000000000000002*alpha2*alpha3*x3 - alpha2*x2*x7)**(-0.69999999999999996)
+<lambdifygenerated-6>:5: RuntimeWarning: invalid value encountered in multiply
+  return x2**2*x4*(-0.040000000000000004*alpha1*x0 + 0.040000000000000004*alpha2*alpha3*x3)*(-x1*x6 + x2*x4)**(-0.34999999999999998)*(0.40000000000000002*alpha1*alpha3*x3 - alpha1*x5*x6*x7 + 0.40000000000000002*alpha2*alpha3*x3 - alpha2*x2*x7)**(-0.69999999999999996)
+Traceback (most recent call last):
+  File "D:\wilson-agent\workflow\checks\tgv-t2-empty\check_numeric.py", line 33, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "D:\wilson-agent\workflow\checks\tgv-t2-empty\check_numeric.py", line 18, in main
+    values.append(evaluate(fn,points,float(ep)))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\wilson-agent\workflow\checks\tgv-t2-empty\stable_qmc.py", line 13, in evaluate
+    if not np.all(np.isfinite(values)):raise ValueError("nonfinite numerical kernel")
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: nonfinite numerical kernel

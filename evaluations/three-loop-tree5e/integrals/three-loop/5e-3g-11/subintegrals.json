@@ -1,0 +1,20 @@
+{
+  "primitive_inputs": [
+    "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/ET1.txt",
+    "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/ET2.txt",
+    "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/ET3.txt",
+    "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/ET4.txt",
+    "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/EK1.txt",
+    "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/EK2.txt",
+    "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/EK3.txt",
+    "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/EK4.txt"
+  ],
+  "epsilon_budget": {
+    "ET_EK_through": 4,
+    "ET_starts": 1,
+    "EK_starts": 2,
+    "analytic_multiplier_through": 3,
+    "explicit_denominator_power": 4,
+    "remainder": "O(eps) at fixed z>0"
+  }
+}

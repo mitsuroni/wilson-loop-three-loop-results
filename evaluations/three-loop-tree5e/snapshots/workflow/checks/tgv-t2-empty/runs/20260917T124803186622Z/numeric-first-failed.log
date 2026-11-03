@@ -1,0 +1,15 @@
+<lambdifygenerated-1>:7: RuntimeWarning: divide by zero encountered in power
+  return x0*x1**2*x3*(0.40000000000000002*x2 - x6)**(-0.34999999999999998)*(0.040000000000000004*alpha2*alpha3*x2*x4 - 0.040000000000000004*x2*x9)*(0.40000000000000002*alpha1*alpha3*x2*x4 + 0.40000000000000002*alpha2*alpha3*x2*x4 - alpha2*x7*x8 - x5*x8*x9)**(-0.69999999999999996)
+<lambdifygenerated-1>:7: RuntimeWarning: invalid value encountered in multiply
+  return x0*x1**2*x3*(0.40000000000000002*x2 - x6)**(-0.34999999999999998)*(0.040000000000000004*alpha2*alpha3*x2*x4 - 0.040000000000000004*x2*x9)*(0.40000000000000002*alpha1*alpha3*x2*x4 + 0.40000000000000002*alpha2*alpha3*x2*x4 - alpha2*x7*x8 - x5*x8*x9)**(-0.69999999999999996)
+Traceback (most recent call last):
+  File "D:\wilson-agent\workflow\checks\tgv-t2-empty\check_numeric.py", line 32, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "D:\wilson-agent\workflow\checks\tgv-t2-empty\check_numeric.py", line 17, in main
+    values.append(evaluate(fn,points,float(ep)))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\wilson-agent\workflow\checks\tgv-mixed\numeric.py", line 25, in evaluate
+    if not np.all(np.isfinite(values)):raise ValueError("nonfinite numerical kernel")
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: nonfinite numerical kernel

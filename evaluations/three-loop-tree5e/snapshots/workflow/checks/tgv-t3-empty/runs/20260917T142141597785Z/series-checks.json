@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "blocks": [
+    {
+      "n": 0,
+      "orbit_id": "09",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 8.08634922390439e-174,
+      "independent_Jacobi_quadrature": 3.122502256758253e-17,
+      "difference": 3.122502256758253e-17,
+      "passed": true
+    },
+    {
+      "n": 0,
+      "orbit_id": "10",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 8.08634922390439e-174,
+      "independent_Jacobi_quadrature": -2.0816681711721685e-17,
+      "difference": -2.0816681711721685e-17,
+      "passed": true
+    },
+    {
+      "n": 0,
+      "orbit_id": "26",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 2.0215873059760975e-174,
+      "independent_Jacobi_quadrature": 1.3877787807814457e-17,
+      "difference": 1.3877787807814457e-17,
+      "passed": true
+    },
+    {
+      "n": 1,
+      "orbit_id": "09",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 0.007889116340744535,
+      "independent_Jacobi_quadrature": 0.007889116340744427,
+      "difference": -1.0755285551056204e-16,
+      "passed": true
+    },
+    {
+      "n": 1,
+      "orbit_id": "10",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 0.01975662068179592,
+      "independent_Jacobi_quadrature": 0.01975662068179572,
+      "difference": -2.0122792321330962e-16,
+      "passed": true
+    },
+    {
+      "n": 1,
+      "orbit_id": "26",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 0.007347839061791222,
+      "independent_Jacobi_quadrature": 0.007347839061791095,
+      "difference": -1.2750217548429532e-16,
+      "passed": true
+    },
+    {
+      "n": 2,
+      "orbit_id": "09",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 0.01173178378951975,
+      "independent_Jacobi_quadrature": 0.011731783789519619,
+      "difference": -1.3183898417423734e-16,
+      "passed": true
+    },
+    {
+      "n": 2,
+      "orbit_id": "10",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 0.027605141226618956,
+      "independent_Jacobi_quadrature": 0.02760514122661868,
+      "difference": -2.7755575615628914e-16,
+      "passed": true
+    },
+    {
+      "n": 2,
+      "orbit_id": "26",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 0.010975006473360067,
+      "independent_Jacobi_quadrature": 0.010975006473359916,
+      "difference": -1.5092094240998222e-16,
+      "passed": true
+    },
+    {
+      "n": 3,
+      "orbit_id": "09",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 0.013350656331180457,
+      "independent_Jacobi_quadrature": 0.01335065633118028,
+      "difference": -1.7694179454963432e-16,
+      "passed": true
+    },
+    {
+      "n": 3,
+      "orbit_id": "10",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 0.02980867793244353,
+      "independent_Jacobi_quadrature": 0.029808677932443226,
+      "difference": -3.0531133177191805e-16,
+      "passed": true
+    },
+    {
+      "n": 3,
+      "orbit_id": "26",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 0.012553443057770862,
+      "independent_Jacobi_quadrature": 0.012553443057770668,
+      "difference": -1.942890293094024e-16,
+      "passed": true
+    },
+    {
+      "n": 4,
+      "orbit_id": "09",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 0.013741811216785776,
+      "independent_Jacobi_quadrature": 0.01374181121678561,
+      "difference": -1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "n": 4,
+      "orbit_id": "10",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 0.029354378456235616,
+      "independent_Jacobi_quadrature": 0.029354378456235293,
+      "difference": -3.226585665316861e-16,
+      "passed": true
+    },
+    {
+      "n": 4,
+      "orbit_id": "26",
+      "eps": "13/20",
+      "z": "2/5",
+      "integrated_block": 0.01299333366363038,
+      "independent_Jacobi_quadrature": 0.012993333663630188,
+      "difference": -1.9255430583342559e-16,
+      "passed": true
+    }
+  ],
+  "test": "tensor Gauss-Jacobi on x=r*y versus exact finite monomial sum",
+  "finite_block_checks": 15,
+  "full_series_convergence": "proved by dominated binomial expansion in method.md; not a rate or interval bound",
+  "formal": "not_run"
+}

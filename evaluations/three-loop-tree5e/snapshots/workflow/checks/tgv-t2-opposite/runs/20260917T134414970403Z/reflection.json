@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "pairs": [
+    {
+      "T2": "5e-3g-16",
+      "T1": "5e-3g-32",
+      "substitution_T2_in_T1_coordinates": {
+        "s21": "1 - s11",
+        "s31": "1 - s42",
+        "s32": "1 - s41",
+        "s41": "1 - s32",
+        "s42": "1 - s31",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1"
+      },
+      "ordered_domain_bijection": true,
+      "s_absolute_jacobian": "1",
+      "alpha_absolute_jacobian": "1",
+      "S_P_pure_equal": true,
+      "colour_and_C_equal": true,
+      "raw_J_ratio": 1,
+      "physical_I_ratio": 1
+    },
+    {
+      "T2": "5e-3g-36",
+      "T1": "5e-3g-12",
+      "substitution_T2_in_T1_coordinates": {
+        "s11": "1 - s21",
+        "s31": "1 - s43",
+        "s32": "1 - s42",
+        "s33": "1 - s41",
+        "s41": "1 - s31",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1"
+      },
+      "ordered_domain_bijection": true,
+      "s_absolute_jacobian": "1",
+      "alpha_absolute_jacobian": "1",
+      "S_P_pure_equal": true,
+      "colour_and_C_equal": true,
+      "raw_J_ratio": 1,
+      "physical_I_ratio": 1
+    },
+    {
+      "T2": "5e-3g-37",
+      "T1": "5e-3g-11",
+      "substitution_T2_in_T1_coordinates": {
+        "s11": "1 - s21",
+        "s31": "1 - s43",
+        "s32": "1 - s42",
+        "s33": "1 - s41",
+        "s41": "1 - s31",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1"
+      },
+      "ordered_domain_bijection": true,
+      "s_absolute_jacobian": "1",
+      "alpha_absolute_jacobian": "1",
+      "S_P_pure_equal": true,
+      "colour_and_C_equal": true,
+      "raw_J_ratio": 1,
+      "physical_I_ratio": 1
+    }
+  ],
+  "unique_candidate_matches": {
+    "16": [
+      "32"
+    ],
+    "36": [
+      "12"
+    ],
+    "37": [
+      "11"
+    ]
+  },
+  "negative_cases_rejected": [
+    "missing_alpha_permutation",
+    "missing_order_reversal",
+    "wrong_P_sign",
+    "wrong_C_factor",
+    "wrong_pair"
+  ],
+  "Gram_and_reference_scale_unchanged": true,
+  "z_transformation": "z -> z",
+  "full_epsilon_relations": [
+    "I16=I32",
+    "I36=I12",
+    "I37=I11",
+    "I36+I37=I16"
+  ],
+  "domain": "z>0; first 1/2<Re(eps)<1, then meromorphic epsilon continuation",
+  "formal": "not_run"
+}

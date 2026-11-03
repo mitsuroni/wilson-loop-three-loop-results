@@ -1,0 +1,1329 @@
+{
+  "orbit_id": "5e-3g-13",
+  "family": "t4-empty",
+  "evaluation_family": "t4-empty",
+  "representative": "5e-3g-13",
+  "relationship": {
+    "kind": "own_entry_with_declared_relations",
+    "scope": "Preserve source weight. Only use relations at their stated full-I/J/coefficient scope.",
+    "exact_relations_as_stored": [
+      "I13=I35",
+      "I14=I34",
+      "I15=I33",
+      "I40=I43"
+    ]
+  },
+  "native_prepared": {
+    "path": "snapshots/benchmarks/current/prepared/3loop/5e-3g.json",
+    "sha256": "58d177ba9de3c5e3f3a4ea4dafff6b2e5fa0ecbe4731b7d5d78d39db37f5c5ef",
+    "field": "/orbits/12"
+  },
+  "native_raw": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/5e-3g/montopar-initial.json",
+    "sha256": "8c4460ea339119e7626575c5d4fd38ea5b0e07b31a718170bc9d3e1e078c59ee",
+    "field": "/orbits/12"
+  },
+  "graph": {
+    "path": "inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+    "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+    "field": "/orbits/78",
+    "field_sha256": "76c2e1b0cd226a29fef2f5ad1df78b51ca359fa5bcb443e3c2fad1cfaefb348c"
+  },
+  "selected_reference": {
+    "path": "benchmarks/tgv/5e-3g/results/5e-3g-13/r002.json",
+    "sha256": "eff9d3f321b4406383b7fbebbe031316f17a96633f15587f65fd448813f84bd3"
+  },
+  "selected_revision": "r002",
+  "source_quantity_boundary": "Physical I with the per-family accepted C/I and connected/color normalization; definitions and evaluated status remain separate.",
+  "historical_assets": [
+    {
+      "path": "benchmarks/tgv/5e-3g/results/5e-3g-13/r002.json",
+      "role": "original_evaluation_output",
+      "sha256": "eff9d3f321b4406383b7fbebbe031316f17a96633f15587f65fd448813f84bd3",
+      "scope": "selected physical I",
+      "inspection_note": "Adopted output, not a fresh independent computation."
+    },
+    {
+      "path": "benchmarks/tgv/5e-3g/workspaces/5e-3g-13/derivation.md",
+      "role": "derivation",
+      "sha256": "379943fbf3063c6d40ce6e3a23c8c31c1eef27197d9a3dbe5bbaeb14bc5dc8e7",
+      "scope": "original input/IBP",
+      "inspection_note": "Historical per-orbit note stops at input/IBP and says uncomputed; use selected family derivation for actual completed evaluation. Preserve original bytes."
+    },
+    {
+      "path": "benchmarks/recursion-audit/sum-5e.md",
+      "role": "derivation",
+      "sha256": "8b8575c48748f393f6705bafa4b3ef619951dd1798a54ce12b791a2bc8ce7e4b",
+      "scope": "adopted current I",
+      "inspection_note": "Actual family or corrected-current derivation declared by selected record."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct13q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "ff097663edca0c4a24c27c4133b38a9a97c6c5da9887b11dd658585fe7e7e0d3",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct13q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "f64a10cf80967f3040d45ca8aa7428b07aa761625625145a9e8dae3471c88708",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct13q-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "2fb7dcc1df49f80ec90220906ada6e12899ce1ce858321b04e4acc8c55e0a42d",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct13q-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "cd24f036e212069f5da2798d385cb1020662602d8e3dc691863843690850d0e5",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct13q-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "94acc93a6cbb2ab5df94b4c897d5d27d8cd6cbd9f9bf5f9a40b2180e6abd41e9",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct13q-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "a0db87d5f214f4e5de6f4eedf8ad598713d2cc9b49660f402c4de6734d28a864",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct13q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "bf42d5f72dd46e9c2bc563006d4dbcf478ffbea95c1b2f4111a2e8c7847cf9eb",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct14q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "41311ea88108d26896361db2f986a665e326e0b87d3e5ca8cfef7b16b2c12c09",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct14q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "d556697542319308079323f2ebe3edca77528c8fab521207e687c36851987da0",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct14q-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "6a33f979d3e41cce17dab5d6cff905a86b51f8da1126666203af71525c99ff4c",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct14q-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "3ccd0b8d4f0722abf97cf57f028cff76c06d7d24d6645a1ee5ce373c3d6592f1",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct14q-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "45c60f123e235452f623c0234ea7e82c9bbf051a1fad2ad50c33f80c3dcea78b",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct14q-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "da9fa3ba5e0782b2f349b58f1705f45e1a1dc7320de9f48f97a38019410ad5ac",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct14q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "b9c008653acacb8d2adf73f8b2bf4660a5c76613d7016f6c1f3ffc4439c3399d",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct15q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "97c0d275210176cefd97bae5da7c7493c10daa08028a0322492bd8ce47bc4c58",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct15q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "60205558f2597f0336520c4a6b1047ca7d7b773eb768553411f32723c24cb088",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct15q-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "0732c70110bfb608ea4979588e1315f6f9c7954666716327283e797f398352ed",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct15q-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "5adaf76b15db5c6bffe155719fec1b258e3831ffb3dc96d7bf27f47840ba64d3",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct15q-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "ac254d2c48bae2346668b95f46c5d932ae7e8d48bc7193432e05c91589f90f4f",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct15q-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "cc9c47c209a994979e2343068261ec99d207792417aa491e5f5fa9b82807943d",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct15q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "1c198408e930e56da7dd35cb9dfbf17401a7e972c55f783a530afc35950e4757",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct40q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "7c83df9fd24733f0328e011a763404cfd1c8e30aa7b1808fc60e1039a2e14642",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct40q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "366a769185c8c581693617d5b362bf3fa7ad2a2fa13a27a478cf1ee85acbf17b",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct40q-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "008346e84d002f44ccf2c9d11532492d2f252bfa6ea1306f93c1440fc727f89a",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct40q-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "a48ae8a067bff7d9b11d87bd1b8c9cb02b0bc76f33555edefab99b33fdeee081",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct40q-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "526a0a47ad14bdd6b4a4c3dae15dba5ac3d51e623f1349d733eb3051de41cf23",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct40q-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "381deb134a9d3b6c48e203f4aa76bce4411889022263efb9a39fb2fdccd31da7",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/Correct40q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "4944243ee5b437034877d75c88d4fdb749d1d772d7cf3c9c40940069e79da519",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/CorrectEight-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "e87793ce339182099eaf0798877dfcde29581eb465b79a11fa1f391cb98f2778",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/CorrectEight-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "d3eb7ce25843f036ba3287505b204cd93527176223b9e95ac82a07103d81a893",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/CorrectEight-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "4c9a97b35752fdd43b62f5abbef58ea692655ead989dd6d0a83d8e9465e504a3",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/CorrectEight-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "5728276b58b6148caba587090eeaf1fe2715e3f2ac2f8262daf97c869355682c",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/CorrectEight-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "69e011292c819f20eedbee5c4d193d20eb191f6e10272c0670c6272bb3064478",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/CorrectEight-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "f3b05f16a743d8f5dd13504e8ef85e0f10c4d69de2d247d2129c2a4e9344366f",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/CorrectEight0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "5dd1bcc6bd92c4d692977175316a7f468999e3aa6d4ed2f117742f9213da956b",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/environment.json",
+      "role": "evaluation_run_record",
+      "sha256": "df66e1096c7d438501d116bd76782cc33d847ba771ec748fde2b23e42eb75f77",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/maple.log",
+      "role": "evaluation_run_record",
+      "sha256": "e67a564c9a63c66fc9d2475ab8605e05dbcdbb77eee73e16f8c02da5ccc0e575",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget13q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "a188d1c89405f349820faa869280a2cdadac4d24728e122d93a1412996e1b588",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget13q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "7c03f1ebb362f3e0ff257f3d1d27348e503813dc13babbacde61fcad94a47b9e",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget13q-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "ecf6fd7379d5c9010da3ec7918153d8435b1066a1560147533042839a94cc9e2",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget13q-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "c1f92c3f53527fdce9db605798ca0e5c0372aa3e2c936114ea295c77c184646f",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget13q-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "a1d1d18b8d69107ec1de28991979de96b6c9854a1d557869c34eb87ca31898bd",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget13q-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "da4e808612cba06bde1e5d38b89b462e893be9cb9ea33836fea3775facc3d982",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget13q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "3462f3c5ebb7f5bed7c709683de3716b220c8e7a25a95d26d6d6664ae6cb5938",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget14q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "d963f66727293d7b1175e053c7ecbd602ef873ed415f328350ea05e94ba0a7fc",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget14q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "d87c9d89a94d045f993fa1fe8f8e2ff423bed7b1fdb03efd735dfeb51737f9e3",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget14q-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "1f7ffd9f060b4c4880d413986023cdd7d98d9d2f4e3d2833cf2693ec8da7ab30",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget14q-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "e4df288e6229fb16499a0e71a233ee8666bed4fd12883d2f5f33bf1b2c14df4a",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget14q-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "bace394d65450d82dc87b2da81643298c9b241e7328595ac4336cea8b5013186",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget14q-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "96cf8e0aa3abebfb9b019e83472037d4d6d952ce96a49b50c899956ede952a6c",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget14q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "efb7d665f610019392990f435f9a360f228f58ed39b0c53cc4786ef04573dd0e",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget15q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "7eaea8a6d8112c0aa18cfa51d9850e2f2eec679b049fd653fc7c9aaa9856eb78",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget15q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "584acdf98249e874a40c15b7abd40543d7fec5e8fe13d5c6631791700d420caf",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget15q-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "d7bb13ff581833e97fc5e339905741dca01f36d215a6941b08474607421e164c",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget15q-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "9864b5f8886e0b2ba4958a77ce87b407416e21330128681826207dc1a50efc2f",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget15q-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "a5a8b5e40df4b92e57516dbda7ea5742a57fde50286d2dd1a6fdb85bbeaa4ca5",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget15q-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "c297b7e0ed76ca3c5b847ebc5fcfd0f3ddfb2895be7255eae42ec9bc311257aa",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget15q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "61308c3bc14d8301d1ad550b3c933dbbfe3ed97a64dc3365d6f038aa158c7a0c",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget40q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "957f9285ff5b2afbdcd0910380c55728152cfbbaf3591d0e75b0c662e0c2953b",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget40q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "7512afe94e3ac0dd0baa74618b72c9b66f8ab627b955e85f7311075634949870",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget40q-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "238faca3d8b12dd6c8a2cbbb18e28939aa0c6ed592d10191007cdd67cf66799f",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget40q-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "843a120a8d38980ec181b08335d1cdb1d3d676034dba4ed955475611979ef053",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget40q-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "3553140389535bf215950baaed2c6aa946dde5b52e713751638b500942665392",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget40q-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "8293944cd50a4bcbcf25044a6269457e839c6f5a03b5ae5ed6a7e3d39764f5e8",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudget40q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "09816058e39678260c4e389a3ee7ffda1a71addca495bae0ebf49431cf550280",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudgetEight-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "1307409985509a1b8246d454a416d7fbb6e734a49ab6de1790aba4329c648ec8",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudgetEight-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "bec0a72871f1a6b538ec6d6cb349e0108584e26637d19f7eb5fecfd766b56562",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudgetEight-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "24014db0d63f02056a28350fcd74f2f12ac2246c7735b0e6bd20ede47c92b227",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudgetEight-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "c845862b3767cd203aefdde01c50a3184c64428a7e0182c7e10b947016daf2a1",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudgetEight-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "ab6b5b62dee8ff0533a99cc9a220d2b00c14a0f938aec46d084bb8b4249a5d40",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudgetEight-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "7f54935decf3be7cfbb235d64ba70787c0bd7da20daea11e6d87d0a3a3d4ccee",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/OldBudgetEight0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "c3dc3600a25d0d77d913d03ebdbcdc5fd42525a96461e28c06d92ffb317f28a4",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/parent-probe-paths.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "64c1acb9b857e0e2e65b8f93acc78571d95afa9f98702a498b6e03344347db99",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/process.json",
+      "role": "evaluation_run_record",
+      "sha256": "b7bddcddbf9c7da652d9ab39678269327e3aa96b5b3b212d3e0b344200db731f",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/t3-paths.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "4d3e2d40b287feb5abfed8bed9853edffdd7e497e2fe2d1616ca4813c95ea805",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/t4-adj-paths.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "c0e5bb072a2c5e0d86ec7abb9945ca75f34fb1ac68fbf83a07b703fbcd3b06cd",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/t4-budget-inputs.mpl",
+      "role": "assembly_code",
+      "sha256": "0de72da43c4824aa87cb4395ff620ae256aa0bce30de7473d2201385f0911d3a",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status. This convolves already evaluated mothers rather than integrating a new original kernel. This is the corrected r002 absolute-power budget/convolution stage; its historical writer still needs a NEW-directory activity wrapper."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/t4-budget.mpl",
+      "role": "assembly_code",
+      "sha256": "85b0a8583affb68be7cad442a6b7278858a5f34beffe9a9d212ffc02535d2fe4",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status. This convolves already evaluated mothers rather than integrating a new original kernel. This is the corrected r002 absolute-power budget/convolution stage; its historical writer still needs a NEW-directory activity wrapper."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/t4-final-inputs.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "721ea6dfb338a9f1995800360a2606210b0bfc702eec5298392e21ed9c1ce6ce",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/t4-geometry.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "532d70bb8fb4b2b7fc270bd09ccea226cf8253bb578cce9d440e70c9873ee3a9",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/t4-lower.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "4459bfef3bd5a8cbd939a50c68003fe73897e0be95c15613dc871f921d89113b",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/t4-opp-paths.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "1c244e3f9ae357bab45d2ac40bfcebdf1f93108501bbed3f8473c89880ecce37",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/t4-paths.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "44c56f7e92988da1a754928f2da78d24210eeeb4b216747b8c68211f50963d5a",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget/t4-resume-paths.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "5f6e7e4dd803221021de39851a22e29387e08f573e5a6c4ae03cb8594160709c",
+      "scope": "saved run workflow/checks/recursion-5e-remainder/evidence/runs/20261008T134122677431Z-t4-budget",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/assemble_13_14_15_40.mpl",
+      "role": "assembly_code",
+      "sha256": "3670967f464a8a4ff74cf7c67624f40affd7c4e93e92906d7631a2c410b2f103",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status. This convolves already evaluated mothers rather than integrating a new original kernel. This old T4[] assembly precedes the r002 budget correction and must not be replayed as current production."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/environment.json",
+      "role": "evaluation_run_record",
+      "sha256": "6fd36d0e1ac5abba48da043973f8b960ef40ab8beb462081c7474fcdbc409db5",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/exit.json",
+      "role": "evaluation_run_record",
+      "sha256": "cb8604f8985c6d01e8bdcf17c3ee5cfb277d7411c34287c4660009e2778298b1",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I13q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "2a952d2fe54a9021ba95a0f1a8c75aa61a703160218f9d4a02f49c509b763243",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I13q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "5da60048f3541eecd7504a765f0d8c4246a19409a46be17ac1289211a26c6282",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I13q-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "6a9e05438f942fb97258e74eaa6b1393c88b99946f91aa535be72eddfed2714e",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I13q-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "6f644c256afd824610147dfd33a5c880e28aa90d4f63b9ec116b70b710250dd6",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I13q-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "2453eac28c9a5f92b21c07501d870a54b43dab9edb5e5fbb55ca25d7c9fbaf10",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I13q-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "7585cc75d5f8e72613034ce9690ff4250d89a9a0252438c89948c449d2834f47",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I13q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "6f8727b61d1837b80f3eedeb9c7177b9d8f883b6175d714d0640f9c4aa8b0efe",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I14q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "1c667b8bdc7dc996a0511fd43c401600de35d5be3537de37386c76d4dbc6b3e0",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I14q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "4bd74c631e9602af4f0cd3ee01cb89f749d06b8ceb106fb389ff0995c9d35827",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I14q-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "7208d31ca93f5d0cc14976d88774a6bebfebd97e04e2ed661d95158085ea4689",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I14q-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "7b97b9b2d1bfdd69faa2899a2b5c55d82cf8f8343f0ab37d0a1223bed0b0395b",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I14q-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "458021ada7c181874edd25d10a28536d1b4393a188801ccd4b44ee6b1132c064",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I14q-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "32c307555e36eb4d8f31f28f716a5a1a3e74a1421fc09982022321097a8f1707",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I14q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "e0475a653c96e21be7f99dd6fe616d6d962607bc301ffa89d681d28b420e7f93",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I15q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "3e458be86f2d1a3860a0e585cfb18eb650c81e41739afa556944d6ff66120aa8",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I15q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "52bf575e76bfbe503e26884ad747ecb7811b29eaaf9273a386645fadf076da02",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I15q-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "f8071d6e3577b155de7d36e12c5faa710c823af8631e242f170bdb4a762119dc",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I15q-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "dc9832269312bdfc1d12bbe4b3814fbf7b87a213e80191d1aa81125c0e9c77b3",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I15q-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "a20eadaebd9d8de2a805ee680d3677cc8aad61a9be72206313a1dfa56eeb669b",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I15q-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "71588477fb3507271156ef50b17b3c4340abf24e182c3371473916d6077599d2",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I15q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "8608c1a04da55ace105f19b716e25e0248df12d6ea4ada44836c65388afb5637",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I40q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "2774b3f7be15e48fc0204794011b318d2526f9ca3d817db861c3ab7c92679fe7",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I40q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "60d2954210907e4e9c28159430217064708924fc9a3cf6fbb01f2722038127f0",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I40q-3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "ea8b13e72c69d2543ea1d528ae18643822afda752d36b4abde58547f076617ca",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I40q-4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "1243998e7e1b3902375f776de7e5c4d802d9bdf4ee5114441c15fca8ca3c0879",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I40q-5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "bd72ca48759c56425faa032c400971ec34422bb5716dcc3ffbd98dd6d304b831",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I40q-6.txt",
+      "role": "original_evaluation_output",
+      "sha256": "984947af3b74db3e922e62894b7de7669eb72419c02d327aec8f50a7abfea074",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/I40q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "d5cea083b3a1983cc3646884421ed1b149ed1bdd3f92e85247d25da69ad350bb",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/maple.log",
+      "role": "evaluation_run_record",
+      "sha256": "44ae8ac404f93616dd86a58d60dd902e3afa02e9cffe545fc907d1015bfbc337",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/process.json",
+      "role": "evaluation_run_record",
+      "sha256": "569a3664ea32635709c2a982b0866135a2efed5eab9200bc9b2b9efe079e2da1",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q13q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "5d6201e31d5dcc386bc7c26984355174e31c852afd909eb9585103ea31ff71ff",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q13q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "2b5bb969cbf1e4e09e889db3b95916f8104eee473c12a6d418595148ff5be713",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q13q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "88e0160fb10e6b5b2673616a09c8e875dc28180fd6901f5c8707f916c965c9b0",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q13q1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "aec9d81d8d50109696318e7b82ed6297e03531dfb62a53cc4ca47f7fbeaba4af",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q13q2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "c6821b8a920b6fecfc5171019d2ed0498f11b611ee33a924a466bbd95ed346bc",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q14q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "a0bd4e764a78a5cdbb74d70375428be6f88ec162a6f50a733f9c4ad571143ccb",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q14q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "f87e69e37dab14fb9ee1e898c7698c0163868951ab453d486c7ef0acaa3d319f",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q14q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "f13ea36c129053ad638b9f1032f49591511d105a7bd797a6ca445d97aebdb3eb",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q14q1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "0de35fbb163b82d9681ae1a6d9168b70b78e480edb8a88a6c17ab4e2fdca22f9",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q14q2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "216b04caa800ce91947d9acfaed3521f737010966cf47a75858f457435f10b82",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q15q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "27ab9814908a5209c4e2c036686dc3117e2407d3e0b8b0035c491c89c546a2ad",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q15q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "ef3677ee08d9787df2410b9ba1d2480246a13c20fd6dbc10b1089b3184ce626d",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q15q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "93475a80ed89a25f903ed8464d161b81f0aed6ecbf489b790d912d802ca4ef10",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q15q1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "bcc698f8a2ea3c121a8fbe17ff88a54bac1735111cd7e1956a0eae7cc5297ba8",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q15q2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "c5ae7578621051d48154e0cc84115d3b2de2eb2ffaaef2018cd723737b81dd4b",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q40q-1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "46463892e9aaa95725162c339b532c81064ebfb6fff5893b18823cbf62b951e6",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q40q-2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "ca162242f40fa01b823190bf5faadbdeb0e54e2c63af1f925c562ba5d5285d23",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q40q0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "9c78502f87d9e3d4540c1ba004b44dd1ea8bd511459e6f976e2a3c6d3cf4b39f",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q40q1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "7c62c25166351f9cd1dc15dc2407549bb780b120ce4ffe71330403899a24a2ff",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/Q40q2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "b39d8762bce7b5c4c3e4e29ffe99ca38b0d6985645d91a587160f31aa36f3ea7",
+      "scope": "saved run workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "benchmarks/tgv/families/t4-empty/method.md",
+      "role": "derivation",
+      "sha256": "c9ed010301a6d762c9bfa12d4c41b9471b35e341f6c860731617299c809f8f47",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Continuous family derivation/results; historical statements retain their dated scope."
+    },
+    {
+      "path": "benchmarks/tgv/families/t4-empty/solutions.md",
+      "role": "derivation",
+      "sha256": "f487405243cbd09ed4389005718fdcd7a7cdcb187eb752c38c34e022181d921f",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Continuous family derivation/results; historical statements retain their dated scope."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/assemble.py",
+      "role": "assembly_code",
+      "sha256": "ba6c37db901bf5872fbb1c2db60e2f19e26c3e020b250a567b34d75cf04c6744",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical coefficient assembler. T4[] old Laurent truncation is superseded for six current r002 records; do not run as current production."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/assemble_13_14_15_40.mpl",
+      "role": "assembly_code",
+      "sha256": "3670967f464a8a4ff74cf7c67624f40affd7c4e93e92906d7631a2c410b2f103",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical coefficient assembler. T4[] old Laurent truncation is superseded for six current r002 records; do not run as current production."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/assemble_40.mpl",
+      "role": "assembly_code",
+      "sha256": "451b5b89d215620e727e8bdbf312db6d75c8788c05387725320ff3a7780376c2",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical coefficient assembler. T4[] old Laurent truncation is superseded for six current r002 records; do not run as current production."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/assemble_partial_13_14_15.mpl",
+      "role": "assembly_code",
+      "sha256": "e095e628b027e92e960e48e27c3f8313ba04054cca6b26d858cf23de815ac65a",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical coefficient assembler. T4[] old Laurent truncation is superseded for six current r002 records; do not run as current production."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/check_math.py",
+      "role": "verification_code",
+      "sha256": "d6e6ae845ce8f1df208eee37afed7fc288e0bc8da9a65faee6a96c69aba39e61",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical checker: reads saved values or compares candidate/source; not the original integration."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/check_numeric.py",
+      "role": "verification_code",
+      "sha256": "d683e5ea73d95fa6d022475ed3f5fca6210109a41f924bf7f8a5ebcbc04f94f2",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical checker: reads saved values or compares candidate/source; not the original integration."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/check_regularizer_numeric.py",
+      "role": "verification_code",
+      "sha256": "b9b10763692f803ca6bb6bb6a54f544a05f393b94d84d991498ed1a9ba42f6ef",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical checker: reads saved values or compares candidate/source; not the original integration."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/deriv_alt.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "1db9658c2bf106b43450ce42ff596204e0a4dd2d36b0621cd94df646cdbd0f16",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/derivatives.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "eeeb1828dde35a18b730d9585ba3ee0b5adcc49105459fcf5e8209e8c1def8c0",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/easy.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "941ae8b999064afea3302cac6f05fba91a051b937efc5aedfcf3a403988e8ca0",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/export_regularizer.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "3288842a896959c3cf5708cacaef19a1781483316f2aee9f8cac9f92aca241cd",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/formulas.py",
+      "role": "assembly_code",
+      "sha256": "2a578702d88fa0df84e6e50952ac06fe01b32d8d921096d46843e6e3744a8de0",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Analytical formulas/epsilon-series assembly using evaluated mothers; not an independent new high-dimensional integration."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/full_series.py",
+      "role": "assembly_code",
+      "sha256": "89178fdad246e73ec9326f4a90d614ffa2fc6b6bdae93f3d2d0b0c24743a2565",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Analytical formulas/epsilon-series assembly using evaluated mothers; not an independent new high-dimensional integration."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/hard.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "e551d5e63263eac17a0b7e1054b898690f9c817b72ecc42785bb596a3bd8b289",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/math-checks.json",
+      "role": "verification_record",
+      "sha256": "9fe495c3d1ba4604236fcfa6012a5a5cc23e111bb9cb7fb8f441d61790993d3b",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Existing frozen checks; P0 only hashes and indexes them."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/numeric.json",
+      "role": "verification_record",
+      "sha256": "585c8531b9e2bb49d5c765e9484ef26e6e4cfa2d94c7965e69186b16a874e235",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Existing frozen checks; P0 only hashes and indexes them."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/README.md",
+      "role": "evaluation_run_record",
+      "sha256": "55a66c79e4d0197ad45ee59fa10ab4bc068c41fd2a8839e08de908d6807275eb",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Original computation, failures and limitations guide."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/recoil.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "a8ae27e40fef792eef9aed98fcfc36be839d9301be540aec6801c97624c5ab26",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/regularizer_points.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "87138f6ec920d5f0a5502f11d2a3678c3a0a72cfe75dc906664a2e62d3b72bf8",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/reuse.json",
+      "role": "verification_record",
+      "sha256": "6b553e44b06591d117ef757fbc05e0a508086cb6cfae9c243e3fd669fa0cb009",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Existing frozen checks; P0 only hashes and indexes them."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/scan.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "05db7c1bab652ad690b3468963c0ecfaa4d061e609feca6c9434070684d14944",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/series-checks.json",
+      "role": "verification_record",
+      "sha256": "50a683377d8d166da2689a12aa639cafc8ff6280901cd26d2368f38d6d354c88",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Existing frozen checks; P0 only hashes and indexes them."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/tw.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "734cb1b756cdf79edc238571d489d17676ef7b9a54ffa6aaf9e32cdcad1f21fb",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/tw_14.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "7b87e9de2779ff1333323621cb974af0a8a19afd10aa8fd0c970f4894b2894b8",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/tw_15.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "979826ae6ceba9e2fa108678129dd134b13096afbb33dd172e4e58955d183077",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/tw_vfirst.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "f06f6f2470594b57bce8cda5e57c785e97955477812336f8357f4cc0534f3e6e",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/tw_words.mpl",
+      "role": "representation_code",
+      "sha256": "2a181fce583d708fb5b1088f5fc3cbb3caa2705313dfe9de39c7b70c1530073a",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Representation/basis or numerical HLOG operation; not a replacement for original-kernel integration."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/verification.json",
+      "role": "verification_record",
+      "sha256": "c67e99901c7a34c861141add83ae68501eeb4aeca914d46e96a0465f3617ce2f",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Existing frozen checks; P0 only hashes and indexes them."
+    },
+    {
+      "path": "workflow/checks/tgv-t4-empty/verify_results.py",
+      "role": "verification_code",
+      "sha256": "6540a1472e2cb1928125fc721d3ad86575f26ca27d5a1684dd97070edd07d1d6",
+      "scope": "5e mathematical evaluation family t4-empty",
+      "inspection_note": "Historical checker: reads saved values or compares candidate/source; not the original integration."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/README.md",
+      "role": "evaluation_run_record",
+      "sha256": "f6bf411d5f220da6bb528777d95dd62ff68e26ce3cb41a1cc1745085b948f89e",
+      "scope": "r002 T4[] correction and independently evaluated effective sum",
+      "inspection_note": "Exact absolute-power convolution corrected old Maple truncation. Effective sum verification does not independently fix each cancelling single-orbit direction."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/evidence-index.json",
+      "role": "verification_record",
+      "sha256": "937de5cbee702e1681e7de2195c8f6a4c872f9ebb5142b3d53493cf962463084",
+      "scope": "r002 T4[] correction and independently evaluated effective sum",
+      "inspection_note": "Exact absolute-power convolution corrected old Maple truncation. Effective sum verification does not independently fix each cancelling single-orbit direction."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/budget-diagnosis.json",
+      "role": "verification_record",
+      "sha256": "2508aa36d3b0a91bb9c63c30107a92852336ea82213dcd2ea171650ee363e391",
+      "scope": "r002 T4[] correction and independently evaluated effective sum",
+      "inspection_note": "Exact absolute-power convolution corrected old Maple truncation. Effective sum verification does not independently fix each cancelling single-orbit direction."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/construction.json",
+      "role": "verification_record",
+      "sha256": "89085496284b8d1e7564c6f370c951c24f0ddf5b4ceac3cca2c4561f23aecdba",
+      "scope": "r002 T4[] correction and independently evaluated effective sum",
+      "inspection_note": "Exact absolute-power convolution corrected old Maple truncation. Effective sum verification does not independently fix each cancelling single-orbit direction."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/global-comparison.json",
+      "role": "verification_record",
+      "sha256": "ff7c23151575bc31308f518243971c41d024a4c985e898abdee682c0d4e9d125",
+      "scope": "r002 T4[] correction and independently evaluated effective sum",
+      "inspection_note": "Exact absolute-power convolution corrected old Maple truncation. Effective sum verification does not independently fix each cancelling single-orbit direction."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/verification.json",
+      "role": "verification_record",
+      "sha256": "20153416c639ac03f22eb60af49fde5ee4c2325426e24402dca272d4cb58ed47",
+      "scope": "r002 T4[] correction and independently evaluated effective sum",
+      "inspection_note": "Exact absolute-power convolution corrected old Maple truncation. Effective sum verification does not independently fix each cancelling single-orbit direction."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/t4-budget.mpl",
+      "role": "assembly_code",
+      "sha256": "85b0a8583affb68be7cad442a6b7278858a5f34beffe9a9d212ffc02535d2fe4",
+      "scope": "r002 T4[] correction and independently evaluated effective sum",
+      "inspection_note": "Exact absolute-power convolution corrected old Maple truncation. Effective sum verification does not independently fix each cancelling single-orbit direction."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/t4-final.mpl",
+      "role": "assembly_code",
+      "sha256": "625754a9f702be17096175944d3aef80d4ee144204741736e090510989b969d3",
+      "scope": "r002 T4[] correction and independently evaluated effective sum",
+      "inspection_note": "Exact absolute-power convolution corrected old Maple truncation. Effective sum verification does not independently fix each cancelling single-orbit direction."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/t4-parent.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "e9c733a740d49654c58bfbe2fc0bc8accde6d49d432896c68823ee426530cd87",
+      "scope": "r002 T4[] correction and independently evaluated effective sum",
+      "inspection_note": "Exact absolute-power convolution corrected old Maple truncation. Effective sum verification does not independently fix each cancelling single-orbit direction."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/t4-recoil.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "69d28619e5e76ae214f48c46fb7bbecb9e3b6ec4d0afccc19ac3b3ed67e5a036",
+      "scope": "r002 T4[] correction and independently evaluated effective sum",
+      "inspection_note": "Exact absolute-power convolution corrected old Maple truncation. Effective sum verification does not independently fix each cancelling single-orbit direction."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/check_budget.py",
+      "role": "verification_code",
+      "sha256": "7cdaead37fd14166a603dd0c4292c38f1e95cd34d7b4c5380ef385ccc6d4077a",
+      "scope": "r002 T4[] correction and independently evaluated effective sum",
+      "inspection_note": "Exact absolute-power convolution corrected old Maple truncation. Effective sum verification does not independently fix each cancelling single-orbit direction."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/assemble_global.py",
+      "role": "assembly_code",
+      "sha256": "e3d2f1dd679ac70498b6b0d88d73274b5bbda395abaa2293ed9a6ec4f561ead4",
+      "scope": "r002 T4[] correction and independently evaluated effective sum",
+      "inspection_note": "Exact absolute-power convolution corrected old Maple truncation. Effective sum verification does not independently fix each cancelling single-orbit direction."
+    },
+    {
+      "path": "workflow/checks/recursion-5e-remainder/verify.py",
+      "role": "verification_code",
+      "sha256": "6d75fba39a6cec9d1c0c6f91766560f62f340d3e6e1ed0e61c04779386a4699c",
+      "scope": "r002 T4[] correction and independently evaluated effective sum",
+      "inspection_note": "Exact absolute-power convolution corrected old Maple truncation. Effective sum verification does not independently fix each cancelling single-orbit direction."
+    }
+  ],
+  "state_note": "Historical per-orbit IBP notes may stop at uncomputed; actual completed family derivations and selected exact revision determine mathematical scope."
+}

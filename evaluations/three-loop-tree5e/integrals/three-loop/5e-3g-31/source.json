@@ -1,0 +1,533 @@
+{
+  "orbit_id": "5e-3g-31",
+  "graph": {
+    "orbit_id": "5e-3g-31",
+    "emission_type": "5e-3g",
+    "sector": "dg",
+    "nloops": 3,
+    "vertices": [
+      {
+        "line": 2,
+        "lorentz": "mu1",
+        "color": "a1"
+      },
+      {
+        "line": 2,
+        "lorentz": "mu2",
+        "color": "a2"
+      },
+      {
+        "line": 3,
+        "lorentz": "mu3",
+        "color": "a3"
+      },
+      {
+        "line": 3,
+        "lorentz": "mu4",
+        "color": "a4"
+      },
+      {
+        "line": 4,
+        "lorentz": "mu5",
+        "color": "a5"
+      }
+    ],
+    "propagators": [
+      {
+        "loop": "l1",
+        "lorentz": [
+          "mu3",
+          "mu5"
+        ],
+        "color": [
+          "a3",
+          "a5"
+        ]
+      },
+      {
+        "loop": "l2",
+        "lorentz": [
+          "mu1",
+          "nu2"
+        ],
+        "color": [
+          "a1",
+          "b2"
+        ]
+      },
+      {
+        "loop": "l3",
+        "lorentz": [
+          "mu2",
+          "nu3"
+        ],
+        "color": [
+          "a2",
+          "b3"
+        ]
+      },
+      {
+        "loop": "l4",
+        "lorentz": [
+          "mu4",
+          "nu4"
+        ],
+        "color": [
+          "a4",
+          "b4"
+        ]
+      }
+    ],
+    "internal_vertices": [
+      {
+        "type": "tgv",
+        "id": "v1",
+        "loops": [
+          "l2",
+          "l3",
+          "l4"
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "loop": "l1",
+        "expression": "(1-s31)*v3 + s41*v4"
+      },
+      {
+        "loop": "l2",
+        "expression": "-(v1 + s21*v2)"
+      },
+      {
+        "loop": "l3",
+        "expression": "-(v1 + s22*v2)"
+      },
+      {
+        "loop": "l4",
+        "expression": "-(v1 + v2 + s32*v3)"
+      }
+    ],
+    "bounds": [
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "s32"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s21",
+        "low": "0",
+        "high": "s22"
+      },
+      {
+        "var": "s22",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s32",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "physical_convention": {
+      "id": "wilson-qcd-action-path-fourier/1.0",
+      "wilson_transport": "U'=ig*A*U",
+      "wilson_word": [
+        "a5",
+        "a4",
+        "a3",
+        "a2",
+        "a1"
+      ],
+      "chronological_word": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5"
+      ],
+      "vertex_labels_unchanged": true,
+      "momentum_Fourier": "exp(-ipX)",
+      "momentum_Wick": "I",
+      "coordinate_Wick": "-I",
+      "one_pi_includes_internal_loop_signs": true,
+      "Dyson_external_coefficient": 1,
+      "raw_Euler_count": 0
+    }
+  },
+  "native_C": {
+    "components": {
+      "color": "I/4*CF",
+      "coupling": "(4*Pi*alphaS)^3",
+      "ft_prefactor": "Gamma[1-eps]^1*Gamma[1-2*eps]/((4*Pi^(2-eps))^1*64*Pi^(4-2*eps))",
+      "derivative": "2*(1-2*eps)",
+      "v14_scale": "(-2*v14+I0)^(3*eps)",
+      "i_factor": "I",
+      "twoscale": "(-2)^(-1)",
+      "euler": "exp(-3*EulerGamma*eps)"
+    },
+    "component_semantics": "multiplicative",
+    "factor_order": [
+      "i_factor",
+      "derivative",
+      "color",
+      "coupling",
+      "ft_prefactor",
+      "v14_scale",
+      "twoscale",
+      "euler"
+    ],
+    "phase_provenance": {
+      "wilson_vertices": "I^5",
+      "coordinate_propagators": "(-1)^4",
+      "coordinate_centres": "-I",
+      "momentum_derivative": "-I",
+      "chain_rule": "-1",
+      "product": "I"
+    },
+    "combined": "(I)*(2*(1-2*eps))*(I/4*CF)*((4*Pi*alphaS)^3)*(Gamma[1-eps]^1*Gamma[1-2*eps]/((4*Pi^(2-eps))^1*64*Pi^(4-2*eps)))*((-2*v14+I0)^(3*eps))*((-2)^(-1))*(exp(-3*EulerGamma*eps))"
+  },
+  "native_J": {
+    "pure": {
+      "lorentz_z": "1",
+      "f_product": "f1^(-1+eps)",
+      "f_polynomials": {
+        "f1": "x1 - x1*x3*x5"
+      },
+      "edge_pairs": [
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    "tgv": {
+      "pnum": "-1/4*x3*alpha1*alpha3*z1^2 + 1/4*x3*alpha2*alpha3*z1^2",
+      "alpha_monomial": "(alpha1*alpha2*alpha3)^(-eps)",
+      "S_polynomial": "x3*alpha1*alpha3*z1 + x3*alpha2*alpha3*z1 - x2*x3*alpha2*alpha3*z1 - x2*x3*x4*alpha1*alpha3*z1",
+      "denom_power": "2 - 2*eps"
+    },
+    "integrand": "(1) * (x2*x3) * f1^(-1+eps) * ((alpha1*alpha2*alpha3)^(-eps)) * (-1/4*x3*alpha1*alpha3*z1^2 + 1/4*x3*alpha2*alpha3*z1^2) * (x3*alpha1*alpha3*z1 + x3*alpha2*alpha3*z1 - x2*x3*alpha2*alpha3*z1 - x2*x3*x4*alpha1*alpha3*z1)^(-(2 - 2*eps))",
+    "variables": [
+      "x1",
+      "x2",
+      "x3",
+      "x4",
+      "x5"
+    ],
+    "alpha_vars": [
+      "alpha1",
+      "alpha2",
+      "alpha3"
+    ],
+    "bounds": {
+      "x1": [
+        0,
+        1
+      ],
+      "x2": [
+        0,
+        1
+      ],
+      "x3": [
+        0,
+        1
+      ],
+      "x4": [
+        0,
+        1
+      ],
+      "x5": [
+        0,
+        1
+      ]
+    },
+    "delta_constraints": {
+      "alpha1+alpha2+alpha3": "1"
+    },
+    "alpha_measure": {
+      "kind": "simplex",
+      "variables": [
+        "alpha1",
+        "alpha2",
+        "alpha3"
+      ],
+      "constraint": "alpha1+alpha2+alpha3=1",
+      "independent_variables": [
+        "alpha1",
+        "alpha2"
+      ],
+      "substitution": {
+        "alpha3": "1-alpha1-alpha2"
+      },
+      "bounds": {
+        "alpha1": [
+          "0",
+          "1"
+        ],
+        "alpha2": [
+          "0",
+          "1-alpha1"
+        ]
+      },
+      "iterated_order_outer_to_inner": [
+        "alpha1",
+        "alpha2"
+      ],
+      "jacobian": "1"
+    }
+  },
+  "original_ordered_J": {
+    "integrand": "(1) * f1^(-1+eps) * ((alpha1*alpha2*alpha3)^(-eps)) * (1/4*(alpha2*alpha3*(z1*(s42*z1) + -z1*(-s42*z1) + -z1*(s42*z1)) + alpha1*alpha3*(z1*(s42*z1) + z1*(-s42*z1) + -z1*(s42*z1)))) * (alpha2*alpha3*((1-s32)*s42*z1) + alpha3*alpha1*((1-s31)*s42*z1))^(-(2 - 2*eps))",
+    "variables": [
+      "s41",
+      "s11",
+      "s31",
+      "s32",
+      "s42"
+    ],
+    "alpha_vars": [
+      "alpha1",
+      "alpha2",
+      "alpha3"
+    ],
+    "bounds": {
+      "s41": [
+        "0",
+        "s42"
+      ],
+      "s11": [
+        "0",
+        "1"
+      ],
+      "s31": [
+        "0",
+        "s32"
+      ],
+      "s32": [
+        "0",
+        "1"
+      ],
+      "s42": [
+        "0",
+        "1"
+      ]
+    },
+    "delta_constraints": {
+      "alpha1+alpha2+alpha3": "1"
+    },
+    "f_polynomials": {
+      "f1": "(1-s41)*s11*1"
+    },
+    "pure": {
+      "lorentz_z": "1",
+      "f_product": "f1^(-1+eps)",
+      "f_polynomials": {
+        "f1": "(1-s41)*s11*1"
+      }
+    },
+    "tgv": {
+      "pnum": "1/4*(alpha2*alpha3*(z1*(s42*z1) + -z1*(-s42*z1) + -z1*(s42*z1)) + alpha1*alpha3*(z1*(s42*z1) + z1*(-s42*z1) + -z1*(s42*z1)))",
+      "S_polynomial": "alpha2*alpha3*((1-s32)*s42*z1) + alpha3*alpha1*((1-s31)*s42*z1)",
+      "alpha_monomial": "(alpha1*alpha2*alpha3)^(-eps)",
+      "denom_power": "2-2*eps"
+    },
+    "edge_pairs": [
+      [
+        4,
+        1
+      ]
+    ],
+    "alpha_measure": {
+      "kind": "simplex",
+      "variables": [
+        "alpha1",
+        "alpha2",
+        "alpha3"
+      ],
+      "constraint": "alpha1+alpha2+alpha3=1",
+      "independent_variables": [
+        "alpha1",
+        "alpha2"
+      ],
+      "substitution": {
+        "alpha3": "1-alpha1-alpha2"
+      },
+      "bounds": {
+        "alpha1": [
+          "0",
+          "1"
+        ],
+        "alpha2": [
+          "0",
+          "1-alpha1"
+        ]
+      },
+      "iterated_order_outer_to_inner": [
+        "alpha1",
+        "alpha2"
+      ],
+      "jacobian": "1"
+    },
+    "iterated_order_outer_to_inner": [
+      "s42",
+      "s41",
+      "s11",
+      "s32",
+      "s31"
+    ]
+  },
+  "normalization": {
+    "stage": "raw_montopar",
+    "euler_compensation_count": 1,
+    "assembly_sign": 1,
+    "scheme": "native-physical-CJ",
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+  },
+  "coordinate_mapping": {
+    "s_to_x": {
+      "s11": "x1",
+      "s32": "x2",
+      "s42": "x3",
+      "s31": "x2*x4",
+      "s41": "x3*x5"
+    },
+    "jacobian": "x2*x3"
+  },
+  "source_topology": {
+    "vertices": [
+      {
+        "line": 2,
+        "lorentz": "mu1",
+        "color": "a1"
+      },
+      {
+        "line": 2,
+        "lorentz": "mu2",
+        "color": "a2"
+      },
+      {
+        "line": 3,
+        "lorentz": "mu3",
+        "color": "a3"
+      },
+      {
+        "line": 3,
+        "lorentz": "mu4",
+        "color": "a4"
+      },
+      {
+        "line": 4,
+        "lorentz": "mu5",
+        "color": "a5"
+      }
+    ],
+    "propagators": [
+      {
+        "loop": "l1",
+        "lorentz": [
+          "mu3",
+          "mu5"
+        ],
+        "color": [
+          "a3",
+          "a5"
+        ]
+      },
+      {
+        "loop": "l2",
+        "lorentz": [
+          "mu1",
+          "nu2"
+        ],
+        "color": [
+          "a1",
+          "b2"
+        ]
+      },
+      {
+        "loop": "l3",
+        "lorentz": [
+          "mu2",
+          "nu3"
+        ],
+        "color": [
+          "a2",
+          "b3"
+        ]
+      },
+      {
+        "loop": "l4",
+        "lorentz": [
+          "mu4",
+          "nu4"
+        ],
+        "color": [
+          "a4",
+          "b4"
+        ]
+      }
+    ],
+    "internal_vertices": [
+      {
+        "type": "tgv",
+        "id": "v1",
+        "loops": [
+          "l2",
+          "l3",
+          "l4"
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "loop": "l1",
+        "expression": "(1-s31)*v3 + s41*v4"
+      },
+      {
+        "loop": "l2",
+        "expression": "-(v1 + s21*v2)"
+      },
+      {
+        "loop": "l3",
+        "expression": "-(v1 + s22*v2)"
+      },
+      {
+        "loop": "l4",
+        "expression": "-(v1 + v2 + s32*v3)"
+      }
+    ],
+    "bounds": [
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "s32"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s21",
+        "low": "0",
+        "high": "s22"
+      },
+      {
+        "var": "s22",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s32",
+        "low": "0",
+        "high": "1"
+      }
+    ]
+  }
+}

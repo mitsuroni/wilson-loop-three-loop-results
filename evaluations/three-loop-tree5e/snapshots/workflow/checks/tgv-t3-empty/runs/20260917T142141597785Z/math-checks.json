@@ -1,0 +1,173 @@
+{
+  "passed": true,
+  "roots": [
+    "09",
+    "10",
+    "26",
+    "30",
+    "38",
+    "39"
+  ],
+  "source_and_C_checks": 6,
+  "reflections": [
+    {
+      "target": "5e-3g-39",
+      "source": "5e-3g-09",
+      "substitution": {
+        "z1": "1/z1",
+        "alpha1": "alpha1",
+        "alpha2": "alpha3",
+        "alpha3": "alpha2",
+        "s11": "1 - s11",
+        "s31": "1 - s33",
+        "s32": "1 - s32",
+        "s33": "1 - s31",
+        "s41": "1 - s21"
+      },
+      "S_ratio": "1/z",
+      "P_ratio": "1/z^2",
+      "pure_f_ratio": "1/z",
+      "pure_lorentz_ratio": "1/z",
+      "J_relation": "J_target(z)=z^(3*eps)*J_source(1/z)",
+      "I_equal": true,
+      "absolute_Jacobians": [
+        1,
+        1
+      ]
+    },
+    {
+      "target": "5e-3g-38",
+      "source": "5e-3g-10",
+      "substitution": {
+        "z1": "1/z1",
+        "alpha1": "alpha1",
+        "alpha2": "alpha3",
+        "alpha3": "alpha2",
+        "s11": "1 - s11",
+        "s31": "1 - s33",
+        "s32": "1 - s32",
+        "s33": "1 - s31",
+        "s41": "1 - s21"
+      },
+      "S_ratio": "1/z",
+      "P_ratio": "1/z^2",
+      "pure_f_ratio": "1/z",
+      "pure_lorentz_ratio": "1/z",
+      "J_relation": "J_target(z)=z^(3*eps)*J_source(1/z)",
+      "I_equal": true,
+      "absolute_Jacobians": [
+        1,
+        1
+      ]
+    },
+    {
+      "target": "5e-3g-30",
+      "source": "5e-3g-26",
+      "substitution": {
+        "z1": "1/z1",
+        "alpha1": "alpha1",
+        "alpha2": "alpha3",
+        "alpha3": "alpha2",
+        "s11": "1 - s12",
+        "s12": "1 - s11",
+        "s21": "1 - s41",
+        "s31": "1 - s32",
+        "s32": "1 - s31"
+      },
+      "S_ratio": "1/z",
+      "P_ratio": "1/z^2",
+      "pure_f_ratio": "1/z",
+      "pure_lorentz_ratio": "1/z",
+      "J_relation": "J_target(z)=z^(3*eps)*J_source(1/z)",
+      "I_equal": true,
+      "absolute_Jacobians": [
+        1,
+        1
+      ]
+    }
+  ],
+  "negative_cases_rejected": [
+    "missing_alpha_swap",
+    "missing_order_reversal",
+    "flipped_P",
+    "doubled_C"
+  ],
+  "alpha_Jacobian": "1-a",
+  "alpha_scale_integral": "1/eps",
+  "ordered_IBP_generator": true,
+  "density_moment_checks": [
+    {
+      "n": 1,
+      "weight": "1",
+      "passed": true
+    },
+    {
+      "n": 1,
+      "weight": "y^eps",
+      "passed": true
+    },
+    {
+      "n": 2,
+      "weight": "1",
+      "passed": true
+    },
+    {
+      "n": 2,
+      "weight": "y^eps",
+      "passed": true
+    },
+    {
+      "n": 3,
+      "weight": "1",
+      "passed": true
+    },
+    {
+      "n": 3,
+      "weight": "y^eps",
+      "passed": true
+    },
+    {
+      "n": 4,
+      "weight": "1",
+      "passed": true
+    },
+    {
+      "n": 4,
+      "weight": "y^eps",
+      "passed": true
+    },
+    {
+      "n": 5,
+      "weight": "1",
+      "passed": true
+    },
+    {
+      "n": 5,
+      "weight": "y^eps",
+      "passed": true
+    },
+    {
+      "n": 6,
+      "weight": "1",
+      "passed": true
+    },
+    {
+      "n": 6,
+      "weight": "y^eps",
+      "passed": true
+    }
+  ],
+  "full_epsilon_pair_equalities": 3,
+  "coefficient_equalities": 21,
+  "leading_coefficient_Q_rank": 3,
+  "10_uniform_weight": true,
+  "pole_orders": {
+    "09": 2,
+    "39": 2,
+    "10": 2,
+    "38": 2,
+    "26": 2,
+    "30": 2
+  },
+  "formal": "not_run"
+}

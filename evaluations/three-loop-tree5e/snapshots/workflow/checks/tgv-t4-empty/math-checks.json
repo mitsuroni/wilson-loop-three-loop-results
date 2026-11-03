@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "roots": [
+    "13",
+    "14",
+    "15",
+    "33",
+    "34",
+    "35",
+    "40",
+    "43"
+  ],
+  "root_hash": "9b6594b75e56704d5d21cffe122578ce30b77c93565ada12df029b10cfb9c1b8",
+  "reflections": [
+    {
+      "target": "5e-3g-35",
+      "source": "5e-3g-13",
+      "substitution": {
+        "z1": "1/z1",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1",
+        "s11": "1 - s32",
+        "s12": "1 - s31",
+        "s21": "1 - s22",
+        "s22": "1 - s21",
+        "s31": "1 - s11"
+      },
+      "S_ratio": "1/z",
+      "P_ratio": "1/z^2",
+      "J_relation": "J_target(z)=z^(3*eps)*J_source(1/z)",
+      "I_equal": true
+    },
+    {
+      "target": "5e-3g-34",
+      "source": "5e-3g-14",
+      "substitution": {
+        "z1": "1/z1",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1",
+        "s11": "1 - s32",
+        "s12": "1 - s31",
+        "s21": "1 - s22",
+        "s22": "1 - s21",
+        "s31": "1 - s11"
+      },
+      "S_ratio": "1/z",
+      "P_ratio": "1/z^2",
+      "J_relation": "J_target(z)=z^(3*eps)*J_source(1/z)",
+      "I_equal": true
+    },
+    {
+      "target": "5e-3g-33",
+      "source": "5e-3g-15",
+      "substitution": {
+        "z1": "1/z1",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1",
+        "s11": "1 - s32",
+        "s12": "1 - s31",
+        "s21": "1 - s22",
+        "s22": "1 - s21",
+        "s31": "1 - s11"
+      },
+      "S_ratio": "1/z",
+      "P_ratio": "1/z^2",
+      "J_relation": "J_target(z)=z^(3*eps)*J_source(1/z)",
+      "I_equal": true
+    },
+    {
+      "target": "5e-3g-43",
+      "source": "5e-3g-40",
+      "substitution": {
+        "z1": "1/z1",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1",
+        "s11": "1 - s31",
+        "s21": "1 - s21",
+        "s31": "1 - s12",
+        "s32": "1 - s11",
+        "s41": "1 - s41"
+      },
+      "S_ratio": "1/z",
+      "P_ratio": "1/z^2",
+      "J_relation": "J_target(z)=z^(3*eps)*J_source(1/z)",
+      "I_equal": true
+    }
+  ],
+  "negative_examples": [
+    "missing_alpha_swap",
+    "missing_order_reversal",
+    "wrong_P_sign",
+    "doubled_C"
+  ],
+  "IBP_P_residual": "0",
+  "recoil_nonzero": true,
+  "D_to_F_S": "S_F(z)=z*S_D(1/z)",
+  "D_to_F_P": "P_F(z)=z^2*P_D(1/z)",
+  "formal": "not_run"
+}

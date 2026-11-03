@@ -1,0 +1,36 @@
+{
+  "primitive_inputs": [
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F0.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F1.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F2.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F3.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F4.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F5.txt"
+  ],
+  "epsilon_budget": {
+    "gamma_and_beta_through": 6,
+    "F_through": 5,
+    "Z_through": null,
+    "explicit_denominator_powers": [
+      6,
+      5,
+      4
+    ],
+    "remainder": "O(eps) at fixed z>0"
+  },
+  "full_epsilon_relation": {
+    "equals": "5e-3g-03",
+    "scope": "full physical I from ordered-source reflection; z fixed",
+    "edge_map": {
+      "1": 2,
+      "2": 1,
+      "3": 4,
+      "4": 3
+    },
+    "alpha_map": {
+      "alpha1": "alpha3",
+      "alpha2": "alpha2",
+      "alpha3": "alpha1"
+    }
+  }
+}

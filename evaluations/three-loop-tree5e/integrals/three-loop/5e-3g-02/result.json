@@ -1,0 +1,181 @@
+{
+  "orbit_id": "5e-3g-02",
+  "family": "t1-empty",
+  "quantity": "I",
+  "laurent": {
+    "variable": "eps",
+    "lowest_stored_power": -6,
+    "highest_stored_power": 0,
+    "remainder": "O(eps)",
+    "coefficients": {
+      "-6": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/576"
+          }
+        ]
+      },
+      "-5": {
+        "hlog_terms": []
+      },
+      "-4": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-5/1152"
+          }
+        ]
+      },
+      "-3": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "7/192"
+          }
+        ]
+      },
+      "-2": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-127/2560"
+          }
+        ]
+      },
+      "-1": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "167/320"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-35/384"
+          }
+        ]
+      },
+      "0": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              2,
+              0
+            ],
+            "coefficient": "17/128"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              3,
+              0,
+              0
+            ],
+            "coefficient": "-3581/15360"
+          }
+        ]
+      }
+    }
+  },
+  "hlog_convention": {
+    "endpoint": "z",
+    "kernel": "dt/(t-a)",
+    "alphabet": [
+      0,
+      -1
+    ],
+    "period_generators": [
+      "zeta(2)",
+      "zeta(3)",
+      "zeta(5)"
+    ],
+    "domain": "z>0; real principal logarithms"
+  },
+  "primitive_inputs": [
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F0.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F1.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F2.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F3.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F4.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F5.txt"
+  ],
+  "epsilon_budget": {
+    "gamma_and_beta_through": 6,
+    "F_through": 5,
+    "Z_through": null,
+    "explicit_denominator_powers": [
+      6,
+      5,
+      4
+    ],
+    "remainder": "O(eps) at fixed z>0"
+  },
+  "normalization": {
+    "I_bridge": "(1-2eps)*G/8*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+    "G": "exp(-3*EulerGamma*eps)*Gamma(1-eps)*Gamma(1-2eps)",
+    "c4_orbit_multiplicity": 4,
+    "euler_compensation_count": 1,
+    "native_assembly_sign": 1,
+    "full_color_reduction": "CF = CA^2*CF - 2*CA*CF^2; select a1 after full reduction"
+  },
+  "reassembly": {
+    "method": "exact Gamma/Beta jet and shuffle arithmetic from saved evaluated primitives",
+    "new_cold_integration": false,
+    "formal": "not_run",
+    "final_I_reference_read": false
+  },
+  "generation_binding": {
+    "path": "evidence/generation/generated.json",
+    "sha256": "8c466949db9cb4157d9d0037cfa0e7cbec555129508f9257d3a1309a1f6d4bfa",
+    "field": "/5e-3g-02",
+    "path_base": "packet root"
+  },
+  "verified_function_view": {
+    "source": "references/results/5e-3g-02.json",
+    "use": "postfreeze display only; independently back-substituted",
+    "coefficients": {
+      "-6": "1/576",
+      "-5": "0",
+      "-4": "-5*pi**2/6912",
+      "-3": "7*zeta(3)/192",
+      "-2": "-127*pi**4/92160",
+      "-1": "-(-6012*zeta(5) + 175*pi**2*zeta(3))/11520",
+      "0": "-(-440640*zeta(3)**2 + 3581*pi**6)/3317760"
+    },
+    "basis_definitions": {},
+    "period_definitions": {},
+    "basis_source": null
+  }
+}

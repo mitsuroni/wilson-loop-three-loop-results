@@ -1,0 +1,27 @@
+{
+  "adjacent": "Two original endpoint integrals 1/(3eps), multiplied in prescribed order.",
+  "opposite": "H0(3eps,z) plus complete mixed-derivative boundary (1+z^(3eps))/(6eps(1+2eps)).",
+  "H0_series": "M01+(3eps/2)M11+9eps^2(M21/8+M03/24)+O(eps^3)",
+  "regular_geometry_budget": 3,
+  "operator_multiplier_budget": 3,
+  "Pi2_Gamma_ratio_budget_before_cancellation": 5,
+  "H0_jet_order": 2,
+  "evaluated_M_reuse": [
+    {
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457"
+    },
+    {
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b"
+    },
+    {
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+      "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6"
+    },
+    {
+      "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt",
+      "sha256": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269"
+    }
+  ]
+}

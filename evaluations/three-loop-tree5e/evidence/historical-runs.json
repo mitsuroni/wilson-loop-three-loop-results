@@ -1,0 +1,2230 @@
+{
+  "format": "wilson-P6-historical-run-inventory/1",
+  "created_utc": "2026-11-03T05:14:58.963131+00:00",
+  "formal": "not_run",
+  "scope": "Every snapshotted workflow/checks/tgv-*/runs directory in this packet, plus the directly related archived T4 budget-correction run when present. This is not a claim to inventory every run ever attempted elsewhere in the workspace.",
+  "interpretation": [
+    "Original log and status bytes are hashed, not rewritten. Completion markers refer to their declared stage only.",
+    "Exit code zero, a completion marker, file presence or an archived run directory does not prove the original integral or validate an absolute Laurent order budget.",
+    "Some original attempts explicitly stopped or ended abnormally. Other directories retain failed diagnostics followed by later successful checks. No claim is made that all archived runs succeeded.",
+    "PID/start records do not imply process completion. A missing exit record remains missing.",
+    "Historical error/cause labels are observations. In particular the tw_vfirst cause is not established.",
+    "P6 did not execute any archived writer or rerun these CAS integrations."
+  ],
+  "summary": {
+    "tgv_run_directories": 22,
+    "classification_counts": {
+      "declared_maple_stage_completion_marker_exit_not_archived": 9,
+      "reflection_or_reuse_archive_no_maple_log": 2,
+      "explicit_incomplete_historical_attempt": 2,
+      "declared_maple_stage_completed_with_captured_zero_exit": 9
+    },
+    "directories_with_error_or_failure_logs": 3,
+    "explicit_incomplete_attempts": 2,
+    "related_correction_run_directories": 1,
+    "all_archived_runs_succeeded_claimed": false
+  },
+  "runs": [
+    {
+      "family": "tgv-t1-empty",
+      "run": "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "classification": "declared_maple_stage_completion_marker_exit_not_archived",
+      "maple_log_present": true,
+      "captured_maple_exit_code": null,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/control.log",
+          "sha256": "8e503b957a1ef5eb1e4ba328d610ab0ebb099475b5227d9d126a540ee4f1f89b",
+          "bytes": 557,
+          "completion_markers": [
+            {
+              "line": 10,
+              "marker": "CONTROL_COMPLETE",
+              "text": "CONTROL_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "ALTERNATE_F 4 80-21*zeta[2]*zeta[3]+4*zeta[3]+69*zeta[5]-141/10*zeta[2]^2-36*zeta[2]",
+            "ALTERNATE_F 5 192-40*zeta[2]*zeta[3]+132*zeta[5]-30*zeta[2]^2-181/10*zeta[2]^3+6*zeta[3]^2-80*zeta[2]",
+            "CONTROL_COMPLETE"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/maple.log",
+          "sha256": "01b9d6e16c7ee14819ac1f19bc32d374533edf94fa466d77ef3ef590ff027ba6",
+          "bytes": 898,
+          "completion_markers": [
+            {
+              "line": 15,
+              "marker": "COMPLETE_T1",
+              "text": "COMPLETE_T1"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "Z 3 = 3/5*zeta[2]^2+(12+zeta[3])*zeta[2]-16*zeta[3]-3*zeta[5] ; seconds 1.031",
+            "Z 4 = -17/35*zeta[2]^3+18/5*zeta[2]^2+(32+9*zeta[3])*zeta[2]+zeta[3]^2-44*zeta[3]-27*zeta[5] ; seconds 7.609",
+            "COMPLETE_T1"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/numeric.log",
+          "sha256": "69b9d88be4094308976078526f83d0f8614ab0fdcedd519ae842c2d0f52dbc2b",
+          "bytes": 1164,
+          "completion_markers": [
+            {
+              "line": 14,
+              "marker": "NUMERIC_COMPLETE",
+              "text": "NUMERIC_COMPLETE 74.71723651885986"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "RAW_QMC 18 difference 0.001379758408650733 SE 0.0026981984598839696 passed True",
+            "RAW_QMC 19 difference -0.00016812709099928852 SE 0.00020969532800780544 passed True",
+            "NUMERIC_COMPLETE 74.71723651885986"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/environment.json",
+          "sha256": "e62add9c71d2ed412698fb99e51ced3a1023958ce10578f51dac414db8036ef8",
+          "payload": {
+            "maple": "2025",
+            "hyperint": "C:/Users/Lenovo/Documents/learning/work/hyperint/HyperInt.mpl",
+            "hyperint_sha256": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+            "script_sha256": "aee4ecf9810733f607285bfb1e3ef3b93bfe2801019a2327f6723459300ddaaf"
+          }
+        }
+      ],
+      "member_count": 34,
+      "member_sha256": {
+        "alternateF0.txt": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04",
+        "alternateF1.txt": "1f4fe406b8e0d9cbd349f2017a85a5ebabb8aa664bbaeb2241ee441677187e9d",
+        "alternateF2.txt": "43528751707233c6d713e0ceaa3135537655e865e5c4df051d72188ddfc67cf9",
+        "alternateF3.txt": "5a157505a3fcff9091e5b7dae67b584c103107f0120380ab239df657a0e7dd83",
+        "alternateF4.txt": "e56b0bd067245df5e89998650513e4e2a8bd4993533ec9855b2741ae96df3e95",
+        "alternateF5.txt": "7a0d8a46b9b97b0571aaf10366a884c89fee973579eeb9b9c413c930ba67e89e",
+        "bareF0.txt": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04",
+        "bareF1.txt": "aedfa95327671d25c020632596541e29dc858976675d4788e62069b5bf8848b9",
+        "bareF2.txt": "225a521ffb93f3452fde46f27f5fa3674e94844268aa7a1fc74b75baf9e69b24",
+        "bareF3.txt": "af11d4ec693ae1f0e4a96ea09482feddeccc56c450aabd2637fba9f8228e36b8",
+        "bareF4.txt": "38f93e0cb35b36157ea08af81c5974603bdce98ac3b7777c9ab5c9ec838de860",
+        "bareF5.txt": "b80b9579eb1da180ff312fdc5c97fd358a39fd7e22ac9efb40fc438fc1fb39ee",
+        "coefficients.json": "f35923f9b36a8bc78bc862c82438c455cd11cd9faf7c58f81d2f8997ab5c343f",
+        "control.log": "8e503b957a1ef5eb1e4ba328d610ab0ebb099475b5227d9d126a540ee4f1f89b",
+        "control.mpl": "cedfce2cc8b92ed3e1666f015afbe8ab3db03b29a0d7abc7926382fc620ad06a",
+        "environment.json": "e62add9c71d2ed412698fb99e51ced3a1023958ce10578f51dac414db8036ef8",
+        "F0.txt": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04",
+        "F1.txt": "1f4fe406b8e0d9cbd349f2017a85a5ebabb8aa664bbaeb2241ee441677187e9d",
+        "F2.txt": "1e94e014869876a260c24a6439dcfe6ce2fbc7c0e4fe390804b8f2f7a6e54c2b",
+        "F3.txt": "56bdf761f8424e3402c1bdd912e756c31dd301360d4461de6dac9448c46a2a8d",
+        "F4.txt": "e56b0bd067245df5e89998650513e4e2a8bd4993533ec9855b2741ae96df3e95",
+        "F5.txt": "7a0d8a46b9b97b0571aaf10366a884c89fee973579eeb9b9c413c930ba67e89e",
+        "Fcoeff.m": "b8e60b34101369e80f53ca167686786df9dce68e81d7b2229879702a7f55e833",
+        "integrate.mpl": "aee4ecf9810733f607285bfb1e3ef3b93bfe2801019a2327f6723459300ddaaf",
+        "maple.log": "01b9d6e16c7ee14819ac1f19bc32d374533edf94fa466d77ef3ef590ff027ba6",
+        "math-checks.json": "931228da6fb03a94b6e6848c3af398012d5214d0b38cd537d04c00a088b87be3",
+        "numeric.json": "426976f65b0efe5c70efbf1c8d6529f2998b13e509ada88f5fda5316a92aea9b",
+        "numeric.log": "69b9d88be4094308976078526f83d0f8614ab0fdcedd519ae842c2d0f52dbc2b",
+        "series-check.json": "976d6d4d207af656c71073a66c570a01ac473abccb9b1b6bae0470c806b4b9bb",
+        "Z1.txt": "6e2aaef7a7a12750c0c482aff3a0c35c6d5f2a8e7bc801598018aa7f5e36e87f",
+        "Z2.txt": "0ce0dd357383a4336993e2cd54c6ff8437c5d555b228c6f8d771db534b223ef5",
+        "Z3.txt": "af49106a2859c939573aab6676ecc866a9164363362f17cb56294821368dd256",
+        "Z4.txt": "9bfa54270781504bf08081b9557e3014911c4351cd39cb1dc73f86bb71cfcbba",
+        "Zcoeff.m": "1469c271e2d20e2a17a8c27152e6769843c9567f213d824e01367651adc8cab9"
+      },
+      "member_inventory_sha256": "37509a6256fb96b838b1e66e8da9426f9f4bad568c8ea8339eb0fec3d7c01ece",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t1-opposite",
+      "run": "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z",
+      "classification": "declared_maple_stage_completion_marker_exit_not_archived",
+      "maple_log_present": true,
+      "captured_maple_exit_code": null,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/maple.log",
+          "sha256": "6fa14435ec30ea362e3fb3b27645394fe371f3c20175cf3d53ceea72bb7dc76a",
+          "bytes": 643,
+          "completion_markers": [
+            {
+              "line": 21,
+              "marker": "T1_OPPOSITE_COMPLETE",
+              "text": "T1_OPPOSITE_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "EVEN 3 time=2.328",
+            "EVEN 4 time=2.921",
+            "T1_OPPOSITE_COMPLETE"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/mixed-reuse.log",
+          "sha256": "8c073ae93fd31328be50bec14bf4c497b03c753da81c2c8792839c48347da5c8",
+          "bytes": 211,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "  \"Laurent_coefficients\": \"not_computed\",",
+            "  \"formal\": \"not_run\"",
+            "}"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/numeric.log",
+          "sha256": "996bf3b144efc8ed65bc96249cc829ce834d6dba5d080154747383cdec896f35",
+          "bytes": 1233,
+          "completion_markers": [
+            {
+              "line": 12,
+              "marker": "NUMERIC_COMPLETE",
+              "text": "NUMERIC_COMPLETE 123.00292992591858"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "RAW 32 0.7 1.3 -0.0035501621306503165 SE 0.0012194834250578402 passed True",
+            "SERIES 0.7 1.3 passed",
+            "NUMERIC_COMPLETE 123.00292992591858"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/T1-reuse.log",
+          "sha256": "29aa25e18617afee9ef94967fd0b7dbd5dc440c0b1aff89bc4f1587337841bcc",
+          "bytes": 231,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "  \"external_repository_required\": false,",
+            "  \"formal\": \"not_run\"",
+            "}"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/weight_six-reuse.log",
+          "sha256": "2ccebaab70fedfe1006fb3ed6b6b474f8f6f8e28a7d6d55fd44f5345907484f5",
+          "bytes": 669,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "  \"formal\": \"not_run\",",
+            "  \"fresh_integration\": false",
+            "}"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t1-opposite/runs/20260917T131211354092Z/environment.json",
+          "sha256": "8c598000c98484587323c34ad7e0d79ce481c1647d0670d7b500b87c108757ef",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t1-opposite\\runs\\20260917T131211354092Z\\integrate.mpl": "d64f4a4a4fcaa06f4bc0accb2e19d93393eef09d689561645a986a681d928b8f",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        }
+      ],
+      "member_count": 39,
+      "member_sha256": {
+        "A0.txt": "652d9d12a3084864333c3df2d6dcc3f8ef199e8817f1d9485539d332439a68c5",
+        "A1.txt": "7eedff84414d44b03f8cff30cc24448e96c423101724c7d0249654f2b71edd07",
+        "A2.txt": "e98f3c06df80c5bbfad0f021bb905f412fc5a0b6d245f0a1a91cc3d81fa50544",
+        "A3.txt": "aef278bd5edbc87750eff8e038138f20209d9ea195d9aa8f3ca098abf5c8a504",
+        "coefficients.json": "a7109a4157cfb2e32796e46ca0b5878feeff3df685222e823e97ab934b80426a",
+        "EK1.txt": "233c355b22c891c1348db44948a8b1fddd004c131efe3612a4a75780f50fda35",
+        "EK2.txt": "43fc54e1b9053a5f536c223b0f444d54eb8c3f690d088ca00b6a34ecdb74d1b1",
+        "EK3.txt": "6c4e6942c42b7c59533014d93c617e3bdb7ddf150c73dd9850f9b4600481ec30",
+        "EK4.txt": "356c4bd1fdabf56ba35807991c18eed6880035fd86f03a25380a1d50e2526bb6",
+        "environment.json": "8c598000c98484587323c34ad7e0d79ce481c1647d0670d7b500b87c108757ef",
+        "ET1.txt": "958c2fe1ecb7128f86fcc316a455dcd2461d58fb508a331664bc0f82731f623b",
+        "ET2.txt": "30de80adda200084fb8a279e57e7274f9ad3d338845d476414716b946d3e109b",
+        "ET3.txt": "e8011fedaa408bc8d2a95a099e6b7c1a8af6edfa0138441b102b683e5d167e82",
+        "ET4.txt": "edf58cfeef0caa64779a0a51f73463c89177947bcdf9007b5194a0239e87a443",
+        "H0.txt": "c3af678c18adc30aaaa4c3bbe927cb2c9c47a00155cebb7705de58dcdb8c3d50",
+        "H1.txt": "caffb31914e06cb501779438c7fba05874f641da6dff418a81db12b4f2985847",
+        "H2.txt": "02409974caedc7a9ab6e6f6f64171fa6f9847dc2da9b23c4f411a62981945db6",
+        "H3.txt": "7fba7758c05d7f04f992df86e53d124bf87d8f9455ca5e312ce4f302ef6c59f0",
+        "Hcoeff.m": "d8bcb1184027ae6dd52798b66c12a7065a588de18d3174bc1f0ce4825ed7aa39",
+        "integrate.mpl": "d64f4a4a4fcaa06f4bc0accb2e19d93393eef09d689561645a986a681d928b8f",
+        "K1.txt": "eaf19ee2d22dfabe54d3ea0dfd23e9ad7c765bbceb7501ffd83509eb952cb915",
+        "K2.txt": "6665de2d410de994b1a9505965d9988c709e62b7b8420cbbee22e79274af7946",
+        "K3.txt": "fe21d35f8000784ea976474e6cb0d82b3d02b215975a52ff55b9ead05b7ba241",
+        "K4.txt": "17876cb065550b8af3f46e0ed898cf81918198191743851139d9e4d3f91bd70b",
+        "maple.log": "6fa14435ec30ea362e3fb3b27645394fe371f3c20175cf3d53ceea72bb7dc76a",
+        "math-checks.json": "d13d7963ff5fd975c4c386cc6f51dc3d95c057efaa8b18765d7baa893a491817",
+        "mixed-reuse.log": "8c073ae93fd31328be50bec14bf4c497b03c753da81c2c8792839c48347da5c8",
+        "moments.m": "5a62710af65a8c211f31e2ff4781980194e9559b7a4bdb9246bac4aa7c17fed6",
+        "numeric-environment.json": "2108c5b07950be90e2ae9fd799769c05b257bf3166ce8950fac662c998fe33d7",
+        "numeric.json": "c8803277d1ee28253cc98bc893dd8307fe8a15baaae51cce3f31f13d3bab4213",
+        "numeric.log": "996bf3b144efc8ed65bc96249cc829ce834d6dba5d080154747383cdec896f35",
+        "representation.json": "645b13e8070acb7100f648563ed110f0220a32a1e27d32a805ab5ca9783e24ae",
+        "reuse.json": "8a648d4339a95f1949bbd254d35338209bc5b61e6d4cc6951ed03c8cec361cfb",
+        "T1-reuse.log": "29aa25e18617afee9ef94967fd0b7dbd5dc440c0b1aff89bc4f1587337841bcc",
+        "T1.txt": "50b59b8c0c24ec890030dfa0fdf575e55016f69fe0e0d07256d18426296f4490",
+        "T2.txt": "3276ce6e09a4f4be7f3e79c7d8e7b52b968f423194b8b6a2e0cda4114f9201d8",
+        "T3.txt": "7a527a62c76c6aad8cd316deb451a81b6ed93fe7332eb2910435474d9bee50c2",
+        "T4.txt": "808b0aaa2693e0cf78be0a721147ce69b38f8f7573683ce33225c43ebe1fa9e7",
+        "weight_six-reuse.log": "2ccebaab70fedfe1006fb3ed6b6b474f8f6f8e28a7d6d55fd44f5345907484f5"
+      },
+      "member_inventory_sha256": "97a7851a4d15b06d22cfbf7bfc7d1f5b10a37f6832a20eb22985236634e85174",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t2-empty",
+      "run": "snapshots/workflow/checks/tgv-t2-empty/runs/20260917T124803186622Z",
+      "classification": "reflection_or_reuse_archive_no_maple_log",
+      "maple_log_present": false,
+      "captured_maple_exit_code": null,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t2-empty/runs/20260917T124803186622Z/mixed_inputs-reuse.log",
+          "sha256": "8c073ae93fd31328be50bec14bf4c497b03c753da81c2c8792839c48347da5c8",
+          "bytes": 211,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "  \"Laurent_coefficients\": \"not_computed\",",
+            "  \"formal\": \"not_run\"",
+            "}"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t2-empty/runs/20260917T124803186622Z/numeric-first-failed.log",
+          "sha256": "2ad3772228f29a38ad36a1e7e7eae9bbe687f205442c34215a34f46581af2dab",
+          "bytes": 1412,
+          "completion_markers": [],
+          "error_or_failure_markers": [
+            {
+              "line": 5,
+              "text": "Traceback (most recent call last):"
+            },
+            {
+              "line": 15,
+              "text": "ValueError: nonfinite numerical kernel"
+            }
+          ],
+          "last_nonempty_lines": [
+            "    if not np.all(np.isfinite(values)):raise ValueError(\"nonfinite numerical kernel\")",
+            "                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "ValueError: nonfinite numerical kernel"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t2-empty/runs/20260917T124803186622Z/numeric-second-failed.log",
+          "sha256": "c56e3c13afc1d91b3420aac3ad3025f986880f29db4b04ea8605412e4ae2a7e7",
+          "bytes": 1797,
+          "completion_markers": [],
+          "error_or_failure_markers": [
+            {
+              "line": 10,
+              "text": "Traceback (most recent call last):"
+            },
+            {
+              "line": 20,
+              "text": "ValueError: nonfinite numerical kernel"
+            }
+          ],
+          "last_nonempty_lines": [
+            "    if not np.all(np.isfinite(values)):raise ValueError(\"nonfinite numerical kernel\")",
+            "                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "ValueError: nonfinite numerical kernel"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t2-empty/runs/20260917T124803186622Z/numeric.log",
+          "sha256": "a4390901f0698e3a2359a70a37be1082555fc49e439da53f0e545200bac23c84",
+          "bytes": 1154,
+          "completion_markers": [
+            {
+              "line": 15,
+              "marker": "NUMERIC_COMPLETE",
+              "text": "NUMERIC_COMPLETE 111.4831190109253"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "21 0.7 2.3 relative -0.005416402700092767 SE 0.002429679022591403 passed True",
+            "31 0.7 2.3 relative -0.0007515504326091526 SE 0.00690226539296711 passed True",
+            "NUMERIC_COMPLETE 111.4831190109253"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t2-empty/runs/20260917T124803186622Z/T1-reuse.log",
+          "sha256": "29aa25e18617afee9ef94967fd0b7dbd5dc440c0b1aff89bc4f1587337841bcc",
+          "bytes": 231,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "  \"external_repository_required\": false,",
+            "  \"formal\": \"not_run\"",
+            "}"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t2-empty/runs/20260917T124803186622Z/environment.json",
+          "sha256": "799a0155384d114ab54b8c5d3acde794c36febd18b731bfe293db3724d42d801",
+          "payload": {
+            "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+            "sympy": "1.14.0",
+            "source_sha256": "2b936391d19bbb339012234078e714d6cd7e62d217085b578b001f13d58bf9c2",
+            "prepared_sha256": "9b6594b75e56704d5d21cffe122578ce30b77c93565ada12df029b10cfb9c1b8"
+          }
+        }
+      ],
+      "member_count": 11,
+      "member_sha256": {
+        "environment.json": "799a0155384d114ab54b8c5d3acde794c36febd18b731bfe293db3724d42d801",
+        "mixed_inputs-reuse.log": "8c073ae93fd31328be50bec14bf4c497b03c753da81c2c8792839c48347da5c8",
+        "numeric-diagnosis.json": "9b5c5a25ab0f8a31730a64e34650f451f7ccfc0dab0c4da7ecd1b969e0c0d73e",
+        "numeric-environment.json": "46bdb8a776ac011215463114c3d71477cbbe5269482997219692aa47500a1f62",
+        "numeric-first-failed.log": "2ad3772228f29a38ad36a1e7e7eae9bbe687f205442c34215a34f46581af2dab",
+        "numeric-second-failed.log": "c56e3c13afc1d91b3420aac3ad3025f986880f29db4b04ea8605412e4ae2a7e7",
+        "numeric.json": "2b6d1f8c6a5bf49edfe0755838a4b879e467574525076d1a63351b3ad1a2f793",
+        "numeric.log": "a4390901f0698e3a2359a70a37be1082555fc49e439da53f0e545200bac23c84",
+        "reflection.json": "619e543cf865c4b2942a318547e28b92e10c3e522df6198a42f9353c691b2592",
+        "reuse.json": "b3fac0b7cca9d9c191bd3b6a5d60b6af69182f1861e62a863949a0cdff5776b3",
+        "T1-reuse.log": "29aa25e18617afee9ef94967fd0b7dbd5dc440c0b1aff89bc4f1587337841bcc"
+      },
+      "member_inventory_sha256": "123fbf83b9ff645d50a6d6fb8f980eea6cb1b70754558a02dad56dbb38fe3af4",
+      "contains_error_or_failure_logs": true,
+      "scope_notes": [
+        "Failed diagnostic/verification logs are retained and do not become successful because a later stage completed.",
+        "This reflected/reuse family has no archived Maple run in this directory; no fresh Maple completion is claimed."
+      ]
+    },
+    {
+      "family": "tgv-t2-opposite",
+      "run": "snapshots/workflow/checks/tgv-t2-opposite/runs/20260917T134414970403Z",
+      "classification": "reflection_or_reuse_archive_no_maple_log",
+      "maple_log_present": false,
+      "captured_maple_exit_code": null,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t2-opposite/runs/20260917T134414970403Z/numeric.log",
+          "sha256": "abba3f00675c78b3eb3541f1a6381056b80ad7c3e3188b20752080697af8b38f",
+          "bytes": 519,
+          "completion_markers": [
+            {
+              "line": 7,
+              "marker": "NUMERIC_COMPLETE",
+              "text": "NUMERIC_COMPLETE 47.13181185722351"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "36 0.7 1.3 relative 0.00031490971955046786 SE 0.0003993787311414286 passed True",
+            "37 0.7 1.3 relative -0.004189667681810378 SE 0.0013108237159806728 passed True",
+            "NUMERIC_COMPLETE 47.13181185722351"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t2-opposite/runs/20260917T134414970403Z/T1-reuse.log",
+          "sha256": "2a1205768db5929e1ced26ba4f801a3ddeaf993134e3f49120a88645916c4bf7",
+          "bytes": 454,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "  \"source_and_snapshot_hash_checks\": 184,",
+            "  \"formal\": \"not_run\"",
+            "}"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t2-opposite/runs/20260917T134414970403Z/environment.json",
+          "sha256": "799a0155384d114ab54b8c5d3acde794c36febd18b731bfe293db3724d42d801",
+          "payload": {
+            "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+            "sympy": "1.14.0",
+            "source_sha256": "2b936391d19bbb339012234078e714d6cd7e62d217085b578b001f13d58bf9c2",
+            "prepared_sha256": "9b6594b75e56704d5d21cffe122578ce30b77c93565ada12df029b10cfb9c1b8"
+          }
+        }
+      ],
+      "member_count": 8,
+      "member_sha256": {
+        "environment.json": "799a0155384d114ab54b8c5d3acde794c36febd18b731bfe293db3724d42d801",
+        "numeric-environment.json": "018424cf9bfdb4fb4570ab8fda6fecb4bc48a10fa9ccb618c30ebcb1573a19f9",
+        "numeric.json": "4262cac28fdb6a35307fb4c3de39e317bfad44dc34fe4e1aa2893d58dd3b7ec7",
+        "numeric.log": "abba3f00675c78b3eb3541f1a6381056b80ad7c3e3188b20752080697af8b38f",
+        "reflection.json": "751e651c9f2e0c4ce5a855de960711bff0a13e963ca25862fd8d6ac044c9c7c1",
+        "reuse-verification.json": "70a492e278c6a1d100e16cf631bf03796664a3e9df83773e805d3e7dbdb57000",
+        "source-delivery.json": "323c34da492243bad563b4dda476afec079057ad8b7043f9d38bccfecabc4f9d",
+        "T1-reuse.log": "2a1205768db5929e1ced26ba4f801a3ddeaf993134e3f49120a88645916c4bf7"
+      },
+      "member_inventory_sha256": "7fdc5bd85290ccd0807f408e811d66335410c5f8aeba1486389391cb86658abb",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": [
+        "This reflected/reuse family has no archived Maple run in this directory; no fresh Maple completion is claimed."
+      ]
+    },
+    {
+      "family": "tgv-t3-empty",
+      "run": "snapshots/workflow/checks/tgv-t3-empty/runs/20260917T142141597785Z",
+      "classification": "declared_maple_stage_completion_marker_exit_not_archived",
+      "maple_log_present": true,
+      "captured_maple_exit_code": null,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-empty/runs/20260917T142141597785Z/initial-verification-without-delivery.log",
+          "sha256": "7a3a7d31bde7e4e4d1a89dac1409702bd0f043e4a6777159b14039e69d7eae8d",
+          "bytes": 1187,
+          "completion_markers": [],
+          "error_or_failure_markers": [
+            {
+              "line": 1,
+              "text": "Traceback (most recent call last):"
+            },
+            {
+              "line": 17,
+              "text": "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\wilson-agent\\\\workflow\\\\checks\\\\tgv-t3-empty\\\\current-delivery.json'"
+            }
+          ],
+          "last_nonempty_lines": [
+            "    return io.open(self, mode, buffering, encoding, errors, newline)",
+            "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\wilson-agent\\\\workflow\\\\checks\\\\tgv-t3-empty\\\\current-delivery.json'"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-empty/runs/20260917T142141597785Z/maple.log",
+          "sha256": "7e610f46a4f1a6da131dc8ce0180afdaa1a4b0bb372ee8604b96106a6beb0dfc",
+          "bytes": 800,
+          "completion_markers": [
+            {
+              "line": 27,
+              "marker": "T3_EMPTY_COMPLETE",
+              "text": "T3_EMPTY_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "EVEN 26 3 time=16.390",
+            "EVEN 26 4 time=16.640",
+            "T3_EMPTY_COMPLETE"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-empty/runs/20260917T142141597785Z/mixed-reuse.log",
+          "sha256": "8c073ae93fd31328be50bec14bf4c497b03c753da81c2c8792839c48347da5c8",
+          "bytes": 211,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "  \"Laurent_coefficients\": \"not_computed\",",
+            "  \"formal\": \"not_run\"",
+            "}"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-empty/runs/20260917T142141597785Z/numeric.log",
+          "sha256": "daf1b2c2080024ceb4ff8a25e5235862b98e7822750e2ced79bcf8d9fca02c2c",
+          "bytes": 1632,
+          "completion_markers": [
+            {
+              "line": 16,
+              "marker": "NUMERIC_COMPLETE",
+              "text": "NUMERIC_COMPLETE 186.03883862495422"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "RAW 26 0.7 1.3 -0.00247961683221481 SE 0.0006302552816484954 passed True",
+            "RAW 30 0.7 1.3 -0.0004006160011198528 SE 0.0008226284576935604 passed True",
+            "NUMERIC_COMPLETE 186.03883862495422"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-empty/runs/20260917T142141597785Z/two_loop-reuse.log",
+          "sha256": "9654817485a66f6a5ad71b3f678d7c0fa004ca284606666e9aafb4d2c4a653cb",
+          "bytes": 139,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "  \"dependency_hash_checks\": 154,",
+            "  \"formal\": \"not_run\"",
+            "}"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-empty/runs/20260917T142141597785Z/weight_six-reuse.log",
+          "sha256": "2ccebaab70fedfe1006fb3ed6b6b474f8f6f8e28a7d6d55fd44f5345907484f5",
+          "bytes": 669,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "  \"formal\": \"not_run\",",
+            "  \"fresh_integration\": false",
+            "}"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-empty/runs/20260917T142141597785Z/environment.json",
+          "sha256": "7dd48ea3a82906ff777e7fe277f2ebaa5f7cf189286441d6010d2e6eb57709d2",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t3-empty\\runs\\20260917T142141597785Z\\integrate.mpl": "348a7eb2d3ecc51bb22b67aaa5a7a28aa8eb4f3ef6b955a5ad2f1a94151d3da1",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        }
+      ],
+      "member_count": 52,
+      "member_sha256": {
+        "A0.txt": "5712d511a5bb58b83032536a902a60d2ce08fc5d61dd8707aa4333d3b4790767",
+        "A1.txt": "f2c04f81a109d6bb4df576147e011501dac8ac20448001895f10221ba0039d60",
+        "A2.txt": "3ac85e3d0c2f9cf6a3e14a192d181adfb3249a4d01721399eaf9d39269337b5d",
+        "A3.txt": "0216a9af199f04d62badb7388e411c47a6d1659e2ae925b8d6d29361e6f250d5",
+        "E10q2.txt": "79d2c4e6e138b5bbb5f213eba9d2f880850411a1cb4b8a677c0c8a22e233fdd7",
+        "E10q3.txt": "33571f7dc0b6234bfcd3e76b3c4caedb21e3c388e745ce5c6185466bcdb2fca6",
+        "E10q4.txt": "8ff9e0971790dea245bda95f225b3d73f99a3f2aca3e492e5dd6663dd61de325",
+        "E26q2.txt": "f67a03baa03b49539b8d3f054faeff29ab41bf4c3c6aa46170d769619791acd0",
+        "E26q3.txt": "82a64c34ed7952270e7199b528de77cfc7dc10917ba2f2e31da614fe44aba240",
+        "E26q4.txt": "74e0330ae419f91ce4d8563c483777bb24824d8323a5d69d45f25720d9c5fb61",
+        "E9q2.txt": "9eda1b0cdba809c95ff11620f566114e30e8bcd1d111d3e1500ece7766bbd899",
+        "E9q3.txt": "21d0f6dd32ae12687e44f04df9dc784f1db6022a581b6314e8d6a0640adee1b9",
+        "E9q4.txt": "d32e90711e35b51730118cee62597da4a2b8926719601b310378eaa994c01375",
+        "environment.json": "7dd48ea3a82906ff777e7fe277f2ebaa5f7cf189286441d6010d2e6eb57709d2",
+        "H10q2.txt": "fafa2dff3f97d0fa3317086ce21069c00cc3bd4c834d59d2c03006bfb5a9424d",
+        "H10q3.txt": "3c2be3a6ebcfec6b9846a2dbd3b1e997a136a1148cf80ee08b765497a0544531",
+        "H10q4.txt": "bc16ba373f8dabc83389e476fd2ddaf20e215002688bfeb30fca75225d646ce2",
+        "H26q2.txt": "3838dc7439fa033521d650be5aa94da650fb042094eb6deefb7991a59c82c0d8",
+        "H26q3.txt": "78e0d07c7ea6df120824ece9c9928fc3e0d5f8b3dcaebf92645102f400652060",
+        "H26q4.txt": "43ee005c670baa65e90f96315de2c37bbad0970a3960ffa230487b55a4efae20",
+        "H9q2.txt": "60c0a257f5f6c2d6dbb06d0615cfc3dcac2af41fc917388c2dbafc40537e6a99",
+        "H9q3.txt": "d20a4f152d6f7c270ea81c5a3bf40d7922fcb63e38a994f55112dda88eacc962",
+        "H9q4.txt": "c4596e631d0ba9a9110bb430430ce260071e2e45abf5941144a548e32664cbd0",
+        "initial-verification-without-delivery.log": "7a3a7d31bde7e4e4d1a89dac1409702bd0f043e4a6777159b14039e69d7eae8d",
+        "inner2626q2.txt": "28aa899f237d77ca30e4ce5f8053345cc89a8f75f0e5ce8f9cd6fa789c7f610d",
+        "inner2626q3.txt": "8923ca58892304f1ef7cc2c68151cf5f8f8ba6a4d3531e7c3ba9182089d05e2d",
+        "inner2626q4.txt": "a8b8c5504300380bf2bf1713ea6bbcb76c925b7aa363c356588c6c67bda5f8b5",
+        "integrate.mpl": "348a7eb2d3ecc51bb22b67aaa5a7a28aa8eb4f3ef6b955a5ad2f1a94151d3da1",
+        "L10q1.txt": "c93758ea5bf4ecfd58c277fb54c222561448c2079957d9ffa825bfa0fb084250",
+        "L10q2.txt": "9c964855b26e7794a0d392491cef39cd945cfbc0f03d0e2680970b1936b0370a",
+        "L10q3.txt": "97d4991e63620d4c958471dbd7062cefab45d39a21b4f59415b2100493245c33",
+        "L10q4.txt": "5126c630324834e6cb66b25a411d5054bc223f1da12d8c34c5389ff3ac0eb0a8",
+        "L9q1.txt": "6ada08abe4554b2ecd880f3156b611067d250513e0d438efd0f790c8340b60a7",
+        "L9q2.txt": "67db1a87ec9acd22feb3e18c672937769be5ffb4d307b41a917431e26dce9264",
+        "L9q3.txt": "32b7fa8b90600c965b973969db91e8f7e4107667176f39b5090af0fceb71f94c",
+        "L9q4.txt": "ff26a7634b4ecadb21cf3ad5b268560b0ad13f021402ec40daee9524278a14e8",
+        "maple.log": "7e610f46a4f1a6da131dc8ce0180afdaa1a4b0bb372ee8604b96106a6beb0dfc",
+        "math-checks.json": "ba0001ff98d3c66527c87d9694c2c18092231b9a4e1a80bdb6e83e8ac6639727",
+        "mixed-reuse.log": "8c073ae93fd31328be50bec14bf4c497b03c753da81c2c8792839c48347da5c8",
+        "moments.m": "e9535cdca3b70c320a7167c7d01295d0f82305aa7d88c5d0063dea1e8c861e30",
+        "numeric-progress.json": "47686daed6510679570078bb59eceef249d87483268a272dee6cf938bf22c665",
+        "numeric.json": "d40899dbf806217ee17216c502afd79a39517f8b75927eeb1d76b4ed977687d9",
+        "numeric.log": "daf1b2c2080024ceb4ff8a25e5235862b98e7822750e2ced79bcf8d9fca02c2c",
+        "R0.txt": "1cf62e4f95bf77f536f9df40713f1edb2849cf258751942527627ead42109bfa",
+        "R1.txt": "8e1dae93569548352849cf6265721b5762173919df676dd0edaa6075ab2f8e2f",
+        "R2.txt": "9f422a31f2c5086dfac81748a3cc47c5594da779c846e5237a9cb3a1c2db719f",
+        "R3.txt": "fae5035d5c77f1d60b87ea081f090240aad8a95992dc272a0b8cdc148e52e8f5",
+        "representation.json": "9f110a96c13eb2eddffd83abad6e69850b9fb762cee2412f155e9f82631c4ba7",
+        "reuse.json": "8a1b5b57f1113c60a4fd34932204f3cefc3a0b89c0ae7b638b3e1107293a5d3c",
+        "series-checks.json": "6700f28e07fd14b8973598f6c3adf581ae0a024c38e26ccdb3686b09e125abd1",
+        "two_loop-reuse.log": "9654817485a66f6a5ad71b3f678d7c0fa004ca284606666e9aafb4d2c4a653cb",
+        "weight_six-reuse.log": "2ccebaab70fedfe1006fb3ed6b6b474f8f6f8e28a7d6d55fd44f5345907484f5"
+      },
+      "member_inventory_sha256": "93035c60b74e038ea8b9f9b616c0492713285d05a66f848239dcfc71e0072294",
+      "contains_error_or_failure_logs": true,
+      "scope_notes": [
+        "Failed diagnostic/verification logs are retained and do not become successful because a later stage completed."
+      ]
+    },
+    {
+      "family": "tgv-t3-opposite",
+      "run": "snapshots/workflow/checks/tgv-t3-opposite/runs/20260918T005641322714Z",
+      "classification": "declared_maple_stage_completion_marker_exit_not_archived",
+      "maple_log_present": true,
+      "captured_maple_exit_code": null,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-opposite/runs/20260918T005641322714Z/maple.log",
+          "sha256": "3a776277ae0376cb5ac18a6e79b135159293df58279be3fc1aeee57d4a6d47c1",
+          "bytes": 376,
+          "completion_markers": [
+            {
+              "line": 9,
+              "marker": "T3_OPPOSITE_COMPLETE",
+              "text": "T3_OPPOSITE_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "LOW 1 length=445 time=15.718",
+            "LOW 2 length=1652 time=32.140",
+            "T3_OPPOSITE_COMPLETE"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-opposite/runs/20260918T005641322714Z/mixed-reuse.log",
+          "sha256": "8c073ae93fd31328be50bec14bf4c497b03c753da81c2c8792839c48347da5c8",
+          "bytes": 211,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "  \"Laurent_coefficients\": \"not_computed\",",
+            "  \"formal\": \"not_run\"",
+            "}"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-opposite/runs/20260918T005641322714Z/numeric.log",
+          "sha256": "b0afa76bd006bcc8099bf2a88579a309035625b2dbc8bccfc2baed787259f4a5",
+          "bytes": 1001,
+          "completion_markers": [
+            {
+              "line": 14,
+              "marker": "NUMERIC_COMPLETE",
+              "text": "NUMERIC_COMPLETE 141.83936643600464"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "RAW 25 0.7 1.3 -0.0005737335877242215 passed True",
+            "RAW 44 0.7 1.3 0.000229558428921798 passed True",
+            "NUMERIC_COMPLETE 141.83936643600464"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-opposite/runs/20260918T005641322714Z/t3_empty-reuse.log",
+          "sha256": "5cebba1099ca3f7cc591be789cffbf11ae3c8b1e3295749c7459ca1d1f10e515",
+          "bytes": 396,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "  \"source_and_snapshot_hash_checks\": 174,",
+            "  \"formal\": \"not_run\"",
+            "}"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-opposite/runs/20260918T005641322714Z/two_loop-reuse.log",
+          "sha256": "9654817485a66f6a5ad71b3f678d7c0fa004ca284606666e9aafb4d2c4a653cb",
+          "bytes": 139,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "  \"dependency_hash_checks\": 154,",
+            "  \"formal\": \"not_run\"",
+            "}"
+          ]
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-opposite/runs/20260918T005641322714Z/weight_six-reuse.log",
+          "sha256": "2ccebaab70fedfe1006fb3ed6b6b474f8f6f8e28a7d6d55fd44f5345907484f5",
+          "bytes": 669,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "  \"formal\": \"not_run\",",
+            "  \"fresh_integration\": false",
+            "}"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t3-opposite/runs/20260918T005641322714Z/environment.json",
+          "sha256": "5523764a747d25614660bd2160dbbec52fdbd0d7c4df56573538c5b53068cfae",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t3-opposite\\runs\\20260918T005641322714Z\\integrate.mpl": "8a197d827a7bcc3f291c8d5a80fbab53a257f611468700aebfc931a85789f82b",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        }
+      ],
+      "member_count": 31,
+      "member_sha256": {
+        "E22q1.txt": "7744fd78a003cd0b7309a88ec9e73d79b4653b3a810651d67432125783f8174d",
+        "E22q2.txt": "f95c2770ddb9a20adfb4d5ec61c21fc8aed1cdde9a482c08863687abf5cdaddc",
+        "E23q1.txt": "2c61f40da2c483310421440c682bb855816bc9d803d6a316763d82700fc29f9c",
+        "E23q2.txt": "cd8c540bcee072b27a99fa857381d9ffa123a13311c7a7a664af227cd4a4d71a",
+        "environment.json": "5523764a747d25614660bd2160dbbec52fdbd0d7c4df56573538c5b53068cfae",
+        "H22q1.txt": "d488fbc9bf78b71c646c085fcc467e697214b7f64f205d315d450b83053b30ed",
+        "H22q2.txt": "ebec86dd014fb17e4ba90b4f4ed1800b2dcddcfb560a93ff29a6783928b288d3",
+        "integrate.mpl": "8a197d827a7bcc3f291c8d5a80fbab53a257f611468700aebfc931a85789f82b",
+        "Kmid1.txt": "0bcd59497998ac2ea1eb7974f073ed75381b38040fabfdc85f27b907230f3726",
+        "Kmid2.txt": "903c9b2c0872d34c3f2624e4c04421eddd636d64f012be18e9d64d08274612ba",
+        "low.m": "12e97c4880e322d7ff79d020bff1346aee4ea14356d36d2a91371f2c87bb57e6",
+        "low_t1.txt": "c53c382e9453dbd2e0565bdb12ddeefe36b9c3455d85826c9bef9d898a65e5ba",
+        "low_t2.txt": "2ca166a333dda77611f95d9722f5774ba62cd07188ee6062c9b8cfd4bb6d6d1f",
+        "low_u1.txt": "9b3e49a3325fb43ea5b652ff9410253db5ff9d221ef34a5e15f298694d644c6f",
+        "low_u2.txt": "4da1035953e989f63a227458ff4597d1fbc878d5aafdb313d1be946a2263c654",
+        "maple.log": "3a776277ae0376cb5ac18a6e79b135159293df58279be3fc1aeee57d4a6d47c1",
+        "math-checks.json": "1eabc49c11665c7942449f92d504dfae74700b7a13c3f45c74d10b7f0e55aae1",
+        "mid.m": "7018a80d1f4868e2d7c12b1744c10d229033090c8f01966fb318d52767ab58d7",
+        "mid_inner1.txt": "167e1f11aae21b12c9a6eb3a58ee540a25229aec4dec9816483284bf3ae77340",
+        "mid_inner2.txt": "69dd8ada201802b139cdd37f1e8af081b6a21989d8f0c237af3c023bdbd4f03b",
+        "mixed-reuse.log": "8c073ae93fd31328be50bec14bf4c497b03c753da81c2c8792839c48347da5c8",
+        "numeric-progress.json": "34a8e31d5bac88b7317123b517cc731180a0a3566e73aa5062756d083aaccbc8",
+        "numeric.json": "ea7b7215a97ff6de60f019e8c15ef162cfdf3d874fada3113dc65cfb63eacb7c",
+        "numeric.log": "b0afa76bd006bcc8099bf2a88579a309035625b2dbc8bccfc2baed787259f4a5",
+        "python-environment.json": "07e6456456a94c7419fd62a9d52cbfb482936fd09610184dc03e8c287b3843bc",
+        "representation.json": "038bb89d672d21f411d4951c40d03a1f9d028d0bccb34919409d8f3c6a60c216",
+        "reuse.json": "aef665c5c54a7417ec9aaffec15786782d7ef9eaa797530687170971527ba651",
+        "series-checks.json": "2927a87d37f97148f8696543e767e30fc68c497ebc9ff4f8217ed6301a79adda",
+        "t3_empty-reuse.log": "5cebba1099ca3f7cc591be789cffbf11ae3c8b1e3295749c7459ca1d1f10e515",
+        "two_loop-reuse.log": "9654817485a66f6a5ad71b3f678d7c0fa004ca284606666e9aafb4d2c4a653cb",
+        "weight_six-reuse.log": "2ccebaab70fedfe1006fb3ed6b6b474f8f6f8e28a7d6d55fd44f5345907484f5"
+      },
+      "member_inventory_sha256": "5adf18242f9849e478a51f473364d88e79a3bd4dd7e140e0c7ee8cc0b890c200",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t4-empty",
+      "run": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T014818006380Z-recoil",
+      "classification": "declared_maple_stage_completion_marker_exit_not_archived",
+      "maple_log_present": true,
+      "captured_maple_exit_code": null,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T014818006380Z-recoil/maple.log",
+          "sha256": "412f43a931c500524ff880d65246634c855b8f5ac01a8726c5de288bb1bd723b",
+          "bytes": 1331,
+          "completion_markers": [
+            {
+              "line": 36,
+              "marker": "RECOIL_COMPLETE",
+              "text": "RECOIL_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "START 15 q2 length425369 time158.843",
+            "DONE 15 q2 length2470 time368.156",
+            "RECOIL_COMPLETE"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T014818006380Z-recoil/environment.json",
+          "sha256": "8c4e34c92b08359c638a9177170333c374a07a8ac06263049fb5fb9675703f15",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-empty\\runs\\20260918T014818006380Z-recoil\\recoil.mpl": "a8ae27e40fef792eef9aed98fcfc36be839d9301be540aec6801c97624c5ab26",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        }
+      ],
+      "member_count": 35,
+      "member_sha256": {
+        "environment.json": "8c4e34c92b08359c638a9177170333c374a07a8ac06263049fb5fb9675703f15",
+        "input13q-1.m": "7616fb2c91858c8364d61b4709fe35df64d5503698cbaab498ccc84e154a21d3",
+        "input13q0.m": "a0a84684f661dc574c4d0b6b2b5c3dee7744bfd289cadeab8df10172fdbce71d",
+        "input13q1.m": "ecbdb342525a3a323d0d71c952f41c27082c61a6809fd2be5d054e8e7139d27d",
+        "input13q2.m": "99ed5abc43f74001da86dd80f8aeef2ddfaa28e030fb65e58ee9ebe185ee5ae6",
+        "input14q-1.m": "7616fb2c91858c8364d61b4709fe35df64d5503698cbaab498ccc84e154a21d3",
+        "input14q0.m": "a0a84684f661dc574c4d0b6b2b5c3dee7744bfd289cadeab8df10172fdbce71d",
+        "input14q1.m": "9bcd6461ccd6f8d821e48f23ec8daf1f64f215efc4d0d56eb4869f27128e443b",
+        "input14q2.m": "81fb183c72c3c8ea83d0cd1cad486ecd2811f0111933dcecd0b834be65459187",
+        "input15q-1.m": "39af1420acdf20d324d6b422c5a35f1438271e4744b3926ee80fde3085f2f0f9",
+        "input15q0.m": "41939604af1ae41d0f4e5f1147fadff4d1301de44c90be6027745cb36819c927",
+        "input15q1.m": "832099db94fa30233af6ef7e733082423b21e8e19f000bda8087380817876c7e",
+        "input15q2.m": "39cb39aad12f7e334f23c1d61942bd6fc72a6f313ac058d2044d0826a994d5cf",
+        "input40q-1.m": "7616fb2c91858c8364d61b4709fe35df64d5503698cbaab498ccc84e154a21d3",
+        "input40q0.m": "2c1626bcedc61d92d5c0db10700c60fd1ec3c557ad7e7c2f56f5f6d99689782f",
+        "input40q1.m": "6481811430c52f55b3fc6ea9f264aac1d8d16486353f954988320c480111466d",
+        "input40q2.m": "4159f1b43074928a76b8fb2f019bb2d39075455b89634ae24bc3f2d05d34e98b",
+        "maple.log": "412f43a931c500524ff880d65246634c855b8f5ac01a8726c5de288bb1bd723b",
+        "R13q-1.txt": "d96bdbac39113d6826e8634fc35bae161e465e47ccadd73062daf7bdeb11498e",
+        "R13q0.txt": "94484b3704f929f839bfe236694a74b5a3b1585cfd9e49a99789f4ea546eb4cc",
+        "R13q1.txt": "d44536bcea607934341edeebaffe8066c4803c9c9544eb3181afee369231ea1f",
+        "R13q2.txt": "d21b28c328e373abf7dc330ce6b3a87b0bcbb65a810405e0588f8257862aa207",
+        "R14q-1.txt": "b849511e00e9c0c9744a42896d62ecb991759daeb38c15fd6e7077561b739a95",
+        "R14q0.txt": "a99295dde14405d7b28097e05efc23e19313acddd85adced8fd1957b114077da",
+        "R14q1.txt": "be4657a4603d1d1d8499cb764e2d5490ad0937cd0bab5122dd7095e062f81cbd",
+        "R14q2.txt": "c44f4570acf489691f9f6e7675a880ce237da3be8a4ce8d92bef79126e6b8008",
+        "R15q-1.txt": "ff58e0263a6fef969b466bd4860f81da2ff2c7569a265eb90e1c901ee5f80d98",
+        "R15q0.txt": "24c163e179b22b5468c08a839071e8b8bcb8e2b2be34657e5dfdc728ea6e67ec",
+        "R15q1.txt": "d2fbff4ce63c06139c09635ec02b020566d35ce1d3b844773c2826ceb30a1a10",
+        "R15q2.txt": "dac50d9e6ed6ecfe5c4485e65be8f004922c303f9b8d943f9c3c50cccd2a9e4e",
+        "R40q-1.txt": "285fa8d14147fa77d9126d792e502d1117fe88b796196996d5bba8faecf902c7",
+        "R40q0.txt": "40edc265a7611234b5365cfd12ee9688fed3c7548d8cf22bb4113dde63c64627",
+        "R40q1.txt": "8ba5eae37fa564a37d9700d5e271471776b0a3381d130f9a4b55e914af2d4ba4",
+        "R40q2.txt": "d4478c7abe65bd3d4b2320147408131b2790507e39ff53edfcaec18efef3e5da",
+        "recoil.mpl": "a8ae27e40fef792eef9aed98fcfc36be839d9301be540aec6801c97624c5ab26"
+      },
+      "member_inventory_sha256": "df26cccd1f3ff74d5eead9326fd82ba5caf26f05e1fc02a59205de57936119e9",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t4-empty",
+      "run": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T014950651961Z-derivatives",
+      "classification": "explicit_incomplete_historical_attempt",
+      "maple_log_present": true,
+      "captured_maple_exit_code": null,
+      "attempt_status": {
+        "status": "stopped_after_partial_output",
+        "reason": "D_w replaced by the exact combined boundary-plus-derivative integral T_w; completed D_x and D_y outputs remain used",
+        "utc": "2026-09-18T02:07:43.239253+00:00",
+        "formal": "not_run"
+      },
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T014950651961Z-derivatives/maple.log",
+          "sha256": "b20b7a774b2560e22c88cbbb24fce599f68c1edffc318c1cbe85c612a06e8402",
+          "bytes": 112214,
+          "completion_markers": [],
+          "error_or_failure_markers": [
+            {
+              "line": 77,
+              "text": "maple: fatal error, lost connection to kernel"
+            }
+          ],
+          "last_nonempty_lines": [
+            "DONE D3 q-2 length57 time926.921",
+            "START D3 q-1 length287052 time928.843",
+            "maple: fatal error, lost connection to kernel"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T014950651961Z-derivatives/attempt-status.json",
+          "sha256": "13c38650279ecb1386ee18d5ebf5186bec122c89db4150e3ccc2c05493540613",
+          "payload": {
+            "status": "stopped_after_partial_output",
+            "reason": "D_w replaced by the exact combined boundary-plus-derivative integral T_w; completed D_x and D_y outputs remain used",
+            "utc": "2026-09-18T02:07:43.239253+00:00",
+            "formal": "not_run"
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T014950651961Z-derivatives/environment.json",
+          "sha256": "3ee3b8c6aab849626101390950dcb74ba43ef91003b9a6ec630f11778b9c1e4a",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-empty\\runs\\20260918T014950651961Z-derivatives\\derivatives.mpl": "eeeb1828dde35a18b730d9585ba3ee0b5adcc49105459fcf5e8209e8c1def8c0",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        }
+      ],
+      "member_count": 35,
+      "member_sha256": {
+        "attempt-status.json": "13c38650279ecb1386ee18d5ebf5186bec122c89db4150e3ccc2c05493540613",
+        "D1q-1.txt": "35536f88642883050aea17c440ff5735969226d78fbf540299c71a96e61c40a9",
+        "D1q-2.txt": "72f35fc71d02a014a9ca4229e526741fcf787c2efc6621b79e400d678ad984ed",
+        "D1q0.txt": "08b2f8b930a3faf6ac785d0173339da02b04d8997cadfc9e6adc2a686e0093da",
+        "D1q1.txt": "19f942d823061263abc78c8befded2e419aafab2f6425a3d9bef3931bb36d279",
+        "D2q-1.txt": "e3490adf829cb88b1078199307376631ed9030a7033ee71793caee009e3a0820",
+        "D2q-2.txt": "c46f0bd80c111049e27823ef0385ed2842849b0b381a3b4c949f597e3710b26d",
+        "D2q0.txt": "53fd750d5a8859b92254bddabfd3c3746b481c42f901676fd7d47e5f5904f7bc",
+        "D2q1.txt": "93df0dae84361fa884a20fc970dc40213d10b7db136b3670e2cea313dbd9dbdf",
+        "D3q-2.txt": "d7cbcae037f6bf230694a4c0ef252d17516b2cebaa76d7183b1d13e4d591e2d5",
+        "D3q-3.txt": "3a8786c6fd4c2fe8a4935135a644f032bc904674aa615c9580f70c7b0c068914",
+        "D5q-1.txt": "50295d49172a65469d761e75db87ed29b66e025914701c1fe1c184f56c0393cb",
+        "D5q0.txt": "4c994f67241d707ff31274fc35cfd47bf3e1057414bd81bee7e979d9ca64fec8",
+        "D5q1.txt": "507c4ed3c959ee632b2d38eaff22c8350abc512f17d435ac5c7c3dd1fbd7937a",
+        "derivatives.mpl": "eeeb1828dde35a18b730d9585ba3ee0b5adcc49105459fcf5e8209e8c1def8c0",
+        "environment.json": "3ee3b8c6aab849626101390950dcb74ba43ef91003b9a6ec630f11778b9c1e4a",
+        "inputD1q-1.m": "8e04d3ea40763348aac107b8cf549f20834c7767d0e447417174be02fa8fb93a",
+        "inputD1q-2.m": "d9f053356a3d301a50bd782ef87fe8b87705994c8cbb94e9408953877749c622",
+        "inputD1q0.m": "ad1d830c15565790354cbdcf9aae705977a384754e162800a7a484b096bdc3b9",
+        "inputD1q1.m": "b15e4a8a56660d66093d40929c1b202ae9c073161ec8c15eea7249b3b5e4c038",
+        "inputD2q-1.m": "611dba73782006250a4e32021bbbf52c0beca8b504434bc25c4a19e35527806d",
+        "inputD2q-2.m": "d9f053356a3d301a50bd782ef87fe8b87705994c8cbb94e9408953877749c622",
+        "inputD2q0.m": "969746eef2adfafad8071b1e8bd6711f610110a35f0951ac104b3d2e82056e16",
+        "inputD2q1.m": "07b6f3f7bf5e3c6a61aea36b36761077cc62260ea5e9b0671189379d5f9af2a6",
+        "inputD3q-1.m": "6fc68839cd48a9ae24b858ce9b5f82f3890da67c2cbf4dd14e7c87ea1b052168",
+        "inputD3q-2.m": "84d311e3b897aede056a1e0b30ac1dd5ca7bca2f153a2fbae04db5ebc056608a",
+        "inputD3q-3.m": "ff880590a14aa9d02d3f4e4ea92a5515f2729826861369897b8823258d1b9e5a",
+        "inputD5q-1.m": "5d28b3ed70808995e2a161d88fe2f6813f20fde46a416abae61fe3af0395e17f",
+        "inputD5q0.m": "705588285f6917f476d679555e0d84d9fb4970d744c0fb3f51090adb46098e51",
+        "inputD5q1.m": "39b2cd6e69495039d840e1ca99abda06a6c91cca04ff423203c6a456bbe774a8",
+        "maple.log": "b20b7a774b2560e22c88cbbb24fce599f68c1edffc318c1cbe85c612a06e8402",
+        "regularized1.m": "606d28bb45ee11b6afa115de3e2613a73d8e09e9b0a8f6d229aa3cd0df622bfe",
+        "regularized2.m": "d6d796240044331c5982334097d8b5d811a1be78ab1117325a6d2abe2780852e",
+        "regularized3.m": "43243187e1cd919fcb5334d41fe9dbfd2ef1731075e60cbbb043111f6e5e169f",
+        "regularized5.m": "9a241a4f309911744f1d825b51f9151ddf7448af162ffe6f2ab7c2f6c5e62a41"
+      },
+      "member_inventory_sha256": "9834bd529af172354aef50209bcf4eaaecf850bff777aadc5316b535091cc5ad",
+      "contains_error_or_failure_logs": true,
+      "scope_notes": [
+        "Failed diagnostic/verification logs are retained and do not become successful because a later stage completed.",
+        "Original D_w attempt stopped; complete D_x and D_y outputs remain admitted at their own coefficient scope. T_w replaces the abandoned D_w path."
+      ]
+    },
+    {
+      "family": "tgv-t4-empty",
+      "run": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T015135429073Z-easy",
+      "classification": "declared_maple_stage_completion_marker_exit_not_archived",
+      "maple_log_present": true,
+      "captured_maple_exit_code": null,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T015135429073Z-easy/maple.log",
+          "sha256": "fb1830096163dd03860682f82a4d36760a9ef62bb9ac0af3df4d7b282f58e745",
+          "bytes": 1903,
+          "completion_markers": [
+            {
+              "line": 59,
+              "marker": "EASY_COMPLETE",
+              "text": "EASY_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "START Y1 id40 q3 time71.859",
+            "DONE Y1 id40 q3 length2046 time132.406",
+            "EASY_COMPLETE"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T015135429073Z-easy/environment.json",
+          "sha256": "831f98d22de2437eb916488a51c6a6a58a8b65bc20fcca96cfdf160d86e8332f",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-empty\\runs\\20260918T015135429073Z-easy\\easy.mpl": "941ae8b999064afea3302cac6f05fba91a051b937efc5aedfcf3a403988e8ca0",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        }
+      ],
+      "member_count": 38,
+      "member_sha256": {
+        "easy.mpl": "941ae8b999064afea3302cac6f05fba91a051b937efc5aedfcf3a403988e8ca0",
+        "environment.json": "831f98d22de2437eb916488a51c6a6a58a8b65bc20fcca96cfdf160d86e8332f",
+        "F0q0.txt": "c95508ad9fae34edaac8168d6c0c08a9d3749c29067f57fc8bd8d50261a48f2f",
+        "F0q1.txt": "e04c90b8128b5b9275066046d0104ae988d22ca95fbb7858799e505b2a69eae8",
+        "F0q2.txt": "c5f8f673169002be66d5d36fc1a1817ae9894507ddc77926f901b6383af8ad20",
+        "F0q3.txt": "6df0e7a3f13a0d9ec099f769cdf11d4032bb6431cc4427e61e294005248dede1",
+        "F0q4.txt": "1068eea826d651fe67310352c6a24ada55c350dcd215c36169b0d29b19a45048",
+        "F1q0.txt": "c49efc74c711954a1cf17fa0a750b723eb122f0b936af6535f772145e7331bdc",
+        "F1q1.txt": "b3967322c03e9d9bb303a5a9a19ecd27d0fa7963081211315dec9efa9908bb82",
+        "F1q2.txt": "23b57270d9ca9015e96dbb60778322612df3e2961e020195fb2a9e93643568d1",
+        "F1q3.txt": "1979044022f626694e89bfa9ff6b3e73c684c39f984a422275b5fa30c479d1bd",
+        "F1q4.txt": "f38e77920201c40127307c904bdfe412284a95e9289c1c67fd4cb7c24b4a9b19",
+        "G1q0.txt": "6e873719fef8518e38e40461763de7d5ce0212168bfd7cfac8d250ed8560de1a",
+        "G1q1.txt": "3542abf2893626d4a24a758ce4a352487aa25dba9a2a9172af1230977854fd3d",
+        "G1q2.txt": "96ebab9e28429b5fbe60ef9552dd623cbde19d7c31f0eaa50fb2a1d3c5a00fb5",
+        "G1q3.txt": "f80fac47834f26cc461573e26cd927cc1ba8fff4aeffb94ce531715e3f6886ed",
+        "G1q4.txt": "3aaf246b6c24e469ade260a67207f746c7055d82bc3367c5306fadebdbd2ad20",
+        "maple.log": "fb1830096163dd03860682f82a4d36760a9ef62bb9ac0af3df4d7b282f58e745",
+        "Y0i13q0.txt": "79b6f69a7660e0bd131c5d00845872ae756b9ed33540ffcf16abbe05f7639487",
+        "Y0i13q1.txt": "86665999265051116120a8df4566ae636c6192d584412e35b1f43861684ecfd0",
+        "Y0i13q2.txt": "19c2d9cbb99d6d105a7f3429a6605e0072d611413c5f51984c48b46cd79d0c04",
+        "Y0i13q3.txt": "abfae38c9fa593469c319bdb3ecc759f087a0ed1b941bfdf098e7bf44fd81118",
+        "Y0i40q0.txt": "1a861223d7dca318326684d1d0af602d122a89dc9b4e5572584bdd80fbc3edd6",
+        "Y0i40q1.txt": "733b1533a7ea80b89ef6040dcaa26aba346b9357bcdffb5ce8f658f8bee7b3b2",
+        "Y0i40q2.txt": "fe43f63bc80643655d5e65b4cc3f7296e6a1a02d41a5435f5780b31b2e2b3d51",
+        "Y0i40q3.txt": "b41396b057eaa83a9963f615c6face1d82f6354c760db7b0e3abcdc711f9929c",
+        "Y1i14q0.txt": "6477959ca0f7a600f9d27a13a347b39778b1a80f5f9908c6677784eb1bac785d",
+        "Y1i14q1.txt": "3bee553b1dbfbec59403e555473b89efeedd2a852a86daf5563ba2473d8679ae",
+        "Y1i14q2.txt": "04c117bd420cfb32d605d998a5d3a54404effc91780db1fc6159ae4030336e88",
+        "Y1i14q3.txt": "8ce7a4c55fbeadc1377cbb2d7f13eee17b28ca8c5ed2653948392f0b5a023075",
+        "Y1i15q0.txt": "2fa4b6c192153e5e33681817349fbabbd4d9779171e3f56d7fa1ed02ca71763d",
+        "Y1i15q1.txt": "790fb5c1067a3ea977f6acdce17ad633e393cdc7348b6cc189278169ef82ff47",
+        "Y1i15q2.txt": "8883069a51a6b9123d220c53f3562b2a59bb331e9ae2b1fc52b12dbb37382b71",
+        "Y1i15q3.txt": "75e1e005190d753b981884eed4adeff1fd0889237144f9a618f7809bba984314",
+        "Y1i40q0.txt": "0f0600d0e284db87f31843afece72f13dc38dd63e14f1da933bafbd071099dd5",
+        "Y1i40q1.txt": "368049401f9161b81adb296b8a5bd71f26d0d8f05ae8bcdd4aaebfd1c5433180",
+        "Y1i40q2.txt": "e889cb07ee181ea661756be8138e9881b91065c327ef3088649378d06be618cd",
+        "Y1i40q3.txt": "302820688fcbe5e2c13d132dd7cd0833d92588ee8a81c47f0e5a0462e2c31984"
+      },
+      "member_inventory_sha256": "14e60b16cca07d700e25994ac19686859eb23bc7e52cbeeb8bfe8ef6ca448d30",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t4-empty",
+      "run": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T015211942583Z-hard",
+      "classification": "declared_maple_stage_completion_marker_exit_not_archived",
+      "maple_log_present": true,
+      "captured_maple_exit_code": null,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T015211942583Z-hard/maple.log",
+          "sha256": "0a6fb38e25f6dfa887266328fe9128a7e015946b1cebdb724d5141ff467a5e23",
+          "bytes": 1482,
+          "completion_markers": [
+            {
+              "line": 40,
+              "marker": "HARD_COMPLETE",
+              "text": "HARD_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "START H140 q2 length398 time316.750",
+            "DONE H140 q2 length1348 time330.812",
+            "HARD_COMPLETE"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T015211942583Z-hard/environment.json",
+          "sha256": "37b8103841d5edb9574b802ea9885dfcf08ad1251b47ec010bd469fc9c95fb48",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-empty\\runs\\20260918T015211942583Z-hard\\hard.mpl": "e551d5e63263eac17a0b7e1054b898690f9c817b72ecc42785bb596a3bd8b289",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        }
+      ],
+      "member_count": 21,
+      "member_sha256": {
+        "environment.json": "37b8103841d5edb9574b802ea9885dfcf08ad1251b47ec010bd469fc9c95fb48",
+        "H115q0.txt": "8777ec1f0e9947107b924d30345283ce20d37f5ece876201ba02581ff90693d8",
+        "H115q1.txt": "b61902ca640f06b05661c71d28da7d425eb14df694b47dd1a7e49b97a497060e",
+        "H115q2.txt": "8f7f55a5d7dd6289eaf48b1fe78a25f950a247afb41df6e85000eaefc7e6efe9",
+        "H13q0.txt": "795a34bc715211d89cee76f4291c6ffd252fcef59aa9bf096f0bbb2c76f9f66f",
+        "H13q1.txt": "9caa28179344169fc75efdb7747ed21be23f36265301394b90ed4453458ebc02",
+        "H13q2.txt": "41ea04fdbe113c58b553e5a79997813d5f239b26b0576be9c623f7a99c4cccb5",
+        "H140q0.txt": "52b8faa59bbd97a93ad472e6a90b72de0e366d7c1a20a5b11a3e59a1dc89a5d2",
+        "H140q1.txt": "112c3d4d872a9e5d147ef38ede5e9953a0a6dc0857343265f51cb2b918eeca9e",
+        "H140q2.txt": "161ee614463a6a28658f632eb2c40900b3b1245ff4118ab9f5e3d696909a9685",
+        "H14q0.txt": "191826925d0501b4a69c9bad108b7c82bbe1c91b7dcd9232764d7c9777490495",
+        "H14q1.txt": "d3c1bdfb1604e52542189bc7795d932fd4f0d0d53f05f5a2d4a1e770cfd1a785",
+        "H14q2.txt": "0bcf4b2636db1dfa62ae911ec011397adb524e2b75034bbcd8a08adacbbe295f",
+        "H15q0.txt": "ac1b9bbf0fe65b022c3b06ea3c07e7ba254567e068965c9aef11133153d32f17",
+        "H15q1.txt": "1efb2216cbc29e36e1ae7d5a5a87f910799910faca273a09dc6b17c027dc9353",
+        "H15q2.txt": "55b9e807565480e38c6c51bfe7d930c792b1f15ade8352e3ae167f0159e4917c",
+        "H40q0.txt": "b2526586011d09746fa4b12ab806f0567dbc4299afa9e506f22a5fe7430d3daf",
+        "H40q1.txt": "e4293936209027a711066f8879584f0f33ddee5abdbd395e3e5faf608ed268f7",
+        "H40q2.txt": "43e32191adfe6cab28a37a2b699728e3c5b4e963354f4ca247d6acd1d77e3bb9",
+        "hard.mpl": "e551d5e63263eac17a0b7e1054b898690f9c817b72ecc42785bb596a3bd8b289",
+        "maple.log": "0a6fb38e25f6dfa887266328fe9128a7e015946b1cebdb724d5141ff467a5e23"
+      },
+      "member_inventory_sha256": "7f6db88f76bb8379943ba9b694e579636cab9a50623dd0a1b7325c1e2c64208a",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t4-empty",
+      "run": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T021524768893Z-tw_vfirst",
+      "classification": "explicit_incomplete_historical_attempt",
+      "maple_log_present": true,
+      "captured_maple_exit_code": null,
+      "attempt_status": {
+        "status": "partial_abnormal_end",
+        "observed": "process absent and q1 output absent after START q1; original launcher did not capture exit status",
+        "cause": "not_established",
+        "replacement": "current-tw_words.json completes q1 and q2",
+        "formal": "not_run"
+      },
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T021524768893Z-tw_vfirst/maple.log",
+          "sha256": "ca5111bb022af9c662b67055347e56f233610d421e3ca5d7472ae865dcd954bc",
+          "bytes": 221546,
+          "completion_markers": [],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "START TW13 q0 length453924 time11.953",
+            "DONE TW13 q0 length154 time26.671",
+            "START TW13 q1 length1820980 time33.921"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T021524768893Z-tw_vfirst/attempt-status.json",
+          "sha256": "def357a9cf3fd0d98ce6c70686248303db490ffcad27a1c20984a2fb005f1692",
+          "payload": {
+            "status": "partial_abnormal_end",
+            "observed": "process absent and q1 output absent after START q1; original launcher did not capture exit status",
+            "cause": "not_established",
+            "replacement": "current-tw_words.json completes q1 and q2",
+            "formal": "not_run"
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T021524768893Z-tw_vfirst/environment.json",
+          "sha256": "29c0c9e3bef987048775e53e8cf4ab3a466cb41fb59922b32ec645a19bfdfbc5",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-empty\\runs\\20260918T021524768893Z-tw_vfirst\\tw_vfirst.mpl": "f06f6f2470594b57bce8cda5e57c785e97955477812336f8357f4cc0534f3e6e",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        }
+      ],
+      "member_count": 12,
+      "member_sha256": {
+        "attempt-status.json": "def357a9cf3fd0d98ce6c70686248303db490ffcad27a1c20984a2fb005f1692",
+        "environment.json": "29c0c9e3bef987048775e53e8cf4ab3a466cb41fb59922b32ec645a19bfdfbc5",
+        "inputTW13q-1.m": "9e41ad9939b0b8d17b6aab89171ae92bb5a45f61983608556fc60e46372015bb",
+        "inputTW13q-2.m": "0697958cdc48f5e057bf1e1e39bdc239baf9d22f51abc8f94cf15d3e742f64db",
+        "inputTW13q0.m": "f149441577dfa09eb251238be695f0c61553afc02b0ad0a3f5bd08dfb16c670a",
+        "inputTW13q1.m": "999fe52233ce70e2a2db0a774509ed17cc869be997a79857d7b1e711722b1643",
+        "maple.log": "ca5111bb022af9c662b67055347e56f233610d421e3ca5d7472ae865dcd954bc",
+        "regularized_TW.m": "f61784a1767bf05ec419f910fffa6f08834da736e8291fbd5343a18887436df4",
+        "TW13q-1.txt": "cc72275642bdfd875e4088686b10e0061ce41ed5fdd605c811bc8c0a85321a00",
+        "TW13q-2.txt": "e6f2d29ed5f7bc1f29ee6d77ec055880321c54e85e6dbdf56f4e16c1e33a35d4",
+        "TW13q0.txt": "4ea056e2e78acdc07b080a3e82dfb086a2ef17e5cbba3b6b58020b43c46245ae",
+        "tw_vfirst.mpl": "f06f6f2470594b57bce8cda5e57c785e97955477812336f8357f4cc0534f3e6e"
+      },
+      "member_inventory_sha256": "3c388137aa286733ab2cd6c0143cb36584435379aeae969fa18f15e9c0cb8592",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": [
+        "Original q1 start lacks q1 output and captured exit; cause is not established. The separate tw_words run completed the needed q1/q2 replacement."
+      ]
+    },
+    {
+      "family": "tgv-t4-empty",
+      "run": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T022306376097Z-tw_14",
+      "classification": "declared_maple_stage_completion_marker_exit_not_archived",
+      "maple_log_present": true,
+      "captured_maple_exit_code": null,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T022306376097Z-tw_14/maple.log",
+          "sha256": "25387f4985122eb515af02eea34fb3129398667d7d93c9f2aaa5327ebf448537",
+          "bytes": 226412,
+          "completion_markers": [
+            {
+              "line": 140,
+              "marker": "TW_COMPLETE",
+              "text": "TW_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "finished integration of variable s in 5.782 seconds, produced 336 terms",
+            "DONE TW14 q2 length1445 time249.078",
+            "TW_COMPLETE"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T022306376097Z-tw_14/environment.json",
+          "sha256": "b5ffff2e34b073038f4ffcdfd2ffd48440a994f85c86b65f84d248153face8b2",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-empty\\runs\\20260918T022306376097Z-tw_14\\tw_14.mpl": "7b87e9de2779ff1333323621cb974af0a8a19afd10aa8fd0c970f4894b2894b8",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        }
+      ],
+      "member_count": 14,
+      "member_sha256": {
+        "environment.json": "b5ffff2e34b073038f4ffcdfd2ffd48440a994f85c86b65f84d248153face8b2",
+        "inputTW14q-1.m": "c8c161747a1f78a0879da8ff181b9cc16624c1a55e366d3cb75fb40dcd27e669",
+        "inputTW14q-2.m": "7616fb2c91858c8364d61b4709fe35df64d5503698cbaab498ccc84e154a21d3",
+        "inputTW14q0.m": "6517c25b006baeab0b0d00b3caa52f0e34e2d38f425976b38f2f2a2efc1c5525",
+        "inputTW14q1.m": "bdab7fed4777bcb231e311de20099ae97bc6f86784a3a293c821fd25701d131a",
+        "inputTW14q2.m": "bcf49491323ea94210b4152d76c022939b4429edb9ef84f1793746b638d7a054",
+        "maple.log": "25387f4985122eb515af02eea34fb3129398667d7d93c9f2aaa5327ebf448537",
+        "regularized_TW.m": "f61784a1767bf05ec419f910fffa6f08834da736e8291fbd5343a18887436df4",
+        "TW14q-1.txt": "7fb05b73b322aef415dbb2dfe7bbd1755330a457268b8bc370fa44a2515861cb",
+        "TW14q-2.txt": "e23d0e43e4259e3db5fd637b1b251cc9c821ec1af43f18146eccce4a29064e69",
+        "TW14q0.txt": "ae170fc0cc13817ddbbceb1fcead7ec04bce3d886682300845987bfe8bfca664",
+        "TW14q1.txt": "e53528e9265c25cf263db47e87101dd2d06f01f3c478c95f4a5115d6af78a84a",
+        "TW14q2.txt": "7336c52b4b945bab3f58bd0290947663fb25a59c064fd3a4afcf57050a31533f",
+        "tw_14.mpl": "7b87e9de2779ff1333323621cb974af0a8a19afd10aa8fd0c970f4894b2894b8"
+      },
+      "member_inventory_sha256": "13756ac772a2ce836cb04a7f7308ec20c499753b4d90b5dea5a6a2dad7e0347c",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t4-empty",
+      "run": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T022306490076Z-tw_15",
+      "classification": "declared_maple_stage_completion_marker_exit_not_archived",
+      "maple_log_present": true,
+      "captured_maple_exit_code": null,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T022306490076Z-tw_15/maple.log",
+          "sha256": "90fc216ef57a8530e153301b523dcdcb0aadf1bdca723a8922b9173b7aa868b9",
+          "bytes": 226423,
+          "completion_markers": [
+            {
+              "line": 140,
+              "marker": "TW_COMPLETE",
+              "text": "TW_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "finished integration of variable s in 13.063 seconds, produced 1131 terms",
+            "DONE TW15 q2 length2123 time248.437",
+            "TW_COMPLETE"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T022306490076Z-tw_15/environment.json",
+          "sha256": "09213903c82fba0054abd413c39ad5f491ada5548a51dd9e026e428b1ab0b8d4",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-empty\\runs\\20260918T022306490076Z-tw_15\\tw_15.mpl": "979826ae6ceba9e2fa108678129dd134b13096afbb33dd172e4e58955d183077",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        }
+      ],
+      "member_count": 14,
+      "member_sha256": {
+        "environment.json": "09213903c82fba0054abd413c39ad5f491ada5548a51dd9e026e428b1ab0b8d4",
+        "inputTW15q-1.m": "c76b4566ee122743586cf0add7dada220b0d2c9499312df9ec031031a2bb843e",
+        "inputTW15q-2.m": "7616fb2c91858c8364d61b4709fe35df64d5503698cbaab498ccc84e154a21d3",
+        "inputTW15q0.m": "86bc7193378a23eec568125a6eb27465ffcbd1dfa0a9ed6b27b8701aa619b665",
+        "inputTW15q1.m": "4f836b5a2f7530f6420f969f15c4093d6e1dc695dc1e6e36e6fbbed95c1f9192",
+        "inputTW15q2.m": "ba52023c140905829104a3b2d89d0f74b689c5af86b82d73103af0b60e9c0bb7",
+        "maple.log": "90fc216ef57a8530e153301b523dcdcb0aadf1bdca723a8922b9173b7aa868b9",
+        "regularized_TW.m": "f61784a1767bf05ec419f910fffa6f08834da736e8291fbd5343a18887436df4",
+        "TW15q-1.txt": "0ae190cd12815d7f9523e086c9ed7065e2d787c7d795821d71769f11b91db03c",
+        "TW15q-2.txt": "0e573f753c75cc1034400337cffaaa6b3968801954583e934dce2a136c3bc9a2",
+        "TW15q0.txt": "22cb31291836c99f16e40b9ef378e9ea93a876f14b4a711a548460ea8dfa401e",
+        "TW15q1.txt": "dffbd7dc84f405d7d4064bedae75cfdd2a4250b360284eb6fce007b7dbac4932",
+        "TW15q2.txt": "91c0b39efed501cf6c0b7805eb81f57f40e2ae920c0233a421fda3650f92ae9f",
+        "tw_15.mpl": "979826ae6ceba9e2fa108678129dd134b13096afbb33dd172e4e58955d183077"
+      },
+      "member_inventory_sha256": "6b9c48d5f67e4ede83d5c94bbd7579c0c5803f4c2925798ca7c393aba3200372",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t4-empty",
+      "run": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T022531083919Z-tw_words",
+      "classification": "declared_maple_stage_completed_with_captured_zero_exit",
+      "maple_log_present": true,
+      "captured_maple_exit_code": 0,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T022531083919Z-tw_words/maple.log",
+          "sha256": "9ec46aa9645d791c71f9d08aa0f7f58631a8b35b0fa21634052d319f7262bbda",
+          "bytes": 4361,
+          "completion_markers": [
+            {
+              "line": 73,
+              "marker": "TW_WORDS_COMPLETE",
+              "text": "TW_WORDS_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "finished integration of variable s in 8.203 seconds, produced 1131 terms",
+            "DONE WORD 15 q2 length2123 time654.953",
+            "TW_WORDS_COMPLETE"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T022531083919Z-tw_words/environment.json",
+          "sha256": "ebf422c6861713607e46c2fcad05fc6761a536b13c7c80938bb92070e8c1af4d",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-empty\\runs\\20260918T022531083919Z-tw_words\\tw_words.mpl": "2a181fce583d708fb5b1088f5fc3cbb3caa2705313dfe9de39c7b70c1530073a",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T022531083919Z-tw_words/exit.json",
+          "sha256": "f375c6415fceb790af52fa543d524adecafaf0e04796f9277de6806063334a8f",
+          "payload": {
+            "process_exit_code": 0,
+            "seconds": 465.4406793117523,
+            "end_utc": "2026-09-18T02:33:16.616071+00:00"
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T022531083919Z-tw_words/process.json",
+          "sha256": "4daa91a9e2eb621bdd4f7a03867ce9aa389b40b27dff727a49033c5761da05c6",
+          "payload": {
+            "maple_pid": 17456,
+            "start_utc": "2026-09-18T02:25:31.186952+00:00"
+          }
+        }
+      ],
+      "member_count": 13,
+      "member_sha256": {
+        "environment.json": "ebf422c6861713607e46c2fcad05fc6761a536b13c7c80938bb92070e8c1af4d",
+        "exit.json": "f375c6415fceb790af52fa543d524adecafaf0e04796f9277de6806063334a8f",
+        "maple.log": "9ec46aa9645d791c71f9d08aa0f7f58631a8b35b0fa21634052d319f7262bbda",
+        "process.json": "4daa91a9e2eb621bdd4f7a03867ce9aa389b40b27dff727a49033c5761da05c6",
+        "TW13q1.txt": "1640b65d6b68c462c6e88d194c80b13770c14aba6637c926320855116f955bc6",
+        "TW13q2.txt": "8580defab07cae4947f2480df13940c7e35e2186559e3c75358579d7b64f5f47",
+        "TW14q2.txt": "f681753226bf338a48261c54b3d0108cbfe9a0d8dc70d7ff743d91fc3850e231",
+        "TW15q2.txt": "882c5ae1b73377938ea458347be7e4c4198b7b1b792dbc2543c9a216b3ffe9da",
+        "tw_words.mpl": "2a181fce583d708fb5b1088f5fc3cbb3caa2705313dfe9de39c7b70c1530073a",
+        "words13q1.m": "00fe82b3ca49afb8be2538b912e5f36e1792f993d0529b57c334d23154140753",
+        "words13q2.m": "e247c7608aeada0ef70b39442a7bdaadb65a791f0db3075524dfad36c3fc7318",
+        "words14q2.m": "12c14e27f3e13d2206195a28ff696e22f22c8218917ce258a7a3dd5a05c4d2a0",
+        "words15q2.m": "2fd2f625029c3916e8fa308c95225f4dc81f6f874f3276dd4b27b88dc38b0baf"
+      },
+      "member_inventory_sha256": "5d1b7e25977f9489968113bd5ceda22c04c4c87809cd363bb8554ee963831332",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t4-empty",
+      "run": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40",
+      "classification": "declared_maple_stage_completed_with_captured_zero_exit",
+      "maple_log_present": true,
+      "captured_maple_exit_code": 0,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/maple.log",
+          "sha256": "44ae8ac404f93616dd86a58d60dd902e3afa02e9cffe545fc907d1015bfbc337",
+          "bytes": 954,
+          "completion_markers": [
+            {
+              "line": 32,
+              "marker": "ASSEMBLY_COMPLETE",
+              "text": "ASSEMBLY_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "I 40 q-1 len900 time2.671",
+            "I 40 q0 len1993 time2.765",
+            "ASSEMBLY_COMPLETE"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/environment.json",
+          "sha256": "6fd36d0e1ac5abba48da043973f8b960ef40ab8beb462081c7474fcdbc409db5",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-empty\\runs\\20260918T023134199721Z-assemble_13_14_15_40\\assemble_13_14_15_40.mpl": "3670967f464a8a4ff74cf7c67624f40affd7c4e93e92906d7631a2c410b2f103",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/exit.json",
+          "sha256": "cb8604f8985c6d01e8bdcf17c3ee5cfb277d7411c34287c4660009e2778298b1",
+          "payload": {
+            "process_exit_code": 0,
+            "seconds": 2.868666887283325,
+            "end_utc": "2026-09-18T02:31:37.158276+00:00"
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-empty/runs/20260918T023134199721Z-assemble_13_14_15_40/process.json",
+          "sha256": "569a3664ea32635709c2a982b0866135a2efed5eab9200bc9b2b9efe079e2da1",
+          "payload": {
+            "maple_pid": 23656,
+            "start_utc": "2026-09-18T02:31:34.301417+00:00"
+          }
+        }
+      ],
+      "member_count": 53,
+      "member_sha256": {
+        "assemble_13_14_15_40.mpl": "3670967f464a8a4ff74cf7c67624f40affd7c4e93e92906d7631a2c410b2f103",
+        "environment.json": "6fd36d0e1ac5abba48da043973f8b960ef40ab8beb462081c7474fcdbc409db5",
+        "exit.json": "cb8604f8985c6d01e8bdcf17c3ee5cfb277d7411c34287c4660009e2778298b1",
+        "I13q-1.txt": "2a952d2fe54a9021ba95a0f1a8c75aa61a703160218f9d4a02f49c509b763243",
+        "I13q-2.txt": "5da60048f3541eecd7504a765f0d8c4246a19409a46be17ac1289211a26c6282",
+        "I13q-3.txt": "6a9e05438f942fb97258e74eaa6b1393c88b99946f91aa535be72eddfed2714e",
+        "I13q-4.txt": "6f644c256afd824610147dfd33a5c880e28aa90d4f63b9ec116b70b710250dd6",
+        "I13q-5.txt": "2453eac28c9a5f92b21c07501d870a54b43dab9edb5e5fbb55ca25d7c9fbaf10",
+        "I13q-6.txt": "7585cc75d5f8e72613034ce9690ff4250d89a9a0252438c89948c449d2834f47",
+        "I13q0.txt": "6f8727b61d1837b80f3eedeb9c7177b9d8f883b6175d714d0640f9c4aa8b0efe",
+        "I14q-1.txt": "1c667b8bdc7dc996a0511fd43c401600de35d5be3537de37386c76d4dbc6b3e0",
+        "I14q-2.txt": "4bd74c631e9602af4f0cd3ee01cb89f749d06b8ceb106fb389ff0995c9d35827",
+        "I14q-3.txt": "7208d31ca93f5d0cc14976d88774a6bebfebd97e04e2ed661d95158085ea4689",
+        "I14q-4.txt": "7b97b9b2d1bfdd69faa2899a2b5c55d82cf8f8343f0ab37d0a1223bed0b0395b",
+        "I14q-5.txt": "458021ada7c181874edd25d10a28536d1b4393a188801ccd4b44ee6b1132c064",
+        "I14q-6.txt": "32c307555e36eb4d8f31f28f716a5a1a3e74a1421fc09982022321097a8f1707",
+        "I14q0.txt": "e0475a653c96e21be7f99dd6fe616d6d962607bc301ffa89d681d28b420e7f93",
+        "I15q-1.txt": "3e458be86f2d1a3860a0e585cfb18eb650c81e41739afa556944d6ff66120aa8",
+        "I15q-2.txt": "52bf575e76bfbe503e26884ad747ecb7811b29eaaf9273a386645fadf076da02",
+        "I15q-3.txt": "f8071d6e3577b155de7d36e12c5faa710c823af8631e242f170bdb4a762119dc",
+        "I15q-4.txt": "dc9832269312bdfc1d12bbe4b3814fbf7b87a213e80191d1aa81125c0e9c77b3",
+        "I15q-5.txt": "a20eadaebd9d8de2a805ee680d3677cc8aad61a9be72206313a1dfa56eeb669b",
+        "I15q-6.txt": "71588477fb3507271156ef50b17b3c4340abf24e182c3371473916d6077599d2",
+        "I15q0.txt": "8608c1a04da55ace105f19b716e25e0248df12d6ea4ada44836c65388afb5637",
+        "I40q-1.txt": "2774b3f7be15e48fc0204794011b318d2526f9ca3d817db861c3ab7c92679fe7",
+        "I40q-2.txt": "60d2954210907e4e9c28159430217064708924fc9a3cf6fbb01f2722038127f0",
+        "I40q-3.txt": "ea8b13e72c69d2543ea1d528ae18643822afda752d36b4abde58547f076617ca",
+        "I40q-4.txt": "1243998e7e1b3902375f776de7e5c4d802d9bdf4ee5114441c15fca8ca3c0879",
+        "I40q-5.txt": "bd72ca48759c56425faa032c400971ec34422bb5716dcc3ffbd98dd6d304b831",
+        "I40q-6.txt": "984947af3b74db3e922e62894b7de7669eb72419c02d327aec8f50a7abfea074",
+        "I40q0.txt": "d5cea083b3a1983cc3646884421ed1b149ed1bdd3f92e85247d25da69ad350bb",
+        "maple.log": "44ae8ac404f93616dd86a58d60dd902e3afa02e9cffe545fc907d1015bfbc337",
+        "process.json": "569a3664ea32635709c2a982b0866135a2efed5eab9200bc9b2b9efe079e2da1",
+        "Q13q-1.txt": "5d6201e31d5dcc386bc7c26984355174e31c852afd909eb9585103ea31ff71ff",
+        "Q13q-2.txt": "2b5bb969cbf1e4e09e889db3b95916f8104eee473c12a6d418595148ff5be713",
+        "Q13q0.txt": "88e0160fb10e6b5b2673616a09c8e875dc28180fd6901f5c8707f916c965c9b0",
+        "Q13q1.txt": "aec9d81d8d50109696318e7b82ed6297e03531dfb62a53cc4ca47f7fbeaba4af",
+        "Q13q2.txt": "c6821b8a920b6fecfc5171019d2ed0498f11b611ee33a924a466bbd95ed346bc",
+        "Q14q-1.txt": "a0bd4e764a78a5cdbb74d70375428be6f88ec162a6f50a733f9c4ad571143ccb",
+        "Q14q-2.txt": "f87e69e37dab14fb9ee1e898c7698c0163868951ab453d486c7ef0acaa3d319f",
+        "Q14q0.txt": "f13ea36c129053ad638b9f1032f49591511d105a7bd797a6ca445d97aebdb3eb",
+        "Q14q1.txt": "0de35fbb163b82d9681ae1a6d9168b70b78e480edb8a88a6c17ab4e2fdca22f9",
+        "Q14q2.txt": "216b04caa800ce91947d9acfaed3521f737010966cf47a75858f457435f10b82",
+        "Q15q-1.txt": "27ab9814908a5209c4e2c036686dc3117e2407d3e0b8b0035c491c89c546a2ad",
+        "Q15q-2.txt": "ef3677ee08d9787df2410b9ba1d2480246a13c20fd6dbc10b1089b3184ce626d",
+        "Q15q0.txt": "93475a80ed89a25f903ed8464d161b81f0aed6ecbf489b790d912d802ca4ef10",
+        "Q15q1.txt": "bcc698f8a2ea3c121a8fbe17ff88a54bac1735111cd7e1956a0eae7cc5297ba8",
+        "Q15q2.txt": "c5ae7578621051d48154e0cc84115d3b2de2eb2ffaaef2018cd723737b81dd4b",
+        "Q40q-1.txt": "46463892e9aaa95725162c339b532c81064ebfb6fff5893b18823cbf62b951e6",
+        "Q40q-2.txt": "ca162242f40fa01b823190bf5faadbdeb0e54e2c63af1f925c562ba5d5285d23",
+        "Q40q0.txt": "9c78502f87d9e3d4540c1ba004b44dd1ea8bd511459e6f976e2a3c6d3cf4b39f",
+        "Q40q1.txt": "7c62c25166351f9cd1dc15dc2407549bb780b120ce4ffe71330403899a24a2ff",
+        "Q40q2.txt": "b39d8762bce7b5c4c3e4e29ffe99ca38b0d6985645d91a587160f31aa36f3ea7"
+      },
+      "member_inventory_sha256": "9a7bb57b3b6640b47ae323b1d7f0812cf928a28358f473d3a6531d01465d5605",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": [
+        "The process completed but its historical relative-series budget omitted terms for six physical-I outputs. P6 consumes the raw Q jets and performs the corrected absolute convolution; process completion is not a mathematical correctness certificate."
+      ]
+    },
+    {
+      "family": "tgv-t4-opposite",
+      "run": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T032241443101Z-partial",
+      "classification": "declared_maple_stage_completed_with_captured_zero_exit",
+      "maple_log_present": true,
+      "captured_maple_exit_code": 0,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T032241443101Z-partial/maple.log",
+          "sha256": "537cd62d8fa66cf79eebca36e8cc6158d4249cdf61dfa9a3ca7548559cfe003f",
+          "bytes": 3013,
+          "completion_markers": [
+            {
+              "line": 50,
+              "marker": "PARTIAL_COMPLETE",
+              "text": "PARTIAL_COMPLETE sizes474 8861 time1.890"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "checking divergences after integration of scaledVar[1]",
+            "finished integration of variable scaledVar[1] in .15e-1 seconds, produced 5 terms",
+            "PARTIAL_COMPLETE sizes474 8861 time1.890"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T032241443101Z-partial/environment.json",
+          "sha256": "d299d4359c77eaecf3e0960fdc6bfea5f2f6e616fc4e65ac10003f10965205a8",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-opposite\\runs\\20260918T032241443101Z-partial\\partial.mpl": "1c506e7ae320f7a1108077e132f96cb3a7892596aef0384fd2ce72f2d5f602fc",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T032241443101Z-partial/exit.json",
+          "sha256": "fd054321c722398cd9dc5a8d49c97b5979ae982b1c400188e959167c7661ef33",
+          "payload": {
+            "process_exit_code": 0,
+            "seconds": 2.1441919803619385,
+            "end_utc": "2026-09-18T03:22:43.689468+00:00"
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T032241443101Z-partial/process.json",
+          "sha256": "dece605ad9820b5aa16b2e4a2d50fffb976f111de3ee6a59c542f746813e9f5e",
+          "payload": {
+            "maple_pid": 13980,
+            "start_utc": "2026-09-18T03:22:41.716275+00:00"
+          }
+        }
+      ],
+      "member_count": 17,
+      "member_sha256": {
+        "environment.json": "d299d4359c77eaecf3e0960fdc6bfea5f2f6e616fc4e65ac10003f10965205a8",
+        "exit.json": "fd054321c722398cd9dc5a8d49c97b5979ae982b1c400188e959167c7661ef33",
+        "Hpartial.txt": "08291991875922c67241f0c93363ff99b542e8b4ebae03609da31e2d08148e41",
+        "maple.log": "537cd62d8fa66cf79eebca36e8cc6158d4249cdf61dfa9a3ca7548559cfe003f",
+        "partial.mpl": "1c506e7ae320f7a1108077e132f96cb3a7892596aef0384fd2ce72f2d5f602fc",
+        "partial_kernel.m": "122e9a1b4b6003cafd085864f29187a11b42d5b5eb07acaeb9f8df81b26a00a5",
+        "partialH.m": "26ca1d3c80fad98263a42cff1d64821ee5e27ff89e2ff604634bbe8dbd29de99",
+        "partialR.m": "f7dafaa5b91be91ecb2c6f7d93c32dba66271ca6599d7f4e66283fa6072b224f",
+        "process.json": "dece605ad9820b5aa16b2e4a2d50fffb976f111de3ee6a59c542f746813e9f5e",
+        "Qpartial_0.txt": "e9a6d727b405fc8f6ad845ab14be8a3c9f08f5dd4e163b42c53a8c38a2cf9c63",
+        "Qpartial_m1.txt": "bf67ea06f71356b9fcb0bdacae3c866394b63097fc5bb945ee4f9b0a62b11d60",
+        "Rpartial-1.txt": "50c114fa7f8d7553395edcecb39d05caf5cc81e8e903461a61c6af01d05d03a6",
+        "Rpartial0.txt": "8dfd086068c27a31adabcf827f4b4e6ec4e3ce33dee01641282d029003e2cb6d",
+        "Y0q0.txt": "6afc5358bc836f666c653bf00599a173c475fec351723e2833d49537e0cddc17",
+        "Y0q1.txt": "076eebff5dd413295e1efa1d4ad8ed81827495e31a74020a55bf6dcbb1f584db",
+        "Y1q0.txt": "5efd815343cabe1861b4ddbf3b5493934e1d67a13998e13a006c5173eae7eb61",
+        "Y1q1.txt": "882a9085fab16a352292761f94e1a946d06ea2d05ff55b978895339acd06c141"
+      },
+      "member_inventory_sha256": "afdd093cdd2f578f0da32eef16609cf4b6ee891cd86d71495bf44fd7dcc299b5",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": [
+        "PARTIAL_COMPLETE is completion of the declared intermediate mother-kernel stage; it does not assert a complete physical-I Laurent solution."
+      ]
+    },
+    {
+      "family": "tgv-t4-opposite",
+      "run": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T032322455592Z-weights",
+      "classification": "declared_maple_stage_completed_with_captured_zero_exit",
+      "maple_log_present": true,
+      "captured_maple_exit_code": 0,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T032322455592Z-weights/maple.log",
+          "sha256": "73158b0cb85f2a3548833174cdda1fb706327b951c5a45f623e5a91869e9d1fa",
+          "bytes": 454,
+          "completion_markers": [
+            {
+              "line": 12,
+              "marker": "WEIGHTS_COMPLETE",
+              "text": "WEIGHTS_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "START W28 q1 time.562",
+            "DONE W28 q1 length1291 time.656",
+            "WEIGHTS_COMPLETE"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T032322455592Z-weights/environment.json",
+          "sha256": "64450e298a4d7cca5fe5281c3dd5134707d6260e797e4c0a2ef7e0a708271d9a",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-opposite\\runs\\20260918T032322455592Z-weights\\weights.mpl": "d5ba6df21b1415723349f1c82dc44b660caab956dca0353f0970be8e789cf7a2",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T032322455592Z-weights/exit.json",
+          "sha256": "bf905abe46a2e7b9eda3d93db96492cb6e623ce4bb35e5c247ef51a6656379fc",
+          "payload": {
+            "process_exit_code": 0,
+            "seconds": 0.6534385681152344,
+            "end_utc": "2026-09-18T03:23:23.189671+00:00"
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T032322455592Z-weights/process.json",
+          "sha256": "ce8f33a65b5a2b78ea5dff01766035cd1d148d085c7c9bbe593e557803421dc4",
+          "payload": {
+            "maple_pid": 25724,
+            "start_utc": "2026-09-18T03:23:22.541471+00:00"
+          }
+        }
+      ],
+      "member_count": 10,
+      "member_sha256": {
+        "environment.json": "64450e298a4d7cca5fe5281c3dd5134707d6260e797e4c0a2ef7e0a708271d9a",
+        "exit.json": "bf905abe46a2e7b9eda3d93db96492cb6e623ce4bb35e5c247ef51a6656379fc",
+        "maple.log": "73158b0cb85f2a3548833174cdda1fb706327b951c5a45f623e5a91869e9d1fa",
+        "process.json": "ce8f33a65b5a2b78ea5dff01766035cd1d148d085c7c9bbe593e557803421dc4",
+        "W27q0.txt": "a713de82fccdfd9f92ea72190d2896d092a2e8c5ac114381ee7dc010b07fef68",
+        "W27q1.txt": "3666b48ee04b0edd284854d9b01e76f667737be4ef52a987c85b3474dc057eb2",
+        "W28q0.txt": "a8b715ce09046bfb553895c949ccfa258ac12135a1e162fa9d837c4e4eea3c59",
+        "W28q1.txt": "98950754b387fb725fdeed5ae679da2988024701d9aebfa8772a52d96dcc804c",
+        "weights.m": "d96d7cacdda1c30c438a80237c1fdce90fa1448ea0634010a3f3f996b764a981",
+        "weights.mpl": "d5ba6df21b1415723349f1c82dc44b660caab956dca0353f0970be8e789cf7a2"
+      },
+      "member_inventory_sha256": "bd72cce91fb47fa11987699184659badf30d4d91585c4ea263ef483fc05183e0",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t4-opposite",
+      "run": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T033008755636Z-outer28",
+      "classification": "declared_maple_stage_completed_with_captured_zero_exit",
+      "maple_log_present": true,
+      "captured_maple_exit_code": 0,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T033008755636Z-outer28/maple.log",
+          "sha256": "bb6c193faa75993f32df9d80bf478d842f55f0287d51d5657a786a7877d24c22",
+          "bytes": 1092,
+          "completion_markers": [
+            {
+              "line": 20,
+              "marker": "OUTER_COMPLETE",
+              "text": "OUTER_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "finished integration of variable v in 16.516 seconds, produced 1512 terms",
+            "DONE I28 length3193 time35.296",
+            "OUTER_COMPLETE"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T033008755636Z-outer28/environment.json",
+          "sha256": "d808d6a4284dd42816fc2cb6c12685682dc80b92778734275bb16f6c47a0b78a",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-opposite\\runs\\20260918T033008755636Z-outer28\\outer28.mpl": "8dc1f6d7a05a2d5bbe23dbcde5ef7a003223631f5f3ef7f0ed04a51c77d291c8",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T033008755636Z-outer28/exit.json",
+          "sha256": "2fce42eeac04a44c3ceaaae31baacdf542e47dfc37d3d4782d7e97c71e20d283",
+          "payload": {
+            "process_exit_code": 0,
+            "seconds": 31.747647047042847,
+            "end_utc": "2026-09-18T03:30:40.580227+00:00"
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T033008755636Z-outer28/process.json",
+          "sha256": "9ebc691806c9ca86e9b9ee6d9bfaed91b5ff73379fea2a8554379dbf71aad8dc",
+          "payload": {
+            "maple_pid": 23708,
+            "start_utc": "2026-09-18T03:30:08.839722+00:00"
+          }
+        }
+      ],
+      "member_count": 9,
+      "member_sha256": {
+        "environment.json": "d808d6a4284dd42816fc2cb6c12685682dc80b92778734275bb16f6c47a0b78a",
+        "exit.json": "2fce42eeac04a44c3ceaaae31baacdf542e47dfc37d3d4782d7e97c71e20d283",
+        "I28m1.txt": "5112b7cf7f40d3c6bf43f478d17df3a3dcba66b4225e4a1babb06377025ef5a8",
+        "I28zero.txt": "38f53967f241be8e0fd7c37004a51c6b1f164bc97872abde2fc7d0e609556a48",
+        "maple.log": "bb6c193faa75993f32df9d80bf478d842f55f0287d51d5657a786a7877d24c22",
+        "outer28.mpl": "8dc1f6d7a05a2d5bbe23dbcde5ef7a003223631f5f3ef7f0ed04a51c77d291c8",
+        "process.json": "9ebc691806c9ca86e9b9ee6d9bfaed91b5ff73379fea2a8554379dbf71aad8dc",
+        "V28m1.txt": "322121a60b6fe340dae0aceb4bf263dc9dabe0415ab161849d1ee255f6e764be",
+        "V28zero.txt": "30ce8cbe9be9d7d5bdcf957e3580b59cfa170fb15ad0993f2fb8c6cfedf76c3d"
+      },
+      "member_inventory_sha256": "752feb88b4bd2eed4e96cc20cfef8f4059e93fe134fc4b9143b2e5f3d7ff5c37",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t4-opposite",
+      "run": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034029006332Z-global_ibp",
+      "classification": "declared_maple_stage_completed_with_captured_zero_exit",
+      "maple_log_present": true,
+      "captured_maple_exit_code": 0,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034029006332Z-global_ibp/maple.log",
+          "sha256": "28a3c2b087aed8dc76f8cf55c69d6ab97ad519fd751b3d1054d8fb5b766754cc",
+          "bytes": 4183,
+          "completion_markers": [
+            {
+              "line": 67,
+              "marker": "GLOBAL_COMPLETE",
+              "text": "GLOBAL_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "finished integration of variable t in .594 seconds, produced 360 terms",
+            "DONE global id28 sizes459 3193 time117.843",
+            "GLOBAL_COMPLETE"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034029006332Z-global_ibp/environment.json",
+          "sha256": "299d1c238782166c099f8e848a9a24cf92d67f9a0f9e77088f675a7e2b1183b2",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-opposite\\runs\\20260918T034029006332Z-global_ibp\\global_ibp.mpl": "01293dd31db1b6cae5fb6354fac7b48d73720f096d198fb8ee7785525961cbd6",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034029006332Z-global_ibp/exit.json",
+          "sha256": "d6ada45fae2d1ccaf274108afbe49bf7e1fbc2cd17df8f62aa89837fe9f0bc71",
+          "payload": {
+            "process_exit_code": 0,
+            "seconds": 101.4895806312561,
+            "end_utc": "2026-09-18T03:42:10.564667+00:00"
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034029006332Z-global_ibp/process.json",
+          "sha256": "e1ec3a8d736fe974877c7cb706c9ce2fd5726940299548bf829846cf813ff692",
+          "payload": {
+            "maple_pid": 2516,
+            "start_utc": "2026-09-18T03:40:29.093402+00:00"
+          }
+        }
+      ],
+      "member_count": 22,
+      "member_sha256": {
+        "bulk27.txt": "e0dfe3281b7eadffcb221b2af1f482b4e90e90eb61179e9a685ed586b93d3dce",
+        "bulk28.txt": "f352cc4f2738670ad99d215b8528ed3ea031348cf0c53065cc7aa4877c1f43b3",
+        "CuspM.txt": "cb4e648eae8891f461c73973f1a35c33f17cd43284d1ff197da5bdd90b0a6618",
+        "CuspZ.txt": "10e643ea9815fe7342525aec85b722096437a603ac84f991875883b2446af97b",
+        "environment.json": "299d1c238782166c099f8e848a9a24cf92d67f9a0f9e77088f675a7e2b1183b2",
+        "exit.json": "d6ada45fae2d1ccaf274108afbe49bf7e1fbc2cd17df8f62aa89837fe9f0bc71",
+        "faceW28.txt": "84845c9fcc9e50a1ea60075206e13b7b816c668373d89b7b6964462dbbcc0ffe",
+        "faceX27.txt": "21472b11ae495be9156b1739ad429164c9e3ca3a698f8a394fe27fb85fc9bedd",
+        "faceX28.txt": "36e54de1c24c4c6965dc83a73cc3113795fa0befbb76943c384a38fbfe18637a",
+        "global_ibp.mpl": "01293dd31db1b6cae5fb6354fac7b48d73720f096d198fb8ee7785525961cbd6",
+        "Hleft.txt": "b1d2054c29884daae2c74ade03af6a6cd4fe0d149a71f003cd4e224c49933372",
+        "Htop.txt": "8db2b3d6b8f4b8e572d7d06f4fac38f211087468d07a29171ffed17334e95013",
+        "I27m1.txt": "038e7be1b89fb64b98e5772fa7dfd7861ee5c787a429bb40a328e4a0730c1c4e",
+        "I27zero.txt": "10fbf98150ed5ebdfa545a0259f9900f1214408a2268dedbe10438627c60ae09",
+        "I28m1.txt": "be8b90dd7b2621c022c2d1227ad4a0ee55a018593b47552d3b3e56b9ea8e4481",
+        "I28zero.txt": "3e0305f1ae303c2c73a8aa3fa80d775a2d96b818224b31418ff4046223662e20",
+        "maple.log": "28a3c2b087aed8dc76f8cf55c69d6ab97ad519fd751b3d1054d8fb5b766754cc",
+        "process.json": "e1ec3a8d736fe974877c7cb706c9ce2fd5726940299548bf829846cf813ff692",
+        "V27m1.txt": "468b0734181e032806981884c773c71f560481df07a7a714204807ff10f55a00",
+        "V27zero.txt": "259975f3641708d3e8a5404fe397cdc7576cfb5ab49571bf1e3b403523e32756",
+        "V28m1.txt": "d85b5a34e528786c5531b14a8ac69e3e58c74609947a984ff6cb6e0c407d7d07",
+        "V28zero.txt": "e1aad9599a62030b9ba7d7379f1659c6e6a75f258000d40adaac43f953a1e93f"
+      },
+      "member_inventory_sha256": "fa123b0168d07afaae2fef72513b4d3f45b875b663b7210763fcb2e5c3ae5149",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t4-opposite",
+      "run": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034133130688Z-omega_basis",
+      "classification": "declared_maple_stage_completed_with_captured_zero_exit",
+      "maple_log_present": true,
+      "captured_maple_exit_code": 0,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034133130688Z-omega_basis/maple.log",
+          "sha256": "ee7789416cb8d4a3ace77ab3ab7af8d629385be28e9087833b04a34ced7a0519",
+          "bytes": 252,
+          "completion_markers": [
+            {
+              "line": 4,
+              "marker": "OMEGA_COMPLETE",
+              "text": "OMEGA_COMPLETE lengths 772 2021 1386"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "Please post errors or suggestions on bitbucket.org/PanzerErik/hyperint",
+            "Loading periods from C:/Users/Lenovo/Documents/learning/work/hyperint/periodLookups.m",
+            "OMEGA_COMPLETE lengths 772 2021 1386"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034133130688Z-omega_basis/environment.json",
+          "sha256": "8f9326addee01818eb132d01cedb268497cf28f04b1998933f5e93b4ddaca5df",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-opposite\\runs\\20260918T034133130688Z-omega_basis\\omega_basis.mpl": "4ab5f71a8dc64ed22e27b7be983a280fec12496b82cd497c7eeeacace0e0c7ee",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034133130688Z-omega_basis/exit.json",
+          "sha256": "d4d677dc9d49ddac9569059ad05fcee58e18b3413a648b944853581b6eb5b5a3",
+          "payload": {
+            "process_exit_code": 0,
+            "seconds": 1.6133124828338623,
+            "end_utc": "2026-09-18T03:41:34.822866+00:00"
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034133130688Z-omega_basis/process.json",
+          "sha256": "51e71671b25a78195de5048f022fd3a0279369b9a399008d4b5b34b28044d021",
+          "payload": {
+            "maple_pid": 26008,
+            "start_utc": "2026-09-18T03:41:33.225496+00:00"
+          }
+        }
+      ],
+      "member_count": 10,
+      "member_sha256": {
+        "environment.json": "8f9326addee01818eb132d01cedb268497cf28f04b1998933f5e93b4ddaca5df",
+        "exit.json": "d4d677dc9d49ddac9569059ad05fcee58e18b3413a648b944853581b6eb5b5a3",
+        "maple.log": "ee7789416cb8d4a3ace77ab3ab7af8d629385be28e9087833b04a34ced7a0519",
+        "Omega6.txt": "095d1297c460c52f969a29828fc87bf4bfd578b6158612e42e9f71f2032139d1",
+        "omega_basis.m": "4a7fb18038083e2d41227ae1bb5598d79369caf372a28b0ba39f47dfc9f3969e",
+        "omega_basis.mpl": "4ab5f71a8dc64ed22e27b7be983a280fec12496b82cd497c7eeeacace0e0c7ee",
+        "Phi5.txt": "97df088f908a771faf7967ce1ef4fcefffc00e9db4f15dbc65cb060d1b6d778e",
+        "process.json": "51e71671b25a78195de5048f022fd3a0279369b9a399008d4b5b34b28044d021",
+        "residual28.txt": "332783d74e0357bd03fede3708230819c445ad7e4761e330a8d196542afb0425",
+        "Tprimitive.txt": "bbea8ce30c18be1734aacdd3fe094dc63ce9aa339c838aabbf18d0566ac7ee3c"
+      },
+      "member_inventory_sha256": "36b78c894f73f96db6f08931f7cae3090a45848b0cea56219fabaa0631941492",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t4-opposite",
+      "run": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034342239436Z-basis_reduce",
+      "classification": "declared_maple_stage_completed_with_captured_zero_exit",
+      "maple_log_present": true,
+      "captured_maple_exit_code": 0,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034342239436Z-basis_reduce/maple.log",
+          "sha256": "3ebc8a55872e76aad3e6f258ba577067829287d3d2d0115d95a0fdc6cd7e471a",
+          "bytes": 305,
+          "completion_markers": [
+            {
+              "line": 7,
+              "marker": "BASIS_REDUCE_COMPLETE",
+              "text": "BASIS_REDUCE_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "CONSISTENCY28 m1 0",
+            "CONSISTENCY28 zero 0",
+            "BASIS_REDUCE_COMPLETE"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034342239436Z-basis_reduce/environment.json",
+          "sha256": "acda20ac9c1799da686223905982b186185dc5add9331754c124590ac6e5030c",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-opposite\\runs\\20260918T034342239436Z-basis_reduce\\basis_reduce.mpl": "a4d5eaab7df2e257545567ed61ffba87653fa40d44e90b27784480e7320e58a9",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034342239436Z-basis_reduce/exit.json",
+          "sha256": "bfddc4bc6aef3103660b282560a0d25e94a69ae74dcd0e7b14196c7d5274823e",
+          "payload": {
+            "process_exit_code": 0,
+            "seconds": 0.36353254318237305,
+            "end_utc": "2026-09-18T03:43:42.673676+00:00"
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T034342239436Z-basis_reduce/process.json",
+          "sha256": "fb6ebcc21883f3aea206346cb80bead3375f7fb11afea6e396813dd54f2354c4",
+          "payload": {
+            "maple_pid": 19820,
+            "start_utc": "2026-09-18T03:43:42.325798+00:00"
+          }
+        }
+      ],
+      "member_count": 7,
+      "member_sha256": {
+        "basis_reduce.mpl": "a4d5eaab7df2e257545567ed61ffba87653fa40d44e90b27784480e7320e58a9",
+        "environment.json": "acda20ac9c1799da686223905982b186185dc5add9331754c124590ac6e5030c",
+        "exit.json": "bfddc4bc6aef3103660b282560a0d25e94a69ae74dcd0e7b14196c7d5274823e",
+        "maple.log": "3ebc8a55872e76aad3e6f258ba577067829287d3d2d0115d95a0fdc6cd7e471a",
+        "omega_coefficient27.txt": "d646e6c9490e1799291584a9861b5e7b8bd9b22e10467d8f080196f8c4ef4fa7",
+        "process.json": "fb6ebcc21883f3aea206346cb80bead3375f7fb11afea6e396813dd54f2354c4",
+        "residual27.txt": "d33d50da0d5be71089a45c986c3cbc691c6affd33ba42b6720ab3e90586b7369"
+      },
+      "member_inventory_sha256": "e496bb478e80789e5b003176cc9f3754a7ebf5d4fdf0ad95374f3b5785fea88b",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    },
+    {
+      "family": "tgv-t4-opposite",
+      "run": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T040923120691Z-cusp_export",
+      "classification": "declared_maple_stage_completed_with_captured_zero_exit",
+      "maple_log_present": true,
+      "captured_maple_exit_code": 0,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T040923120691Z-cusp_export/maple.log",
+          "sha256": "a543e2bafe38eec53d5b683728f6a6dcda3f2f0b20d6ef57c07b17f9d62f01a3",
+          "bytes": 236,
+          "completion_markers": [
+            {
+              "line": 4,
+              "marker": "CUSP_EXPORT_COMPLETE",
+              "text": "CUSP_EXPORT_COMPLETE"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "Please post errors or suggestions on bitbucket.org/PanzerErik/hyperint",
+            "Loading periods from C:/Users/Lenovo/Documents/learning/work/hyperint/periodLookups.m",
+            "CUSP_EXPORT_COMPLETE"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T040923120691Z-cusp_export/environment.json",
+          "sha256": "02c168d465821f2d6b174cd883bdf149f97b3f128d850ef0249c0f8e7a9acb0b",
+          "payload": {
+            "maple": "2025",
+            "source_hashes": {
+              "D:\\wilson-agent\\workflow\\checks\\tgv-t4-opposite\\runs\\20260918T040923120691Z-cusp_export\\cusp_export.mpl": "00ad0ec0e8e1a3b4d88d6cbf08983f28ea887aae3c8f6e1700d745dc804152d2",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T040923120691Z-cusp_export/exit.json",
+          "sha256": "d5db755c0639b10823857d76822d7ad8c874390b2fb9317f6e09daadd508d133",
+          "payload": {
+            "process_exit_code": 0,
+            "seconds": 0.37271785736083984,
+            "end_utc": "2026-09-18T04:09:23.571910+00:00"
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/tgv-t4-opposite/runs/20260918T040923120691Z-cusp_export/process.json",
+          "sha256": "17653f76879a931dd32bab1934cb6b6d5225721e2e8198504f38e8f8a2ab6aa4",
+          "payload": {
+            "maple_pid": 4372,
+            "start_utc": "2026-09-18T04:09:23.206542+00:00"
+          }
+        }
+      ],
+      "member_count": 7,
+      "member_sha256": {
+        "cusp_export.mpl": "00ad0ec0e8e1a3b4d88d6cbf08983f28ea887aae3c8f6e1700d745dc804152d2",
+        "CuspMnorm.txt": "f01d52fd9ccac15a9420eb8a2516d1c74efbe3629ba4fc94e81aaf9390b207ed",
+        "CuspZnorm.txt": "96f6df60a318f08af181b346456ddf8a9717f13b5adb20417cf4d3c5a6c810bf",
+        "environment.json": "02c168d465821f2d6b174cd883bdf149f97b3f128d850ef0249c0f8e7a9acb0b",
+        "exit.json": "d5db755c0639b10823857d76822d7ad8c874390b2fb9317f6e09daadd508d133",
+        "maple.log": "a543e2bafe38eec53d5b683728f6a6dcda3f2f0b20d6ef57c07b17f9d62f01a3",
+        "process.json": "17653f76879a931dd32bab1934cb6b6d5225721e2e8198504f38e8f8a2ab6aa4"
+      },
+      "member_inventory_sha256": "d45899f57909fdcd134d874ffef17f81720580d8782b4616efe2761afc73f3d1",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    }
+  ],
+  "related_correction_runs": [
+    {
+      "family": "recursion-5e-remainder",
+      "run": "snapshots/workflow/checks/recursion-5e-remainder/runs/20261008T134122677431Z-t4-budget",
+      "classification": "declared_maple_stage_completion_marker_exit_not_archived",
+      "maple_log_present": true,
+      "captured_maple_exit_code": null,
+      "attempt_status": null,
+      "logs": [
+        {
+          "path": "snapshots/workflow/checks/recursion-5e-remainder/runs/20261008T134122677431Z-t4-budget/maple.log",
+          "sha256": "e67a564c9a63c66fc9d2475ab8605e05dbcdbb77eee73e16f8c02da5ccc0e575",
+          "bytes": 455,
+          "completion_markers": [
+            {
+              "line": 10,
+              "marker": "COMPLETE_NEW_T4_BUDGET",
+              "text": "COMPLETE_NEW_T4_BUDGET"
+            }
+          ],
+          "error_or_failure_markers": [],
+          "last_nonempty_lines": [
+            "ACTUAL_OLD_SERIES_RANGE 15 -1 1",
+            "ACTUAL_OLD_SERIES_RANGE 40 0 2",
+            "COMPLETE_NEW_T4_BUDGET"
+          ]
+        }
+      ],
+      "status_files": [
+        {
+          "path": "snapshots/workflow/checks/recursion-5e-remainder/runs/20261008T134122677431Z-t4-budget/environment.json",
+          "sha256": "df66e1096c7d438501d116bd76782cc33d847ba771ec748fde2b23e42eb75f77",
+          "payload": {
+            "case": "t4-budget",
+            "run": "workflow/checks/recursion-5e-remainder/runs/20261008T134122677431Z-t4-budget",
+            "formal": "not_run",
+            "source_sha256": {
+              "D:\\wilson-agent\\workflow\\checks\\recursion-5e-remainder\\t4-budget.mpl": "85b0a8583affb68be7cad442a6b7278858a5f34beffe9a9d212ffc02535d2fe4",
+              "D:\\wilson-agent\\workflow\\checks\\recursion-5e-remainder\\t3-paths.mpl": "4d3e2d40b287feb5abfed8bed9853edffdd7e497e2fe2d1616ca4813c95ea805",
+              "D:\\wilson-agent\\workflow\\checks\\recursion-5e-remainder\\t4-geometry.mpl": "532d70bb8fb4b2b7fc270bd09ccea226cf8253bb578cce9d440e70c9873ee3a9",
+              "D:\\wilson-agent\\workflow\\checks\\recursion-5e-remainder\\t4-paths.mpl": "44c56f7e92988da1a754928f2da78d24210eeeb4b216747b8c68211f50963d5a",
+              "D:\\wilson-agent\\workflow\\checks\\recursion-5e-remainder\\t4-resume-paths.mpl": "5f6e7e4dd803221021de39851a22e29387e08f573e5a6c4ae03cb8594160709c",
+              "D:\\wilson-agent\\workflow\\checks\\recursion-5e-remainder\\t4-opp-paths.mpl": "1c244e3f9ae357bab45d2ac40bfcebdf1f93108501bbed3f8473c89880ecce37",
+              "D:\\wilson-agent\\workflow\\checks\\recursion-5e-remainder\\t4-lower.mpl": "4459bfef3bd5a8cbd939a50c68003fe73897e0be95c15613dc871f921d89113b",
+              "D:\\wilson-agent\\workflow\\checks\\recursion-5e-remainder\\t4-adj-paths.mpl": "c0e5bb072a2c5e0d86ec7abb9945ca75f34fb1ac68fbf83a07b703fbcd3b06cd",
+              "D:\\wilson-agent\\workflow\\checks\\recursion-5e-remainder\\t4-final-inputs.mpl": "721ea6dfb338a9f1995800360a2606210b0bfc702eec5298392e21ed9c1ce6ce",
+              "D:\\wilson-agent\\workflow\\checks\\recursion-5e-remainder\\parent-probe-paths.mpl": "64c1acb9b857e0e2e65b8f93acc78571d95afa9f98702a498b6e03344347db99",
+              "D:\\wilson-agent\\workflow\\checks\\recursion-5e-remainder\\t4-budget-inputs.mpl": "0de72da43c4824aa87cb4395ff620ae256aa0bce30de7473d2201385f0911d3a",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661",
+              "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+            }
+          }
+        },
+        {
+          "path": "snapshots/workflow/checks/recursion-5e-remainder/runs/20261008T134122677431Z-t4-budget/process.json",
+          "sha256": "b7bddcddbf9c7da652d9ab39678269327e3aa96b5b3b212d3e0b344200db731f",
+          "payload": {
+            "returncode": 0,
+            "complete_marker": "COMPLETE_NEW_T4_BUDGET",
+            "success": true,
+            "log_sha256": "e67a564c9a63c66fc9d2475ab8605e05dbcdbb77eee73e16f8c02da5ccc0e575"
+          }
+        }
+      ],
+      "member_count": 84,
+      "member_sha256": {
+        "Correct13q-1.txt": "ff097663edca0c4a24c27c4133b38a9a97c6c5da9887b11dd658585fe7e7e0d3",
+        "Correct13q-2.txt": "f64a10cf80967f3040d45ca8aa7428b07aa761625625145a9e8dae3471c88708",
+        "Correct13q-3.txt": "2fb7dcc1df49f80ec90220906ada6e12899ce1ce858321b04e4acc8c55e0a42d",
+        "Correct13q-4.txt": "cd24f036e212069f5da2798d385cb1020662602d8e3dc691863843690850d0e5",
+        "Correct13q-5.txt": "94acc93a6cbb2ab5df94b4c897d5d27d8cd6cbd9f9bf5f9a40b2180e6abd41e9",
+        "Correct13q-6.txt": "a0db87d5f214f4e5de6f4eedf8ad598713d2cc9b49660f402c4de6734d28a864",
+        "Correct13q0.txt": "bf42d5f72dd46e9c2bc563006d4dbcf478ffbea95c1b2f4111a2e8c7847cf9eb",
+        "Correct14q-1.txt": "41311ea88108d26896361db2f986a665e326e0b87d3e5ca8cfef7b16b2c12c09",
+        "Correct14q-2.txt": "d556697542319308079323f2ebe3edca77528c8fab521207e687c36851987da0",
+        "Correct14q-3.txt": "6a33f979d3e41cce17dab5d6cff905a86b51f8da1126666203af71525c99ff4c",
+        "Correct14q-4.txt": "3ccd0b8d4f0722abf97cf57f028cff76c06d7d24d6645a1ee5ce373c3d6592f1",
+        "Correct14q-5.txt": "45c60f123e235452f623c0234ea7e82c9bbf051a1fad2ad50c33f80c3dcea78b",
+        "Correct14q-6.txt": "da9fa3ba5e0782b2f349b58f1705f45e1a1dc7320de9f48f97a38019410ad5ac",
+        "Correct14q0.txt": "b9c008653acacb8d2adf73f8b2bf4660a5c76613d7016f6c1f3ffc4439c3399d",
+        "Correct15q-1.txt": "97c0d275210176cefd97bae5da7c7493c10daa08028a0322492bd8ce47bc4c58",
+        "Correct15q-2.txt": "60205558f2597f0336520c4a6b1047ca7d7b773eb768553411f32723c24cb088",
+        "Correct15q-3.txt": "0732c70110bfb608ea4979588e1315f6f9c7954666716327283e797f398352ed",
+        "Correct15q-4.txt": "5adaf76b15db5c6bffe155719fec1b258e3831ffb3dc96d7bf27f47840ba64d3",
+        "Correct15q-5.txt": "ac254d2c48bae2346668b95f46c5d932ae7e8d48bc7193432e05c91589f90f4f",
+        "Correct15q-6.txt": "cc9c47c209a994979e2343068261ec99d207792417aa491e5f5fa9b82807943d",
+        "Correct15q0.txt": "1c198408e930e56da7dd35cb9dfbf17401a7e972c55f783a530afc35950e4757",
+        "Correct40q-1.txt": "7c83df9fd24733f0328e011a763404cfd1c8e30aa7b1808fc60e1039a2e14642",
+        "Correct40q-2.txt": "366a769185c8c581693617d5b362bf3fa7ad2a2fa13a27a478cf1ee85acbf17b",
+        "Correct40q-3.txt": "008346e84d002f44ccf2c9d11532492d2f252bfa6ea1306f93c1440fc727f89a",
+        "Correct40q-4.txt": "a48ae8a067bff7d9b11d87bd1b8c9cb02b0bc76f33555edefab99b33fdeee081",
+        "Correct40q-5.txt": "526a0a47ad14bdd6b4a4c3dae15dba5ac3d51e623f1349d733eb3051de41cf23",
+        "Correct40q-6.txt": "381deb134a9d3b6c48e203f4aa76bce4411889022263efb9a39fb2fdccd31da7",
+        "Correct40q0.txt": "4944243ee5b437034877d75c88d4fdb749d1d772d7cf3c9c40940069e79da519",
+        "CorrectEight-1.txt": "e87793ce339182099eaf0798877dfcde29581eb465b79a11fa1f391cb98f2778",
+        "CorrectEight-2.txt": "d3eb7ce25843f036ba3287505b204cd93527176223b9e95ac82a07103d81a893",
+        "CorrectEight-3.txt": "4c9a97b35752fdd43b62f5abbef58ea692655ead989dd6d0a83d8e9465e504a3",
+        "CorrectEight-4.txt": "5728276b58b6148caba587090eeaf1fe2715e3f2ac2f8262daf97c869355682c",
+        "CorrectEight-5.txt": "69e011292c819f20eedbee5c4d193d20eb191f6e10272c0670c6272bb3064478",
+        "CorrectEight-6.txt": "f3b05f16a743d8f5dd13504e8ef85e0f10c4d69de2d247d2129c2a4e9344366f",
+        "CorrectEight0.txt": "5dd1bcc6bd92c4d692977175316a7f468999e3aa6d4ed2f117742f9213da956b",
+        "environment.json": "df66e1096c7d438501d116bd76782cc33d847ba771ec748fde2b23e42eb75f77",
+        "maple.log": "e67a564c9a63c66fc9d2475ab8605e05dbcdbb77eee73e16f8c02da5ccc0e575",
+        "OldBudget13q-1.txt": "a188d1c89405f349820faa869280a2cdadac4d24728e122d93a1412996e1b588",
+        "OldBudget13q-2.txt": "7c03f1ebb362f3e0ff257f3d1d27348e503813dc13babbacde61fcad94a47b9e",
+        "OldBudget13q-3.txt": "ecf6fd7379d5c9010da3ec7918153d8435b1066a1560147533042839a94cc9e2",
+        "OldBudget13q-4.txt": "c1f92c3f53527fdce9db605798ca0e5c0372aa3e2c936114ea295c77c184646f",
+        "OldBudget13q-5.txt": "a1d1d18b8d69107ec1de28991979de96b6c9854a1d557869c34eb87ca31898bd",
+        "OldBudget13q-6.txt": "da4e808612cba06bde1e5d38b89b462e893be9cb9ea33836fea3775facc3d982",
+        "OldBudget13q0.txt": "3462f3c5ebb7f5bed7c709683de3716b220c8e7a25a95d26d6d6664ae6cb5938",
+        "OldBudget14q-1.txt": "d963f66727293d7b1175e053c7ecbd602ef873ed415f328350ea05e94ba0a7fc",
+        "OldBudget14q-2.txt": "d87c9d89a94d045f993fa1fe8f8e2ff423bed7b1fdb03efd735dfeb51737f9e3",
+        "OldBudget14q-3.txt": "1f7ffd9f060b4c4880d413986023cdd7d98d9d2f4e3d2833cf2693ec8da7ab30",
+        "OldBudget14q-4.txt": "e4df288e6229fb16499a0e71a233ee8666bed4fd12883d2f5f33bf1b2c14df4a",
+        "OldBudget14q-5.txt": "bace394d65450d82dc87b2da81643298c9b241e7328595ac4336cea8b5013186",
+        "OldBudget14q-6.txt": "96cf8e0aa3abebfb9b019e83472037d4d6d952ce96a49b50c899956ede952a6c",
+        "OldBudget14q0.txt": "efb7d665f610019392990f435f9a360f228f58ed39b0c53cc4786ef04573dd0e",
+        "OldBudget15q-1.txt": "7eaea8a6d8112c0aa18cfa51d9850e2f2eec679b049fd653fc7c9aaa9856eb78",
+        "OldBudget15q-2.txt": "584acdf98249e874a40c15b7abd40543d7fec5e8fe13d5c6631791700d420caf",
+        "OldBudget15q-3.txt": "d7bb13ff581833e97fc5e339905741dca01f36d215a6941b08474607421e164c",
+        "OldBudget15q-4.txt": "9864b5f8886e0b2ba4958a77ce87b407416e21330128681826207dc1a50efc2f",
+        "OldBudget15q-5.txt": "a5a8b5e40df4b92e57516dbda7ea5742a57fde50286d2dd1a6fdb85bbeaa4ca5",
+        "OldBudget15q-6.txt": "c297b7e0ed76ca3c5b847ebc5fcfd0f3ddfb2895be7255eae42ec9bc311257aa",
+        "OldBudget15q0.txt": "61308c3bc14d8301d1ad550b3c933dbbfe3ed97a64dc3365d6f038aa158c7a0c",
+        "OldBudget40q-1.txt": "957f9285ff5b2afbdcd0910380c55728152cfbbaf3591d0e75b0c662e0c2953b",
+        "OldBudget40q-2.txt": "7512afe94e3ac0dd0baa74618b72c9b66f8ab627b955e85f7311075634949870",
+        "OldBudget40q-3.txt": "238faca3d8b12dd6c8a2cbbb18e28939aa0c6ed592d10191007cdd67cf66799f",
+        "OldBudget40q-4.txt": "843a120a8d38980ec181b08335d1cdb1d3d676034dba4ed955475611979ef053",
+        "OldBudget40q-5.txt": "3553140389535bf215950baaed2c6aa946dde5b52e713751638b500942665392",
+        "OldBudget40q-6.txt": "8293944cd50a4bcbcf25044a6269457e839c6f5a03b5ae5ed6a7e3d39764f5e8",
+        "OldBudget40q0.txt": "09816058e39678260c4e389a3ee7ffda1a71addca495bae0ebf49431cf550280",
+        "OldBudgetEight-1.txt": "1307409985509a1b8246d454a416d7fbb6e734a49ab6de1790aba4329c648ec8",
+        "OldBudgetEight-2.txt": "bec0a72871f1a6b538ec6d6cb349e0108584e26637d19f7eb5fecfd766b56562",
+        "OldBudgetEight-3.txt": "24014db0d63f02056a28350fcd74f2f12ac2246c7735b0e6bd20ede47c92b227",
+        "OldBudgetEight-4.txt": "c845862b3767cd203aefdde01c50a3184c64428a7e0182c7e10b947016daf2a1",
+        "OldBudgetEight-5.txt": "ab6b5b62dee8ff0533a99cc9a220d2b00c14a0f938aec46d084bb8b4249a5d40",
+        "OldBudgetEight-6.txt": "7f54935decf3be7cfbb235d64ba70787c0bd7da20daea11e6d87d0a3a3d4ccee",
+        "OldBudgetEight0.txt": "c3dc3600a25d0d77d913d03ebdbcdc5fd42525a96461e28c06d92ffb317f28a4",
+        "parent-probe-paths.mpl": "64c1acb9b857e0e2e65b8f93acc78571d95afa9f98702a498b6e03344347db99",
+        "process.json": "b7bddcddbf9c7da652d9ab39678269327e3aa96b5b3b212d3e0b344200db731f",
+        "t3-paths.mpl": "4d3e2d40b287feb5abfed8bed9853edffdd7e497e2fe2d1616ca4813c95ea805",
+        "t4-adj-paths.mpl": "c0e5bb072a2c5e0d86ec7abb9945ca75f34fb1ac68fbf83a07b703fbcd3b06cd",
+        "t4-budget-inputs.mpl": "0de72da43c4824aa87cb4395ff620ae256aa0bce30de7473d2201385f0911d3a",
+        "t4-budget.mpl": "85b0a8583affb68be7cad442a6b7278858a5f34beffe9a9d212ffc02535d2fe4",
+        "t4-final-inputs.mpl": "721ea6dfb338a9f1995800360a2606210b0bfc702eec5298392e21ed9c1ce6ce",
+        "t4-geometry.mpl": "532d70bb8fb4b2b7fc270bd09ccea226cf8253bb578cce9d440e70c9873ee3a9",
+        "t4-lower.mpl": "4459bfef3bd5a8cbd939a50c68003fe73897e0be95c15613dc871f921d89113b",
+        "t4-opp-paths.mpl": "1c244e3f9ae357bab45d2ac40bfcebdf1f93108501bbed3f8473c89880ecce37",
+        "t4-paths.mpl": "44c56f7e92988da1a754928f2da78d24210eeeb4b216747b8c68211f50963d5a",
+        "t4-resume-paths.mpl": "5f6e7e4dd803221021de39851a22e29387e08f573e5a6c4ae03cb8594160709c"
+      },
+      "member_inventory_sha256": "84005f6e3090bd1357b8c42e4eb3724e4d4289bfc031e4dd65e27508636a3b55",
+      "contains_error_or_failure_logs": false,
+      "scope_notes": []
+    }
+  ]
+}

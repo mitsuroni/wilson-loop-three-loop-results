@@ -1,0 +1,350 @@
+{
+  "orbit_id": "5e-3g-05",
+  "family": "t2-empty",
+  "quantity": "I",
+  "laurent": {
+    "variable": "eps",
+    "lowest_stored_power": -6,
+    "highest_stored_power": 0,
+    "remainder": "O(eps)",
+    "coefficients": {
+      "-6": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/1152"
+          }
+        ]
+      },
+      "-5": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/288"
+          }
+        ]
+      },
+      "-4": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/144"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/256"
+          }
+        ]
+      },
+      "-3": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/72"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-11/1152"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/192"
+          }
+        ]
+      },
+      "-2": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/36"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/288"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/96"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "257/5120"
+          }
+        ]
+      },
+      "-1": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/18"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-153/640"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/144"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/48"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "61/768"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-19/3840"
+          }
+        ]
+      },
+      "0": {
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/9"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-1/480"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/72"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              2,
+              0
+            ],
+            "coefficient": "-119/2304"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/24"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-1/192"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-19/1920"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              3,
+              0,
+              0
+            ],
+            "coefficient": "36853/215040"
+          }
+        ]
+      }
+    }
+  },
+  "hlog_convention": {
+    "endpoint": "z",
+    "kernel": "dt/(t-a)",
+    "alphabet": [
+      0,
+      -1
+    ],
+    "period_generators": [
+      "zeta(2)",
+      "zeta(3)",
+      "zeta(5)"
+    ],
+    "domain": "z>0; real principal logarithms"
+  },
+  "primitive_inputs": [
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F0.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F1.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F2.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F3.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F4.txt",
+    "snapshots/workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F5.txt"
+  ],
+  "epsilon_budget": {
+    "gamma_and_beta_through": 6,
+    "F_through": 5,
+    "Z_through": null,
+    "explicit_denominator_powers": [
+      6,
+      5,
+      4
+    ],
+    "remainder": "O(eps) at fixed z>0"
+  },
+  "normalization": {
+    "I_bridge": "(1-2eps)*G/8*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+    "G": "exp(-3*EulerGamma*eps)*Gamma(1-eps)*Gamma(1-2eps)",
+    "c4_orbit_multiplicity": 4,
+    "euler_compensation_count": 1,
+    "native_assembly_sign": 1,
+    "full_color_reduction": "CF = CA^2*CF - 2*CA*CF^2; select a1 after full reduction"
+  },
+  "reassembly": {
+    "method": "exact Gamma/Beta jet and shuffle arithmetic from saved evaluated primitives",
+    "new_cold_integration": false,
+    "formal": "not_run",
+    "final_I_reference_read": false
+  },
+  "full_epsilon_relation": {
+    "equals": "5e-3g-04",
+    "scope": "full physical I from ordered-source reflection; z fixed",
+    "edge_map": {
+      "1": 2,
+      "2": 1,
+      "3": 4,
+      "4": 3
+    },
+    "alpha_map": {
+      "alpha1": "alpha3",
+      "alpha2": "alpha2",
+      "alpha3": "alpha1"
+    }
+  },
+  "generation_binding": {
+    "path": "evidence/generation/generated.json",
+    "sha256": "8c466949db9cb4157d9d0037cfa0e7cbec555129508f9257d3a1309a1f6d4bfa",
+    "field": "/5e-3g-05",
+    "path_base": "packet root"
+  },
+  "verified_function_view": {
+    "source": "references/results/5e-3g-05.json",
+    "use": "postfreeze display only; independently back-substituted",
+    "coefficients": {
+      "-6": "1/1152",
+      "-5": "-1/288",
+      "-4": "(-32 + 9*pi**2)/4608",
+      "-3": "-(pi**2 + 11*zeta(3) + 16)/1152",
+      "-2": "(-5120 - 320*pi**2 - 640*zeta(3) + 257*pi**4)/184320",
+      "-1": "-(-1830*pi**2*zeta(3) + 960*zeta(3) + 19*pi**4 + 480*pi**2 + 7680 + 33048*zeta(5))/138240",
+      "0": "(-5160960 - 2399040*zeta(3)**2 - 322560*pi**2 - 12768*pi**4 - 645120*zeta(3) - 40320*pi**2*zeta(3) - 96768*zeta(5) + 36853*pi**6)/46448640"
+    },
+    "basis_definitions": {},
+    "period_definitions": {},
+    "basis_source": null
+  }
+}

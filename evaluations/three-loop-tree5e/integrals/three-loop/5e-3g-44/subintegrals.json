@@ -1,0 +1,23 @@
+{
+  "primitive_inputs": [
+    "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+    "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+    "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt"
+  ],
+  "epsilon_budget": {
+    "physical_E_orders": null,
+    "known_M_indices": [
+      0,
+      1,
+      2
+    ],
+    "analytic_multiplier_through": 0,
+    "explicit_denominator_power": 2,
+    "remainder": "O(eps) at fixed z>0"
+  },
+  "known_function_view": {
+    "-1": "-M_0_1*(2*M_0_1+M_1_1)/32",
+    "0": "-((4-zeta(2))*M_0_1^2+3*M_0_1*M_1_1+(M_0_1*M_2_1+M_1_1^2)/2)/32",
+    "status": "reassembled from separately evaluated existing M generators; no new family"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "orbit_id": "4e-Pi1-09",
+  "family": "Pi1-P4",
+  "representative": "4e-Pi1-04",
+  "relationship": {
+    "kind": "complete_normalized_I_equality",
+    "scope": "Full ordered kernel/domain and crossing/C4 bridge connects the paired source orbit to the representative; both source-orbit weights remain separate. Equality of current tables alone is not the bridge evidence.",
+    "evidence": [
+      "benchmarks/self-energy/pi1/workspaces/4e-Pi1-09/derivation.md",
+      "benchmarks/self-energy/pi1/four-endpoint-review.md",
+      "workflow/checks/self-energy-pi1-p4/exact-checks.json"
+    ]
+  },
+  "native_prepared": {
+    "path": "snapshots/benchmarks/current/prepared/3loop/4e-Pi1.json",
+    "sha256": "c66681daff1c054ef824984021cbfc4a1b95eb808a73ab64a95d2a6bea134e1e",
+    "field": "/orbits/8"
+  },
+  "native_raw": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-Pi1/montopar-initial.json",
+    "sha256": "30f470aef9c1ea3c181445f5225688d678a2addb999fe643cab502ddf1e02983",
+    "field": "/orbits/8"
+  },
+  "graph": {
+    "path": "inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+    "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+    "field": "/orbits/63",
+    "field_sha256": "a554027d4f4424d858549f22d71cd7f40d613fcafadaa016db52125e7e641271"
+  },
+  "selected_reference": {
+    "path": "benchmarks/self-energy/pi1/results/4e-Pi1-09/r002.json",
+    "sha256": "753efcab2092a5954ce44bc0b91f8880fc9e1943b7fed9648b75085165ad85d3"
+  },
+  "catalog_fields": {
+    "source": {
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-09/r002.json",
+      "sha256": "753efcab2092a5954ce44bc0b91f8880fc9e1943b7fed9648b75085165ad85d3"
+    },
+    "fields": [
+      {
+        "field": "/laurent/coefficients",
+        "powers": [
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ],
+        "value_types": [
+          "dict"
+        ]
+      }
+    ],
+    "note": "Declared fields and channels are preserved; no unproved interchange of representations or missing coefficient filled by inference."
+  },
+  "historical_assets": [
+    {
+      "path": "benchmarks/self-energy/pi1/workspaces/4e-Pi1-09/derivation.md",
+      "role": "derivation",
+      "sha256": "6ea250b429705cac8f7973213d7eb78c29a29322513e0689d2df0b227f3277ad",
+      "scope": "Per-orbit continuous derivation, domain, normalization, intermediate subintegrals and final result; read with current definitions.",
+      "inspection_note": "Read continuous Markdown; 114 lines; section sample: 4e-Pi1-09：I求解工作区; 固定输入; 本图计算与同组连接; 原域与端点降维; 完整I; Laurent系数; 验证与范围. Historical formulas retain their own revision and must be read with the current physical-convention bridge."
+    },
+    {
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-09/r002.json",
+      "role": "original_evaluation_output",
+      "sha256": "753efcab2092a5954ce44bc0b91f8880fc9e1943b7fed9648b75085165ad85d3",
+      "scope": "Current selected evaluated-result table; physical I or shared I_geom, not raw J. Original evaluations may be reused through a sign/representation revision.",
+      "inspection_note": "Selected by current catalog; byte hash verified. This selection itself is not fresh independent evaluation evidence."
+    },
+    {
+      "path": "benchmarks/self-energy/pi1/results/4e-Pi1-09/r001.json",
+      "role": "original_evaluation_output",
+      "sha256": "be0c164bf5d58a5837de92175e0950fd0d010753e89c28884df0558cf47d527f",
+      "scope": "Original immutable published result in its historical source/sign convention.",
+      "inspection_note": "Keep historical normalization and source hash. It must not be consumed as current physical I by guessing a family sign."
+    },
+    {
+      "path": "benchmarks/2ne/families/single-opposite/basis-functions.json",
+      "role": "representation_dictionary",
+      "sha256": "87ed09c33e6778ba48a0872d0f1c7b8f64eacde962fe7f51f502bc1311642029",
+      "scope": "Exact dependency named by the selected result; inherited older geometry/moment data, not a new independent integration.",
+      "inspection_note": "Current bytes match the historical dependency hash. Reuse is limited to its original quantity, domain and normalization."
+    },
+    {
+      "path": "benchmarks/2ne/families/single-opposite/basis.md",
+      "role": "derivation",
+      "sha256": "a36937f757b373e71c6873b7b59c33be64751a4d2101725cc8d7d3d41b3c2a84",
+      "scope": "Exact dependency named by the selected result; inherited older geometry/moment data, not a new independent integration.",
+      "inspection_note": "Current bytes match the historical dependency hash. Reuse is limited to its original quantity, domain and normalization."
+    },
+    {
+      "path": "benchmarks/self-energy/pi1/families/p4-opposite-bare/README.md",
+      "role": "derivation",
+      "sha256": "bf4f389c675c1974631d59a65593a63ba080bba4ab503d0821c064fdd14e1289",
+      "scope": "Family definition and current finite coefficient table; the family contains separately counted source orbits.",
+      "inspection_note": "Read continuous Markdown; 7 lines; section sample: P4：相邻SE与裸对边线. Historical formulas retain their own revision and must be read with the current physical-convention bridge."
+    },
+    {
+      "path": "benchmarks/self-energy/pi1/families/p4-opposite-bare/solutions.md",
+      "role": "derivation",
+      "sha256": "dfb4c4d58f349cf688fe5353d91d0970d4f1bf68ac930c7f3ca00f09a50c3c15",
+      "scope": "Family definition and current finite coefficient table; the family contains separately counted source orbits.",
+      "inspection_note": "Read continuous Markdown; 36 lines; section sample: P4：04/09的完整I与有限项（现行r002）; 4e-Pi1-04; 4e-Pi1-09. Historical formulas retain their own revision and must be read with the current physical-convention bridge."
+    },
+    {
+      "path": "workflow/checks/self-energy-pi1-p4/compute.py",
+      "role": "original_evaluation_code",
+      "sha256": "b501943de1da6f89a0b29cb979b3cb769b7a56f6da7b17c9a120912c0d3c7c04",
+      "scope": "Original exact evaluation: kernel/IBP/boundary reduction, Gamma expansion, existing moment substitutions and coefficient construction.",
+      "inspection_note": "Read imports and input/output operations. This historical producer can write/freeze results and is indexed only; never executed in P0."
+    },
+    {
+      "path": "workflow/checks/self-energy-pi1-p4/numeric.py",
+      "role": "verification_code",
+      "sha256": "5515d8cda906f9c0ae0737e1cb3964d5aa43f2a28eb5954ad87a69e9bb3e76eb",
+      "scope": "Original scoped numerical/source/delivery verification; not a replacement original evaluation.",
+      "inspection_note": "Read historical README for precision, non-certified quadrature and source scope."
+    },
+    {
+      "path": "workflow/checks/self-energy-pi1-p4/verify.py",
+      "role": "verification_code",
+      "sha256": "4561720ac78d64750e7fe64dd0abad7e929f77a911deb55c5fcbe95b3bc7486f",
+      "scope": "Original scoped numerical/source/delivery verification; not a replacement original evaluation.",
+      "inspection_note": "Read historical README for precision, non-certified quadrature and source scope."
+    },
+    {
+      "path": "workflow/checks/self-energy-pi1-p4/exact-checks.json",
+      "role": "verification_record",
+      "sha256": "6e0d6b8e6d7d21f14050f844148da562e04030b3b5d32897eea6de5a905df2a2",
+      "scope": "Actual recorded original exact/numerical check output; scope and counts from the original run.",
+      "inspection_note": "These structured records exist, but do not supply a shell process exit record or a full portable environment lock."
+    },
+    {
+      "path": "workflow/checks/self-energy-pi1-p4/numeric-checks.json",
+      "role": "verification_record",
+      "sha256": "b8fa4d40af7949c764dc477c3d2fceae75645fd159a66db9ab9c9b622ef3ed6f",
+      "scope": "Actual recorded original exact/numerical check output; scope and counts from the original run.",
+      "inspection_note": "These structured records exist, but do not supply a shell process exit record or a full portable environment lock."
+    },
+    {
+      "path": "workflow/checks/self-energy-pi1-p4/README.md",
+      "role": "derivation",
+      "sha256": "5489ddafe0f286a2749335b4f3f608dd7224aaf49ce9b49a431b12e8bf24117c",
+      "scope": "Original evaluation workflow, actual operations, checks and limitations.",
+      "inspection_note": "Read continuous Markdown; 7 lines; section sample: Π₁ P4计算记录. Historical formulas retain their own revision and must be read with the current physical-convention bridge."
+    }
+  ],
+  "source_to_I_status": "Current physical convention and original mathematical bridge retained; native preparation is distinct from evaluated I."
+}

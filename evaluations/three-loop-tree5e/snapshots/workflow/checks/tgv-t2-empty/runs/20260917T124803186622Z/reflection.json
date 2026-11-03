@@ -1,0 +1,163 @@
+{
+  "passed": true,
+  "pairs": [
+    {
+      "T2": "5e-3g-05",
+      "T1": "5e-3g-04",
+      "substitution_T2_in_T1_coordinates": {
+        "s31": "1 - s43",
+        "s32": "1 - s42",
+        "s33": "1 - s41",
+        "s41": "1 - s32",
+        "s42": "1 - s31",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1"
+      },
+      "ordered_domain_bijection": true,
+      "s_absolute_jacobian": "1",
+      "alpha_absolute_jacobian": "1",
+      "S_P_pure_equal": true,
+      "colour_and_C_equal": true,
+      "raw_J_ratio": 1,
+      "physical_I_ratio": 1
+    },
+    {
+      "T2": "5e-3g-06",
+      "T1": "5e-3g-03",
+      "substitution_T2_in_T1_coordinates": {
+        "s31": "1 - s43",
+        "s32": "1 - s42",
+        "s33": "1 - s41",
+        "s41": "1 - s32",
+        "s42": "1 - s31",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1"
+      },
+      "ordered_domain_bijection": true,
+      "s_absolute_jacobian": "1",
+      "alpha_absolute_jacobian": "1",
+      "S_P_pure_equal": true,
+      "colour_and_C_equal": true,
+      "raw_J_ratio": 1,
+      "physical_I_ratio": 1
+    },
+    {
+      "T2": "5e-3g-07",
+      "T1": "5e-3g-02",
+      "substitution_T2_in_T1_coordinates": {
+        "s31": "1 - s43",
+        "s32": "1 - s42",
+        "s33": "1 - s41",
+        "s41": "1 - s32",
+        "s42": "1 - s31",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1"
+      },
+      "ordered_domain_bijection": true,
+      "s_absolute_jacobian": "1",
+      "alpha_absolute_jacobian": "1",
+      "S_P_pure_equal": true,
+      "colour_and_C_equal": true,
+      "raw_J_ratio": 1,
+      "physical_I_ratio": 1
+    },
+    {
+      "T2": "5e-3g-08",
+      "T1": "5e-3g-01",
+      "substitution_T2_in_T1_coordinates": {
+        "s31": "1 - s43",
+        "s32": "1 - s42",
+        "s33": "1 - s41",
+        "s41": "1 - s32",
+        "s42": "1 - s31",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1"
+      },
+      "ordered_domain_bijection": true,
+      "s_absolute_jacobian": "1",
+      "alpha_absolute_jacobian": "1",
+      "S_P_pure_equal": true,
+      "colour_and_C_equal": true,
+      "raw_J_ratio": 1,
+      "physical_I_ratio": 1
+    },
+    {
+      "T2": "5e-3g-20",
+      "T1": "5e-3g-19",
+      "substitution_T2_in_T1_coordinates": {
+        "s21": "1 - s11",
+        "s31": "1 - s43",
+        "s32": "1 - s42",
+        "s33": "1 - s41",
+        "s41": "1 - s31",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1"
+      },
+      "ordered_domain_bijection": true,
+      "s_absolute_jacobian": "1",
+      "alpha_absolute_jacobian": "1",
+      "S_P_pure_equal": true,
+      "colour_and_C_equal": true,
+      "raw_J_ratio": 1,
+      "physical_I_ratio": 1
+    },
+    {
+      "T2": "5e-3g-21",
+      "T1": "5e-3g-18",
+      "substitution_T2_in_T1_coordinates": {
+        "s21": "1 - s11",
+        "s31": "1 - s43",
+        "s32": "1 - s42",
+        "s33": "1 - s41",
+        "s41": "1 - s31",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1"
+      },
+      "ordered_domain_bijection": true,
+      "s_absolute_jacobian": "1",
+      "alpha_absolute_jacobian": "1",
+      "S_P_pure_equal": true,
+      "colour_and_C_equal": true,
+      "raw_J_ratio": 1,
+      "physical_I_ratio": 1
+    },
+    {
+      "T2": "5e-3g-31",
+      "T1": "5e-3g-17",
+      "substitution_T2_in_T1_coordinates": {
+        "s11": "1 - s21",
+        "s31": "1 - s42",
+        "s32": "1 - s41",
+        "s41": "1 - s32",
+        "s42": "1 - s31",
+        "alpha1": "alpha3",
+        "alpha2": "alpha2",
+        "alpha3": "alpha1"
+      },
+      "ordered_domain_bijection": true,
+      "s_absolute_jacobian": "1",
+      "alpha_absolute_jacobian": "1",
+      "S_P_pure_equal": true,
+      "colour_and_C_equal": true,
+      "raw_J_ratio": 1,
+      "physical_I_ratio": 1
+    }
+  ],
+  "negative_cases_rejected": [
+    "missing_alpha_permutation",
+    "missing_order_reversal",
+    "flipped_P",
+    "changed_bound"
+  ],
+  "Gram_reflection": true,
+  "z_transformation": "z -> z",
+  "initial_domain": "z>0; 1/2<Re(eps)<1; absolute convergence permits the recorded order change",
+  "formal": "not_run",
+  "method": "exact change of variables, then meromorphic continuation; no new integration"
+}

@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "D:\wilson-agent\workflow\checks\tgv-t3-empty\verify_results.py", line 43, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "D:\wilson-agent\workflow\checks\tgv-t3-empty\verify_results.py", line 10, in main
+    delivery=ROOT/f.read(HERE/"current-delivery.json")["delivery"];manifest=f.read(delivery/"manifest.json")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\wilson-agent\workflow\checks\tgv-t3-empty\formulas.py", line 9, in read
+    def read(p):return json.loads(p.read_text(encoding="utf-8"))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\py\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\py\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\wilson-agent\\workflow\\checks\\tgv-t3-empty\\current-delivery.json'

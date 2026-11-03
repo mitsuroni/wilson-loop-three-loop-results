@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "original_roots": [
+    "22",
+    "23",
+    "24",
+    "25",
+    "44"
+  ],
+  "normalizations": 5,
+  "reflections": [
+    {
+      "target": "5e-3g-25",
+      "source": "5e-3g-22",
+      "substitution": {
+        "z1": "1/z1",
+        "alpha1": "alpha1",
+        "alpha2": "alpha3",
+        "alpha3": "alpha2",
+        "s11": "1 - s12",
+        "s12": "1 - s11",
+        "s31": "1 - s33",
+        "s32": "1 - s32",
+        "s33": "1 - s31"
+      },
+      "S_ratio": "1/z",
+      "P_ratio": "1/z^2",
+      "pure_f_ratio": "1/z",
+      "pure_lorentz_ratio": "1/z",
+      "J_relation": "J_target(z)=z^(3*eps)*J_source(1/z)",
+      "I_equal": true,
+      "absolute_Jacobians": [
+        1,
+        1
+      ]
+    },
+    {
+      "target": "5e-3g-24",
+      "source": "5e-3g-23",
+      "substitution": {
+        "z1": "1/z1",
+        "alpha1": "alpha1",
+        "alpha2": "alpha3",
+        "alpha3": "alpha2",
+        "s11": "1 - s12",
+        "s12": "1 - s11",
+        "s31": "1 - s33",
+        "s32": "1 - s32",
+        "s33": "1 - s31"
+      },
+      "S_ratio": "1/z",
+      "P_ratio": "1/z^2",
+      "pure_f_ratio": "1/z",
+      "pure_lorentz_ratio": "1/z",
+      "J_relation": "J_target(z)=z^(3*eps)*J_source(1/z)",
+      "I_equal": true,
+      "absolute_Jacobians": [
+        1,
+        1
+      ]
+    }
+  ],
+  "negative_cases_rejected": [
+    "missing_alpha_swap",
+    "missing_order_reversal",
+    "flipped_P",
+    "doubled_C"
+  ],
+  "factorized_44": {
+    "disjoint_domains": true,
+    "two_loop_S_P_scale_bridge": true,
+    "unique_I_expansion": true
+  },
+  "alpha_Jacobian": "1-a",
+  "density_moments": [
+    {
+      "n": 1,
+      "low_triangle": true,
+      "middle_rectangle": true
+    },
+    {
+      "n": 2,
+      "low_triangle": true,
+      "middle_rectangle": true
+    },
+    {
+      "n": 3,
+      "low_triangle": true,
+      "middle_rectangle": true
+    },
+    {
+      "n": 4,
+      "low_triangle": true,
+      "middle_rectangle": true
+    }
+  ],
+  "ordered_t_p_partition_probes": 3,
+  "pure_endpoint_primitive": true,
+  "coefficient_equalities": 14,
+  "23_uniform_weight": true,
+  "pole_orders": {
+    "22": 1,
+    "23": 1,
+    "24": 1,
+    "25": 1,
+    "44": 1
+  },
+  "formal": "not_run"
+}

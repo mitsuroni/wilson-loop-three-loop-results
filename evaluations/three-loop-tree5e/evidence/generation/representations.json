@@ -1,0 +1,3039 @@
+{
+  "format": "wilson-P6-representation-backsubstitution/1",
+  "arithmetic": "independent Fraction AST and shuffle implementation; no producer or SymPy imports",
+  "period_order": [
+    "zeta_2",
+    "zeta_3",
+    "zeta_5",
+    "log_2",
+    "A4",
+    "A6"
+  ],
+  "admitted_dictionary_reuse": {
+    "status": "reused evaluated dictionaries, not reintegrated",
+    "raw_M_sources": [
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+        "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+        "generator": "M_0_1"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_2.txt",
+        "sha256": "cd56e716a2f6ff5ffdb881802c666ce34650e2097bc006f41c85373024cbec79",
+        "generator": "M_0_2"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt",
+        "sha256": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+        "generator": "M_0_3"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_4.txt",
+        "sha256": "0e103345155d0d8cf29e95d5cb32549779b6c9ecf97b3ecd9ef4f5faea3bddd7",
+        "generator": "M_0_4"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_5.txt",
+        "sha256": "28e4f12e67372785789afc9a3164e3f6627d6452db4fc3deb1e229962c0a0674",
+        "generator": "M_0_5"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+        "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+        "generator": "M_1_1"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt",
+        "sha256": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f",
+        "generator": "M_1_2"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt",
+        "sha256": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+        "generator": "M_1_3"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_4.txt",
+        "sha256": "428adc3c5657bcaf9df5f7e05ac89a9ecb1ff35d9337f5949de3b3c6efd7a45b",
+        "generator": "M_1_4"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+        "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+        "generator": "M_2_1"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_2.txt",
+        "sha256": "b7cc73814d33c1d6e6474ed4d0ae774b2de1ea68ded05ba21861ba173e3bfced",
+        "generator": "M_2_2"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_3.txt",
+        "sha256": "4c217930ee68940afc732b722f77297b342ef7b2c444e713ba1c52ffbd8a5612",
+        "generator": "M_2_3"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt",
+        "sha256": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+        "generator": "M_3_1"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_2.txt",
+        "sha256": "7ada1deb03ef81b1bbb568e3c6c6b424d510a845a08e2f2a48141704ed845a9e",
+        "generator": "M_3_2"
+      },
+      {
+        "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_4_1.txt",
+        "sha256": "661bde1122a75bba0884f4e0251a1ff0e5be3b6897b89c2dd251793b45944624",
+        "generator": "M_4_1"
+      }
+    ],
+    "per_reference_basis_definitions": true
+  },
+  "orbits": {
+    "5e-3g-01": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 3
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 4
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 6
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 8
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": []
+    },
+    "5e-3g-02": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": []
+    },
+    "5e-3g-03": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": []
+    },
+    "5e-3g-04": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 3
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 4
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 6
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 8
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": []
+    },
+    "5e-3g-05": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 3
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 4
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 6
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 8
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": []
+    },
+    "5e-3g-06": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": []
+    },
+    "5e-3g-07": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": []
+    },
+    "5e-3g-08": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 3
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 4
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 6
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 8
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": []
+    },
+    "5e-3g-09": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 16
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 40
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 89
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-10": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 3
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 13
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 36
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-11": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 5
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 10
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 24
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 49
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-12": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 16
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 40
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 90
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-13": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 11
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 24
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 50
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ]
+    },
+    "5e-3g-14": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 11
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 24
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 50
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ]
+    },
+    "5e-3g-15": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 5
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 11
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 24
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 50
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ]
+    },
+    "5e-3g-16": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 5
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 16
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 40
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 89
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-17": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 4
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 7
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 11
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": [
+        "ell"
+      ]
+    },
+    "5e-3g-18": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 3
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 4
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": [
+        "ell"
+      ]
+    },
+    "5e-3g-19": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 3
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 7
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 10
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": [
+        "ell"
+      ]
+    },
+    "5e-3g-20": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 3
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 7
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 10
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": [
+        "ell"
+      ]
+    },
+    "5e-3g-21": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 3
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 4
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": [
+        "ell"
+      ]
+    },
+    "5e-3g-22": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 13
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 49
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-23": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 13
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 35
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-24": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 13
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 35
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-25": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 13
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 49
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-26": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 16
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 40
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 89
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-27": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 10
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 80
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "Omega6",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "Omega6",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-28": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 13
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 80
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "Omega6",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "Omega6",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-29": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 10
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 80
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "Omega6",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "Omega6",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-30": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 16
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 40
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 89
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-31": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 4
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 7
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 11
+        }
+      },
+      "admitted_basis_generators": [],
+      "basis_M_matches_raw_dictionary": [],
+      "used_named_atoms": [
+        "ell"
+      ]
+    },
+    "5e-3g-32": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 5
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 16
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 40
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 89
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-33": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 5
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 11
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 24
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 50
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ]
+    },
+    "5e-3g-34": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 11
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 24
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 50
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ]
+    },
+    "5e-3g-35": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 1
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 11
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 24
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 50
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ]
+    },
+    "5e-3g-36": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 16
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 40
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 90
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-37": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 5
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 10
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 24
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 49
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-38": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 3
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 13
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 36
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-39": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 16
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 40
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 89
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-40": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 11
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 24
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 50
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ]
+    },
+    "5e-3g-41": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 12
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 34
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "Omega6",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "M_0_1",
+        "M_1_1",
+        "M_2_1",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-42": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 2
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 12
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 34
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "Omega6",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "M_0_1",
+        "M_1_1",
+        "M_2_1",
+        "zeta_2",
+        "zeta_3"
+      ]
+    },
+    "5e-3g-43": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 11
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 24
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 50
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ]
+    },
+    "5e-3g-44": {
+      "coefficients": {
+        "-6": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-5": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-4": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-3": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-2": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 0
+        },
+        "-1": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 15
+        },
+        "0": {
+          "named_backsubstitution_equals_frozen_candidate": true,
+          "reference_hlog_equals_frozen_candidate": true,
+          "canonical_term_count": 49
+        }
+      },
+      "admitted_basis_generators": [
+        "E",
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1",
+        "N_1_2",
+        "N_2_2",
+        "tauDq4",
+        "zeta_2",
+        "zeta_3",
+        "zeta_5"
+      ],
+      "basis_M_matches_raw_dictionary": [
+        "M_0_1",
+        "M_1_1",
+        "M_1_3",
+        "M_2_1",
+        "M_2_3",
+        "M_3_1",
+        "M_4_1"
+      ],
+      "used_named_atoms": [
+        "M_0_1",
+        "M_1_1",
+        "M_2_1",
+        "zeta_2"
+      ]
+    }
+  },
+  "coefficient_count": 308,
+  "passed": true,
+  "formal": "not_run",
+  "orbit_count": 44,
+  "negative_controls": {
+    "shuffle_multiplicity": true,
+    "mixed_shuffle": true,
+    "even_zeta_reduction": true,
+    "wide_letters": true,
+    "mutation_detected": true,
+    "unbound_generator_rejected": true,
+    "unexpected_letter_rejected": true,
+    "nonrational_denominator_rejected": true
+  }
+}

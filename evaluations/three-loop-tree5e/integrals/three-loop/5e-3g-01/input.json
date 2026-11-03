@@ -1,0 +1,365 @@
+{
+  "orbit_id": "5e-3g-01",
+  "family": "t1-empty",
+  "evaluation_family": "t1-empty",
+  "representative": "5e-3g-01",
+  "relationship": {
+    "kind": "own_entry_with_declared_relations",
+    "scope": "Preserve source weight. Only use relations at their stated full-I/J/coefficient scope.",
+    "exact_relations_as_stored": []
+  },
+  "native_prepared": {
+    "path": "snapshots/benchmarks/current/prepared/3loop/5e-3g.json",
+    "sha256": "58d177ba9de3c5e3f3a4ea4dafff6b2e5fa0ecbe4731b7d5d78d39db37f5c5ef",
+    "field": "/orbits/0"
+  },
+  "native_raw": {
+    "path": "snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/5e-3g/montopar-initial.json",
+    "sha256": "8c4460ea339119e7626575c5d4fd38ea5b0e07b31a718170bc9d3e1e078c59ee",
+    "field": "/orbits/0"
+  },
+  "graph": {
+    "path": "inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+    "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+    "field": "/orbits/66",
+    "field_sha256": "6673793a24b0af23ef1f4d735b534c4f0ea3d89803a06d9065443357e3d4599a"
+  },
+  "selected_reference": {
+    "path": "benchmarks/tgv/5e-3g/results/5e-3g-01/r001.json",
+    "sha256": "4d44cd0aa003dc6aff7abefd1a60f8baa8965cbb5861837aea70e0796184fbd4"
+  },
+  "selected_revision": "r001",
+  "source_quantity_boundary": "Physical I with the per-family accepted C/I and connected/color normalization; definitions and evaluated status remain separate.",
+  "historical_assets": [
+    {
+      "path": "benchmarks/tgv/5e-3g/results/5e-3g-01/r001.json",
+      "role": "original_evaluation_output",
+      "sha256": "4d44cd0aa003dc6aff7abefd1a60f8baa8965cbb5861837aea70e0796184fbd4",
+      "scope": "selected physical I",
+      "inspection_note": "Adopted output, not a fresh independent computation."
+    },
+    {
+      "path": "benchmarks/tgv/5e-3g/workspaces/5e-3g-01/derivation.md",
+      "role": "derivation",
+      "sha256": "4ded345ca268b4c138ff27c02bcb26964387852078b9a1308ad5b812aa6e934b",
+      "scope": "original input/IBP",
+      "inspection_note": "Historical per-orbit note stops at input/IBP and says uncomputed; use selected family derivation for actual completed evaluation. Preserve original bytes."
+    },
+    {
+      "path": "benchmarks/tgv/families/t1-empty/method.md",
+      "role": "derivation",
+      "sha256": "fb1546361a631a1f8b5b5b0c30f1cb2b235be51e22e58f5735af9bbecb3b7717",
+      "scope": "adopted current I",
+      "inspection_note": "Actual family or corrected-current derivation declared by selected record."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/alternateF0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/alternateF1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "1f4fe406b8e0d9cbd349f2017a85a5ebabb8aa664bbaeb2241ee441677187e9d",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/alternateF2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "43528751707233c6d713e0ceaa3135537655e865e5c4df051d72188ddfc67cf9",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/alternateF3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "5a157505a3fcff9091e5b7dae67b584c103107f0120380ab239df657a0e7dd83",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/alternateF4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "e56b0bd067245df5e89998650513e4e2a8bd4993533ec9855b2741ae96df3e95",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/alternateF5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "7a0d8a46b9b97b0571aaf10366a884c89fee973579eeb9b9c413c930ba67e89e",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/bareF0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/bareF1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "aedfa95327671d25c020632596541e29dc858976675d4788e62069b5bf8848b9",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/bareF2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "225a521ffb93f3452fde46f27f5fa3674e94844268aa7a1fc74b75baf9e69b24",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/bareF3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "af11d4ec693ae1f0e4a96ea09482feddeccc56c450aabd2637fba9f8228e36b8",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/bareF4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "38f93e0cb35b36157ea08af81c5974603bdce98ac3b7777c9ab5c9ec838de860",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/bareF5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "b80b9579eb1da180ff312fdc5c97fd358a39fd7e22ac9efb40fc438fc1fb39ee",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/coefficients.json",
+      "role": "original_evaluation_output",
+      "sha256": "f35923f9b36a8bc78bc862c82438c455cd11cd9faf7c58f81d2f8997ab5c343f",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/control.log",
+      "role": "evaluation_run_record",
+      "sha256": "8e503b957a1ef5eb1e4ba328d610ab0ebb099475b5227d9d126a540ee4f1f89b",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/control.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "cedfce2cc8b92ed3e1666f015afbe8ab3db03b29a0d7abc7926382fc620ad06a",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/environment.json",
+      "role": "evaluation_run_record",
+      "sha256": "e62add9c71d2ed412698fb99e51ced3a1023958ce10578f51dac414db8036ef8",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F0.txt",
+      "role": "original_evaluation_output",
+      "sha256": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "1f4fe406b8e0d9cbd349f2017a85a5ebabb8aa664bbaeb2241ee441677187e9d",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "1e94e014869876a260c24a6439dcfe6ce2fbc7c0e4fe390804b8f2f7a6e54c2b",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "56bdf761f8424e3402c1bdd912e756c31dd301360d4461de6dac9448c46a2a8d",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "e56b0bd067245df5e89998650513e4e2a8bd4993533ec9855b2741ae96df3e95",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/F5.txt",
+      "role": "original_evaluation_output",
+      "sha256": "7a0d8a46b9b97b0571aaf10366a884c89fee973579eeb9b9c413c930ba67e89e",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/Fcoeff.m",
+      "role": "original_evaluation_output",
+      "sha256": "b8e60b34101369e80f53ca167686786df9dce68e81d7b2229879702a7f55e833",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/integrate.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "aee4ecf9810733f607285bfb1e3ef3b93bfe2801019a2327f6723459300ddaaf",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/maple.log",
+      "role": "evaluation_run_record",
+      "sha256": "01b9d6e16c7ee14819ac1f19bc32d374533edf94fa466d77ef3ef590ff027ba6",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/math-checks.json",
+      "role": "verification_record",
+      "sha256": "931228da6fb03a94b6e6848c3af398012d5214d0b38cd537d04c00a088b87be3",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/numeric.json",
+      "role": "verification_record",
+      "sha256": "426976f65b0efe5c70efbf1c8d6529f2998b13e509ada88f5fda5316a92aea9b",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/numeric.log",
+      "role": "evaluation_run_record",
+      "sha256": "69b9d88be4094308976078526f83d0f8614ab0fdcedd519ae842c2d0f52dbc2b",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/series-check.json",
+      "role": "verification_record",
+      "sha256": "976d6d4d207af656c71073a66c570a01ac473abccb9b1b6bae0470c806b4b9bb",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/Z1.txt",
+      "role": "original_evaluation_output",
+      "sha256": "6e2aaef7a7a12750c0c482aff3a0c35c6d5f2a8e7bc801598018aa7f5e36e87f",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/Z2.txt",
+      "role": "original_evaluation_output",
+      "sha256": "0ce0dd357383a4336993e2cd54c6ff8437c5d555b228c6f8d771db534b223ef5",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/Z3.txt",
+      "role": "original_evaluation_output",
+      "sha256": "af49106a2859c939573aab6676ecc866a9164363362f17cb56294821368dd256",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/Z4.txt",
+      "role": "original_evaluation_output",
+      "sha256": "9bfa54270781504bf08081b9557e3014911c4351cd39cb1dc73f86bb71cfcbba",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z/Zcoeff.m",
+      "role": "original_evaluation_output",
+      "sha256": "1469c271e2d20e2a17a8c27152e6769843c9567f213d824e01367651adc8cab9",
+      "scope": "saved run workflow/checks/tgv-t1-empty/runs/20260917T115009990802Z",
+      "inspection_note": "Observed original run member; presence is not a new replay or proof of successful completion. Failed/diagnostic files retain their historical status."
+    },
+    {
+      "path": "benchmarks/tgv/families/t1-empty/method.md",
+      "role": "derivation",
+      "sha256": "fb1546361a631a1f8b5b5b0c30f1cb2b235be51e22e58f5735af9bbecb3b7717",
+      "scope": "5e mathematical evaluation family t1-empty",
+      "inspection_note": "Continuous family derivation/results; historical statements retain their dated scope."
+    },
+    {
+      "path": "benchmarks/tgv/families/t1-empty/solutions.md",
+      "role": "derivation",
+      "sha256": "77dd3c1a8cdafcf9f5bea7fc2b8d08e3901133757d7c94f7c75453c6b532cdaa",
+      "scope": "5e mathematical evaluation family t1-empty",
+      "inspection_note": "Continuous family derivation/results; historical statements retain their dated scope."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/check_math.py",
+      "role": "verification_code",
+      "sha256": "927955a4d038a084a5b5648e153a543ccbd2d591b024b19d63a163d97855dbe7",
+      "scope": "5e mathematical evaluation family t1-empty",
+      "inspection_note": "Historical checker: reads saved values or compares candidate/source; not the original integration."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/check_numeric.py",
+      "role": "verification_code",
+      "sha256": "84048c06ed4d0fce47a4463901ddf5ced5cd9bdda1149ba1816bf9867417632e",
+      "scope": "5e mathematical evaluation family t1-empty",
+      "inspection_note": "Historical checker: reads saved values or compares candidate/source; not the original integration."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/check_series.py",
+      "role": "verification_code",
+      "sha256": "fa8e671e0916b61cbe1df4d462b327c8570cc1acb467712592a8faaeb9a381cd",
+      "scope": "5e mathematical evaluation family t1-empty",
+      "inspection_note": "Historical checker: reads saved values or compares candidate/source; not the original integration."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/control.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "cedfce2cc8b92ed3e1666f015afbe8ab3db03b29a0d7abc7926382fc620ad06a",
+      "scope": "5e mathematical evaluation family t1-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/formulas.py",
+      "role": "assembly_code",
+      "sha256": "c322b58befd781e84242145e1db308d2fa546b16cb5f3a19d05086b64453b369",
+      "scope": "5e mathematical evaluation family t1-empty",
+      "inspection_note": "Analytical formulas/epsilon-series assembly using evaluated mothers; not an independent new high-dimensional integration."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/integrate.mpl",
+      "role": "original_evaluation_code",
+      "sha256": "aee4ecf9810733f607285bfb1e3ef3b93bfe2801019a2327f6723459300ddaaf",
+      "scope": "5e mathematical evaluation family t1-empty",
+      "inspection_note": "Historical Maple/HyperInt reduction or moment integration. Inspect launch/path dependencies before reuse; not executed in P0."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/README.md",
+      "role": "evaluation_run_record",
+      "sha256": "0368fc06505309bca25a598a05dff299a5c739b23c72336eae2e2c3c60ebe226",
+      "scope": "5e mathematical evaluation family t1-empty",
+      "inspection_note": "Original computation, failures and limitations guide."
+    },
+    {
+      "path": "workflow/checks/tgv-t1-empty/verify_results.py",
+      "role": "verification_code",
+      "sha256": "6cbcd8cf960330444ac988180fa4177d762febef33a62c188424e072033e4032",
+      "scope": "5e mathematical evaluation family t1-empty",
+      "inspection_note": "Historical checker: reads saved values or compares candidate/source; not the original integration."
+    }
+  ],
+  "state_note": "Historical per-orbit IBP notes may stop at uncomputed; actual completed family derivations and selected exact revision determine mathematical scope."
+}

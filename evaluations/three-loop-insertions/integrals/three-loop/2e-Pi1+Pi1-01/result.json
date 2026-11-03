@@ -1,0 +1,1832 @@
+{
+  "format": "wilson-p5-original-evaluation/1",
+  "orbit_id": "2e-Pi1+Pi1-01",
+  "family": "2e-Pi1+Pi1-adjacent",
+  "quantity": "physical I",
+  "normalization": {
+    "scheme": "native-physical-CJ",
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+    "assembly_sign": 1,
+    "loop_order": 3,
+    "Euler_count": 1,
+    "sym": 4,
+    "a1": "1",
+    "external_color": "CF*B1(eps)^2",
+    "C_derived_residual_sign": "-1",
+    "includes_U": true,
+    "formula": "(sym/2)*R_native*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))"
+  },
+  "source": {
+    "path": "benchmarks/current/prepared/3loop/2e-Pi1+Pi1.json",
+    "sha256": "8b68e8b5fe77e72eb27dd2ed9651dbfcd246d27008a0887a1b28cdf2408d152b",
+    "json_pointer": "/orbits/0"
+  },
+  "J": {
+    "representation": "ordered_s",
+    "variables": [
+      "s31",
+      "s41"
+    ],
+    "bounds": {
+      "s31": [
+        "0",
+        "1"
+      ],
+      "s41": [
+        "0",
+        "1"
+      ]
+    },
+    "iterated_order_outer_to_inner": [
+      "s31",
+      "s41"
+    ],
+    "source_bounds_array": [
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "order_basis": "ascending contour edges; frozen chain source order",
+    "jacobian": "1",
+    "integrand": "(2*s41*z1^2 + eps*s41*z1^2 - 2*s31*s41*z1^2 - eps*s31*s41*z1^2)*(s41*z1 - s31*s41*z1)^(-2+3*eps)/(2*(1+2*eps))",
+    "se_numerator": "2*s41*z1^2 + eps*s41*z1^2 - 2*s31*s41*z1^2 - eps*s31*s41*z1^2",
+    "geometry_polynomials": [
+      {
+        "loop": "l1",
+        "kind": "self_energy_chain",
+        "edges": [
+          3,
+          4
+        ],
+        "s_vars": [
+          "s31",
+          "s41"
+        ],
+        "X_coefficients": [
+          "0",
+          "0",
+          "-1 + s31",
+          "-s41"
+        ],
+        "f": "s41*z1 - s31*s41*z1",
+        "d": "z1",
+        "u": "-s41*z1",
+        "w": "-z1 + s31*z1"
+      }
+    ],
+    "power_prescription": "each f power is the common Feynman boundary value (f+I0)^power; continue jointly with C"
+  },
+  "I": {
+    "sympy": "-(eps + 2)*exp(-3*EulerGamma*eps)*gamma(1 - 3*eps)*gamma(1 - eps)**4*gamma(eps + 1)**2/(1152*eps**4*(1 - 2*eps)**2*(2*eps + 1)*gamma(1 - 2*eps)**2*gamma(2*eps + 1))",
+    "language": "SymPy/str"
+  },
+  "laurent": {
+    "from_power": -6,
+    "through_power": 0,
+    "coefficients": {
+      "-6": {
+        "expression": "0",
+        "language": "SymPy/str",
+        "latex": "0",
+        "hlog_terms": []
+      },
+      "-5": {
+        "expression": "0",
+        "language": "SymPy/str",
+        "latex": "0",
+        "hlog_terms": []
+      },
+      "-4": {
+        "expression": "-1/576",
+        "language": "SymPy/str",
+        "latex": "- \\frac{1}{576}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/576"
+          }
+        ]
+      },
+      "-3": {
+        "expression": "-5/1152",
+        "language": "SymPy/str",
+        "latex": "- \\frac{5}{1152}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-5/1152"
+          }
+        ]
+      },
+      "-2": {
+        "expression": "-1/64 - pi**2/2304",
+        "language": "SymPy/str",
+        "latex": "- \\frac{1}{64} - \\frac{\\pi^{2}}{2304}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/64"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/384"
+          }
+        ]
+      },
+      "-1": {
+        "expression": "-5/144 - 7*zeta(3)/576 - 5*pi**2/4608",
+        "language": "SymPy/str",
+        "latex": "- \\frac{5}{144} - \\frac{7 \\zeta\\left(3\\right)}{576} - \\frac{5 \\pi^{2}}{4608}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-5/144"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-7/576"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-5/768"
+          }
+        ]
+      },
+      "0": {
+        "expression": "-7/72 - pi**2/256 - 35*zeta(3)/1152 - 67*pi**4/276480",
+        "language": "SymPy/str",
+        "latex": "- \\frac{7}{72} - \\frac{\\pi^{2}}{256} - \\frac{35 \\zeta\\left(3\\right)}{1152} - \\frac{67 \\pi^{4}}{276480}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-7/72"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-35/1152"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/128"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-67/7680"
+          }
+        ]
+      }
+    },
+    "remainder": "O(eps)"
+  },
+  "color_channels": [
+    {
+      "channel": "AA",
+      "monomial": "CA^2*CF",
+      "color_monomial": "CA^2*CF",
+      "exact_multiplier": "(10 - 6*eps)**2/(3 - 2*eps)**2",
+      "multiplier_coefficients": {
+        "0": "100/9",
+        "1": "40/27",
+        "2": "28/27",
+        "3": "176/243",
+        "4": "368/729"
+      },
+      "coefficients": {
+        "-6": {
+          "expression": "0",
+          "language": "SymPy/str",
+          "latex": "0",
+          "hlog_terms": []
+        },
+        "-5": {
+          "expression": "0",
+          "language": "SymPy/str",
+          "latex": "0",
+          "hlog_terms": []
+        },
+        "-4": {
+          "expression": "-25/1296",
+          "language": "SymPy/str",
+          "latex": "- \\frac{25}{1296}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-25/1296"
+            }
+          ]
+        },
+        "-3": {
+          "expression": "-395/7776",
+          "language": "SymPy/str",
+          "latex": "- \\frac{395}{7776}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-395/7776"
+            }
+          ]
+        },
+        "-2": {
+          "expression": "-707/3888 - 25*pi**2/5184",
+          "language": "SymPy/str",
+          "latex": "- \\frac{707}{3888} - \\frac{25 \\pi^{2}}{5184}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-707/3888"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-25/864"
+            }
+          ]
+        },
+        "-1": {
+          "expression": "-29023/69984 - 175*zeta(3)/1296 - 395*pi**2/31104",
+          "language": "SymPy/str",
+          "latex": "- \\frac{29023}{69984} - \\frac{175 \\zeta\\left(3\\right)}{1296} - \\frac{395 \\pi^{2}}{31104}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-29023/69984"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-175/1296"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-395/5184"
+            }
+          ]
+        },
+        "0": {
+          "expression": "-120923/104976 - 707*pi**2/15552 - 2765*zeta(3)/7776 - 335*pi**4/124416",
+          "language": "SymPy/str",
+          "latex": "- \\frac{120923}{104976} - \\frac{707 \\pi^{2}}{15552} - \\frac{2765 \\zeta\\left(3\\right)}{7776} - \\frac{335 \\pi^{4}}{124416}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-120923/104976"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-2765/7776"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-707/2592"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                2,
+                0,
+                0
+              ],
+              "coefficient": "-335/3456"
+            }
+          ]
+        }
+      },
+      "laurent": {
+        "from_power": -6,
+        "through_power": 0,
+        "coefficients": {
+          "-6": {
+            "expression": "0",
+            "language": "SymPy/str",
+            "latex": "0",
+            "hlog_terms": []
+          },
+          "-5": {
+            "expression": "0",
+            "language": "SymPy/str",
+            "latex": "0",
+            "hlog_terms": []
+          },
+          "-4": {
+            "expression": "-25/1296",
+            "language": "SymPy/str",
+            "latex": "- \\frac{25}{1296}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "-25/1296"
+              }
+            ]
+          },
+          "-3": {
+            "expression": "-395/7776",
+            "language": "SymPy/str",
+            "latex": "- \\frac{395}{7776}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "-395/7776"
+              }
+            ]
+          },
+          "-2": {
+            "expression": "-707/3888 - 25*pi**2/5184",
+            "language": "SymPy/str",
+            "latex": "- \\frac{707}{3888} - \\frac{25 \\pi^{2}}{5184}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "-707/3888"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  1,
+                  0,
+                  0
+                ],
+                "coefficient": "-25/864"
+              }
+            ]
+          },
+          "-1": {
+            "expression": "-29023/69984 - 175*zeta(3)/1296 - 395*pi**2/31104",
+            "language": "SymPy/str",
+            "latex": "- \\frac{29023}{69984} - \\frac{175 \\zeta\\left(3\\right)}{1296} - \\frac{395 \\pi^{2}}{31104}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "-29023/69984"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  1,
+                  0
+                ],
+                "coefficient": "-175/1296"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  1,
+                  0,
+                  0
+                ],
+                "coefficient": "-395/5184"
+              }
+            ]
+          },
+          "0": {
+            "expression": "-120923/104976 - 707*pi**2/15552 - 2765*zeta(3)/7776 - 335*pi**4/124416",
+            "language": "SymPy/str",
+            "latex": "- \\frac{120923}{104976} - \\frac{707 \\pi^{2}}{15552} - \\frac{2765 \\zeta\\left(3\\right)}{7776} - \\frac{335 \\pi^{4}}{124416}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "-120923/104976"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  1,
+                  0
+                ],
+                "coefficient": "-2765/7776"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  1,
+                  0,
+                  0
+                ],
+                "coefficient": "-707/2592"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  2,
+                  0,
+                  0
+                ],
+                "coefficient": "-335/3456"
+              }
+            ]
+          }
+        },
+        "remainder": "O(eps)"
+      }
+    },
+    {
+      "channel": "Af",
+      "monomial": "CA*CF*TF*nf",
+      "color_monomial": "CA*CF*TF*nf",
+      "exact_multiplier": "-2*(8 - 8*eps)*(10 - 6*eps)/(3 - 2*eps)**2",
+      "multiplier_coefficients": {
+        "0": "-160/9",
+        "1": "128/27",
+        "2": "32/9",
+        "3": "640/243",
+        "4": "1408/729"
+      },
+      "coefficients": {
+        "-6": {
+          "expression": "0",
+          "language": "SymPy/str",
+          "latex": "0",
+          "hlog_terms": []
+        },
+        "-5": {
+          "expression": "0",
+          "language": "SymPy/str",
+          "latex": "0",
+          "hlog_terms": []
+        },
+        "-4": {
+          "expression": "5/162",
+          "language": "SymPy/str",
+          "latex": "\\frac{5}{162}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "5/162"
+            }
+          ]
+        },
+        "-3": {
+          "expression": "67/972",
+          "language": "SymPy/str",
+          "latex": "\\frac{67}{972}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "67/972"
+            }
+          ]
+        },
+        "-2": {
+          "expression": "5*pi**2/648 + 61/243",
+          "language": "SymPy/str",
+          "latex": "\\frac{5 \\pi^{2}}{648} + \\frac{61}{243}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "61/243"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "5/108"
+            }
+          ]
+        },
+        "-1": {
+          "expression": "67*pi**2/3888 + 35*zeta(3)/162 + 4577/8748",
+          "language": "SymPy/str",
+          "latex": "\\frac{67 \\pi^{2}}{3888} + \\frac{35 \\zeta\\left(3\\right)}{162} + \\frac{4577}{8748}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "4577/8748"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                1,
+                0
+              ],
+              "coefficient": "35/162"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "67/648"
+            }
+          ]
+        },
+        "0": {
+          "expression": "67*pi**4/15552 + 469*zeta(3)/972 + 61*pi**2/972 + 19597/13122",
+          "language": "SymPy/str",
+          "latex": "\\frac{67 \\pi^{4}}{15552} + \\frac{469 \\zeta\\left(3\\right)}{972} + \\frac{61 \\pi^{2}}{972} + \\frac{19597}{13122}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "19597/13122"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                1,
+                0
+              ],
+              "coefficient": "469/972"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "61/162"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                2,
+                0,
+                0
+              ],
+              "coefficient": "67/432"
+            }
+          ]
+        }
+      },
+      "laurent": {
+        "from_power": -6,
+        "through_power": 0,
+        "coefficients": {
+          "-6": {
+            "expression": "0",
+            "language": "SymPy/str",
+            "latex": "0",
+            "hlog_terms": []
+          },
+          "-5": {
+            "expression": "0",
+            "language": "SymPy/str",
+            "latex": "0",
+            "hlog_terms": []
+          },
+          "-4": {
+            "expression": "5/162",
+            "language": "SymPy/str",
+            "latex": "\\frac{5}{162}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "5/162"
+              }
+            ]
+          },
+          "-3": {
+            "expression": "67/972",
+            "language": "SymPy/str",
+            "latex": "\\frac{67}{972}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "67/972"
+              }
+            ]
+          },
+          "-2": {
+            "expression": "5*pi**2/648 + 61/243",
+            "language": "SymPy/str",
+            "latex": "\\frac{5 \\pi^{2}}{648} + \\frac{61}{243}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "61/243"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  1,
+                  0,
+                  0
+                ],
+                "coefficient": "5/108"
+              }
+            ]
+          },
+          "-1": {
+            "expression": "67*pi**2/3888 + 35*zeta(3)/162 + 4577/8748",
+            "language": "SymPy/str",
+            "latex": "\\frac{67 \\pi^{2}}{3888} + \\frac{35 \\zeta\\left(3\\right)}{162} + \\frac{4577}{8748}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "4577/8748"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  1,
+                  0
+                ],
+                "coefficient": "35/162"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  1,
+                  0,
+                  0
+                ],
+                "coefficient": "67/648"
+              }
+            ]
+          },
+          "0": {
+            "expression": "67*pi**4/15552 + 469*zeta(3)/972 + 61*pi**2/972 + 19597/13122",
+            "language": "SymPy/str",
+            "latex": "\\frac{67 \\pi^{4}}{15552} + \\frac{469 \\zeta\\left(3\\right)}{972} + \\frac{61 \\pi^{2}}{972} + \\frac{19597}{13122}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "19597/13122"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  1,
+                  0
+                ],
+                "coefficient": "469/972"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  1,
+                  0,
+                  0
+                ],
+                "coefficient": "61/162"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  2,
+                  0,
+                  0
+                ],
+                "coefficient": "67/432"
+              }
+            ]
+          }
+        },
+        "remainder": "O(eps)"
+      }
+    },
+    {
+      "channel": "ff",
+      "monomial": "CF*(TF*nf)^2",
+      "color_monomial": "CF*(TF*nf)^2",
+      "exact_multiplier": "(8 - 8*eps)**2/(3 - 2*eps)**2",
+      "multiplier_coefficients": {
+        "0": "64/9",
+        "1": "-128/27",
+        "2": "-64/27",
+        "3": "-256/243",
+        "4": "-256/729"
+      },
+      "coefficients": {
+        "-6": {
+          "expression": "0",
+          "language": "SymPy/str",
+          "latex": "0",
+          "hlog_terms": []
+        },
+        "-5": {
+          "expression": "0",
+          "language": "SymPy/str",
+          "latex": "0",
+          "hlog_terms": []
+        },
+        "-4": {
+          "expression": "-1/81",
+          "language": "SymPy/str",
+          "latex": "- \\frac{1}{81}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1/81"
+            }
+          ]
+        },
+        "-3": {
+          "expression": "-11/486",
+          "language": "SymPy/str",
+          "latex": "- \\frac{11}{486}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-11/486"
+            }
+          ]
+        },
+        "-2": {
+          "expression": "-7/81 - pi**2/324",
+          "language": "SymPy/str",
+          "latex": "- \\frac{7}{81} - \\frac{\\pi^{2}}{324}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-7/81"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-1/54"
+            }
+          ]
+        },
+        "-1": {
+          "expression": "-703/4374 - 7*zeta(3)/81 - 11*pi**2/1944",
+          "language": "SymPy/str",
+          "latex": "- \\frac{703}{4374} - \\frac{7 \\zeta\\left(3\\right)}{81} - \\frac{11 \\pi^{2}}{1944}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-703/4374"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-7/81"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-11/324"
+            }
+          ]
+        },
+        "0": {
+          "expression": "-3179/6561 - 7*pi**2/324 - 77*zeta(3)/486 - 67*pi**4/38880",
+          "language": "SymPy/str",
+          "latex": "- \\frac{3179}{6561} - \\frac{7 \\pi^{2}}{324} - \\frac{77 \\zeta\\left(3\\right)}{486} - \\frac{67 \\pi^{4}}{38880}",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-3179/6561"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-77/486"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-7/54"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                2,
+                0,
+                0
+              ],
+              "coefficient": "-67/1080"
+            }
+          ]
+        }
+      },
+      "laurent": {
+        "from_power": -6,
+        "through_power": 0,
+        "coefficients": {
+          "-6": {
+            "expression": "0",
+            "language": "SymPy/str",
+            "latex": "0",
+            "hlog_terms": []
+          },
+          "-5": {
+            "expression": "0",
+            "language": "SymPy/str",
+            "latex": "0",
+            "hlog_terms": []
+          },
+          "-4": {
+            "expression": "-1/81",
+            "language": "SymPy/str",
+            "latex": "- \\frac{1}{81}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "-1/81"
+              }
+            ]
+          },
+          "-3": {
+            "expression": "-11/486",
+            "language": "SymPy/str",
+            "latex": "- \\frac{11}{486}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "-11/486"
+              }
+            ]
+          },
+          "-2": {
+            "expression": "-7/81 - pi**2/324",
+            "language": "SymPy/str",
+            "latex": "- \\frac{7}{81} - \\frac{\\pi^{2}}{324}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "-7/81"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  1,
+                  0,
+                  0
+                ],
+                "coefficient": "-1/54"
+              }
+            ]
+          },
+          "-1": {
+            "expression": "-703/4374 - 7*zeta(3)/81 - 11*pi**2/1944",
+            "language": "SymPy/str",
+            "latex": "- \\frac{703}{4374} - \\frac{7 \\zeta\\left(3\\right)}{81} - \\frac{11 \\pi^{2}}{1944}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "-703/4374"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  1,
+                  0
+                ],
+                "coefficient": "-7/81"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  1,
+                  0,
+                  0
+                ],
+                "coefficient": "-11/324"
+              }
+            ]
+          },
+          "0": {
+            "expression": "-3179/6561 - 7*pi**2/324 - 77*zeta(3)/486 - 67*pi**4/38880",
+            "language": "SymPy/str",
+            "latex": "- \\frac{3179}{6561} - \\frac{7 \\pi^{2}}{324} - \\frac{77 \\zeta\\left(3\\right)}{486} - \\frac{67 \\pi^{4}}{38880}",
+            "hlog_terms": [
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  0,
+                  0
+                ],
+                "coefficient": "-3179/6561"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  0,
+                  1,
+                  0
+                ],
+                "coefficient": "-77/486"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  1,
+                  0,
+                  0
+                ],
+                "coefficient": "-7/54"
+              },
+              {
+                "word": [],
+                "zeta_powers": [
+                  2,
+                  0,
+                  0
+                ],
+                "coefficient": "-67/1080"
+              }
+            ]
+          }
+        },
+        "remainder": "O(eps)"
+      }
+    }
+  ],
+  "operator_coefficients": {
+    "AA": {
+      "0": "100/9",
+      "1": "40/27",
+      "2": "28/27",
+      "3": "176/243",
+      "4": "368/729"
+    },
+    "Af": {
+      "0": "-160/9",
+      "1": "128/27",
+      "2": "32/9",
+      "3": "640/243",
+      "4": "1408/729"
+    },
+    "ff": {
+      "0": "64/9",
+      "1": "-128/27",
+      "2": "-64/27",
+      "3": "-256/243",
+      "4": "-256/729"
+    }
+  },
+  "subintegrals": {
+    "adjacent": "Two original endpoint integrals 1/(3eps), multiplied in prescribed order.",
+    "opposite": "H0(3eps,z) plus complete mixed-derivative boundary (1+z^(3eps))/(6eps(1+2eps)).",
+    "H0_series": "M01+(3eps/2)M11+9eps^2(M21/8+M03/24)+O(eps^3)",
+    "regular_geometry_budget": 4,
+    "operator_multiplier_budget": 4,
+    "Pi2_Gamma_ratio_budget_before_cancellation": 5,
+    "H0_jet_order": 2,
+    "evaluated_M_reuse": [
+      {
+        "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+        "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457"
+      },
+      {
+        "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+        "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b"
+      },
+      {
+        "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+        "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6"
+      },
+      {
+        "path": "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt",
+        "sha256": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269"
+      }
+    ]
+  },
+  "domain": {
+    "z": "positive real",
+    "epsilon": "initial 0<Re(eps)<1/3; local meromorphic continuation at eps=0",
+    "complex_kinematics": "not newly verified"
+  },
+  "generation_scope": "Fresh source checks, endpoint/IBP boundary reduction, Gamma jets and colour convolutions; existing evaluated M words reused. Native C determines sign. No final table or new CAS read.",
+  "formal": "not_run",
+  "generation_checks": {
+    "count": 144,
+    "checks": [
+      {
+        "name": "U no quadratic",
+        "passed": true
+      },
+      {
+        "name": "U cubic",
+        "passed": true
+      },
+      {
+        "name": "U inverse coefficient 0",
+        "passed": true
+      },
+      {
+        "name": "U inverse coefficient 1",
+        "passed": true
+      },
+      {
+        "name": "U inverse coefficient 2",
+        "passed": true
+      },
+      {
+        "name": "U inverse coefficient 3",
+        "passed": true
+      },
+      {
+        "name": "U inverse coefficient 4",
+        "passed": true
+      },
+      {
+        "name": "U inverse coefficient 5",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-01 one Euler compensation",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-01 explicit Euler factor",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-01 native physical sign",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-01 original unit domain",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-01 prescribed iterated order",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-01 C4 orbit factor",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-01 actual source distance",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-01 complete numerator",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-01 actual source kernel",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-01 endpoint primitive derivative",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-01 C-derived constant normalization",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-01 native residual Gamma ratio",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-01 native full self-energy colour",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 one Euler compensation",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 explicit Euler factor",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 native physical sign",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 original unit domain",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 prescribed iterated order",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 C4 orbit factor",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 actual source distance",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 complete numerator",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 actual source kernel",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 full mixed-derivative reduction",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 ordinary boundary (0, 0)",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 ordinary boundary (1, 1)",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 ordinary boundary (0, 1)",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 ordinary boundary (1, 0)",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 C-derived constant normalization",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 native residual Gamma ratio",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi1+Pi1-02 native full self-energy colour",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 one Euler compensation",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 explicit Euler factor",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 native physical sign",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 original unit domain",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 prescribed iterated order",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 C4 orbit factor",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 actual source distance",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 complete numerator",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 actual source kernel",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 endpoint primitive derivative",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 C-derived constant normalization",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 native residual Gamma ratio",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 adopted two-loop 1PI source",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 source p AA",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 no artificial phi pole AA",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 no artificial Uphi pole AA",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route AA-6",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route AA-5",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route AA-4",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route AA-3",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route AA-2",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route AA-1",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route AA0",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 source p Af",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 no artificial phi pole Af",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 no artificial Uphi pole Af",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Af-6",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Af-5",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Af-4",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Af-3",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Af-2",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Af-1",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Af0",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 source p Ff",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 no artificial phi pole Ff",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 no artificial Uphi pole Ff",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Ff-6",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Ff-5",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Ff-4",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Ff-3",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Ff-2",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Ff-1",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 independent direct C route Ff0",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-01 full native Pi2 scalar",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 one Euler compensation",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 explicit Euler factor",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 native physical sign",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 original unit domain",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 prescribed iterated order",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 C4 orbit factor",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 actual source distance",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 complete numerator",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 actual source kernel",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 full mixed-derivative reduction",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 ordinary boundary (0, 0)",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 ordinary boundary (1, 1)",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 ordinary boundary (0, 1)",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 ordinary boundary (1, 0)",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 C-derived constant normalization",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 native residual Gamma ratio",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 adopted two-loop 1PI source",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 source p AA",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 no artificial phi pole AA",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 no artificial Uphi pole AA",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route AA-6",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route AA-5",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route AA-4",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route AA-3",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route AA-2",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route AA-1",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route AA0",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 source p Af",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 no artificial phi pole Af",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 no artificial Uphi pole Af",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Af-6",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Af-5",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Af-4",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Af-3",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Af-2",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Af-1",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Af0",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 source p Ff",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 no artificial phi pole Ff",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 no artificial Uphi pole Ff",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Ff-6",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Ff-5",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Ff-4",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Ff-3",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Ff-2",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Ff-1",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 independent direct C route Ff0",
+        "passed": true
+      },
+      {
+        "name": "2e-Pi2-02 full native Pi2 scalar",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (1, -6)",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (1, -5)",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (1, -4)",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (1, -3)",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (1, -2)",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (1, -1)",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (1, 0)",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (2, -6)",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (2, -5)",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (2, -4)",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (2, -3)",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (2, -2)",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (2, -1)",
+        "passed": true
+      },
+      {
+        "name": "current shared geometric sign relation (2, 0)",
+        "passed": true
+      }
+    ]
+  },
+  "generation_binding": {
+    "path": "evidence/generation/generated.json",
+    "path_base": "packet root",
+    "sha256": "05e9d328a35860239bfacccf9a71c5633d9d16a9f9a378a78a6c4100e658fd5d",
+    "field": "/2e-Pi1+Pi1-01"
+  },
+  "source_reading_note": "source/dependency paths from the mathematical evaluator use snapshots/ as their path base. Historical asset paths in input.json retain their original Wilson workspace context."
+}

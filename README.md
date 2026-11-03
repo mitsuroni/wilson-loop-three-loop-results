@@ -1,5 +1,9 @@
 # Three-loop Wilson-loop research data
 
+## P5/P6 publication: 3 November 2026
+
+[The three-loop index](integrals/three-loop/README.md) now covers98 source memberships:39 pure exchanges,15 two-point/exchange insertions and44 tree-three-gluon sources. The new immutable packets provide59 own articles,413 scalar Laurent positions,238 external-colour positions and651 independent function back-substitutions. See [publication validation](validation/three-loop-p5-p6-2026-11-03/README.md) for actual copied-public replays and the limits of reused primitive integration. The remaining16 insertions and35 four-leg source memberships are subsequent curation batches; the complete four-colour scientific result is unchanged.
+
 Research materials for the fundamental lightlike quadrilateral Wilson-loop exponent in massless QCD, prepared by Dengyao for sharing and review.
 
 ## Current calculation: one convention and one entrypoint
@@ -18,7 +22,7 @@ python -m workflow.current_calculation replay --output-dir replay-output/current
 ```
 
 The exact public runtime closure has passed an [isolated complete replay](validation/current-2026-11-02/README.md).
-Older dated deliveries remain intact. The [39 three-loop pure-exchange evaluation articles](integrals/three-loop/README.md) now supply the first complete three-loop curation batch; the other families follow.
+Older dated deliveries remain intact. The [39 three-loop pure-exchange evaluation articles](integrals/three-loop/README.md) now join the insertion/tree-three-gluon packets, covering98 source memberships in total.
 
 ## Follow the calculation
 
@@ -26,7 +30,7 @@ Older dated deliveries remain intact. The [39 three-loop pure-exchange evaluatio
 |---|---|---|
 | 1. Generate and classify diagram orbits | [Homemade generator](packages/qgraf-pipeline/README.md) · [guide](docs/upstream/generation.md) | Source, tests, frozen definitions and provenance |
 | 2. Convert diagram definitions to parameter integrals C and J | [Montopar](packages/montopar/README.md) · [guide](docs/upstream/parameterization.md) | Source, tests, integral inputs and versioned contracts |
-| 3. Evaluate individual or joint integrals | [One-loop articles](integrals/one-loop/README.md) · [two-loop articles](integrals/two-loop/README.md) · [three-loop 6e](integrals/three-loop/README.md) | English evaluation packets for 2+12 low-loop orbits and39 three-loop exchange orbits |
+| 3. Evaluate individual or joint integrals | [One-loop articles](integrals/one-loop/README.md) · [two-loop articles](integrals/two-loop/README.md) · [three-loop 6e](integrals/three-loop/README.md) | English evaluation packets for 2+12 low-loop orbits and98 three-loop source memberships |
 | 4. Assemble color channels | [Current four-color calculation](results/2026-11-02-current/README.md) · [low-loop example](results/2026-11-02-low-loops/README.md) | Direct native-current low/matter/AA assembly and exact current results |
 | 5. Renormalize, extract finite terms and verify RG | [Low-loop derivation](results/2026-11-02-low-loops/derivation.md) · [checks](results/2026-11-02-low-loops/validation/README.md) | Counterterms, logZ, finite results, RG and complete external finite comparison |
 
@@ -48,7 +52,7 @@ All fourteen one/two-loop orbits now have English derivations, exact data and po
 - [Actual upstream checks](validation/upstream-2026-11-02/README.md) and the [historical full-tree manifest at its original commit](https://github.com/mitsuroni/wilson-loop-three-loop-results/blob/ed854f02b0e79840f96c7a73c2642c21fef07307/UPSTREAM-PUBLICATION.json). It binds that snapshot, not this evolving navigation.
 - [Roadmap and publication status](docs/publication-status.md): what is already public, what is being curated next, and how historical snapshots should be read.
 
-The calculation workspace reached a complete four-color three-loop Laurent-through-finite and RG research milestone on 2 November. The upstream foundation and complete low-loop pilot are now public. The current four-color data and direct reconstruction are now public. The39 pure-exchange three-loop articles are now public; detailed insertion/tree5e/four-leg packets are the next curation stages. Older three-color files retain their dated scope.
+The calculation workspace reached a complete four-color three-loop Laurent-through-finite and RG research milestone on 2 November. The upstream foundation and complete low-loop pilot are now public. The current four-color data and direct reconstruction are now public. The39 pure-exchange three-loop articles are now public; the fifteen two-point/exchange insertions and44tree5e packets are also public; the remaining16 insertions and35 four-leg source memberships are the next curation stages. Older three-color files retain their dated scope.
 
 ## Existing result archives
 

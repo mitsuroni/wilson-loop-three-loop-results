@@ -1,0 +1,20 @@
+{
+  "primitive_inputs": [
+    "snapshots/workflow/checks/tgv-t3-opposite/runs/20260918T005641322714Z/E22q1.txt",
+    "snapshots/workflow/checks/tgv-t3-opposite/runs/20260918T005641322714Z/E22q2.txt"
+  ],
+  "epsilon_budget": {
+    "physical_E_orders": [
+      1,
+      2
+    ],
+    "known_M_indices": null,
+    "analytic_multiplier_through": 0,
+    "explicit_denominator_power": 2,
+    "remainder": "O(eps) at fixed z>0"
+  },
+  "full_epsilon_relation": {
+    "equals": "5e-3g-22",
+    "scope": "full physical I; ordered J transforms as z^(3eps)*J(1/z)"
+  }
+}
