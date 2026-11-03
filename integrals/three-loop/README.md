@@ -48,7 +48,7 @@ Start with the [six-route method index](../families/three-loop-6e/README.md) and
 
 Each code entry runs the same supported39-entry batch, not a new full calculation for only that graph. Ten adjacent-chain sources use direct endpoint/Gamma evaluation; other sources adopt precisely identified raw CAS subintegrals and repeat the actual physical assembly. Historical Maple programs and raw outputs remain available with their mathematical object and order bindings. No new cold CAS integration or formal proof is implied.
 
-Full-J, complete-I and finite-only relations are distinguished in the mathematics. In particular37=38 applies only to c0; their generic-epsilon sources are different. Original scientific results and frozen/public packets retain their identities. This new reading layer has not been committed or published.
+Full-J, complete-I and finite-only relations are distinguished in the mathematics. In particular37=38 applies only to c0; their generic-epsilon sources are different. Original scientific results and frozen/public packets retain their identities. The [current coverage index](../../docs/publication-status.md) records the published derivations and calculation packages.
 
 Return to the [integral index](../README.md).
 

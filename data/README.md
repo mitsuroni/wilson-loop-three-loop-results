@@ -1,40 +1,16 @@
-# Graph definitions and original integral inputs
+# Integral input data
 
-Start with the fixed [2026-11-02 input catalogue](2026-11-02/README.md).
-It contains all **163 source orbits** through three loops: 2 at one loop,
-12 at two loops, and 149 at three loops. A source orbit is a canonical
-representative in the adopted catalogue; an effective self-energy or vertex
-operator is not counted as one newly generated microscopic QCD diagram.
+Use the [current163-source catalogue](../benchmarks/current/catalog.json) and [native prepared C/J packages](../benchmarks/current/prepared/) for the current calculation. The [exact evaluated results](../benchmarks/current/results/) and [four-color formula article](../results/current/four-color-results.md) are their downstream result entrypoints.
 
-- [Machine catalogue](2026-11-02/catalog.json): stable IDs, families, graph
-  definitions, C/J references, normalization notes and four-leg grouping.
-- [Coverage and explicit gaps](2026-11-02/coverage.json).
-- [Byte-preserved source manifest](2026-11-02/source-manifest.json).
-- [All publication file hashes](manifest.json).
-- [Generator package](../packages/qgraf-pipeline/README.md) and
-  [Montopar package](../packages/montopar/README.md).
+| Data layer | Entry |
+|---|---|
+| Current source identities and selected integral objects | [Current catalogue](../benchmarks/current/catalog.json) |
+| Current native full-color prepared C/J | [Prepared inputs](../benchmarks/current/prepared/) |
+| Original graph definitions and unmodified producer outputs | [Frozen input catalogue](2026-11-02/README.md) |
+| Per-source original graph/raw C/J bindings | [Original machine catalogue](2026-11-02/catalog.json) |
+| Source versions and exact field/file hashes | [Original source manifest](2026-11-02/source-manifest.json) |
+| Diagram generation and parameterization implementation | [Generator and Montopar](../packages/README.md) |
 
-Every integral has its own `input.json` index and English `README.md` below
-`2026-11-02/integrals/<N>loop/<orbit_id>/`. The indexes point into complete,
-unmodified source files; they do not replace a large polynomial, ordered
-domain or block sum with a display summary. JSON pointer field hashes use
-canonical UTF-8 JSON, with sorted keys, compact separators and no ASCII
-escaping. File hashes always apply to the actual original bytes.
+There are2 one-loop,12 two-loop and149 three-loop source orbits. Original snapshot entries live under `2026-11-02/integrals/<N>loop/<orbit_id>/`; each input index points to the original graph and full C/J record. The current catalogue adds the selected whole-integral identity and its consumption in the assembled result.
 
-This is the first **upstream-data** publication: graph -> original C/J ->
-available prepared inputs. It exports no new Laurent results and executes
-no integral calculation. Previously calculated coefficients and the later
-four-color acceptance have their own versioned result records; absence from
-this input-only batch does not mean a coefficient is mathematically unknown.
-
-For an offline integrity and pointer/navigation audit, run from the repository
-root with the Python standard library:
-
-```text
-python tools/check_upstream.py --output-dir upstream-audit
-```
-
-Use a fresh audit output directory. This checks included files and field
-bindings, not graph completeness or the correctness of an evaluated integral.
-Actual source generation, symbolic integration and function-value evaluation
-are separate reproduction levels.
+The [integral reading layer](../integrals/README.md) explains evaluation from C/J to Laurent coefficients. The [current guide](../docs/current/README.md) explains how to read definitions and evaluated results with the same interface. Dated input snapshots and their original checks are listed under [historical records](../docs/archive/README.md).

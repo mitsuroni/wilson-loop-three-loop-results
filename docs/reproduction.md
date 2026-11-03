@@ -1,89 +1,47 @@
-# Reproduction levels
+# Reproduce the results
 
-## Reproduce P5/P6: insertions and tree-three-gluon sources
+Use Python3.12 and the declared dependencies. Run commands from the repository root, choosing a new output directory for each calculation.
 
-From the repository root, use fresh output directories and the packet requirements-lock.txt versions:
-
-```text
-python -B evaluations/three-loop-insertions/scripts/verify_manifest.py
-python -B evaluations/three-loop-insertions/scripts/evaluate_batch.py --output replay-output/p5-new
-python -B evaluations/three-loop-insertions/scripts/verify_batch.py --results replay-output/p5-new/generated.json --out replay-output/p5-new/verification.json
-python -B evaluations/three-loop-insertions/scripts/check_representations.py --results replay-output/p5-new/generated.json --out replay-output/p5-new/representations.json
-python -B evaluations/three-loop-insertions/scripts/independent_controls.py --results replay-output/p5-new/generated.json --out replay-output/p5-new/independent-controls.json
-python -B evaluations/three-loop-tree5e/scripts/verify_manifest.py
-python -B evaluations/three-loop-tree5e/scripts/evaluate_batch.py --output replay-output/p6-new
-python -B evaluations/three-loop-tree5e/scripts/verify_batch.py --results replay-output/p6-new/generated.json --out replay-output/p6-new/verification.json
-python -B evaluations/three-loop-tree5e/scripts/check_representations.py --candidate replay-output/p6-new/generated.json --references evaluations/three-loop-tree5e/references/all-results.json --output replay-output/p6-new/representations.json
-python -B evaluations/three-loop-tree5e/scripts/independent_controls.py --results replay-output/p6-new/generated.json --output replay-output/p6-new/independent-controls.json
-```
-
-These reassemble from admitted historical evaluated primitives and Gamma/IBP rules without launching Maple/HyperInt or reading private Wilson paths. The final comparison stage opens copied references after generation. [Actual release replay](../validation/three-loop-p5-p6-2026-11-03/README.md) distinguishes the source, representation and independently tested finite-I coverage. Frozen packet status text is historical; public availability is recorded by the current index.
-
-## Current calculation
-
-The [current guide](current/README.md) is the normal reader and assembly route.
-From the repository root:
+## Complete current result
 
 ```text
+python -m pip install -r docs/current/requirements.txt
 python -m workflow.current_calculation check
-python -m workflow.current_calculation integral 2e-Pi1-01
 python -m workflow.current_calculation result 3
 python -m workflow.current_calculation replay --output-dir replay-output/current-new
 ```
 
-The complete isolated public-copy replay is [recorded here](../validation/current-2026-11-02/README.md).
-The levels below retain the dated source and low-loop research workflows and
-their precise integration/reuse scopes.
+The reader checks its exact runtime bindings. Replay reconstructs low-loop color sums, all four three-loop channels, scale restoration, coupling counterterms, poles, finite functions and RG relations. The output matches the [current analytic data](../benchmarks/current/results/3loop.json). Read the [formula article](../results/current/four-color-results.md) for the mathematical quantities returned.
 
-
-## Reproduce the39 three-loop pure-exchange integrals
-
-The [English index](../integrals/three-loop/README.md) connects each original source to its seven Laurent coefficients and shared mathematical route. From the repository root, using the versions declared by the packet:
+## Regenerate the result article
 
 ```text
-python evaluations/three-loop-6e/scripts/verify_manifest.py
-python evaluations/three-loop-6e/scripts/evaluate_batch.py --output replay-output/three-loop-6e-new
-python evaluations/three-loop-6e/scripts/verify_batch.py --results replay-output/three-loop-6e-new/generated.json --out replay-output/three-loop-6e-new/verification.json
-python evaluations/three-loop-6e/scripts/independent_controls.py --input evaluations/three-loop-6e/engine/benchmarks/2ne/prepared/6e.json --results replay-output/three-loop-6e-new/generated.json --out replay-output/three-loop-6e-new/independent-controls.json
+python -B tools/render_four_color_results.py --check
 ```
 
-No installed Maple/HyperInt or private Wilson workspace is needed. The default command computes ten Gamma routes afresh and reuses exact-profile archived original CAS outputs for the others. It then performs new physical assembly; no final coefficient reference is read during generation. The checker opens final references afterwards. See [actual public-copy validation](../validation/three-loop-6e-2026-11-03/README.md) and the [independent-control coverage](../evaluations/three-loop-6e/methods/independent-controls.md). This does not freshly reintegrate all39 complex sources or provide formal proofs.
+The renderer checks its96 displayed exact expressions and213 algebraic identities against the current result data. These include the finite slice at L=0, scale restoration, lower-loop counterterm convolution, pole separation and the finite RG relation. To regenerate the article and its check report, run the same command without `--check`.
 
-## Inspect and verify input data
+## Individual integral batches
 
-Use [data/README.md](../data/README.md) to find an orbit's definition, C/J package, available prepared representation, stable ID and source hash. Run the [upstream package audit](../tools/check_upstream.py) from the repository root:
+The per-entry code adapters use shared same-loop or same-family evaluators. Their derivation and data indices identify the actual source integral and evaluated subintegrals.
 
 ```text
-python tools/check_upstream.py --output-dir upstream-audit
+python -B integrals/one-loop/2e-01/code/reproduce.py --output-dir replay-output/one-loop-new
+python -B integrals/two-loop/4e-01/code/reproduce.py --output-dir replay-output/two-loop-new
+python -B integrals/three-loop/6e-01/code/reproduce.py --output replay-output/6e-new
 ```
 
-This checks the published manifests, catalogue pointers, preserved bytes and navigation. It does not evaluate divergent parameter integrals or prove their original physics.
-
-## Run the source packages
-
-The [generator README](../packages/qgraf-pipeline/README.md) and [Montopar README](../packages/montopar/README.md) give exact entrypoints, dependencies and new-output-directory examples. Use the documented non-PDF path if TeX is unavailable. Montopar color-backend requirements depend on the family.
-
-Current-source replays and frozen historical inputs have separate version identities. Compare only the fields and mathematical conventions stated by the replay record. Do not overwrite the checked-in data to make a comparison pass.
-
-## Reassemble evaluated results
-
-The [complete low-loop packet](../results/2026-11-02-low-loops/README.md) rebuilds one/two-loop color sums, scales, counterterms, logZ, finite functions and RG/external finite checks. Run from the public root, with the recorded dependencies:
+For the6e comparison and controls after generation:
 
 ```text
-python tools/check_low_loops.py --output-dir replay-output/audit-new
-python results/2026-11-02-low-loops/reproduce.py --output-dir replay-output/totals-new
-python results/2026-11-02-low-loops/numeric.py --output-dir replay-output/finite-numeric-new
+python -B integrals/families/three-loop-6e/runtime/scripts/verify_batch.py --results replay-output/6e-new/generated.json --out replay-output/6e-new/verification.json
+python -B integrals/families/three-loop-6e/runtime/scripts/independent_controls.py --input integrals/families/three-loop-6e/runtime/engine/benchmarks/2ne/prepared/6e.json --results replay-output/6e-new/generated.json --out replay-output/6e-new/controls.json
 ```
 
-The [23 October result replay](../results/2026-10-23/reproduce.md) still rebuilds its dated three-matter-color expressions from evaluated coefficients. It does not rerun all original integrations. The complete three-loop four-color delivery is already available through [the current guide](current/README.md); its direct assembly and the original-integral evaluation routes above have separate scopes.
+The original CAS integrations, their scripts and raw outputs accompany each family. The supported replay checks and reuses those evaluated objects before physical assembly. The [validation index](../validation/README.md) identifies exact checks, numerical controls and the associated mathematical audits.
 
-## Recompute an integral
+Additional family-specific commands are in the [15 insertion packet](../evaluations/three-loop-insertions/README.md), [44 tree-three-gluon packet](../evaluations/three-loop-tree5e/README.md), and [upstream generation guide](upstream/README.md). Original dependency versions and execution conditions are retained with each package.
 
-The [one-loop](../integrals/one-loop/README.md) and [two-loop](../integrals/two-loop/README.md) articles distinguish actual original/reduced-integral computation from representation verification and reused identities. To execute their declared routes before assembling:
+## Historical reproduction
 
-```text
-python results/2026-11-02-low-loops/reproduce.py --output-dir replay-output/full-new --regenerate-integrals
-python integrals/two-loop/check_integrals.py --output-dir replay-output/kernel-controls-new
-```
-
-One-loop primitives and Gamma/M-moment series are freshly computed; the two-loop shared engines expand the documented mother functions and compare complete HLOG coordinates. The original TGV04 HyperInt integration and fixed dictionaries are explicitly reused. No new full CAS integration of fourteen graphs is claimed. Historical CAS source scripts are archival; they retain original installation paths and must not be run as portable output writers.
+[Dated releases](archive/README.md) keep the commands for their original inputs and result snapshots. Use the current commands above to reproduce the present result.
