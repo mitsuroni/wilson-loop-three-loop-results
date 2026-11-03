@@ -11,3 +11,7 @@ Follow them into the [full low-loop assembly and RG/finite result](../results/20
 Each packet follows [this article template](../templates/integral-derivation.md). A reflection-related orbit can refer to the parent article and state the explicit variable/leg map. Shared family programs remain shared, with per-integral parameters and entrypoints.
 
 The [historical catalogue and result archives](../results/README.md) remain available in their stated dated scopes. This directory's framework does not claim all evaluation articles have already been curated.
+
+## Three-loop exchange batch: 3 November 2026
+
+The [39 pure-exchange 6e entries](three-loop/README.md) now publish six shared mathematical methods, seven Laurent positions per orbit, HLOG/function-family representations and a portable original-primitive replay. The other three-loop families are subsequent curation batches. This does not claim39 new independent CAS integrations.

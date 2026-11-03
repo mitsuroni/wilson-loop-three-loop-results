@@ -1,0 +1,382 @@
+{
+  "emission_type": "2e",
+  "geometry": {
+    "cross_ratios": [
+      {
+        "definition": "v34/v14",
+        "name": "z1"
+      }
+    ],
+    "lightlike": true,
+    "line_vectors": [
+      "v1",
+      "v2",
+      "v3",
+      "v4"
+    ],
+    "n_lines": 4,
+    "reference_scale": "v14"
+  },
+  "loop_order": 1,
+  "orbits": [
+    {
+      "C": {
+        "combined": "(CF) * (Exp[-EulerGamma*eps]) * ((4*Pi*alphaS)^1) * (Gamma[1-eps]^1/(4*Pi^(2-eps))^1) * ((-2*v14+I0)^(1*eps)) * ((-2)^(-1))",
+        "components": {
+          "color": "CF",
+          "coupling": "(4*Pi*alphaS)^1",
+          "euler_compensation": "Exp[-EulerGamma*eps]",
+          "ft_prefactor": "Gamma[1-eps]^1/(4*Pi^(2-eps))^1",
+          "i_factor": "I^2",
+          "v14_scale": "v14^1"
+        }
+      },
+      "J": {
+        "bounds": {
+          "s31": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "1"
+          ]
+        },
+        "delta_constraints": {},
+        "expanded": "(z1) * ((1-s31)*s41*z1)^(-1+eps)",
+        "integrand": "(z1) * f1^(-1+eps)",
+        "integration_order_outer_to_inner": [
+          "s31",
+          "s41"
+        ],
+        "measure_semantics": "iterated_real_interval_integral",
+        "numerator": "z1",
+        "order_convention": "stable dependency order (parents before children); explicit root interpretation, not a Fubini proof",
+        "propagator_polynomials": {
+          "f1": "(1-s31)*s41*z1"
+        },
+        "representation": "ordered-parameters/1",
+        "variables": [
+          "s31",
+          "s41"
+        ]
+      },
+      "c4_symmetry": {
+        "orbit_multiplicity": 4,
+        "stabilizer_order": 1,
+        "stabilizer_rotations": [
+          0
+        ]
+      },
+      "color_preparation": {
+        "a1": "1",
+        "basis": [
+          "CF"
+        ],
+        "coordinates": [
+          "1"
+        ],
+        "evidence_kind": "python_exact_preprocessing",
+        "formal_receipt": null,
+        "original_C": {
+          "combined": "(CF) * ((4*Pi*alphaS)^1) * (Gamma[1-eps]^1/(4*Pi^(2-eps))^1) * ((-2*v14+I0)^(1*eps)) * ((-2)^(-1))",
+          "components": {
+            "color": "CF",
+            "coupling": "(4*Pi*alphaS)^1",
+            "ft_prefactor": "Gamma[1-eps]^1/(4*Pi^(2-eps))^1",
+            "i_factor": "I^2",
+            "v14_scale": "v14^1"
+          }
+        },
+        "projected_color": "CF",
+        "python_checks": {
+          "exact_reconstruction_residual_zero": true,
+          "unique_rational_coordinates": true
+        },
+        "reconstructed_color": "CF"
+      },
+      "dispatch": "pure",
+      "euler_preparation": {
+        "evidence_kind": "python_deterministic_preprocessing",
+        "factor": "Exp[-EulerGamma*eps]",
+        "formal_receipt": null,
+        "gamma_power": 1,
+        "loop_order": 1,
+        "original_ft_prefactor": "Gamma[1-eps]^1/(4*Pi^(2-eps))^1",
+        "python_checks": {
+          "emission_family_matches": true,
+          "gamma_power_matches_loop_order": true,
+          "loop_order_positive": true,
+          "previous_compensation_absent": true
+        },
+        "scheme": "exp(-loop_order*EulerGamma*eps)"
+      },
+      "input_export": {
+        "checks": {
+          "reconstructed_cube_expression_matches": true
+        },
+        "formal_receipt": null,
+        "jacobian": "1",
+        "original_cube_sha256": "6ba844706c89022ef83f21b040022e61403419929468c0a6c8e3a116427e02f2",
+        "s_to_x": {
+          "s31": "x1",
+          "s41": "x2"
+        },
+        "stage": "before_hypercube"
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "identity"
+        },
+        "direct_opposite_edge_links": {
+          "channel_partition": [],
+          "channels": {
+            "13": 0,
+            "24": 0
+          },
+          "definition": "direct_eikonal_to_eikonal_only",
+          "structure": "1",
+          "total_order": 0
+        },
+        "symbol": "1"
+      },
+      "orbit_id": "2e-01",
+      "topology": {
+        "bounds": [
+          {
+            "high": "1",
+            "low": "0",
+            "var": "s31"
+          },
+          {
+            "high": "1",
+            "low": "0",
+            "var": "s41"
+          }
+        ],
+        "internal_vertices": [],
+        "phases": [
+          {
+            "expression": "(1-s31)*v3 + s41*v4",
+            "loop": "l1"
+          }
+        ],
+        "propagators": [
+          {
+            "color": [
+              "a1",
+              "a2"
+            ],
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "mu2"
+            ]
+          }
+        ],
+        "vertices": [
+          {
+            "color": "a1",
+            "line": 3,
+            "lorentz": "mu1"
+          },
+          {
+            "color": "a2",
+            "line": 4,
+            "lorentz": "mu2"
+          }
+        ]
+      }
+    },
+    {
+      "C": {
+        "combined": "(CF) * (Exp[-EulerGamma*eps]) * ((4*Pi*alphaS)^1) * (Gamma[1-eps]^1/(4*Pi^(2-eps))^1) * ((-2*v14+I0)^(1*eps)) * ((-2)^(-1))",
+        "components": {
+          "color": "CF",
+          "coupling": "(4*Pi*alphaS)^1",
+          "euler_compensation": "Exp[-EulerGamma*eps]",
+          "ft_prefactor": "Gamma[1-eps]^1/(4*Pi^(2-eps))^1",
+          "i_factor": "I^2",
+          "v14_scale": "v14^1"
+        }
+      },
+      "J": {
+        "bounds": {
+          "s21": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "1"
+          ]
+        },
+        "delta_constraints": {},
+        "expanded": "(-(1+z1)) * ((1-s21)*(1-s41) + z1*s21*s41)^(-1+eps)",
+        "integrand": "(-(1+z1)) * f1^(-1+eps)",
+        "integration_order_outer_to_inner": [
+          "s21",
+          "s41"
+        ],
+        "measure_semantics": "iterated_real_interval_integral",
+        "numerator": "-(1+z1)",
+        "order_convention": "stable dependency order (parents before children); explicit root interpretation, not a Fubini proof",
+        "propagator_polynomials": {
+          "f1": "(1-s21)*(1-s41) + z1*s21*s41"
+        },
+        "representation": "ordered-parameters/1",
+        "variables": [
+          "s21",
+          "s41"
+        ]
+      },
+      "c4_symmetry": {
+        "orbit_multiplicity": 2,
+        "stabilizer_order": 2,
+        "stabilizer_rotations": [
+          0,
+          2
+        ]
+      },
+      "color_preparation": {
+        "a1": "1",
+        "basis": [
+          "CF"
+        ],
+        "coordinates": [
+          "1"
+        ],
+        "evidence_kind": "python_exact_preprocessing",
+        "formal_receipt": null,
+        "original_C": {
+          "combined": "(CF) * ((4*Pi*alphaS)^1) * (Gamma[1-eps]^1/(4*Pi^(2-eps))^1) * ((-2*v14+I0)^(1*eps)) * ((-2)^(-1))",
+          "components": {
+            "color": "CF",
+            "coupling": "(4*Pi*alphaS)^1",
+            "ft_prefactor": "Gamma[1-eps]^1/(4*Pi^(2-eps))^1",
+            "i_factor": "I^2",
+            "v14_scale": "v14^1"
+          }
+        },
+        "projected_color": "CF",
+        "python_checks": {
+          "exact_reconstruction_residual_zero": true,
+          "unique_rational_coordinates": true
+        },
+        "reconstructed_color": "CF"
+      },
+      "dispatch": "pure",
+      "euler_preparation": {
+        "evidence_kind": "python_deterministic_preprocessing",
+        "factor": "Exp[-EulerGamma*eps]",
+        "formal_receipt": null,
+        "gamma_power": 1,
+        "loop_order": 1,
+        "original_ft_prefactor": "Gamma[1-eps]^1/(4*Pi^(2-eps))^1",
+        "python_checks": {
+          "emission_family_matches": true,
+          "gamma_power_matches_loop_order": true,
+          "loop_order_positive": true,
+          "previous_compensation_absent": true
+        },
+        "scheme": "exp(-loop_order*EulerGamma*eps)"
+      },
+      "input_export": {
+        "checks": {
+          "reconstructed_cube_expression_matches": true
+        },
+        "formal_receipt": null,
+        "jacobian": "1",
+        "original_cube_sha256": "02c6e57d40143c3b93b02e6a9edca1822329bde3d5e3ad10b71b39baf5c399b9",
+        "s_to_x": {
+          "s21": "x1",
+          "s41": "x2"
+        },
+        "stage": "before_hypercube"
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "identity"
+        },
+        "direct_opposite_edge_links": {
+          "channel_partition": [
+            1
+          ],
+          "channels": {
+            "13": 0,
+            "24": 1
+          },
+          "definition": "direct_eikonal_to_eikonal_only",
+          "structure": "L24",
+          "total_order": 1
+        },
+        "symbol": "L24"
+      },
+      "orbit_id": "2e-02",
+      "topology": {
+        "bounds": [
+          {
+            "high": "1",
+            "low": "0",
+            "var": "s21"
+          },
+          {
+            "high": "1",
+            "low": "0",
+            "var": "s41"
+          }
+        ],
+        "internal_vertices": [],
+        "phases": [
+          {
+            "expression": "-((1-s41)*v4 + v1 + s21*v2)",
+            "loop": "l1"
+          }
+        ],
+        "propagators": [
+          {
+            "color": [
+              "a1",
+              "a2"
+            ],
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "mu2"
+            ]
+          }
+        ],
+        "vertices": [
+          {
+            "color": "a1",
+            "line": 2,
+            "lorentz": "mu1"
+          },
+          {
+            "color": "a2",
+            "line": 4,
+            "lorentz": "mu2"
+          }
+        ]
+      }
+    }
+  ],
+  "package_kind": "wilson-prepared-integrals",
+  "preparation": {
+    "color_policy": "fixed-loop full coordinates, select a1",
+    "euler_compensation": "exp(-loop_order*EulerGamma*eps)",
+    "integral_representation": "ordered-parameters/1",
+    "lean_invoked": false,
+    "other_C_factors": "unchanged except the declared Euler compensation factor",
+    "proof_boundary": "Wilson verification begins with prepared C and the pre-hypercube J with its explicit iterated order.",
+    "source": {
+      "path": "sources/montopar-ordered/2e/montopar-initial.json",
+      "path_base": "benchmarks/2ne",
+      "sha256": "6da143214266017bfea452c45c7a09ba157b1e1563776f93b8ed3b8e2718b8fe"
+    },
+    "source_package_kind": "montopar-initial-integrals",
+    "trust_basis": "user_accepted_preprocessed_input",
+    "version": "ordered-color-euler-input/0.3"
+  },
+  "schema_version": "1.0"
+}

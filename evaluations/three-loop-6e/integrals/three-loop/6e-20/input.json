@@ -1,0 +1,156 @@
+{
+  "orbit_id": "6e-20",
+  "family": "same-channel-three",
+  "source_bindings": {
+    "graph": {
+      "path": "inputs/source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+      "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+      "json_pointer": "/orbits/129",
+      "field_sha256": "a432f2d9d68be500a2d4a51ad8168274c6af8315327b9cffe6de69917ac74ba5"
+    },
+    "native_raw": {
+      "path": "inputs/source/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/6e/montopar-initial.json",
+      "sha256": "b67f8617d1f6badb1ea5cc26863be782086205240cb89eb2082dd989451b30e7",
+      "json_pointer": "/orbits/19",
+      "field_sha256": "379fb72ac9fc92e64742f3c8438eb2275da800427b55d92228edda43d51b7099"
+    },
+    "ordered_original": {
+      "path": "inputs/source/snapshots/benchmarks/2ne/sources/montopar-ordered/6e/montopar-initial.json",
+      "sha256": "890858f4429fa39bcf4e7f2de9afbf847193a1a6dc2b377250b9d75f9603475b",
+      "json_pointer": "/orbits/19",
+      "field_sha256": "5b365b6b94e855ba47c6123713156e53ef5de15840f0c7fc777ed1a9c58dceed"
+    },
+    "native_prepared": {
+      "path": "inputs/source/native-prepared-6e.json",
+      "sha256": "0b4f6dfb4586a58fafe155651fc39893d80f0ea303abb18eac88fa6c918dcec4",
+      "json_pointer": "/orbits/19",
+      "field_sha256": "c75d6e851ebaa1b3dab2e768be24629413b40dbf54a571f0bd6122ed741a2ec7"
+    }
+  },
+  "historical_derivations": [
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/same-channel-three/README.md",
+      "sha256": "73142eac463fd70c5b1dd63465e6f6ae1ae996778083422d319832cffee879d7"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/same-channel-three/basis-functions.md",
+      "sha256": "a4a45fcdecd980482dc074bf8aa898ec7cbb0d164a4482a0120714d241498b44"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/same-channel-three/method.md",
+      "sha256": "a9a27ebfb09b02e9ea16e26648a7ebfded3a2eb6e5160c79ca149df2b7b17b2d"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/workspaces/6e-20/derivation.md",
+      "sha256": "9a9301dd7f71ffc1062e5b452b809ca7cbbbe196f6be8240d4c1660143779337"
+    },
+    {
+      "path": "evidence/historical/workflow/checks/same-channel-three/runs/20260917T025201012763Z/6e-20-derivation.md",
+      "sha256": "9a9301dd7f71ffc1062e5b452b809ca7cbbbe196f6be8240d4c1660143779337"
+    }
+  ],
+  "original_evaluation_route": {
+    "note": "Original three-link permutations map to R123/R132. Fresh HyperInt evaluates their finite kernels; all poles vanish by endpoint holomorphy. Existing M+E conversion is an exact representation step.",
+    "required_historical_mothers": [
+      "R123"
+    ],
+    "orbit_specific_reduction": {
+      "permutation": [
+        1,
+        2,
+        3
+      ],
+      "mirror_permutation": [
+        1,
+        2,
+        3
+      ],
+      "links": [
+        {
+          "id": "f1",
+          "variables": [
+            "s21",
+            "s41"
+          ],
+          "polynomial_residual": "0"
+        },
+        {
+          "id": "f2",
+          "variables": [
+            "s22",
+            "s42"
+          ],
+          "polynomial_residual": "0"
+        },
+        {
+          "id": "f3",
+          "variables": [
+            "s23",
+            "s43"
+          ],
+          "polynomial_residual": "0"
+        }
+      ],
+      "chains": [
+        [
+          "s21",
+          "s22",
+          "s23"
+        ],
+        [
+          "s41",
+          "s42",
+          "s43"
+        ]
+      ],
+      "t_low_high": [
+        "s21",
+        "s22",
+        "s23"
+      ],
+      "s_low_high": [
+        "s41",
+        "s42",
+        "s43"
+      ],
+      "a1": "1/2",
+      "sym": 2,
+      "kappa": "-1/16",
+      "adjacent_count": 0,
+      "J": "R123*z**(3*eps/2)",
+      "I": "-G**3*R123/(16*cosh(3*ell*eps/2))"
+    },
+    "derivation_headings_read": [
+      "6e-20：[3] 族 I 的解析解",
+      "原始输入与排序",
+      "结构、完整 J 与 I",
+      "Laurent 系数",
+      "实际检查与限制"
+    ]
+  },
+  "relationship": {
+    "kind": "own_orbit_shared_family_method",
+    "scope": "complete physical I under the documented positive-real-z normalization and convergence/continuation domain",
+    "representative": "6e-20",
+    "factor": "1",
+    "evidence": [
+      {
+        "path": "benchmarks/2ne/families/same-channel-three/method.md",
+        "sha256": "a9a27ebfb09b02e9ea16e26648a7ebfded3a2eb6e5160c79ca149df2b7b17b2d",
+        "locator": "own original-kernel derivation"
+      },
+      {
+        "path": "benchmarks/2ne/workspaces/6e-20/derivation.md",
+        "sha256": "9a9301dd7f71ffc1062e5b452b809ca7cbbbe196f6be8240d4c1660143779337"
+      }
+    ],
+    "J_status": "No equality/proportionality of the original J is inferred from a physical-I relation.",
+    "proof_status": "existing analytic derivation with computational checks; not a new formal proof"
+  },
+  "reference": {
+    "path": "benchmarks/2ne/results/6e-20/r001.json",
+    "sha256": "a5e937a0a7e8a9d6abb5c5ee19bef3cb3155ca3dcc0e937cf9089268d045987b"
+  },
+  "reference_read_during_staging": false,
+  "P1_reuse": false
+}

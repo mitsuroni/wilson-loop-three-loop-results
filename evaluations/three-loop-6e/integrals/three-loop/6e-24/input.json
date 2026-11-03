@@ -1,0 +1,163 @@
+{
+  "orbit_id": "6e-24",
+  "family": "same-channel-two",
+  "source_bindings": {
+    "graph": {
+      "path": "inputs/source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+      "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+      "json_pointer": "/orbits/133",
+      "field_sha256": "4ef62fa6da3da810032aca6828de9dafe0466937cd479511bcefffbdf61ad2e0"
+    },
+    "native_raw": {
+      "path": "inputs/source/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/6e/montopar-initial.json",
+      "sha256": "b67f8617d1f6badb1ea5cc26863be782086205240cb89eb2082dd989451b30e7",
+      "json_pointer": "/orbits/23",
+      "field_sha256": "1ad5fceeb062d764eec11a6caedc32d44017ee82dec08995273978245a333ed6"
+    },
+    "ordered_original": {
+      "path": "inputs/source/snapshots/benchmarks/2ne/sources/montopar-ordered/6e/montopar-initial.json",
+      "sha256": "890858f4429fa39bcf4e7f2de9afbf847193a1a6dc2b377250b9d75f9603475b",
+      "json_pointer": "/orbits/23",
+      "field_sha256": "bff81a8c1bd2206a09b99f3f920017e9c520edb45f90969c12c55846f4846c5b"
+    },
+    "native_prepared": {
+      "path": "inputs/source/native-prepared-6e.json",
+      "sha256": "0b4f6dfb4586a58fafe155651fc39893d80f0ea303abb18eac88fa6c918dcec4",
+      "json_pointer": "/orbits/23",
+      "field_sha256": "30becff277fb2c64ca6fb0caeccdb3a35f01a441e446cca0ed4e4052c21140c4"
+    }
+  },
+  "historical_derivations": [
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/same-channel-two/README.md",
+      "sha256": "72dd099caa5bafd045d6e1a213d27a6077e2dfbe2ca28368629ff381cb4b1377"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/same-channel-two/basis-functions.md",
+      "sha256": "aae169cd6b1fae72bf625c0a30a4416e56417e45c17499c5455eb6596aad0034"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/same-channel-two/method.md",
+      "sha256": "d290527b5c01c5840a6bff4122a771d2cd619e7cbae1e1422118df063e279146"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/same-channel-two/structural-basis-functions.md",
+      "sha256": "a6c50468dd1ba4dc35a45eeb6469b4a5ec7b7ff06506a390bce7d42e22337cdc"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/same-channel-two/three-loop.md",
+      "sha256": "752c50401d6f8e9c08c032ae7c4259f5a01450c87a29e032734ff12a9b025e44"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/workspaces/6e-24/derivation.md",
+      "sha256": "e3f57a04be9ba3dfacb4c8172a508bfe1e9553b9a06cc48c5ccdd78cc948c1fd"
+    },
+    {
+      "path": "evidence/historical/workflow/checks/same-channel-two/deliveries/20260916T132750613966Z/derivations/6e-24/derivation.md",
+      "sha256": "e3f57a04be9ba3dfacb4c8172a508bfe1e9553b9a06cc48c5ccdd78cc948c1fd"
+    },
+    {
+      "path": "evidence/historical/workflow/checks/same-channel-two/deliveries/20260916T132750613966Z/sources/benchmarks/2ne/families/same-channel-two/basis-functions.md",
+      "sha256": "aae169cd6b1fae72bf625c0a30a4416e56417e45c17499c5455eb6596aad0034"
+    },
+    {
+      "path": "evidence/historical/workflow/checks/same-channel-two/deliveries/20260916T132750613966Z/sources/benchmarks/2ne/families/same-channel-two/method.md",
+      "sha256": "d290527b5c01c5840a6bff4122a771d2cd619e7cbae1e1422118df063e279146"
+    }
+  ],
+  "original_evaluation_route": {
+    "note": "Original same-channel ordered two-kernel gap weights give three types (id_after/id_middle/swap_after). Fresh HyperInt evaluates V0 and U1/U2; finite coefficients are assembled with old H0 moments. Later all-epsilon boundary/source generator does not replace that original run.",
+    "required_historical_mothers": [
+      "V0",
+      "swap_after_1",
+      "swap_after_2",
+      "H0(q=0..2)"
+    ],
+    "orbit_specific_reduction": {
+      "topology": "swap",
+      "kind": "swap_after",
+      "reflection": true,
+      "chains": [
+        {
+          "variables_low_to_high": [
+            "s21",
+            "s22",
+            "s23"
+          ],
+          "word": "BOO"
+        },
+        {
+          "variables_low_to_high": [
+            "s31"
+          ],
+          "word": "A"
+        },
+        {
+          "variables_low_to_high": [
+            "s41",
+            "s42"
+          ],
+          "word": "OO"
+        }
+      ],
+      "t_low_high": [
+        "s41",
+        "s42"
+      ],
+      "s_low_high": [
+        "s22",
+        "s23"
+      ],
+      "permutation": [
+        1,
+        0
+      ],
+      "adjacent": [
+        [
+          "s31",
+          "s21",
+          "1"
+        ]
+      ],
+      "scale": "1",
+      "a1": "1/4",
+      "sym": 4,
+      "kappa": "-1/16",
+      "weight": "1-w^eps",
+      "original_weight": "1-(1-v)^eps"
+    },
+    "derivation_headings_read": [
+      "6e-24：[2] 族解析推导",
+      "根与原顺序",
+      "从根降维",
+      "完整 J 与 I",
+      "Laurent 系数",
+      "检查与输出"
+    ]
+  },
+  "relationship": {
+    "kind": "full_I_equal",
+    "scope": "complete physical I under the documented positive-real-z normalization and convergence/continuation domain",
+    "representative": "6e-12",
+    "factor": "1",
+    "evidence": [
+      {
+        "path": "benchmarks/2ne/families/same-channel-two/method.md",
+        "sha256": "d290527b5c01c5840a6bff4122a771d2cd619e7cbae1e1422118df063e279146",
+        "locator": "simultaneous endpoint reflection; method section 2"
+      },
+      {
+        "path": "benchmarks/2ne/workspaces/6e-24/derivation.md",
+        "sha256": "e3f57a04be9ba3dfacb4c8172a508bfe1e9553b9a06cc48c5ccdd78cc948c1fd"
+      }
+    ],
+    "J_status": "No equality/proportionality of the original J is inferred from a physical-I relation.",
+    "proof_status": "existing analytic derivation with computational checks; not a new formal proof"
+  },
+  "reference": {
+    "path": "benchmarks/2ne/results/6e-24/r002.json",
+    "sha256": "49e5d88f17cae1c3bd2863b8de295fdbb43e2167362b7084084175d8f5803465"
+  },
+  "reference_read_during_staging": false,
+  "P1_reuse": false
+}

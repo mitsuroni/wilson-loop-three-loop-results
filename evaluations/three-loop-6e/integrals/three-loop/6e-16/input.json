@@ -1,0 +1,134 @@
+{
+  "orbit_id": "6e-16",
+  "family": "single-opposite",
+  "source_bindings": {
+    "graph": {
+      "path": "inputs/source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+      "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+      "json_pointer": "/orbits/125",
+      "field_sha256": "bb75e812edf97d10eb5023ec278fa86512bf6fbb2453721d3bfadb8ec30ed997"
+    },
+    "native_raw": {
+      "path": "inputs/source/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/6e/montopar-initial.json",
+      "sha256": "b67f8617d1f6badb1ea5cc26863be782086205240cb89eb2082dd989451b30e7",
+      "json_pointer": "/orbits/15",
+      "field_sha256": "19a0abe98403cfed76eaf0ecb62e9f2191402f16ba23fb46e32f000f5032ad4c"
+    },
+    "ordered_original": {
+      "path": "inputs/source/snapshots/benchmarks/2ne/sources/montopar-ordered/6e/montopar-initial.json",
+      "sha256": "890858f4429fa39bcf4e7f2de9afbf847193a1a6dc2b377250b9d75f9603475b",
+      "json_pointer": "/orbits/15",
+      "field_sha256": "00316ef70a4ac264d66cb85b4b52dc66c4bcc6a755fb8eba955d26c062c5b2c5"
+    },
+    "native_prepared": {
+      "path": "inputs/source/native-prepared-6e.json",
+      "sha256": "0b4f6dfb4586a58fafe155651fc39893d80f0ea303abb18eac88fa6c918dcec4",
+      "json_pointer": "/orbits/15",
+      "field_sha256": "0474a822a47db1689d749628f3df39909906e53c2c84afc63d54fec1edd41404"
+    }
+  },
+  "historical_derivations": [
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/single-opposite/README.md",
+      "sha256": "7d66782c39014867f32743e87b8033ce0121b8e40296effc1cddbc35468d0a01"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/single-opposite/basis-functions.md",
+      "sha256": "75b6bd8a5284f1862ccdc9eb9c733ec114620c45e32dc3a61cd9ffb09bfd99b4"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/single-opposite/basis.md",
+      "sha256": "a36937f757b373e71c6873b7b59c33be64751a4d2101725cc8d7d3d41b3c2a84"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/single-opposite/three-loop.md",
+      "sha256": "fb37794f0b41c4de10d4c1e7d3207643174c6a7228b9f3ed0cd79a211fcecd5c"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/workspaces/6e-16/derivation.md",
+      "sha256": "b7d0b98ed7c0edfe6a433a450e5dc71e27cc7d6231c93a7fc5281b90bd6dcc2d"
+    },
+    {
+      "path": "evidence/historical/workflow/checks/single-opposite/runs/20260916T093258061172Z/6e-16-derivation.md",
+      "sha256": "b7d0b98ed7c0edfe6a433a450e5dc71e27cc7d6231c93a7fc5281b90bd6dcc2d"
+    }
+  ],
+  "original_evaluation_route": {
+    "note": "Each actual root supplies its own endpoint weight. Historical fresh HyperInt evaluates six moment types through q=4; Gamma/crossing convolution and M/N/tau conversion are separate steps. Later natural generators are separate evidence.",
+    "required_historical_mothers": [
+      "H1",
+      "HX"
+    ],
+    "orbit_specific_reduction": {
+      "r": 1,
+      "pole_prefactor": 4,
+      "chains": [
+        {
+          "variables_low_to_high": [
+            "s21",
+            "s22"
+          ],
+          "word": "OB",
+          "normalized_weight": "BT"
+        },
+        {
+          "variables_low_to_high": [
+            "s31",
+            "s32"
+          ],
+          "word": "BA",
+          "normalized_weight": "1 - R2"
+        },
+        {
+          "variables_low_to_high": [
+            "s41",
+            "s42"
+          ],
+          "word": "OA",
+          "normalized_weight": "1 - AS"
+        }
+      ],
+      "opposite": [
+        "s21",
+        "s41"
+      ],
+      "weight": "AS*BT*R2 - AS*BT - BT*R2 + BT",
+      "paired_weight": "AS*BT*R2/2 - AS*BT/2 + AT*BS*R2/2 - AT*BS/2 - AT*R2/2 + AT/2 - BT*R2/2 + BT/2"
+    },
+    "derivation_headings_read": [
+      "6e-16：[1] 族 I 的解析结果",
+      "1. 输入、条件与目标",
+      "2. 完整 I",
+      "3. 原始 J 到有序权重",
+      "4. 当前 C、crossing 与求值",
+      "5. 从 epsilon^-6 到有限项",
+      "6. 与 M/N 的关系",
+      "7. 实际检查和遗留事项"
+    ]
+  },
+  "relationship": {
+    "kind": "full_I_equal",
+    "scope": "complete physical I under the documented positive-real-z normalization and convergence/continuation domain",
+    "representative": "6e-15",
+    "factor": "1",
+    "evidence": [
+      {
+        "path": "benchmarks/2ne/families/single-opposite/three-loop.md",
+        "sha256": "fb37794f0b41c4de10d4c1e7d3207643174c6a7228b9f3ed0cd79a211fcecd5c",
+        "locator": "F6"
+      },
+      {
+        "path": "benchmarks/2ne/workspaces/6e-16/derivation.md",
+        "sha256": "b7d0b98ed7c0edfe6a433a450e5dc71e27cc7d6231c93a7fc5281b90bd6dcc2d"
+      }
+    ],
+    "J_status": "No equality/proportionality of the original J is inferred from a physical-I relation.",
+    "proof_status": "existing analytic derivation with computational checks; not a new formal proof"
+  },
+  "reference": {
+    "path": "benchmarks/2ne/results/6e-16/r001.json",
+    "sha256": "be1d4f08c3c693b772cc373ddd2d600a27808984fae2d3f9ced4cd7c844c3dc4"
+  },
+  "reference_read_during_staging": false,
+  "P1_reuse": false
+}

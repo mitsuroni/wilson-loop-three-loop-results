@@ -17,6 +17,19 @@ The levels below retain the dated source and low-loop research workflows and
 their precise integration/reuse scopes.
 
 
+## Reproduce the39 three-loop pure-exchange integrals
+
+The [English index](../integrals/three-loop/README.md) connects each original source to its seven Laurent coefficients and shared mathematical route. From the repository root, using the versions declared by the packet:
+
+```text
+python evaluations/three-loop-6e/scripts/verify_manifest.py
+python evaluations/three-loop-6e/scripts/evaluate_batch.py --output replay-output/three-loop-6e-new
+python evaluations/three-loop-6e/scripts/verify_batch.py --results replay-output/three-loop-6e-new/generated.json --out replay-output/three-loop-6e-new/verification.json
+python evaluations/three-loop-6e/scripts/independent_controls.py --input evaluations/three-loop-6e/engine/benchmarks/2ne/prepared/6e.json --results replay-output/three-loop-6e-new/generated.json --out replay-output/three-loop-6e-new/independent-controls.json
+```
+
+No installed Maple/HyperInt or private Wilson workspace is needed. The default command computes ten Gamma routes afresh and reuses exact-profile archived original CAS outputs for the others. It then performs new physical assembly; no final coefficient reference is read during generation. The checker opens final references afterwards. See [actual public-copy validation](../validation/three-loop-6e-2026-11-03/README.md) and the [independent-control coverage](../evaluations/three-loop-6e/methods/independent-controls.md). This does not freshly reintegrate all39 complex sources or provide formal proofs.
+
 ## Inspect and verify input data
 
 Use [data/README.md](../data/README.md) to find an orbit's definition, C/J package, available prepared representation, stable ID and source hash. Run the [upstream package audit](../tools/check_upstream.py) from the repository root:
@@ -43,7 +56,7 @@ python results/2026-11-02-low-loops/reproduce.py --output-dir replay-output/tota
 python results/2026-11-02-low-loops/numeric.py --output-dir replay-output/finite-numeric-new
 ```
 
-The [23 October result replay](../results/2026-10-23/reproduce.md) still rebuilds its dated three-matter-color expressions from evaluated coefficients. It does not rerun all original integrations. The new complete three-loop four-color delivery remains the later downstream publication step.
+The [23 October result replay](../results/2026-10-23/reproduce.md) still rebuilds its dated three-matter-color expressions from evaluated coefficients. It does not rerun all original integrations. The complete three-loop four-color delivery is already available through [the current guide](current/README.md); its direct assembly and the original-integral evaluation routes above have separate scopes.
 
 ## Recompute an integral
 

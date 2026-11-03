@@ -18,8 +18,7 @@ python -m workflow.current_calculation replay --output-dir replay-output/current
 ```
 
 The exact public runtime closure has passed an [isolated complete replay](validation/current-2026-11-02/README.md).
-Older dated deliveries remain intact. Detailed three-loop English per-integral
-evaluation articles are the next curation layer.
+Older dated deliveries remain intact. The [39 three-loop pure-exchange evaluation articles](integrals/three-loop/README.md) now supply the first complete three-loop curation batch; the other families follow.
 
 ## Follow the calculation
 
@@ -27,11 +26,15 @@ evaluation articles are the next curation layer.
 |---|---|---|
 | 1. Generate and classify diagram orbits | [Homemade generator](packages/qgraf-pipeline/README.md) · [guide](docs/upstream/generation.md) | Source, tests, frozen definitions and provenance |
 | 2. Convert diagram definitions to parameter integrals C and J | [Montopar](packages/montopar/README.md) · [guide](docs/upstream/parameterization.md) | Source, tests, integral inputs and versioned contracts |
-| 3. Evaluate individual or joint integrals | [One-loop articles](integrals/one-loop/README.md) · [two-loop articles](integrals/two-loop/README.md) | English derivations, actual programs and exact series for 2+12 orbits |
+| 3. Evaluate individual or joint integrals | [One-loop articles](integrals/one-loop/README.md) · [two-loop articles](integrals/two-loop/README.md) · [three-loop 6e](integrals/three-loop/README.md) | English evaluation packets for 2+12 low-loop orbits and39 three-loop exchange orbits |
 | 4. Assemble color channels | [Current four-color calculation](results/2026-11-02-current/README.md) · [low-loop example](results/2026-11-02-low-loops/README.md) | Direct native-current low/matter/AA assembly and exact current results |
 | 5. Renormalize, extract finite terms and verify RG | [Low-loop derivation](results/2026-11-02-low-loops/derivation.md) · [checks](results/2026-11-02-low-loops/validation/README.md) | Counterterms, logZ, finite results, RG and complete external finite comparison |
 
 Start with the [complete one/two-loop example](results/2026-11-02-low-loops/README.md) to follow the full calculation, or the [upstream guide](docs/upstream/README.md) to inspect its source packages. A source package, a parameter-integral definition, an evaluated Laurent coefficient, and an independent validation are distinct deliverables.
+
+## Three-loop exchange batch: 3 November 2026
+
+All39 pure-exchange 6e orbits now have [individual English derivations and exact data](integrals/three-loop/README.md), sharing six mathematical methods and one [portable evaluator](evaluations/three-loop-6e/README.md). The packet retains the original ordered roots and full-colour source bindings, all273 Laurent positions and function-family conversions. Ten Gamma calculations are fresh; complex routes explicitly reuse checked original raw CAS output before new assembly. [Actual validation](validation/three-loop-6e-2026-11-03/README.md) separates exact comparison, original-domain controls and copied-closure reproduction. No new all39 independent CAS or formal proof is claimed.
 
 ## Complete low-loop pilot: 2 November 2026
 
@@ -45,7 +48,7 @@ All fourteen one/two-loop orbits now have English derivations, exact data and po
 - [Actual upstream checks](validation/upstream-2026-11-02/README.md) and the [historical full-tree manifest at its original commit](https://github.com/mitsuroni/wilson-loop-three-loop-results/blob/ed854f02b0e79840f96c7a73c2642c21fef07307/UPSTREAM-PUBLICATION.json). It binds that snapshot, not this evolving navigation.
 - [Roadmap and publication status](docs/publication-status.md): what is already public, what is being curated next, and how historical snapshots should be read.
 
-The calculation workspace reached a complete four-color three-loop Laurent-through-finite and RG research milestone on 2 November. The upstream foundation and complete low-loop pilot are now public. The current four-color data and direct reconstruction are now public. Detailed three-loop per-integral articles are the next curation stage; older three-color files retain their dated scope.
+The calculation workspace reached a complete four-color three-loop Laurent-through-finite and RG research milestone on 2 November. The upstream foundation and complete low-loop pilot are now public. The current four-color data and direct reconstruction are now public. The39 pure-exchange three-loop articles are now public; detailed insertion/tree5e/four-leg packets are the next curation stages. Older three-color files retain their dated scope.
 
 ## Existing result archives
 

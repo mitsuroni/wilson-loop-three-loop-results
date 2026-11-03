@@ -88,5 +88,4 @@ integration of every original high-dimensional kernel. `formal=not_run`.
 The [upstream](../upstream/README.md), [complete low-loop example](../../results/2026-11-02-low-loops/README.md)
 and older matter-channel archives retain their exact dated data and validation
 scope. The current reader and assembly commands above are the normal entrypoints.
-Detailed English three-loop evaluation articles will be curated family by family;
-the current four-color numerical/symbolic result is already available.
+The [39 three-loop pure-exchange evaluation articles](../../integrals/three-loop/README.md) are now public, with a standalone six-route evaluator and original source/result bindings. Other three-loop families follow. The current four-color numerical/symbolic result and its runtime manifest remain unchanged.

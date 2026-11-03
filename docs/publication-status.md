@@ -1,5 +1,12 @@
 # Publication status and next steps
 
+## 3 November 2026: all39 three-loop pure-exchange evaluation packets
+
+The [39-entry index](../integrals/three-loop/README.md) publishes six shared English methods, original graph/ordered/native C/J, normalization, explicit subintegral budgets, complete273 Laurent positions and HLOG/function-family forms. The [portable packet](../evaluations/three-loop-6e/README.md) preserves all922 declared member bytes from committed Wilson source74df161b. Actual generation repeats ten Gamma expansions and replays checked historical raw CAS primitives for the complex routes before new assembly. Its scope does not become a second independent solution of39 integrals.
+
+[Validation](../validation/three-loop-6e-2026-11-03/README.md) records exact273-position/function checks, independently scoped source controls and the actual public-copy replay. The full four-color current calculation was already public on2 November. Remaining integral curation covers fifteen two-point/exchange insertions first, then tree5e, remaining insertions/Gamma and four-leg joint packets. The dated descriptions below retain their original publication context.
+
+
 ## Current convention and complete four-color calculation
 
 The [single current interface](current/README.md) now publishes the completed
@@ -9,8 +16,7 @@ Af and AA are directly assembled from current individual/joint coefficients,
 without a runtime legacy sign mode. The [complete four-color snapshot](../results/2026-11-02-current/README.md)
 and [actual isolated replay](../validation/current-2026-11-02/README.md) are public.
 
-The next curation layer is detailed English three-loop integral/joint-object
-evaluation articles. The earlier staged uploads below retain their dated scope;
+The39 pure-exchange articles above are the completed first three-loop batch; detailed articles for the remaining integral families/joint objects are next. The earlier staged uploads below retain their dated scope;
 they are not the normal entrypoint for current reading and assembly.
 
 

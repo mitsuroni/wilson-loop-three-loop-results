@@ -1,0 +1,69 @@
+{
+  "format": "wilson-three-loop-6e-public-copy-replay/1",
+  "status": "passed",
+  "stages": [
+    {
+      "stage": "manifest",
+      "arguments": [
+        "evaluations/three-loop-6e/scripts/verify_manifest.py"
+      ],
+      "returncode": 0,
+      "seconds": 6.069806499988772,
+      "log_sha256": "adcda5fc1e871818f2aad1671b44a2dcc590425822bca2627049dc52b6ad1e38"
+    },
+    {
+      "stage": "generation",
+      "arguments": [
+        "evaluations/three-loop-6e/scripts/evaluate_batch.py",
+        "--output",
+        "D:\\wilson-agent\\.wilson\\publications\\wilson-loop-three-loop-results\\replay-output\\three-loop-6e-publication-20261103-r001"
+      ],
+      "returncode": 0,
+      "seconds": 62.1828185999766,
+      "log_sha256": "8de47c2001deaedba77e3cf3fa22de29267e2f86133c9956e19d604f9c77c283"
+    },
+    {
+      "stage": "verification",
+      "arguments": [
+        "evaluations/three-loop-6e/scripts/verify_batch.py",
+        "--results",
+        "D:\\wilson-agent\\.wilson\\publications\\wilson-loop-three-loop-results\\replay-output\\three-loop-6e-publication-20261103-r001\\generated.json",
+        "--out",
+        "D:\\wilson-agent\\.wilson\\publications\\wilson-loop-three-loop-results\\replay-output\\three-loop-6e-publication-20261103-r001\\verification.json"
+      ],
+      "returncode": 0,
+      "seconds": 7.928313900018111,
+      "log_sha256": "6f1f4f998e4bf471ed2334d50d0166bcef615a7e1b2a6e3371d3b4b28c91a34f"
+    },
+    {
+      "stage": "controls",
+      "arguments": [
+        "evaluations/three-loop-6e/scripts/independent_controls.py",
+        "--input",
+        "evaluations/three-loop-6e/engine/benchmarks/2ne/prepared/6e.json",
+        "--results",
+        "D:\\wilson-agent\\.wilson\\publications\\wilson-loop-three-loop-results\\replay-output\\three-loop-6e-publication-20261103-r001\\generated.json",
+        "--out",
+        "D:\\wilson-agent\\.wilson\\publications\\wilson-loop-three-loop-results\\replay-output\\three-loop-6e-publication-20261103-r001\\independent-controls.json"
+      ],
+      "returncode": 0,
+      "seconds": 8.736574499984272,
+      "log_sha256": "c6b813ec4e47f0399b7804d1d57b4430e2c1e670274bfafa5c1d15dea464112a"
+    }
+  ],
+  "orbits": 39,
+  "coefficient_positions": 273,
+  "function_back_substitutions": 273,
+  "coefficient_payloads_match_frozen_packet": true,
+  "new_CAS_processes": 0,
+  "generation_guard_denials": 0,
+  "direct_source_checks": 39,
+  "paired_polynomial_checks": 14,
+  "finite_original_domain_controls": 5,
+  "negative_controls": 6,
+  "public_generated_sha256": "1539b0170076cd494c0fbabea76442f656c9659703a0b530f8553faba3329d0b",
+  "original_candidate_sha256": "fc4efa5347e5e4f8fb5447a37342ef0c6471fcb67c287f360cd54df01069aad9",
+  "verification_sha256": "7e8a6bb1946ec3ba3a75e3fb614faa66da74ea087c944c600396dea314354dce",
+  "controls_sha256": "88ae9a53b1b7e809c08791954924c2e669d73dfa41443512cdf78b891d7a3703",
+  "limits": "Actual public checkout, same installed CPython/library environment. Raw CAS primitive reuse, no new cold CAS integration, empirical numerical controls, formal not_run."
+}

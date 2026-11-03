@@ -1,0 +1,189 @@
+{
+  "family": "same-channel-two",
+  "source_bridge": {
+    "status": "passed",
+    "check_groups": 14,
+    "jacobian": "x1*x3**2*x5",
+    "color_coordinates": [
+      "1/4",
+      "-1",
+      "1"
+    ],
+    "normalization": {
+      "n": 3,
+      "a1": "1/4",
+      "sym": 4,
+      "kappa": "-1/16"
+    },
+    "domain": "Positive real z and open cube; inverse maps use parent ratios. Polynomial/Jacobian source bridge only; convergence and endpoint continuation are supplied by family derivations."
+  },
+  "powers": [
+    {
+      "power": -6,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": -5,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": -4,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": -3,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": -2,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": -1,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 12,
+      "conversion": [
+        {
+          "factors": [
+            "M_0_1",
+            "M_1_1"
+          ],
+          "coefficient": "-1/64"
+        },
+        {
+          "factors": [
+            "M_0_1",
+            "zeta_3"
+          ],
+          "coefficient": "1/16"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "M_1_1"
+          ],
+          "coefficient": "-1/8"
+        },
+        {
+          "factors": [
+            "M_1_3"
+          ],
+          "coefficient": "-1/64"
+        },
+        {
+          "factors": [
+            "N_1_2"
+          ],
+          "coefficient": "1/32"
+        }
+      ]
+    },
+    {
+      "power": 0,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 33,
+      "conversion": [
+        {
+          "factors": [
+            "M_0_1",
+            "M_2_1"
+          ],
+          "coefficient": "-19/768"
+        },
+        {
+          "factors": [
+            "M_1_1",
+            "M_1_1"
+          ],
+          "coefficient": "5/384"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "M_2_1"
+          ],
+          "coefficient": "-5/64"
+        },
+        {
+          "factors": [
+            "zeta_3",
+            "M_1_1"
+          ],
+          "coefficient": "1/32"
+        },
+        {
+          "factors": [
+            "M_0_1",
+            "M_0_1",
+            "M_0_1"
+          ],
+          "coefficient": "77/138240"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "M_0_1",
+            "M_0_1"
+          ],
+          "coefficient": "623/23040"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_2",
+            "M_0_1"
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "factors": [
+            "M_4_1"
+          ],
+          "coefficient": "45/4096"
+        },
+        {
+          "factors": [
+            "M_2_3"
+          ],
+          "coefficient": "-67/6144"
+        },
+        {
+          "factors": [
+            "N_2_2"
+          ],
+          "coefficient": "5/256"
+        },
+        {
+          "factors": [
+            "tauDq4"
+          ],
+          "coefficient": "-5/96"
+        },
+        {
+          "factors": [
+            "E"
+          ],
+          "coefficient": "1/96"
+        }
+      ]
+    }
+  ],
+  "formal": "not_run"
+}

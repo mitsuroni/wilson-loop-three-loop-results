@@ -1,0 +1,132 @@
+{
+  "family": "empty",
+  "source_bridge": {
+    "status": "passed",
+    "check_groups": 14,
+    "jacobian": "x2**2*x3*x4",
+    "color_coordinates": [
+      "1/2",
+      "-3/2",
+      "1"
+    ],
+    "normalization": {
+      "n": 3,
+      "a1": "1/2",
+      "sym": 4,
+      "kappa": "-1/8"
+    },
+    "domain": "Positive real z and open cube; inverse maps use parent ratios. Polynomial/Jacobian source bridge only; convergence and endpoint continuation are supplied by family derivations."
+  },
+  "powers": [
+    {
+      "power": -6,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": -5,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": -4,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": -3,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 1,
+      "conversion": [
+        {
+          "factors": [
+            "zeta_3"
+          ],
+          "coefficient": "-1/16"
+        }
+      ]
+    },
+    {
+      "power": -2,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 1,
+      "conversion": [
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_2"
+          ],
+          "coefficient": "13/160"
+        }
+      ]
+    },
+    {
+      "power": -1,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 2,
+      "conversion": [
+        {
+          "factors": [
+            "M_0_1",
+            "zeta_3"
+          ],
+          "coefficient": "-1/8"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_3"
+          ],
+          "coefficient": "-7/32"
+        },
+        {
+          "factors": [
+            "zeta_5"
+          ],
+          "coefficient": "-15/16"
+        }
+      ]
+    },
+    {
+      "power": 0,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 2,
+      "conversion": [
+        {
+          "factors": [
+            "zeta_3",
+            "zeta_3"
+          ],
+          "coefficient": "-1/2"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_2",
+            "M_0_1"
+          ],
+          "coefficient": "13/80"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_2",
+            "zeta_2"
+          ],
+          "coefficient": "435/448"
+        }
+      ]
+    }
+  ],
+  "formal": "not_run"
+}
