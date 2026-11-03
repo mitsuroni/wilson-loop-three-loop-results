@@ -1,0 +1,14 @@
+"""Current reading navigation only; scientific statuses come from the review."""
+from prepare import HERE,ROOT,read
+
+def main():
+    entries=read(HERE/'entries.json');audit_path=HERE/'review/audit.json'
+    audit={r['orbit_id']:r for r in read(audit_path)['entries']} if audit_path.exists() else {}
+    labels={'empty':'Adjacent endpoint chains','single-opposite':'One weighted opposite kernel','same-channel-two':'Two ordered opposite kernels','same-channel-three':'Three ordered opposite kernels','double-opposite':'Two channels with an adjacent propagator','mixed-opposite':'Mixed one-plus-two opposite kernels'}
+    lines=['# Three-loop6e integral derivations','','This batch covers all39 pure-exchange sources through the finite term: every coefficient of epsilon powers minus six through zero, including established zeros. The articles follow their own original ordered integral through the actual reduction, evaluated subintegrals, crossing and physical prefactor. Shared mathematics is proved or precisely adopted once, then concretely substituted into each root.','','Start with the [six-route method index](../families/three-loop-6e/README.md) and [normalization](../families/three-loop-6e/common-normalization.md). The current [batch report](../../workflow/checks/integral-documentation-6e-20261103/README.md) separates the [per-article scientific audit](../../workflow/checks/integral-documentation-6e-20261103/review/README.md) from [actual execution](../../workflow/checks/integral-documentation-6e-20261103/replay.json).','','| Integral | Actual route | Derivation and implementation scope |','|---|---|---|']
+    for e in entries:
+        oid=e['orbit_id'];lines.append(f"| [{oid}]({oid}/README.md) | {labels[e['family']]} | [Derivation]({oid}/derivation.md), [reproduce]({oid}/reproduce.md), [validation]({oid}/validation.md) |")
+    lines.extend(['','Each code entry runs the same supported39-entry batch, not a new full calculation for only that graph. Ten adjacent-chain sources use direct endpoint/Gamma evaluation; other sources adopt precisely identified raw CAS subintegrals and repeat the actual physical assembly. Historical Maple programs and raw outputs remain available with their mathematical object and order bindings. No new cold CAS integration or formal proof is implied.','','Full-J, complete-I and finite-only relations are distinguished in the mathematics. In particular37=38 applies only to c0; their generic-epsilon sources are different. Original scientific results and frozen/public packets retain their identities. This new reading layer has not been committed or published.','','Return to the [integral index](../README.md).',''])
+    (ROOT/'integrals/three-loop/README.md').write_text('\n'.join(lines),encoding='utf-8')
+    print({'indexed_entries':len(entries),'scientific_review_available':bool(audit)})
+if __name__=='__main__':main()

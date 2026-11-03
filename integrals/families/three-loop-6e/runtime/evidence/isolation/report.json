@@ -1,0 +1,51 @@
+{
+  "format": "wilson-6e-batch-portable-replay/1",
+  "status": "passed",
+  "generation_input_file_count": 425,
+  "generation": {
+    "command": [
+      "D:\\py\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "D:\\wilson-agent\\workflow\\checks\\three-loop-6e-batch-20261103\\isolation-r001\\package\\scripts\\evaluate_batch.py",
+      "--output",
+      "D:\\wilson-agent\\workflow\\checks\\three-loop-6e-batch-20261103\\isolation-r001\\run"
+    ],
+    "cwd": "D:\\wilson-agent\\workflow\\checks\\three-loop-6e-batch-20261103\\isolation-r001\\package",
+    "returncode": 0,
+    "elapsed_seconds": 95.1631209999905,
+    "log": "isolation-r001\\generation.log",
+    "log_sha256": "4e2f8c719d493caf1c5d55533bf56eed38e86da19067f3e21a66ac7b4d509ed3"
+  },
+  "candidate_freeze": {
+    "generated_sha256": "bbf9cefe20c064bd5ee4015d759765e30cfde6be9a95cffd3f73ca7b25a136bd",
+    "coefficient_payloads_identical": true,
+    "orbit_count": 39,
+    "coefficient_positions": 273,
+    "references_absent": true
+  },
+  "verification": {
+    "command": [
+      "D:\\py\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "D:\\wilson-agent\\workflow\\checks\\three-loop-6e-batch-20261103\\isolation-r001\\package\\scripts\\verify_batch.py",
+      "--results",
+      "D:\\wilson-agent\\workflow\\checks\\three-loop-6e-batch-20261103\\isolation-r001\\run\\generated.json",
+      "--out",
+      "D:\\wilson-agent\\workflow\\checks\\three-loop-6e-batch-20261103\\isolation-r001\\run\\verification.json"
+    ],
+    "cwd": "D:\\wilson-agent\\workflow\\checks\\three-loop-6e-batch-20261103\\isolation-r001\\package",
+    "returncode": 0,
+    "elapsed_seconds": 18.78778189996956,
+    "log": "isolation-r001\\verification.log",
+    "log_sha256": "0784d1d146334bc42fd4100e1513afa00c7784525d3b448ae4d0b076e6c3cebc"
+  },
+  "declared_code_and_data_unchanged": true,
+  "generation_guard_denials": 0,
+  "new_cas_processes": 0,
+  "scope": "Actual copied local closure, initially without final references or results; Python file/process/network audit. Same installed CPython/library environment. Not an OS sandbox, independent CAS integration or another-platform installation test.",
+  "formal": "not_run"
+}

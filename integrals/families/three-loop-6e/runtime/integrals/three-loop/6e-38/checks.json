@@ -1,0 +1,81 @@
+{
+  "family": "mixed-opposite",
+  "source_bridge": {
+    "status": "passed",
+    "check_groups": 14,
+    "jacobian": "x3*x4",
+    "color_coordinates": [
+      "1/4",
+      "-1",
+      "1"
+    ],
+    "normalization": {
+      "n": 3,
+      "a1": "1/4",
+      "sym": 2,
+      "kappa": "-1/32"
+    },
+    "domain": "Positive real z and open cube; inverse maps use parent ratios. Polynomial/Jacobian source bridge only; convergence and endpoint continuation are supplied by family derivations."
+  },
+  "powers": [
+    {
+      "power": -6,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": -5,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": -4,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": -3,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": -2,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": -1,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 0,
+      "conversion": []
+    },
+    {
+      "power": 0,
+      "coefficient_match": true,
+      "function_back_substitution": true,
+      "HLOG_word_count": 4,
+      "conversion": [
+        {
+          "factors": [
+            "M_0_1",
+            "M_0_1",
+            "M_0_1"
+          ],
+          "coefficient": "-1/96"
+        }
+      ]
+    }
+  ],
+  "formal": "not_run"
+}

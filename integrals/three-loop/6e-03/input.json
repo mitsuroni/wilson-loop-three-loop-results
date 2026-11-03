@@ -1,0 +1,124 @@
+{
+  "orbit_id": "6e-03",
+  "family": "empty",
+  "references_relative_to": "this input.json directory",
+  "source_bindings": {
+    "graph": {
+      "path": "../../families/three-loop-6e/runtime/inputs/source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+      "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+      "json_pointer": "/orbits/112",
+      "field_sha256": "41acec7d87593738ea11adb81ffc55e959c6323f6a34ccb55086f430cc052fe1"
+    },
+    "native_raw": {
+      "path": "../../families/three-loop-6e/runtime/inputs/source/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/6e/montopar-initial.json",
+      "sha256": "b67f8617d1f6badb1ea5cc26863be782086205240cb89eb2082dd989451b30e7",
+      "json_pointer": "/orbits/2",
+      "field_sha256": "8258f5c7618bf2397ecbb23b210c114c6debc848bf68f9d296385e1851c3d6d1"
+    },
+    "ordered_original": {
+      "path": "../../families/three-loop-6e/runtime/inputs/source/snapshots/benchmarks/2ne/sources/montopar-ordered/6e/montopar-initial.json",
+      "sha256": "890858f4429fa39bcf4e7f2de9afbf847193a1a6dc2b377250b9d75f9603475b",
+      "json_pointer": "/orbits/2",
+      "field_sha256": "e0b20079b0675a5ddfa47d4b5bab1719ed113aefae5da0ad74ff589d1eda5fc8"
+    },
+    "native_prepared": {
+      "path": "../../families/three-loop-6e/runtime/inputs/source/native-prepared-6e.json",
+      "sha256": "0b4f6dfb4586a58fafe155651fc39893d80f0ea303abb18eac88fa6c918dcec4",
+      "json_pointer": "/orbits/2",
+      "field_sha256": "c6a83b945747649090c0a0cba1dbaa0f458ca841e3b474b3d92da9b695d70cd8"
+    }
+  },
+  "archived_input": {
+    "path": "../../families/three-loop-6e/runtime/integrals/three-loop/6e-03/input.json",
+    "sha256": "1260a9524b112be8945a0e7cb4386680d09dcde5afed0796634c9f0f40f28f4a"
+  },
+  "original_ordered_J": {
+    "bounds": {
+      "s31": [
+        "0",
+        "s32"
+      ],
+      "s32": [
+        "0",
+        "s33"
+      ],
+      "s33": [
+        "0",
+        "1"
+      ],
+      "s41": [
+        "0",
+        "s42"
+      ],
+      "s42": [
+        "0",
+        "s43"
+      ],
+      "s43": [
+        "0",
+        "1"
+      ]
+    },
+    "delta_constraints": {},
+    "expanded": "(z1^3) * ((1-s31)*s42*z1)^(-1+eps) * ((1-s32)*s41*z1)^(-1+eps) * ((1-s33)*s43*z1)^(-1+eps)",
+    "integrand": "(z1^3) * f1^(-1+eps) * f2^(-1+eps) * f3^(-1+eps)",
+    "integration_order_outer_to_inner": [
+      "s33",
+      "s43",
+      "s32",
+      "s42",
+      "s31",
+      "s41"
+    ],
+    "measure_semantics": "iterated_real_interval_integral",
+    "numerator": "z1^3",
+    "order_convention": "stable dependency order (parents before children); explicit root interpretation, not a Fubini proof",
+    "propagator_polynomials": {
+      "f1": "(1-s31)*s42*z1",
+      "f2": "(1-s32)*s41*z1",
+      "f3": "(1-s33)*s43*z1"
+    },
+    "representation": "ordered-parameters/1",
+    "variables": [
+      "s31",
+      "s42",
+      "s32",
+      "s41",
+      "s33",
+      "s43"
+    ]
+  },
+  "normalization": {
+    "format": "wilson-2ne-assembly/0.1",
+    "n": 3,
+    "kappa": "-1/16",
+    "euler": "consumed from prepared C exactly once",
+    "formula": "kappa*G(eps)^n*(J(z)+z^(n*eps)*J(1/z))/(1+z^(n*eps))",
+    "a1": "1/4",
+    "sym": 4
+  },
+  "relationship": {
+    "kind": "full_I_proportional",
+    "scope": "complete physical I under the documented positive-real-z normalization and convergence/continuation domain",
+    "representative": "6e-01",
+    "factor": "1/2",
+    "evidence": [
+      {
+        "path": "../../families/three-loop-6e/runtime/evidence/historical/benchmarks/2ne/families/empty/three-loop.md",
+        "sha256": "09a914eef9b8cb0074949b8decedf26420a3fb08546023153cd00f2676e8e0a6",
+        "locator": "E1"
+      },
+      {
+        "path": "../../families/three-loop-6e/runtime/evidence/historical/benchmarks/2ne/workspaces/6e-03/derivation.md",
+        "sha256": "3a61eadab537f96bf5dc98be9a5221a2203f6f21e3c0b2d9e568dc08aba9c63f"
+      }
+    ],
+    "J_status": "No equality/proportionality of the original J is inferred from a physical-I relation.",
+    "proof_status": "existing analytic derivation with computational checks; not a new formal proof"
+  },
+  "source_packet_manifest": {
+    "path": "../../families/three-loop-6e/runtime/manifest.json",
+    "sha256": "3b84a31f56339a777dc990da51582ec64f1cd917d64c0efe97b4c0f1eecedf16"
+  },
+  "scope": "Initial source fields and exact ordered root are explicit; full archived metadata and historical provenance retain their original identity."
+}

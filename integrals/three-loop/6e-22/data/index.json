@@ -1,0 +1,123 @@
+{
+  "orbit_id": "6e-22",
+  "runtime_base": "../../../families/three-loop-6e/runtime",
+  "paths_relative_to": "runtime_base; the original_ordered_root field is explicitly relative to this data/index.json file",
+  "original_ordered_root": "../input.json",
+  "archived_subintegral_budget": {
+    "path": "integrals/three-loop/6e-22/subintegrals.json",
+    "sha256": "be5ad1d835c21543ecba541bef403c4c7d7eba20b26e15fe4232f8149933def6",
+    "object": "original root, reductions and epsilon budget",
+    "role": "Historical exact root/consumption record. Absolute historical paths inside it are not current output paths."
+  },
+  "required_budget": {
+    "target_powers": [
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0
+    ],
+    "rule": "Required regular order equals requested physical order minus the actual external pole; the active per-order requests below contain the consumed orders. Ordered gap jets use q=0,1,2; all-opposite finite kernels use q=0; Gamma route uses through6.",
+    "normalization": {
+      "format": "wilson-2ne-assembly/0.1",
+      "n": 3,
+      "kappa": "-1/32",
+      "euler": "consumed from prepared C exactly once",
+      "formula": "kappa*G(eps)^n*(J(z)+z^(n*eps)*J(1/z))/(1+z^(n*eps))",
+      "a1": "1/4",
+      "sym": 2
+    }
+  },
+  "new_primitive_events_in_this_orbit": 1,
+  "primitive_units": [
+    {
+      "operation": "ordered-opposite-constant",
+      "orders": [
+        0
+      ],
+      "first_replayed_by_orbit": "6e-22",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/ordered-constant-3fa8add457b6473598469ae9e4540244/request.json",
+        "sha256": "f491b0f66d53ec5afaa8263cd64252fd9d6bdc92ec1362142ca15f2fc576399f",
+        "object": "original ordinary ordered J at epsilon0; not normalized I mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/ordered-constant-3fa8add457b6473598469ae9e4540244/result.json",
+        "sha256": "7fdd746862895b6a7760f59a7697d0ae05de87cfdff2b0ff442c11bf8e20e3cc",
+        "object": "original ordinary ordered J at epsilon0; not normalized I historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    }
+  ],
+  "adopted_integrated_primitives": [
+    {
+      "path": "primitives/objects/cas-runs/ordered-constant-3fa8add457b6473598469ae9e4540244/raw.txt",
+      "sha256": "4a4e41de122e165e89df57d61f8512b8e4891eab6146ca34a8ef3620ede0971d",
+      "object": "original ordinary ordered J at epsilon0; not normalized I",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 0,
+      "channel": "raw",
+      "operation": "ordered-opposite-constant"
+    },
+    {
+      "path": "primitives/objects/cas-runs/ordered-constant-3fa8add457b6473598469ae9e4540244/reflected.txt",
+      "sha256": "0586b6125011c132e85ad2f551a688a72e488b94bf0871febdebaf8f23c3f844",
+      "object": "original ordinary ordered J at epsilon0; not normalized I",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 0,
+      "channel": "reflected",
+      "operation": "ordered-opposite-constant"
+    }
+  ],
+  "actual_code": [
+    {
+      "path": "scripts/evaluate_batch.py",
+      "sha256": "411f5b47342feb4fb8eb451b095bd1476c37307518bebe0c51e2b2e5a33668d0",
+      "object": "batch entry",
+      "role": "Calls the original-root recognizers and actual assembly, with only archived CAS and output adapters."
+    },
+    {
+      "path": "engine/wilson_calc/assembly.py",
+      "sha256": "ee7c7c486d258918f3a018ad05a52c8cc23950e9560dcaa68510f33591eb7daf",
+      "object": "physical_expression / expand_scalar",
+      "role": "Actual kappa, Gamma, crossing and finite-order assembly."
+    },
+    {
+      "path": "engine/wilson_calc/ordered.py",
+      "sha256": "4b86bb9ee2bb0eb33fd03ba50e2a5bc1a9174bf89fc690207724ca6ca51c1572",
+      "object": "evaluate_ordered",
+      "role": "Derive the ordered gap kernel or keep the ordinary all-opposite J0, then assemble this I."
+    },
+    {
+      "path": "primitives/objects/cas-runs/ordered-constant-3fa8add457b6473598469ae9e4540244/compute.mpl",
+      "sha256": "fc0a9654e05eb405a3a65f376ddb9c8b006ea3560ac259a66c8b92e68932d295",
+      "object": "original ordinary ordered J at epsilon0; not normalized I original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "scripts/primitive_replay.py",
+      "sha256": "f505848c922dd2498490ba68b25588526e986bd574ecb271588a3e278f645deb",
+      "object": "PrimitiveReplay",
+      "role": "Checks mathematical request, regenerated script, original execution and raw parser, then returns adopted primitive jets."
+    }
+  ],
+  "comparison_targets": [
+    {
+      "path": "references/results/6e-22.json",
+      "sha256": "f740e72630c29a4b7e50883155f6b094464cad406f56f0d7fcfcfaf4b98b15dd",
+      "object": "historical complete I",
+      "role": "Only opened after generation for comparison; not a primitive input."
+    },
+    {
+      "path": "references/basis-and-conversions.json",
+      "sha256": "c646e42379fd344c45bee8ad02ec25a0f92a050d9ac85da63912cc1265f72c05",
+      "object": "moment dictionary plus target conversion table",
+      "role": "Used by reading/verification; complete target rows are not opened by generation."
+    }
+  ],
+  "scope": "All required primitive dependencies are listed, including shared batch-cache inputs first replayed by another orbit. A lack of new events does not mean no mathematical dependency. Historical root, subintegrals, whole I, representation and checks remain distinct; this index is not a proof receipt."
+}

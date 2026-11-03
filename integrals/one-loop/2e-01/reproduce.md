@@ -1,46 +1,51 @@
 # Reproduce 2e-01
 
-From the repository root, with the versions in
-[requirements.txt](../requirements.txt), run:
+Use the repository root as working directory. Python3 with the adopted
+[requirements](../../families/low-loop-runtime/integrals/one-loop/requirements.txt)
+is sufficient; the local configured interpreter is D:/py/python.exe.
+The entry [code/reproduce.py](code/reproduce.py) delegates to the byte-preserved
+same-loop [runtime](../../families/low-loop-runtime/integrals/one-loop/reproduce.py).
+It executes the whole two-entry one-loop batch; select the member 2e-01 in its output.
+There are not two separate cold CAS integrations hidden behind these entry points.
 
-```text
-python integrals/one-loop/reproduce.py --output-dir one-loop-replay --order 3 --dps 40
+```powershell
+D:/py/python.exe integrals/one-loop/2e-01/code/reproduce.py --output-dir D:/wilson-agent/replay-output/2e-01-trial-new
 ```
 
-Use a fresh output directory outside data/, packages/, results/ and
-integrals/. The command writes `one-loop-replay/2e-01/result.json`, together
-with the opposite-exchange result, the shared checks and numerical controls.
-It creates no files inside this packet and does not execute source-generation
-code or any archived historical script. It needs neither Mathematica nor
-Maple and never downloads a dependency or a reference.
+Choose a genuinely new output directory outside the immutable runtime and
+scientific input/result trees. To rerun, change the final directory name.
+The wrapper does not overwrite source objects, accepted result files or proofs.
+Do not run an old writer whose absolute output path points into a frozen packet.
 
-The actual computation reads the byte-bound graph, native C/J, original
-ordered input and prepared0.3 input referenced by [input.json](input.json).
-It derives the geometry from the source phase and null Gram matrix, checks
-native C against original C, checks the single Euler preparation, verifies
-the endpoint primitive, evaluates the two endpoint factors and regenerates
-the Gamma series through the required regular order5. Its regular
-epsilon-Cauchy readout independently checks all coefficients of normalized I
-from epsilon^-2 through epsilon3.
+## What each stage actually does
 
-The file `generated-before-holdout.json` is written before the old r002
-coefficient table is opened. The latter supplies only the existing pole and
-finite comparison targets; it supplies no positive-order answer to the new
-computation. Do not edit a reference table to make the replay pass.
+1. Input and binding: read the original ordered parameter source, prepared C/J
+   and the source manifest. Preserve the order and color/normalization stage
+   described in the derivation; the manifest is a binding record, not a proof.
+2. Adopted mathematics: Two convergent cusp endpoint primitives give J=z^epsilon/epsilon². The C/J and crossing bridge gives I=-Z/epsilon²; the Gamma jet is required through5.
+3. Generation: reconstruct the actual source geometry, endpoint primitive, Gamma/M coefficients and numerical controls.
+   The final reference table is not used as a substitute for this coefficient
+   generation. generated-before-holdout.json is written before the historical comparison.
+4. Validation: compare the generated function to recorded results and run the
+   stated controls. A successful comparison does not independently reprove the
+   Fourier rule, accepted prepared input or adopted HLOG dictionary.
 
-The accepted run is retained in [checks.json](checks.json) and the shared
-[original run record](../validation/checks.json). The full family has80
-checks, including four concrete negative controls, and27 numerical controls.
-Checks overlap; this count is not a count of independent physics proofs.
+The outputs are the batch checks.json, numeric.json, generated-before-holdout.json and per-entry result.json.
+The data and check indices identify stable adopted source/primitives separately
+from the new trial report. The accepted result.json in this entry is kept
+unchanged while the calculation writes its fresh result to the new directory.
 
-Compare the new `2e-01/result.json` semantically with the published
-[result.json](result.json). The exact coefficients and normalization are
-deterministic; run time and working-precision readouts in the check record
-may vary. The public result contains the C4/crossing/Euler-normalized I,
-not raw J or a scale-restored Wilson coefficient. Restore CF lambda S1 only
-at the physical assembly layer.
+## Language and reuse boundary
 
-For another finite truncation the reproducer accepts order0..3. The exact
-all-epsilon Gamma expression is available independently of that truncation.
-No general complex-z continuation or new integral formal proof is claimed;
-numeric agreement is empirical, not a certified interval. `formal=not_run`.
+The entry script is an executable Python adapter, not an integration algorithm.
+The actual source-derived one-loop calculation is in the shared Python runtime.
+Wolfram/native data supplies the original C/J where recorded; the one-loop
+Fourier rule and standard Euler/Beta identities are declared accepted inputs.
+No Wolfram process or Maple process is invoked by this command.
+No unresolved parameter subintegral. The Fourier propagator is accepted upstream physics; the current derivation is not a formal QFT proof.
+
+
+
+For a long cold integration the native checkpoints must be preserved, but this
+finite algebra replay needs no fabricated checkpoint/resume protocol. A failed
+run leaves its output for inspection; use a new directory on the next attempt.

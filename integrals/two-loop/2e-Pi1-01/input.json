@@ -1,0 +1,94 @@
+{
+  "orbit_id": "2e-Pi1-01",
+  "source_public_commit": "7e77ddb83d8aa9622c05a553281b262f0e9dc7ca",
+  "accepted_result": {
+    "path": "../../families/low-loop-runtime/integrals/two-loop/2e-Pi1-01/result.json",
+    "sha256": "63b0c699b65c4614408b854bfed769a3efcf096186f0010d0af14b91802e8c3e"
+  },
+  "family_catalog_entry": {
+    "orbit_id": "2e-Pi1-01",
+    "family": "Pi1",
+    "canonical_convention": "native physical Pi1 r002, sign already absorbed",
+    "assembly_sign": 1,
+    "legacy_to_canonical_multiplier": -1,
+    "color_weights_over_CF": {
+      "CA": "(10-6*eps)/(3-2*eps)",
+      "T": "-8*(1-eps)/(3-2*eps)"
+    },
+    "canonical_source": {
+      "path": "sources/benchmarks/self-energy/pi1/results/2e-Pi1-01/r002.json",
+      "sha256": "122067c4f01aa9942db2e9040b577416c83c8439d2baa7c4b1ac1d18e21646c7",
+      "canonical_convention": "native physical Pi1 r002, sign already absorbed"
+    },
+    "result": "2e-Pi1-01/result.json"
+  },
+  "source_manifest": "../../families/low-loop-runtime/integrals/two-loop/source-manifest.json",
+  "scope": "Initial graph/raw/native C/J and original ordered domain bound explicitly; accepted normalized I and historical replay comparison remain separate.",
+  "graph_definition": {
+    "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+    "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+    "json_pointer": "/orbits/0",
+    "field_sha256": "1d2aab7de1c499be00618acb599b3550a62aa739a01a8e927252456ec70e3027",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "native_raw_orbit": {
+    "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/2e-Pi1/montopar-initial.json",
+    "sha256": "bd497777604df23550fb5ab65607561665d348b32cdaed27007351d4fe8b9e85",
+    "json_pointer": "/orbits/0",
+    "field_sha256": "173e8b476b161c26af0251f20d04f600625af7eee982cd4248ea85dbfaea7273",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "native_prepared": {
+    "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/2e-Pi1.json",
+    "sha256": "af78bbb41b8ffdfb209f9ba898feeb431706c2b7e498a2917b917095684c4a71",
+    "field": "/orbits/0"
+  },
+  "original_ordered_J": {
+    "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/2e-Pi1.json",
+    "json_pointer": "/orbits/0/J_raw_s",
+    "sha256": "af78bbb41b8ffdfb209f9ba898feeb431706c2b7e498a2917b917095684c4a71",
+    "order_outer_to_inner": [
+      "s31",
+      "s41"
+    ],
+    "bounds": {
+      "s31": [
+        "0",
+        "1"
+      ],
+      "s41": [
+        "0",
+        "1"
+      ]
+    },
+    "alpha_measure": null,
+    "jacobian": "1"
+  },
+  "normalization": {
+    "scheme": "native-physical-CJ",
+    "loop_order": 2,
+    "color_projection": "none",
+    "euler_compensation_count": 1,
+    "orbit_multiplicity_included": false,
+    "crossing_assembled": false,
+    "normalized_wilson_trace": "Tr/N",
+    "extra_factorial": "none",
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+    "assembly_sign": 1
+  },
+  "operator": {
+    "name": "Pi1",
+    "subgraph_loop_order": 1,
+    "insertion_count": 1,
+    "kind": "1pi",
+    "renormalization": "bare",
+    "dimension": "4-2*eps",
+    "gauge": "Feynman",
+    "source": "hep-ph/9605348 Appendix C (C.1),(C.3); xi_D=0",
+    "scalar": "I*g^2/(2*(4*Pi)^(2-eps))*Gamma[eps]*Gamma[1-eps]^2/Gamma[2-2*eps]*C_SE*(-l^2-I0)^(-eps)",
+    "C_SE": "((10-6*eps)*CA-8*(1-eps)*TF*nf)/(3-2*eps)",
+    "tensor": "delta_ab*(l^2*g_mu_nu-l_mu*l_nu)",
+    "epsilon_precision": "exact"
+  },
+  "references_relative_to": "this input.json directory; family_catalog_entry is archived catalog content, relative to its original two-loop runtime directory"
+}

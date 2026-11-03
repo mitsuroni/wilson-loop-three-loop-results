@@ -1,0 +1,67 @@
+{
+  "commands": [
+    {
+      "command": [
+        "D:\\py\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\wilson-agent\\workflow\\checks\\weight-seven",
+        "-p",
+        "test_weight7.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.7933857000025455
+    },
+    {
+      "command": [
+        "D:\\py\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\wilson-agent\\workflow\\checks\\weight-seven\\compare.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 8.3907717000111
+    },
+    {
+      "command": [
+        "D:\\py\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\wilson-agent\\workflow\\checks\\weight-seven\\numeric_checks.py",
+        "decorated"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 9.505821799990372
+    },
+    {
+      "command": [
+        "D:\\py\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\wilson-agent\\workflow\\checks\\weight-seven\\publish.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 24.264282899996033
+    },
+    {
+      "command": [
+        "D:\\py\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\wilson-agent\\workflow\\checks\\weight-seven\\verify.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 20.13302379999368
+    }
+  ],
+  "passed": true,
+  "formal": "not_run",
+  "new_HyperInt_jobs": 4,
+  "unit_tests": 8,
+  "independent_numeric_cases": 56,
+  "git_commit_performed": false
+}

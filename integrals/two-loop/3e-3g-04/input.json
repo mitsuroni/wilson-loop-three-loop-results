@@ -1,0 +1,111 @@
+{
+  "orbit_id": "3e-3g-04",
+  "source_public_commit": "7e77ddb83d8aa9622c05a553281b262f0e9dc7ca",
+  "accepted_result": {
+    "path": "../../families/low-loop-runtime/integrals/two-loop/3e-3g-04/result.json",
+    "sha256": "caad26a1d4939aea13fb11d3c2c413368286cf8d93a6684257fd31d83c462295"
+  },
+  "family_catalog_entry": {
+    "orbit_id": "3e-3g-04",
+    "family": "TGV",
+    "canonical_convention": "accepted complete I, projected exponent color and C4 included",
+    "assembly_sign": 1,
+    "legacy_to_canonical_multiplier": 1,
+    "color_weights_over_CF": {
+      "CA": "1",
+      "T": "0"
+    },
+    "canonical_source": {
+      "path": "sources/benchmarks/tgv/3e-3g/results/3e-3g-04/r001.json",
+      "sha256": "3c099acf58c2e4f9d91c6bfe1a25b67222bce5fac9a16e44fa3ee5eb6926b3b5",
+      "canonical_convention": "accepted complete I, projected exponent color and C4 included"
+    },
+    "result": "3e-3g-04/result.json"
+  },
+  "source_manifest": "../../families/low-loop-runtime/integrals/two-loop/source-manifest.json",
+  "scope": "Initial graph/raw/native C/J and original ordered domain bound explicitly; accepted normalized I and historical replay comparison remain separate.",
+  "graph_definition": {
+    "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+    "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+    "json_pointer": "/orbits/5",
+    "field_sha256": "fd5a61afc2a692474dd2abbf0883ae0972d546394a9c3cc72b620d6d93699d34",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "native_raw_orbit": {
+    "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/3e-3g/montopar-initial.json",
+    "sha256": "56c76eeb832d2578704c5efc616955431b8371aa8574330da9cfd15e09669853",
+    "json_pointer": "/orbits/3",
+    "field_sha256": "75a8d4ae2c498c179972beaea384fc8b670447d9086466146b1fcedb0f90904a",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "native_prepared": {
+    "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/3e-3g.json",
+    "sha256": "2343a1de2b1e02d056ca1ec85dee97e78bf3961d5ab67eb31f87c26becb2e8ed",
+    "field": "/orbits/3"
+  },
+  "original_ordered_J": {
+    "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/3e-3g.json",
+    "json_pointer": "/orbits/3/J_raw_s",
+    "sha256": "2343a1de2b1e02d056ca1ec85dee97e78bf3961d5ab67eb31f87c26becb2e8ed",
+    "order_outer_to_inner": [
+      "s21",
+      "s31",
+      "s41"
+    ],
+    "bounds": {
+      "s21": [
+        "0",
+        "1"
+      ],
+      "s31": [
+        "0",
+        "1"
+      ],
+      "s41": [
+        "0",
+        "1"
+      ]
+    },
+    "alpha_measure": {
+      "kind": "simplex",
+      "variables": [
+        "alpha1",
+        "alpha2",
+        "alpha3"
+      ],
+      "constraint": "alpha1+alpha2+alpha3=1",
+      "independent_variables": [
+        "alpha1",
+        "alpha2"
+      ],
+      "substitution": {
+        "alpha3": "1-alpha1-alpha2"
+      },
+      "bounds": {
+        "alpha1": [
+          "0",
+          "1"
+        ],
+        "alpha2": [
+          "0",
+          "1-alpha1"
+        ]
+      },
+      "iterated_order_outer_to_inner": [
+        "alpha1",
+        "alpha2"
+      ],
+      "jacobian": "1"
+    },
+    "jacobian": null
+  },
+  "normalization": {
+    "stage": "raw_montopar",
+    "euler_compensation_count": 1,
+    "assembly_sign": 1,
+    "scheme": "native-physical-CJ",
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+  },
+  "operator": null,
+  "references_relative_to": "this input.json directory; family_catalog_entry is archived catalog content, relative to its original two-loop runtime directory"
+}

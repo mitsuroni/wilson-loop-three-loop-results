@@ -1,0 +1,434 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "exact_checks": [
+    {
+      "name": "rectangle_original_change",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_normalized_A_squared",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_normalized_B_squared",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_normalized_cross_squared",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_positive_corner",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_first_argument",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_product",
+      "exact_zero": true
+    },
+    {
+      "name": "two_line_denominator",
+      "exact_zero": true
+    },
+    {
+      "name": "opposite_endpoint_product_is_z_free",
+      "exact_zero": true
+    },
+    {
+      "name": "total_exponential_scale_squared",
+      "exact_zero": true
+    },
+    {
+      "name": "two_interval_product_integer_e_1",
+      "exact_zero": true
+    },
+    {
+      "name": "two_interval_product_integer_e_2",
+      "exact_zero": true
+    },
+    {
+      "name": "two_interval_product_integer_e_3",
+      "exact_zero": true
+    },
+    {
+      "name": "two_interval_product_integer_e_4",
+      "exact_zero": true
+    },
+    {
+      "name": "crossing_q",
+      "exact_zero": true
+    },
+    {
+      "name": "crossing_weight_product",
+      "exact_zero": true
+    },
+    {
+      "name": "crossing_L_argument_inverse",
+      "exact_zero": true
+    },
+    {
+      "name": "crossing_V_argument_squared",
+      "exact_zero": true
+    },
+    {
+      "name": "crossing_eta_argument_inverse",
+      "exact_zero": true
+    },
+    {
+      "name": "crossing_kappa_squared",
+      "exact_zero": true
+    },
+    {
+      "name": "crossing_measure_denominator",
+      "exact_zero": true
+    },
+    {
+      "name": "removable_t_line_V_equals_L",
+      "exact_zero": true
+    },
+    {
+      "name": "removable_s_line_V_equals_minus_L",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_integer_2_1/2_1",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_integer_2_1/2_2",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_integer_2_1/2_3",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_integer_2_1/2_4",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_integer_3/2_7/6_1",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_integer_3/2_7/6_2",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_integer_3/2_7/6_3",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_integer_3/2_7/6_4",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_integer_3/4_4/3_1",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_integer_3/4_4/3_2",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_integer_3/4_4/3_3",
+      "exact_zero": true
+    },
+    {
+      "name": "rectangle_J_integer_3/4_4/3_4",
+      "exact_zero": true
+    },
+    {
+      "name": "coefficient_rule_D0",
+      "exact_zero": true
+    },
+    {
+      "name": "coefficient_rule_D1",
+      "exact_zero": true
+    },
+    {
+      "name": "coefficient_rule_D2",
+      "exact_zero": true
+    },
+    {
+      "name": "coefficient_rule_D3",
+      "exact_zero": true
+    },
+    {
+      "name": "coefficient_rule_D4",
+      "exact_zero": true
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "omit_rectangle_corner_2_1/2",
+      "rejected": true
+    },
+    {
+      "name": "omit_rectangle_corner_3/2_7/6",
+      "rejected": true
+    },
+    {
+      "name": "omit_rectangle_corner_3/4_4/3",
+      "rejected": true
+    },
+    {
+      "name": "omit_Taylor_factorials",
+      "rejected": true
+    },
+    {
+      "name": "reverse_endpoint_product_constant",
+      "rejected": true
+    }
+  ],
+  "rectangle_integer_examples": [
+    {
+      "A": "2",
+      "kappa": "1/2",
+      "epsilon": 1,
+      "value": "-1/2"
+    },
+    {
+      "A": "2",
+      "kappa": "1/2",
+      "epsilon": 2,
+      "value": "-9/16"
+    },
+    {
+      "A": "2",
+      "kappa": "1/2",
+      "epsilon": 3,
+      "value": "-55/72"
+    },
+    {
+      "A": "2",
+      "kappa": "1/2",
+      "epsilon": 4,
+      "value": "-883/768"
+    },
+    {
+      "A": "3/2",
+      "kappa": "7/6",
+      "epsilon": 1,
+      "value": "-7/6"
+    },
+    {
+      "A": "3/2",
+      "kappa": "7/6",
+      "epsilon": 2,
+      "value": "-133/144"
+    },
+    {
+      "A": "3/2",
+      "kappa": "7/6",
+      "epsilon": 3,
+      "value": "-1603/1944"
+    },
+    {
+      "A": "3/2",
+      "kappa": "7/6",
+      "epsilon": 4,
+      "value": "-16513/20736"
+    },
+    {
+      "A": "3/4",
+      "kappa": "4/3",
+      "epsilon": 1,
+      "value": "-4/3"
+    },
+    {
+      "A": "3/4",
+      "kappa": "4/3",
+      "epsilon": 2,
+      "value": "-17/18"
+    },
+    {
+      "A": "3/4",
+      "kappa": "4/3",
+      "epsilon": 3,
+      "value": "-715/972"
+    },
+    {
+      "A": "3/4",
+      "kappa": "4/3",
+      "epsilon": 4,
+      "value": "-3169/5184"
+    }
+  ],
+  "D_coefficient_terms": {
+    "0": [
+      {
+        "m": 0,
+        "n": 0,
+        "j": 1,
+        "coefficient": "1",
+        "weight": 6
+      }
+    ],
+    "1": [
+      {
+        "m": 0,
+        "n": 1,
+        "j": 1,
+        "coefficient": "1",
+        "weight": 7
+      },
+      {
+        "m": 1,
+        "n": 0,
+        "j": 1,
+        "coefficient": "1",
+        "weight": 7
+      }
+    ],
+    "2": [
+      {
+        "m": 0,
+        "n": 2,
+        "j": 1,
+        "coefficient": "1/2",
+        "weight": 8
+      },
+      {
+        "m": 1,
+        "n": 1,
+        "j": 1,
+        "coefficient": "1",
+        "weight": 8
+      },
+      {
+        "m": 2,
+        "n": 0,
+        "j": 1,
+        "coefficient": "1/2",
+        "weight": 8
+      },
+      {
+        "m": 0,
+        "n": 0,
+        "j": 2,
+        "coefficient": "1/12",
+        "weight": 8
+      }
+    ],
+    "3": [
+      {
+        "m": 0,
+        "n": 3,
+        "j": 1,
+        "coefficient": "1/6",
+        "weight": 9
+      },
+      {
+        "m": 1,
+        "n": 2,
+        "j": 1,
+        "coefficient": "1/2",
+        "weight": 9
+      },
+      {
+        "m": 2,
+        "n": 1,
+        "j": 1,
+        "coefficient": "1/2",
+        "weight": 9
+      },
+      {
+        "m": 3,
+        "n": 0,
+        "j": 1,
+        "coefficient": "1/6",
+        "weight": 9
+      },
+      {
+        "m": 0,
+        "n": 1,
+        "j": 2,
+        "coefficient": "1/12",
+        "weight": 9
+      },
+      {
+        "m": 1,
+        "n": 0,
+        "j": 2,
+        "coefficient": "1/12",
+        "weight": 9
+      }
+    ],
+    "4": [
+      {
+        "m": 0,
+        "n": 4,
+        "j": 1,
+        "coefficient": "1/24",
+        "weight": 10
+      },
+      {
+        "m": 1,
+        "n": 3,
+        "j": 1,
+        "coefficient": "1/6",
+        "weight": 10
+      },
+      {
+        "m": 2,
+        "n": 2,
+        "j": 1,
+        "coefficient": "1/4",
+        "weight": 10
+      },
+      {
+        "m": 3,
+        "n": 1,
+        "j": 1,
+        "coefficient": "1/6",
+        "weight": 10
+      },
+      {
+        "m": 4,
+        "n": 0,
+        "j": 1,
+        "coefficient": "1/24",
+        "weight": 10
+      },
+      {
+        "m": 0,
+        "n": 2,
+        "j": 2,
+        "coefficient": "1/24",
+        "weight": 10
+      },
+      {
+        "m": 1,
+        "n": 1,
+        "j": 2,
+        "coefficient": "1/12",
+        "weight": 10
+      },
+      {
+        "m": 2,
+        "n": 0,
+        "j": 2,
+        "coefficient": "1/24",
+        "weight": 10
+      },
+      {
+        "m": 0,
+        "n": 0,
+        "j": 3,
+        "coefficient": "1/360",
+        "weight": 10
+      }
+    ]
+  },
+  "assumptions": "z>0, 0<t,s<1; A>0, B=1/A, 0<kappa<A+B; real branches",
+  "inputs_sha256": {
+    "workflow\\checks\\d-intrinsic-source-20261016\\check_algebra.py": "22e1dec68e564632940896862d94977325e642320461392a3eb1c8b54bb4c562",
+    "benchmarks\\2ne\\theory\\generation\\pure-three-cd-20261016\\D\\derivation.md": "b891220ee932a60c51cf361a4aa9b7d1aba4db471a28aa813f30baf830581bff",
+    "benchmarks\\2ne\\theory\\generation\\4e04-direct-mn.md": "7593ea384b38e209181d7f1ce5faadbe72e1e433a577c77d6670204387729709"
+  }
+}

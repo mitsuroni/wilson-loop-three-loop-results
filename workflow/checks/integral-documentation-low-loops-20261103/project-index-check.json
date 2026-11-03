@@ -1,0 +1,91 @@
+{
+  "arguments": [
+    "-m",
+    "workflow.project_index",
+    "check",
+    "--json"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"ok\": true,\n  \"counts\": {\n    \"warning\": 13\n  },\n  \"issues\": [\n    {\n      \"artifact\": \"file:workflow/checks/empty-family/empty_math.py@6450e1404c70d2d8ba8acaf18e0651ea95aeb498387865b1989208a837d2bf0f\",\n      \"code\": \"historical_hash_unresolved\",\n      \"message\": \"workflow/checks/empty-family/empty_math.py: expected 6450e1404c70d2d8ba8acaf18e0651ea95aeb498387865b1989208a837d2bf0f, observed c844a76f2eb7a1591d7cccd732821be488890d1196704ca397dce6eb0cd49373\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"artifact\": \"file:workflow/checks/empty-family/solve_empty.py@3b4204e45037310c21b4f1973a5b730520fb3aef8c66c980b58a7355f5bac849\",\n      \"code\": \"historical_hash_unresolved\",\n      \"message\": \"workflow/checks/empty-family/solve_empty.py: expected 3b4204e45037310c21b4f1973a5b730520fb3aef8c66c980b58a7355f5bac849, observed dedc7a2505a305f7b47f1ee06ef6063057106b507293c7fd9f1b950da33b160c\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"artifact\": \"file:workflow/checks/single-opposite/solve_single.py@1e604ac4981b3c3287a5c922b96e48e5dff34dac72919e0f6e303b9e12ed6f8a\",\n      \"code\": \"historical_hash_unresolved\",\n      \"message\": \"workflow/checks/single-opposite/solve_single.py: expected 1e604ac4981b3c3287a5c922b96e48e5dff34dac72919e0f6e303b9e12ed6f8a, observed e1cef2acd3e865095b0aac566a1f4c59fcf4568e328ea29e529e151ec8f3c30e\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"artifact\": \"file:workflow/checks/double-opposite/check_double.py@28dc42d1b97dc06a39020b097c5f5dd3a4c3fd3e1321de77a9ce3012311cfae8\",\n      \"code\": \"historical_hash_unresolved\",\n      \"message\": \"workflow/checks/double-opposite/check_double.py: expected 28dc42d1b97dc06a39020b097c5f5dd3a4c3fd3e1321de77a9ce3012311cfae8, observed d475c9bd04dfba74bea6420fa39cb737588dbf314f1cdb2ec755ffc39455597c\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"code\": \"selection_gap\",\n      \"message\": \"benchmarks/tgv/3e-3g: no registered selector; revisions are discoverable, not assumed current\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"artifact\": \"file:benchmarks/self-energy/tgv-pi1/current.json@d68e7e85a47198229ff136b6f83138f4c92831e499ad4eb1a4e8bd58a9ee7417\",\n      \"code\": \"historical_hash_unresolved\",\n      \"message\": \"benchmarks/self-energy/tgv-pi1/current.json: expected d68e7e85a47198229ff136b6f83138f4c92831e499ad4eb1a4e8bd58a9ee7417, observed 1d25a2bf5eb5e3fc4a70c8a34fd06030bfa33202ffc22a7171a89997d94389e5\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"artifact\": \"file:benchmarks/self-energy/gamma1/current.json@ca62a8e060cbefa0ea28641d7391da14b8cd8c56269224ab446d1dcef14ee0a9\",\n      \"code\": \"historical_hash_unresolved\",\n      \"message\": \"benchmarks/self-energy/gamma1/current.json: expected ca62a8e060cbefa0ea28641d7391da14b8cd8c56269224ab446d1dcef14ee0a9, observed 421a7bb8d8bd91443794fc25348c87f51761465adc0802a37961b13817b930c9\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"code\": \"source_connection_gap\",\n      \"message\": \"Installed qgraf-pipeline and Montopar share a dirty parent repository; HEAD alone does not identify emitted C/J. Frozen snapshots remain authoritative.\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"code\": \"source_connection_gap\",\n      \"message\": \"Some family manifests do not express per-orbit graph-to-C/J lineage; family-level provenance is marked needs_review.\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"code\": \"source_connection_gap\",\n      \"message\": \"Existing historical references to mutable selectors or code may no longer match current bytes. These versions remain unresolved; old evidence is not rebound.\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"code\": \"source_connection_gap\",\n      \"message\": \"The 2026-10-06 RG selector's missing-integral count is historical. Current double-TGV selector has 3 incomplete IDs (15,16,24).\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"code\": \"source_connection_gap\",\n      \"message\": \"Index coverage is bounded to registered sources; absence of a downstream edge is not a mathematical independence proof.\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"code\": \"source_connection_gap\",\n      \"message\": \"The external matter non-cusp coefficient comparison has an unresolved geometric log-scale dictionary (log 2); arithmetic equality does not yet establish the physical convention bridge. See the 2026-10-17 second-stage review and its subsequent erratum; nf2/cff raw-source finite shapes are separate.\",\n      \"severity\": \"warning\"\n    }\n  ],\n  \"stale_sources\": []\n}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "counts": {
+      "warning": 13
+    },
+    "issues": [
+      {
+        "artifact": "file:workflow/checks/empty-family/empty_math.py@6450e1404c70d2d8ba8acaf18e0651ea95aeb498387865b1989208a837d2bf0f",
+        "code": "historical_hash_unresolved",
+        "message": "workflow/checks/empty-family/empty_math.py: expected 6450e1404c70d2d8ba8acaf18e0651ea95aeb498387865b1989208a837d2bf0f, observed c844a76f2eb7a1591d7cccd732821be488890d1196704ca397dce6eb0cd49373",
+        "severity": "warning"
+      },
+      {
+        "artifact": "file:workflow/checks/empty-family/solve_empty.py@3b4204e45037310c21b4f1973a5b730520fb3aef8c66c980b58a7355f5bac849",
+        "code": "historical_hash_unresolved",
+        "message": "workflow/checks/empty-family/solve_empty.py: expected 3b4204e45037310c21b4f1973a5b730520fb3aef8c66c980b58a7355f5bac849, observed dedc7a2505a305f7b47f1ee06ef6063057106b507293c7fd9f1b950da33b160c",
+        "severity": "warning"
+      },
+      {
+        "artifact": "file:workflow/checks/single-opposite/solve_single.py@1e604ac4981b3c3287a5c922b96e48e5dff34dac72919e0f6e303b9e12ed6f8a",
+        "code": "historical_hash_unresolved",
+        "message": "workflow/checks/single-opposite/solve_single.py: expected 1e604ac4981b3c3287a5c922b96e48e5dff34dac72919e0f6e303b9e12ed6f8a, observed e1cef2acd3e865095b0aac566a1f4c59fcf4568e328ea29e529e151ec8f3c30e",
+        "severity": "warning"
+      },
+      {
+        "artifact": "file:workflow/checks/double-opposite/check_double.py@28dc42d1b97dc06a39020b097c5f5dd3a4c3fd3e1321de77a9ce3012311cfae8",
+        "code": "historical_hash_unresolved",
+        "message": "workflow/checks/double-opposite/check_double.py: expected 28dc42d1b97dc06a39020b097c5f5dd3a4c3fd3e1321de77a9ce3012311cfae8, observed d475c9bd04dfba74bea6420fa39cb737588dbf314f1cdb2ec755ffc39455597c",
+        "severity": "warning"
+      },
+      {
+        "code": "selection_gap",
+        "message": "benchmarks/tgv/3e-3g: no registered selector; revisions are discoverable, not assumed current",
+        "severity": "warning"
+      },
+      {
+        "artifact": "file:benchmarks/self-energy/tgv-pi1/current.json@d68e7e85a47198229ff136b6f83138f4c92831e499ad4eb1a4e8bd58a9ee7417",
+        "code": "historical_hash_unresolved",
+        "message": "benchmarks/self-energy/tgv-pi1/current.json: expected d68e7e85a47198229ff136b6f83138f4c92831e499ad4eb1a4e8bd58a9ee7417, observed 1d25a2bf5eb5e3fc4a70c8a34fd06030bfa33202ffc22a7171a89997d94389e5",
+        "severity": "warning"
+      },
+      {
+        "artifact": "file:benchmarks/self-energy/gamma1/current.json@ca62a8e060cbefa0ea28641d7391da14b8cd8c56269224ab446d1dcef14ee0a9",
+        "code": "historical_hash_unresolved",
+        "message": "benchmarks/self-energy/gamma1/current.json: expected ca62a8e060cbefa0ea28641d7391da14b8cd8c56269224ab446d1dcef14ee0a9, observed 421a7bb8d8bd91443794fc25348c87f51761465adc0802a37961b13817b930c9",
+        "severity": "warning"
+      },
+      {
+        "code": "source_connection_gap",
+        "message": "Installed qgraf-pipeline and Montopar share a dirty parent repository; HEAD alone does not identify emitted C/J. Frozen snapshots remain authoritative.",
+        "severity": "warning"
+      },
+      {
+        "code": "source_connection_gap",
+        "message": "Some family manifests do not express per-orbit graph-to-C/J lineage; family-level provenance is marked needs_review.",
+        "severity": "warning"
+      },
+      {
+        "code": "source_connection_gap",
+        "message": "Existing historical references to mutable selectors or code may no longer match current bytes. These versions remain unresolved; old evidence is not rebound.",
+        "severity": "warning"
+      },
+      {
+        "code": "source_connection_gap",
+        "message": "The 2026-10-06 RG selector's missing-integral count is historical. Current double-TGV selector has 3 incomplete IDs (15,16,24).",
+        "severity": "warning"
+      },
+      {
+        "code": "source_connection_gap",
+        "message": "Index coverage is bounded to registered sources; absence of a downstream edge is not a mathematical independence proof.",
+        "severity": "warning"
+      },
+      {
+        "code": "source_connection_gap",
+        "message": "The external matter non-cusp coefficient comparison has an unresolved geometric log-scale dictionary (log 2); arithmetic equality does not yet establish the physical convention bridge. See the 2026-10-17 second-stage review and its subsequent erratum; nf2/cff raw-source finite shapes are separate.",
+        "severity": "warning"
+      }
+    ],
+    "stale_sources": []
+  }
+}

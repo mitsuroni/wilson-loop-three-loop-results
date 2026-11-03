@@ -1,0 +1,145 @@
+{
+  "format": "wilson-two-loop-integral/1",
+  "orbit_id": "4e-01",
+  "family": "pure",
+  "domain": "fixed real z>0; inherited source i0; no new full complex-domain theorem",
+  "canonical_convention": "accepted complete I, projected exponent color and C4 included",
+  "assembly_sign": 1,
+  "legacy_to_canonical_multiplier": 1,
+  "color_weights_over_CF": {
+    "CA": "1",
+    "T": "0"
+  },
+  "coefficients": {
+    "-4": {
+      "sympy": "-1/16",
+      "latex": "- \\frac{1}{16}",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/16"
+        }
+      ]
+    },
+    "-3": {
+      "sympy": "0",
+      "latex": "0",
+      "hlog_terms": []
+    },
+    "-2": {
+      "sympy": "-pi**2/96",
+      "latex": "- \\frac{\\pi^{2}}{96}",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1/16"
+        }
+      ]
+    },
+    "-1": {
+      "sympy": "-zeta(3)/24",
+      "latex": "- \\frac{\\zeta\\left(3\\right)}{24}",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/24"
+        }
+      ]
+    },
+    "0": {
+      "sympy": "-7*pi**4/5760",
+      "latex": "- \\frac{7 \\pi^{4}}{5760}",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-7/160"
+        }
+      ]
+    },
+    "1": {
+      "sympy": "-pi**2*zeta(3)/144 - zeta(5)/40",
+      "latex": "- \\frac{\\pi^{2} \\zeta\\left(3\\right)}{144} - \\frac{\\zeta\\left(5\\right)}{40}",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1/40"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": "-1/24"
+        }
+      ]
+    },
+    "2": {
+      "sympy": "-31*pi**6/241920 - zeta(3)**2/72",
+      "latex": "- \\frac{31 \\pi^{6}}{241920} - \\frac{\\zeta^{2}\\left(3\\right)}{72}",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": "-1/72"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": "-31/1120"
+        }
+      ]
+    }
+  },
+  "powers": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "remainder": "O(eps^3)",
+  "canonical_source": {
+    "path": "sources/benchmarks/2ne/results/4e-01/r002.json",
+    "sha256": "4d6bd1ba781a2f01c1197e9ddaa299599e17e2060cf8fdc2fbe03c0ad82cb1dd",
+    "canonical_convention": "accepted complete I, projected exponent color and C4 included"
+  },
+  "calculation_this_run": "Evaluated mother-function Taylor/Gamma convolution plus exact whole-HLOG comparison; source integration proof and HLOG moment dictionary reused",
+  "formal": "not_run"
+}

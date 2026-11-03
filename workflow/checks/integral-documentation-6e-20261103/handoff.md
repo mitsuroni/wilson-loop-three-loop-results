@@ -1,0 +1,15 @@
+# WILSON-5.25 handoff
+
+Owner: codex-main; current worktree `D:/wilson-agent`, branch master, starting HEAD `b539784b71b34ec6ef0b4f1f6eed0629814a9da1`. Two scoped authors wrote the25 ordinary and14 complex articles; a separate reviewer read all39 mathematical chains. The first author additionally audited root metadata without editing it.
+
+[Preflight](preflight.json) binds5074 protected original/low-loop/frozen files and4146 files in the local public checkout, plus starting staged/dirty state. The initially pending task ID was bound to the pinned Backlog's WILSON-5.25 in[task-binding.json](task-binding.json); its ordinary creation encountered a sandbox lock-directory error, and the authorized retry created only the management lock/task entry. No commit, staging or remote operation was performed.
+
+Allowed and actual changes: new `integrals/three-loop/6e-01..39`, new shared mathematics and byte-exact runtime under `integrals/families/three-loop-6e`, this report/evidence directory, the integral reading index, scoped master/project-map/data-flow checkpoint and WILSON-5.25 ledger. Original kernels, accepted results, calculation implementation, scientific selectors, frozen packets, prior low-loop articles and the public checkout remain protected. The923-file runtime copy is scientific-byte-identical to its declared source packet.
+
+Actual checks: new39/273 generation with10 direct Gamma expansions and69 archived primitive events;273 exact function back-substitutions;39 source,14 polynomial,5 ordinary finite and6 negative controls;2 additional verifier negatives; real relocated generation without complete-I reference tables, followed by comparison and39 equal coefficient payloads. Independent reading and94-expression/1425-coordinate transcription checks are documented under[review](review/README.md). Author-side complex assembly checks are in[author-checks](author-checks/). Mechanical checks and project-index management output are recorded separately.
+
+All raw primitive dependencies are represented, including batch-cache reuse first populated by another diagram. The544 per-entry raw-file references resolve to174 distinct archived raw outputs; neither number counts independent master integrals. Same-J, complete-I and finite-only identities have different scopes;37=38 is only a finite coefficient relation.
+
+The new mathematical exposition adopts precise existing computational lemmas for29 entries. No new full independent CAS integration or formal proof is claimed. Source conventions, moment dictionaries, positive-real-z branches and empirical errors retain their stated limits. Failed attempts and raw historical records were preserved; no proof/status promotion was performed to make a report pass.
+
+All task outputs remain uncommitted. Unrelated starting dirty files are preserved and no push/publication occurred. Next action: apply the same standard to the15 existing two-point/exchange-insertion entries as the next batch; do not infer their prose acceptance from old packaging status.

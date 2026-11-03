@@ -1,0 +1,125 @@
+{
+  "orbit_id": "6e-03",
+  "family": "empty",
+  "source_bindings": {
+    "graph": {
+      "path": "inputs/source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+      "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+      "json_pointer": "/orbits/112",
+      "field_sha256": "41acec7d87593738ea11adb81ffc55e959c6323f6a34ccb55086f430cc052fe1"
+    },
+    "native_raw": {
+      "path": "inputs/source/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/6e/montopar-initial.json",
+      "sha256": "b67f8617d1f6badb1ea5cc26863be782086205240cb89eb2082dd989451b30e7",
+      "json_pointer": "/orbits/2",
+      "field_sha256": "8258f5c7618bf2397ecbb23b210c114c6debc848bf68f9d296385e1851c3d6d1"
+    },
+    "ordered_original": {
+      "path": "inputs/source/snapshots/benchmarks/2ne/sources/montopar-ordered/6e/montopar-initial.json",
+      "sha256": "890858f4429fa39bcf4e7f2de9afbf847193a1a6dc2b377250b9d75f9603475b",
+      "json_pointer": "/orbits/2",
+      "field_sha256": "e0b20079b0675a5ddfa47d4b5bab1719ed113aefae5da0ad74ff589d1eda5fc8"
+    },
+    "native_prepared": {
+      "path": "inputs/source/native-prepared-6e.json",
+      "sha256": "0b4f6dfb4586a58fafe155651fc39893d80f0ea303abb18eac88fa6c918dcec4",
+      "json_pointer": "/orbits/2",
+      "field_sha256": "c6a83b945747649090c0a0cba1dbaa0f458ca841e3b474b3d92da9b695d70cd8"
+    }
+  },
+  "historical_derivations": [
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/empty/README.md",
+      "sha256": "de82a2a3c29d05e463bf7293e7b698f080d01217402375e526eed9b139307e01"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/empty/method.md",
+      "sha256": "2dab6015a123658a65fae14ea770382f548eedd92fe361c31a741b97fe7183ba"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/empty/three-loop.md",
+      "sha256": "09a914eef9b8cb0074949b8decedf26420a3fb08546023153cd00f2676e8e0a6"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/workspaces/6e-03/derivation.md",
+      "sha256": "3a61eadab537f96bf5dc98be9a5221a2203f6f21e3c0b2d9e568dc08aba9c63f"
+    },
+    {
+      "path": "evidence/historical/workflow/checks/empty-family/runs/20260916T083424975899Z/6e-03-derivation.md",
+      "sha256": "e039b9c70d452ae3796744183b86e9d294f49cfd9809a0f9c59778c8fa7ea0e7"
+    }
+  ],
+  "original_evaluation_route": {
+    "note": "Original adjacent endpoint chains are evaluated by ordered A/B Beta/Gamma words; finite Laurent recurrence is explicit. No CAS is required for the 6e-01 pilot.",
+    "required_historical_mothers": [
+      "ordered_word:BBB",
+      "ordered_word:AAA"
+    ],
+    "orbit_specific_reduction": {
+      "r": 3,
+      "chains": [
+        {
+          "variables_low_to_high": [
+            "s31",
+            "s32",
+            "s33"
+          ],
+          "word": "BBB"
+        },
+        {
+          "variables_low_to_high": [
+            "s41",
+            "s42",
+            "s43"
+          ],
+          "word": "AAA"
+        }
+      ],
+      "K": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "(1/36)/eps^6",
+        "latex": "\\frac{1}{36 \\varepsilon^{6}}"
+      },
+      "I_compact": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "-1/576*G^3/eps^6",
+        "latex": "- \\frac{G^{3}}{576 \\varepsilon^{6}}"
+      }
+    },
+    "derivation_headings_read": [
+      "6e-03：空集族 I 的完整解析结果",
+      "1. 输入、目标和约定",
+      "2. 最终结果与当前状态",
+      "3. 从原始 J 出发的推导",
+      "4. C/J 到 I",
+      "5. Laurent 展开到有限项",
+      "6. 检查与复现入口",
+      "7. 遗留问题与历史"
+    ]
+  },
+  "relationship": {
+    "kind": "full_I_proportional",
+    "scope": "complete physical I under the documented positive-real-z normalization and convergence/continuation domain",
+    "representative": "6e-01",
+    "factor": "1/2",
+    "evidence": [
+      {
+        "path": "benchmarks/2ne/families/empty/three-loop.md",
+        "sha256": "09a914eef9b8cb0074949b8decedf26420a3fb08546023153cd00f2676e8e0a6",
+        "locator": "E1"
+      },
+      {
+        "path": "benchmarks/2ne/workspaces/6e-03/derivation.md",
+        "sha256": "3a61eadab537f96bf5dc98be9a5221a2203f6f21e3c0b2d9e568dc08aba9c63f"
+      }
+    ],
+    "J_status": "No equality/proportionality of the original J is inferred from a physical-I relation.",
+    "proof_status": "existing analytic derivation with computational checks; not a new formal proof"
+  },
+  "reference": {
+    "path": "benchmarks/2ne/results/6e-03/r002.json",
+    "sha256": "dcaa2f0cd437ed3e03a69356acf5974c7a37dc0ebccf20c52cf1f0005622117f"
+  },
+  "reference_read_during_staging": false,
+  "P1_reuse": false
+}

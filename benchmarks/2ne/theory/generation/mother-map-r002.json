@@ -1,0 +1,2385 @@
+{
+  "format": "2ne-channel-mother-map/2",
+  "scope": "47 generated J and 47 full-epsilon current-I bridges",
+  "formal": "not_run",
+  "previous_map": "benchmarks/2ne/theory/generation/mother-map.json",
+  "source_sha256": {
+    "benchmarks/2ne/prepared/manifest.json": "0e9e55dad06bb5adb185689bdf03ea11f7b0c32386a9020fd2b2041fac1ac22c",
+    "benchmarks/2ne/families/empty/catalog.json": "f6cba8a7bdc5823914006849a6fa3f70906c79dbca858206aa09fe6ad0234bfe",
+    "benchmarks/2ne/families/single-opposite/catalog.json": "1444f00f632677c679c7d38e9221aeecb0634452d67d5cc01d2a77f97841e622",
+    "benchmarks/2ne/families/same-channel-two/catalog.json": "6753192a6d0d5512bc352483a3e2a1d1e8977f500ce878afe6cef617ee3b6179",
+    "benchmarks/2ne/families/double-opposite/catalog.json": "ca4e2a1a471971e822da4ab4e454645619dd819887bd6369afc07c055607a0a8",
+    "benchmarks/2ne/families/mixed-opposite/catalog.json": "0af8cfbdf1e519131fedc178f80c651900f14db811824fbce9831cf09468248b",
+    "benchmarks/2ne/families/same-channel-three/catalog.json": "894882a702b8bedcb55008da6607dd80e52c35e28e492fbc5ccfadc425c16ac3",
+    "workflow/checks/unified-weight-six/current-run.json": "1277c57aa73f3622cdba09da6ec16ab92f56041211e79bde821258a8a974f068",
+    "workflow/checks/unified-weight-six/runs/20260917T043810203852Z/basis-and-conversions.json": "c646e42379fd344c45bee8ad02ec25a0f92a050d9ac85da63912cc1265f72c05",
+    "benchmarks/2ne/prepared/2e.json": "d8ce895e6ff1dfd6c6d9b2d241c18988ba34fce234a7770ea47f6109ed366827",
+    "benchmarks/2ne/results/2e-01/r002.json": "156b0484b95f71195c8b0153897cfae0856fc9fab432ceab6d61b1bc2e8db24a",
+    "benchmarks/2ne/workspaces/2e-01/derivation.md": "200026c85e131f895a2cb0ff1076acc4cb4745aa875c5ad722425e6fe49f378b",
+    "benchmarks/2ne/families/empty/method.md": "2dab6015a123658a65fae14ea770382f548eedd92fe361c31a741b97fe7183ba",
+    "benchmarks/2ne/results/2e-02/r002.json": "006832ddc9a153b6be74b94088625518d023dd98c10bdc338d89cc29392beaa8",
+    "benchmarks/2ne/workspaces/2e-02/derivation.md": "c9d8704b734e748fa7e6a3e9a0dd534dc15d4d5fc4644d000934478df8100edf",
+    "benchmarks/2ne/families/single-opposite/basis.md": "a36937f757b373e71c6873b7b59c33be64751a4d2101725cc8d7d3d41b3c2a84",
+    "benchmarks/2ne/prepared/4e.json": "0193d668525fdcc4f184896cfc7445f7201dc65557657c1f316a8b9ae8af57c7",
+    "benchmarks/2ne/results/4e-01/r002.json": "4d6bd1ba781a2f01c1197e9ddaa299599e17e2060cf8fdc2fbe03c0ad82cb1dd",
+    "benchmarks/2ne/workspaces/4e-01/derivation.md": "96d5e53df7e0dc695956a53280f2b0b7ede2c762c9a2c896060fb598362b8ecf",
+    "benchmarks/2ne/results/4e-02/r002.json": "a1f97e0fdace7878ba9688fe35f4aaae854c7aa76821da4b7a029ca0c1268959",
+    "benchmarks/2ne/workspaces/4e-02/derivation.md": "91c278f44198e7a7bedb2ab8be7991d456162b87a387ffa774da01ed5258fc6d",
+    "benchmarks/2ne/results/4e-03/r002.json": "c10be113752bfde5072957a5c26f63674327bae8aadc7e1a01a275f34224c390",
+    "benchmarks/2ne/workspaces/4e-03/derivation.md": "8325ec7d177025f2db5bdabb8f0ff4361242f57d0eb10ac6ebf378dce7854b40",
+    "benchmarks/2ne/results/4e-04/r002.json": "3053908df767b60c9dcf062161a2373391aeb53d6e482a6a39f58a04f321d753",
+    "benchmarks/2ne/workspaces/4e-04/derivation.md": "46f77bbf9826b5fae6e5c540152ebf7ac2021144955932c5bb5dc1dc023b46ca",
+    "benchmarks/2ne/families/same-channel-two/unified-structure.md": "df609472df45815809929a92617d6babdffa7fc6d99c2023cd05a2c139a0a5e2",
+    "benchmarks/2ne/results/4e-05/r001.json": "0ea95ad21c361fb536cf5e1b3c10c2cbde1a321dba034b527b59015845b50915",
+    "benchmarks/2ne/workspaces/4e-05/derivation.md": "3eecb7e9bb7a83e0ccbd52f17c544f762da92241680dd7e1520aa211db6da272",
+    "benchmarks/2ne/results/4e-06/r002.json": "b2d08ce064c2efd54aa2f555d33077903c18eff369ef7039a51fa7248aa5c00f",
+    "benchmarks/2ne/workspaces/4e-06/derivation.md": "3883d701f1650c21a39ce512abbe754fdf94c02663b91d9a3b14c6265605dd7f",
+    "benchmarks/2ne/families/double-opposite/method.md": "0beaf5ea06621cf03f1d32744059acf4a8d11dfda7d3b8e9d10a64df9cb046c0",
+    "benchmarks/2ne/prepared/6e.json": "9699532d1ee3a4027c2eb93c961a5b467a9bceda229c0204c13775cfa2451406",
+    "benchmarks/2ne/results/6e-01/r002.json": "b552b507e97f4b86c89c1aaf476a0aebe3e85f09ed2a3814762b74e55f67ca60",
+    "benchmarks/2ne/workspaces/6e-01/derivation.md": "b2fc4d72ec952d93cfe7f7f748a9b08e22f1a5fc63e7cbebf0d4c50e4419878f",
+    "benchmarks/2ne/results/6e-02/r002.json": "862b3ba5243eeb20af5f986592e80bde4e0bdf43fc1d2b5792a83681c6bec15d",
+    "benchmarks/2ne/workspaces/6e-02/derivation.md": "f59f385bb2df5a0577e3071d9621ac75b8a4eb88887a8b0f8d1daa85c0947cdc",
+    "benchmarks/2ne/results/6e-03/r002.json": "dcaa2f0cd437ed3e03a69356acf5974c7a37dc0ebccf20c52cf1f0005622117f",
+    "benchmarks/2ne/workspaces/6e-03/derivation.md": "3a61eadab537f96bf5dc98be9a5221a2203f6f21e3c0b2d9e568dc08aba9c63f",
+    "benchmarks/2ne/results/6e-04/r002.json": "785aaf4f8f6de9caa8a132d317c887ca56413cb2a5e06d20b2cf96c2681ab0f3",
+    "benchmarks/2ne/workspaces/6e-04/derivation.md": "8f3be3334b0570d8a8fbf2e31bc702945e8896addecd02c269352aa8af3a539d",
+    "benchmarks/2ne/results/6e-05/r001.json": "d81827211370e808d2203757418dccac4dfe8c29bcc780076da0b14d5ce3c1b6",
+    "benchmarks/2ne/workspaces/6e-05/derivation.md": "14988e61ef4b45213e605d51542d3e5bf3f75f55538bfa76015d347ac723ef6b",
+    "benchmarks/2ne/results/6e-06/r001.json": "1ad974dfd7700f6b6013d8d536496a785849457a82f89fc9d34712d0ee76e9e9",
+    "benchmarks/2ne/workspaces/6e-06/derivation.md": "ced1d347c0290178453ad46cbefa600b902c143700b9b7cb5a6b88cb3ae8afe7",
+    "benchmarks/2ne/results/6e-07/r002.json": "4feb7d381b7fbb2b5568fd06748dc2439f717834cfd3cceed9eb8e07827bd9c5",
+    "benchmarks/2ne/workspaces/6e-07/derivation.md": "96bfebfa2200e3140ab3a41ef90891969a8ebee7ddc507ca7caf6153c1547760",
+    "benchmarks/2ne/results/6e-08/r002.json": "8f17c382d34e247b6c66661caccce08614df80c5da926b864a4f3acf1d5e7d42",
+    "benchmarks/2ne/workspaces/6e-08/derivation.md": "ea32d632efc2e63ac67992d94ea9e2cfd8afaf0d531ebee080379a1e6b5a0559",
+    "benchmarks/2ne/results/6e-09/r002.json": "99b35beac85db799a772ec9e869be8d4b38fd2ccc2ae9ef851f5bf22fe976e62",
+    "benchmarks/2ne/workspaces/6e-09/derivation.md": "58fa88d4fe196808a7c9bd9330bc5562917faebd4a781126262d322bd1ca4820",
+    "benchmarks/2ne/results/6e-10/r002.json": "680de6a18a9717939a1e04da8bb2843a552403a020f42cdd2bcfb1b2a7ca07f1",
+    "benchmarks/2ne/workspaces/6e-10/derivation.md": "0b2a15daeeb2f96b088af703c0fa876b83f70d86a2c13b700136cd4328b6b490",
+    "benchmarks/2ne/results/6e-11/r002.json": "cc23fc802afc0117f521f606da8809f367b2580d18f8ac38354b5c491516629d",
+    "benchmarks/2ne/workspaces/6e-11/derivation.md": "9f2462793b726f3f731f62003ec2fda3513d4c39159f4f1cabd4381461e5f045",
+    "benchmarks/2ne/results/6e-12/r002.json": "123078ebc8c66f54d47813277876ca0722a26cb8959423fc3180a9483f95eb0c",
+    "benchmarks/2ne/workspaces/6e-12/derivation.md": "c1138a47dfadbb19354c01a62eb841664d69f37b110db3da1ef309afc25e1a09",
+    "benchmarks/2ne/results/6e-13/r001.json": "30c8f8a71036135d1c0671b312b189f59015b1b9db45a117771c7de5a2aaa9e6",
+    "benchmarks/2ne/workspaces/6e-13/derivation.md": "87b5e046724e76263f296074a9dc47f7c23a3cd89e80d55f7b335cdce956ace9",
+    "benchmarks/2ne/results/6e-14/r001.json": "d7c0fb2ff65d2d58d2a24825ab2dd4bcbc4e6c7b6f7d5a2690823ddf9146ca32",
+    "benchmarks/2ne/workspaces/6e-14/derivation.md": "586aaa68e90324b32a1e210106618b5df89a1ecf99bafdabee02ff210e6581e4",
+    "benchmarks/2ne/results/6e-15/r001.json": "ed3f893001276bc4762e835b47beafb5b88cefdb742e6dd757ece4b20fadf4a1",
+    "benchmarks/2ne/workspaces/6e-15/derivation.md": "c734f2e00ac61ea2d1bbb3d5c23f011819f66833aef2bcd1f39dc186d3e7f028",
+    "benchmarks/2ne/results/6e-16/r001.json": "be1d4f08c3c693b772cc373ddd2d600a27808984fae2d3f9ced4cd7c844c3dc4",
+    "benchmarks/2ne/workspaces/6e-16/derivation.md": "b7d0b98ed7c0edfe6a433a450e5dc71e27cc7d6231c93a7fc5281b90bd6dcc2d",
+    "benchmarks/2ne/results/6e-17/r002.json": "14887ce05cbec69de882eb8213e9042d09ca44e3cb80ffcc802e654f1ed33333",
+    "benchmarks/2ne/workspaces/6e-17/derivation.md": "ac1ca728d7e06a3f56836866cae398b8ac7f690b54b339d5188ccee37c54d775",
+    "benchmarks/2ne/results/6e-18/r002.json": "587fdaaa02b924b8b99549fdbac67b857141544619db5f8a32288a3afa21736a",
+    "benchmarks/2ne/workspaces/6e-18/derivation.md": "8a8e60239ca5dc6eff56614df8fd473e9adef8efaf9ab412a0ae4fa74697083f",
+    "benchmarks/2ne/results/6e-19/r002.json": "7a71590e6a74e87355fc262805c334b179ce38f0d72ed4c331f4e04805d1a1f7",
+    "benchmarks/2ne/workspaces/6e-19/derivation.md": "7a89ee779334718a32cad531a15616da4d7044015b6725da3a66a822323b0b73",
+    "benchmarks/2ne/results/6e-20/r001.json": "a5e937a0a7e8a9d6abb5c5ee19bef3cb3155ca3dcc0e937cf9089268d045987b",
+    "benchmarks/2ne/workspaces/6e-20/derivation.md": "9a9301dd7f71ffc1062e5b452b809ca7cbbbe196f6be8240d4c1660143779337",
+    "benchmarks/2ne/families/same-channel-three/method.md": "a9a27ebfb09b02e9ea16e26648a7ebfded3a2eb6e5160c79ca149df2b7b17b2d",
+    "benchmarks/2ne/results/6e-21/r001.json": "ab30f0b6555ab637f4bf6b7219ea3afca4bab0d8c348b7c65988638cc7bf1151",
+    "benchmarks/2ne/workspaces/6e-21/derivation.md": "eafe22494a56da0a82d40cd75251c1699691c798bb9b225c241a9da28f8ff5a2",
+    "benchmarks/2ne/results/6e-22/r001.json": "f740e72630c29a4b7e50883155f6b094464cad406f56f0d7fcfcfaf4b98b15dd",
+    "benchmarks/2ne/workspaces/6e-22/derivation.md": "8fd2f672443cc23929d121f2a380831691acdbb37749352ec714707a4b0c1647",
+    "benchmarks/2ne/results/6e-23/r002.json": "7f9fc0ace6cd7d8370beb1ec0fa7e0ad8483d48d465c2ebe5e54a36a8feaacea",
+    "benchmarks/2ne/workspaces/6e-23/derivation.md": "25ff8b05912ef08f88542ee4f4c11bb194db2c6e752fbb1281757c0cd0ba76e9",
+    "benchmarks/2ne/results/6e-24/r002.json": "49e5d88f17cae1c3bd2863b8de295fdbb43e2167362b7084084175d8f5803465",
+    "benchmarks/2ne/workspaces/6e-24/derivation.md": "e3f57a04be9ba3dfacb4c8172a508bfe1e9553b9a06cc48c5ccdd78cc948c1fd",
+    "benchmarks/2ne/results/6e-25/r002.json": "ddd46740edb3f060dadc2112d367d479faf0488ab7ca65974ecc753f96a9cce9",
+    "benchmarks/2ne/workspaces/6e-25/derivation.md": "0ddf012d9e34476fec0a3a000011af6dfbee48e79c387a1238f0d3225987f28d",
+    "benchmarks/2ne/results/6e-26/r001.json": "43c48b7d3a61009693d5722a745b3957bd95374884f923e7f3197268a824b88c",
+    "benchmarks/2ne/workspaces/6e-26/derivation.md": "f42b187a5e5b37bb3b028bcc11067db5ffe11286ba1a73994f0e7a3da36edbdd",
+    "benchmarks/2ne/results/6e-27/r001.json": "95da151769a03833332c61b55e21a39b7085336104fbb705ade0806bcea755e8",
+    "benchmarks/2ne/workspaces/6e-27/derivation.md": "ac90d30bc3ec970e1ecf432bfe92a52345741da4d3e6ca51c8d7cc0be17803f5",
+    "benchmarks/2ne/results/6e-28/r001.json": "383f8753f4a511610ae920a934d55447d53e5988d52e17eb3f65da992b4ad858",
+    "benchmarks/2ne/workspaces/6e-28/derivation.md": "d10f0174c40fa5985ff88724b7e04c82ce2ab29f495b0addd210d3bb3c4b2c61",
+    "benchmarks/2ne/results/6e-29/r001.json": "0fd91b744c5d1c9fb3842b4f5571d999358041cbef06c9a3efb345066ea7c251",
+    "benchmarks/2ne/workspaces/6e-29/derivation.md": "efd28749cca17ad2592aad3e4827e6083d6f6bccc6bf151e2cd1fb8e92fe5cd4",
+    "benchmarks/2ne/results/6e-30/r001.json": "12424684dee6655cd52e64eeddcdb99ce806d8f3ccc2fbd54b6808987d3a339b",
+    "benchmarks/2ne/workspaces/6e-30/derivation.md": "f964eacd1047bcd56663c79162ee8d5a8277fee43534d0e69b719977e2c3ec9b",
+    "benchmarks/2ne/results/6e-31/r001.json": "fc4df5fec1d3fc38b971abbde39846067e5a34be0763b5cc5386faab41c90b4e",
+    "benchmarks/2ne/workspaces/6e-31/derivation.md": "5b1ac04cae708e2ba36ef54232de71d819729e536628ee8c1f6c65430bf85d53",
+    "benchmarks/2ne/results/6e-32/r001.json": "83678a09df60f62accc92daab20fc3aa8706d060f8d4cd7c18870c0682456320",
+    "benchmarks/2ne/workspaces/6e-32/derivation.md": "4429ddb1bd2b2aff9b9904b63c64f6c3f6d5d8d3a5d589887f9e8a8ac3af3999",
+    "benchmarks/2ne/results/6e-33/r001.json": "18ff95231a0e219e345eb2334aea31bff4c92449f3ef977ba0bef6510a3f8c09",
+    "benchmarks/2ne/workspaces/6e-33/derivation.md": "8044a540f5bc8541e2f806df26a91143dd367c39c48519b96692f14fce6b828f",
+    "benchmarks/2ne/results/6e-34/r001.json": "326a11ddbef00a37da11a5df67209780b2f2fabbb5c68c0ba2cb813a6f5bad2c",
+    "benchmarks/2ne/workspaces/6e-34/derivation.md": "7aa016f90502e1448d9d04d1791e4d0d102caf319072071ef4204abd0cc7f3e6",
+    "benchmarks/2ne/results/6e-35/r002.json": "4689ecaa79d3585531ec3948245e4b18562ff10d93bbc3611a37238beefb0f99",
+    "benchmarks/2ne/workspaces/6e-35/derivation.md": "e8f40d534219662a5a8aae91dcccb0976ee060879caac2c79697b94fe187ecf7",
+    "benchmarks/2ne/results/6e-36/r002.json": "05f131eb9111fef209ff799b13d5b8c303bc00f565f0232f6d8bd5982c9164f9",
+    "benchmarks/2ne/workspaces/6e-36/derivation.md": "cbd07daa4550b6eed368d9fbe0f2a8b5f36dc2b836f55badbb132c42d7755038",
+    "benchmarks/2ne/results/6e-37/r001.json": "bab5665960bbe3aac005d4b3056b34f250ff303b1e89e2f1145c33221b0dabcb",
+    "benchmarks/2ne/workspaces/6e-37/derivation.md": "8c30d0754dd4ddf58e1e8a9e1981e37e17a0f4c957ad29b09517375d99b721f9",
+    "benchmarks/2ne/families/mixed-opposite/method.md": "7f9f44b8a5bf9b8820575c42fbfa79125c705841865310d15f3c0fadb3d9830c",
+    "benchmarks/2ne/results/6e-38/r001.json": "db5e70a386d226c2c28313f9bc1ca28abaa25db5b89ecd71d458baa31a28a360",
+    "benchmarks/2ne/workspaces/6e-38/derivation.md": "6b31c258b719a819ff0ff6a740d89a7613a9b96b5c9b58fe1448825c672a8c4c",
+    "benchmarks/2ne/results/6e-39/r001.json": "adbb21bb60137a4b35f2fa40189bb47e9cba09ebea5afcf6fe67206bf49926ed",
+    "benchmarks/2ne/workspaces/6e-39/derivation.md": "73a3f5704c3dd79938881af7a3d54909c717c8466e585f8c2204eb15c2fd73db",
+    "benchmarks/2ne/theory/generation/input-map.json": "b3755a10ed31734a4d25ec1a5717f73e33fb829a65cea35fcc01247a2068a638",
+    "benchmarks/2ne/theory/generation/mother-map.json": "21f576e2b098ce91c134f686b87beeb7d7bb2fffb2e901dcd519e81cec9d1965",
+    "benchmarks/2ne/families/same-channel-two/full-series.json": "637147191b6b7e705cddf06ba5263a3a064368815b3657e59e74132672525590",
+    "benchmarks/2ne/families/same-channel-two/method.md": "d290527b5c01c5840a6bff4122a771d2cd619e7cbae1e1422118df063e279146",
+    "workflow/checks/2ne-mothers/mothers.py": "edf89f9cad100c1a8134692f157e80e05e25c9d7ba44cc2d0b906d52388151df",
+    "workflow/checks/2ne-mothers/series.py": "518fafb7210c754f08bf29ef988537b7d1ce17a294868a45ef7d284c967c8ba8",
+    "workflow/checks/same-channel-two/full_series.py": "4e68a35f11b4b0c9877c899463bfcbd41d0d3df565acb335ad3a63623238bdf2",
+    "workflow/checks/same-channel-two/reduce_two.py": "3c204ab1667d9ef77bb9f895fa332e4d42e0f44851615ca34b05f3aaf9fabce5",
+    "workflow/checks/same-channel-three/full_series.py": "5db89ebc5f81b8455f2d595e16b8ac06b5d40b12303bb4d5613b883c1da9b200",
+    "workflow/checks/same-channel-three/reduce_three.py": "02a75e9b9251ce5094b9ec55b20e89f956de01aa837321f3c22d69bad81af083",
+    "workflow/checks/single-opposite/reduce_inputs.py": "ee53e5320bbbd6d5b0142adc4ae3fa046198052ce4ba86a1a23de4ed13a9f6fb",
+    "workflow/checks/single-opposite/hlog_algebra.py": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+    "workflow/checks/empty-family/empty_math.py": "c844a76f2eb7a1591d7cccd732821be488890d1196704ca397dce6eb0cd49373",
+    "workflow/checks/2ne-generation/ordered_words.py": "c0429825338175a5080b4c3f4b8d1d1d7ab20540e9a408f5bdb2c21a56a2eafd",
+    "workflow/checks/2ne-generation/audit.py": "45f28ccff94785c8f790678becd4c1a14bb61f031d0730c7543522f681039979",
+    "workflow/checks/2ne-mothers/audit.py": "72234c993ffdc95acd90c819dd40480d929880ddaf7671e6ac8bb99f8a9eac36"
+  },
+  "items": [
+    {
+      "orbit_id": "2e-01",
+      "n": 1,
+      "family": "[]",
+      "opposite_count": 0,
+      "epsilon_pole_prefactor": 2,
+      "z_epsilon_exponent": "1",
+      "delta": "1/2",
+      "kappa": "-1",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": []
+        }
+      ],
+      "B_latex": "1",
+      "current_result": "benchmarks/2ne/results/2e-01/r002.json",
+      "I_sympy": "-G/eps**2",
+      "I_latex": "- \\frac{G}{eps^{2}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "2e-02",
+      "n": 1,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 0,
+      "z_epsilon_exponent": "1/2",
+      "delta": "0",
+      "kappa": "-1/2",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[1]}_{1;\\varnothing;\\varnothing}",
+      "current_result": "benchmarks/2ne/results/2e-02/r002.json",
+      "I_sympy": "-G*H0/(2*cosh(ell*eps/2))",
+      "I_latex": "- \\frac{G H_{0}}{2 \\cosh{\\left(\\frac{\\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "4e-01",
+      "n": 2,
+      "family": "[]",
+      "opposite_count": 0,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "2",
+      "delta": "1",
+      "kappa": "-1/4",
+      "terms": [
+        {
+          "coefficient": "1/4",
+          "factors": []
+        }
+      ],
+      "B_latex": "\\frac{1}{4}",
+      "current_result": "benchmarks/2ne/results/4e-01/r002.json",
+      "I_sympy": "-G**2/(16*eps**4)",
+      "I_latex": "- \\frac{G^{2}}{16 eps^{4}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "4e-02",
+      "n": 2,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 2,
+      "z_epsilon_exponent": "3/2",
+      "delta": "1/2",
+      "kappa": "-1/4",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[1]}_{1;\\varnothing;\\varnothing} - \\mathcal T^{[1]}_{1;\\varnothing;A}",
+      "current_result": "benchmarks/2ne/results/4e-02/r002.json",
+      "I_sympy": "-G**2*(H0*exp(ell*eps/2)/2 + H0*exp(-ell*eps/2)/2 - H1*exp(ell*eps/2)/2 - H1bar*exp(-ell*eps/2)/2)/(4*eps**2*cosh(ell*eps))",
+      "I_latex": "- \\frac{G^{2} \\left(\\frac{H_{0} e^{\\frac{\\ell eps}{2}}}{2} + \\frac{H_{0} e^{- \\frac{\\ell eps}{2}}}{2} - \\frac{H_{1} e^{\\frac{\\ell eps}{2}}}{2} - \\frac{\\bar{H1} e^{- \\frac{\\ell eps}{2}}}{2}\\right)}{4 eps^{2} \\cosh{\\left(\\ell eps \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "4e-03",
+      "n": 2,
+      "family": "[]",
+      "opposite_count": 0,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "1",
+      "delta": "0",
+      "kappa": "-1/4",
+      "terms": [
+        {
+          "coefficient": "1 - R2",
+          "factors": []
+        }
+      ],
+      "B_latex": "1 - R_{2}",
+      "current_result": "benchmarks/2ne/results/4e-03/r002.json",
+      "I_sympy": "-G**2*(1 - R2)/(4*eps**4*cosh(ell*eps))",
+      "I_latex": "- \\frac{G^{2} \\left(1 - R_{2}\\right)}{4 eps^{4} \\cosh{\\left(\\ell eps \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "4e-04",
+      "n": 2,
+      "family": "[2]",
+      "opposite_count": 2,
+      "epsilon_pole_prefactor": 0,
+      "z_epsilon_exponent": "1",
+      "delta": "0",
+      "kappa": "-1/8",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 2,
+              "permutation": [
+                1,
+                2
+              ],
+              "left_words": [
+                "",
+                ""
+              ],
+              "right_words": [
+                "",
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[2]}_{1,2;\\varnothing,\\varnothing;\\varnothing,\\varnothing}",
+      "current_result": "benchmarks/2ne/results/4e-04/r002.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**2*Qid/(8*cosh(ell*eps))",
+      "I_latex": "- \\frac{G^{2} Qid}{8 \\cosh{\\left(\\ell eps \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "Qid",
+      "B_named_latex": "Qid",
+      "J_named_sympy": "Qid*exp(ell*eps)",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "4e-05",
+      "n": 2,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 2,
+      "z_epsilon_exponent": "1/2",
+      "delta": "-1/2",
+      "kappa": "-1/4",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "B"
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[1]}_{1;B;\\varnothing}",
+      "current_result": "benchmarks/2ne/results/4e-05/r001.json",
+      "I_sympy": "-G**2*(H0*exp(ell*eps/2)/2 + H0*exp(-ell*eps/2)/2 - H1*exp(ell*eps/2)/2 - H1bar*exp(-ell*eps/2)/2)/(4*eps**2*cosh(ell*eps))",
+      "I_latex": "- \\frac{G^{2} \\left(\\frac{H_{0} e^{\\frac{\\ell eps}{2}}}{2} + \\frac{H_{0} e^{- \\frac{\\ell eps}{2}}}{2} - \\frac{H_{1} e^{\\frac{\\ell eps}{2}}}{2} - \\frac{\\bar{H1} e^{- \\frac{\\ell eps}{2}}}{2}\\right)}{4 eps^{2} \\cosh{\\left(\\ell eps \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "4e-06",
+      "n": 2,
+      "family": "[1,1]",
+      "opposite_count": 2,
+      "epsilon_pole_prefactor": 0,
+      "z_epsilon_exponent": "1",
+      "delta": "0",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "1/z"
+            },
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\overline{\\mathcal T^{[1]}_{1;\\varnothing;\\varnothing}} \\mathcal T^{[1]}_{1;\\varnothing;\\varnothing}",
+      "current_result": "benchmarks/2ne/results/4e-06/r002.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**2*H0**2/(16*cosh(ell*eps))",
+      "I_latex": "- \\frac{G^{2} H_{0}^{2}}{16 \\cosh{\\left(\\ell eps \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "H0**2",
+      "B_named_latex": "H_{0}^{2}",
+      "J_named_sympy": "H0**2*exp(ell*eps)",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-01",
+      "n": 3,
+      "family": "[]",
+      "opposite_count": 0,
+      "epsilon_pole_prefactor": 6,
+      "z_epsilon_exponent": "3",
+      "delta": "3/2",
+      "kappa": "-1/8",
+      "terms": [
+        {
+          "coefficient": "1/36",
+          "factors": []
+        }
+      ],
+      "B_latex": "\\frac{1}{36}",
+      "current_result": "benchmarks/2ne/results/6e-01/r002.json",
+      "I_sympy": "-G**3/(288*eps**6)",
+      "I_latex": "- \\frac{G^{3}}{288 eps^{6}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-02",
+      "n": 3,
+      "family": "[]",
+      "opposite_count": 0,
+      "epsilon_pole_prefactor": 6,
+      "z_epsilon_exponent": "3",
+      "delta": "3/2",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1/36",
+          "factors": []
+        }
+      ],
+      "B_latex": "\\frac{1}{36}",
+      "current_result": "benchmarks/2ne/results/6e-02/r002.json",
+      "I_sympy": "-G**3/(576*eps**6)",
+      "I_latex": "- \\frac{G^{3}}{576 eps^{6}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-03",
+      "n": 3,
+      "family": "[]",
+      "opposite_count": 0,
+      "epsilon_pole_prefactor": 6,
+      "z_epsilon_exponent": "3",
+      "delta": "3/2",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1/36",
+          "factors": []
+        }
+      ],
+      "B_latex": "\\frac{1}{36}",
+      "current_result": "benchmarks/2ne/results/6e-03/r002.json",
+      "I_sympy": "-G**3/(576*eps**6)",
+      "I_latex": "- \\frac{G^{3}}{576 eps^{6}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-04",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "5/2",
+      "delta": "1",
+      "kappa": "-1/8",
+      "terms": [
+        {
+          "coefficient": "1/4",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1/2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "1/2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "AA"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\frac{\\mathcal T^{[1]}_{1;\\varnothing;\\varnothing}}{4} - \\frac{\\mathcal T^{[1]}_{1;\\varnothing;A}}{2} + \\frac{\\mathcal T^{[1]}_{1;\\varnothing;AA}}{2}",
+      "current_result": "benchmarks/2ne/results/6e-04/r002.json",
+      "I_sympy": "-G**3*(H0*exp(ell*eps)/8 + H0*exp(-ell*eps)/8 - H1*exp(ell*eps)/4 - H1bar*exp(-ell*eps)/4 + H2*exp(ell*eps)/8 + H2bar*exp(-ell*eps)/8)/(8*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\frac{H_{0} e^{\\ell eps}}{8} + \\frac{H_{0} e^{- \\ell eps}}{8} - \\frac{H_{1} e^{\\ell eps}}{4} - \\frac{\\bar{H1} e^{- \\ell eps}}{4} + \\frac{H_{2} e^{\\ell eps}}{8} + \\frac{\\bar{H2} e^{- \\ell eps}}{8}\\right)}{8 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-05",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "5/2",
+      "delta": "1",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1/4",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1/2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "1/2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "AA"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\frac{\\mathcal T^{[1]}_{1;\\varnothing;\\varnothing}}{4} - \\frac{\\mathcal T^{[1]}_{1;\\varnothing;A}}{2} + \\frac{\\mathcal T^{[1]}_{1;\\varnothing;AA}}{2}",
+      "current_result": "benchmarks/2ne/results/6e-05/r001.json",
+      "I_sympy": "-G**3*(H0*exp(ell*eps)/8 + H0*exp(-ell*eps)/8 - H1*exp(ell*eps)/4 - H1bar*exp(-ell*eps)/4 + H2*exp(ell*eps)/8 + H2bar*exp(-ell*eps)/8)/(16*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\frac{H_{0} e^{\\ell eps}}{8} + \\frac{H_{0} e^{- \\ell eps}}{8} - \\frac{H_{1} e^{\\ell eps}}{4} - \\frac{\\bar{H1} e^{- \\ell eps}}{4} + \\frac{H_{2} e^{\\ell eps}}{8} + \\frac{\\bar{H2} e^{- \\ell eps}}{8}\\right)}{16 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-06",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "5/2",
+      "delta": "1",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1/2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "AA"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\frac{\\mathcal T^{[1]}_{1;\\varnothing;A}}{2} - \\mathcal T^{[1]}_{1;\\varnothing;AA}",
+      "current_result": "benchmarks/2ne/results/6e-06/r001.json",
+      "I_sympy": "-G**3*(H1*exp(ell*eps)/4 + H1bar*exp(-ell*eps)/4 - H2*exp(ell*eps)/4 - H2bar*exp(-ell*eps)/4)/(16*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\frac{H_{1} e^{\\ell eps}}{4} + \\frac{\\bar{H1} e^{- \\ell eps}}{4} - \\frac{H_{2} e^{\\ell eps}}{4} - \\frac{\\bar{H2} e^{- \\ell eps}}{4}\\right)}{16 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-07",
+      "n": 3,
+      "family": "[]",
+      "opposite_count": 0,
+      "epsilon_pole_prefactor": 6,
+      "z_epsilon_exponent": "2",
+      "delta": "1/2",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "-R12/2 + R2/2",
+          "factors": []
+        }
+      ],
+      "B_latex": "- \\frac{R_{12}}{2} + \\frac{R_{2}}{2}",
+      "current_result": "benchmarks/2ne/results/6e-07/r002.json",
+      "I_sympy": "-G**3*(-R12/2 + R2/2)*cosh(ell*eps/2)/(16*eps**6*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(- \\frac{R_{12}}{2} + \\frac{R_{2}}{2}\\right) \\cosh{\\left(\\frac{\\ell eps}{2} \\right)}}{16 eps^{6} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-08",
+      "n": 3,
+      "family": "[]",
+      "opposite_count": 0,
+      "epsilon_pole_prefactor": 6,
+      "z_epsilon_exponent": "2",
+      "delta": "1/2",
+      "kappa": "-1/8",
+      "terms": [
+        {
+          "coefficient": "R12/4 - R2/2 + 1/4",
+          "factors": []
+        }
+      ],
+      "B_latex": "\\frac{R_{12}}{4} - \\frac{R_{2}}{2} + \\frac{1}{4}",
+      "current_result": "benchmarks/2ne/results/6e-08/r002.json",
+      "I_sympy": "-G**3*(R12/4 - R2/2 + 1/4)*cosh(ell*eps/2)/(8*eps**6*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\frac{R_{12}}{4} - \\frac{R_{2}}{2} + \\frac{1}{4}\\right) \\cosh{\\left(\\frac{\\ell eps}{2} \\right)}}{8 eps^{6} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-09",
+      "n": 3,
+      "family": "[]",
+      "opposite_count": 0,
+      "epsilon_pole_prefactor": 6,
+      "z_epsilon_exponent": "2",
+      "delta": "1/2",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "R12/4 - R2/2 + 1/4",
+          "factors": []
+        }
+      ],
+      "B_latex": "\\frac{R_{12}}{4} - \\frac{R_{2}}{2} + \\frac{1}{4}",
+      "current_result": "benchmarks/2ne/results/6e-09/r002.json",
+      "I_sympy": "-G**3*(R12/4 - R2/2 + 1/4)*cosh(ell*eps/2)/(16*eps**6*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\frac{R_{12}}{4} - \\frac{R_{2}}{2} + \\frac{1}{4}\\right) \\cosh{\\left(\\frac{\\ell eps}{2} \\right)}}{16 eps^{6} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-10",
+      "n": 3,
+      "family": "[2]",
+      "opposite_count": 2,
+      "epsilon_pole_prefactor": 2,
+      "z_epsilon_exponent": "2",
+      "delta": "1/2",
+      "kappa": "-1/8",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 2,
+              "permutation": [
+                1,
+                2
+              ],
+              "left_words": [
+                "",
+                ""
+              ],
+              "right_words": [
+                "",
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 2,
+              "permutation": [
+                1,
+                2
+              ],
+              "left_words": [
+                "",
+                ""
+              ],
+              "right_words": [
+                "",
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[2]}_{1,2;\\varnothing,\\varnothing;\\varnothing,\\varnothing} - \\mathcal T^{[2]}_{1,2;\\varnothing,\\varnothing;\\varnothing,A}",
+      "current_result": "benchmarks/2ne/results/6e-10/r002.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*((Qid - Qid01)*exp(ell*eps/2) + (Qid - Qid01bar)*exp(-ell*eps/2))/(16*eps**2*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\left(Qid - Qid_{01}\\right) e^{\\frac{\\ell eps}{2}} + \\left(Qid - \\bar{Qid01}\\right) e^{- \\frac{\\ell eps}{2}}\\right)}{16 eps^{2} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "Qid - Qid01",
+      "B_named_latex": "Qid - Qid_{01}",
+      "J_named_sympy": "(Qid - Qid01)*exp(2*ell*eps)/eps**2",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-11",
+      "n": 3,
+      "family": "[2]",
+      "opposite_count": 2,
+      "epsilon_pole_prefactor": 2,
+      "z_epsilon_exponent": "2",
+      "delta": "1/2",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 2,
+              "permutation": [
+                1,
+                2
+              ],
+              "left_words": [
+                "",
+                ""
+              ],
+              "right_words": [
+                "",
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 2,
+              "permutation": [
+                1,
+                2
+              ],
+              "left_words": [
+                "",
+                ""
+              ],
+              "right_words": [
+                "A",
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[2]}_{1,2;\\varnothing,\\varnothing;\\varnothing,A} - \\mathcal T^{[2]}_{1,2;\\varnothing,\\varnothing;A,\\varnothing}",
+      "current_result": "benchmarks/2ne/results/6e-11/r002.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*((Qid01 - Qid10)*exp(ell*eps/2) + (Qid01bar - Qid10bar)*exp(-ell*eps/2))/(32*eps**2*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\left(Qid_{01} - Qid_{10}\\right) e^{\\frac{\\ell eps}{2}} + \\left(\\bar{Qid01} - \\bar{Qid10}\\right) e^{- \\frac{\\ell eps}{2}}\\right)}{32 eps^{2} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "Qid01 - Qid10",
+      "B_named_latex": "Qid_{01} - Qid_{10}",
+      "J_named_sympy": "(Qid01 - Qid10)*exp(2*ell*eps)/eps**2",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-12",
+      "n": 3,
+      "family": "[2]",
+      "opposite_count": 2,
+      "epsilon_pole_prefactor": 2,
+      "z_epsilon_exponent": "2",
+      "delta": "1/2",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 2,
+              "permutation": [
+                2,
+                1
+              ],
+              "left_words": [
+                "",
+                ""
+              ],
+              "right_words": [
+                "",
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 2,
+              "permutation": [
+                2,
+                1
+              ],
+              "left_words": [
+                "",
+                ""
+              ],
+              "right_words": [
+                "",
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[2]}_{2,1;\\varnothing,\\varnothing;\\varnothing,\\varnothing} - \\mathcal T^{[2]}_{2,1;\\varnothing,\\varnothing;\\varnothing,A}",
+      "current_result": "benchmarks/2ne/results/6e-12/r002.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*((Qswap - Qswap01)*exp(ell*eps/2) + (Qswap - Qswap01bar)*exp(-ell*eps/2))/(32*eps**2*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\left(Qswap - Qswap_{01}\\right) e^{\\frac{\\ell eps}{2}} + \\left(Qswap - \\bar{Qswap01}\\right) e^{- \\frac{\\ell eps}{2}}\\right)}{32 eps^{2} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "Qswap - Qswap01",
+      "B_named_latex": "Qswap - Qswap_{01}",
+      "J_named_sympy": "(Qswap - Qswap01)*exp(2*ell*eps)/eps**2",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-13",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "3/2",
+      "delta": "0",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "R2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "B"
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-R2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "B"
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "R_{2} \\mathcal T^{[1]}_{1;B;\\varnothing} - R_{2} \\mathcal T^{[1]}_{1;B;A}",
+      "current_result": "benchmarks/2ne/results/6e-13/r001.json",
+      "I_sympy": "-G**3*(H0*R2 - H1*R2 - H1bar*R2 + HX*R2)/(16*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(H_{0} R_{2} - H_{1} R_{2} - \\bar{H1} R_{2} + HX R_{2}\\right)}{16 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-14",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "3/2",
+      "delta": "0",
+      "kappa": "-1/8",
+      "terms": [
+        {
+          "coefficient": "1 - R2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "B"
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "R2 - 1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "B"
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[1]}_{1;B;\\varnothing} \\left(1 - R_{2}\\right) + \\mathcal T^{[1]}_{1;B;A} \\left(R_{2} - 1\\right)",
+      "current_result": "benchmarks/2ne/results/6e-14/r001.json",
+      "I_sympy": "-G**3*(-H0*R2 + H0 + H1*R2 - H1 + H1bar*R2 - H1bar - HX*R2 + HX)/(8*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(- H_{0} R_{2} + H_{0} + H_{1} R_{2} - H_{1} + \\bar{H1} R_{2} - \\bar{H1} - HX R_{2} + HX\\right)}{8 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-15",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "3/2",
+      "delta": "0",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1 - R2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "B"
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[1]}_{1;B;A} \\left(1 - R_{2}\\right)",
+      "current_result": "benchmarks/2ne/results/6e-15/r001.json",
+      "I_sympy": "-G**3*(-H1*R2/2 + H1/2 - H1bar*R2/2 + H1bar/2 + HX*R2 - HX)/(16*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(- \\frac{H_{1} R_{2}}{2} + \\frac{H_{1}}{2} - \\frac{\\bar{H1} R_{2}}{2} + \\frac{\\bar{H1}}{2} + HX R_{2} - HX\\right)}{16 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-16",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "3/2",
+      "delta": "0",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1 - R2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "R2 - 1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "R2 - 1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "B"
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "1 - R2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "B"
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[1]}_{1;\\varnothing;\\varnothing} \\left(1 - R_{2}\\right) + \\mathcal T^{[1]}_{1;\\varnothing;A} \\left(R_{2} - 1\\right) + \\mathcal T^{[1]}_{1;B;\\varnothing} \\left(R_{2} - 1\\right) + \\mathcal T^{[1]}_{1;B;A} \\left(1 - R_{2}\\right)",
+      "current_result": "benchmarks/2ne/results/6e-16/r001.json",
+      "I_sympy": "-G**3*(-H1*R2/2 + H1/2 - H1bar*R2/2 + H1bar/2 + HX*R2 - HX)/(16*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(- \\frac{H_{1} R_{2}}{2} + \\frac{H_{1}}{2} - \\frac{\\bar{H1} R_{2}}{2} + \\frac{\\bar{H1}}{2} + HX R_{2} - HX\\right)}{16 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-17",
+      "n": 3,
+      "family": "[]",
+      "opposite_count": 0,
+      "epsilon_pole_prefactor": 6,
+      "z_epsilon_exponent": "1",
+      "delta": "-1/2",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "-R12/2 + R2/2",
+          "factors": []
+        }
+      ],
+      "B_latex": "- \\frac{R_{12}}{2} + \\frac{R_{2}}{2}",
+      "current_result": "benchmarks/2ne/results/6e-17/r002.json",
+      "I_sympy": "-G**3*(-R12/2 + R2/2)*cosh(ell*eps/2)/(16*eps**6*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(- \\frac{R_{12}}{2} + \\frac{R_{2}}{2}\\right) \\cosh{\\left(\\frac{\\ell eps}{2} \\right)}}{16 eps^{6} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-18",
+      "n": 3,
+      "family": "[]",
+      "opposite_count": 0,
+      "epsilon_pole_prefactor": 6,
+      "z_epsilon_exponent": "1",
+      "delta": "-1/2",
+      "kappa": "-1/8",
+      "terms": [
+        {
+          "coefficient": "R12/4 - R2/2 + 1/4",
+          "factors": []
+        }
+      ],
+      "B_latex": "\\frac{R_{12}}{4} - \\frac{R_{2}}{2} + \\frac{1}{4}",
+      "current_result": "benchmarks/2ne/results/6e-18/r002.json",
+      "I_sympy": "-G**3*(R12/4 - R2/2 + 1/4)*cosh(ell*eps/2)/(8*eps**6*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\frac{R_{12}}{4} - \\frac{R_{2}}{2} + \\frac{1}{4}\\right) \\cosh{\\left(\\frac{\\ell eps}{2} \\right)}}{8 eps^{6} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-19",
+      "n": 3,
+      "family": "[]",
+      "opposite_count": 0,
+      "epsilon_pole_prefactor": 6,
+      "z_epsilon_exponent": "1",
+      "delta": "-1/2",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "R12/4 - R2/2 + 1/4",
+          "factors": []
+        }
+      ],
+      "B_latex": "\\frac{R_{12}}{4} - \\frac{R_{2}}{2} + \\frac{1}{4}",
+      "current_result": "benchmarks/2ne/results/6e-19/r002.json",
+      "I_sympy": "-G**3*(R12/4 - R2/2 + 1/4)*cosh(ell*eps/2)/(16*eps**6*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\frac{R_{12}}{4} - \\frac{R_{2}}{2} + \\frac{1}{4}\\right) \\cosh{\\left(\\frac{\\ell eps}{2} \\right)}}{16 eps^{6} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-20",
+      "n": 3,
+      "family": "[3]",
+      "opposite_count": 3,
+      "epsilon_pole_prefactor": 0,
+      "z_epsilon_exponent": "3/2",
+      "delta": "0",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 3,
+              "permutation": [
+                1,
+                2,
+                3
+              ],
+              "left_words": [
+                "",
+                "",
+                ""
+              ],
+              "right_words": [
+                "",
+                "",
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[3]}_{1,2,3;\\varnothing,\\varnothing,\\varnothing;\\varnothing,\\varnothing,\\varnothing}",
+      "current_result": "benchmarks/2ne/results/6e-20/r001.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*R123/(16*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} R_{123}}{16 \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "R123",
+      "B_named_latex": "R_{123}",
+      "J_named_sympy": "R123*exp(3*ell*eps/2)",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-21",
+      "n": 3,
+      "family": "[3]",
+      "opposite_count": 3,
+      "epsilon_pole_prefactor": 0,
+      "z_epsilon_exponent": "3/2",
+      "delta": "0",
+      "kappa": "-1/32",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 3,
+              "permutation": [
+                1,
+                3,
+                2
+              ],
+              "left_words": [
+                "",
+                "",
+                ""
+              ],
+              "right_words": [
+                "",
+                "",
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[3]}_{1,3,2;\\varnothing,\\varnothing,\\varnothing;\\varnothing,\\varnothing,\\varnothing}",
+      "current_result": "benchmarks/2ne/results/6e-21/r001.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*(R132 + R213)/(64*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(R_{132} + R_{213}\\right)}{64 \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "R132",
+      "B_named_latex": "R_{132}",
+      "J_named_sympy": "R132*exp(3*ell*eps/2)",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-22",
+      "n": 3,
+      "family": "[3]",
+      "opposite_count": 3,
+      "epsilon_pole_prefactor": 0,
+      "z_epsilon_exponent": "3/2",
+      "delta": "0",
+      "kappa": "-1/32",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 3,
+              "permutation": [
+                2,
+                1,
+                3
+              ],
+              "left_words": [
+                "",
+                "",
+                ""
+              ],
+              "right_words": [
+                "",
+                "",
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[3]}_{2,1,3;\\varnothing,\\varnothing,\\varnothing;\\varnothing,\\varnothing,\\varnothing}",
+      "current_result": "benchmarks/2ne/results/6e-22/r001.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*(R132 + R213)/(64*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(R_{132} + R_{213}\\right)}{64 \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "R213",
+      "B_named_latex": "R_{213}",
+      "J_named_sympy": "R213*exp(3*ell*eps/2)",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-23",
+      "n": 3,
+      "family": "[2]",
+      "opposite_count": 2,
+      "epsilon_pole_prefactor": 2,
+      "z_epsilon_exponent": "1",
+      "delta": "-1/2",
+      "kappa": "-1/8",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 2,
+              "permutation": [
+                1,
+                2
+              ],
+              "left_words": [
+                "B",
+                ""
+              ],
+              "right_words": [
+                "",
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[2]}_{1,2;B,\\varnothing;\\varnothing,\\varnothing}",
+      "current_result": "benchmarks/2ne/results/6e-23/r002.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*((Qid - Qid01)*exp(ell*eps/2) + (Qid - Qid01bar)*exp(-ell*eps/2))/(16*eps**2*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\left(Qid - Qid_{01}\\right) e^{\\frac{\\ell eps}{2}} + \\left(Qid - \\bar{Qid01}\\right) e^{- \\frac{\\ell eps}{2}}\\right)}{16 eps^{2} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "Qid - Qid01bar",
+      "B_named_latex": "Qid - \\bar{Qid01}",
+      "J_named_sympy": "(Qid - Qid01bar)*exp(ell*eps)/eps**2",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-24",
+      "n": 3,
+      "family": "[2]",
+      "opposite_count": 2,
+      "epsilon_pole_prefactor": 2,
+      "z_epsilon_exponent": "1",
+      "delta": "-1/2",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 2,
+              "permutation": [
+                2,
+                1
+              ],
+              "left_words": [
+                "B",
+                ""
+              ],
+              "right_words": [
+                "",
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[2]}_{2,1;B,\\varnothing;\\varnothing,\\varnothing}",
+      "current_result": "benchmarks/2ne/results/6e-24/r002.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*((Qswap - Qswap01)*exp(ell*eps/2) + (Qswap - Qswap01bar)*exp(-ell*eps/2))/(32*eps**2*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\left(Qswap - Qswap_{01}\\right) e^{\\frac{\\ell eps}{2}} + \\left(Qswap - \\bar{Qswap01}\\right) e^{- \\frac{\\ell eps}{2}}\\right)}{32 eps^{2} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "Qswap - Qswap01bar",
+      "B_named_latex": "Qswap - \\bar{Qswap01}",
+      "J_named_sympy": "(Qswap - Qswap01bar)*exp(ell*eps)/eps**2",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-25",
+      "n": 3,
+      "family": "[2]",
+      "opposite_count": 2,
+      "epsilon_pole_prefactor": 2,
+      "z_epsilon_exponent": "1",
+      "delta": "-1/2",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 2,
+              "permutation": [
+                1,
+                2
+              ],
+              "left_words": [
+                "",
+                "B"
+              ],
+              "right_words": [
+                "",
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 2,
+              "permutation": [
+                1,
+                2
+              ],
+              "left_words": [
+                "B",
+                ""
+              ],
+              "right_words": [
+                "",
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[2]}_{1,2;\\varnothing,B;\\varnothing,\\varnothing} - \\mathcal T^{[2]}_{1,2;B,\\varnothing;\\varnothing,\\varnothing}",
+      "current_result": "benchmarks/2ne/results/6e-25/r002.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*((Qid01 - Qid10)*exp(ell*eps/2) + (Qid01bar - Qid10bar)*exp(-ell*eps/2))/(32*eps**2*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\left(Qid_{01} - Qid_{10}\\right) e^{\\frac{\\ell eps}{2}} + \\left(\\bar{Qid01} - \\bar{Qid10}\\right) e^{- \\frac{\\ell eps}{2}}\\right)}{32 eps^{2} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "Qid01bar - Qid10bar",
+      "B_named_latex": "\\bar{Qid01} - \\bar{Qid10}",
+      "J_named_sympy": "(Qid01bar - Qid10bar)*exp(ell*eps)/eps**2",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-26",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "1/2",
+      "delta": "-1",
+      "kappa": "-1/8",
+      "terms": [
+        {
+          "coefficient": "1/2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "BB"
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\frac{\\mathcal T^{[1]}_{1;BB;\\varnothing}}{2}",
+      "current_result": "benchmarks/2ne/results/6e-26/r001.json",
+      "I_sympy": "-G**3*(H0*exp(ell*eps)/8 + H0*exp(-ell*eps)/8 - H1*exp(ell*eps)/4 - H1bar*exp(-ell*eps)/4 + H2*exp(ell*eps)/8 + H2bar*exp(-ell*eps)/8)/(8*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\frac{H_{0} e^{\\ell eps}}{8} + \\frac{H_{0} e^{- \\ell eps}}{8} - \\frac{H_{1} e^{\\ell eps}}{4} - \\frac{\\bar{H1} e^{- \\ell eps}}{4} + \\frac{H_{2} e^{\\ell eps}}{8} + \\frac{\\bar{H2} e^{- \\ell eps}}{8}\\right)}{8 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-27",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "1/2",
+      "delta": "-1",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1/2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "B"
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "BB"
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\frac{\\mathcal T^{[1]}_{1;B;\\varnothing}}{2} - \\mathcal T^{[1]}_{1;BB;\\varnothing}",
+      "current_result": "benchmarks/2ne/results/6e-27/r001.json",
+      "I_sympy": "-G**3*(H1*exp(ell*eps)/4 + H1bar*exp(-ell*eps)/4 - H2*exp(ell*eps)/4 - H2bar*exp(-ell*eps)/4)/(16*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\frac{H_{1} e^{\\ell eps}}{4} + \\frac{\\bar{H1} e^{- \\ell eps}}{4} - \\frac{H_{2} e^{\\ell eps}}{4} - \\frac{\\bar{H2} e^{- \\ell eps}}{4}\\right)}{16 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-28",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "1/2",
+      "delta": "-1",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1/2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "BB"
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\frac{\\mathcal T^{[1]}_{1;BB;\\varnothing}}{2}",
+      "current_result": "benchmarks/2ne/results/6e-28/r001.json",
+      "I_sympy": "-G**3*(H0*exp(ell*eps)/8 + H0*exp(-ell*eps)/8 - H1*exp(ell*eps)/4 - H1bar*exp(-ell*eps)/4 + H2*exp(ell*eps)/8 + H2bar*exp(-ell*eps)/8)/(16*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\frac{H_{0} e^{\\ell eps}}{8} + \\frac{H_{0} e^{- \\ell eps}}{8} - \\frac{H_{1} e^{\\ell eps}}{4} - \\frac{\\bar{H1} e^{- \\ell eps}}{4} + \\frac{H_{2} e^{\\ell eps}}{8} + \\frac{\\bar{H2} e^{- \\ell eps}}{8}\\right)}{16 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-29",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "3/2",
+      "delta": "0",
+      "kappa": "-1/8",
+      "terms": [
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "AB"
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "B"
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "BA"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[1]}_{1;\\varnothing;B} - \\mathcal T^{[1]}_{1;\\varnothing;BA} - \\mathcal T^{[1]}_{1;\\varnothing;AB}",
+      "current_result": "benchmarks/2ne/results/6e-29/r001.json",
+      "I_sympy": "-G**3*(H0 - H1 - H1bar + HW)/(8*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(H_{0} - H_{1} - \\bar{H1} + HW\\right)}{8 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-30",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "3/2",
+      "delta": "0",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "BA"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[1]}_{1;\\varnothing;BA}",
+      "current_result": "benchmarks/2ne/results/6e-30/r001.json",
+      "I_sympy": "-G**3*(-H0*R2/2 + H1/2 + H1bar/2 - HW/2)/(16*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(- \\frac{H_{0} R_{2}}{2} + \\frac{H_{1}}{2} + \\frac{\\bar{H1}}{2} - \\frac{HW}{2}\\right)}{16 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-31",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "3/2",
+      "delta": "0",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1 - R2",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "AB"
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "B"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[1]}_{1;\\varnothing;\\varnothing} \\left(1 - R_{2}\\right) - \\mathcal T^{[1]}_{1;\\varnothing;B} + \\mathcal T^{[1]}_{1;\\varnothing;AB}",
+      "current_result": "benchmarks/2ne/results/6e-31/r001.json",
+      "I_sympy": "-G**3*(-H0*R2/2 + H1/2 + H1bar/2 - HW/2)/(16*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(- \\frac{H_{0} R_{2}}{2} + \\frac{H_{1}}{2} + \\frac{\\bar{H1}}{2} - \\frac{HW}{2}\\right)}{16 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-32",
+      "n": 3,
+      "family": "[1,1]",
+      "opposite_count": 2,
+      "epsilon_pole_prefactor": 2,
+      "z_epsilon_exponent": "2",
+      "delta": "1/2",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "1/z"
+            },
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "1/z"
+            },
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "B"
+              ],
+              "argument": "1/z"
+            },
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "B"
+              ],
+              "argument": "1/z"
+            },
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\overline{\\mathcal T^{[1]}_{1;\\varnothing;\\varnothing}} \\mathcal T^{[1]}_{1;\\varnothing;\\varnothing} - \\overline{\\mathcal T^{[1]}_{1;\\varnothing;\\varnothing}} \\mathcal T^{[1]}_{1;\\varnothing;A} - \\mathcal T^{[1]}_{1;\\varnothing;\\varnothing} \\overline{\\mathcal T^{[1]}_{1;\\varnothing;B}} + \\mathcal T^{[1]}_{1;\\varnothing;A} \\overline{\\mathcal T^{[1]}_{1;\\varnothing;B}}",
+      "current_result": "benchmarks/2ne/results/6e-32/r001.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*((H0*H1 - H1**2)*exp(ell*eps/2) + (H0*H1bar - H1bar**2)*exp(-ell*eps/2))/(32*eps**2*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\left(H_{0} H_{1} - H_{1}^{2}\\right) e^{\\frac{\\ell eps}{2}} + \\left(H_{0} \\bar{H1} - \\bar{H1}^{2}\\right) e^{- \\frac{\\ell eps}{2}}\\right)}{32 eps^{2} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "H0*H1 - H1**2",
+      "B_named_latex": "H_{0} H_{1} - H_{1}^{2}",
+      "J_named_sympy": "(H0*H1 - H1**2)*exp(2*ell*eps)/eps**2",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-33",
+      "n": 3,
+      "family": "[1,1]",
+      "opposite_count": 2,
+      "epsilon_pole_prefactor": 2,
+      "z_epsilon_exponent": "2",
+      "delta": "1/2",
+      "kappa": "-1/8",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "B"
+              ],
+              "argument": "1/z"
+            },
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "B"
+              ],
+              "argument": "1/z"
+            },
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\overline{\\mathcal T^{[1]}_{1;\\varnothing;B}} \\mathcal T^{[1]}_{1;\\varnothing;\\varnothing} - \\overline{\\mathcal T^{[1]}_{1;\\varnothing;B}} \\mathcal T^{[1]}_{1;\\varnothing;A}",
+      "current_result": "benchmarks/2ne/results/6e-33/r001.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*((H0**2 - 2*H0*H1 + H1**2)*exp(ell*eps/2) + (H0**2 - 2*H0*H1bar + H1bar**2)*exp(-ell*eps/2))/(16*eps**2*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\left(H_{0}^{2} - 2 H_{0} H_{1} + H_{1}^{2}\\right) e^{\\frac{\\ell eps}{2}} + \\left(H_{0}^{2} - 2 H_{0} \\bar{H1} + \\bar{H1}^{2}\\right) e^{- \\frac{\\ell eps}{2}}\\right)}{16 eps^{2} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "H0**2 - 2*H0*H1 + H1**2",
+      "B_named_latex": "H_{0}^{2} - 2 H_{0} H_{1} + H_{1}^{2}",
+      "J_named_sympy": "(H0**2 - 2*H0*H1 + H1**2)*exp(2*ell*eps)/eps**2",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-34",
+      "n": 3,
+      "family": "[1,1]",
+      "opposite_count": 2,
+      "epsilon_pole_prefactor": 2,
+      "z_epsilon_exponent": "2",
+      "delta": "1/2",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "B"
+              ],
+              "argument": "1/z"
+            },
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\overline{\\mathcal T^{[1]}_{1;\\varnothing;B}} \\mathcal T^{[1]}_{1;\\varnothing;A}",
+      "current_result": "benchmarks/2ne/results/6e-34/r001.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*((H0*H1 - H1**2)*exp(ell*eps/2) + (H0*H1bar - H1bar**2)*exp(-ell*eps/2))/(32*eps**2*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\left(H_{0} H_{1} - H_{1}^{2}\\right) e^{\\frac{\\ell eps}{2}} + \\left(H_{0} \\bar{H1} - \\bar{H1}^{2}\\right) e^{- \\frac{\\ell eps}{2}}\\right)}{32 eps^{2} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "H0*H1 - H1**2",
+      "B_named_latex": "H_{0} H_{1} - H_{1}^{2}",
+      "J_named_sympy": "(H0*H1 - H1**2)*exp(2*ell*eps)/eps**2",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-35",
+      "n": 3,
+      "family": "[]",
+      "opposite_count": 0,
+      "epsilon_pole_prefactor": 6,
+      "z_epsilon_exponent": "1",
+      "delta": "-1/2",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "R2**2 - 2*R2 + 1",
+          "factors": []
+        }
+      ],
+      "B_latex": "R_{2}^{2} - 2 R_{2} + 1",
+      "current_result": "benchmarks/2ne/results/6e-35/r002.json",
+      "I_sympy": "-G**3*(R2**2 - 2*R2 + 1)*cosh(ell*eps/2)/(16*eps**6*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(R_{2}^{2} - 2 R_{2} + 1\\right) \\cosh{\\left(\\frac{\\ell eps}{2} \\right)}}{16 eps^{6} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-36",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "5/2",
+      "delta": "1",
+      "kappa": "-1/32",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "A"
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        },
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "A"
+              ],
+              "right_words": [
+                "A"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[1]}_{1;\\varnothing;\\varnothing} - \\mathcal T^{[1]}_{1;\\varnothing;A} - \\mathcal T^{[1]}_{1;A;\\varnothing} + \\mathcal T^{[1]}_{1;A;A}",
+      "current_result": "benchmarks/2ne/results/6e-36/r002.json",
+      "I_sympy": "-G**3*(H0*exp(ell*eps)/2 + H0*exp(-ell*eps)/2 - H1*exp(ell*eps) - H1bar*exp(-ell*eps) + HD*exp(ell*eps)/2 + HDbar*exp(-ell*eps)/2)/(32*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\frac{H_{0} e^{\\ell eps}}{2} + \\frac{H_{0} e^{- \\ell eps}}{2} - H_{1} e^{\\ell eps} - \\bar{H1} e^{- \\ell eps} + \\frac{HD e^{\\ell eps}}{2} + \\frac{\\bar{HD} e^{- \\ell eps}}{2}\\right)}{32 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    },
+    {
+      "orbit_id": "6e-37",
+      "n": 3,
+      "family": "[1,2]",
+      "opposite_count": 3,
+      "epsilon_pole_prefactor": 0,
+      "z_epsilon_exponent": "3/2",
+      "delta": "0",
+      "kappa": "-1/16",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "1/z"
+            },
+            {
+              "r": 2,
+              "permutation": [
+                1,
+                2
+              ],
+              "left_words": [
+                "",
+                ""
+              ],
+              "right_words": [
+                "",
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\overline{\\mathcal T^{[1]}_{1;\\varnothing;\\varnothing}} \\mathcal T^{[2]}_{1,2;\\varnothing,\\varnothing;\\varnothing,\\varnothing}",
+      "current_result": "benchmarks/2ne/results/6e-37/r001.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*H0*Qid/(16*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} H_{0} Qid}{16 \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "H0*Qid",
+      "B_named_latex": "H_{0} Qid",
+      "J_named_sympy": "H0*Qid*exp(3*ell*eps/2)",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-38",
+      "n": 3,
+      "family": "[1,2]",
+      "opposite_count": 3,
+      "epsilon_pole_prefactor": 0,
+      "z_epsilon_exponent": "3/2",
+      "delta": "0",
+      "kappa": "-1/32",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                ""
+              ],
+              "right_words": [
+                ""
+              ],
+              "argument": "1/z"
+            },
+            {
+              "r": 2,
+              "permutation": [
+                2,
+                1
+              ],
+              "left_words": [
+                "",
+                ""
+              ],
+              "right_words": [
+                "",
+                ""
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\overline{\\mathcal T^{[1]}_{1;\\varnothing;\\varnothing}} \\mathcal T^{[2]}_{2,1;\\varnothing,\\varnothing;\\varnothing,\\varnothing}",
+      "current_result": "benchmarks/2ne/results/6e-38/r001.json",
+      "old_full_epsilon_I_residual": "0",
+      "I_sympy": "-G**3*H0*Qswap/(32*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} H_{0} Qswap}{32 \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "bridge_batch": "complete",
+      "B_named_sympy": "H0*Qswap",
+      "B_named_latex": "H_{0} Qswap",
+      "J_named_sympy": "H0*Qswap*exp(3*ell*eps/2)",
+      "old_full_epsilon_J_residual": "0"
+    },
+    {
+      "orbit_id": "6e-39",
+      "n": 3,
+      "family": "[1]",
+      "opposite_count": 1,
+      "epsilon_pole_prefactor": 4,
+      "z_epsilon_exponent": "1/2",
+      "delta": "-1",
+      "kappa": "-1/32",
+      "terms": [
+        {
+          "coefficient": "1",
+          "factors": [
+            {
+              "r": 1,
+              "permutation": [
+                1
+              ],
+              "left_words": [
+                "B"
+              ],
+              "right_words": [
+                "B"
+              ],
+              "argument": "z"
+            }
+          ]
+        }
+      ],
+      "B_latex": "\\mathcal T^{[1]}_{1;B;B}",
+      "current_result": "benchmarks/2ne/results/6e-39/r001.json",
+      "I_sympy": "-G**3*(H0*exp(ell*eps)/2 + H0*exp(-ell*eps)/2 - H1*exp(ell*eps) - H1bar*exp(-ell*eps) + HD*exp(ell*eps)/2 + HDbar*exp(-ell*eps)/2)/(32*eps**4*cosh(3*ell*eps/2))",
+      "I_latex": "- \\frac{G^{3} \\left(\\frac{H_{0} e^{\\ell eps}}{2} + \\frac{H_{0} e^{- \\ell eps}}{2} - H_{1} e^{\\ell eps} - \\bar{H1} e^{- \\ell eps} + \\frac{HD e^{\\ell eps}}{2} + \\frac{\\bar{HD} e^{- \\ell eps}}{2}\\right)}{32 eps^{4} \\cosh{\\left(\\frac{3 \\ell eps}{2} \\right)}}",
+      "old_full_epsilon_I_residual": "0",
+      "bridge_batch": "first31_rechecked"
+    }
+  ]
+}

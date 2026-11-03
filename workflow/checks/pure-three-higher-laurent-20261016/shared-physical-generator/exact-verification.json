@@ -1,0 +1,252 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "all_n_parity_projection_identities": [
+    {
+      "n_parity_sign": 1,
+      "Lambda_V_square": true,
+      "reciprocal_U_square": true,
+      "G_difference_square": true,
+      "mixed_UV_projection": true
+    },
+    {
+      "n_parity_sign": -1,
+      "Lambda_V_square": true,
+      "reciprocal_U_square": true,
+      "G_difference_square": true,
+      "mixed_UV_projection": true
+    }
+  ],
+  "complete_physical_assembly_identities": 2,
+  "wrong_mixed_sign_rejected": true,
+  "compact_R_coefficient_checks": [
+    {
+      "source_degree": 1,
+      "sector": [
+        "1",
+        "1",
+        "Z",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 1,
+      "sector": [
+        "IZ",
+        "IZ",
+        "IZ",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 1,
+      "sector": [
+        "1",
+        "IZ",
+        "1",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 2,
+      "sector": [
+        "1",
+        "1",
+        "Z",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 2,
+      "sector": [
+        "IZ",
+        "IZ",
+        "IZ",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 2,
+      "sector": [
+        "1",
+        "IZ",
+        "1",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 3,
+      "sector": [
+        "1",
+        "1",
+        "Z",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 3,
+      "sector": [
+        "IZ",
+        "IZ",
+        "IZ",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 3,
+      "sector": [
+        "1",
+        "IZ",
+        "1",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 4,
+      "sector": [
+        "1",
+        "1",
+        "Z",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 4,
+      "sector": [
+        "IZ",
+        "IZ",
+        "IZ",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 4,
+      "sector": [
+        "1",
+        "IZ",
+        "1",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 5,
+      "sector": [
+        "1",
+        "1",
+        "Z",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 5,
+      "sector": [
+        "IZ",
+        "IZ",
+        "IZ",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 5,
+      "sector": [
+        "1",
+        "IZ",
+        "1",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 6,
+      "sector": [
+        "1",
+        "1",
+        "Z",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 6,
+      "sector": [
+        "IZ",
+        "IZ",
+        "IZ",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 6,
+      "sector": [
+        "1",
+        "IZ",
+        "1",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 7,
+      "sector": [
+        "1",
+        "1",
+        "Z",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 7,
+      "sector": [
+        "IZ",
+        "IZ",
+        "IZ",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    },
+    {
+      "source_degree": 7,
+      "sector": [
+        "1",
+        "IZ",
+        "1",
+        "IZ"
+      ],
+      "exact_GPL_shuffle_identity": true
+    }
+  ],
+  "max_source_degree": 7,
+  "physical_map": {
+    "W": "-sigma*(D-2*M+CW)",
+    "Lambda": "sigma*(D-R)",
+    "I20": "P/16*(sigma*(2*M-CW-R)-H^3/2)",
+    "I21=I22": "P/32*(H^3/3+sigma*(D/2-2*M+CW+R/2))"
+  },
+  "matrix_projections": {
+    "D": "(1+z)^(2e+2)*(F_u2+z^(-2e)*F_v2)",
+    "M": "(1+z)^(2e+2)*z^(-e)*F_uv"
+  },
+  "sigma": "rho^(3e/2)/e^3",
+  "inputs_sha256": {
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\shared_physical_generator.py": "82b56db36b73782980d46b93b15224c9b650be4f14dd7d27b88e5983e5ca7f9a",
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\compress_lambda_source.py": "4804d9d36ce8de8442f937227a1559380e1b6a7171da814bbd96165684d646de",
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\physical_sources.py": "0422db169bdafcc8f3f8e7b2b3dfebbf9cf32801410c9ab08aa5902ad46564f1"
+  },
+  "limits": "Original all-n moment mapping and exact source-coefficient algebra; not a minimality proof or claim of BJ-only W reduction."
+}

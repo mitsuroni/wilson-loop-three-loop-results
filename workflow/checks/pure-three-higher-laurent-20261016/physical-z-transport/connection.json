@@ -1,0 +1,833 @@
+{
+  "dimension": 41,
+  "differential_variable": "z",
+  "equation": "dY/dz=(A0(e)/z+Aminus1(e)/(z+1))*Y",
+  "state": "Y_(k,i)=z^gauge_i theta_x^k F_i(x,z)|x=1; k=0..3,i=0..9; last state=1.",
+  "indexing": "Zero-based sparse row/column indices; residue parameter is e=epsilon.",
+  "gauge_powers": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "A0": [
+    {
+      "row": 0,
+      "column": 3,
+      "coefficient": "2"
+    },
+    {
+      "row": 0,
+      "column": 10,
+      "coefficient": "-1"
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "coefficient": "e + 1"
+    },
+    {
+      "row": 1,
+      "column": 5,
+      "coefficient": "1"
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "coefficient": "2*e + 1"
+    },
+    {
+      "row": 2,
+      "column": 12,
+      "coefficient": "1"
+    },
+    {
+      "row": 3,
+      "column": 7,
+      "coefficient": "1"
+    },
+    {
+      "row": 4,
+      "column": 8,
+      "coefficient": "1"
+    },
+    {
+      "row": 4,
+      "column": 14,
+      "coefficient": "-1"
+    },
+    {
+      "row": 5,
+      "column": 5,
+      "coefficient": "e + 1"
+    },
+    {
+      "row": 5,
+      "column": 15,
+      "coefficient": "1"
+    },
+    {
+      "row": 6,
+      "column": 6,
+      "coefficient": "e"
+    },
+    {
+      "row": 6,
+      "column": 9,
+      "coefficient": "1"
+    },
+    {
+      "row": 7,
+      "column": 17,
+      "coefficient": "1"
+    },
+    {
+      "row": 9,
+      "column": 19,
+      "coefficient": "-1"
+    },
+    {
+      "row": 10,
+      "column": 13,
+      "coefficient": "2"
+    },
+    {
+      "row": 10,
+      "column": 20,
+      "coefficient": "-1"
+    },
+    {
+      "row": 11,
+      "column": 11,
+      "coefficient": "e + 1"
+    },
+    {
+      "row": 11,
+      "column": 15,
+      "coefficient": "1"
+    },
+    {
+      "row": 12,
+      "column": 12,
+      "coefficient": "2*e + 1"
+    },
+    {
+      "row": 12,
+      "column": 22,
+      "coefficient": "1"
+    },
+    {
+      "row": 13,
+      "column": 17,
+      "coefficient": "1"
+    },
+    {
+      "row": 14,
+      "column": 18,
+      "coefficient": "1"
+    },
+    {
+      "row": 14,
+      "column": 24,
+      "coefficient": "-1"
+    },
+    {
+      "row": 15,
+      "column": 15,
+      "coefficient": "e + 1"
+    },
+    {
+      "row": 15,
+      "column": 25,
+      "coefficient": "1"
+    },
+    {
+      "row": 16,
+      "column": 16,
+      "coefficient": "e"
+    },
+    {
+      "row": 16,
+      "column": 19,
+      "coefficient": "1"
+    },
+    {
+      "row": 17,
+      "column": 27,
+      "coefficient": "1"
+    },
+    {
+      "row": 19,
+      "column": 29,
+      "coefficient": "-1"
+    },
+    {
+      "row": 20,
+      "column": 23,
+      "coefficient": "2"
+    },
+    {
+      "row": 20,
+      "column": 30,
+      "coefficient": "-1"
+    },
+    {
+      "row": 21,
+      "column": 21,
+      "coefficient": "e + 1"
+    },
+    {
+      "row": 21,
+      "column": 25,
+      "coefficient": "1"
+    },
+    {
+      "row": 22,
+      "column": 22,
+      "coefficient": "2*e + 1"
+    },
+    {
+      "row": 22,
+      "column": 32,
+      "coefficient": "1"
+    },
+    {
+      "row": 23,
+      "column": 27,
+      "coefficient": "1"
+    },
+    {
+      "row": 24,
+      "column": 28,
+      "coefficient": "1"
+    },
+    {
+      "row": 24,
+      "column": 34,
+      "coefficient": "-1"
+    },
+    {
+      "row": 25,
+      "column": 25,
+      "coefficient": "e + 1"
+    },
+    {
+      "row": 25,
+      "column": 35,
+      "coefficient": "1"
+    },
+    {
+      "row": 26,
+      "column": 26,
+      "coefficient": "e"
+    },
+    {
+      "row": 26,
+      "column": 29,
+      "coefficient": "1"
+    },
+    {
+      "row": 27,
+      "column": 37,
+      "coefficient": "1"
+    },
+    {
+      "row": 29,
+      "column": 39,
+      "coefficient": "-1"
+    },
+    {
+      "row": 30,
+      "column": 17,
+      "coefficient": "-e"
+    },
+    {
+      "row": 30,
+      "column": 23,
+      "coefficient": "2*e"
+    },
+    {
+      "row": 30,
+      "column": 27,
+      "coefficient": "1"
+    },
+    {
+      "row": 30,
+      "column": 30,
+      "coefficient": "-e"
+    },
+    {
+      "row": 30,
+      "column": 40,
+      "coefficient": "-e"
+    },
+    {
+      "row": 31,
+      "column": 31,
+      "coefficient": "e + 1"
+    },
+    {
+      "row": 31,
+      "column": 35,
+      "coefficient": "1"
+    },
+    {
+      "row": 32,
+      "column": 19,
+      "coefficient": "e"
+    },
+    {
+      "row": 32,
+      "column": 22,
+      "coefficient": "-e**2"
+    },
+    {
+      "row": 32,
+      "column": 29,
+      "coefficient": "-1"
+    },
+    {
+      "row": 32,
+      "column": 32,
+      "coefficient": "1"
+    },
+    {
+      "row": 32,
+      "column": 40,
+      "coefficient": "e"
+    },
+    {
+      "row": 33,
+      "column": 37,
+      "coefficient": "1"
+    },
+    {
+      "row": 34,
+      "column": 18,
+      "coefficient": "e**2 + e"
+    },
+    {
+      "row": 34,
+      "column": 24,
+      "coefficient": "-e**2 - e"
+    },
+    {
+      "row": 34,
+      "column": 28,
+      "coefficient": "-1"
+    },
+    {
+      "row": 34,
+      "column": 34,
+      "coefficient": "1"
+    },
+    {
+      "row": 34,
+      "column": 40,
+      "coefficient": "e**2 + e"
+    },
+    {
+      "row": 35,
+      "column": 25,
+      "coefficient": "-e**2"
+    },
+    {
+      "row": 35,
+      "column": 35,
+      "coefficient": "1 - e"
+    },
+    {
+      "row": 36,
+      "column": 36,
+      "coefficient": "e"
+    },
+    {
+      "row": 36,
+      "column": 39,
+      "coefficient": "1"
+    },
+    {
+      "row": 37,
+      "column": 27,
+      "coefficient": "-e**2"
+    },
+    {
+      "row": 37,
+      "column": 37,
+      "coefficient": "-2*e"
+    },
+    {
+      "row": 39,
+      "column": 19,
+      "coefficient": "-e**3 - 2*e**2 - e"
+    },
+    {
+      "row": 39,
+      "column": 29,
+      "coefficient": "1 - e**2"
+    },
+    {
+      "row": 39,
+      "column": 39,
+      "coefficient": "e + 2"
+    },
+    {
+      "row": 39,
+      "column": 40,
+      "coefficient": "-e**3 - 2*e**2 - e"
+    }
+  ],
+  "Aminus1": [
+    {
+      "row": 0,
+      "column": 0,
+      "coefficient": "-2*e - 2"
+    },
+    {
+      "row": 0,
+      "column": 3,
+      "coefficient": "-2"
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "coefficient": "-2*e - 2"
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "coefficient": "1"
+    },
+    {
+      "row": 1,
+      "column": 5,
+      "coefficient": "-1"
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "coefficient": "-2*e - 2"
+    },
+    {
+      "row": 2,
+      "column": 6,
+      "coefficient": "2"
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 3,
+      "column": 7,
+      "coefficient": "-1"
+    },
+    {
+      "row": 4,
+      "column": 4,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 4,
+      "column": 8,
+      "coefficient": "-1"
+    },
+    {
+      "row": 5,
+      "column": 5,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 5,
+      "column": 8,
+      "coefficient": "1"
+    },
+    {
+      "row": 6,
+      "column": 6,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 6,
+      "column": 9,
+      "coefficient": "-1"
+    },
+    {
+      "row": 10,
+      "column": 10,
+      "coefficient": "-2*e - 2"
+    },
+    {
+      "row": 10,
+      "column": 13,
+      "coefficient": "-2"
+    },
+    {
+      "row": 11,
+      "column": 11,
+      "coefficient": "-2*e - 2"
+    },
+    {
+      "row": 11,
+      "column": 14,
+      "coefficient": "1"
+    },
+    {
+      "row": 11,
+      "column": 15,
+      "coefficient": "-1"
+    },
+    {
+      "row": 12,
+      "column": 12,
+      "coefficient": "-2*e - 2"
+    },
+    {
+      "row": 12,
+      "column": 16,
+      "coefficient": "2"
+    },
+    {
+      "row": 13,
+      "column": 13,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 13,
+      "column": 17,
+      "coefficient": "-1"
+    },
+    {
+      "row": 14,
+      "column": 14,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 14,
+      "column": 18,
+      "coefficient": "-1"
+    },
+    {
+      "row": 15,
+      "column": 15,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 15,
+      "column": 18,
+      "coefficient": "1"
+    },
+    {
+      "row": 16,
+      "column": 16,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 16,
+      "column": 19,
+      "coefficient": "-1"
+    },
+    {
+      "row": 20,
+      "column": 20,
+      "coefficient": "-2*e - 2"
+    },
+    {
+      "row": 20,
+      "column": 23,
+      "coefficient": "-2"
+    },
+    {
+      "row": 21,
+      "column": 21,
+      "coefficient": "-2*e - 2"
+    },
+    {
+      "row": 21,
+      "column": 24,
+      "coefficient": "1"
+    },
+    {
+      "row": 21,
+      "column": 25,
+      "coefficient": "-1"
+    },
+    {
+      "row": 22,
+      "column": 22,
+      "coefficient": "-2*e - 2"
+    },
+    {
+      "row": 22,
+      "column": 26,
+      "coefficient": "2"
+    },
+    {
+      "row": 23,
+      "column": 23,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 23,
+      "column": 27,
+      "coefficient": "-1"
+    },
+    {
+      "row": 24,
+      "column": 24,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 24,
+      "column": 28,
+      "coefficient": "-1"
+    },
+    {
+      "row": 25,
+      "column": 25,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 25,
+      "column": 28,
+      "coefficient": "1"
+    },
+    {
+      "row": 26,
+      "column": 26,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 26,
+      "column": 29,
+      "coefficient": "-1"
+    },
+    {
+      "row": 30,
+      "column": 17,
+      "coefficient": "e"
+    },
+    {
+      "row": 30,
+      "column": 20,
+      "coefficient": "e**2"
+    },
+    {
+      "row": 30,
+      "column": 23,
+      "coefficient": "-2*e"
+    },
+    {
+      "row": 30,
+      "column": 27,
+      "coefficient": "-1"
+    },
+    {
+      "row": 30,
+      "column": 30,
+      "coefficient": "e - 2"
+    },
+    {
+      "row": 30,
+      "column": 40,
+      "coefficient": "e"
+    },
+    {
+      "row": 31,
+      "column": 31,
+      "coefficient": "-2*e - 2"
+    },
+    {
+      "row": 31,
+      "column": 34,
+      "coefficient": "1"
+    },
+    {
+      "row": 31,
+      "column": 35,
+      "coefficient": "-1"
+    },
+    {
+      "row": 32,
+      "column": 19,
+      "coefficient": "-e"
+    },
+    {
+      "row": 32,
+      "column": 22,
+      "coefficient": "e**2"
+    },
+    {
+      "row": 32,
+      "column": 26,
+      "coefficient": "2*e"
+    },
+    {
+      "row": 32,
+      "column": 29,
+      "coefficient": "1"
+    },
+    {
+      "row": 32,
+      "column": 32,
+      "coefficient": "e - 2"
+    },
+    {
+      "row": 32,
+      "column": 40,
+      "coefficient": "-e"
+    },
+    {
+      "row": 33,
+      "column": 33,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 33,
+      "column": 37,
+      "coefficient": "-1"
+    },
+    {
+      "row": 34,
+      "column": 18,
+      "coefficient": "-e**2 - e"
+    },
+    {
+      "row": 34,
+      "column": 24,
+      "coefficient": "2*e**2 + e"
+    },
+    {
+      "row": 34,
+      "column": 28,
+      "coefficient": "1"
+    },
+    {
+      "row": 34,
+      "column": 34,
+      "coefficient": "e - 2"
+    },
+    {
+      "row": 34,
+      "column": 40,
+      "coefficient": "-e**2 - e"
+    },
+    {
+      "row": 35,
+      "column": 18,
+      "coefficient": "e**2 + e"
+    },
+    {
+      "row": 35,
+      "column": 25,
+      "coefficient": "2*e**2 + e"
+    },
+    {
+      "row": 35,
+      "column": 28,
+      "coefficient": "-1"
+    },
+    {
+      "row": 35,
+      "column": 35,
+      "coefficient": "e - 2"
+    },
+    {
+      "row": 35,
+      "column": 40,
+      "coefficient": "e**2 + e"
+    },
+    {
+      "row": 36,
+      "column": 36,
+      "coefficient": "-e - 1"
+    },
+    {
+      "row": 36,
+      "column": 39,
+      "coefficient": "-1"
+    },
+    {
+      "row": 37,
+      "column": 17,
+      "coefficient": "e**3 + 2*e**2 + e"
+    },
+    {
+      "row": 37,
+      "column": 27,
+      "coefficient": "2*e**2 - 1"
+    },
+    {
+      "row": 37,
+      "column": 37,
+      "coefficient": "e - 2"
+    },
+    {
+      "row": 37,
+      "column": 40,
+      "coefficient": "e**3 + 2*e**2 + e"
+    },
+    {
+      "row": 39,
+      "column": 19,
+      "coefficient": "e**3 + 2*e**2 + e"
+    },
+    {
+      "row": 39,
+      "column": 29,
+      "coefficient": "2*e**2 - 1"
+    },
+    {
+      "row": 39,
+      "column": 39,
+      "coefficient": "e - 2"
+    },
+    {
+      "row": 39,
+      "column": 40,
+      "coefficient": "e**3 + 2*e**2 + e"
+    }
+  ],
+  "epsilon_polynomial_degree": 3,
+  "boundary": "Original zero-x analytic branch, then x->1 for Re(e)>4; explicit z=1 convergent moment sums. Continue meromorphically to e=0, preserving endpoint order.",
+  "scope": "Complete G part of W; known T0/TJ corners still required; nonminimal, not claimed canonical epsilon form.",
+  "formal": "not_run"
+}

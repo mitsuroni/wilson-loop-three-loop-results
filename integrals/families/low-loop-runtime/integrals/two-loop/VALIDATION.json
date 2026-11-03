@@ -1,0 +1,59 @@
+{
+  "format": "wilson-two-loop-publication-validation/1",
+  "status": "passed",
+  "integrals": 12,
+  "coefficients": 84,
+  "powers": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "canonical_Pi1": "native physical r002; assembly_sign=+1 with+B1; legacy -1 is metadata only",
+  "exact_replay": {
+    "checks": 149,
+    "negative_controls": 2,
+    "full_coefficient_HLOG_coordinates": true,
+    "ordinary_bound_source_files": 71
+  },
+  "independent_integral_controls": {
+    "checks": 68,
+    "scope": "Original ordered pure kernels at integer epsilon, Pi1 tensor and corners, reduced original TGV01 Beta kernel, 4e04 coefficient integrals, real M/N/tau moments",
+    "empirical_mesh_errors_not_intervals": true,
+    "working_mpmath_dps": 50
+  },
+  "source_numerator_identity": {
+    "passed": true,
+    "TGV04_original_numerator_derivative_body_difference": "0",
+    "new_integral_evaluation": false
+  },
+  "output_guards": {
+    "immutable_public_tree_rejected_before_write": true,
+    "fresh_output_required": true
+  },
+  "active_documents": 15,
+  "local_links": 135,
+  "original_files_byte_preserved": 92,
+  "archival_CAS_dependencies": 21,
+  "new_original_integrations": "The listed controls ran; no fresh full twelve-graph noninteger-epsilon reintegration or new full TGV04 raw5D CAS calculation.",
+  "historical_integrations_reused": "Evaluated mother-function derivations and M/N HLOG dictionary; TGV04 complete HyperInt-integrated coefficients and their positive-order source integrals",
+  "Maple_Mathematica_runs_this_publication": "not_run",
+  "formal": "not_run",
+  "math_result_sha256": {
+    "4e-01/result.json": "d3213b53a4652711f4ab9480432403d0d57ddf1198be3a0575d2e486f46df7e4",
+    "4e-02/result.json": "e278ce080699f3a1fbb3c6f5d45506c3fc8c63648c1e5b70fe8c7ced676fe4fe",
+    "4e-03/result.json": "57e8018a90de77baf03ca359d24e620e5fe81190ba4a48d9900f1637db7055a0",
+    "4e-04/result.json": "6ff28c66c5b59637bd37b8a3dfad48be9342550079b9428aaba7ae9f19fb38de",
+    "4e-05/result.json": "94f5811e312c534c922f39205b497608d791f75808d9d06d7dbf0b04b8c5aeee",
+    "4e-06/result.json": "b30e354292e3aebce11bafb56c010c0260a61f0a2180347cac69e07a1fad66c4",
+    "3e-3g-01/result.json": "9920361d74234dcf446e996d979fb6517c3e529a84c00c892b629e04d1a387aa",
+    "3e-3g-02/result.json": "9e973d3abf273a967f9b158c660d6c66c624f7915e67617dfd4b93f1b60b2d8e",
+    "3e-3g-03/result.json": "853c88ae1da64e42c27ec0f933a85a75c141eac4b8b1f36672b59f7e9e852f31",
+    "3e-3g-04/result.json": "caad26a1d4939aea13fb11d3c2c413368286cf8d93a6684257fd31d83c462295",
+    "2e-Pi1-01/result.json": "63b0c699b65c4614408b854bfed769a3efcf096186f0010d0af14b91802e8c3e",
+    "2e-Pi1-02/result.json": "b577aae4fdb48b985d0380d81b0008d7dc1819ecf53825014741339699488dd7"
+  }
+}

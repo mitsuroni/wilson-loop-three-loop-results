@@ -1,0 +1,1718 @@
+{
+  "format": "wilson-integral-reader-trial/1",
+  "scope": "Exact new reading/skill/evidence and scoped integration files; temporary runs/copies excluded. Historical originals are independently protected by preflight/artifact-check. This manifest is not mathematical evidence.",
+  "files": {
+    "integrals/.gitattributes": {
+      "sha256": "48747480eddba024928d03be9bf83dc579e5515768647507a767e8187a85c9ab",
+      "bytes": 9
+    },
+    "integrals/.gitignore": {
+      "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b",
+      "bytes": 23
+    },
+    "integrals/families/low-loop-runtime/benchmarks/current/prepared/2loop/2e-Pi1.json": {
+      "sha256": "af78bbb41b8ffdfb209f9ba898feeb431706c2b7e498a2917b917095684c4a71",
+      "bytes": 42416
+    },
+    "integrals/families/low-loop-runtime/benchmarks/current/prepared/2loop/3e-3g.json": {
+      "sha256": "2343a1de2b1e02d056ca1ec85dee97e78bf3961d5ab67eb31f87c26becb2e8ed",
+      "bytes": 95436
+    },
+    "integrals/families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json": {
+      "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+      "bytes": 36247
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/integrals/1loop/2e-01/input.json": {
+      "sha256": "d73077e903526f9b4c9a05ae24f89b3e4192221838bdc9ffd4b98e12f7fa345a",
+      "bytes": 10722
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/integrals/1loop/2e-02/input.json": {
+      "sha256": "1fa2c374655f0a2b6d71327aa00956dc987e3205aa1633e617206a31a644862d",
+      "bytes": 10731
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/benchmarks/2ne/prepared/2e.json": {
+      "sha256": "d8ce895e6ff1dfd6c6d9b2d241c18988ba34fce234a7770ea47f6109ed366827",
+      "bytes": 10452
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/benchmarks/2ne/prepared/4e.json": {
+      "sha256": "0193d668525fdcc4f184896cfc7445f7201dc65557657c1f316a8b9ae8af57c7",
+      "bytes": 36139
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/benchmarks/2ne/sources/montopar-ordered/2e/montopar-initial.json": {
+      "sha256": "6da143214266017bfea452c45c7a09ba157b1e1563776f93b8ed3b8e2718b8fe",
+      "bytes": 6679
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/benchmarks/2ne/sources/montopar-ordered/4e/montopar-initial.json": {
+      "sha256": "f48bc2dce21679060b72ce1e18273d6a278cbcaf5c8cde7d8bd4e62dfb3804a0",
+      "bytes": 25956
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/benchmarks/self-energy/pi1/prepared/2e-Pi1-r002.json": {
+      "sha256": "1f96bec54d246915abe921bc30b7ab11802da47e65d59efd82cb530d735366a0",
+      "bytes": 38928
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/benchmarks/self-energy/pi1/sources/2e-Pi1-r001.json": {
+      "sha256": "d2b441de608f75677048261b5b4530d0194733000d46cdc83504979ac4d83ce9",
+      "bytes": 33887
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/benchmarks/self-energy/pi1/sources/2e-Pi1-r002.json": {
+      "sha256": "e34105f56dabbcde06c96ac984e4ee07d0a27fd042031a8b82f93f42f11bf170",
+      "bytes": 33821
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/benchmarks/tgv/3e-3g/prepared/3e-3g.json": {
+      "sha256": "dcfc43a3fffccdf81eeed48c1d8ac851c66eb66ccdae5b2cdd9b15ab80480068",
+      "bytes": 59626
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/benchmarks/tgv/3e-3g/sources/canonical.json": {
+      "sha256": "2a853df07533d618fa7bb0e2b289ff7ae05febb99a65d420531f1a7241c126a7",
+      "bytes": 57067
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/1loop/2e/montopar-initial.json": {
+      "sha256": "83696213079eddfeb36556e69715577596cd1929a3c9f54b61f3006e69402040",
+      "bytes": 7226
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/2e-Pi1/montopar-initial.json": {
+      "sha256": "bd497777604df23550fb5ab65607561665d348b32cdaed27007351d4fe8b9e85",
+      "bytes": 38957
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/3e-3g/montopar-initial.json": {
+      "sha256": "56c76eeb832d2578704c5efc616955431b8371aa8574330da9cfd15e09669853",
+      "bytes": 89197
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json": {
+      "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+      "bytes": 27438
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/prepared/2e-Pi1.json": {
+      "sha256": "af78bbb41b8ffdfb209f9ba898feeb431706c2b7e498a2917b917095684c4a71",
+      "bytes": 42416
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/1loop/orbit_definitions.json": {
+      "sha256": "c28b7e0e62ad331d7991cc089e0d93f6f49e4d4286dc35e0f96f53e9aefa23a3",
+      "bytes": 3076
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/integrals.json": {
+      "sha256": "17c4d8941ccc8f99e6947b9eb7d2274f979b4a28eaed30090bf75054257b2919",
+      "bytes": 5448
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json": {
+      "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+      "bytes": 27291
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/native-check.json": {
+      "sha256": "c9ebb9c69f70b75ce82a2fb29a8b6daf15f85c004ee050f453c5565c2314b65b",
+      "bytes": 65880
+    },
+    "integrals/families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/w3-p0/sources/qgraf/2loop/orbit_definitions.json": {
+      "sha256": "a7eab02b35c4306625aa9cde3d46dd419fc2882bbc3380c04159067021d04733",
+      "bytes": 20015
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/.gitattributes": {
+      "sha256": "a63ea5f6506a5ef7d0ce0501bd6c084ca32f35737437a0b9ff7170f217129feb",
+      "bytes": 85
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/2e-01/checks.json": {
+      "sha256": "4f74e0654d4c38e61b71f273f942894e75b481aeb537ac1920ff8e6a9458fc1b",
+      "bytes": 8246
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/2e-01/derivation.md": {
+      "sha256": "b32ba29ab1a98fbe93f0f12735ae0a92f1eae4a1765b9e0494da690df3881eee",
+      "bytes": 6764
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/2e-01/input.json": {
+      "sha256": "e3563a04787dd293b385213d124aa8e004f5f9363a38bcc0ed25af9a46b09d93",
+      "bytes": 3604
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/2e-01/README.md": {
+      "sha256": "efca5009cf444f6863211c78801ed150978706b6baa6562fc6323439573143ac",
+      "bytes": 983
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/2e-01/reproduce.md": {
+      "sha256": "fec97fd3a475030fe6a6ea5c6095e49e8a73a9227723e26bb4dfe0ff30168caf",
+      "bytes": 2481
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/2e-01/result.json": {
+      "sha256": "e9463e95aac73ed11669fb36f6996d16c7a545042233dcd073114a3c00f620bc",
+      "bytes": 1639
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/2e-02/checks.json": {
+      "sha256": "e8f9f9d62e241b5b8eed8010c4cf46520cfd7eac0e93232576f620b3ee091fb7",
+      "bytes": 16342
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/2e-02/derivation.md": {
+      "sha256": "06b4af193269d6da87bcc5f426d9931c6b887cd303b565f05359520d3c473a35",
+      "bytes": 9719
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/2e-02/input.json": {
+      "sha256": "bbb1f7574ee6c01b9e55904262b59595d685c031e97eafc8ed9ad4d0131225a5",
+      "bytes": 3605
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/2e-02/README.md": {
+      "sha256": "1a9d84c724e4dc56faf7df740218df0308ca993b34c35a071066122d87cf1b00",
+      "bytes": 1003
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/2e-02/reproduce.md": {
+      "sha256": "93eeb5b2f8f6875c6f09fdc0f6b5c7dbb1ddb6c9ba3a8d6ef1c3553fdf915963",
+      "bytes": 2508
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/2e-02/result.json": {
+      "sha256": "e97408b71fa3039ad68c4733e3a370b4c3b1905b11324f3ec834b02138cd659f",
+      "bytes": 1771
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/manifest.json": {
+      "sha256": "91b720a3edfddf5ef74ea6c027c07091ff7abd912970bf51043e98f96314ac8e",
+      "bytes": 5736
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/README.md": {
+      "sha256": "a28a0fa3f09fe04356dd759631536d2219b034b998b5217f5101e21584fdb934",
+      "bytes": 3840
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/reproduce.py": {
+      "sha256": "fde2854b430fc55da58987b78d0179e65b2f3f65aeffdfc96b2c2725677fa90e",
+      "bytes": 16615
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/requirements.txt": {
+      "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "bytes": 28
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/source-manifest.json": {
+      "sha256": "8f197c213383dd24cc94a8909b3965c52336b711198cd5de70df37d66b861905",
+      "bytes": 8747
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/benchmarks/2e-02/current-normalization.md": {
+      "sha256": "acdd07caff446b07df66c995f0b653dd29e1ade9afd9c2af89809766665caf72",
+      "bytes": 1841
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/benchmarks/2ne/families/empty/method.md": {
+      "sha256": "2dab6015a123658a65fae14ea770382f548eedd92fe361c31a741b97fe7183ba",
+      "bytes": 8128
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/benchmarks/2ne/families/single-opposite/basis-functions.md": {
+      "sha256": "75b6bd8a5284f1862ccdc9eb9c733ec114620c45e32dc3a61cd9ffb09bfd99b4",
+      "bytes": 61945
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/benchmarks/2ne/families/single-opposite/basis.md": {
+      "sha256": "a36937f757b373e71c6873b7b59c33be64751a4d2101725cc8d7d3d41b3c2a84",
+      "bytes": 7871
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/benchmarks/2ne/results/2e-01/r002.json": {
+      "sha256": "156b0484b95f71195c8b0153897cfae0856fc9fab432ceab6d61b1bc2e8db24a",
+      "bytes": 5059
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/benchmarks/2ne/results/2e-02/r002.json": {
+      "sha256": "006832ddc9a153b6be74b94088625518d023dd98c10bdc338d89cc29392beaa8",
+      "bytes": 16303
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/benchmarks/2ne/workspaces/2e-01/derivation.md": {
+      "sha256": "200026c85e131f895a2cb0ff1076acc4cb4745aa875c5ad722425e6fe49f378b",
+      "bytes": 4595
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/benchmarks/2ne/workspaces/2e-02/derivation.md": {
+      "sha256": "c9d8704b734e748fa7e6a3e9a0dd534dc15d4d5fc4644d000934478df8100edf",
+      "bytes": 4421
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/benchmarks/renormalization/one-loop/derivation.md": {
+      "sha256": "9153b3b9b89d5551ca537d3d10d96c0aa8f9693a0d852332f678e1b0a31a54cf",
+      "bytes": 12402
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/benchmarks/renormalization/one-loop/result-r001.json": {
+      "sha256": "52697a9b0a844bd72508a64d2669547cf2ec069ebadf974a1ff963f3e8c6b007",
+      "bytes": 12550
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/benchmarks/theory/integral-geometry-20261017/differential-structure/2e-02/derivation.md": {
+      "sha256": "c2bf59380e9ef9fdabcf86d5b4baed7fbd381ecc9a5957a5f23da0417ae7bcfd",
+      "bytes": 11170
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/workflow/checks/empty-family/check_math.py": {
+      "sha256": "b64dca9866177584031778dc5ce6cee42c0499f9228a8965038b848843735f39",
+      "bytes": 7999
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/workflow/checks/empty-family/empty_math.py": {
+      "sha256": "c844a76f2eb7a1591d7cccd732821be488890d1196704ca397dce6eb0cd49373",
+      "bytes": 7139
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/workflow/checks/empty-family/runs/20260916T083424975899Z/2e-01-checks.json": {
+      "sha256": "6dbd5d5bd2e20ad4d38e0a352f0c05d29244bfc2f80d04fa88e2fb49faae70e2",
+      "bytes": 13997
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/workflow/checks/single-opposite/coefficient_math.py": {
+      "sha256": "a948a9e6f871a1fa8cbb5b6e5ae91e1470e27aa88490daa2f56284f798f1b59d",
+      "bytes": 5612
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/workflow/checks/single-opposite/compute_moments.mpl": {
+      "sha256": "6671f0240cd08b1b01419b92b25bd0f64dc2f5dda3fd480285f64bf16dbc93a2",
+      "bytes": 1826
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/workflow/checks/single-opposite/reduce_inputs.py": {
+      "sha256": "ee53e5320bbbd6d5b0142adc4ae3fa046198052ce4ba86a1a23de4ed13a9f6fb",
+      "bytes": 6959
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt": {
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "bytes": 35
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt": {
+      "sha256": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+      "bytes": 70
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt": {
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "bytes": 104
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt": {
+      "sha256": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+      "bytes": 228
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt": {
+      "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "bytes": 272
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt": {
+      "sha256": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+      "bytes": 650
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/sources/workflow/checks/single-opposite/runs/20260916T093258061172Z/2e-02-checks.json": {
+      "sha256": "c4069340795696002f58ee38fd0f24a43fc3753b32c5aa5e0486cc7d1e674e33",
+      "bytes": 7350
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/validation/checks.json": {
+      "sha256": "2540e24330b70315c7b140ebe55393e84feebdc9e809ececa2c1b1a0336dde8b",
+      "bytes": 17111
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/validation/generated-before-holdout.json": {
+      "sha256": "0b5e56d8684207f4399cf9c488e8a54f97989da75ae4f3ea41aaac130aaf08c5",
+      "bytes": 3629
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/validation/numeric.json": {
+      "sha256": "71edcdb4635741b9dc2168510baa8337a8edfbf55d1f2b0af8baefb2e667d968",
+      "bytes": 7545
+    },
+    "integrals/families/low-loop-runtime/integrals/one-loop/validation/presentation-r002.json": {
+      "sha256": "5ed85549644b2a84564857677d8d458457c20b21f3c6fd2bfe58373833351371",
+      "bytes": 788
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/2e-Pi1-01/derivation.md": {
+      "sha256": "f38b124dff292c6ff430ec4d28c839b13b06442348e3e31cf09d95d06908b377",
+      "bytes": 3277
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/2e-Pi1-01/result.json": {
+      "sha256": "63b0c699b65c4614408b854bfed769a3efcf096186f0010d0af14b91802e8c3e",
+      "bytes": 5172
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/2e-Pi1-02/derivation.md": {
+      "sha256": "1f242b9ecda1043950b5f8b0513a7cc4073822405481839aba7a8af3bcede597",
+      "bytes": 3545
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/2e-Pi1-02/result.json": {
+      "sha256": "b577aae4fdb48b985d0380d81b0008d7dc1819ecf53825014741339699488dd7",
+      "bytes": 17475
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/3e-3g-01/derivation.md": {
+      "sha256": "75f30cd32744bd02ab6bd586d7d816f1fbf8e1c1bc233f694ed92ab3a669e5ff",
+      "bytes": 3252
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/3e-3g-01/result.json": {
+      "sha256": "9920361d74234dcf446e996d979fb6517c3e529a84c00c892b629e04d1a387aa",
+      "bytes": 6843
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/3e-3g-02/derivation.md": {
+      "sha256": "805315d120e14021574476daafdbaa50c90b61a612e167227c28875cec6b2923",
+      "bytes": 3077
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/3e-3g-02/result.json": {
+      "sha256": "9e973d3abf273a967f9b158c660d6c66c624f7915e67617dfd4b93f1b60b2d8e",
+      "bytes": 6843
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/3e-3g-03/derivation.md": {
+      "sha256": "5937aa667d38dedb32927df7607087dd2cd0519ec754d5b7c1569f6e475cfb0d",
+      "bytes": 3472
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/3e-3g-03/result.json": {
+      "sha256": "853c88ae1da64e42c27ec0f933a85a75c141eac4b8b1f36672b59f7e9e852f31",
+      "bytes": 34108
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/3e-3g-04/derivation.md": {
+      "sha256": "4ea653645d6dab25a50faf1ee0aae1d0adbd207db2905ede2f4b1654efbddd90",
+      "bytes": 5246
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/3e-3g-04/result.json": {
+      "sha256": "caad26a1d4939aea13fb11d3c2c413368286cf8d93a6684257fd31d83c462295",
+      "bytes": 23314
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/4e-01/derivation.md": {
+      "sha256": "f79b6098fd84fc4e9ec98cf48e078f3d8e901f0db92744ad278e27c62b95a70c",
+      "bytes": 2884
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/4e-01/result.json": {
+      "sha256": "d3213b53a4652711f4ab9480432403d0d57ddf1198be3a0575d2e486f46df7e4",
+      "bytes": 3349
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/4e-02/derivation.md": {
+      "sha256": "cc4392cecdf4eeb94d832cde0d06e7fedf8c74d6bfc51ef15435c95e71bd7e05",
+      "bytes": 2991
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/4e-02/result.json": {
+      "sha256": "e278ce080699f3a1fbb3c6f5d45506c3fc8c63648c1e5b70fe8c7ced676fe4fe",
+      "bytes": 22908
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/4e-03/derivation.md": {
+      "sha256": "c41f2b039b326b8d42b3e75b4f1dda4b92a74a9e93f9e731c3a5a285c56abefe",
+      "bytes": 2720
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/4e-03/result.json": {
+      "sha256": "57e8018a90de77baf03ca359d24e620e5fe81190ba4a48d9900f1637db7055a0",
+      "bytes": 4248
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/4e-04/derivation.md": {
+      "sha256": "afd56dfecee192e1459341b5c7791a54089be692ca1a95f94f865cb0f49ffca1",
+      "bytes": 4421
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/4e-04/result.json": {
+      "sha256": "6ff28c66c5b59637bd37b8a3dfad48be9342550079b9428aaba7ae9f19fb38de",
+      "bytes": 13992
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/4e-05/derivation.md": {
+      "sha256": "94367ffa68b471792f4b1ec68919349f0dea8cbebcbd281c93d8783d8e225138",
+      "bytes": 2895
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/4e-05/result.json": {
+      "sha256": "94f5811e312c534c922f39205b497608d791f75808d9d06d7dbf0b04b8c5aeee",
+      "bytes": 22908
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/4e-06/derivation.md": {
+      "sha256": "7a1a96fa08eff116328311f02da36803261d591c5ef61993d8083f9b14148103",
+      "bytes": 2600
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/4e-06/result.json": {
+      "sha256": "b30e354292e3aebce11bafb56c010c0260a61f0a2180347cac69e07a1fad66c4",
+      "bytes": 13434
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/CAS-archive-manifest.json": {
+      "sha256": "63c156d930330103c6518e4dcfc8a9773feb8c946fd26229d501d1423509ee55",
+      "bytes": 6272
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/catalog.json": {
+      "sha256": "c84dc11a6f9e53514274a40c6af2a7239eff955ab521b0410f72dc2254a2ca75",
+      "bytes": 26084
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/check_integrals.py": {
+      "sha256": "fc09136bf167b5797d90e14a5f5e581efd3a611e062a98acefdfd77968ad5ba8",
+      "bytes": 9358
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/family_engines.py": {
+      "sha256": "6ac28b4ba47605f196451d3a8096e73dbe8b7fe762f9d8bb09d8b28e7041ee51",
+      "bytes": 3913
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/integral-checks.json": {
+      "sha256": "143cd0d4d8c922520218233421b3cbb4dad6f4c8cd72af2ba78005093f6fa20d",
+      "bytes": 17995
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/METHODS.md": {
+      "sha256": "85df4311e64778a3faef4faaeb2a58170075ddc17e7edb227cefd4aa634f7df9",
+      "bytes": 6775
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/PROVENANCE.md": {
+      "sha256": "e83652a85c39407499f3398cee13ab6eb3cb49ff4e67719318300695d5fed670",
+      "bytes": 3390
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/README.md": {
+      "sha256": "9cfa156fde37a85488c584af5f721bb5762b9a38eec36d7f3e9ea5bdbe6ff5fc",
+      "bytes": 2144
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/representation-sources.json": {
+      "sha256": "814373e8a4d420e54c12494543dde20e0b82b6a13167eac10584cefdebb57a3c",
+      "bytes": 10761
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/reproduce.py": {
+      "sha256": "dda41520957f2decbcc6b94ada7c87908dd558efdf4e6eccd62dd43f025a4d6f",
+      "bytes": 7963
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/source-manifest.json": {
+      "sha256": "66a4ead0fb5e4e4a7fc4693a21ee69b9c2937e5a0df2857d1de98b178e02fe6f",
+      "bytes": 23078
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/2ne/families/single-opposite/basis-functions.json": {
+      "sha256": "87ed09c33e6778ba48a0872d0f1c7b8f64eacde962fe7f51f502bc1311642029",
+      "bytes": 210691
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/2ne/prepared/4e.json": {
+      "sha256": "0193d668525fdcc4f184896cfc7445f7201dc65557657c1f316a8b9ae8af57c7",
+      "bytes": 36139
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/2ne/results/4e-01/r002.json": {
+      "sha256": "4d6bd1ba781a2f01c1197e9ddaa299599e17e2060cf8fdc2fbe03c0ad82cb1dd",
+      "bytes": 5502
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/2ne/results/4e-02/r002.json": {
+      "sha256": "a1f97e0fdace7878ba9688fe35f4aaae854c7aa76821da4b7a029ca0c1268959",
+      "bytes": 23279
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/2ne/results/4e-03/r002.json": {
+      "sha256": "c10be113752bfde5072957a5c26f63674327bae8aadc7e1a01a275f34224c390",
+      "bytes": 6122
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/2ne/results/4e-04/r002.json": {
+      "sha256": "3053908df767b60c9dcf062161a2373391aeb53d6e482a6a39f58a04f321d753",
+      "bytes": 6330
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/2ne/results/4e-05/r001.json": {
+      "sha256": "0ea95ad21c361fb536cf5e1b3c10c2cbde1a321dba034b527b59015845b50915",
+      "bytes": 23279
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/2ne/results/4e-06/r002.json": {
+      "sha256": "b2d08ce064c2efd54aa2f555d33077903c18eff369ef7039a51fa7248aa5c00f",
+      "bytes": 12158
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/2ne/theory/generation/4e04-direct-mn.md": {
+      "sha256": "7593ea384b38e209181d7f1ce5faadbe72e1e433a577c77d6670204387729709",
+      "bytes": 29344
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/2ne/theory/generation/4e04-high-order.json": {
+      "sha256": "49fd3ae67a3fcc360a081d7b6c34cd9bb64c37cd83176baeb5a8071f45b8b594",
+      "bytes": 236695
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/2ne/theory/generation/4e04-high-order.md": {
+      "sha256": "13109766227c5427a55cae860d92d56b5c2b5edf3b3c5209bf8eccafdeeb16a9",
+      "bytes": 7277
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/2ne/theory/generation/unified-language.md": {
+      "sha256": "1e4840ab2e9c35b055ae948c2b6a397aa2db254026ed6a438f36657bb3e19259",
+      "bytes": 15323
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/renormalization/two-loop/source-audit.md": {
+      "sha256": "0d75d0572e29204b1a129e6ca3e55c58d12343bdb778620bd5fbe6e9442ca0bb",
+      "bytes": 13992
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/self-energy/conventions.md": {
+      "sha256": "71f0c30727d4c4e0333142b194213b4cf9328d24c7d9f0e1218ae4d3bb45d40f",
+      "bytes": 7499
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/self-energy/pi1/prepared/2e-Pi1-r002.json": {
+      "sha256": "1f96bec54d246915abe921bc30b7ab11802da47e65d59efd82cb530d735366a0",
+      "bytes": 38928
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/self-energy/pi1/results/2e-Pi1-01/r002.json": {
+      "sha256": "122067c4f01aa9942db2e9040b577416c83c8439d2baa7c4b1ac1d18e21646c7",
+      "bytes": 7084
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/self-energy/pi1/results/2e-Pi1-02/r002.json": {
+      "sha256": "8b214b54a6e32f78804d0f1bfa3077488abeaa6114f9ed89fe825446056cd0a8",
+      "bytes": 9126
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/tgv/3e-3g/high-order-04.md": {
+      "sha256": "85341b62db7babcafebe2798953d6497520dad3b0bdb02f22078cb2c92eae6ee",
+      "bytes": 9793
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/tgv/3e-3g/method.md": {
+      "sha256": "3d7cd0648d166d5f063e46ea00d29657f1ea5eb9cc4de20f790579b1ecc2e1e3",
+      "bytes": 5648
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/tgv/3e-3g/prepared/3e-3g.json": {
+      "sha256": "dcfc43a3fffccdf81eeed48c1d8ac851c66eb66ccdae5b2cdd9b15ab80480068",
+      "bytes": 59626
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/tgv/3e-3g/results/3e-3g-01/r001.json": {
+      "sha256": "9979c454377dfdaaf25b74323f1da9e72838e77ef73ef8d99860b105d4941d20",
+      "bytes": 5363
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/tgv/3e-3g/results/3e-3g-02/r001.json": {
+      "sha256": "fe88da122908c8337a9775296135cfca9ebb94f6614593cd971f17b495d33263",
+      "bytes": 5363
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/tgv/3e-3g/results/3e-3g-03/r001.json": {
+      "sha256": "211e6f4310d0d2b24cf9154d77a5d113467efa0ac61dafe25cbeaf9b0aad27b8",
+      "bytes": 9431
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/benchmarks/tgv/3e-3g/results/3e-3g-04/r001.json": {
+      "sha256": "3c099acf58c2e4f9d91c6bfe1a25b67222bce5fac9a16e44fa3ee5eb6926b3b5",
+      "bytes": 7288
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/4e04-high-order/compute.mpl": {
+      "sha256": "4cea3ef675d63e6846f53af3c252a15e8142674f0ee83101fe001e33361aa494",
+      "bytes": 1771
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/4e04-high-order/current-run.json": {
+      "sha256": "60d5338c8d4186118f05869b88a689896b2850a3462f0ac8dd124bb59f972914",
+      "bytes": 78
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/4e04-high-order/runs/20260926T084846954927Z/Q0_plus.txt": {
+      "sha256": "6ee35424c250fe7197798a332c96df29b49d9fead2c68c6737feffd05356aed4",
+      "bytes": 69
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/4e04-high-order/runs/20260926T084846954927Z/Q1_plus.txt": {
+      "sha256": "8803d3a70898133e9583c3d31ac6fa4d53a8eeea303da610d391d271e48e5802",
+      "bytes": 333
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/4e04-high-order/runs/20260926T084846954927Z/Q2_plus.txt": {
+      "sha256": "05bd051d65c2e080ca51e166d4131ef9360faee421841f82436ecb2fb1867ad7",
+      "bytes": 1020
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/current-moments.json": {
+      "sha256": "c94ea320520c9fd0ce67b3377b7269bbf74d7120a2e4b2f3536297eda11513bb",
+      "bytes": 98
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/hlog_algebra.py": {
+      "sha256": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+      "bytes": 4328
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt": {
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "bytes": 35
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_2.txt": {
+      "sha256": "cd56e716a2f6ff5ffdb881802c666ce34650e2097bc006f41c85373024cbec79",
+      "bytes": 52
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt": {
+      "sha256": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+      "bytes": 70
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_4.txt": {
+      "sha256": "0e103345155d0d8cf29e95d5cb32549779b6c9ecf97b3ecd9ef4f5faea3bddd7",
+      "bytes": 93
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_5.txt": {
+      "sha256": "28e4f12e67372785789afc9a3164e3f6627d6452db4fc3deb1e229962c0a0674",
+      "bytes": 116
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt": {
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "bytes": 104
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt": {
+      "sha256": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f",
+      "bytes": 144
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt": {
+      "sha256": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+      "bytes": 228
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_4.txt": {
+      "sha256": "428adc3c5657bcaf9df5f7e05ac89a9ecb1ff35d9337f5949de3b3c6efd7a45b",
+      "bytes": 288
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt": {
+      "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "bytes": 272
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_2.txt": {
+      "sha256": "b7cc73814d33c1d6e6474ed4d0ae774b2de1ea68ded05ba21861ba173e3bfced",
+      "bytes": 340
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_3.txt": {
+      "sha256": "4c217930ee68940afc732b722f77297b342ef7b2c444e713ba1c52ffbd8a5612",
+      "bytes": 532
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt": {
+      "sha256": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+      "bytes": 650
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_2.txt": {
+      "sha256": "7ada1deb03ef81b1bbb568e3c6c6b424d510a845a08e2f2a48141704ed845a9e",
+      "bytes": 799
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_4_1.txt": {
+      "sha256": "661bde1122a75bba0884f4e0251a1ff0e5be3b6897b89c2dd251793b45944624",
+      "bytes": 1526
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/compact.json": {
+      "sha256": "5d01cdffe96cd64914b62eff4348ed89d5e951bd655ad2c2d3e72ef0ee9b61ab",
+      "bytes": 1273
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/assemble1.mpl": {
+      "sha256": "d43d53dfb05d194e30942b838c4fad1a1cfe3af3c819d76305068706537f2be3",
+      "bytes": 1404
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/assemble2.mpl": {
+      "sha256": "d762bebb80da7891c1206b21b148605a3b947d4c1c63805c5eadcca6602e770f",
+      "bytes": 2069
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/assembled1.m": {
+      "sha256": "389a5acb3d75a7e5bf1f9dd850d34804b898e0ac01cf7dffbf2d4c478152aecb",
+      "bytes": 1499
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/assembled2.m": {
+      "sha256": "2aae320ce151eeeea8e0d5d454233f28e6c333ac120d7e44d347543a031d742d",
+      "bytes": 2763
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/D2.m": {
+      "sha256": "2869bb59c50bb588e345a2f86c11a1966cf35b3b756dcdde503aec4c8a1ee6d5",
+      "bytes": 460
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/D2.txt": {
+      "sha256": "787aa8c272c99ca587ed7cc2ea91da6b940a2b8526c8abbd23bd6d011a98174b",
+      "bytes": 443
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/D3.m": {
+      "sha256": "d4a3b21ffcabcf12398151c6e8a2af92a583b49a039c75c695202d051e7b573a",
+      "bytes": 992
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/D3.txt": {
+      "sha256": "a1244fe735853a577add0f3cdef5e67548300ae6cb3a412cadbd1cf9bf7b6a1e",
+      "bytes": 1037
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/easy1.mpl": {
+      "sha256": "003214b81a450ee9eea01bdce5c88e5738a378638a3f2741bce2ae1b4bd8f6ad",
+      "bytes": 824
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/easy2.mpl": {
+      "sha256": "ddb7e70de0c0e17501bf25e3be16d65ce2b7d899d9128c3593be176f1abfe660",
+      "bytes": 824
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/H1.m": {
+      "sha256": "c69172358cdd8efad96a4538b9e9a43e5cab6d592c295dd7e032044bd3d34db7",
+      "bytes": 425
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/H1.txt": {
+      "sha256": "fe4952177c452f7c74a430b6bcbf4b4fae8b027a24b1d1ba31feb2a15a8775b6",
+      "bytes": 406
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/H2.m": {
+      "sha256": "a3a514ce6cff60590c7ad5b5ff21027f7576678d79c308accdc08f87d1922a19",
+      "bytes": 1134
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/H2.txt": {
+      "sha256": "e3794f86dc9f7c89b5c1f53bfd9aa72a972b9bb37c27f03b6b18f23893b711e6",
+      "bytes": 1149
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/hard1.mpl": {
+      "sha256": "750cd8bb1676d8dcf1cfb83174c0925179e24c0b825afd1c045b718101efb955",
+      "bytes": 726
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/hard2.mpl": {
+      "sha256": "9c2584df1581f92c51bbfd0bc9268116fa5c8ed9a60d88c200c403995a34bf12",
+      "bytes": 726
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/I1.txt": {
+      "sha256": "52a3492421e4c8f68b5410c0bad08dca3b6be4c7fd3d82650976109c2549879b",
+      "bytes": 669
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/I2.txt": {
+      "sha256": "8fc811d7ada433bd3f786e930183df96047b975411ba54563c15d4361c6b2bfe",
+      "bytes": 1531
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/numeric-targets.json": {
+      "sha256": "4bc286f37158ada85b9d353b6f95a61a2aeb0d23db54d3b6ca12b741cb90d37b",
+      "bytes": 889
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/O1-integrand.m": {
+      "sha256": "cffa085756ce9a73467194d77afb058bb8dae2ca3a33c4b6067ef2bc04da59c7",
+      "bytes": 3062
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/O1.m": {
+      "sha256": "a5b180e664e93a73d70c58f68852480bf380701161833a3b731ad48e9d98c940",
+      "bytes": 774
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/O1.txt": {
+      "sha256": "de966da968f39d00f3cb7beb1c901df628aa540584d1ad052ab0747849444b24",
+      "bytes": 892
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/O2-integrand.m": {
+      "sha256": "1759d5eed4cf288ebe352f9a99a34b7ba675412af5a60a4cdae116652000bf35",
+      "bytes": 3063
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/O2.m": {
+      "sha256": "6b51c00104e3105faea19958b75bb0fc413382789ac28f032051a2d2baf50a8a",
+      "bytes": 1727
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/O2.txt": {
+      "sha256": "12cbee3754e33aebbfba289e37199019bfaed9efa8bf59f976ea4aa1fffacf67",
+      "bytes": 2132
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/recoil1.mpl": {
+      "sha256": "1c702cc98631f2d31a21d7425ea5fb965066517b8df28aa993975f5d89077aa4",
+      "bytes": 953
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/recoil2.mpl": {
+      "sha256": "97c761173435881f425f078d083655170b1f04362afc20c47a2fb91523a6fbb2",
+      "bytes": 953
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/source-step01_input.py": {
+      "sha256": "5610a499171a0dd557fec6d178e8b8dbcb247716cb1c47fea3c132d5b29a3bf5",
+      "bytes": 2257
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/source-step04_reduction.mpl": {
+      "sha256": "2e14c5467c0c6e5382d8e403756b89a94d2a77d94ea5edfaddea7a85a1f1b86e",
+      "bytes": 893
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/source-step09_optimized_recoil.mpl": {
+      "sha256": "210cdd8834687fd2f69661a76d95da8feb8dcb7ce9f11f74c30c73c26f73dfeb",
+      "bytes": 859
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/source-step10_optimized_hlog.mpl": {
+      "sha256": "8787914448e8b9f01665b22dfe784d1f0c7efbd37f80aceab6f401fa1f8ef3b0",
+      "bytes": 1492
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/step03_easy_results.m": {
+      "sha256": "ef3b6a63dd02c867a459450d7b4e247145f052039f88e8a746b434d65a7381ea",
+      "bytes": 1132
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/step04_hard_integrand.m": {
+      "sha256": "c3180a4ed3ac2688a0a4980ac27377b42fad43037225a63f5804f24436227969",
+      "bytes": 204
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/step05_H0.m": {
+      "sha256": "6b79334080bfa2241077da58bf50f96cf0aca04fbf6ae6f146a5df6d95e98d2f",
+      "bytes": 150
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/step09_optimized_input.m": {
+      "sha256": "64f0ce45bc05d37b792abe68061d012276dad196d3b8e459b1348c57c7711888",
+      "bytes": 464
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/step10_optimized_integrands.m": {
+      "sha256": "86a8bc52599d22156362f12e3b2c7dc972aa900b068c5511c78f22a7a499d1c0",
+      "bytes": 6492
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/step10_optimized_results.m": {
+      "sha256": "65771a8bcb3b5c5056fbf2436f9b29f215a0a946f6f3fc64337ecbe9617f0719",
+      "bytes": 372
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/step11_hlog_results.m": {
+      "sha256": "7516893d4f7d0802eb668bd2656e1fb6f67a5256c93a0a296664970fe27f0d06",
+      "bytes": 582
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/tgv04-high-order/source-bindings.json": {
+      "sha256": "f0a8b13c42b71229f67b2e6fdd08a9ad2f320f534208e596df0ddfeb0dc31d65",
+      "bytes": 2701
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/two-loop-report-20261015/build_pure.py": {
+      "sha256": "eeb8e52a24e7aa142be8aa1ae02f25dee84a406eb5d4f55b6feb220978ea060a",
+      "bytes": 16780
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/two-loop-report-20261015/build_self_energy.py": {
+      "sha256": "0b89f6a82343f0e086a5da52aa3bef44dbffaddb896acca362b9eb5e25b66c7f",
+      "bytes": 15281
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/two-loop-report-20261015/build_tgv.py": {
+      "sha256": "4cba63a7ba4cde3f8b29c20419dc22994c428a55194623850d27fdf016be3cfa",
+      "bytes": 17659
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/two-loop-report-20261015/pure-data.json": {
+      "sha256": "290b17ad02706e2a9b4c9636adf18d3e447f0c53be946a4ed526ceb9f048794e",
+      "bytes": 11085
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/two-loop-report-20261015/self-energy-data.json": {
+      "sha256": "3312930e0d00f280f4b43e0226eb94c89344f627a195e40a6b72892dadbe9557",
+      "bytes": 10280
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/sources/workflow/checks/two-loop-report-20261015/tgv-data.json": {
+      "sha256": "f0a6fe19a6d8a535bd525086dc553474f4d240aef2d7f31124db9e61681cd8f9",
+      "bytes": 6640
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/VALIDATION.json": {
+      "sha256": "e5ce397c2860b61dbc4ecef010028bf3aa6069f01b3dac4fd1ae0306ba1a40b1",
+      "bytes": 2814
+    },
+    "integrals/families/low-loop-runtime/integrals/two-loop/verification.json": {
+      "sha256": "d22473d59fb7c8f594d2242d8d984be77b03996d3e741e0433772653d17fc838",
+      "bytes": 16506
+    },
+    "integrals/families/low-loop-runtime/README.md": {
+      "sha256": "9a296b18bd18c5b8b178ab608d9b6a5739fb4cae13ed6d8a768ff13ed8973307",
+      "bytes": 1573
+    },
+    "integrals/families/low-loop-runtime/source-manifest.json": {
+      "sha256": "0d6326fdac3846c3ef880101a971ff5c2bc91762e7b9c0550f0d55e86f21cf6c",
+      "bytes": 30966
+    },
+    "integrals/one-loop/2e-01/checks/index.json": {
+      "sha256": "429e71f33dba01cbb246a12a88e4af128c2c59abb051899118c8473249aceae4",
+      "bytes": 534
+    },
+    "integrals/one-loop/2e-01/code/reproduce.py": {
+      "sha256": "44c485d1356097bf1207287195d741b402efee494aeb8783261ba69066365d1b",
+      "bytes": 263
+    },
+    "integrals/one-loop/2e-01/data/index.json": {
+      "sha256": "3ee05e86984e23857b17e9adc6b35c4201562d37236552f183e3677df745a828",
+      "bytes": 1466
+    },
+    "integrals/one-loop/2e-01/derivation.md": {
+      "sha256": "9fc85ffdd99dda26fa78669010ed42471014a51936d28e9079144119b9778be1",
+      "bytes": 7408
+    },
+    "integrals/one-loop/2e-01/input.json": {
+      "sha256": "d89b6146cc9113038d226ae2b79e468b54b7998efe7a9af1af5b20da22dc027d",
+      "bytes": 3838
+    },
+    "integrals/one-loop/2e-01/README.md": {
+      "sha256": "22127545855d3956804914fe4b0304d69da67c5a7de857b28afd968df61aa567",
+      "bytes": 1364
+    },
+    "integrals/one-loop/2e-01/reproduce.md": {
+      "sha256": "9d20592c95dca8ea5528dfb0a8ecbe837dbe790a186d6d047da1200a3cb1410b",
+      "bytes": 3174
+    },
+    "integrals/one-loop/2e-01/result.json": {
+      "sha256": "e9463e95aac73ed11669fb36f6996d16c7a545042233dcd073114a3c00f620bc",
+      "bytes": 1639
+    },
+    "integrals/one-loop/2e-01/validation.md": {
+      "sha256": "d0e9f3625aa64d2edc570fcd12e659b28cc75c7abf4f74446ed90743fcf55404",
+      "bytes": 3338
+    },
+    "integrals/one-loop/2e-02/checks/index.json": {
+      "sha256": "1237e47829baebcc0a73c56b933bb9c17139ee8de7c271850c06ebcc51a9f4bd",
+      "bytes": 534
+    },
+    "integrals/one-loop/2e-02/code/reproduce.py": {
+      "sha256": "44c485d1356097bf1207287195d741b402efee494aeb8783261ba69066365d1b",
+      "bytes": 263
+    },
+    "integrals/one-loop/2e-02/data/index.json": {
+      "sha256": "b3634c07221a0f362dd4c084df0227c04949b167978ff6f56151e617fe19bc18",
+      "bytes": 1466
+    },
+    "integrals/one-loop/2e-02/derivation.md": {
+      "sha256": "8eccb7036dac9f73144245b43be812f0eeeb5b07b7c4bae7c80cdaeb06f402f2",
+      "bytes": 11914
+    },
+    "integrals/one-loop/2e-02/input.json": {
+      "sha256": "914d6435927c2be2755fa3f605ea3ad239ad89a41a22fbb84edbbf637bcbfa02",
+      "bytes": 3839
+    },
+    "integrals/one-loop/2e-02/README.md": {
+      "sha256": "33d7fa3503a2d3800ceef063e188b7f3befaeeeaaea25b9c874c651ff6050766",
+      "bytes": 1401
+    },
+    "integrals/one-loop/2e-02/reproduce.md": {
+      "sha256": "801e0649224595920e16f0b48afdd1fa0640844ea87008a9cfaf3daf9a255878",
+      "bytes": 3211
+    },
+    "integrals/one-loop/2e-02/result.json": {
+      "sha256": "e97408b71fa3039ad68c4733e3a370b4c3b1905b11324f3ec834b02138cd659f",
+      "bytes": 1771
+    },
+    "integrals/one-loop/2e-02/validation.md": {
+      "sha256": "05682018fe7e8110e27f719c11832d3012ea04050c96dbc3378e99f66eee5185",
+      "bytes": 3375
+    },
+    "integrals/one-loop/README.md": {
+      "sha256": "67a62043c4a30f52be31ed16d63d56e8c9aec067023b9e326ab99f392fe3e2a6",
+      "bytes": 963
+    },
+    "integrals/README.md": {
+      "sha256": "01193a1ada4baf001534ec8905d71c099389841d9a6ff824d910483c25f48929",
+      "bytes": 1974
+    },
+    "integrals/two-loop/2e-Pi1-01/checks/index.json": {
+      "sha256": "8248be1e5eb211ed68d3b012deee46577a08d11f06fe33fbe52fda6024951c67",
+      "bytes": 538
+    },
+    "integrals/two-loop/2e-Pi1-01/code/reproduce.py": {
+      "sha256": "4d3a31f87933814d1b6ff607abbbaacbef7ce81dc95255f7cbdf284107f96d85",
+      "bytes": 319
+    },
+    "integrals/two-loop/2e-Pi1-01/data/index.json": {
+      "sha256": "97e9a585c3261455ef7e06fa2b903b5354203e9f9c1dcbdabde2a80689f6431a",
+      "bytes": 2362
+    },
+    "integrals/two-loop/2e-Pi1-01/derivation.md": {
+      "sha256": "d580e34f4a9c5deac503620298c2e031f59ec1f2527e3060f87a1ff86e12df84",
+      "bytes": 4453
+    },
+    "integrals/two-loop/2e-Pi1-01/input.json": {
+      "sha256": "4bbbfd7552e97360a2e102fc9f522be06df93eea9d39e86d9f5c9773b7c8a0e6",
+      "bytes": 3941
+    },
+    "integrals/two-loop/2e-Pi1-01/README.md": {
+      "sha256": "1811e4b3ab141a87f91278e6a02ac4fd35234852bd8b6bf6bae54f641e46f508",
+      "bytes": 1011
+    },
+    "integrals/two-loop/2e-Pi1-01/reproduce.md": {
+      "sha256": "57db5326ab8e5ac2d2b5dee710e8b5bfe554dd198649aebb3edd3c7b660303f2",
+      "bytes": 2524
+    },
+    "integrals/two-loop/2e-Pi1-01/result.json": {
+      "sha256": "63b0c699b65c4614408b854bfed769a3efcf096186f0010d0af14b91802e8c3e",
+      "bytes": 5172
+    },
+    "integrals/two-loop/2e-Pi1-01/validation.md": {
+      "sha256": "41a2753e73d2f46d73dedbc1ba77b201e0276f27f3fc2b7adf4013c65b8af4dc",
+      "bytes": 2654
+    },
+    "integrals/two-loop/2e-Pi1-02/checks/index.json": {
+      "sha256": "d1145843d29c7aa268c3526514006af4304b299caaf993b72af5396eb47001b8",
+      "bytes": 538
+    },
+    "integrals/two-loop/2e-Pi1-02/code/reproduce.py": {
+      "sha256": "4d3a31f87933814d1b6ff607abbbaacbef7ce81dc95255f7cbdf284107f96d85",
+      "bytes": 319
+    },
+    "integrals/two-loop/2e-Pi1-02/data/index.json": {
+      "sha256": "5d779f29a60c43664e3ea2a6fb3682168d29ad66c6493d9c9a5005bd994efa05",
+      "bytes": 4692
+    },
+    "integrals/two-loop/2e-Pi1-02/derivation.md": {
+      "sha256": "d00a47a764fc23ae2d6c9dc2382efcca1cdb2db23cb104c129f5da26a278c371",
+      "bytes": 6228
+    },
+    "integrals/two-loop/2e-Pi1-02/input.json": {
+      "sha256": "4a96a747bb7e77a3a7643dcfabd4554f75c9fa3360d4398ecc85ce00e8ec42da",
+      "bytes": 3941
+    },
+    "integrals/two-loop/2e-Pi1-02/README.md": {
+      "sha256": "d89db79ffda2299b3a6d9c1744cc847003743d01bb6fa1fdb76372740868f8a5",
+      "bytes": 1010
+    },
+    "integrals/two-loop/2e-Pi1-02/reproduce.md": {
+      "sha256": "7323f5861fe6de250a1403a25bc282e63a19155bc396afa9434997ea2400a60e",
+      "bytes": 2524
+    },
+    "integrals/two-loop/2e-Pi1-02/result.json": {
+      "sha256": "b577aae4fdb48b985d0380d81b0008d7dc1819ecf53825014741339699488dd7",
+      "bytes": 17475
+    },
+    "integrals/two-loop/2e-Pi1-02/validation.md": {
+      "sha256": "28001f58982a4ea04f1ca09b50801c55a770b5731ccdb9aa2e4e39cdaca83596",
+      "bytes": 2729
+    },
+    "integrals/two-loop/3e-3g-01/checks/index.json": {
+      "sha256": "618d9c65c8f27c87a39fdd2ec2ca6b3015a39f6c4be1d92845f5624a08852f60",
+      "bytes": 537
+    },
+    "integrals/two-loop/3e-3g-01/code/reproduce.py": {
+      "sha256": "4d3a31f87933814d1b6ff607abbbaacbef7ce81dc95255f7cbdf284107f96d85",
+      "bytes": 319
+    },
+    "integrals/two-loop/3e-3g-01/data/index.json": {
+      "sha256": "e1e6f3d78e7934ff0c194c0d5bc973ec7aea8ed06fefec9f78513ba65d3c7352",
+      "bytes": 2345
+    },
+    "integrals/two-loop/3e-3g-01/derivation.md": {
+      "sha256": "e738b5b2d6ba89ea9d30a817da631cf279a298c0fd14b5b4739e12595cda524f",
+      "bytes": 4957
+    },
+    "integrals/two-loop/3e-3g-01/input.json": {
+      "sha256": "347545a2232dcce6c258650ccff488e709d44dd51fe6c59c702dfd9eec62efff",
+      "bytes": 3889
+    },
+    "integrals/two-loop/3e-3g-01/README.md": {
+      "sha256": "4a3a93e32d33c244bafa61adaa5f84d85e9e54bdfe6d3a67d1cbe49271cd824d",
+      "bytes": 1015
+    },
+    "integrals/two-loop/3e-3g-01/reproduce.md": {
+      "sha256": "a3704ae998a954609d9de981907f1519cc5a121346cbd5a6040b4eeaee9e101a",
+      "bytes": 2521
+    },
+    "integrals/two-loop/3e-3g-01/result.json": {
+      "sha256": "9920361d74234dcf446e996d979fb6517c3e529a84c00c892b629e04d1a387aa",
+      "bytes": 6843
+    },
+    "integrals/two-loop/3e-3g-01/validation.md": {
+      "sha256": "6362cb1fdbb733f9a064187ef07e6756f0a31f8b07349f9bf2932be7cef656ea",
+      "bytes": 2738
+    },
+    "integrals/two-loop/3e-3g-02/checks/index.json": {
+      "sha256": "97d64cd416cb56d4914161acb4a7d2d40fc1d3b1d05c887338770e3c9137fc90",
+      "bytes": 537
+    },
+    "integrals/two-loop/3e-3g-02/code/reproduce.py": {
+      "sha256": "4d3a31f87933814d1b6ff607abbbaacbef7ce81dc95255f7cbdf284107f96d85",
+      "bytes": 319
+    },
+    "integrals/two-loop/3e-3g-02/data/index.json": {
+      "sha256": "042869f859c894d4467e770ddc0074c7b46d1005a7fffe9790cd4b2f83eea2ab",
+      "bytes": 2345
+    },
+    "integrals/two-loop/3e-3g-02/derivation.md": {
+      "sha256": "a47a861c1e3552ea5f3fbffc5602d4f7e353f81f474ef64ddd0d0e464d28fdbc",
+      "bytes": 4715
+    },
+    "integrals/two-loop/3e-3g-02/input.json": {
+      "sha256": "a9d56edf41a4ed375a155d0e4d9b6bea2de64731622d15f41123470befc19fde",
+      "bytes": 3889
+    },
+    "integrals/two-loop/3e-3g-02/README.md": {
+      "sha256": "eeb1703647a6eeb8cd38ebddff5462b643fd0f96ad00ead31e60c0c5b40199bb",
+      "bytes": 1015
+    },
+    "integrals/two-loop/3e-3g-02/reproduce.md": {
+      "sha256": "2b1f26874d7968b0c8df8a61f92311e360e0c18d2eecd2dbc1c1c16d9959b674",
+      "bytes": 2521
+    },
+    "integrals/two-loop/3e-3g-02/result.json": {
+      "sha256": "9e973d3abf273a967f9b158c660d6c66c624f7915e67617dfd4b93f1b60b2d8e",
+      "bytes": 6843
+    },
+    "integrals/two-loop/3e-3g-02/validation.md": {
+      "sha256": "6dab2ef1d36eca94928958b4f1ffaef5fa7b60d34febfe2f2ed4e4fe5e9dbaa8",
+      "bytes": 2631
+    },
+    "integrals/two-loop/3e-3g-03/appendices/evaluated-moments.md": {
+      "sha256": "e27a13290c4d806883434ea093bc8715221056c20e8470bc8ca8f0f78578bf4c",
+      "bytes": 3698
+    },
+    "integrals/two-loop/3e-3g-03/checks/index.json": {
+      "sha256": "12bfe7dbcdce882abdd207430c1d9bb3bf698e52cc6544edea0a2b27b5027598",
+      "bytes": 537
+    },
+    "integrals/two-loop/3e-3g-03/code/reproduce.py": {
+      "sha256": "4d3a31f87933814d1b6ff607abbbaacbef7ce81dc95255f7cbdf284107f96d85",
+      "bytes": 319
+    },
+    "integrals/two-loop/3e-3g-03/data/index.json": {
+      "sha256": "36bc53d04acfaa1e5c5d1b14959f744f2175035d125ab1634870ca39e6760537",
+      "bytes": 5839
+    },
+    "integrals/two-loop/3e-3g-03/derivation.md": {
+      "sha256": "68c987d37129a09a72bfed2d2de994c119b40ede17c02e1d962f483d2a60c3fc",
+      "bytes": 7222
+    },
+    "integrals/two-loop/3e-3g-03/input.json": {
+      "sha256": "da4d2a5abe2804610181cf71a1274796c823b95aedb9418a483c8501eb25b772",
+      "bytes": 3889
+    },
+    "integrals/two-loop/3e-3g-03/README.md": {
+      "sha256": "0cde54ed0946c55c7d2ffbf0048307e65554dfa6690c93d0d27356570dfcd150",
+      "bytes": 1015
+    },
+    "integrals/two-loop/3e-3g-03/reproduce.md": {
+      "sha256": "46cf1ac6a4d7b5e8c73b959832fdc938827e545f84a53f26de1d3483f6e827e9",
+      "bytes": 2521
+    },
+    "integrals/two-loop/3e-3g-03/result.json": {
+      "sha256": "853c88ae1da64e42c27ec0f933a85a75c141eac4b8b1f36672b59f7e9e852f31",
+      "bytes": 34108
+    },
+    "integrals/two-loop/3e-3g-03/validation.md": {
+      "sha256": "c96a045cac2b8ee5a91bb17fcea48df6917a11a2c78177e9b9edb04248a3d451",
+      "bytes": 2693
+    },
+    "integrals/two-loop/3e-3g-04/appendices/euler-regularization.md": {
+      "sha256": "ae4363b8366d05d82cc896555edb4aec017e653d89942184b27bf95e927cdb5d",
+      "bytes": 3973
+    },
+    "integrals/two-loop/3e-3g-04/appendices/hlog-jets.md": {
+      "sha256": "7ec15cc558961c5b5b1cb2d5af89a2503ca5411e22efc572499f7560c87a9b9f",
+      "bytes": 10627
+    },
+    "integrals/two-loop/3e-3g-04/checks/index.json": {
+      "sha256": "83572bbb029f472539696217248d187a5a010c4700ec8cc5c404d510db99fad0",
+      "bytes": 537
+    },
+    "integrals/two-loop/3e-3g-04/code/reproduce.py": {
+      "sha256": "4d3a31f87933814d1b6ff607abbbaacbef7ce81dc95255f7cbdf284107f96d85",
+      "bytes": 319
+    },
+    "integrals/two-loop/3e-3g-04/data/index.json": {
+      "sha256": "ec0358f74396c3c7f0029508063d9827d447e2e1d5d291e95f7414b0d1bd9fa2",
+      "bytes": 12499
+    },
+    "integrals/two-loop/3e-3g-04/derivation.md": {
+      "sha256": "e7816b1e74257f167d9595d349115c5c0d0257e6078ea741e99cc9f5beedd093",
+      "bytes": 12335
+    },
+    "integrals/two-loop/3e-3g-04/input.json": {
+      "sha256": "6812103f56e3fb329029a5dfced13d9c294a05f5a36cf063db6aa4bd368e6365",
+      "bytes": 3887
+    },
+    "integrals/two-loop/3e-3g-04/README.md": {
+      "sha256": "1f80637d484e9311bd4e10122fc8864f3bcf5b02bbc3884b0975b1fd41f9a0f2",
+      "bytes": 1169
+    },
+    "integrals/two-loop/3e-3g-04/reproduce.md": {
+      "sha256": "b0e033a4cc7f2416195e0458645e8ef594f32cc08fe7b534db6e98ecfc995ccd",
+      "bytes": 2580
+    },
+    "integrals/two-loop/3e-3g-04/result.json": {
+      "sha256": "caad26a1d4939aea13fb11d3c2c413368286cf8d93a6684257fd31d83c462295",
+      "bytes": 23314
+    },
+    "integrals/two-loop/3e-3g-04/validation.md": {
+      "sha256": "20760f4191d4711d543c19da0d2f08d371a1cabd45421f6c8c2e34e0c7b68598",
+      "bytes": 3380
+    },
+    "integrals/two-loop/4e-01/checks/index.json": {
+      "sha256": "d8c3c77bb8d03a1e7bf8f86f94a28fee634aaef3dfe4884dedd8c7ab31757851",
+      "bytes": 534
+    },
+    "integrals/two-loop/4e-01/code/reproduce.py": {
+      "sha256": "4d3a31f87933814d1b6ff607abbbaacbef7ce81dc95255f7cbdf284107f96d85",
+      "bytes": 319
+    },
+    "integrals/two-loop/4e-01/data/index.json": {
+      "sha256": "93ad3d623ea4cdff2c65c4e2baca8c79146437a0482ecb0e4fcc056fc36f7137",
+      "bytes": 2331
+    },
+    "integrals/two-loop/4e-01/derivation.md": {
+      "sha256": "851b23ab7104e5c9f7fb7dff13389b977dd63dc58b508a7752119af3fdb8c3af",
+      "bytes": 5170
+    },
+    "integrals/two-loop/4e-01/input.json": {
+      "sha256": "3c885c0880a43d6c71a9842bf091bb2be65e64297e0029bdbc58db6e64d2d916",
+      "bytes": 3298
+    },
+    "integrals/two-loop/4e-01/README.md": {
+      "sha256": "1982cb12dc7095fba7cb0b93e0b2833bf603513218a0db7359c4e2256413e7bd",
+      "bytes": 1383
+    },
+    "integrals/two-loop/4e-01/reproduce.md": {
+      "sha256": "18835bbeb0206bc22b085e551b48e357a8aefc6749a41126b373146d399cc46c",
+      "bytes": 3841
+    },
+    "integrals/two-loop/4e-01/result.json": {
+      "sha256": "d3213b53a4652711f4ab9480432403d0d57ddf1198be3a0575d2e486f46df7e4",
+      "bytes": 3349
+    },
+    "integrals/two-loop/4e-01/validation.md": {
+      "sha256": "25816c474325c08cb7cc9c0a418c8a22cde672d2da3eea76af090e4640a8d7e2",
+      "bytes": 3751
+    },
+    "integrals/two-loop/4e-02/checks/index.json": {
+      "sha256": "59769ca72f9c86ca6d390155825f4a1ee979b068bd6bdfbdad8af3b1c986b140",
+      "bytes": 534
+    },
+    "integrals/two-loop/4e-02/code/reproduce.py": {
+      "sha256": "4d3a31f87933814d1b6ff607abbbaacbef7ce81dc95255f7cbdf284107f96d85",
+      "bytes": 319
+    },
+    "integrals/two-loop/4e-02/data/index.json": {
+      "sha256": "c1821ef7cffa610bd1a9c0915d9077ddfa4c79a70c4819f7e1223aa4171e000a",
+      "bytes": 5825
+    },
+    "integrals/two-loop/4e-02/derivation.md": {
+      "sha256": "6157365f40779530b4dcd607783d7e38aa13b6e2ac61fe5851d6b79cd01adac7",
+      "bytes": 9214
+    },
+    "integrals/two-loop/4e-02/input.json": {
+      "sha256": "3e286f919a9ca69f6f2afa2555f3879d610a68dac6ec5b5c1378125beb972737",
+      "bytes": 3298
+    },
+    "integrals/two-loop/4e-02/README.md": {
+      "sha256": "8888b8ea34fcb13a14a6ae548852b3082abc87cd1115d7cb4dcab27f559940f3",
+      "bytes": 1466
+    },
+    "integrals/two-loop/4e-02/reproduce.md": {
+      "sha256": "6677b8094a1d3b82844a71d82179ea68fea4cee126fb8f41606588652d3d324e",
+      "bytes": 3900
+    },
+    "integrals/two-loop/4e-02/result.json": {
+      "sha256": "e278ce080699f3a1fbb3c6f5d45506c3fc8c63648c1e5b70fe8c7ced676fe4fe",
+      "bytes": 22908
+    },
+    "integrals/two-loop/4e-02/validation.md": {
+      "sha256": "827938344c599f7e29d56b5bc08588cd7811dad1b04a44ba9ef7fcce72616440",
+      "bytes": 3810
+    },
+    "integrals/two-loop/4e-03/checks/index.json": {
+      "sha256": "ad5f64913aa30aae56c9be8d0a22efe9db79d7146145a9a37a098d8544af84d8",
+      "bytes": 534
+    },
+    "integrals/two-loop/4e-03/code/reproduce.py": {
+      "sha256": "4d3a31f87933814d1b6ff607abbbaacbef7ce81dc95255f7cbdf284107f96d85",
+      "bytes": 319
+    },
+    "integrals/two-loop/4e-03/data/index.json": {
+      "sha256": "4399a0d53f7f823f9a9b8d2c49f2c29f2b604ff07244ddbe47de0dc0bc978b80",
+      "bytes": 2721
+    },
+    "integrals/two-loop/4e-03/derivation.md": {
+      "sha256": "268bb97988a478bab2e71358f6412e8f991f5aa07dad59aa3fa07575242b3b64",
+      "bytes": 6277
+    },
+    "integrals/two-loop/4e-03/input.json": {
+      "sha256": "aef1e6cb3ca5fd7cf7c858eecf6fcb62b909cceadd0d779a6ad2d1af8ab21ed1",
+      "bytes": 3298
+    },
+    "integrals/two-loop/4e-03/README.md": {
+      "sha256": "a5837e7e9e2815f2c8e167ba4bbb868a9cea4b42d965a558295c253531810c61",
+      "bytes": 1374
+    },
+    "integrals/two-loop/4e-03/reproduce.md": {
+      "sha256": "9413e1e240471484f6955a87b6b9d8e4919a48991117a3ad7429e41611b2f2e5",
+      "bytes": 3825
+    },
+    "integrals/two-loop/4e-03/result.json": {
+      "sha256": "57e8018a90de77baf03ca359d24e620e5fe81190ba4a48d9900f1637db7055a0",
+      "bytes": 4248
+    },
+    "integrals/two-loop/4e-03/validation.md": {
+      "sha256": "fa807f64fae975bb69669cd89d6658cd87e9745af488e6344da125e4b8c388b9",
+      "bytes": 3735
+    },
+    "integrals/two-loop/4e-04/appendices/endpoint-conversion.md": {
+      "sha256": "170c7a70993b8e1992907b23932341e4c5f62abcc719f1f52d1d69c1254f6565",
+      "bytes": 7641
+    },
+    "integrals/two-loop/4e-04/checks/index.json": {
+      "sha256": "8472b313e994206e97abbd88cf241be1eb885bbec0f11ddc12e4889ddeef36e3",
+      "bytes": 534
+    },
+    "integrals/two-loop/4e-04/code/reproduce.py": {
+      "sha256": "4d3a31f87933814d1b6ff607abbbaacbef7ce81dc95255f7cbdf284107f96d85",
+      "bytes": 319
+    },
+    "integrals/two-loop/4e-04/data/index.json": {
+      "sha256": "b3ad3e0d3d6bac8b5030297658ad15e254466c2843fe92710d36c9771c8134b7",
+      "bytes": 8288
+    },
+    "integrals/two-loop/4e-04/derivation.md": {
+      "sha256": "821df4f5cd58a12ee5e7471f119b3067ea5a69f9c486fab6f3dcdd361309b4e4",
+      "bytes": 16224
+    },
+    "integrals/two-loop/4e-04/input.json": {
+      "sha256": "bd96c5cd31f19d1a0b204806ce4307ec457290f8e8f1cd449f7c7444ffe6ffb3",
+      "bytes": 3298
+    },
+    "integrals/two-loop/4e-04/README.md": {
+      "sha256": "693282047b2b38a1b05add3fd55bf91a631d4a689f6be837efe6bee3ecfcaec0",
+      "bytes": 1671
+    },
+    "integrals/two-loop/4e-04/reproduce.md": {
+      "sha256": "450c48ec1dc2a78f41f02c80c5f2533dfe7e33d69c37d82ad6d370c96a09d7a7",
+      "bytes": 4268
+    },
+    "integrals/two-loop/4e-04/result.json": {
+      "sha256": "6ff28c66c5b59637bd37b8a3dfad48be9342550079b9428aaba7ae9f19fb38de",
+      "bytes": 13992
+    },
+    "integrals/two-loop/4e-04/validation.md": {
+      "sha256": "0c5a9a19d4c4cde3e52e3744c3d6895026d36b5e38b1dfd36f77ea79904dea13",
+      "bytes": 4230
+    },
+    "integrals/two-loop/4e-05/checks/index.json": {
+      "sha256": "ee5834ccfe2fb8a24112ef3bc82ad78571b74a83f1954877e6f1e94079032950",
+      "bytes": 534
+    },
+    "integrals/two-loop/4e-05/code/reproduce.py": {
+      "sha256": "4d3a31f87933814d1b6ff607abbbaacbef7ce81dc95255f7cbdf284107f96d85",
+      "bytes": 319
+    },
+    "integrals/two-loop/4e-05/data/index.json": {
+      "sha256": "769280b672e1ec47ef573f69230f762a9f46f2e821264463799d1b349990399e",
+      "bytes": 5825
+    },
+    "integrals/two-loop/4e-05/derivation.md": {
+      "sha256": "4cd8d9944a6e982786d023633df19f4ebc554058659b95268ce9204a738d46c0",
+      "bytes": 9369
+    },
+    "integrals/two-loop/4e-05/input.json": {
+      "sha256": "3e7eca90535c6594d6807379359af2e78930ebbb2d9e1932c11af86d9dfed97a",
+      "bytes": 3299
+    },
+    "integrals/two-loop/4e-05/README.md": {
+      "sha256": "51fa189012b00098227cd7d77b7593e47bc29176f397653872085a756bd8faee",
+      "bytes": 1488
+    },
+    "integrals/two-loop/4e-05/reproduce.md": {
+      "sha256": "5f9acb5c951ec57eff8325367a86732da525bc9f9723f8642b1e579e125777bd",
+      "bytes": 3913
+    },
+    "integrals/two-loop/4e-05/result.json": {
+      "sha256": "94f5811e312c534c922f39205b497608d791f75808d9d06d7dbf0b04b8c5aeee",
+      "bytes": 22908
+    },
+    "integrals/two-loop/4e-05/validation.md": {
+      "sha256": "cc7c84ca2e7286c233141edc7568d871d664baecdaebf62e700184126ab3d99a",
+      "bytes": 3823
+    },
+    "integrals/two-loop/4e-06/checks/index.json": {
+      "sha256": "21b4f5dd60a144b7a13c9a3db3e9e661a26148ccbe30b9682ede9bcc61369cc2",
+      "bytes": 534
+    },
+    "integrals/two-loop/4e-06/code/reproduce.py": {
+      "sha256": "4d3a31f87933814d1b6ff607abbbaacbef7ce81dc95255f7cbdf284107f96d85",
+      "bytes": 319
+    },
+    "integrals/two-loop/4e-06/data/index.json": {
+      "sha256": "9aca50352ff361b18f59a63924628a5a65970ec78f67e5b845ca7b1773fe8e8c",
+      "bytes": 3885
+    },
+    "integrals/two-loop/4e-06/derivation.md": {
+      "sha256": "a17191437f2b0dd9f0c53b203c3a2ed902eabc17f1160a0e0e253f3c89d49b56",
+      "bytes": 7547
+    },
+    "integrals/two-loop/4e-06/input.json": {
+      "sha256": "40229205dcfc4317f776be1f575cf534a85cd5475f5af65db3acc4aee3281cc9",
+      "bytes": 3299
+    },
+    "integrals/two-loop/4e-06/README.md": {
+      "sha256": "384ded9997b5fcf48968bf166d1819362141a3d760b35504399fa9b472d556b7",
+      "bytes": 1400
+    },
+    "integrals/two-loop/4e-06/reproduce.md": {
+      "sha256": "8053e06885458674cf9c090adb06c0eafb2162d574ca57bb01ff3f49ee516309",
+      "bytes": 3857
+    },
+    "integrals/two-loop/4e-06/result.json": {
+      "sha256": "b30e354292e3aebce11bafb56c010c0260a61f0a2180347cac69e07a1fad66c4",
+      "bytes": 13434
+    },
+    "integrals/two-loop/4e-06/validation.md": {
+      "sha256": "4cfed3acb1c7230ab1b99dbe7da27d79535c36578d3e890b75140363ccae684e",
+      "bytes": 3767
+    },
+    "integrals/two-loop/README.md": {
+      "sha256": "23d3f8101e2dd08c8c3d7b55da84b79433a60c4c35b25e265427f5824fa89534",
+      "bytes": 1953
+    },
+    "README.md": {
+      "sha256": "c8889bd95139d58c3ed432b164537652608de316be650a9c174b60dd35cc0190",
+      "bytes": 6809
+    },
+    "workflow/backlog/tasks/wilson-5.24 - Establish-integral-derivation-standard-and-audit-the-low-loop-pilot.md": {
+      "sha256": "dc5cb3316e04377fbdde76fde21525b0504c00452e8c0f7896da30fc5ad202fc",
+      "bytes": 1539
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/.gitattributes": {
+      "sha256": "48747480eddba024928d03be9bf83dc579e5515768647507a767e8187a85c9ab",
+      "bytes": 9
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/.gitignore": {
+      "sha256": "9b200bfb60f9f301b18ad4b06eca8487368b986bde5307f63d2935c1da48935f",
+      "bytes": 42
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/archive_replay.py": {
+      "sha256": "173a90b1a07fcd03445bcc6c98e7b406afda6b8ed4329345a85b3eef1a5b02c7",
+      "bytes": 3569
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/artifact-check.json": {
+      "sha256": "bf959d6101843938b11181c3b39314aeea0252d3bcccf45243ee923879c97823",
+      "bytes": 617
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/bind_sources.py": {
+      "sha256": "1c3d3d3ff167c54907b88dcb90d686c5ff435f03bb840fe6843fed4f22b092e7",
+      "bytes": 3433
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/check_artifacts.py": {
+      "sha256": "dede1215ddeaabaadd7a8e9d38e15c30e1a0dcadf19b61905b6e75fc32d39ce3",
+      "bytes": 5290
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/entries.json": {
+      "sha256": "00a7c9f1c2adaa27238d0c661d6b51427cc6744d62bd476036036b60df7a876c",
+      "bytes": 2787
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/one-loop-r001/2e-01/result.json": {
+      "sha256": "e9463e95aac73ed11669fb36f6996d16c7a545042233dcd073114a3c00f620bc",
+      "bytes": 1639
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/one-loop-r001/2e-02/result.json": {
+      "sha256": "e97408b71fa3039ad68c4733e3a370b4c3b1905b11324f3ec834b02138cd659f",
+      "bytes": 1771
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/one-loop-r001/checks.json": {
+      "sha256": "ccfa858241b38a6e2514728464e8478ecd1837c4e6b6a8a86cb8e7d1115f7c97",
+      "bytes": 17111
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/one-loop-r001/generated-before-holdout.json": {
+      "sha256": "0b5e56d8684207f4399cf9c488e8a54f97989da75ae4f3ea41aaac130aaf08c5",
+      "bytes": 3629
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/one-loop-r001/numeric.json": {
+      "sha256": "71edcdb4635741b9dc2168510baa8337a8edfbf55d1f2b0af8baefb2e667d968",
+      "bytes": 7545
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-controls-r001/integral-checks.json": {
+      "sha256": "1e15ecdfe9a53ff4f07a460354f2559e93a7b922745fa58ae8aa13699270e9a3",
+      "bytes": 17996
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/2e-Pi1-01/result.json": {
+      "sha256": "63b0c699b65c4614408b854bfed769a3efcf096186f0010d0af14b91802e8c3e",
+      "bytes": 5172
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/2e-Pi1-02/result.json": {
+      "sha256": "b577aae4fdb48b985d0380d81b0008d7dc1819ecf53825014741339699488dd7",
+      "bytes": 17475
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/3e-3g-01/result.json": {
+      "sha256": "9920361d74234dcf446e996d979fb6517c3e529a84c00c892b629e04d1a387aa",
+      "bytes": 6843
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/3e-3g-02/result.json": {
+      "sha256": "9e973d3abf273a967f9b158c660d6c66c624f7915e67617dfd4b93f1b60b2d8e",
+      "bytes": 6843
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/3e-3g-03/result.json": {
+      "sha256": "853c88ae1da64e42c27ec0f933a85a75c141eac4b8b1f36672b59f7e9e852f31",
+      "bytes": 34108
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/3e-3g-04/result.json": {
+      "sha256": "caad26a1d4939aea13fb11d3c2c413368286cf8d93a6684257fd31d83c462295",
+      "bytes": 23314
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/4e-01/result.json": {
+      "sha256": "d3213b53a4652711f4ab9480432403d0d57ddf1198be3a0575d2e486f46df7e4",
+      "bytes": 3349
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/4e-02/result.json": {
+      "sha256": "e278ce080699f3a1fbb3c6f5d45506c3fc8c63648c1e5b70fe8c7ced676fe4fe",
+      "bytes": 22908
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/4e-03/result.json": {
+      "sha256": "57e8018a90de77baf03ca359d24e620e5fe81190ba4a48d9900f1637db7055a0",
+      "bytes": 4248
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/4e-04/result.json": {
+      "sha256": "6ff28c66c5b59637bd37b8a3dfad48be9342550079b9428aaba7ae9f19fb38de",
+      "bytes": 13992
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/4e-05/result.json": {
+      "sha256": "94f5811e312c534c922f39205b497608d791f75808d9d06d7dbf0b04b8c5aeee",
+      "bytes": 22908
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/4e-06/result.json": {
+      "sha256": "b30e354292e3aebce11bafb56c010c0260a61f0a2180347cac69e07a1fad66c4",
+      "bytes": 13434
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/catalog.json": {
+      "sha256": "38006511c2d47b029361c3d6b3579cd36943cf7905dce78f7f52fca6c950694f",
+      "bytes": 26084
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/primary/two-loop-r002/verification.json": {
+      "sha256": "95048b7859f6eafbf9a691bf7b2778c5ca5e0fe3169d413aa47cfb85ce685142",
+      "bytes": 16506
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/one-loop/2e-01/result.json": {
+      "sha256": "e9463e95aac73ed11669fb36f6996d16c7a545042233dcd073114a3c00f620bc",
+      "bytes": 1639
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/one-loop/2e-02/result.json": {
+      "sha256": "e97408b71fa3039ad68c4733e3a370b4c3b1905b11324f3ec834b02138cd659f",
+      "bytes": 1771
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/one-loop/checks.json": {
+      "sha256": "6001ab1cbc26db5bacbb337985b08bfeb50b624584dc6c66f28b804b2cab6255",
+      "bytes": 17110
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/one-loop/generated-before-holdout.json": {
+      "sha256": "0b5e56d8684207f4399cf9c488e8a54f97989da75ae4f3ea41aaac130aaf08c5",
+      "bytes": 3629
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/one-loop/numeric.json": {
+      "sha256": "71edcdb4635741b9dc2168510baa8337a8edfbf55d1f2b0af8baefb2e667d968",
+      "bytes": 7545
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/one-loop-isolated.log": {
+      "sha256": "69297065867588879e8cd88f47e5cdbaf6cf7f7981919c2ae6087cc61f5c7f30",
+      "bytes": 213
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/2e-Pi1-01/result.json": {
+      "sha256": "63b0c699b65c4614408b854bfed769a3efcf096186f0010d0af14b91802e8c3e",
+      "bytes": 5172
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/2e-Pi1-02/result.json": {
+      "sha256": "b577aae4fdb48b985d0380d81b0008d7dc1819ecf53825014741339699488dd7",
+      "bytes": 17475
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/3e-3g-01/result.json": {
+      "sha256": "9920361d74234dcf446e996d979fb6517c3e529a84c00c892b629e04d1a387aa",
+      "bytes": 6843
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/3e-3g-02/result.json": {
+      "sha256": "9e973d3abf273a967f9b158c660d6c66c624f7915e67617dfd4b93f1b60b2d8e",
+      "bytes": 6843
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/3e-3g-03/result.json": {
+      "sha256": "853c88ae1da64e42c27ec0f933a85a75c141eac4b8b1f36672b59f7e9e852f31",
+      "bytes": 34108
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/3e-3g-04/result.json": {
+      "sha256": "caad26a1d4939aea13fb11d3c2c413368286cf8d93a6684257fd31d83c462295",
+      "bytes": 23314
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/4e-01/result.json": {
+      "sha256": "d3213b53a4652711f4ab9480432403d0d57ddf1198be3a0575d2e486f46df7e4",
+      "bytes": 3349
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/4e-02/result.json": {
+      "sha256": "e278ce080699f3a1fbb3c6f5d45506c3fc8c63648c1e5b70fe8c7ced676fe4fe",
+      "bytes": 22908
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/4e-03/result.json": {
+      "sha256": "57e8018a90de77baf03ca359d24e620e5fe81190ba4a48d9900f1637db7055a0",
+      "bytes": 4248
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/4e-04/result.json": {
+      "sha256": "6ff28c66c5b59637bd37b8a3dfad48be9342550079b9428aaba7ae9f19fb38de",
+      "bytes": 13992
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/4e-05/result.json": {
+      "sha256": "94f5811e312c534c922f39205b497608d791f75808d9d06d7dbf0b04b8c5aeee",
+      "bytes": 22908
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/4e-06/result.json": {
+      "sha256": "b30e354292e3aebce11bafb56c010c0260a61f0a2180347cac69e07a1fad66c4",
+      "bytes": 13434
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/catalog.json": {
+      "sha256": "82b577331af899517e4df2c2fcb27212d6a78f0eb372de0d3a1a0274a22e0c4a",
+      "bytes": 26084
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop/verification.json": {
+      "sha256": "8ac193c127e5c7263e93f73469dcd6925c5c4709e1c4b3686dbe0a0038e268ba",
+      "bytes": 16506
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop-controls/integral-checks.json": {
+      "sha256": "96da8dcd05dbff239220762020a256f249a77f2553dde8d788ac04947661accd",
+      "bytes": 18007
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop-controls-isolated.log": {
+      "sha256": "7c5c5bc1c0a30e0ecd2b63ae130e7212453dc8af6e4155f0625c67c38df61c2f",
+      "bytes": 92
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop-first-import-failure.log": {
+      "sha256": "102f554979787fdbf4fcc10e5ab01d750c919883ebf399a1997b1c3d1172d9ac",
+      "bytes": 630
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/evidence/replay/two-loop-isolated.log": {
+      "sha256": "a5d2d6b094596674821b4ab34d05d1ba33f3c3b304d0deeb0db789d126ec1214",
+      "bytes": 150
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/final_checks.py": {
+      "sha256": "ca950b210ef936c05d89540ef717d4f920203b316d4392beb98cd6ed30b309ef",
+      "bytes": 1379
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/freeze.py": {
+      "sha256": "7a6568e6918f32551ae1b3fcffeea4e88d11c5b33e6f0c70aada2b6c1575923f",
+      "bytes": 1329
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/handoff.md": {
+      "sha256": "74c8417c4a820ca200ff670e71566fa07d2bd7f1e51a3f24a5054fb876d3f1c2",
+      "bytes": 2877
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/index_data.py": {
+      "sha256": "24902636e151d66a5238af3fefbdd2f0dbffd9d8dd3b7d3da343c449f6fc1484",
+      "bytes": 5926
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/install_skill.py": {
+      "sha256": "f0cba42ecfa9a27a7b96b247ecca53b18d54ac13fb2b90e93ee5506ea073abc8",
+      "bytes": 1262
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/isolate.py": {
+      "sha256": "7da2bdd86fadb21e9a307e47386d3ad2adf1a0228abf242551a4ef384512905e",
+      "bytes": 1083
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/isolation-input.json": {
+      "sha256": "8114adbe4932ef6c3e01d9b8944c997897aa62331d0ca2521c5f7158930d8e73",
+      "bytes": 49016
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/one-loop.log": {
+      "sha256": "3882de504f72fbed2196818e2b53a4f146608eb0511b0f08f3311eaa0f148c69",
+      "bytes": 203
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/preflight.json": {
+      "sha256": "7cc3aa9829a17ef7143c09dff718591dd991fb1193df8617b592d0d29f0950dc",
+      "bytes": 1487743
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/prepare.py": {
+      "sha256": "1907b496d03757259c2e5e5cc1850c9d459ce42d685cff36a35530b8d5d03196",
+      "bytes": 7357
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/project-index-build.json": {
+      "sha256": "93b17de734fe21efc8195a7890a539f4fe21dca601d6bcf76042578aa673775e",
+      "bytes": 17556
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/project-index-check.json": {
+      "sha256": "2f16346abe2561fe093494b105ac5c86e243229e18ede1ba533754db7bf42f9e",
+      "bytes": 9525
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/reader_metadata.py": {
+      "sha256": "858fb3550fc1ae40184f0f604e4e49ecde2e66fb9d6612cb67024d57bc26f1ae",
+      "bytes": 1513
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/README.md": {
+      "sha256": "e8e5e682574d4b6e1b9c771bb111ab8ee5c90745f6a005991dcd3a2fa62240c2",
+      "bytes": 4796
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/replay.json": {
+      "sha256": "836a5b7f5971d18dff3eb154d5612ff977e27e56aa93f623d409aadbf5e4b655",
+      "bytes": 6291
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/retain_links.py": {
+      "sha256": "2ee543e6c996f46297326eeda70c3938951a297d70db9df92bf8bab8c386b60e",
+      "bytes": 700
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/review/audit.json": {
+      "sha256": "1dc60beef669defcb25bfc2a0349feee5458e1ff7a8374971aace050cca0df87",
+      "bytes": 82389
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/review/baseline-findings.md": {
+      "sha256": "0c77a3b6abd76712996750b191f1ce953d330bbb7fcd1c0be26537a8a2942519",
+      "bytes": 5610
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/review/check_hlog_transcription.py": {
+      "sha256": "7a127cbb36869bdbfeec55c34a7171e93387acd2319b17c3e91de9e116006300",
+      "bytes": 3859
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/review/hlog-transcription-check.json": {
+      "sha256": "5d8ce8b3b65e76cccf133bcdb29e4c2977669dab5230fad162b70198c0fcd941",
+      "bytes": 2023
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/review/README.md": {
+      "sha256": "2a6a3dd2a375aa256305c79738d07ca1962ab21221316670c639b2a5d8878d65",
+      "bytes": 7550
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/review/standard-forward-test.md": {
+      "sha256": "9bf0ea6b5bdc83b1114158eb8dd4c7badcf01946dd9c3f574a1ec69107d8027d",
+      "bytes": 6595
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/review/write_review.py": {
+      "sha256": "b38f81a7f835681e1bd9cdee57be6fb678b23ae3c385d3dde88726417f6304c0",
+      "bytes": 17403
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/run_checks.py": {
+      "sha256": "2c57be4e99b0e01ba7d418949e6389d24bd013cd00b28df563920e46d839f7f2",
+      "bytes": 2014
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/skill-install.json": {
+      "sha256": "b0bd6f36016c94006de03a4e2d2fbdee8b8613c26c3956cc970251d4e305df42",
+      "bytes": 656
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/skill-validation-installed.json": {
+      "sha256": "fdb76870e3c1bc5a4ec798f69962e16c48a42f1e7a74e9e3df05abca4488a44e",
+      "bytes": 255
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/skill-validation-project.json": {
+      "sha256": "3e34458f1f7ff5e21fce83fd199aa7535f2b5e701cd350bf21863c897ca826e8",
+      "bytes": 256
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/source-binding-check.json": {
+      "sha256": "3c2a0f73604b8668b0816e1b09755e802c0d91a7ead585bbdde89f943a85434b",
+      "bytes": 282
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/two-loop-controls.log": {
+      "sha256": "3f3055cab98e31e55c60ef54624e020a1b601e7634616627b17510e838f623fa",
+      "bytes": 81
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/two-loop-r002.json": {
+      "sha256": "270ddfa0423d7033d9e0d5199a4c0441b2029e9781cfab810682f7b725c7e47f",
+      "bytes": 368
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/two-loop-r002.log": {
+      "sha256": "730448bdfef2d7b45260f489b5e80b50d8bde45c0cc86121ad29579b7a54b5bf",
+      "bytes": 150
+    },
+    "workflow/checks/integral-documentation-low-loops-20261103/two-loop.log": {
+      "sha256": "102f554979787fdbf4fcc10e5ab01d750c919883ebf399a1997b1c3d1172d9ac",
+      "bytes": 630
+    },
+    "workflow/data-flow.md": {
+      "sha256": "0a95e9c034007b6fd849490b222b43817f7d5a16c87816efdf8dae83ca2af89f",
+      "bytes": 17912
+    },
+    "workflow/integral-documentation-standard.md": {
+      "sha256": "4e2ec355eb44d24ed5059b8c9a2f27d8f2f0213796970186978e993a69f7a400",
+      "bytes": 653
+    },
+    "workflow/master-plan.md": {
+      "sha256": "0d39d84970d0f2383e35a3ef46b66b2702f160a3a8df8528a796fef2a513cdcb",
+      "bytes": 543008
+    },
+    "workflow/project-map.md": {
+      "sha256": "f512f9618a1603b113d3282a63aecafe4e0ac3004b72eb4c3997a551fa8580fa",
+      "bytes": 63981
+    },
+    "workflow/skills/wilson-integral-derivations/agents/openai.yaml": {
+      "sha256": "a8308eea7d1c8f7448b21285ea6745f63f700ca47866a5ee387ae1c7475ce125",
+      "bytes": 289
+    },
+    "workflow/skills/wilson-integral-derivations/references/standard.md": {
+      "sha256": "b9d52c789ab3ca75dc57339b02bc4fc58f74dbdfda80517ffe5bd3848c772542",
+      "bytes": 6413
+    },
+    "workflow/skills/wilson-integral-derivations/SKILL.md": {
+      "sha256": "eb07f96d59b13f373fd3631bfaa5de4acdb27b5fd00fceebd41c159b13baf368",
+      "bytes": 2239
+    }
+  }
+}

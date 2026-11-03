@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "checks": [
+    {
+      "parameters": [
+        "-.4",
+        "-.31",
+        "-.17",
+        ".4"
+      ],
+      "identity": "Euler -> Gauss",
+      "absolute_error": 2.627434620609032e-46,
+      "passed": true
+    },
+    {
+      "parameters": [
+        "-.4",
+        "-.31",
+        "-.17",
+        ".4",
+        "0.13"
+      ],
+      "identity": "Mellin -> 3F2",
+      "absolute_error": 2.4960628895785804e-45,
+      "passed": true
+    },
+    {
+      "parameters": [
+        "-.2",
+        "-.5",
+        ".2",
+        "1.7"
+      ],
+      "identity": "Euler -> Gauss",
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "parameters": [
+        "-.2",
+        "-.5",
+        ".2",
+        "1.7",
+        "0.13"
+      ],
+      "identity": "Mellin -> 3F2",
+      "absolute_error": 3.853570776893247e-45,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".17",
+        ".24",
+        ".11",
+        "1"
+      ],
+      "identity": "Euler -> Gauss",
+      "absolute_error": 5.289901702826184e-44,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".17",
+        ".24",
+        ".11",
+        "1",
+        "0.13"
+      ],
+      "identity": "Mellin -> 3F2",
+      "absolute_error": 4.5542200090556555e-45,
+      "passed": true
+    },
+    {
+      "parameters": [
+        "-.63",
+        "-.8",
+        "-.37",
+        ".2"
+      ],
+      "identity": "Euler -> Gauss",
+      "absolute_error": 1.7516230804060213e-46,
+      "passed": true
+    },
+    {
+      "parameters": [
+        "-.63",
+        "-.8",
+        "-.37",
+        ".2",
+        "0.13"
+      ],
+      "identity": "Mellin -> 3F2",
+      "absolute_error": 1.7516230804060213e-45,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".23",
+        ".41",
+        ".58"
+      ],
+      "identity": "two Frobenius coefficients",
+      "errors": [
+        0.0003199071638286865,
+        3.5396157481246134e-05
+      ],
+      "decade_ratio": 9.037906558026311,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".37",
+        ".62",
+        ".44"
+      ],
+      "identity": "two Frobenius coefficients",
+      "errors": [
+        0.00017029491869833828,
+        1.7631583781887954e-05
+      ],
+      "decade_ratio": 9.658515128588377,
+      "passed": true
+    }
+  ],
+  "precision": 45,
+  "source_sha256": {
+    "check_euler_extension.py": "2c4a1fb12d7e49ae98ab78c70e2ce021f75fc0e7e902dbedd66967480265748c",
+    "generators.py": "7fe3a3ea95c26db75f529d2ed911059c2d9d38195e8f0880c1adbf5ae63f8515"
+  },
+  "limits": "Floating integral/asymptotic controls; analytic justification in derivation, not interval certification."
+}

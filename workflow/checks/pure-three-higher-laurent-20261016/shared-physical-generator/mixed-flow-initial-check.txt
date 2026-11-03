@@ -1,0 +1,13 @@
+The first mixed_projection_flow.py invocation exited 1 before numeric tests.
+The assertion s.simplify(z*diff(pref,z)/pref+D0[1,1])==0 did not normalize
+symbolic powers with unconstrained complex z. The domain in the derivation
+is z>0. The executed replacement checks its explicit rational logarithmic
+derivative (2*e+2)*z/(1+z)-e with s.cancel. No matrix or mathematical identity
+was changed to force the assertion. The final verification is separate.
+
+Subsequent review found that r001's auxiliary symbolic check transcribed
+V_n=t*B_n(1)-sign*B_n(-1/z) as sign*(t*B_n(1)-B_n(-1/z)). The independent
+numerical flow formula was already correct. The executed r001 source and
+its report remain intact. r002 corrects the endpoint substitution and its
+expected sign*t*B term before rerunning the numerical controls. Only r002
+is accepted for the connected parity proof.

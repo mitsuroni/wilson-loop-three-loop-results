@@ -1,0 +1,161 @@
+{
+  "format": "wilson-computational-result/1",
+  "orbit_id": "6e-07",
+  "revision": "r002",
+  "input": {
+    "manifest": "benchmarks/2ne/prepared/manifest.json",
+    "manifest_sha256": "0e9e55dad06bb5adb185689bdf03ea11f7b0c32386a9020fd2b2041fac1ac22c",
+    "package": "benchmarks/2ne/prepared/6e.json",
+    "package_sha256": "9699532d1ee3a4027c2eb93c961a5b467a9bceda229c0204c13775cfa2451406",
+    "orbit_sha256": "7541e36358e88657fd49ff3c4271e8d124640919eb942db97402863bba4726cc",
+    "orbit_hash_encoding": "UTF-8 JSON; sorted keys; compact separators; ensure_ascii=false",
+    "normalization_version": "ordered-parameters+fixed-loop-color-a1+per-loop-euler-compensation/0.3"
+  },
+  "domain": {
+    "J_convergence": "z>0, Re(eps)>0",
+    "I_real_domain": "z>0, real 0<eps<1; nonzero common scale/coupling or formal coefficient extraction",
+    "laurent": "fixed z>0, local meromorphic continuation at eps=0; remainder O(eps)",
+    "complex_kinematics": "not analyzed; no physical i0 continuation claimed"
+  },
+  "normalization": {
+    "loop_order": 3,
+    "a1": "1/4",
+    "sym": 4,
+    "kappa": "-1/16",
+    "euler_compensation": "already in prepared C; exactly once",
+    "scale_convention": "N=CA^(n-1)*CF*(alphaS/Pi)^n; S12=z^(n eps)*S14 in a common real branch"
+  },
+  "definitions": {
+    "G": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Exp[-EulerGamma*eps]*Gamma[1 - eps]",
+      "latex": "e^{- \\gamma \\varepsilon} \\Gamma\\left(1 - \\varepsilon\\right)"
+    },
+    "R2": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Gamma[eps + 1]^2/Gamma[2*eps + 1]",
+      "latex": "\\frac{\\Gamma^{2}\\left(\\varepsilon + 1\\right)}{\\Gamma\\left(2 \\varepsilon + 1\\right)}"
+    },
+    "R12": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Gamma[eps + 1]*Gamma[2*eps + 1]/Gamma[3*eps + 1]",
+      "latex": "\\frac{\\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(2 \\varepsilon + 1\\right)}{\\Gamma\\left(3 \\varepsilon + 1\\right)}"
+    },
+    "ell": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Log[z]",
+      "latex": "\\log{\\left(z \\right)}"
+    }
+  },
+  "reduction": {
+    "r": 2,
+    "chains": [
+      {
+        "variables_low_to_high": [
+          "s21"
+        ],
+        "word": "B"
+      },
+      {
+        "variables_low_to_high": [
+          "s31",
+          "s32",
+          "s33"
+        ],
+        "word": "BAB"
+      },
+      {
+        "variables_low_to_high": [
+          "s41",
+          "s42"
+        ],
+        "word": "AA"
+      }
+    ],
+    "K": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "(1/2)*(-R12 + R2)/eps^6",
+      "latex": "\\frac{- R_{12} + R_{2}}{2 \\varepsilon^{6}}"
+    },
+    "I_compact": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "-1/32*G^3*(-R12 + R2)*Cosh[(1/2)*ell*eps]/(eps^6*Cosh[(3/2)*ell*eps])",
+      "latex": "- \\frac{G^{3} \\left(- R_{12} + R_{2}\\right) \\cosh{\\left(\\frac{\\ell \\varepsilon}{2} \\right)}}{32 \\varepsilon^{6} \\cosh{\\left(\\frac{3 \\ell \\varepsilon}{2} \\right)}}"
+    }
+  },
+  "J": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "(1/2)*z^(2*eps)*(Gamma[eps + 1]^2/Gamma[2*eps + 1] - Gamma[eps + 1]*Gamma[2*eps + 1]/Gamma[3*eps + 1])/eps^6",
+    "latex": "\\frac{z^{2 \\varepsilon} \\left(\\frac{\\Gamma^{2}\\left(\\varepsilon + 1\\right)}{\\Gamma\\left(2 \\varepsilon + 1\\right)} - \\frac{\\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(2 \\varepsilon + 1\\right)}{\\Gamma\\left(3 \\varepsilon + 1\\right)}\\right)}{2 \\varepsilon^{6}}"
+  },
+  "I": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "-1/32*(Gamma[eps + 1]^2/Gamma[2*eps + 1] - Gamma[eps + 1]*Gamma[2*eps + 1]/Gamma[3*eps + 1])*Exp[-3*EulerGamma*eps]*Cosh[(1/2)*eps*Log[z]]*Gamma[1 - eps]^3/(eps^6*Cosh[(3/2)*eps*Log[z]])",
+    "latex": "- \\frac{\\left(\\frac{\\Gamma^{2}\\left(\\varepsilon + 1\\right)}{\\Gamma\\left(2 \\varepsilon + 1\\right)} - \\frac{\\Gamma\\left(\\varepsilon + 1\\right) \\Gamma\\left(2 \\varepsilon + 1\\right)}{\\Gamma\\left(3 \\varepsilon + 1\\right)}\\right) e^{- 3 \\gamma \\varepsilon} \\cosh{\\left(\\frac{\\varepsilon \\log{\\left(z \\right)}}{2} \\right)} \\Gamma^{3}\\left(1 - \\varepsilon\\right)}{32 \\varepsilon^{6} \\cosh{\\left(\\frac{3 \\varepsilon \\log{\\left(z \\right)}}{2} \\right)}}"
+  },
+  "laurent": {
+    "variable": "eps",
+    "through_power": 0,
+    "stored_from_power": -6,
+    "leading_power": -4,
+    "coefficients": {
+      "-6": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "0",
+        "latex": "0"
+      },
+      "-5": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "0",
+        "latex": "0"
+      },
+      "-4": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "-1/192*Pi^2",
+        "latex": "- \\frac{\\pi^{2}}{192}"
+      },
+      "-3": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "(1/8)*Zeta[3]",
+        "latex": "\\frac{\\zeta\\left(3\\right)}{8}"
+      },
+      "-2": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "(1/1152)*Pi^2*(6*Log[z]^2 - 5*Pi^2)",
+        "latex": "\\frac{\\pi^{2} \\left(6 \\log{\\left(z \\right)}^{2} - 5 \\pi^{2}\\right)}{1152}"
+      },
+      "-1": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "-1/8*Log[z]^2*Zeta[3] - 5/192*Pi^2*Zeta[3] + (9/8)*Zeta[5]",
+        "latex": "- \\frac{\\log{\\left(z \\right)}^{2} \\zeta\\left(3\\right)}{8} - \\frac{5 \\pi^{2} \\zeta\\left(3\\right)}{192} + \\frac{9 \\zeta\\left(5\\right)}{8}"
+      },
+      "0": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "-11/2304*Pi^2*Log[z]^4 + (5/1152)*Pi^4*Log[z]^2 - 155/55296*Pi^6 + (5/8)*Zeta[3]^2",
+        "latex": "- \\frac{11 \\pi^{2} \\log{\\left(z \\right)}^{4}}{2304} + \\frac{5 \\pi^{4} \\log{\\left(z \\right)}^{2}}{1152} - \\frac{155 \\pi^{6}}{55296} + \\frac{5 \\zeta^{2}\\left(3\\right)}{8}"
+      }
+    },
+    "remainder": "O(eps)",
+    "status": "computed"
+  },
+  "status": {
+    "analytic": "derived_exact",
+    "checks": "passed",
+    "formal": "not_run"
+  },
+  "derivation": "benchmarks/2ne/workspaces/6e-07/derivation.md",
+  "evidence": {
+    "run": "workflow/checks/empty-family/runs/20260916T083424975899Z",
+    "checks": "workflow/checks/empty-family/runs/20260916T083424975899Z/6e-07-checks.json",
+    "checks_sha256": "0f3c734cfa443e143d55b56341228f7565efa845bf62938a05666a548cc679e9",
+    "code_sha256": {
+      "workflow/checks/empty-family/empty_math.py": "c844a76f2eb7a1591d7cccd732821be488890d1196704ca397dce6eb0cd49373",
+      "workflow/checks/empty-family/check_math.py": "b64dca9866177584031778dc5ce6cee42c0499f9228a8965038b848843735f39",
+      "workflow/checks/empty-family/solve_empty.py": "dedc7a2505a305f7b47f1ee06ef6063057106b507293c7fd9f1b950da33b160c",
+      "workflow/checks/empty-family/setup_workspaces.py": "f1331140c5f07a197b4a96ca021342d77a3f5cb9a901647c145a712c5166bc1e"
+    },
+    "method_sha256": "2dab6015a123658a65fae14ea770382f548eedd92fe361c31a741b97fe7183ba",
+    "derivation_snapshot": "workflow/checks/empty-family/runs/20260916T083424975899Z/6e-07-derivation.md",
+    "derivation_snapshot_sha256": "77f9ab1c8d96a32ae79535909675f3f1dff05a11280fa6f04708e8fec570347d"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "cases": [
+    {
+      "z": "0.4",
+      "target": "A",
+      "epsilon_power": 3,
+      "Hlog": 4.531070104140952,
+      "quadrature64": 4.531070104140916,
+      "quadrature108": 4.531070104141108,
+      "absolute_error": 1.5631940186722204e-13,
+      "refinement_change": 1.9184653865522705e-13,
+      "tolerance": 1.3593210312422856e-05
+    },
+    {
+      "z": "0.4",
+      "target": "B",
+      "epsilon_power": 3,
+      "Hlog": 8.359183916559326,
+      "quadrature64": 8.359183916559282,
+      "quadrature108": 8.359183916559545,
+      "absolute_error": 2.184918912462308e-13,
+      "refinement_change": 2.6290081223123707e-13,
+      "tolerance": 2.507755174967798e-05
+    },
+    {
+      "z": "0.4",
+      "target": "I20",
+      "epsilon_power": 3,
+      "Hlog": -0.508349280142989,
+      "quadrature64": -0.5083492801429852,
+      "quadrature108": -0.5083492801430064,
+      "absolute_error": 1.7430501486614958e-14,
+      "refinement_change": 2.120525977034049e-14,
+      "tolerance": 3e-06
+    },
+    {
+      "z": "0.4",
+      "target": "I21",
+      "epsilon_power": 3,
+      "Hlog": -0.44676231221196216,
+      "quadrature64": -0.4467623122119599,
+      "quadrature108": -0.4467623122119736,
+      "absolute_error": 1.1435297153639112e-14,
+      "refinement_change": 1.3711254354120683e-14,
+      "tolerance": 3e-06
+    },
+    {
+      "z": "0.7",
+      "target": "A",
+      "epsilon_power": 3,
+      "Hlog": 3.4864462178791324,
+      "quadrature64": 3.4864462178791045,
+      "quadrature108": 3.4864462178792524,
+      "absolute_error": 1.199040866595169e-13,
+      "refinement_change": 1.4788170688007085e-13,
+      "tolerance": 1.0459338653637398e-05
+    },
+    {
+      "z": "0.7",
+      "target": "B",
+      "epsilon_power": 3,
+      "Hlog": 6.48023391201845,
+      "quadrature64": 6.480233912018415,
+      "quadrature108": 6.480233912018617,
+      "absolute_error": 1.6697754290362354e-13,
+      "refinement_change": 2.0250467969162855e-13,
+      "tolerance": 1.9440701736055352e-05
+    },
+    {
+      "z": "0.7",
+      "target": "I20",
+      "epsilon_power": 3,
+      "Hlog": -0.5540802797826023,
+      "quadrature64": -0.5540802797825983,
+      "quadrature108": -0.5540802797826214,
+      "absolute_error": 1.9095836023552692e-14,
+      "refinement_change": 2.3092638912203256e-14,
+      "tolerance": 3e-06
+    },
+    {
+      "z": "0.7",
+      "target": "I21",
+      "epsilon_power": 3,
+      "Hlog": -0.4698937487628231,
+      "quadrature64": -0.4698937487628207,
+      "quadrature108": -0.46989374876283513,
+      "absolute_error": 1.2045919817182948e-14,
+      "refinement_change": 1.4432899320127035e-14,
+      "tolerance": 3e-06
+    }
+  ],
+  "negative_controls": [
+    {
+      "z": "0.4",
+      "target": "A",
+      "mutation": "omit interval log variance at epsilon cubed",
+      "nonzero_difference": 0.2779855470193713,
+      "rejected": true
+    },
+    {
+      "z": "0.4",
+      "target": "B",
+      "mutation": "omit interval log variance at epsilon cubed",
+      "nonzero_difference": 0.6686490769728026,
+      "rejected": true
+    },
+    {
+      "z": "0.7",
+      "target": "A",
+      "mutation": "omit interval log variance at epsilon cubed",
+      "nonzero_difference": 0.2057625777633656,
+      "rejected": true
+    },
+    {
+      "z": "0.7",
+      "target": "B",
+      "mutation": "omit interval log variance at epsilon cubed",
+      "nonzero_difference": 0.48940364526088675,
+      "rejected": true
+    }
+  ],
+  "period_values": [
+    "1.644934066848226436472415166646025189218949901206798438",
+    "1.202056903159594285399738161511449990764986292340498882",
+    "1.036927755143369926331365486457034168057080919501912812",
+    "1.008349277381922826839797549849796759599863560565238706",
+    "0.03770767298484754401130478229365991482260131941527752401",
+    "1.002008392826082214417852769232412060485605851394888757"
+  ],
+  "Hlog_digits": 55,
+  "Hlog_series_terms": 384,
+  "coefficient_file_sha256": "6e171acef52584d713cf60e2f60b0a56032277d0b664c73952be8175208c36dd",
+  "route": "Original three/four-dimensional ordered-kernel endpoint integrals; analytic linear primitive moments then graded tensor quadrature.",
+  "error_scope": "Observed quadrature refinement, not rigorous intervals or convergence-rate bounds."
+}

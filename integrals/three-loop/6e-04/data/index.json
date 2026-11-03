@@ -1,0 +1,745 @@
+{
+  "orbit_id": "6e-04",
+  "runtime_base": "../../../families/three-loop-6e/runtime",
+  "paths_relative_to": "runtime_base; the original_ordered_root field is explicitly relative to this data/index.json file",
+  "original_ordered_root": "../input.json",
+  "archived_subintegral_budget": {
+    "path": "integrals/three-loop/6e-04/subintegrals.json",
+    "sha256": "3d64c759aedd21daefd39f6edb30ad8a59b28fa6fb95b958eedc38b24cd86cd2",
+    "object": "original root, reductions and epsilon budget",
+    "role": "Historical exact root/consumption record. Absolute historical paths inside it are not current output paths."
+  },
+  "required_budget": {
+    "target_powers": [
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0
+    ],
+    "rule": "Required regular order equals requested physical order minus the actual external pole; the active per-order requests below contain the consumed orders. Ordered gap jets use q=0,1,2; all-opposite finite kernels use q=0; Gamma route uses through6.",
+    "normalization": {
+      "format": "wilson-2ne-assembly/0.1",
+      "n": 3,
+      "kappa": "-1/8",
+      "euler": "consumed from prepared C exactly once",
+      "formula": "kappa*G(eps)^n*(J(z)+z^(n*eps)*J(1/z))/(1+z^(n*eps))",
+      "a1": "1/2",
+      "sym": 4
+    }
+  },
+  "new_primitive_events_in_this_orbit": 15,
+  "primitive_units": [
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        0
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/request.json",
+        "sha256": "b035dffb2fa5b17c169deb222d9db912ce045781b13cb56e6928114c6e223331",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/result.json",
+        "sha256": "3550b09225f665183f8370181373925309db5e3a5ef6c5cce1b779a46bc2b4dc",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        0
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/request.json",
+        "sha256": "a6f07978606f7975282da7d09e91db11900e742a5280a45c353c1fd980450aaf",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/result.json",
+        "sha256": "5ac8b66e2837d784cc5786a0223641c291492530fd4d5550cb5883d477a12582",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        0
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-27c948aee63e43ff915d1d184389af99/request.json",
+        "sha256": "5ad2951ddb35292dd1a385f32ada54cdb27015ca605fd97718fd281aa429ba88",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-27c948aee63e43ff915d1d184389af99/result.json",
+        "sha256": "86fed89ad85eda22023302a93350dd0aaecf017e2eeb985e9fb79de2e41d84fd",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        1
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/request.json",
+        "sha256": "b035dffb2fa5b17c169deb222d9db912ce045781b13cb56e6928114c6e223331",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/result.json",
+        "sha256": "3550b09225f665183f8370181373925309db5e3a5ef6c5cce1b779a46bc2b4dc",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        1
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/request.json",
+        "sha256": "a6f07978606f7975282da7d09e91db11900e742a5280a45c353c1fd980450aaf",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/result.json",
+        "sha256": "5ac8b66e2837d784cc5786a0223641c291492530fd4d5550cb5883d477a12582",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        1
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-0272749e13a64b9583e0491f9f6cd666/request.json",
+        "sha256": "ead26576c813d212d08593ee58074298594cd54a3b165ecec65ff1c77632ed51",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-0272749e13a64b9583e0491f9f6cd666/result.json",
+        "sha256": "1fd94af1d8db9b77df5d506c00bcafe8e83cec93d020476bc513ef9743ae4f02",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        2
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/request.json",
+        "sha256": "b035dffb2fa5b17c169deb222d9db912ce045781b13cb56e6928114c6e223331",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/result.json",
+        "sha256": "3550b09225f665183f8370181373925309db5e3a5ef6c5cce1b779a46bc2b4dc",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        2
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/request.json",
+        "sha256": "a6f07978606f7975282da7d09e91db11900e742a5280a45c353c1fd980450aaf",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/result.json",
+        "sha256": "5ac8b66e2837d784cc5786a0223641c291492530fd4d5550cb5883d477a12582",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        2
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-0272749e13a64b9583e0491f9f6cd666/request.json",
+        "sha256": "ead26576c813d212d08593ee58074298594cd54a3b165ecec65ff1c77632ed51",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-0272749e13a64b9583e0491f9f6cd666/result.json",
+        "sha256": "1fd94af1d8db9b77df5d506c00bcafe8e83cec93d020476bc513ef9743ae4f02",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        3
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/request.json",
+        "sha256": "b035dffb2fa5b17c169deb222d9db912ce045781b13cb56e6928114c6e223331",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/result.json",
+        "sha256": "3550b09225f665183f8370181373925309db5e3a5ef6c5cce1b779a46bc2b4dc",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        3
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-8a0ff292fb25440bbcbf462a5c927cbb/request.json",
+        "sha256": "17bb42bc8ac1a6d1e6c92ee415070a87b7dee98d9d0f2f0d9dc0972e0c13c775",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-8a0ff292fb25440bbcbf462a5c927cbb/result.json",
+        "sha256": "907b8e405fc3f342cb863c41cec1a19d6e1ab7e341e7feb3ce92d6d91ff07f7a",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        3
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-037e74ca8da848638b3464ab8cefdd71/request.json",
+        "sha256": "7602407f41598fc474dd9faea5cc0bdd90f0d525b9c549d9a72ab23067540260",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-037e74ca8da848638b3464ab8cefdd71/result.json",
+        "sha256": "39541f7eeaf239ff08ee4544a6204da43e6d49932e8a904d39ebc6900a2d783d",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        4
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/request.json",
+        "sha256": "b035dffb2fa5b17c169deb222d9db912ce045781b13cb56e6928114c6e223331",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/result.json",
+        "sha256": "3550b09225f665183f8370181373925309db5e3a5ef6c5cce1b779a46bc2b4dc",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        4
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-8a0ff292fb25440bbcbf462a5c927cbb/request.json",
+        "sha256": "17bb42bc8ac1a6d1e6c92ee415070a87b7dee98d9d0f2f0d9dc0972e0c13c775",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-8a0ff292fb25440bbcbf462a5c927cbb/result.json",
+        "sha256": "907b8e405fc3f342cb863c41cec1a19d6e1ab7e341e7feb3ce92d6d91ff07f7a",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    },
+    {
+      "operation": "centered-single-opposite-moments",
+      "orders": [
+        4
+      ],
+      "first_replayed_by_orbit": "6e-04",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/single-opposite-037e74ca8da848638b3464ab8cefdd71/request.json",
+        "sha256": "7602407f41598fc474dd9faea5cc0bdd90f0d525b9c549d9a72ab23067540260",
+        "object": "centered weighted opposite moment mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/single-opposite-037e74ca8da848638b3464ab8cefdd71/result.json",
+        "sha256": "39541f7eeaf239ff08ee4544a6204da43e6d49932e8a904d39ebc6900a2d783d",
+        "object": "centered weighted opposite moment historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    }
+  ],
+  "adopted_integrated_primitives": [
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-0/raw.txt",
+      "sha256": "658de9dad59909c3ddba116187fcf80dae4cdfab19c76b807a6ac51ca0866a49",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 0,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-0/reflected.txt",
+      "sha256": "658de9dad59909c3ddba116187fcf80dae4cdfab19c76b807a6ac51ca0866a49",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 0,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/order-0/raw.txt",
+      "sha256": "658de9dad59909c3ddba116187fcf80dae4cdfab19c76b807a6ac51ca0866a49",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 0,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/order-0/reflected.txt",
+      "sha256": "658de9dad59909c3ddba116187fcf80dae4cdfab19c76b807a6ac51ca0866a49",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 0,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-27c948aee63e43ff915d1d184389af99/order-0/raw.txt",
+      "sha256": "658de9dad59909c3ddba116187fcf80dae4cdfab19c76b807a6ac51ca0866a49",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 0,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-27c948aee63e43ff915d1d184389af99/order-0/reflected.txt",
+      "sha256": "658de9dad59909c3ddba116187fcf80dae4cdfab19c76b807a6ac51ca0866a49",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 0,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-1/raw.txt",
+      "sha256": "de311aa0e34690bbb53c0deae8a97fb1412163bdfd41c020e17118f5abf20ff2",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 1,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-1/reflected.txt",
+      "sha256": "4f9ff83d1b7a632d59ae0dbe59b889d02162506ab7d7e80f7bf78d8ffa4846b0",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 1,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/order-1/raw.txt",
+      "sha256": "2f4be9d6ab5f43a3f0bd91e9264c6000e7ebe2ad36670ce019d188f183f255a9",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 1,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/order-1/reflected.txt",
+      "sha256": "1c35ed67e2896ad0d0b05f9020e4b4ece46dd9ec125424d8efe5c31c00202c5a",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 1,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-0272749e13a64b9583e0491f9f6cd666/order-1/raw.txt",
+      "sha256": "9f712d4413065cebb1cca6cf95e481bc91ba08a0f6b0a728f913663703836cf1",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 1,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-0272749e13a64b9583e0491f9f6cd666/order-1/reflected.txt",
+      "sha256": "9f712d4413065cebb1cca6cf95e481bc91ba08a0f6b0a728f913663703836cf1",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 1,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-2/raw.txt",
+      "sha256": "f5cef749d8194a8c3f516b85ab31390e95744b8d7c0f7ce07a50fcba852c5055",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 2,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-2/reflected.txt",
+      "sha256": "5b89867cbbec86f49dd000e8a9ad7abd19d97d6c95584ce108c0e5c78d8e61de",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 2,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/order-2/raw.txt",
+      "sha256": "37034781814ab01526b9867127d3d250f5dc1d7fd2def65825ec1539744a32dc",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 2,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/order-2/reflected.txt",
+      "sha256": "37ea04d2bf9c3d93a7c211fc0b285fa5115dc70de36d47794e17cbee61cbdea4",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 2,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-0272749e13a64b9583e0491f9f6cd666/order-2/raw.txt",
+      "sha256": "70ed46283bf58c013e1368cec1c16fd996fbd21dc317cb4ba8cb5b9c4254dd67",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 2,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-0272749e13a64b9583e0491f9f6cd666/order-2/reflected.txt",
+      "sha256": "70ed46283bf58c013e1368cec1c16fd996fbd21dc317cb4ba8cb5b9c4254dd67",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 2,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-3/raw.txt",
+      "sha256": "4aa644ee91e3627fe741c61b7383ef84ec01a0212ebc2cd17bc43ab96cd29af4",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 3,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-3/reflected.txt",
+      "sha256": "8c778eb2549dc01dfe38320cf93028a52d0f6a9fdc71ea25f6d1a0cbb0b570aa",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 3,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-8a0ff292fb25440bbcbf462a5c927cbb/order-3/raw.txt",
+      "sha256": "366c1b53171edbef65ee786b1c7383dc061a04e9e86a24347312209810485fec",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 3,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-8a0ff292fb25440bbcbf462a5c927cbb/order-3/reflected.txt",
+      "sha256": "e9ee868f4fbc771df2b1cced01e991d4d23c6529da7abd0c7aa8b3b41f7bdb99",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 3,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-037e74ca8da848638b3464ab8cefdd71/order-3/raw.txt",
+      "sha256": "5f50d49c050569debe56b4b1b8f89712b486276cbaedbe382611faf2c15c5e89",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 3,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-037e74ca8da848638b3464ab8cefdd71/order-3/reflected.txt",
+      "sha256": "5f50d49c050569debe56b4b1b8f89712b486276cbaedbe382611faf2c15c5e89",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 3,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-4/raw.txt",
+      "sha256": "f3c1659efb28170995ac3af21764b9addba6a98efd3edbda8df266fed6a28754",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 4,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-4/reflected.txt",
+      "sha256": "7189fea889b9a0c6396c44ccd83dc96161782a82360d92e6878063eb0f9134ed",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 4,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-8a0ff292fb25440bbcbf462a5c927cbb/order-4/raw.txt",
+      "sha256": "c3f9d5d296fcddea4efc60165c3d36e3d495cf831efb23869032195280ac5029",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 4,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-8a0ff292fb25440bbcbf462a5c927cbb/order-4/reflected.txt",
+      "sha256": "5abb07ec53f8c181ca55d8f3242d1c06fee8733d6d3eb28950b3ca8f85420c45",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 4,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-037e74ca8da848638b3464ab8cefdd71/order-4/raw.txt",
+      "sha256": "23b43860ba2bdf9a9aa223a8f27e616ea68e0a73e5b9d06fd1eae3a17d88bee2",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 4,
+      "channel": "raw",
+      "operation": "centered-single-opposite-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-037e74ca8da848638b3464ab8cefdd71/order-4/reflected.txt",
+      "sha256": "23b43860ba2bdf9a9aa223a8f27e616ea68e0a73e5b9d06fd1eae3a17d88bee2",
+      "object": "centered weighted opposite moment",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 4,
+      "channel": "reflected",
+      "operation": "centered-single-opposite-moments"
+    }
+  ],
+  "actual_code": [
+    {
+      "path": "scripts/evaluate_batch.py",
+      "sha256": "411f5b47342feb4fb8eb451b095bd1476c37307518bebe0c51e2b2e5a33668d0",
+      "object": "batch entry",
+      "role": "Calls the original-root recognizers and actual assembly, with only archived CAS and output adapters."
+    },
+    {
+      "path": "engine/wilson_calc/assembly.py",
+      "sha256": "ee7c7c486d258918f3a018ad05a52c8cc23950e9560dcaa68510f33591eb7daf",
+      "object": "physical_expression / expand_scalar",
+      "role": "Actual kappa, Gamma, crossing and finite-order assembly."
+    },
+    {
+      "path": "engine/wilson_calc/exchange.py",
+      "sha256": "78057ae677f8e6bbefee23166d7d3e323571c6782f130327bdc96c93eb082be5",
+      "object": "single_opposite_weights",
+      "role": "Derive this source-specific endpoint weight."
+    },
+    {
+      "path": "engine/wilson_calc/single.py",
+      "sha256": "5b5a61767db5b6024028a8c29d4fbf3cdc8d432e9573d8969f8b0d6574ffb6ef",
+      "object": "evaluate_single",
+      "role": "Use required weighted-moment jets and assemble this original physical I."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-0/compute.mpl",
+      "sha256": "a3c1c10f6428bb5086ac8dda2c2812517416fae8cdfc373a3ad4467b2ee00fe4",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/order-0/compute.mpl",
+      "sha256": "f16ac72240adb806c99369e926c8175107faa2810a99fa3a1a05aab96f75277f",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-27c948aee63e43ff915d1d184389af99/order-0/compute.mpl",
+      "sha256": "e4e20c14034dd130daa6225ee98a0684691f0f3361544892265019613750fccd",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-1/compute.mpl",
+      "sha256": "730f569d6c25c3a6daa6c19e622ad97c2c6b1fe22b83c64dd26c77e9f75687ed",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/order-1/compute.mpl",
+      "sha256": "940976978fcb22b5beaf2163c3620caa09d49492f58fc64dfcd3fc4c1f56bd7b",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-0272749e13a64b9583e0491f9f6cd666/order-1/compute.mpl",
+      "sha256": "0334bac3b9274e555be8ba3dc0d36fec495255b29341006b294593e40e1770cf",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-2/compute.mpl",
+      "sha256": "7486c832ae22e73797fab867a66f99fea40a763181a9980f27c58ec9a19f7ff9",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-cb202a7b22a4409db3fe08c778f6ee64/order-2/compute.mpl",
+      "sha256": "d2459c29e94f18e4028445cc0270f2aedc0dc4e5945cdf817492802b02a04ada",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-0272749e13a64b9583e0491f9f6cd666/order-2/compute.mpl",
+      "sha256": "7471119a8014aa17d22777724e0e39da5acedb22c510ed891b47f29a4ccde38a",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-3/compute.mpl",
+      "sha256": "1e1dc81e783c25f54f97b231eb17df93e59b431eb32d845b53c83dfdb908fed5",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-8a0ff292fb25440bbcbf462a5c927cbb/order-3/compute.mpl",
+      "sha256": "9fd3b32e359d60cf3c31e314b2a279bf170d65cc10f84c797dbf5bb4324c0af6",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-037e74ca8da848638b3464ab8cefdd71/order-3/compute.mpl",
+      "sha256": "8bcaf0909c115923be79607bbeb6dac01cdef6f1eff7b55faa51fa87538d999b",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-6c2197cf1ffe43e2acbe37fa539159c1/order-4/compute.mpl",
+      "sha256": "51cdc605f36e23aff244ea9c2e8e87ad66332f9a691e47a97c9442875c1f9ae5",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-8a0ff292fb25440bbcbf462a5c927cbb/order-4/compute.mpl",
+      "sha256": "6fc77407c852f9e3ebd968eede296f8af13c2adbbc5211de44e624cb4943e97b",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "primitives/objects/cas-runs/single-opposite-037e74ca8da848638b3464ab8cefdd71/order-4/compute.mpl",
+      "sha256": "5f4d0beced81125590727417f5609379ffc61e711d4a6799f86704ba28a78856",
+      "object": "centered weighted opposite moment original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "scripts/primitive_replay.py",
+      "sha256": "f505848c922dd2498490ba68b25588526e986bd574ecb271588a3e278f645deb",
+      "object": "PrimitiveReplay",
+      "role": "Checks mathematical request, regenerated script, original execution and raw parser, then returns adopted primitive jets."
+    }
+  ],
+  "comparison_targets": [
+    {
+      "path": "references/results/6e-04.json",
+      "sha256": "785aaf4f8f6de9caa8a132d317c887ca56413cb2a5e06d20b2cf96c2681ab0f3",
+      "object": "historical complete I",
+      "role": "Only opened after generation for comparison; not a primitive input."
+    },
+    {
+      "path": "references/basis-and-conversions.json",
+      "sha256": "c646e42379fd344c45bee8ad02ec25a0f92a050d9ac85da63912cc1265f72c05",
+      "object": "moment dictionary plus target conversion table",
+      "role": "Used by reading/verification; complete target rows are not opened by generation."
+    }
+  ],
+  "scope": "All required primitive dependencies are listed, including shared batch-cache inputs first replayed by another orbit. A lack of new events does not mean no mathematical dependency. Historical root, subintegrals, whole I, representation and checks remain distinct; this index is not a proof receipt."
+}

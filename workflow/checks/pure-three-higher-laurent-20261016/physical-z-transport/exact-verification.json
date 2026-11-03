@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "generic_symmetric_square_identities": 10,
+  "zero_highest_rows": [
+    1,
+    3,
+    6,
+    8
+  ],
+  "alignment_verified": true,
+  "direct_x1_inverse_rejected": true,
+  "omitted_z_derivative_of_weight_rejected": true,
+  "integer_cases": [
+    {
+      "integer_epsilon": 1,
+      "all_z_symbolic": true,
+      "physical_theta_rows": 40,
+      "Fuchsian_rows": 40,
+      "omitted_forcing_rejected": true
+    },
+    {
+      "integer_epsilon": 2,
+      "all_z_symbolic": true,
+      "physical_theta_rows": 40,
+      "Fuchsian_rows": 40,
+      "omitted_forcing_rejected": true
+    },
+    {
+      "integer_epsilon": 3,
+      "all_z_symbolic": true,
+      "physical_theta_rows": 40,
+      "Fuchsian_rows": 40,
+      "omitted_forcing_rejected": true
+    },
+    {
+      "integer_epsilon": 4,
+      "all_z_symbolic": true,
+      "physical_theta_rows": 40,
+      "Fuchsian_rows": 40,
+      "omitted_forcing_rejected": true
+    },
+    {
+      "integer_epsilon": 5,
+      "all_z_symbolic": true,
+      "physical_theta_rows": 40,
+      "Fuchsian_rows": 40,
+      "omitted_forcing_rejected": true
+    }
+  ],
+  "Fuchsian_only_finite_poles": [
+    0,
+    -1
+  ],
+  "dimension": 41,
+  "residue_nonzero_entries": [
+    73,
+    82
+  ],
+  "epsilon_polynomial_degree": 3,
+  "inputs_sha256": {
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\check_physical_z_system.py": "3cd7a7d3cca6765ba2630b084f6ae26545921f3217bca80529cc6b5eaf8ae345",
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\physical_z_system.py": "d7aacf2a3ba70505fa6f724c38bc58832e6e645e4664e436a39a6258718e806a",
+    "workflow\\checks\\pure-three-generators-20261015\\moment_system.py": "975a5509bae482a1853e07381535f2d49e2b214d34d8360a95363f9022a83926"
+  },
+  "connection_sha256": "2679754660a8195556ec1a19f5669514cc5c7c5eaf7ddb3fbfd7847ca8efb76c",
+  "limits": "Exact algebra and five terminating-polynomial cases. Noninteger boundary continuation and numerical physical-z transport require separate checks."
+}

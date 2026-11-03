@@ -1,0 +1,230 @@
+{
+  "format": "wilson-computational-result/1",
+  "family": "[2]",
+  "orbit_id": "4e-04",
+  "revision": "r002",
+  "input": {
+    "manifest": "benchmarks/2ne/prepared/manifest.json",
+    "manifest_sha256": "0e9e55dad06bb5adb185689bdf03ea11f7b0c32386a9020fd2b2041fac1ac22c",
+    "package": "benchmarks/2ne/prepared/4e.json",
+    "package_sha256": "0193d668525fdcc4f184896cfc7445f7201dc65557657c1f316a8b9ae8af57c7",
+    "orbit_sha256": "093b7e1db3bd5765b49e8c5d5eabc4f75c3c8edbe1bae886506a9528259ce8a0",
+    "normalization_version": "ordered-parameters+fixed-loop-color-a1+per-loop-euler-compensation/0.3"
+  },
+  "domain": {
+    "z": "positive real",
+    "full_I_eps": "0<eps<1",
+    "expansion": "complex eps near 0 at fixed positive z",
+    "log_branch": "real principal"
+  },
+  "normalization": {
+    "a1": "-1/2",
+    "sym": 2,
+    "kappa": "-1/8",
+    "G": "exp(-EulerGamma*eps)*Gamma(1-eps)",
+    "C": "prepared root, Euler compensation exactly once"
+  },
+  "reduction": {
+    "topology": "id",
+    "kind": "base",
+    "reflection": false,
+    "chains": [
+      {
+        "variables_low_to_high": [
+          "s21",
+          "s22"
+        ],
+        "word": "OO"
+      },
+      {
+        "variables_low_to_high": [
+          "s41",
+          "s42"
+        ],
+        "word": "OO"
+      }
+    ],
+    "t_low_high": [
+      "s21",
+      "s22"
+    ],
+    "s_low_high": [
+      "s41",
+      "s42"
+    ],
+    "permutation": [
+      0,
+      1
+    ],
+    "adjacent": [],
+    "scale": "1",
+    "a1": "-1/2",
+    "sym": 2,
+    "kappa": "-1/8",
+    "weight": "1",
+    "original_weight": "1"
+  },
+  "I": {
+    "language": "SymPy/str",
+    "expression": "-F_base(eps, z)*exp(-2*EulerGamma*eps)*gamma(1 - eps)**2/(8*cosh(eps*log(z)))",
+    "latex": "- \\frac{F_{base}{\\left(\\varepsilon,z \\right)} e^{- 2 \\gamma \\varepsilon} \\Gamma^{2}\\left(1 - \\varepsilon\\right)}{8 \\cosh{\\left(\\varepsilon \\log{\\left(z \\right)} \\right)}}"
+  },
+  "J": {
+    "language": "SymPy/str",
+    "expression": "z**eps*F_base(eps, z)",
+    "latex": "z^{\\varepsilon} F_{base}{\\left(\\varepsilon,z \\right)}"
+  },
+  "definitions": "benchmarks/2ne/families/same-channel-two/full-series.json",
+  "laurent": {
+    "from_power": -6,
+    "through_power": 0,
+    "leading_power": 0,
+    "remainder": "O(eps)",
+    "coefficients": {
+      "-6": {
+        "compact": {
+          "language": "SymPy/str",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog": {
+          "language": "SymPy/str",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": []
+      },
+      "-5": {
+        "compact": {
+          "language": "SymPy/str",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog": {
+          "language": "SymPy/str",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": []
+      },
+      "-4": {
+        "compact": {
+          "language": "SymPy/str",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog": {
+          "language": "SymPy/str",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": []
+      },
+      "-3": {
+        "compact": {
+          "language": "SymPy/str",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog": {
+          "language": "SymPy/str",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": []
+      },
+      "-2": {
+        "compact": {
+          "language": "SymPy/str",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog": {
+          "language": "SymPy/str",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": []
+      },
+      "-1": {
+        "compact": {
+          "language": "SymPy/str",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog": {
+          "language": "SymPy/str",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": []
+      },
+      "0": {
+        "compact": {
+          "language": "SymPy/str",
+          "expression": "-M(0, 1, z)**2/48",
+          "latex": "- \\frac{M^{2}{\\left(0,1,z \\right)}}{48}"
+        },
+        "hlog": {
+          "language": "SymPy/str",
+          "expression": "-pi**4/192 - pi**2*Hlog(z, (0, 0))/48 - Hlog(z, (0, 0, 0, 0))/8",
+          "latex": "- \\frac{\\pi^{4}}{192} - \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0\\right) \\right)}}{48} - \\frac{\\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0, \\  0\\right) \\right)}}{8}"
+        },
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-3/16"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/8"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/8"
+          }
+        ]
+      }
+    }
+  },
+  "status": {
+    "analytic": "derived_exact",
+    "full_epsilon": "evaluated_convergent_series",
+    "checks": "passed",
+    "formal": "not_run"
+  },
+  "derivation": "benchmarks/2ne/workspaces/4e-04/derivation.md",
+  "evidence": {
+    "shared": "workflow/checks/same-channel-two/deliveries/20260916T132750613966Z/evidence.json",
+    "shared_sha256": "b8aa2355952a817f77404d76b0dfa1cd78e3a5a2106f7753799bedb45bd10662",
+    "derivation_sha256": "46f77bbf9826b5fae6e5c540152ebf7ac2021144955932c5bb5dc1dc023b46ca",
+    "derivation_snapshot": "workflow/checks/same-channel-two/deliveries/20260916T132750613966Z/derivations/4e-04/derivation.md",
+    "derivation_snapshot_sha256": "46f77bbf9826b5fae6e5c540152ebf7ac2021144955932c5bb5dc1dc023b46ca",
+    "series_definitions_sha256": "637147191b6b7e705cddf06ba5263a3a064368815b3657e59e74132672525590",
+    "coefficient_registry_sha256": "21e9bc873babaf2b77456a86b20185158a33154d7ca971e3f7a83b6170d531f6",
+    "result_schema_sha256": "686af531532b030fc0807c40d72859b1e4398ebaa6a9a65b198a621af95405ca"
+  }
+}

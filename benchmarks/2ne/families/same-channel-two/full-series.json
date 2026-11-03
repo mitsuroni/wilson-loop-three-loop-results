@@ -1,0 +1,34 @@
+{
+  "format": "wilson-full-epsilon-definitions/1",
+  "language": "SymPy/str",
+  "domain": "z>0; real 0<eps<1, locally holomorphic kernels near eps=0",
+  "summation_order": "finite a,b,c,d and h sums are completed for each k,l before the absolutely convergent k,l sum",
+  "definitions": {
+    "p(k,a,b,z)": {
+      "language": "SymPy/str",
+      "expression": "Sum((-1)**h*z**(-a - b + h + k)*(z + 1)**(h - k)*factorial(k)/(factorial(h)*factorial(a - h)*factorial(b - h)*factorial(-a - b + h + k)), (h, Max(0, a + b - k), Min(a, b)))",
+      "latex": "\\sum_{h=\\max\\left(0, a + b - k\\right)}^{\\min\\left(a, b\\right)} \\frac{\\left(-1\\right)^{h} z^{- a - b + h + k} \\left(z + 1\\right)^{h - k} k!}{h! \\left(a - h\\right)! \\left(b - h\\right)! \\left(- a - b + h + k\\right)!}"
+    },
+    "F_base(eps,z)": {
+      "language": "SymPy/str",
+      "expression": "((z + 1)**2/z)**eps*Sum(RisingFactorial(1 - eps, k)*RisingFactorial(1 - eps, l)*Sum(p(k, a, b, z)*p(l, c, d, z)/((a + 1)*(b + 1)*(a + c + 2)*(b + d + 2)), (a, 0, k), (b, 0, k), (c, 0, l), (d, 0, l))/(factorial(k)*factorial(l)), (k, 0, oo), (l, 0, oo))",
+      "latex": "\\left(\\frac{\\left(z + 1\\right)^{2}}{z}\\right)^{\\varepsilon} \\sum_{\\substack{0 \\leq k \\leq \\infty\\\\0 \\leq l \\leq \\infty}} \\frac{{\\left(1 - \\varepsilon\\right)}^{\\left(k\\right)} {\\left(1 - \\varepsilon\\right)}^{\\left(l\\right)} \\sum_{\\substack{0 \\leq a \\leq k\\\\0 \\leq b \\leq k\\\\0 \\leq c \\leq l\\\\0 \\leq d \\leq l}} \\frac{p{\\left(k,a,b,z \\right)} p{\\left(l,c,d,z \\right)}}{\\left(a + 1\\right) \\left(b + 1\\right) \\left(a + c + 2\\right) \\left(b + d + 2\\right)}}{k! l!}"
+    },
+    "F_id_after(eps,z)": {
+      "language": "SymPy/str",
+      "expression": "((z + 1)**2/z)**eps*Sum(RisingFactorial(1 - eps, k)*RisingFactorial(1 - eps, l)*Sum(p(k, a, b, z)*p(l, c, d, z)/((a + 1)*(b + 1)*(a + c + 2)*(b + d + 2)*(b + d + eps + 2)), (a, 0, k), (b, 0, k), (c, 0, l), (d, 0, l))/(factorial(k)*factorial(l)), (k, 0, oo), (l, 0, oo))",
+      "latex": "\\left(\\frac{\\left(z + 1\\right)^{2}}{z}\\right)^{\\varepsilon} \\sum_{\\substack{0 \\leq k \\leq \\infty\\\\0 \\leq l \\leq \\infty}} \\frac{{\\left(1 - \\varepsilon\\right)}^{\\left(k\\right)} {\\left(1 - \\varepsilon\\right)}^{\\left(l\\right)} \\sum_{\\substack{0 \\leq a \\leq k\\\\0 \\leq b \\leq k\\\\0 \\leq c \\leq l\\\\0 \\leq d \\leq l}} \\frac{p{\\left(k,a,b,z \\right)} p{\\left(l,c,d,z \\right)}}{\\left(a + 1\\right) \\left(b + 1\\right) \\left(a + c + 2\\right) \\left(b + d + 2\\right) \\left(b + d + \\varepsilon + 2\\right)}}{k! l!}"
+    },
+    "F_id_middle(eps,z)": {
+      "language": "SymPy/str",
+      "expression": "((z + 1)**2/z)**eps*Sum(RisingFactorial(1 - eps, k)*RisingFactorial(1 - eps, l)*Sum(p(k, a, b, z)*p(l, c, d, z)/((a + 1)*(b + 1)*(a + c + 2)*(b + eps + 1)*(b + d + eps + 2)), (a, 0, k), (b, 0, k), (c, 0, l), (d, 0, l))/(factorial(k)*factorial(l)), (k, 0, oo), (l, 0, oo))",
+      "latex": "\\left(\\frac{\\left(z + 1\\right)^{2}}{z}\\right)^{\\varepsilon} \\sum_{\\substack{0 \\leq k \\leq \\infty\\\\0 \\leq l \\leq \\infty}} \\frac{{\\left(1 - \\varepsilon\\right)}^{\\left(k\\right)} {\\left(1 - \\varepsilon\\right)}^{\\left(l\\right)} \\sum_{\\substack{0 \\leq a \\leq k\\\\0 \\leq b \\leq k\\\\0 \\leq c \\leq l\\\\0 \\leq d \\leq l}} \\frac{p{\\left(k,a,b,z \\right)} p{\\left(l,c,d,z \\right)}}{\\left(a + 1\\right) \\left(b + 1\\right) \\left(a + c + 2\\right) \\left(b + \\varepsilon + 1\\right) \\left(b + d + \\varepsilon + 2\\right)}}{k! l!}"
+    },
+    "F_swap_after(eps,z)": {
+      "language": "SymPy/str",
+      "expression": "((z + 1)**2/z)**eps*Sum(RisingFactorial(1 - eps, k)*RisingFactorial(1 - eps, l)*Sum(p(k, a, b, z)*p(l, c, d, z)/((a + 1)*(d + 1)*(a + c + 2)*(b + d + 2)*(b + d + eps + 2)), (a, 0, k), (b, 0, k), (c, 0, l), (d, 0, l))/(factorial(k)*factorial(l)), (k, 0, oo), (l, 0, oo))",
+      "latex": "\\left(\\frac{\\left(z + 1\\right)^{2}}{z}\\right)^{\\varepsilon} \\sum_{\\substack{0 \\leq k \\leq \\infty\\\\0 \\leq l \\leq \\infty}} \\frac{{\\left(1 - \\varepsilon\\right)}^{\\left(k\\right)} {\\left(1 - \\varepsilon\\right)}^{\\left(l\\right)} \\sum_{\\substack{0 \\leq a \\leq k\\\\0 \\leq b \\leq k\\\\0 \\leq c \\leq l\\\\0 \\leq d \\leq l}} \\frac{p{\\left(k,a,b,z \\right)} p{\\left(l,c,d,z \\right)}}{\\left(a + 1\\right) \\left(d + 1\\right) \\left(a + c + 2\\right) \\left(b + d + 2\\right) \\left(b + d + \\varepsilon + 2\\right)}}{k! l!}"
+    }
+  },
+  "implementation": "workflow/checks/same-channel-two/full_series.py"
+}

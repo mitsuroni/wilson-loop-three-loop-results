@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "goal_status": "active",
+  "actual_runs": [
+    {
+      "run": "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z",
+      "actual_status": true,
+      "output_hashes": 36
+    },
+    {
+      "run": "workflow/checks/pure-three-higher-laurent-20261016/candidate-runs/20261016T021400575141Z",
+      "actual_status": true,
+      "output_hashes": 8
+    },
+    {
+      "run": "workflow/checks/pure-three-higher-laurent-20261016/gauss-runs/20261016T023349031430Z",
+      "actual_status": true,
+      "output_hashes": 240
+    }
+  ],
+  "exact_regressions": 24,
+  "negative_controls": 8,
+  "physical_new_numeric_comparisons": 8,
+  "ordinary_symbol_base_rank": 225,
+  "independent_ordinary_symbol_obstructions": 2,
+  "full_base_modular_rank": 373,
+  "full_quotient_pair_determinant": "-1152",
+  "local_links_checked": 51,
+  "max_new_physical_observed_error": 2.184918912462308e-13,
+  "evidence_sha256": {
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/assembly-verification.json": "7a4b7ab2036a21fcdf12e7a51cfcbb2c433e94acb1233c2d93cf1b4b5a1dd926",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/numeric-verification.json": "37e0682d01d041991698999fa970bf79bffa66f4f40c257a3bbec7649ef58efe",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/r002-comparison-weight9.json": "27effac5afe0f0fb0857efce1e27b861324a2651012a3bb3ceaa7e9c3f941411",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/comparison-gauss-weight9.json": "edf3e240aa4d75f790c9e3a5e2669b8ab7a350425428a0df4bea4b956c9b0795",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/period-filtration.json": "44bb5b4139992d065647037c226ee85553da2711cb5dc5fcc9c129166de5e804",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/symbol-dual-verification.json": "9d8efbed2c0888b14b65c8cddb4baf3c33a12d754009aa9ce22858bc41b3b993",
+    "workflow/checks/pure-three-higher-laurent-20261016/candidate-runs/20261016T021400575141Z/numeric-verification.json": "a8152971b24f0a7d5e2921a25ac8ec9ff9dac0b6848e0c4c4fcaa456b7b20e9b",
+    "workflow/checks/pure-three-higher-laurent-20261016/gauss-runs/20261016T023349031430Z/numeric-verification.json": "7ad7eb1dbda214a08e3351039a6e634cbf5d55bf40ac5e0186350d5958688700",
+    "workflow/checks/pure-three-higher-laurent-20261016/normalization-moments-wolfbook.json": "a6d4ed95bc3c397bc51f41c121695004336e31d0f7c4e528387feefe0ff63ce2",
+    "workflow/checks/pure-three-higher-laurent-20261016/prediction-order4-contract.json": "fec4a3ebecc1fc4c975a5d52c46305d788ee3e71c80e414cf9d56079bbde17b3",
+    "workflow/checks/pure-three-higher-laurent-20261016/published-eps3.json": "05859c8ab3625b8ee180539b99c0e77dd7135cc9fd986a5f78dfe34b11ce57ed"
+  },
+  "doc_sha256": {
+    "workflow/pure-three-higher-laurent-plan.md": "70efdb4b3b12ad986aea5ac51c19c60a70b84055a63ec8714cffdf03b8f72d7b",
+    "workflow/checks/pure-three-higher-laurent-20261016/README.md": "5c78557950033e7e845f749355875fe9f01915df9dd5c9ffa93c1934bf822d5c",
+    "benchmarks/2ne/theory/generation/pure-three-higher-laurent/coefficients-eps3-hlog.md": "2f8aa62cb3e26a5c017c7592ad3f1ca00f9b98d99e5162229b7ee738d8d5c4f2",
+    "benchmarks/2ne/theory/generation/pure-three-higher-laurent/derivation.md": "0386243bc1f1d8338965587a83728748e481ffe09b14713b8c803eceb08d8468"
+  },
+  "remaining": [
+    "Independent-parameter Euler source coverage",
+    "Reserved physical epsilon-four prediction check",
+    "Further all-order generator compression"
+  ],
+  "limits": "Exact identities are in registered Hlog/formal-period coordinates; numerical errors are empirical; no Lean admission or global function-family minimality claim."
+}

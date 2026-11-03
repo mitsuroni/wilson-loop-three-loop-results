@@ -1,0 +1,389 @@
+{
+  "format": "wilson-computational-result/1",
+  "family": "[1,2]",
+  "orbit_id": "6e-37",
+  "revision": "r001",
+  "input": {
+    "manifest": "benchmarks/2ne/prepared/manifest.json",
+    "manifest_sha256": "0e9e55dad06bb5adb185689bdf03ea11f7b0c32386a9020fd2b2041fac1ac22c",
+    "package": "benchmarks/2ne/prepared/6e.json",
+    "package_sha256": "9699532d1ee3a4027c2eb93c961a5b467a9bceda229c0204c13775cfa2451406",
+    "orbit_sha256": "ea21a76365956f6fcf2488dd2c3470f7709f7c59886e762853eae008fd339ba3",
+    "normalization_version": "ordered-parameters+fixed-loop-color-a1+per-loop-euler-compensation/0.3"
+  },
+  "domain": {
+    "J": "z>0, Re(eps)>-1",
+    "I": "z>0, real 0<eps<1; holomorphic near eps=0",
+    "complex_z_i0": "not_analyzed"
+  },
+  "normalization": {
+    "n": 3,
+    "a1": "1/2",
+    "sym": 2,
+    "kappa": "-1/16",
+    "Euler": "already compensated exactly once in prepared C"
+  },
+  "reduction": {
+    "topology": "id",
+    "permutation": [
+      0,
+      1
+    ],
+    "single": {
+      "id": "f1",
+      "variables": [
+        "s11",
+        "s31"
+      ],
+      "inverted": true,
+      "polynomial_residual": "0"
+    },
+    "links": [
+      {
+        "id": "f1",
+        "variables": [
+          "s11",
+          "s31"
+        ],
+        "inverted": true,
+        "polynomial_residual": "0"
+      },
+      {
+        "id": "f2",
+        "variables": [
+          "s21",
+          "s41"
+        ],
+        "inverted": false,
+        "polynomial_residual": "0"
+      },
+      {
+        "id": "f3",
+        "variables": [
+          "s22",
+          "s42"
+        ],
+        "inverted": false,
+        "polynomial_residual": "0"
+      }
+    ],
+    "chains": [
+      [
+        "s11"
+      ],
+      [
+        "s21",
+        "s22"
+      ],
+      [
+        "s31"
+      ],
+      [
+        "s41",
+        "s42"
+      ]
+    ],
+    "t_low_high": [
+      "s21",
+      "s22"
+    ],
+    "s_low_high": [
+      "s41",
+      "s42"
+    ],
+    "a1": "1/2",
+    "sym": 2,
+    "kappa": "-1/16",
+    "adjacent_count": 0,
+    "explicit_epsilon_denominator_power": 0,
+    "J": "H0*Qid*z**(3*eps/2)",
+    "I": "-G**3*H0*Qid/(16*cosh(3*ell*eps/2))"
+  },
+  "J_compact": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "H0*Qid*z^((3/2)*eps)",
+    "latex": "H_0 Q_{\\mathrm{id}} z^{\\frac{3 \\varepsilon}{2}}"
+  },
+  "I_compact": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "-1/16*G^3*H0*Qid/Cosh[(3/2)*ell*eps]",
+    "latex": "- \\frac{G^{3} H_0 Q_{\\mathrm{id}}}{16 \\cosh{\\left(\\frac{3 \\ell \\varepsilon}{2} \\right)}}"
+  },
+  "J": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "z^eps*(-z - 1)*WilsonQid[eps, z]*MeijerG[{{0, 0, eps}, {}}, {{0, eps, eps}, {}}, z]/(Gamma[1 - eps]*Gamma[eps + 1]^2)",
+    "latex": "\\frac{z^{\\varepsilon} \\left(- z - 1\\right) \\operatorname{WilsonQid}{\\left(\\varepsilon,z \\right)} {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, 0, \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(\\varepsilon + 1\\right)}"
+  },
+  "I": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "-1/16*z^(-1/2*eps)*(-z - 1)*WilsonQid[eps, z]*MeijerG[{{0, 0, eps}, {}}, {{0, eps, eps}, {}}, z]*Exp[-3*EulerGamma*eps]*Gamma[1 - eps]^2/(Cosh[(3/2)*eps*Log[z]]*Gamma[eps + 1]^2)",
+    "latex": "- \\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) \\operatorname{WilsonQid}{\\left(\\varepsilon,z \\right)} {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, 0, \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)} e^{- 3 \\gamma \\varepsilon} \\Gamma^{2}\\left(1 - \\varepsilon\\right)}{16 \\cosh{\\left(\\frac{3 \\varepsilon \\log{\\left(z \\right)}}{2} \\right)} \\Gamma^{2}\\left(\\varepsilon + 1\\right)}"
+  },
+  "definitions": {
+    "G": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Exp[-EulerGamma*eps]*Gamma[1 - eps]",
+      "latex": "e^{- \\gamma \\varepsilon} \\Gamma\\left(1 - \\varepsilon\\right)"
+    },
+    "H0": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "z^(-1/2*eps)*(-z - 1)*MeijerG[{{0, 0, eps}, {}}, {{0, eps, eps}, {}}, z]/(Gamma[1 - eps]*Gamma[eps + 1]^2)",
+      "latex": "\\frac{z^{- \\frac{\\varepsilon}{2}} \\left(- z - 1\\right) {G_{3, 3}^{3, 3}\\left(\\begin{matrix} 0, 0, \\varepsilon &  \\\\0, \\varepsilon, \\varepsilon &  \\end{matrix} \\middle| {z} \\right)}}{\\Gamma\\left(1 - \\varepsilon\\right) \\Gamma^{2}\\left(\\varepsilon + 1\\right)}"
+    },
+    "Qid": {
+      "language": "WolframLanguage/InputForm",
+      "argument_convention": "eps is epsilon; z>0; all sum indices are integers",
+      "p_definition": "WilsonP[k_,a_,b_,z_] := Sum[k!*(-1)^h*z^(k-a-b+h)/((k-a-b+h)!*(a-h)!*(b-h)!*h!*(1+z)^(k-h)), {h,Max[0,a+b-k],Min[a,b]}]",
+      "id_block": "WilsonBlock[k_,l_,z_] := Sum[WilsonP[k,a,b,z]*WilsonP[l,c,d,z]/((a+1)*(a+c+2)*(b+1)*(b+d+2)), {a,0,k},{b,0,k},{c,0,l},{d,0,l}]",
+      "expression": "((1+z)^2/z)^eps * Sum[Pochhammer[1-eps,k]*Pochhammer[1-eps,l]/(k!*l!)*WilsonBlock[k,l,z],{k,0,Infinity},{l,0,Infinity}]",
+      "evaluation_order": "Evaluate each finite polynomial block first, then the absolutely locally uniformly convergent outer sum.",
+      "kind": "explicit_convergent_series",
+      "finite_special_function_closed_form": false,
+      "fast_numerical_evaluator_claimed": false,
+      "swap_relation": "WilsonQswap[eps,z] = WilsonH0[eps,z]^2/2 - WilsonQid[eps,z]"
+    },
+    "Qswap": "H0^2/2-Qid",
+    "M01": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "-1/2*ell^2 - 1/2*Pi^2",
+      "latex": "- \\frac{\\ell^{2}}{2} - \\frac{\\pi^{2}}{2}"
+    },
+    "ell": "Log[z]"
+  },
+  "function_bindings": {
+    "WilsonQid": "definitions.Qid; explicitly integrated convergent double series",
+    "M01": "definitions.M01",
+    "tau00": "M01",
+    "Hlog": "iterated integrals with alphabet {0,-1}; shuffle convention from reused results"
+  },
+  "laurent": {
+    "variable": "eps",
+    "from_power": -6,
+    "through_power": 0,
+    "leading_power": 0,
+    "remainder": "O(eps)",
+    "coefficients": {
+      "-6": {
+        "M": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "tau": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "log": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0"
+      },
+      "-5": {
+        "M": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "tau": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "log": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0"
+      },
+      "-4": {
+        "M": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "tau": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "log": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0"
+      },
+      "-3": {
+        "M": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "tau": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "log": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0"
+      },
+      "-2": {
+        "M": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "tau": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "log": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0"
+      },
+      "-1": {
+        "M": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "tau": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "log": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0"
+      },
+      "0": {
+        "M": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "-1/96*M01^3",
+          "latex": "- \\frac{M_{0,1}^{3}}{96}"
+        },
+        "tau": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "-1/96*tau00^3",
+          "latex": "- \\frac{\\tau_{0,0}^{3}}{96}"
+        },
+        "log": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "(1/768)*ell^6 + (1/256)*Pi^2*ell^4 + (1/256)*Pi^4*ell^2 + (1/768)*Pi^6",
+          "latex": "\\frac{\\ell^{6}}{768} + \\frac{\\pi^{2} \\ell^{4}}{256} + \\frac{\\pi^{4} \\ell^{2}}{256} + \\frac{\\pi^{6}}{768}"
+        },
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              3,
+              0,
+              0
+            ],
+            "coefficient": "9/32"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "9/32"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "9/16"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "15/16"
+          }
+        ],
+        "hlog_latex": "\\frac{\\pi^{6}}{768} + \\frac{\\pi^{4} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0\\right) \\right)}}{128} + \\frac{3 \\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0, \\  0\\right) \\right)}}{32} + \\frac{15 \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0, \\  0, \\  0, \\  0\\right) \\right)}}{16}"
+      }
+    }
+  },
+  "status": {
+    "analytic": "derived_exact",
+    "checks": "passed",
+    "formal": "not_run"
+  },
+  "derivation": "benchmarks/2ne/workspaces/6e-37/derivation.md",
+  "evidence": {
+    "checks": "workflow/checks/mixed-opposite/runs/20260917T021108676259Z/checks.json",
+    "checks_sha256": "ba0473fa5cdd9a90244f0e5c57963a56793abc0b39df792277285e854cf21909",
+    "dependencies": {
+      "workflow/checks/mixed-opposite/check_mixed.py": "2e64dbf0eba2284fd305718fae1359c9a23d3afed5aad3f1f71a8d9d9d112499",
+      "workflow/checks/mixed-opposite/publish.py": "e95fc3bd6f4b0e68c198924c9be7d403f4ad0497d0dbd7e95d91ec654db8098e",
+      "workflow/checks/mixed-opposite/reduce_mixed.py": "1fae2e5df5fb9ae02c5a00793d9b1562ebb78b67faab7137e2aa7b1509743456",
+      "workflow/checks/mixed-opposite/test_mixed.py": "7ad0b6d58949714dea12264bc85cc6231cfe0e0f6788ad3e9d6145891ac4ec5a",
+      "workflow/checks/mixed-opposite/verify_results.py": "be310bc63ddd468ac822eadcd69260f5d30d6517233f3c647547179ae743097d",
+      "workflow/checks/single-opposite/reduce_inputs.py": "ee53e5320bbbd6d5b0142adc4ae3fa046198052ce4ba86a1a23de4ed13a9f6fb",
+      "workflow/checks/single-opposite/hlog_algebra.py": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+      "workflow/checks/single-opposite/numeric_hlog.py": "2f7ff121f0f2b0ce5ac6c0d53b96269bee30e3331e1370ee25af6427ae36549b",
+      "workflow/checks/empty-family/empty_math.py": "c844a76f2eb7a1591d7cccd732821be488890d1196704ca397dce6eb0cd49373",
+      "workflow/checks/empty-family/setup_workspaces.py": "f1331140c5f07a197b4a96ca021342d77a3f5cb9a901647c145a712c5166bc1e",
+      "preprocessing/ordered.py": "67bebf72c4350ff886a8007932644afa53deae4fefd5f51f1c6b9c5664b2ccec",
+      "preprocessing/__init__.py": "f99bac4251bba3881e66a3032dffebbd6a666913dea75e6ba26ac45baee1920c",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_0_plus.txt": "d48373a74d7fbd09e4d677f5bd2e056fea2f673aeb48072ef76aa9a48ad8fcd1",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "workflow/checks/same-channel-two-structure/runs/20260916T140419726787Z/Q_id_0_0_0_plus.txt": "5b77296a6b772e3d391f5159ec74ef743e95a91a34465a6e3752cdea2685ced4",
+      "workflow/checks/same-channel-two-structure/runs/20260916T140419726787Z/Q_swap_0_0_0_plus.txt": "ce21128c82e7b6897c6e32ed11f4de54527befdc3abbbabb7eeb54372729a1b5",
+      "benchmarks/2ne/families/mixed-opposite/method.md": "7f9f44b8a5bf9b8820575c42fbfa79125c705841865310d15f3c0fadb3d9830c",
+      "benchmarks/2ne/families/mixed-opposite/result.schema.json": "9c1e61f2755d81a5972adf35803f14cf1cd0883f9ced23a86227ba86ea0bb9ad"
+    },
+    "source_snapshot_root": "workflow/checks/mixed-opposite/runs/20260917T021941919630Z/source",
+    "reuse": "workflow/checks/mixed-opposite/runs/20260917T021941919630Z/reuse.json",
+    "reuse_sha256": "a60bc5fdf508ec67bc807488ab91d28a84adfd193274ff67370db7e201751047",
+    "new_HyperInt_executed": false,
+    "derivation_snapshot": "workflow/checks/mixed-opposite/runs/20260917T021941919630Z/6e-37-derivation.md",
+    "derivation_snapshot_sha256": "8c30d0754dd4ddf58e1e8a9e1981e37e17a0f4c957ad29b09517375d99b721f9"
+  }
+}

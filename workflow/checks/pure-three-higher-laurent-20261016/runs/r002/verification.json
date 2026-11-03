@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "run": "workflow/checks/pure-three-higher-laurent-20261016/runs/r002",
+  "inputs_sha256": {
+    "workflow/checks/pure-three-higher-laurent-20261016/start_exploration.py": "588ebb15e540fb837e36272c0e057eb921d47471b2be827c6e6ad5fc40764135",
+    "workflow/checks/pure-three-generators-20261015/w_source_check.py": "60c349cf50c34c00b5cbd91779e869faf9a74ba221cf5d996fd6d51d9306d578",
+    "workflow/checks/pure-three-generators-20261015/w_lambda_gpl_check.py": "b30226900af0450f411f6a3e5064fd971a31e06941a453ce43a697b3fb9e6bd4",
+    "workflow/checks/pure-three-generators-20261015/w_source_report.json": "277dbb335b3391fd2ba968e0d62c2605e08f01ae7608a74b4c69b1126f6161b4",
+    "workflow/checks/pure-three-generators-20261015/w_lambda_gpl_report.json": "d78f26783ef116e883926dd843e62a6aa7a874d049b9222a4133d5e03b939bfc",
+    "benchmarks/2ne/theory/generation/three-kernel-eps2.json": "4c556b02359d6ae19949ea974fc999ac34182c002f33465e5a2e58dfa9b5dd3c"
+  },
+  "outputs_sha256": {
+    "baseline.json": "108b6bc8a09d500b9b0e11790c55d85248ca7e167d6e63f2340d872ad9060b5b",
+    "Lambda-sector-words.json": "4679a667111b8cd809a1c253151d026d4dd900553d8b620d656d485681d92b0b",
+    "new-source-numeric.json": "92f4a0360b37d80325610f16fca28245dcb3831b5949d7eb661ca7db404b5f10",
+    "W-parent-words.json": "6cb967372ac85eda6fbd4bcba67ea5fc91adf2ae56a6b19ecaa84a05b8f60a0b"
+  },
+  "W_parent_coefficients": 84,
+  "Lambda_coefficients": [
+    {
+      "source_degree": 3,
+      "weight": 6,
+      "terms": 86
+    },
+    {
+      "source_degree": 4,
+      "weight": 7,
+      "terms": 342
+    },
+    {
+      "source_degree": 5,
+      "weight": 8,
+      "terms": 1136
+    },
+    {
+      "source_degree": 6,
+      "weight": 9,
+      "terms": 3405
+    },
+    {
+      "source_degree": 7,
+      "weight": 10,
+      "terms": 9943
+    }
+  ],
+  "new_generic_source_check": {
+    "passed": true,
+    "source_degree": 7,
+    "weight": 10,
+    "arguments": {
+      "A": "-0.333333333333333333333333333333333333333333333333333333333333",
+      "B": "-0.25",
+      "C": "-0.2",
+      "d": "-0.166666666666666666666666666666666666666666666666666666666667"
+    },
+    "gpl_value": "-0.000000784202624560180437797398973968886646683999219700455482672489",
+    "independent_expanded_kernel_quadrature": "-0.000000784202624560180437797398973968886646683999219700383452165888",
+    "absolute_difference": "7.20305066014153528397928309043774396456712053985766060400638e-56",
+    "digits": 60,
+    "gpl_cutoff": 140,
+    "quadrature_nodes": 30,
+    "J_coefficient_cutoff": 100,
+    "rigorous_error_bound": false
+  },
+  "new_physical_epsilon3": false,
+  "new_physical_baseline_regression": false,
+  "elapsed_seconds": 97.25685939998948,
+  "scope": "Explicit exact source exports and a new generic source coefficient; no new physical I coefficient or function-space conclusion."
+}

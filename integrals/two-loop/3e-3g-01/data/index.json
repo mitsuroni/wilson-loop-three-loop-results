@@ -1,0 +1,46 @@
+{
+  "orbit_id": "3e-3g-01",
+  "runtime_base": "../../../families/low-loop-runtime",
+  "family_source_manifest": "integrals/two-loop/source-manifest.json",
+  "accepted_result": {
+    "path": "integrals/two-loop/3e-3g-01/result.json",
+    "sha256": "9920361d74234dcf446e996d979fb6517c3e529a84c00c892b629e04d1a387aa"
+  },
+  "scope": "Object roles are separate: original initial roots are bound by ../input.json, adopted subintegrals and whole-I inputs are labelled here, comparison targets are not generation inputs. A batch may load additional moment files needed by its other members.",
+  "path_base": "All paths in adopted_primitives, assembly_code and comparison_targets are relative to runtime_base.",
+  "adopted_primitives": [],
+  "assembly_code": [
+    {
+      "path": "integrals/two-loop/family_engines.py",
+      "sha256": "6ac28b4ba47605f196451d3a8096e73dbe8b7fe762f9d8bb09d8b28e7041ee51",
+      "object": "reconstruct",
+      "role": "Expand declared evaluated mother functions and Gamma/cosh factors. TGV04 instead adopts assembled I coefficients."
+    },
+    {
+      "path": "integrals/two-loop/reproduce.py",
+      "sha256": "dda41520957f2decbcc6b94ada7c87908dd558efdf4e6eccd62dd43f025a4d6f",
+      "object": "main; exact HLOG comparison",
+      "role": "Generate or adopt the stated coefficients, then compare exact representations and previous reports."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/hlog_algebra.py",
+      "sha256": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+      "object": "exact rational shuffle algebra",
+      "role": "Function-coordinate arithmetic; not a new parameter integration."
+    }
+  ],
+  "comparison_targets": [
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/two-loop-report-20261015/tgv-data.json",
+      "sha256": "f0a6fe19a6d8a535bd525086dc553474f4d240aef2d7f31124db9e61681cd8f9",
+      "object": "previous family coefficient report",
+      "role": "Post-generation or post-adoption comparison only."
+    },
+    {
+      "path": "integrals/two-loop/sources/benchmarks/tgv/3e-3g/results/3e-3g-01/r001.json",
+      "sha256": "9979c454377dfdaaf25b74323f1da9e72838e77ef73ef8d99860b105d4941d20",
+      "object": "canonical complete I",
+      "role": "Accepted whole-I target, separate from primitive data."
+    }
+  ]
+}

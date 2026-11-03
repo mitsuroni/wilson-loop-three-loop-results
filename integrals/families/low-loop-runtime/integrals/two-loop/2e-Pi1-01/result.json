@@ -1,0 +1,226 @@
+{
+  "format": "wilson-two-loop-integral/1",
+  "orbit_id": "2e-Pi1-01",
+  "family": "Pi1",
+  "domain": "fixed real z>0; inherited source i0; no new full complex-domain theorem",
+  "canonical_convention": "native physical Pi1 r002, sign already absorbed",
+  "assembly_sign": 1,
+  "legacy_to_canonical_multiplier": -1,
+  "color_weights_over_CF": {
+    "CA": "(10-6*eps)/(3-2*eps)",
+    "T": "-8*(1-eps)/(3-2*eps)"
+  },
+  "coefficients": {
+    "-4": {
+      "sympy": "0",
+      "latex": "0",
+      "hlog_terms": []
+    },
+    "-3": {
+      "sympy": "-1/32",
+      "latex": "- \\frac{1}{32}",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/32"
+        }
+      ]
+    },
+    "-2": {
+      "sympy": "-1/32",
+      "latex": "- \\frac{1}{32}",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/32"
+        }
+      ]
+    },
+    "-1": {
+      "sympy": "-3/32 - pi**2/192",
+      "latex": "- \\frac{3}{32} - \\frac{\\pi^{2}}{192}",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-3/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1/32"
+        }
+      ]
+    },
+    "0": {
+      "sympy": "-5/32 - pi**2/192 - zeta(3)/48",
+      "latex": "- \\frac{5}{32} - \\frac{\\pi^{2}}{192} - \\frac{\\zeta\\left(3\\right)}{48}",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-5/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/48"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1/32"
+        }
+      ]
+    },
+    "1": {
+      "sympy": "-11/32 - pi**2/64 - 7*pi**4/11520 - zeta(3)/48",
+      "latex": "- \\frac{11}{32} - \\frac{\\pi^{2}}{64} - \\frac{7 \\pi^{4}}{11520} - \\frac{\\zeta\\left(3\\right)}{48}",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-11/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/48"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-3/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-7/320"
+        }
+      ]
+    },
+    "2": {
+      "sympy": "-21/32 - 5*pi**2/192 - zeta(3)/16 - 7*pi**4/11520 - pi**2*zeta(3)/288 - zeta(5)/80",
+      "latex": "- \\frac{21}{32} - \\frac{5 \\pi^{2}}{192} - \\frac{\\zeta\\left(3\\right)}{16} - \\frac{7 \\pi^{4}}{11520} - \\frac{\\pi^{2} \\zeta\\left(3\\right)}{288} - \\frac{\\zeta\\left(5\\right)}{80}",
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-21/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1/80"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/16"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-5/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": "-1/48"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-7/320"
+        }
+      ]
+    }
+  },
+  "powers": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "remainder": "O(eps^3)",
+  "canonical_source": {
+    "path": "sources/benchmarks/self-energy/pi1/results/2e-Pi1-01/r002.json",
+    "sha256": "122067c4f01aa9942db2e9040b577416c83c8439d2baa7c4b1ac1d18e21646c7",
+    "canonical_convention": "native physical Pi1 r002, sign already absorbed"
+  },
+  "calculation_this_run": "Evaluated mother-function Taylor/Gamma convolution plus exact whole-HLOG comparison; source integration proof and HLOG moment dictionary reused",
+  "formal": "not_run"
+}

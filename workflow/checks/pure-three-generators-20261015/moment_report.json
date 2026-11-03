@@ -1,0 +1,160 @@
+{
+  "status": "pass",
+  "formal": "not_run",
+  "digits": 45,
+  "elapsed_seconds": 15.409,
+  "records": [
+    {
+      "type": "epsilon_zero_diagonal_factorization",
+      "z": "1/2",
+      "monomial_comparisons": 70,
+      "status": "pass"
+    },
+    {
+      "type": "epsilon_zero_diagonal_factorization",
+      "z": "1",
+      "monomial_comparisons": 70,
+      "status": "pass"
+    },
+    {
+      "type": "epsilon_zero_diagonal_factorization",
+      "z": "2",
+      "monomial_comparisons": 70,
+      "status": "pass"
+    },
+    {
+      "type": "integer_polynomial",
+      "eps": 1,
+      "z": "1/2",
+      "moments_each": 10,
+      "status": "pass"
+    },
+    {
+      "type": "integer_polynomial",
+      "eps": 1,
+      "z": "1",
+      "moments_each": 10,
+      "status": "pass"
+    },
+    {
+      "type": "integer_polynomial",
+      "eps": 1,
+      "z": "2",
+      "moments_each": 10,
+      "status": "pass"
+    },
+    {
+      "type": "integer_polynomial",
+      "eps": 2,
+      "z": "1/2",
+      "moments_each": 10,
+      "status": "pass"
+    },
+    {
+      "type": "integer_polynomial",
+      "eps": 2,
+      "z": "1",
+      "moments_each": 10,
+      "status": "pass"
+    },
+    {
+      "type": "integer_polynomial",
+      "eps": 2,
+      "z": "2",
+      "moments_each": 10,
+      "status": "pass"
+    },
+    {
+      "type": "integer_polynomial",
+      "eps": 3,
+      "z": "1/2",
+      "moments_each": 10,
+      "status": "pass"
+    },
+    {
+      "type": "integer_polynomial",
+      "eps": 3,
+      "z": "1",
+      "moments_each": 10,
+      "status": "pass"
+    },
+    {
+      "type": "integer_polynomial",
+      "eps": 3,
+      "z": "2",
+      "moments_each": 10,
+      "status": "pass"
+    },
+    {
+      "type": "integer_polynomial",
+      "eps": 4,
+      "z": "1/2",
+      "moments_each": 10,
+      "status": "pass"
+    },
+    {
+      "type": "integer_polynomial",
+      "eps": 4,
+      "z": "1",
+      "moments_each": 10,
+      "status": "pass"
+    },
+    {
+      "type": "integer_polynomial",
+      "eps": 4,
+      "z": "2",
+      "moments_each": 10,
+      "status": "pass"
+    },
+    {
+      "type": "noninteger_moments",
+      "eps": "0.23",
+      "z": "2",
+      "comparisons": 8,
+      "max_scaled_error": "2.6453728e-46",
+      "status": "pass"
+    },
+    {
+      "type": "noninteger_moments",
+      "eps": "-0.19",
+      "z": "0.7",
+      "comparisons": 8,
+      "max_scaled_error": "4.3285847e-41",
+      "status": "pass"
+    },
+    {
+      "type": "noninteger_moments",
+      "eps": "0.37",
+      "z": "1",
+      "comparisons": 8,
+      "max_scaled_error": "1.3137173e-46",
+      "status": "pass"
+    },
+    {
+      "type": "full_theta2_G_quadrature",
+      "eps": "0.23",
+      "z": "2",
+      "x": "0.1",
+      "direct": "0.0019261581431970547127572334146956716",
+      "series": "0.0019261581431970547127572334146956716",
+      "scaled_error": "1.1802929e-47",
+      "status": "pass"
+    },
+    {
+      "type": "full_theta2_G_quadrature",
+      "eps": "0.37",
+      "z": "0.7",
+      "x": "0.2",
+      "direct": "0.00083748718637989559897034593089197617",
+      "series": "0.00083748718637989559897034593089197617",
+      "scaled_error": "5.0632855e-47",
+      "status": "pass"
+    },
+    {
+      "type": "negative_control",
+      "mutation": "flip V recurrence endpoint sign at n=1",
+      "status": "rejected"
+    }
+  ],
+  "scope": "Full G moment closure. No Lambda closure, physical endpoint continuation, or full I claimed here."
+}

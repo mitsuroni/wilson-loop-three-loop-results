@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "rank_controls": {
+    "Delta3_epsilon1": "0 (double zero from rank-one kernel)",
+    "Delta3_epsilon2": "0 (rank-two kernel)",
+    "X3_epsilon2": "-7*(1+z)^4/(2400*z^2)",
+    "Delta3_epsilon3": "-(1+z)^3/(16200*z^(3/2))"
+  },
+  "relation_ranks": [
+    2,
+    3,
+    4
+  ],
+  "polynomial_controls": [
+    {
+      "kernel": "2*t*u + t + u + 1",
+      "A_6D_2D": "0",
+      "B_6D_2D": "0",
+      "determinant_6D_2D": "0",
+      "mixed_6D_2D": "0",
+      "W_IBP": "0"
+    },
+    {
+      "kernel": "t**2 + t*u*z + u**2 + 1",
+      "A_6D_2D": "0",
+      "B_6D_2D": "0",
+      "determinant_6D_2D": "0",
+      "mixed_6D_2D": "0",
+      "W_IBP": "0"
+    }
+  ],
+  "rectangle_controls": [
+    {
+      "epsilon": 1,
+      "mixed_derivative_residual": "0",
+      "lower_boundaries": "0"
+    },
+    {
+      "epsilon": 2,
+      "mixed_derivative_residual": "0",
+      "lower_boundaries": "0"
+    },
+    {
+      "epsilon": 3,
+      "mixed_derivative_residual": "0",
+      "lower_boundaries": "0"
+    }
+  ],
+  "identities": {
+    "Delta3": "2*H*Q + H^3/2 - 4*W",
+    "X3": "3*A + 2*W - H*Q - H^3/3"
+  },
+  "formal": "not_run",
+  "limitation": "Polynomial controls support, but do not replace, the analytic domain-partition and IBP derivation."
+}

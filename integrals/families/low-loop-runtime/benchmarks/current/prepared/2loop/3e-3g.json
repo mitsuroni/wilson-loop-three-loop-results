@@ -1,0 +1,3512 @@
+{
+  "schema_version": "1.1",
+  "package_kind": "montopar-initial-integrals",
+  "loop_order": 2,
+  "emission_type": "3e-3g",
+  "geometry": {
+    "n_lines": 4,
+    "line_vectors": [
+      "v1",
+      "v2",
+      "v3",
+      "v4"
+    ],
+    "lightlike": true,
+    "cross_ratios": [
+      {
+        "name": "z1",
+        "definition": "v34/v14"
+      }
+    ],
+    "reference_scale": "v14"
+  },
+  "orbits": [
+    {
+      "orbit_id": "3e-3g-01",
+      "dispatch": "tgv",
+      "c4_symmetry": {
+        "orbit_multiplicity": 4,
+        "stabilizer_order": 1,
+        "stabilizer_rotations": [
+          0
+        ]
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "tgv",
+          "topology_class": "A",
+          "canonical_attachment_edges": [
+            3,
+            4,
+            4
+          ]
+        },
+        "direct_opposite_edge_links": {
+          "definition": "direct_eikonal_to_eikonal_only",
+          "channels": {
+            "13": 0,
+            "24": 0
+          },
+          "channel_partition": [],
+          "structure": "1",
+          "total_order": 0
+        },
+        "symbol": "A"
+      },
+      "C": {
+        "components": {
+          "color": "-I/2*CA*CF",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-2*eps]/(64*Pi^(4-2*eps))",
+          "derivative": "2*(1-2*eps)",
+          "v14_scale": "(-2*v14+I0)^(2*eps)",
+          "twoscale": "1",
+          "i_factor": "I",
+          "euler": "exp(-2*EulerGamma*eps)"
+        },
+        "component_semantics": "multiplicative",
+        "factor_order": [
+          "i_factor",
+          "derivative",
+          "color",
+          "coupling",
+          "ft_prefactor",
+          "v14_scale",
+          "twoscale",
+          "euler"
+        ],
+        "phase_provenance": {
+          "wilson_vertices": "I^3",
+          "coordinate_propagators": "(-1)^3",
+          "coordinate_centres": "-I",
+          "momentum_derivative": "-I",
+          "chain_rule": "-1",
+          "product": "I"
+        },
+        "combined": "(I)*(2*(1-2*eps))*(-I/2*CA*CF)*((4*Pi*alphaS)^2)*(Gamma[1-2*eps]/(64*Pi^(4-2*eps)))*((-2*v14+I0)^(2*eps))*(1)*(exp(-2*EulerGamma*eps))"
+      },
+      "J": {
+        "integrand": "(x2) * (1/4*alpha1*alpha2*z1^2 - 1/4*alpha1*alpha3*z1^2 - 1/4*x1*alpha1*alpha2*z1^2 + 1/4*x1*alpha1*alpha3*z1^2) * ((alpha1*alpha2*alpha3)^(-eps)) * (x2*alpha1*alpha3*z1 - x1*x2*alpha1*alpha3*z1 + x2*x3*alpha1*alpha2*z1 - x1*x2*x3*alpha1*alpha2*z1)^(-(2 - 2*eps))",
+        "expanded": null,
+        "variables": [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ],
+          "x3": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3": "1"
+        },
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "constraint": "alpha1+alpha2+alpha3=1",
+          "independent_variables": [
+            "alpha1",
+            "alpha2"
+          ],
+          "substitution": {
+            "alpha3": "1-alpha1-alpha2"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2"
+          ],
+          "jacobian": "1"
+        }
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      },
+      "source_topology": {
+        "vertices": [
+          {
+            "line": 3,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu3",
+            "color": "a3"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "nu1"
+            ],
+            "color": [
+              "a1",
+              "b1"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "nu2"
+            ],
+            "color": [
+              "a2",
+              "b2"
+            ]
+          },
+          {
+            "loop": "l3",
+            "lorentz": [
+              "mu3",
+              "nu3"
+            ],
+            "color": [
+              "a3",
+              "b3"
+            ]
+          }
+        ],
+        "internal_vertices": [
+          {
+            "type": "tgv",
+            "id": "v1",
+            "loops": [
+              "l1",
+              "l2",
+              "l3"
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "loop": "l1",
+            "expression": "-(v1 + v2 + s31*v3)"
+          },
+          {
+            "loop": "l2",
+            "expression": "-(v1 + v2 + v3 + s41*v4)"
+          },
+          {
+            "loop": "l3",
+            "expression": "-(v1 + v2 + v3 + s42*v4)"
+          }
+        ],
+        "bounds": [
+          {
+            "var": "s31",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "s42"
+          },
+          {
+            "var": "s42",
+            "low": "0",
+            "high": "1"
+          }
+        ]
+      },
+      "topology": {
+        "tgv_legs": [
+          {
+            "edge": 3,
+            "s_var": "s31",
+            "loop": "l1"
+          },
+          {
+            "edge": 4,
+            "s_var": "s41",
+            "loop": "l2"
+          },
+          {
+            "edge": 4,
+            "s_var": "s42",
+            "loop": "l3"
+          }
+        ],
+        "pure_pairings": [],
+        "vertices": [
+          {
+            "line": 3,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu3",
+            "color": "a3"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "nu1"
+            ],
+            "color": [
+              "a1",
+              "b1"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "nu2"
+            ],
+            "color": [
+              "a2",
+              "b2"
+            ]
+          },
+          {
+            "loop": "l3",
+            "lorentz": [
+              "mu3",
+              "nu3"
+            ],
+            "color": [
+              "a3",
+              "b3"
+            ]
+          }
+        ],
+        "bounds": {
+          "s31": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "s42"
+          ],
+          "s42": [
+            "0",
+            "1"
+          ]
+        }
+      },
+      "representative": {
+        "policy": "single_canonical_representative",
+        "canonical_topology": {
+          "tgv_legs": [
+            {
+              "edge": 3,
+              "s_var": "s31",
+              "loop": "l1"
+            },
+            {
+              "edge": 4,
+              "s_var": "s41",
+              "loop": "l2"
+            },
+            {
+              "edge": 4,
+              "s_var": "s42",
+              "loop": "l3"
+            }
+          ],
+          "pure_pairings": [],
+          "vertices": [
+            {
+              "line": 3,
+              "lorentz": "mu1",
+              "color": "a1"
+            },
+            {
+              "line": 4,
+              "lorentz": "mu2",
+              "color": "a2"
+            },
+            {
+              "line": 4,
+              "lorentz": "mu3",
+              "color": "a3"
+            }
+          ],
+          "propagators": [
+            {
+              "loop": "l1",
+              "lorentz": [
+                "mu1",
+                "nu1"
+              ],
+              "color": [
+                "a1",
+                "b1"
+              ]
+            },
+            {
+              "loop": "l2",
+              "lorentz": [
+                "mu2",
+                "nu2"
+              ],
+              "color": [
+                "a2",
+                "b2"
+              ]
+            },
+            {
+              "loop": "l3",
+              "lorentz": [
+                "mu3",
+                "nu3"
+              ],
+              "color": [
+                "a3",
+                "b3"
+              ]
+            }
+          ],
+          "bounds": {
+            "s31": [
+              "0",
+              "1"
+            ],
+            "s41": [
+              "0",
+              "s42"
+            ],
+            "s42": [
+              "0",
+              "1"
+            ]
+          }
+        },
+        "transformation": {
+          "c4_rotation": 0,
+          "s_renaming": {
+            "s31": "s31",
+            "s41": "s41",
+            "s42": "s42"
+          },
+          "tgv_leg_permutation_new_to_old": [
+            1,
+            2,
+            3
+          ],
+          "alpha_renaming_old_to_new": {
+            "alpha1": "alpha1",
+            "alpha2": "alpha2",
+            "alpha3": "alpha3"
+          },
+          "color_recomputed_after_permutation": true,
+          "z_relation": "z_canonical=z_source",
+          "reference_scale_relation": "v14_canonical=v14_source"
+        },
+        "hypercube": {
+          "s_to_x": {
+            "s31": "x1",
+            "s42": "x2",
+            "s41": "x2*x3"
+          },
+          "jacobian": "x2"
+        }
+      },
+      "J_raw_s": {
+        "integrand": "(1/4*(alpha1*alpha2*(z1*(z1 + -s31*z1) + -z1*(-z1 + s31*z1) + z1*(-z1 + s31*z1)) + alpha1*alpha3*(-z1*(-z1 + s31*z1) + z1*(-z1 + s31*z1) + -z1*(z1 + -s31*z1)))) * ((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha2*((1-s31)*s41*z1) + alpha3*alpha1*((1-s31)*s42*z1))^(-(2 - 2*eps))",
+        "variables": [
+          "s31",
+          "s41",
+          "s42"
+        ],
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3"
+        ],
+        "bounds": {
+          "s31": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "s42"
+          ],
+          "s42": [
+            "0",
+            "1"
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3": "1"
+        },
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "constraint": "alpha1+alpha2+alpha3=1",
+          "independent_variables": [
+            "alpha1",
+            "alpha2"
+          ],
+          "substitution": {
+            "alpha3": "1-alpha1-alpha2"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2"
+          ],
+          "jacobian": "1"
+        },
+        "iterated_order_outer_to_inner": [
+          "s31",
+          "s42",
+          "s41"
+        ]
+      },
+      "normalization": {
+        "stage": "raw_montopar",
+        "euler_compensation_count": 1,
+        "assembly_sign": 1,
+        "scheme": "native-physical-CJ",
+        "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+      },
+      "J_ibp": {
+        "schema_version": "1.0",
+        "method": "contour_ibp",
+        "status": "complete",
+        "case": "degenerate_bc",
+        "prefactors": {
+          "C_raw": "(I) * (2*(1-2*eps)) * (-I/2*CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(64*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1)",
+          "C_star": "(CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1)",
+          "relation": "C_star = C_raw/(4*(1-2*eps))"
+        },
+        "operator": {
+          "derivative_vector": [
+            "0",
+            "-z1",
+            "z1"
+          ]
+        },
+        "terms": [
+          {
+            "term_id": "boundary_s41_0",
+            "kind": "cusp_boundary",
+            "coefficient": "z1",
+            "C_ref": "C_star",
+            "combined_C": "(z1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "-z1*d/ds41",
+            "fixed_parameters": {
+              "s41": "0"
+            },
+            "identified_parameters": {},
+            "s_to_x": {
+              "s31": "x1",
+              "s42": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (x2*alpha1*alpha3*z1 - x1*x2*alpha1*alpha3*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          },
+          {
+            "term_id": "boundary_s42_1",
+            "kind": "cusp_boundary",
+            "coefficient": "z1",
+            "C_ref": "C_star",
+            "combined_C": "(z1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "z1*d/ds42",
+            "fixed_parameters": {
+              "s42": "1"
+            },
+            "identified_parameters": {},
+            "s_to_x": {
+              "s31": "x1",
+              "s41": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha3*z1 - x1*alpha1*alpha3*z1 + x2*alpha1*alpha2*z1 - x1*x2*alpha1*alpha2*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          },
+          {
+            "term_id": "boundary_s41_eq_s42",
+            "kind": "contact_boundary",
+            "coefficient": "-2*z1",
+            "C_ref": "C_star",
+            "combined_C": "(-2*z1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "-z1*d/ds41 + z1*d/ds42",
+            "fixed_parameters": {},
+            "identified_parameters": {
+              "s41": "s42"
+            },
+            "s_to_x": {
+              "s31": "x1",
+              "s42": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (x2*alpha1*alpha2*z1 + x2*alpha1*alpha3*z1 - x1*x2*alpha1*alpha2*z1 - x1*x2*alpha1*alpha3*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          }
+        ],
+        "sum_expression": "term(boundary_s41_0) + term(boundary_s42_1) + term(boundary_s41_eq_s42)",
+        "certificates": {
+          "operator_identity": true,
+          "boundary_orientation": true,
+          "pnum_identity": true
+        }
+      },
+      "original_C": {
+        "components": {
+          "color": "-I/2*CA*CF",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-2*eps]/(64*Pi^(4-2*eps))",
+          "derivative": "2*(1-2*eps)",
+          "v14_scale": "(-2*v14+I0)^(2*eps)",
+          "twoscale": "1",
+          "i_factor": "I"
+        },
+        "component_semantics": "multiplicative",
+        "factor_order": [
+          "i_factor",
+          "derivative",
+          "color",
+          "coupling",
+          "ft_prefactor",
+          "v14_scale",
+          "twoscale"
+        ],
+        "phase_provenance": {
+          "wilson_vertices": "I^3",
+          "coordinate_propagators": "(-1)^3",
+          "coordinate_centres": "-I",
+          "momentum_derivative": "-I",
+          "chain_rule": "-1",
+          "product": "I"
+        },
+        "combined": "(I) * (2*(1-2*eps)) * (-I/2*CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(64*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1)"
+      },
+      "preparation": {
+        "native_sign_conversion_count": 0,
+        "Euler_compensation_count": 1,
+        "J_changed": false,
+        "colour_conversion": false,
+        "original_C_preserved": true,
+        "Gamma_Euler_weight": "2",
+        "formal": "not_run"
+      }
+    },
+    {
+      "orbit_id": "3e-3g-02",
+      "dispatch": "tgv",
+      "c4_symmetry": {
+        "orbit_multiplicity": 4,
+        "stabilizer_order": 1,
+        "stabilizer_rotations": [
+          0
+        ]
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "tgv",
+          "topology_class": "B",
+          "canonical_attachment_edges": [
+            3,
+            3,
+            4
+          ]
+        },
+        "direct_opposite_edge_links": {
+          "definition": "direct_eikonal_to_eikonal_only",
+          "channels": {
+            "13": 0,
+            "24": 0
+          },
+          "channel_partition": [],
+          "structure": "1",
+          "total_order": 0
+        },
+        "symbol": "B"
+      },
+      "C": {
+        "components": {
+          "color": "-I/2*CA*CF",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-2*eps]/(64*Pi^(4-2*eps))",
+          "derivative": "2*(1-2*eps)",
+          "v14_scale": "(-2*v14+I0)^(2*eps)",
+          "twoscale": "1",
+          "i_factor": "I",
+          "euler": "exp(-2*EulerGamma*eps)"
+        },
+        "component_semantics": "multiplicative",
+        "factor_order": [
+          "i_factor",
+          "derivative",
+          "color",
+          "coupling",
+          "ft_prefactor",
+          "v14_scale",
+          "twoscale",
+          "euler"
+        ],
+        "phase_provenance": {
+          "wilson_vertices": "I^3",
+          "coordinate_propagators": "(-1)^3",
+          "coordinate_centres": "-I",
+          "momentum_derivative": "-I",
+          "chain_rule": "-1",
+          "product": "I"
+        },
+        "combined": "(I)*(2*(1-2*eps))*(-I/2*CA*CF)*((4*Pi*alphaS)^2)*(Gamma[1-2*eps]/(64*Pi^(4-2*eps)))*((-2*v14+I0)^(2*eps))*(1)*(exp(-2*EulerGamma*eps))"
+      },
+      "J": {
+        "integrand": "(x1) * (-1/4*x2*alpha1*alpha3*z1^2 + 1/4*x2*alpha2*alpha3*z1^2) * ((alpha1*alpha2*alpha3)^(-eps)) * (x2*alpha1*alpha3*z1 + x2*alpha2*alpha3*z1 - x1*x2*alpha2*alpha3*z1 - x1*x2*x3*alpha1*alpha3*z1)^(-(2 - 2*eps))",
+        "expanded": null,
+        "variables": [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ],
+          "x3": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3": "1"
+        },
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "constraint": "alpha1+alpha2+alpha3=1",
+          "independent_variables": [
+            "alpha1",
+            "alpha2"
+          ],
+          "substitution": {
+            "alpha3": "1-alpha1-alpha2"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2"
+          ],
+          "jacobian": "1"
+        }
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      },
+      "source_topology": {
+        "vertices": [
+          {
+            "line": 3,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 3,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu3",
+            "color": "a3"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "nu1"
+            ],
+            "color": [
+              "a1",
+              "b1"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "nu2"
+            ],
+            "color": [
+              "a2",
+              "b2"
+            ]
+          },
+          {
+            "loop": "l3",
+            "lorentz": [
+              "mu3",
+              "nu3"
+            ],
+            "color": [
+              "a3",
+              "b3"
+            ]
+          }
+        ],
+        "internal_vertices": [
+          {
+            "type": "tgv",
+            "id": "v1",
+            "loops": [
+              "l1",
+              "l2",
+              "l3"
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "loop": "l1",
+            "expression": "-(v1 + v2 + s31*v3)"
+          },
+          {
+            "loop": "l2",
+            "expression": "-(v1 + v2 + s32*v3)"
+          },
+          {
+            "loop": "l3",
+            "expression": "-(v1 + v2 + v3 + s41*v4)"
+          }
+        ],
+        "bounds": [
+          {
+            "var": "s31",
+            "low": "0",
+            "high": "s32"
+          },
+          {
+            "var": "s32",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "1"
+          }
+        ]
+      },
+      "topology": {
+        "tgv_legs": [
+          {
+            "edge": 3,
+            "s_var": "s31",
+            "loop": "l1"
+          },
+          {
+            "edge": 3,
+            "s_var": "s32",
+            "loop": "l2"
+          },
+          {
+            "edge": 4,
+            "s_var": "s41",
+            "loop": "l3"
+          }
+        ],
+        "pure_pairings": [],
+        "vertices": [
+          {
+            "line": 3,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 3,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu3",
+            "color": "a3"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "nu1"
+            ],
+            "color": [
+              "a1",
+              "b1"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "nu2"
+            ],
+            "color": [
+              "a2",
+              "b2"
+            ]
+          },
+          {
+            "loop": "l3",
+            "lorentz": [
+              "mu3",
+              "nu3"
+            ],
+            "color": [
+              "a3",
+              "b3"
+            ]
+          }
+        ],
+        "bounds": {
+          "s31": [
+            "0",
+            "s32"
+          ],
+          "s32": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "1"
+          ]
+        }
+      },
+      "representative": {
+        "policy": "single_canonical_representative",
+        "canonical_topology": {
+          "tgv_legs": [
+            {
+              "edge": 3,
+              "s_var": "s31",
+              "loop": "l1"
+            },
+            {
+              "edge": 3,
+              "s_var": "s32",
+              "loop": "l2"
+            },
+            {
+              "edge": 4,
+              "s_var": "s41",
+              "loop": "l3"
+            }
+          ],
+          "pure_pairings": [],
+          "vertices": [
+            {
+              "line": 3,
+              "lorentz": "mu1",
+              "color": "a1"
+            },
+            {
+              "line": 3,
+              "lorentz": "mu2",
+              "color": "a2"
+            },
+            {
+              "line": 4,
+              "lorentz": "mu3",
+              "color": "a3"
+            }
+          ],
+          "propagators": [
+            {
+              "loop": "l1",
+              "lorentz": [
+                "mu1",
+                "nu1"
+              ],
+              "color": [
+                "a1",
+                "b1"
+              ]
+            },
+            {
+              "loop": "l2",
+              "lorentz": [
+                "mu2",
+                "nu2"
+              ],
+              "color": [
+                "a2",
+                "b2"
+              ]
+            },
+            {
+              "loop": "l3",
+              "lorentz": [
+                "mu3",
+                "nu3"
+              ],
+              "color": [
+                "a3",
+                "b3"
+              ]
+            }
+          ],
+          "bounds": {
+            "s31": [
+              "0",
+              "s32"
+            ],
+            "s32": [
+              "0",
+              "1"
+            ],
+            "s41": [
+              "0",
+              "1"
+            ]
+          }
+        },
+        "transformation": {
+          "c4_rotation": 0,
+          "s_renaming": {
+            "s31": "s31",
+            "s32": "s32",
+            "s41": "s41"
+          },
+          "tgv_leg_permutation_new_to_old": [
+            1,
+            2,
+            3
+          ],
+          "alpha_renaming_old_to_new": {
+            "alpha1": "alpha1",
+            "alpha2": "alpha2",
+            "alpha3": "alpha3"
+          },
+          "color_recomputed_after_permutation": true,
+          "z_relation": "z_canonical=z_source",
+          "reference_scale_relation": "v14_canonical=v14_source"
+        },
+        "hypercube": {
+          "s_to_x": {
+            "s32": "x1",
+            "s41": "x2",
+            "s31": "x1*x3"
+          },
+          "jacobian": "x1"
+        }
+      },
+      "J_raw_s": {
+        "integrand": "(1/4*(alpha2*alpha3*(z1*(s41*z1) + -z1*(-s41*z1) + -z1*(s41*z1)) + alpha1*alpha3*(z1*(s41*z1) + z1*(-s41*z1) + -z1*(s41*z1)))) * ((alpha1*alpha2*alpha3)^(-eps)) * (alpha2*alpha3*((1-s32)*s41*z1) + alpha3*alpha1*((1-s31)*s41*z1))^(-(2 - 2*eps))",
+        "variables": [
+          "s31",
+          "s32",
+          "s41"
+        ],
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3"
+        ],
+        "bounds": {
+          "s31": [
+            "0",
+            "s32"
+          ],
+          "s32": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "1"
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3": "1"
+        },
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "constraint": "alpha1+alpha2+alpha3=1",
+          "independent_variables": [
+            "alpha1",
+            "alpha2"
+          ],
+          "substitution": {
+            "alpha3": "1-alpha1-alpha2"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2"
+          ],
+          "jacobian": "1"
+        },
+        "iterated_order_outer_to_inner": [
+          "s32",
+          "s31",
+          "s41"
+        ]
+      },
+      "normalization": {
+        "stage": "raw_montopar",
+        "euler_compensation_count": 1,
+        "assembly_sign": 1,
+        "scheme": "native-physical-CJ",
+        "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+      },
+      "J_ibp": {
+        "schema_version": "1.0",
+        "method": "contour_ibp",
+        "status": "complete",
+        "case": "degenerate_ab",
+        "prefactors": {
+          "C_raw": "(I) * (2*(1-2*eps)) * (-I/2*CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(64*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1)",
+          "C_star": "(CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1)",
+          "relation": "C_star = C_raw/(4*(1-2*eps))"
+        },
+        "operator": {
+          "derivative_vector": [
+            "-z1",
+            "z1",
+            "0"
+          ]
+        },
+        "terms": [
+          {
+            "term_id": "boundary_s31_0",
+            "kind": "cusp_boundary",
+            "coefficient": "z1",
+            "C_ref": "C_star",
+            "combined_C": "(z1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "-z1*d/ds31",
+            "fixed_parameters": {
+              "s31": "0"
+            },
+            "identified_parameters": {},
+            "s_to_x": {
+              "s32": "x1",
+              "s41": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (x2*alpha1*alpha3*z1 + x2*alpha2*alpha3*z1 - x1*x2*alpha2*alpha3*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          },
+          {
+            "term_id": "boundary_s32_1",
+            "kind": "cusp_boundary",
+            "coefficient": "z1",
+            "C_ref": "C_star",
+            "combined_C": "(z1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "z1*d/ds32",
+            "fixed_parameters": {
+              "s32": "1"
+            },
+            "identified_parameters": {},
+            "s_to_x": {
+              "s31": "x1",
+              "s41": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (x2*alpha1*alpha3*z1 - x1*x2*alpha1*alpha3*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          },
+          {
+            "term_id": "boundary_s31_eq_s32",
+            "kind": "contact_boundary",
+            "coefficient": "-2*z1",
+            "C_ref": "C_star",
+            "combined_C": "(-2*z1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "-z1*d/ds31 + z1*d/ds32",
+            "fixed_parameters": {},
+            "identified_parameters": {
+              "s31": "s32"
+            },
+            "s_to_x": {
+              "s32": "x1",
+              "s41": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (x2*alpha1*alpha3*z1 + x2*alpha2*alpha3*z1 - x1*x2*alpha1*alpha3*z1 - x1*x2*alpha2*alpha3*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          }
+        ],
+        "sum_expression": "term(boundary_s31_0) + term(boundary_s32_1) + term(boundary_s31_eq_s32)",
+        "certificates": {
+          "operator_identity": true,
+          "boundary_orientation": true,
+          "pnum_identity": true
+        }
+      },
+      "original_C": {
+        "components": {
+          "color": "-I/2*CA*CF",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-2*eps]/(64*Pi^(4-2*eps))",
+          "derivative": "2*(1-2*eps)",
+          "v14_scale": "(-2*v14+I0)^(2*eps)",
+          "twoscale": "1",
+          "i_factor": "I"
+        },
+        "component_semantics": "multiplicative",
+        "factor_order": [
+          "i_factor",
+          "derivative",
+          "color",
+          "coupling",
+          "ft_prefactor",
+          "v14_scale",
+          "twoscale"
+        ],
+        "phase_provenance": {
+          "wilson_vertices": "I^3",
+          "coordinate_propagators": "(-1)^3",
+          "coordinate_centres": "-I",
+          "momentum_derivative": "-I",
+          "chain_rule": "-1",
+          "product": "I"
+        },
+        "combined": "(I) * (2*(1-2*eps)) * (-I/2*CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(64*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1)"
+      },
+      "preparation": {
+        "native_sign_conversion_count": 0,
+        "Euler_compensation_count": 1,
+        "J_changed": false,
+        "colour_conversion": false,
+        "original_C_preserved": true,
+        "Gamma_Euler_weight": "2",
+        "formal": "not_run"
+      }
+    },
+    {
+      "orbit_id": "3e-3g-03",
+      "dispatch": "tgv",
+      "c4_symmetry": {
+        "orbit_multiplicity": 4,
+        "stabilizer_order": 1,
+        "stabilizer_rotations": [
+          0
+        ]
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "tgv",
+          "topology_class": "C",
+          "canonical_attachment_edges": [
+            1,
+            3,
+            3
+          ]
+        },
+        "direct_opposite_edge_links": {
+          "definition": "direct_eikonal_to_eikonal_only",
+          "channels": {
+            "13": 0,
+            "24": 0
+          },
+          "channel_partition": [],
+          "structure": "1",
+          "total_order": 0
+        },
+        "symbol": "C"
+      },
+      "C": {
+        "components": {
+          "color": "-I/2*CA*CF",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-2*eps]/(64*Pi^(4-2*eps))",
+          "derivative": "2*(1-2*eps)",
+          "v14_scale": "(-2*v14+I0)^(2*eps)",
+          "twoscale": "1",
+          "i_factor": "I",
+          "euler": "exp(-2*EulerGamma*eps)"
+        },
+        "component_semantics": "multiplicative",
+        "factor_order": [
+          "i_factor",
+          "derivative",
+          "color",
+          "coupling",
+          "ft_prefactor",
+          "v14_scale",
+          "twoscale",
+          "euler"
+        ],
+        "phase_provenance": {
+          "wilson_vertices": "I^3",
+          "coordinate_propagators": "(-1)^3",
+          "coordinate_centres": "-I",
+          "momentum_derivative": "-I",
+          "chain_rule": "-1",
+          "product": "I"
+        },
+        "combined": "(I)*(2*(1-2*eps))*(-I/2*CA*CF)*((4*Pi*alphaS)^2)*(Gamma[1-2*eps]/(64*Pi^(4-2*eps)))*((-2*v14+I0)^(2*eps))*(1)*(exp(-2*EulerGamma*eps))"
+      },
+      "J": {
+        "integrand": "(x2) * (1/4*alpha1*alpha2 - 1/4*alpha1*alpha3 + 1/4*alpha1*alpha2*z1 - 1/4*alpha1*alpha3*z1 - 1/4*x1*alpha1*alpha2 + 1/4*x1*alpha1*alpha3 - 1/2*x1*alpha1*alpha2*z1 + 1/2*x1*alpha1*alpha3*z1 - 1/4*x1*alpha1*alpha2*z1^2 + 1/4*x1*alpha1*alpha3*z1^2) * ((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha2 + alpha1*alpha3 - x1*alpha1*alpha2 - x1*alpha1*alpha3 - x2*alpha1*alpha3 + x1*x2*alpha1*alpha3 - x2*x3*alpha1*alpha2 + x1*x2*alpha1*alpha3*z1 + x1*x2*x3*alpha1*alpha2 + x1*x2*x3*alpha1*alpha2*z1)^(-(2 - 2*eps))",
+        "expanded": null,
+        "variables": [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ],
+          "x3": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3": "1"
+        },
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "constraint": "alpha1+alpha2+alpha3=1",
+          "independent_variables": [
+            "alpha1",
+            "alpha2"
+          ],
+          "substitution": {
+            "alpha3": "1-alpha1-alpha2"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2"
+          ],
+          "jacobian": "1"
+        }
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      },
+      "source_topology": {
+        "vertices": [
+          {
+            "line": 2,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu3",
+            "color": "a3"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "nu1"
+            ],
+            "color": [
+              "a1",
+              "b1"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "nu2"
+            ],
+            "color": [
+              "a2",
+              "b2"
+            ]
+          },
+          {
+            "loop": "l3",
+            "lorentz": [
+              "mu3",
+              "nu3"
+            ],
+            "color": [
+              "a3",
+              "b3"
+            ]
+          }
+        ],
+        "internal_vertices": [
+          {
+            "type": "tgv",
+            "id": "v1",
+            "loops": [
+              "l1",
+              "l2",
+              "l3"
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "loop": "l1",
+            "expression": "-(v1 + s21*v2)"
+          },
+          {
+            "loop": "l2",
+            "expression": "-(v1 + v2 + v3 + s41*v4)"
+          },
+          {
+            "loop": "l3",
+            "expression": "-(v1 + v2 + v3 + s42*v4)"
+          }
+        ],
+        "bounds": [
+          {
+            "var": "s21",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "s42"
+          },
+          {
+            "var": "s42",
+            "low": "0",
+            "high": "1"
+          }
+        ]
+      },
+      "topology": {
+        "tgv_legs": [
+          {
+            "edge": 2,
+            "s_var": "s21",
+            "loop": "l1"
+          },
+          {
+            "edge": 4,
+            "s_var": "s41",
+            "loop": "l2"
+          },
+          {
+            "edge": 4,
+            "s_var": "s42",
+            "loop": "l3"
+          }
+        ],
+        "pure_pairings": [],
+        "vertices": [
+          {
+            "line": 2,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu3",
+            "color": "a3"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "nu1"
+            ],
+            "color": [
+              "a1",
+              "b1"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "nu2"
+            ],
+            "color": [
+              "a2",
+              "b2"
+            ]
+          },
+          {
+            "loop": "l3",
+            "lorentz": [
+              "mu3",
+              "nu3"
+            ],
+            "color": [
+              "a3",
+              "b3"
+            ]
+          }
+        ],
+        "bounds": {
+          "s21": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "s42"
+          ],
+          "s42": [
+            "0",
+            "1"
+          ]
+        }
+      },
+      "representative": {
+        "policy": "single_canonical_representative",
+        "canonical_topology": {
+          "tgv_legs": [
+            {
+              "edge": 2,
+              "s_var": "s21",
+              "loop": "l1"
+            },
+            {
+              "edge": 4,
+              "s_var": "s41",
+              "loop": "l2"
+            },
+            {
+              "edge": 4,
+              "s_var": "s42",
+              "loop": "l3"
+            }
+          ],
+          "pure_pairings": [],
+          "vertices": [
+            {
+              "line": 2,
+              "lorentz": "mu1",
+              "color": "a1"
+            },
+            {
+              "line": 4,
+              "lorentz": "mu2",
+              "color": "a2"
+            },
+            {
+              "line": 4,
+              "lorentz": "mu3",
+              "color": "a3"
+            }
+          ],
+          "propagators": [
+            {
+              "loop": "l1",
+              "lorentz": [
+                "mu1",
+                "nu1"
+              ],
+              "color": [
+                "a1",
+                "b1"
+              ]
+            },
+            {
+              "loop": "l2",
+              "lorentz": [
+                "mu2",
+                "nu2"
+              ],
+              "color": [
+                "a2",
+                "b2"
+              ]
+            },
+            {
+              "loop": "l3",
+              "lorentz": [
+                "mu3",
+                "nu3"
+              ],
+              "color": [
+                "a3",
+                "b3"
+              ]
+            }
+          ],
+          "bounds": {
+            "s21": [
+              "0",
+              "1"
+            ],
+            "s41": [
+              "0",
+              "s42"
+            ],
+            "s42": [
+              "0",
+              "1"
+            ]
+          }
+        },
+        "transformation": {
+          "c4_rotation": 0,
+          "s_renaming": {
+            "s21": "s21",
+            "s41": "s41",
+            "s42": "s42"
+          },
+          "tgv_leg_permutation_new_to_old": [
+            1,
+            2,
+            3
+          ],
+          "alpha_renaming_old_to_new": {
+            "alpha1": "alpha1",
+            "alpha2": "alpha2",
+            "alpha3": "alpha3"
+          },
+          "color_recomputed_after_permutation": true,
+          "z_relation": "z_canonical=z_source",
+          "reference_scale_relation": "v14_canonical=v14_source"
+        },
+        "hypercube": {
+          "s_to_x": {
+            "s21": "x1",
+            "s42": "x2",
+            "s41": "x2*x3"
+          },
+          "jacobian": "x2"
+        }
+      },
+      "J_raw_s": {
+        "integrand": "(1/4*(alpha1*alpha2*(-(1+z1)*(-1 + -s21*-(1+z1)) + --(1+z1)*(1 + s21*-(1+z1)) + -(1+z1)*(1 + s21*-(1+z1))) + alpha1*alpha3*(--(1+z1)*(1 + s21*-(1+z1)) + -(1+z1)*(1 + s21*-(1+z1)) + --(1+z1)*(-1 + -s21*-(1+z1))))) * ((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha2*((1-s21)*(1-s41) + z1*s21*s41) + alpha3*alpha1*((1-s42)*(1-s21) + z1*s42*s21))^(-(2 - 2*eps))",
+        "variables": [
+          "s21",
+          "s41",
+          "s42"
+        ],
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3"
+        ],
+        "bounds": {
+          "s21": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "s42"
+          ],
+          "s42": [
+            "0",
+            "1"
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3": "1"
+        },
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "constraint": "alpha1+alpha2+alpha3=1",
+          "independent_variables": [
+            "alpha1",
+            "alpha2"
+          ],
+          "substitution": {
+            "alpha3": "1-alpha1-alpha2"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2"
+          ],
+          "jacobian": "1"
+        },
+        "iterated_order_outer_to_inner": [
+          "s21",
+          "s42",
+          "s41"
+        ]
+      },
+      "normalization": {
+        "stage": "raw_montopar",
+        "euler_compensation_count": 1,
+        "assembly_sign": 1,
+        "scheme": "native-physical-CJ",
+        "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+      },
+      "J_ibp": {
+        "schema_version": "1.0",
+        "method": "contour_ibp",
+        "status": "complete",
+        "case": "degenerate_bc",
+        "prefactors": {
+          "C_raw": "(I) * (2*(1-2*eps)) * (-I/2*CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(64*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1)",
+          "C_star": "(CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1)",
+          "relation": "C_star = C_raw/(4*(1-2*eps))"
+        },
+        "operator": {
+          "derivative_vector": [
+            "0",
+            "1 + z1",
+            "-1 - z1"
+          ]
+        },
+        "terms": [
+          {
+            "term_id": "boundary_s41_0",
+            "kind": "cusp_boundary",
+            "coefficient": "-1 - z1",
+            "C_ref": "C_star",
+            "combined_C": "(-1 - z1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "1 + z1*d/ds41",
+            "fixed_parameters": {
+              "s41": "0"
+            },
+            "identified_parameters": {},
+            "s_to_x": {
+              "s21": "x1",
+              "s42": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha2 + alpha1*alpha3 - x1*alpha1*alpha2 - x1*alpha1*alpha3 - x2*alpha1*alpha3 + x1*x2*alpha1*alpha3 + x1*x2*alpha1*alpha3*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          },
+          {
+            "term_id": "boundary_s42_1",
+            "kind": "cusp_boundary",
+            "coefficient": "-1 - z1",
+            "C_ref": "C_star",
+            "combined_C": "(-1 - z1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "-1 - z1*d/ds42",
+            "fixed_parameters": {
+              "s42": "1"
+            },
+            "identified_parameters": {},
+            "s_to_x": {
+              "s21": "x1",
+              "s41": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha2 - x1*alpha1*alpha2 - x2*alpha1*alpha2 + x1*alpha1*alpha3*z1 + x1*x2*alpha1*alpha2 + x1*x2*alpha1*alpha2*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          },
+          {
+            "term_id": "boundary_s41_eq_s42",
+            "kind": "contact_boundary",
+            "coefficient": "2 + 2*z1",
+            "C_ref": "C_star",
+            "combined_C": "(2 + 2*z1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "1 + z1*d/ds41 + -1 - z1*d/ds42",
+            "fixed_parameters": {},
+            "identified_parameters": {
+              "s41": "s42"
+            },
+            "s_to_x": {
+              "s21": "x1",
+              "s42": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha2 + alpha1*alpha3 - x1*alpha1*alpha2 - x1*alpha1*alpha3 - x2*alpha1*alpha2 - x2*alpha1*alpha3 + x1*x2*alpha1*alpha2 + x1*x2*alpha1*alpha3 + x1*x2*alpha1*alpha2*z1 + x1*x2*alpha1*alpha3*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          }
+        ],
+        "sum_expression": "term(boundary_s41_0) + term(boundary_s42_1) + term(boundary_s41_eq_s42)",
+        "certificates": {
+          "operator_identity": true,
+          "boundary_orientation": true,
+          "pnum_identity": true
+        }
+      },
+      "original_C": {
+        "components": {
+          "color": "-I/2*CA*CF",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-2*eps]/(64*Pi^(4-2*eps))",
+          "derivative": "2*(1-2*eps)",
+          "v14_scale": "(-2*v14+I0)^(2*eps)",
+          "twoscale": "1",
+          "i_factor": "I"
+        },
+        "component_semantics": "multiplicative",
+        "factor_order": [
+          "i_factor",
+          "derivative",
+          "color",
+          "coupling",
+          "ft_prefactor",
+          "v14_scale",
+          "twoscale"
+        ],
+        "phase_provenance": {
+          "wilson_vertices": "I^3",
+          "coordinate_propagators": "(-1)^3",
+          "coordinate_centres": "-I",
+          "momentum_derivative": "-I",
+          "chain_rule": "-1",
+          "product": "I"
+        },
+        "combined": "(I) * (2*(1-2*eps)) * (-I/2*CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(64*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1)"
+      },
+      "preparation": {
+        "native_sign_conversion_count": 0,
+        "Euler_compensation_count": 1,
+        "J_changed": false,
+        "colour_conversion": false,
+        "original_C_preserved": true,
+        "Gamma_Euler_weight": "2",
+        "formal": "not_run"
+      }
+    },
+    {
+      "orbit_id": "3e-3g-04",
+      "dispatch": "tgv",
+      "c4_symmetry": {
+        "orbit_multiplicity": 4,
+        "stabilizer_order": 1,
+        "stabilizer_rotations": [
+          0
+        ]
+      },
+      "integral_structure": {
+        "core": {
+          "kind": "tgv",
+          "topology_class": "D",
+          "canonical_attachment_edges": [
+            1,
+            2,
+            3
+          ]
+        },
+        "direct_opposite_edge_links": {
+          "definition": "direct_eikonal_to_eikonal_only",
+          "channels": {
+            "13": 0,
+            "24": 0
+          },
+          "channel_partition": [],
+          "structure": "1",
+          "total_order": 0
+        },
+        "symbol": "D"
+      },
+      "C": {
+        "components": {
+          "color": "-I/2*CA*CF",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-2*eps]/(64*Pi^(4-2*eps))",
+          "derivative": "2*(1-2*eps)",
+          "v14_scale": "(-2*v14+I0)^(2*eps)",
+          "twoscale": "1",
+          "i_factor": "I",
+          "euler": "exp(-2*EulerGamma*eps)"
+        },
+        "component_semantics": "multiplicative",
+        "factor_order": [
+          "i_factor",
+          "derivative",
+          "color",
+          "coupling",
+          "ft_prefactor",
+          "v14_scale",
+          "twoscale",
+          "euler"
+        ],
+        "phase_provenance": {
+          "wilson_vertices": "I^3",
+          "coordinate_propagators": "(-1)^3",
+          "coordinate_centres": "-I",
+          "momentum_derivative": "-I",
+          "chain_rule": "-1",
+          "product": "I"
+        },
+        "combined": "(I)*(2*(1-2*eps))*(-I/2*CA*CF)*((4*Pi*alphaS)^2)*(Gamma[1-2*eps]/(64*Pi^(4-2*eps)))*((-2*v14+I0)^(2*eps))*(1)*(exp(-2*EulerGamma*eps))"
+      },
+      "J": {
+        "integrand": "(1) * (-1/4*alpha1*alpha2 + 1/4*alpha1*alpha3 - 1/4*alpha1*alpha2*z1 + 3/4*alpha1*alpha3*z1 + 1/4*alpha2*alpha3*z1 + 1/4*x1*alpha1*alpha2 - 1/4*x1*alpha1*alpha3 + 1/4*x1*alpha1*alpha2*z1 - 1/4*x1*alpha1*alpha3*z1 + 1/4*x2*alpha1*alpha2*z1 - 1/4*x2*alpha2*alpha3*z1 + 1/4*x3*alpha1*alpha3*z1 - 1/4*x3*alpha2*alpha3*z1 + 1/4*x3*alpha1*alpha3*z1^2 - 1/4*x3*alpha2*alpha3*z1^2) * ((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha3 - x1*alpha1*alpha3 + x2*alpha1*alpha2 - x3*alpha1*alpha3 - x1*x2*alpha1*alpha2 + x1*x3*alpha1*alpha3 + x3*alpha2*alpha3*z1 + x1*x3*alpha1*alpha3*z1 - x2*x3*alpha2*alpha3*z1)^(-(2 - 2*eps))",
+        "expanded": null,
+        "variables": [
+          "x1",
+          "x2",
+          "x3"
+        ],
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3"
+        ],
+        "bounds": {
+          "x1": [
+            0,
+            1
+          ],
+          "x2": [
+            0,
+            1
+          ],
+          "x3": [
+            0,
+            1
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3": "1"
+        },
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "constraint": "alpha1+alpha2+alpha3=1",
+          "independent_variables": [
+            "alpha1",
+            "alpha2"
+          ],
+          "substitution": {
+            "alpha3": "1-alpha1-alpha2"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2"
+          ],
+          "jacobian": "1"
+        }
+      },
+      "physical_convention": {
+        "id": "wilson-qcd-action-path-fourier/1.0",
+        "wilson_transport": "U'=ig*A*U",
+        "wilson_word": [
+          "a3",
+          "a2",
+          "a1"
+        ],
+        "chronological_word": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "vertex_labels_unchanged": true,
+        "momentum_Fourier": "exp(-ipX)",
+        "momentum_Wick": "I",
+        "coordinate_Wick": "-I",
+        "one_pi_includes_internal_loop_signs": true,
+        "Dyson_external_coefficient": 1,
+        "raw_Euler_count": 0
+      },
+      "source_topology": {
+        "vertices": [
+          {
+            "line": 2,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 3,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu3",
+            "color": "a3"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "nu1"
+            ],
+            "color": [
+              "a1",
+              "b1"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "nu2"
+            ],
+            "color": [
+              "a2",
+              "b2"
+            ]
+          },
+          {
+            "loop": "l3",
+            "lorentz": [
+              "mu3",
+              "nu3"
+            ],
+            "color": [
+              "a3",
+              "b3"
+            ]
+          }
+        ],
+        "internal_vertices": [
+          {
+            "type": "tgv",
+            "id": "v1",
+            "loops": [
+              "l1",
+              "l2",
+              "l3"
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "loop": "l1",
+            "expression": "-(v1 + s21*v2)"
+          },
+          {
+            "loop": "l2",
+            "expression": "-(v1 + v2 + s31*v3)"
+          },
+          {
+            "loop": "l3",
+            "expression": "-(v1 + v2 + v3 + s41*v4)"
+          }
+        ],
+        "bounds": [
+          {
+            "var": "s21",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s31",
+            "low": "0",
+            "high": "1"
+          },
+          {
+            "var": "s41",
+            "low": "0",
+            "high": "1"
+          }
+        ]
+      },
+      "topology": {
+        "tgv_legs": [
+          {
+            "edge": 2,
+            "s_var": "s21",
+            "loop": "l1"
+          },
+          {
+            "edge": 3,
+            "s_var": "s31",
+            "loop": "l2"
+          },
+          {
+            "edge": 4,
+            "s_var": "s41",
+            "loop": "l3"
+          }
+        ],
+        "pure_pairings": [],
+        "vertices": [
+          {
+            "line": 2,
+            "lorentz": "mu1",
+            "color": "a1"
+          },
+          {
+            "line": 3,
+            "lorentz": "mu2",
+            "color": "a2"
+          },
+          {
+            "line": 4,
+            "lorentz": "mu3",
+            "color": "a3"
+          }
+        ],
+        "propagators": [
+          {
+            "loop": "l1",
+            "lorentz": [
+              "mu1",
+              "nu1"
+            ],
+            "color": [
+              "a1",
+              "b1"
+            ]
+          },
+          {
+            "loop": "l2",
+            "lorentz": [
+              "mu2",
+              "nu2"
+            ],
+            "color": [
+              "a2",
+              "b2"
+            ]
+          },
+          {
+            "loop": "l3",
+            "lorentz": [
+              "mu3",
+              "nu3"
+            ],
+            "color": [
+              "a3",
+              "b3"
+            ]
+          }
+        ],
+        "bounds": {
+          "s21": [
+            "0",
+            "1"
+          ],
+          "s31": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "1"
+          ]
+        }
+      },
+      "representative": {
+        "policy": "single_canonical_representative",
+        "canonical_topology": {
+          "tgv_legs": [
+            {
+              "edge": 2,
+              "s_var": "s21",
+              "loop": "l1"
+            },
+            {
+              "edge": 3,
+              "s_var": "s31",
+              "loop": "l2"
+            },
+            {
+              "edge": 4,
+              "s_var": "s41",
+              "loop": "l3"
+            }
+          ],
+          "pure_pairings": [],
+          "vertices": [
+            {
+              "line": 2,
+              "lorentz": "mu1",
+              "color": "a1"
+            },
+            {
+              "line": 3,
+              "lorentz": "mu2",
+              "color": "a2"
+            },
+            {
+              "line": 4,
+              "lorentz": "mu3",
+              "color": "a3"
+            }
+          ],
+          "propagators": [
+            {
+              "loop": "l1",
+              "lorentz": [
+                "mu1",
+                "nu1"
+              ],
+              "color": [
+                "a1",
+                "b1"
+              ]
+            },
+            {
+              "loop": "l2",
+              "lorentz": [
+                "mu2",
+                "nu2"
+              ],
+              "color": [
+                "a2",
+                "b2"
+              ]
+            },
+            {
+              "loop": "l3",
+              "lorentz": [
+                "mu3",
+                "nu3"
+              ],
+              "color": [
+                "a3",
+                "b3"
+              ]
+            }
+          ],
+          "bounds": {
+            "s21": [
+              "0",
+              "1"
+            ],
+            "s31": [
+              "0",
+              "1"
+            ],
+            "s41": [
+              "0",
+              "1"
+            ]
+          }
+        },
+        "transformation": {
+          "c4_rotation": 0,
+          "s_renaming": {
+            "s21": "s21",
+            "s31": "s31",
+            "s41": "s41"
+          },
+          "tgv_leg_permutation_new_to_old": [
+            1,
+            2,
+            3
+          ],
+          "alpha_renaming_old_to_new": {
+            "alpha1": "alpha1",
+            "alpha2": "alpha2",
+            "alpha3": "alpha3"
+          },
+          "color_recomputed_after_permutation": true,
+          "z_relation": "z_canonical=z_source",
+          "reference_scale_relation": "v14_canonical=v14_source"
+        },
+        "hypercube": {
+          "s_to_x": {
+            "s21": "x1",
+            "s31": "x2",
+            "s41": "x3"
+          },
+          "jacobian": "1"
+        }
+      },
+      "J_raw_s": {
+        "integrand": "(1/4*(alpha1*alpha2*(1*(-1 + -z1 + s31*z1 + -s21*-(1+z1)) + -1*(1 + z1 + s21*-(1+z1) + -s31*z1) + -z1*(s31) + -(1+z1)*(-1 + s21)) + alpha2*alpha3*(1*(-z1 + s31*z1) + z1*(1 + s41*-(1+z1) + -s31) + -z1*(-1 + s31 + -s41*-(1+z1)) + --(1+z1)*(s41*z1)) + alpha1*alpha3*(-1*(1 + s21*-(1+z1)) + z1*(1 + s41*-(1+z1)) + -(1+z1)*(-1 + s21 + -s41*z1) + --(1+z1)*(1 + s41*z1 + -s21)))) * ((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha2*((1-s21)*s31*1) + alpha2*alpha3*((1-s31)*s41*z1) + alpha3*alpha1*((1-s41)*(1-s21) + z1*s41*s21))^(-(2 - 2*eps))",
+        "variables": [
+          "s21",
+          "s31",
+          "s41"
+        ],
+        "alpha_vars": [
+          "alpha1",
+          "alpha2",
+          "alpha3"
+        ],
+        "bounds": {
+          "s21": [
+            "0",
+            "1"
+          ],
+          "s31": [
+            "0",
+            "1"
+          ],
+          "s41": [
+            "0",
+            "1"
+          ]
+        },
+        "delta_constraints": {
+          "alpha1+alpha2+alpha3": "1"
+        },
+        "alpha_measure": {
+          "kind": "simplex",
+          "variables": [
+            "alpha1",
+            "alpha2",
+            "alpha3"
+          ],
+          "constraint": "alpha1+alpha2+alpha3=1",
+          "independent_variables": [
+            "alpha1",
+            "alpha2"
+          ],
+          "substitution": {
+            "alpha3": "1-alpha1-alpha2"
+          },
+          "bounds": {
+            "alpha1": [
+              "0",
+              "1"
+            ],
+            "alpha2": [
+              "0",
+              "1-alpha1"
+            ]
+          },
+          "iterated_order_outer_to_inner": [
+            "alpha1",
+            "alpha2"
+          ],
+          "jacobian": "1"
+        },
+        "iterated_order_outer_to_inner": [
+          "s21",
+          "s31",
+          "s41"
+        ]
+      },
+      "normalization": {
+        "stage": "raw_montopar",
+        "euler_compensation_count": 1,
+        "assembly_sign": 1,
+        "scheme": "native-physical-CJ",
+        "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+      },
+      "J_ibp": {
+        "schema_version": "1.0",
+        "method": "contour_ibp",
+        "status": "complete",
+        "case": "nondegenerate",
+        "prefactors": {
+          "C_raw": "(I) * (2*(1-2*eps)) * (-I/2*CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(64*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1)",
+          "C_star": "(CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1)",
+          "relation": "C_star = C_raw/(4*(1-2*eps))"
+        },
+        "operator": {
+          "derivative_vector": [
+            "z1",
+            "-1 - z1",
+            "1"
+          ]
+        },
+        "terms": [
+          {
+            "term_id": "boundary_s21_0",
+            "kind": "cusp_boundary",
+            "coefficient": "-z1",
+            "C_ref": "C_star",
+            "combined_C": "(-z1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "z1*d/ds21",
+            "fixed_parameters": {
+              "s21": "0"
+            },
+            "identified_parameters": {},
+            "s_to_x": {
+              "s31": "x1",
+              "s41": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha3 + x1*alpha1*alpha2 - x2*alpha1*alpha3 + x2*alpha2*alpha3*z1 - x1*x2*alpha2*alpha3*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          },
+          {
+            "term_id": "boundary_s21_1",
+            "kind": "cusp_boundary",
+            "coefficient": "z1",
+            "C_ref": "C_star",
+            "combined_C": "(z1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "z1*d/ds21",
+            "fixed_parameters": {
+              "s21": "1"
+            },
+            "identified_parameters": {},
+            "s_to_x": {
+              "s31": "x1",
+              "s41": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (x2*alpha1*alpha3*z1 + x2*alpha2*alpha3*z1 - x1*x2*alpha2*alpha3*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          },
+          {
+            "term_id": "boundary_s31_0",
+            "kind": "cusp_boundary",
+            "coefficient": "1 + z1",
+            "C_ref": "C_star",
+            "combined_C": "(1 + z1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "-1 - z1*d/ds31",
+            "fixed_parameters": {
+              "s31": "0"
+            },
+            "identified_parameters": {},
+            "s_to_x": {
+              "s21": "x1",
+              "s41": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha3 - x1*alpha1*alpha3 - x2*alpha1*alpha3 + x1*x2*alpha1*alpha3 + x2*alpha2*alpha3*z1 + x1*x2*alpha1*alpha3*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          },
+          {
+            "term_id": "boundary_s31_1",
+            "kind": "cusp_boundary",
+            "coefficient": "-1 - z1",
+            "C_ref": "C_star",
+            "combined_C": "(-1 - z1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "-1 - z1*d/ds31",
+            "fixed_parameters": {
+              "s31": "1"
+            },
+            "identified_parameters": {},
+            "s_to_x": {
+              "s21": "x1",
+              "s41": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha2 + alpha1*alpha3 - x1*alpha1*alpha2 - x1*alpha1*alpha3 - x2*alpha1*alpha3 + x1*x2*alpha1*alpha3 + x1*x2*alpha1*alpha3*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          },
+          {
+            "term_id": "boundary_s41_0",
+            "kind": "cusp_boundary",
+            "coefficient": "-1",
+            "C_ref": "C_star",
+            "combined_C": "(-1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "1*d/ds41",
+            "fixed_parameters": {
+              "s41": "0"
+            },
+            "identified_parameters": {},
+            "s_to_x": {
+              "s21": "x1",
+              "s31": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha3 - x1*alpha1*alpha3 + x2*alpha1*alpha2 - x1*x2*alpha1*alpha2)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          },
+          {
+            "term_id": "boundary_s41_1",
+            "kind": "cusp_boundary",
+            "coefficient": "1",
+            "C_ref": "C_star",
+            "combined_C": "(1) * ((CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(256*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1))",
+            "source_derivative": "1*d/ds41",
+            "fixed_parameters": {
+              "s41": "1"
+            },
+            "identified_parameters": {},
+            "s_to_x": {
+              "s21": "x1",
+              "s31": "x2"
+            },
+            "integrand": "((alpha1*alpha2*alpha3)^(-eps)) * (alpha2*alpha3*z1 + x2*alpha1*alpha2 + x1*alpha1*alpha3*z1 - x1*x2*alpha1*alpha2 - x2*alpha2*alpha3*z1)^(-(1 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "1 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          },
+          {
+            "term_id": "recoil",
+            "kind": "recoil",
+            "coefficient": "1",
+            "C_ref": "C_raw",
+            "combined_C": "(I) * (2*(1-2*eps)) * (-I/2*CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(64*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1)",
+            "source_derivative": null,
+            "fixed_parameters": {},
+            "identified_parameters": {},
+            "s_to_x": {
+              "s21": "x1",
+              "s31": "x2",
+              "s41": "x3"
+            },
+            "integrand": "(1) * (-1/2*alpha1*alpha2 - 1/2*alpha1*alpha2*z1 + 1/2*alpha1*alpha3*z1 + 1/2*alpha2*alpha3*z1 + 1/2*x1*alpha1*alpha2 + 1/2*x1*alpha1*alpha2*z1 - 1/2*x2*alpha2*alpha3*z1 + 1/2*x3*alpha1*alpha3*z1 + 1/2*x3*alpha1*alpha3*z1^2) * ((alpha1*alpha2*alpha3)^(-eps)) * (alpha1*alpha3 - x1*alpha1*alpha3 + x2*alpha1*alpha2 - x3*alpha1*alpha3 - x1*x2*alpha1*alpha2 + x1*x3*alpha1*alpha3 + x3*alpha2*alpha3*z1 + x1*x3*alpha1*alpha3*z1 - x2*x3*alpha2*alpha3*z1)^(-(2 - 2*eps))",
+            "variables": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "alpha_vars": [
+              "alpha1",
+              "alpha2",
+              "alpha3"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ]
+            },
+            "delta_constraints": {
+              "alpha1+alpha2+alpha3": "1"
+            },
+            "denom_power": "2 - 2*eps",
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            }
+          }
+        ],
+        "sum_expression": "term(boundary_s21_0) + term(boundary_s21_1) + term(boundary_s31_0) + term(boundary_s31_1) + term(boundary_s41_0) + term(boundary_s41_1) + term(recoil)",
+        "certificates": {
+          "operator_identity": true,
+          "boundary_orientation": true,
+          "pnum_identity": true
+        }
+      },
+      "original_C": {
+        "components": {
+          "color": "-I/2*CA*CF",
+          "coupling": "(4*Pi*alphaS)^2",
+          "ft_prefactor": "Gamma[1-2*eps]/(64*Pi^(4-2*eps))",
+          "derivative": "2*(1-2*eps)",
+          "v14_scale": "(-2*v14+I0)^(2*eps)",
+          "twoscale": "1",
+          "i_factor": "I"
+        },
+        "component_semantics": "multiplicative",
+        "factor_order": [
+          "i_factor",
+          "derivative",
+          "color",
+          "coupling",
+          "ft_prefactor",
+          "v14_scale",
+          "twoscale"
+        ],
+        "phase_provenance": {
+          "wilson_vertices": "I^3",
+          "coordinate_propagators": "(-1)^3",
+          "coordinate_centres": "-I",
+          "momentum_derivative": "-I",
+          "chain_rule": "-1",
+          "product": "I"
+        },
+        "combined": "(I) * (2*(1-2*eps)) * (-I/2*CA*CF) * ((4*Pi*alphaS)^2) * (Gamma[1-2*eps]/(64*Pi^(4-2*eps))) * ((-2*v14+I0)^(2*eps)) * (1)"
+      },
+      "preparation": {
+        "native_sign_conversion_count": 0,
+        "Euler_compensation_count": 1,
+        "J_changed": false,
+        "colour_conversion": false,
+        "original_C_preserved": true,
+        "Gamma_Euler_weight": "2",
+        "formal": "not_run"
+      }
+    }
+  ],
+  "format": "wilson-native-physical-calculation-input/1",
+  "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+  "default_47_inputs_modified": false
+}

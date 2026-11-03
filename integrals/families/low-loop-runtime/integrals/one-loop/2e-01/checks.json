@@ -1,0 +1,256 @@
+{
+  "status": "passed",
+  "orbit_id": "2e-01",
+  "fresh_check_count": 28,
+  "negative_controls": 2,
+  "checks": [
+    {
+      "name": "prepared J is the unchanged original ordered J",
+      "passed": true,
+      "orbit_id": "2e-01"
+    },
+    {
+      "name": "original order and dependent bounds retained",
+      "passed": true,
+      "orbit_id": "2e-01"
+    },
+    {
+      "name": "full one-loop color coordinate is one",
+      "passed": true,
+      "orbit_id": "2e-01"
+    },
+    {
+      "name": "native sign convention is explicit",
+      "passed": true,
+      "orbit_id": "2e-01"
+    },
+    {
+      "name": "raw Euler count is zero",
+      "passed": true,
+      "orbit_id": "2e-01"
+    },
+    {
+      "name": "C4 multiplicity read from source",
+      "passed": true,
+      "orbit_id": "2e-01"
+    },
+    {
+      "name": "native and original C have identical physical sign",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "residual": "0"
+    },
+    {
+      "name": "prepared C adds Euler exactly once",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "residual": "0"
+    },
+    {
+      "name": "universal raw C ratio is minus one half",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "residual": "0"
+    },
+    {
+      "name": "original denominator polynomial",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "residual": "0"
+    },
+    {
+      "name": "original eikonal contraction",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "residual": "0"
+    },
+    {
+      "name": "source Fourier phase gives the actual denominator",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "residual": "0"
+    },
+    {
+      "name": "native cube is only the original variable renaming",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "residual": "0"
+    },
+    {
+      "name": "actual endpoint power primitive derivative",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "residual": "0"
+    },
+    {
+      "name": "Gamma-series Euler cancellation",
+      "passed": true,
+      "orbit_id": null,
+      "residual": "0"
+    },
+    {
+      "name": "post-generation historical r002 coefficient -2",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "residual": "0"
+    },
+    {
+      "name": "post-generation historical r002 coefficient -1",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "residual": "0"
+    },
+    {
+      "name": "post-generation historical r002 coefficient 0",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "residual": "0"
+    },
+    {
+      "name": "negative control: duplicating the adjacent orbit is rejected",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "negative_control": true
+    },
+    {
+      "name": "negative control: repeated Euler changes the adjacent simple pole",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "negative_control": true
+    },
+    {
+      "name": "actual adjacent ordered endpoint integrals",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "scaled_error": "8.87363488112e-27",
+      "tolerance": "1e-20",
+      "numeric_scope": "empirical high-precision control, not a certified interval"
+    },
+    {
+      "name": "actual adjacent ordered endpoint integrals",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "scaled_error": "8.87363488112e-27",
+      "tolerance": "1e-20",
+      "numeric_scope": "empirical high-precision control, not a certified interval"
+    },
+    {
+      "name": "regular adjacent Gamma Cauchy coefficient -2",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "scaled_error": "5.61459485041e-33",
+      "tolerance": "1e-22",
+      "numeric_scope": "empirical high-precision control, not a certified interval"
+    },
+    {
+      "name": "regular adjacent Gamma Cauchy coefficient -1",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "scaled_error": "5.61459480234e-33",
+      "tolerance": "1e-22",
+      "numeric_scope": "empirical high-precision control, not a certified interval"
+    },
+    {
+      "name": "regular adjacent Gamma Cauchy coefficient 0",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "scaled_error": "5.61459511444e-33",
+      "tolerance": "1e-22",
+      "numeric_scope": "empirical high-precision control, not a certified interval"
+    },
+    {
+      "name": "regular adjacent Gamma Cauchy coefficient 1",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "scaled_error": "5.61459261193e-33",
+      "tolerance": "1e-22",
+      "numeric_scope": "empirical high-precision control, not a certified interval"
+    },
+    {
+      "name": "regular adjacent Gamma Cauchy coefficient 2",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "scaled_error": "5.61450511569e-33",
+      "tolerance": "1e-22",
+      "numeric_scope": "empirical high-precision control, not a certified interval"
+    },
+    {
+      "name": "regular adjacent Gamma Cauchy coefficient 3",
+      "passed": true,
+      "orbit_id": "2e-01",
+      "scaled_error": "5.61517676813e-33",
+      "tolerance": "1e-22",
+      "numeric_scope": "empirical high-precision control, not a certified interval"
+    }
+  ],
+  "fresh_numeric_controls": [
+    {
+      "name": "actual adjacent ordered endpoint integrals",
+      "orbit_id": "2e-01",
+      "left": "2.1779241157864325418240329694549804",
+      "right": "2.1779241157864325418240329887810838",
+      "scaled_error": "8.87363488112e-27"
+    },
+    {
+      "name": "actual adjacent ordered endpoint integrals",
+      "orbit_id": "2e-01",
+      "left": "3.5428458350716412024070773302092998",
+      "right": "3.5428458350716412024070773616472202",
+      "scaled_error": "8.87363488112e-27"
+    },
+    {
+      "name": "regular adjacent Gamma Cauchy coefficient -2",
+      "orbit_id": "2e-01",
+      "left": "(-1.0000000000000000000000000000000056 - 2.2420775429197073134779673332638658e-44j)",
+      "right": "-1",
+      "scaled_error": "5.61459485041e-33"
+    },
+    {
+      "name": "regular adjacent Gamma Cauchy coefficient -1",
+      "orbit_id": "2e-01",
+      "left": "(-5.6145948023409529683435706126340943e-33 - 8.9683101716788292539118693330554632e-43j)",
+      "right": "0",
+      "scaled_error": "5.61459480234e-33"
+    },
+    {
+      "name": "regular adjacent Gamma Cauchy coefficient 0",
+      "orbit_id": "2e-01",
+      "left": "(-0.82246703342411321823620758332301821 - 1.6142958309021892657041364799499834e-40j)",
+      "right": "-0.82246703342411321823620758332301259",
+      "scaled_error": "5.61459511444e-33"
+    },
+    {
+      "name": "regular adjacent Gamma Cauchy coefficient 1",
+      "orbit_id": "2e-01",
+      "left": "(-0.40068563438653142846657938717048894 - 6.8159157304759102329730206931221521e-39j)",
+      "right": "-0.40068563438653142846657938717048333",
+      "scaled_error": "5.61459261193e-33"
+    },
+    {
+      "name": "regular adjacent Gamma Cauchy coefficient 2",
+      "orbit_id": "2e-01",
+      "left": "(-0.60880681896251523272775207930441256 - 2.1523944412029190209388486399333112e-38j)",
+      "right": "-0.60880681896251523272775207930440695",
+      "scaled_error": "5.61450511569e-33"
+    },
+    {
+      "name": "regular adjacent Gamma Cauchy coefficient 3",
+      "orbit_id": "2e-01",
+      "left": "(-0.53693627607822333829912067087226671 + 1.3990563867818973636102516159566523e-36j)",
+      "right": "-0.5369362760782233382991206708722611",
+      "scaled_error": "5.61517676813e-33"
+    }
+  ],
+  "working_dps": 40,
+  "maximum_observed_scaled_error": 8.87363488112e-27,
+  "full_family_check_record": "../validation/checks.json",
+  "full_family_numeric_record": "../validation/numeric.json",
+  "result_sha256": "e9463e95aac73ed11669fb36f6996d16c7a545042233dcd073114a3c00f620bc",
+  "reproducer_sha256": "fde2854b430fc55da58987b78d0179e65b2f3f65aeffdfc96b2c2725677fa90e",
+  "fresh_vs_reused": {
+    "new": "Source geometry/C/J bridge, actual primitive checks, exact Gamma/M convolution and numeric controls",
+    "reused": "Existing source contract/QFT Fourier rule and standard Euler/Mellin mathematics; original historical source/evidence byte snapshots retained"
+  },
+  "scope": "Research computation, fixed positive z and local epsilon continuation. Numeric errors are observations, not certified intervals. No integral formal proof is claimed.",
+  "formal": "not_run"
+}

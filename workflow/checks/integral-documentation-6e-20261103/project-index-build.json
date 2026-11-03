@@ -1,0 +1,214 @@
+{
+  "arguments": [
+    "D:\\py\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "workflow.project_index",
+    "build",
+    "--json"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"schema\": \"wilson-project-index/1\",\n  \"artifacts\": 858,\n  \"dependencies\": 1884,\n  \"stages\": {\n    \"manifest\": 2,\n    \"raw\": 16,\n    \"source_snapshot\": 7,\n    \"prepared\": 19,\n    \"integral\": 287,\n    \"producer\": 25,\n    \"evidence\": 345,\n    \"selector\": 13,\n    \"integral_status\": 12,\n    \"lower_order\": 2,\n    \"counterterms\": 1,\n    \"reference\": 57,\n    \"rg_result\": 7,\n    \"beta_function\": 1,\n    \"bare_assembly\": 1,\n    \"physical_bridge\": 2,\n    \"selector_snapshot\": 2,\n    \"field_comparison\": 14,\n    \"historical_assembly\": 5,\n    \"branch_sum\": 3,\n    \"upstream_inventory\": 1,\n    \"graph_source\": 2,\n    \"report\": 3,\n    \"all_order_research\": 6,\n    \"prediction\": 2,\n    \"research\": 2,\n    \"research_navigation\": 21\n  },\n  \"selections\": 165,\n  \"tracks\": [\n    {\n      \"id\": \"double-tgv\",\n      \"title\": \"双 TGV：16 已至有限项；15/24 选定版本与共同有限项\",\n      \"task\": \"WILSON-1\",\n      \"task_state\": {\n        \"id\": \"WILSON-1\",\n        \"status\": \"In Progress\",\n        \"title\": \"双 TGV 剩余 Laurent 系数\",\n        \"path\": \"workflow/backlog/tasks/wilson-1 - 双-TGV-剩余-Laurent-系数.md\"\n      }\n    },\n    {\n      \"id\": \"three-loop-rg\",\n      \"title\": \"三圈四颜色当前原生组装与RG；历史版本单独追溯\",\n      \"task\": \"WILSON-2\",\n      \"task_state\": {\n        \"id\": \"WILSON-2\",\n        \"status\": \"In Progress\",\n        \"title\": \"三圈完整颜色组装与 RG 版本追溯\",\n        \"path\": \"workflow/backlog/tasks/wilson-2 - 三圈完整颜色组装与-RG-版本追溯.md\"\n      }\n    },\n    {\n      \"id\": \"six-e-all-order\",\n      \"title\": \"6e 全阶：双对边自由指数母源与新阶检查\",\n      \"task\": \"WILSON-3\",\n      \"task_state\": {\n        \"id\": \"WILSON-3\",\n        \"status\": \"In Progress\",\n        \"title\": \"6e 全阶共同生成结构\",\n        \"path\": \"workflow/backlog/tasks/wilson-3 - 6e-全阶共同生成结构.md\"\n      }\n    },\n    {\n      \"id\": \"generators\",\n      \"title\": \"其他生成函数与 Montopar 算符研究\",\n      \"task\": \"WILSON-4\",\n      \"task_state\": {\n        \"id\": \"WILSON-4\",\n        \"status\": \"To Do\",\n        \"title\": \"其他生成函数与算符研究\",\n        \"path\": \"workflow/backlog/tasks/wilson-4 - 其他生成函数与算符研究.md\"\n      }\n    },\n    {\n      \"id\": \"reports\",\n      \"title\": \"报告及数值样本版本核对\",\n      \"task\": \"WILSON-5\",\n      \"task_state\": {\n        \"id\": \"WILSON-5\",\n        \"status\": \"Review\",\n        \"title\": \"报告与附属数值样本\",\n        \"path\": \"workflow/backlog/tasks/wilson-5 - 报告与附属数值样本.md\"\n      }\n    },\n    {\n      \"id\": \"upstream\",\n      \"title\": \"上游图源/原生符号生产与来源缺口\",\n      \"task\": \"WILSON-6\",\n      \"task_state\": {\n        \"id\": \"WILSON-6\",\n        \"status\": \"To Do\",\n        \"title\": \"上游图生成与 Montopar 来源管理\",\n        \"path\": \"workflow/backlog/tasks/wilson-6 - 上游图生成与-Montopar-来源管理.md\"\n      }\n    },\n    {\n      \"id\": \"kernel\",\n      \"title\": \"Wilson Kernel 与形式证明边界\",\n      \"task\": \"WILSON-7\",\n      \"task_state\": {\n        \"id\": \"WILSON-7\",\n        \"status\": \"In Progress\",\n        \"title\": \"Wilson Kernel 与数学证明边界\",\n        \"path\": \"workflow/backlog/tasks/wilson-7 - Wilson-Kernel-与数学证明边界.md\"\n      }\n    },\n    {\n      \"id\": \"management\",\n      \"title\": \"项目管理与新窗口交接\",\n      \"task\": \"WILSON-8\",\n      \"task_state\": {\n        \"id\": \"WILSON-8\",\n        \"status\": \"Done\",\n        \"title\": \"项目导航任务账本与依赖索引实施\",\n        \"path\": \"workflow/backlog/tasks/wilson-8 - 项目导航任务账本与依赖索引实施.md\"\n      }\n    }\n  ],\n  \"gaps\": [\n    {\n      \"code\": \"historical_hash_unresolved\",\n      \"message\": \"workflow/checks/empty-family/empty_math.py: expected 6450e1404c70d2d8ba8acaf18e0651ea95aeb498387865b1989208a837d2bf0f, observed c844a76f2eb7a1591d7cccd732821be488890d1196704ca397dce6eb0cd49373\",\n      \"severity\": \"warning\",\n      \"artifact\": \"file:workflow/checks/empty-family/empty_math.py@6450e1404c70d2d8ba8acaf18e0651ea95aeb498387865b1989208a837d2bf0f\"\n    },\n    {\n      \"code\": \"historical_hash_unresolved\",\n      \"message\": \"workflow/checks/empty-family/solve_empty.py: expected 3b4204e45037310c21b4f1973a5b730520fb3aef8c66c980b58a7355f5bac849, observed dedc7a2505a305f7b47f1ee06ef6063057106b507293c7fd9f1b950da33b160c\",\n      \"severity\": \"warning\",\n      \"artifact\": \"file:workflow/checks/empty-family/solve_empty.py@3b4204e45037310c21b4f1973a5b730520fb3aef8c66c980b58a7355f5bac849\"\n    },\n    {\n      \"code\": \"historical_hash_unresolved\",\n      \"message\": \"workflow/checks/single-opposite/solve_single.py: expected 1e604ac4981b3c3287a5c922b96e48e5dff34dac72919e0f6e303b9e12ed6f8a, observed e1cef2acd3e865095b0aac566a1f4c59fcf4568e328ea29e529e151ec8f3c30e\",\n      \"severity\": \"warning\",\n      \"artifact\": \"file:workflow/checks/single-opposite/solve_single.py@1e604ac4981b3c3287a5c922b96e48e5dff34dac72919e0f6e303b9e12ed6f8a\"\n    },\n    {\n      \"code\": \"historical_hash_unresolved\",\n      \"message\": \"workflow/checks/double-opposite/check_double.py: expected 28dc42d1b97dc06a39020b097c5f5dd3a4c3fd3e1321de77a9ce3012311cfae8, observed d475c9bd04dfba74bea6420fa39cb737588dbf314f1cdb2ec755ffc39455597c\",\n      \"severity\": \"warning\",\n      \"artifact\": \"file:workflow/checks/double-opposite/check_double.py@28dc42d1b97dc06a39020b097c5f5dd3a4c3fd3e1321de77a9ce3012311cfae8\"\n    },\n    {\n      \"code\": \"selection_gap\",\n      \"message\": \"benchmarks/tgv/3e-3g: no registered selector; revisions are discoverable, not assumed current\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"code\": \"historical_hash_unresolved\",\n      \"message\": \"benchmarks/self-energy/tgv-pi1/current.json: expected d68e7e85a47198229ff136b6f83138f4c92831e499ad4eb1a4e8bd58a9ee7417, observed 1d25a2bf5eb5e3fc4a70c8a34fd06030bfa33202ffc22a7171a89997d94389e5\",\n      \"severity\": \"warning\",\n      \"artifact\": \"file:benchmarks/self-energy/tgv-pi1/current.json@d68e7e85a47198229ff136b6f83138f4c92831e499ad4eb1a4e8bd58a9ee7417\"\n    },\n    {\n      \"code\": \"historical_hash_unresolved\",\n      \"message\": \"benchmarks/self-energy/gamma1/current.json: expected ca62a8e060cbefa0ea28641d7391da14b8cd8c56269224ab446d1dcef14ee0a9, observed 421a7bb8d8bd91443794fc25348c87f51761465adc0802a37961b13817b930c9\",\n      \"severity\": \"warning\",\n      \"artifact\": \"file:benchmarks/self-energy/gamma1/current.json@ca62a8e060cbefa0ea28641d7391da14b8cd8c56269224ab446d1dcef14ee0a9\"\n    },\n    {\n      \"code\": \"source_connection_gap\",\n      \"message\": \"Installed qgraf-pipeline and Montopar share a dirty parent repository; HEAD alone does not identify emitted C/J. Frozen snapshots remain authoritative.\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"code\": \"source_connection_gap\",\n      \"message\": \"Some family manifests do not express per-orbit graph-to-C/J lineage; family-level provenance is marked needs_review.\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"code\": \"source_connection_gap\",\n      \"message\": \"Existing historical references to mutable selectors or code may no longer match current bytes. These versions remain unresolved; old evidence is not rebound.\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"code\": \"source_connection_gap\",\n      \"message\": \"The 2026-10-06 RG selector's missing-integral count is historical. Current double-TGV selector has 3 incomplete IDs (15,16,24).\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"code\": \"source_connection_gap\",\n      \"message\": \"Index coverage is bounded to registered sources; absence of a downstream edge is not a mathematical independence proof.\",\n      \"severity\": \"warning\"\n    },\n    {\n      \"code\": \"source_connection_gap\",\n      \"message\": \"The external matter non-cusp coefficient comparison has an unresolved geometric log-scale dictionary (log 2); arithmetic equality does not yet establish the physical convention bridge. See the 2026-10-17 second-stage review and its subsequent erratum; nf2/cff raw-source finite shapes are separate.\",\n      \"severity\": \"warning\"\n    }\n  ],\n  \"boundary\": \"Management metadata only; no new mathematical proof or completion status.\"\n}\n",
+  "stderr": "",
+  "parsed": {
+    "schema": "wilson-project-index/1",
+    "artifacts": 858,
+    "dependencies": 1884,
+    "stages": {
+      "manifest": 2,
+      "raw": 16,
+      "source_snapshot": 7,
+      "prepared": 19,
+      "integral": 287,
+      "producer": 25,
+      "evidence": 345,
+      "selector": 13,
+      "integral_status": 12,
+      "lower_order": 2,
+      "counterterms": 1,
+      "reference": 57,
+      "rg_result": 7,
+      "beta_function": 1,
+      "bare_assembly": 1,
+      "physical_bridge": 2,
+      "selector_snapshot": 2,
+      "field_comparison": 14,
+      "historical_assembly": 5,
+      "branch_sum": 3,
+      "upstream_inventory": 1,
+      "graph_source": 2,
+      "report": 3,
+      "all_order_research": 6,
+      "prediction": 2,
+      "research": 2,
+      "research_navigation": 21
+    },
+    "selections": 165,
+    "tracks": [
+      {
+        "id": "double-tgv",
+        "title": "双 TGV：16 已至有限项；15/24 选定版本与共同有限项",
+        "task": "WILSON-1",
+        "task_state": {
+          "id": "WILSON-1",
+          "status": "In Progress",
+          "title": "双 TGV 剩余 Laurent 系数",
+          "path": "workflow/backlog/tasks/wilson-1 - 双-TGV-剩余-Laurent-系数.md"
+        }
+      },
+      {
+        "id": "three-loop-rg",
+        "title": "三圈四颜色当前原生组装与RG；历史版本单独追溯",
+        "task": "WILSON-2",
+        "task_state": {
+          "id": "WILSON-2",
+          "status": "In Progress",
+          "title": "三圈完整颜色组装与 RG 版本追溯",
+          "path": "workflow/backlog/tasks/wilson-2 - 三圈完整颜色组装与-RG-版本追溯.md"
+        }
+      },
+      {
+        "id": "six-e-all-order",
+        "title": "6e 全阶：双对边自由指数母源与新阶检查",
+        "task": "WILSON-3",
+        "task_state": {
+          "id": "WILSON-3",
+          "status": "In Progress",
+          "title": "6e 全阶共同生成结构",
+          "path": "workflow/backlog/tasks/wilson-3 - 6e-全阶共同生成结构.md"
+        }
+      },
+      {
+        "id": "generators",
+        "title": "其他生成函数与 Montopar 算符研究",
+        "task": "WILSON-4",
+        "task_state": {
+          "id": "WILSON-4",
+          "status": "To Do",
+          "title": "其他生成函数与算符研究",
+          "path": "workflow/backlog/tasks/wilson-4 - 其他生成函数与算符研究.md"
+        }
+      },
+      {
+        "id": "reports",
+        "title": "报告及数值样本版本核对",
+        "task": "WILSON-5",
+        "task_state": {
+          "id": "WILSON-5",
+          "status": "Review",
+          "title": "报告与附属数值样本",
+          "path": "workflow/backlog/tasks/wilson-5 - 报告与附属数值样本.md"
+        }
+      },
+      {
+        "id": "upstream",
+        "title": "上游图源/原生符号生产与来源缺口",
+        "task": "WILSON-6",
+        "task_state": {
+          "id": "WILSON-6",
+          "status": "To Do",
+          "title": "上游图生成与 Montopar 来源管理",
+          "path": "workflow/backlog/tasks/wilson-6 - 上游图生成与-Montopar-来源管理.md"
+        }
+      },
+      {
+        "id": "kernel",
+        "title": "Wilson Kernel 与形式证明边界",
+        "task": "WILSON-7",
+        "task_state": {
+          "id": "WILSON-7",
+          "status": "In Progress",
+          "title": "Wilson Kernel 与数学证明边界",
+          "path": "workflow/backlog/tasks/wilson-7 - Wilson-Kernel-与数学证明边界.md"
+        }
+      },
+      {
+        "id": "management",
+        "title": "项目管理与新窗口交接",
+        "task": "WILSON-8",
+        "task_state": {
+          "id": "WILSON-8",
+          "status": "Done",
+          "title": "项目导航任务账本与依赖索引实施",
+          "path": "workflow/backlog/tasks/wilson-8 - 项目导航任务账本与依赖索引实施.md"
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "code": "historical_hash_unresolved",
+        "message": "workflow/checks/empty-family/empty_math.py: expected 6450e1404c70d2d8ba8acaf18e0651ea95aeb498387865b1989208a837d2bf0f, observed c844a76f2eb7a1591d7cccd732821be488890d1196704ca397dce6eb0cd49373",
+        "severity": "warning",
+        "artifact": "file:workflow/checks/empty-family/empty_math.py@6450e1404c70d2d8ba8acaf18e0651ea95aeb498387865b1989208a837d2bf0f"
+      },
+      {
+        "code": "historical_hash_unresolved",
+        "message": "workflow/checks/empty-family/solve_empty.py: expected 3b4204e45037310c21b4f1973a5b730520fb3aef8c66c980b58a7355f5bac849, observed dedc7a2505a305f7b47f1ee06ef6063057106b507293c7fd9f1b950da33b160c",
+        "severity": "warning",
+        "artifact": "file:workflow/checks/empty-family/solve_empty.py@3b4204e45037310c21b4f1973a5b730520fb3aef8c66c980b58a7355f5bac849"
+      },
+      {
+        "code": "historical_hash_unresolved",
+        "message": "workflow/checks/single-opposite/solve_single.py: expected 1e604ac4981b3c3287a5c922b96e48e5dff34dac72919e0f6e303b9e12ed6f8a, observed e1cef2acd3e865095b0aac566a1f4c59fcf4568e328ea29e529e151ec8f3c30e",
+        "severity": "warning",
+        "artifact": "file:workflow/checks/single-opposite/solve_single.py@1e604ac4981b3c3287a5c922b96e48e5dff34dac72919e0f6e303b9e12ed6f8a"
+      },
+      {
+        "code": "historical_hash_unresolved",
+        "message": "workflow/checks/double-opposite/check_double.py: expected 28dc42d1b97dc06a39020b097c5f5dd3a4c3fd3e1321de77a9ce3012311cfae8, observed d475c9bd04dfba74bea6420fa39cb737588dbf314f1cdb2ec755ffc39455597c",
+        "severity": "warning",
+        "artifact": "file:workflow/checks/double-opposite/check_double.py@28dc42d1b97dc06a39020b097c5f5dd3a4c3fd3e1321de77a9ce3012311cfae8"
+      },
+      {
+        "code": "selection_gap",
+        "message": "benchmarks/tgv/3e-3g: no registered selector; revisions are discoverable, not assumed current",
+        "severity": "warning"
+      },
+      {
+        "code": "historical_hash_unresolved",
+        "message": "benchmarks/self-energy/tgv-pi1/current.json: expected d68e7e85a47198229ff136b6f83138f4c92831e499ad4eb1a4e8bd58a9ee7417, observed 1d25a2bf5eb5e3fc4a70c8a34fd06030bfa33202ffc22a7171a89997d94389e5",
+        "severity": "warning",
+        "artifact": "file:benchmarks/self-energy/tgv-pi1/current.json@d68e7e85a47198229ff136b6f83138f4c92831e499ad4eb1a4e8bd58a9ee7417"
+      },
+      {
+        "code": "historical_hash_unresolved",
+        "message": "benchmarks/self-energy/gamma1/current.json: expected ca62a8e060cbefa0ea28641d7391da14b8cd8c56269224ab446d1dcef14ee0a9, observed 421a7bb8d8bd91443794fc25348c87f51761465adc0802a37961b13817b930c9",
+        "severity": "warning",
+        "artifact": "file:benchmarks/self-energy/gamma1/current.json@ca62a8e060cbefa0ea28641d7391da14b8cd8c56269224ab446d1dcef14ee0a9"
+      },
+      {
+        "code": "source_connection_gap",
+        "message": "Installed qgraf-pipeline and Montopar share a dirty parent repository; HEAD alone does not identify emitted C/J. Frozen snapshots remain authoritative.",
+        "severity": "warning"
+      },
+      {
+        "code": "source_connection_gap",
+        "message": "Some family manifests do not express per-orbit graph-to-C/J lineage; family-level provenance is marked needs_review.",
+        "severity": "warning"
+      },
+      {
+        "code": "source_connection_gap",
+        "message": "Existing historical references to mutable selectors or code may no longer match current bytes. These versions remain unresolved; old evidence is not rebound.",
+        "severity": "warning"
+      },
+      {
+        "code": "source_connection_gap",
+        "message": "The 2026-10-06 RG selector's missing-integral count is historical. Current double-TGV selector has 3 incomplete IDs (15,16,24).",
+        "severity": "warning"
+      },
+      {
+        "code": "source_connection_gap",
+        "message": "Index coverage is bounded to registered sources; absence of a downstream edge is not a mathematical independence proof.",
+        "severity": "warning"
+      },
+      {
+        "code": "source_connection_gap",
+        "message": "The external matter non-cusp coefficient comparison has an unresolved geometric log-scale dictionary (log 2); arithmetic equality does not yet establish the physical convention bridge. See the 2026-10-17 second-stage review and its subsequent erratum; nf2/cff raw-source finite shapes are separate.",
+        "severity": "warning"
+      }
+    ],
+    "boundary": "Management metadata only; no new mathematical proof or completion status."
+  }
+}

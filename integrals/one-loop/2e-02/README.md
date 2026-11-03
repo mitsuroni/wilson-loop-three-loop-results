@@ -1,18 +1,21 @@
-# 2e-02: the opposite one-loop exchange
+# 2e-02: Opposite exchange (2,4)
 
-The representative joins edges2 and4; its C4 orbit contains the two
-opposite edge pairs. The original two-parameter kernel has only integrable
-corner singularities near epsilon=0. One actual parameter integration gives
-a removable difference quotient, from which the M-moment coefficients follow.
+The object is the complete normalized physical I, including its recorded cyclic
+orbit and one Euler compensation. Work at fixed real z>0 and D=4-2epsilon;
+the inherited source i0 is retained. Target: epsilon^-2 through epsilon³; O(epsilon⁴).
 
-- [Continuous derivation](derivation.md): original momentum/path expression,
-  ordered C/J, primitive, all-epsilon evaluation and normalized I.
-- [Input/source index](input.json).
-- [All-epsilon Meijer G answer and coefficients through epsilon3](result.json).
-- [Fresh checks](checks.json), including the original two-dimensional
-  integral, full-epsilon Meijer G and coefficient Cauchy controls.
-- [Reproduction commands](reproduce.md).
+A linear endpoint integral produces the complete removable difference quotient; a Beta/Mellin integral gives MeijerG, while the same kernel generates the fixed M moments through3.
 
-The normalized I already includes m=2, crossing and one Euler compensation;
-CF, lambda and S1 are removed. The result is finite at epsilon=0. Its M
-moments have a removable internal point and require no principal-value rule.
+Read [derivation](derivation.md) from the original momentum/parameter source
+to the complete Laurent table, then [reproduction](reproduce.md) and
+[validation](validation.md). The stable [input](input.json), [result](result.json),
+[data index](data/index.json) and [check index](checks/index.json) distinguish
+source facts, adopted evaluated functions and current checks.
+
+The M family and real branch are explicit; its evaluated HLOG dictionary is adopted. Arbitrary complex-z and z=-1 continuation are outside this trial.
+
+The text now provides a continuous mathematical chain using declared adopted
+lemmas. Implementation, replay, mathematical controls and public release are
+separate acceptance dimensions; document existence alone does not close them.
+The new trial run is reported in validation rather than inferred from historical
+passed flags. This local reading-layer trial has not been uploaded automatically.

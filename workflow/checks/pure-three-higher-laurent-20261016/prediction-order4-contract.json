@@ -1,0 +1,39 @@
+{
+  "status": "frozen_before_new_physical_epsilon4",
+  "prediction_order": 4,
+  "weight": 10,
+  "known_physical_orders": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "max_existing_three_kernel_source_degree": 6,
+  "predictor": "Existing fixed W moment system and exact complete-sector GPL rules for W/Lambda, without target-fitted parameters.",
+  "new_source_degree_required": 7,
+  "physical_map": {
+    "I20": "P/16*(W+Lambda-H^3/2)",
+    "I21=I22": "P/32*(H^3/3-W-Lambda/2)"
+  },
+  "prefactor_p4": "3*zeta4/4+9*zeta2^2/8-27*zeta2*log(z)^2/16+135*log(z)^4/128",
+  "independent_interval_moment4": "center^4/24+center^2*width^2/48+width^4/1920",
+  "independent_three_interval_moment4": "center^4/24+center^2*variance/2+variance^2/2-sum(width_i^4)/2880; variance=sum(width_i^2)/24",
+  "fixed_checks": [
+    "z=0.4",
+    "z=0.7",
+    "common endpoint limits and all physical sectors",
+    "I21=I22",
+    "crossing symmetry"
+  ],
+  "validation_route": "Complete source prediction vs independent original ordered-kernel coefficient integration; any future exact all-z regression is recorded separately.",
+  "no_epsilon4_result_read_or_used_for_construction": true,
+  "inputs_sha256": {
+    "workflow/checks/pure-three-generators-20261015/w_source_check.py": "60c349cf50c34c00b5cbd91779e869faf9a74ba221cf5d996fd6d51d9306d578",
+    "workflow/checks/pure-three-generators-20261015/w_lambda_gpl_check.py": "b30226900af0450f411f6a3e5064fd971a31e06941a453ce43a697b3fb9e6bd4",
+    "workflow/checks/pure-three-generators-20261015/moment_system.py": "975a5509bae482a1853e07381535f2d49e2b214d34d8360a95363f9022a83926",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical_sources.py": "0422db169bdafcc8f3f8e7b2b3dfebbf9cf32801410c9ab08aa5902ad46564f1",
+    "workflow/checks/pure-three-higher-laurent-20261016/run_physical.py": "ef9c46208040b8c1ec73ad439123d3f3357a461242cac38e4b5ed166f4071f7a",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/coefficients.json": "6e171acef52584d713cf60e2f60b0a56032277d0b664c73952be8175208c36dd"
+  },
+  "formal": "not_run"
+}

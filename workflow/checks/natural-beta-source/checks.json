@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "symbolic_checks": [
+    {
+      "n": 1,
+      "hypergeometric_coefficient_residual": "0",
+      "source_ODE_residual": "0"
+    },
+    {
+      "n": 2,
+      "hypergeometric_coefficient_residual": "0",
+      "source_ODE_residual": "0"
+    },
+    {
+      "n": 3,
+      "hypergeometric_coefficient_residual": "0",
+      "source_ODE_residual": "0"
+    },
+    {
+      "n": 4,
+      "hypergeometric_coefficient_residual": "0",
+      "source_ODE_residual": "0"
+    },
+    {
+      "n": 5,
+      "hypergeometric_coefficient_residual": "0",
+      "source_ODE_residual": "0"
+    },
+    {
+      "n": 6,
+      "hypergeometric_coefficient_residual": "0",
+      "source_ODE_residual": "0"
+    },
+    {
+      "n": 7,
+      "hypergeometric_coefficient_residual": "0",
+      "source_ODE_residual": "0"
+    },
+    {
+      "n": 8,
+      "hypergeometric_coefficient_residual": "0",
+      "source_ODE_residual": "0"
+    }
+  ],
+  "polynomial_controls": 2,
+  "missing_primitive_factor_negative_control": true,
+  "numerical_controls": [
+    {
+      "a": 0.2,
+      "b": 0.4,
+      "c": 0.3,
+      "x": 0.5,
+      "Jacobi_quadrature": -0.0908834913562194,
+      "closed_5F4": "-0.090883491356219338147804590572487816547507138874352",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "a": -0.2,
+      "b": 0.1,
+      "c": 0.25,
+      "x": -0.6,
+      "Jacobi_quadrature": 0.16584752935310668,
+      "closed_5F4": "0.16584752935310668040875480959630289188741145519708",
+      "absolute_error": 0.0
+    },
+    {
+      "a": 0.0,
+      "b": 0.0,
+      "c": 0.35,
+      "x": 0.4,
+      "Jacobi_quadrature": -0.14244291566624356,
+      "closed_5F4": "-0.14244291566624355459854715034138285723400199581864",
+      "absolute_error": 0.0
+    }
+  ],
+  "source_inputs": "Only the defining Euler integral and standard hypergeometric series; no M/N, Hlog target or fitting data.",
+  "scope": "One actual double-Beta subblock, not the complete three-kernel solution.",
+  "formal": "not_run"
+}

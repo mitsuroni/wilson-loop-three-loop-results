@@ -1,0 +1,103 @@
+{
+  "code_sha256": {
+    "preprocessing/color.py": "7097e101b9390b0259e30df83f933e77676c872a16471fe51af076f0ec3fb945",
+    "preprocessing/ordered.py": "67bebf72c4350ff886a8007932644afa53deae4fefd5f51f1c6b9c5664b2ccec",
+    "preprocessing/prepare.py": "cf5980049c4bf4f47558af919f47112718a1049e777130ef8d538cf5f6e81c71"
+  },
+  "euler_compensation": "exp(-loop_order*EulerGamma*eps)",
+  "format": "wilson-prepared-input-manifest/0.3",
+  "integral_representation": "ordered-parameters/1",
+  "lean_invoked": false,
+  "packages": [
+    {
+      "count": 2,
+      "family": "2e",
+      "orbit_ids": [
+        "2e-01",
+        "2e-02"
+      ],
+      "path": "2e.json",
+      "sha256": "d8ce895e6ff1dfd6c6d9b2d241c18988ba34fce234a7770ea47f6109ed366827",
+      "source": {
+        "path": "sources/montopar-ordered/2e/montopar-initial.json",
+        "path_base": "benchmarks/2ne",
+        "sha256": "6da143214266017bfea452c45c7a09ba157b1e1563776f93b8ed3b8e2718b8fe"
+      }
+    },
+    {
+      "count": 6,
+      "family": "4e",
+      "orbit_ids": [
+        "4e-01",
+        "4e-02",
+        "4e-03",
+        "4e-04",
+        "4e-05",
+        "4e-06"
+      ],
+      "path": "4e.json",
+      "sha256": "0193d668525fdcc4f184896cfc7445f7201dc65557657c1f316a8b9ae8af57c7",
+      "source": {
+        "path": "sources/montopar-ordered/4e/montopar-initial.json",
+        "path_base": "benchmarks/2ne",
+        "sha256": "f48bc2dce21679060b72ce1e18273d6a278cbcaf5c8cde7d8bd4e62dfb3804a0"
+      }
+    },
+    {
+      "count": 39,
+      "family": "6e",
+      "orbit_ids": [
+        "6e-01",
+        "6e-02",
+        "6e-03",
+        "6e-04",
+        "6e-05",
+        "6e-06",
+        "6e-07",
+        "6e-08",
+        "6e-09",
+        "6e-10",
+        "6e-11",
+        "6e-12",
+        "6e-13",
+        "6e-14",
+        "6e-15",
+        "6e-16",
+        "6e-17",
+        "6e-18",
+        "6e-19",
+        "6e-20",
+        "6e-21",
+        "6e-22",
+        "6e-23",
+        "6e-24",
+        "6e-25",
+        "6e-26",
+        "6e-27",
+        "6e-28",
+        "6e-29",
+        "6e-30",
+        "6e-31",
+        "6e-32",
+        "6e-33",
+        "6e-34",
+        "6e-35",
+        "6e-36",
+        "6e-37",
+        "6e-38",
+        "6e-39"
+      ],
+      "path": "6e.json",
+      "sha256": "9699532d1ee3a4027c2eb93c961a5b467a9bceda229c0204c13775cfa2451406",
+      "source": {
+        "path": "sources/montopar-ordered/6e/montopar-initial.json",
+        "path_base": "benchmarks/2ne",
+        "sha256": "890858f4429fa39bcf4e7f2de9afbf847193a1a6dc2b377250b9d75f9603475b"
+      }
+    }
+  ],
+  "recipe": "ordered-parameters+fixed-loop-color-a1+per-loop-euler-compensation/0.3",
+  "total_orbits": 47,
+  "trust_basis": "user_accepted_preprocessed_input",
+  "unique_color_expressions": 4
+}

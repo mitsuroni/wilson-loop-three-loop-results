@@ -1,0 +1,138 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "checks": [
+    {
+      "z": ".4",
+      "epsilon_order": -2,
+      "weight": 4,
+      "Hlog": "0.1283171912922295297604943038517445893239",
+      "indexed160": 0.12831719129218036,
+      "indexed280": 0.12831719129222396,
+      "absolute_error": 5.565399863942227e-15,
+      "refinement": 4.360400929215302e-14,
+      "tolerance": 3e-07,
+      "passed": true
+    },
+    {
+      "z": ".4",
+      "epsilon_order": -1,
+      "weight": 5,
+      "Hlog": "-0.3032710561757413370377561651616418767789",
+      "indexed160": -0.3032710561744281,
+      "indexed280": -0.30327105617568,
+      "absolute_error": 6.132764531927853e-14,
+      "refinement": 1.2518874825673265e-12,
+      "tolerance": 3e-07,
+      "passed": true
+    },
+    {
+      "z": ".4",
+      "epsilon_order": 0,
+      "weight": 6,
+      "Hlog": "0.6872561845936501125042426921713661714366",
+      "indexed160": 0.6872561845747333,
+      "indexed280": 0.6872561845927877,
+      "absolute_error": 8.624475879318434e-13,
+      "refinement": 1.8054402946012394e-11,
+      "tolerance": 3e-07,
+      "passed": true
+    },
+    {
+      "z": ".4",
+      "epsilon_order": 1,
+      "weight": 7,
+      "Hlog": "-0.9731158475984504315924732472675048023544",
+      "indexed160": -0.9731158474198042,
+      "indexed280": -0.973115847589508,
+      "absolute_error": 8.942410892324427e-12,
+      "refinement": 1.697038847710705e-10,
+      "tolerance": 3e-07,
+      "passed": true
+    },
+    {
+      "z": ".4",
+      "epsilon_order": 2,
+      "weight": 8,
+      "Hlog": "1.497446292929905035039293273212146743083",
+      "indexed160": 1.49744629169669,
+      "indexed280": 1.4974462928604153,
+      "absolute_error": 6.948965366340562e-11,
+      "refinement": 1.1637253727226624e-09,
+      "tolerance": 3e-07,
+      "passed": true
+    },
+    {
+      "z": ".7",
+      "epsilon_order": -2,
+      "weight": 4,
+      "Hlog": "0.115461223492364419196472728290136210974",
+      "indexed160": 0.11546122349232267,
+      "indexed280": 0.1154612234923595,
+      "absolute_error": 4.917089032222921e-15,
+      "refinement": 3.683164884193957e-14,
+      "tolerance": 3e-07,
+      "passed": true
+    },
+    {
+      "z": ".7",
+      "epsilon_order": -1,
+      "weight": 5,
+      "Hlog": "-0.2874276495909362131583823621950965441221",
+      "indexed160": -0.287427649589822,
+      "indexed280": -0.2874276495908835,
+      "absolute_error": 5.269709640360921e-14,
+      "refinement": 1.0615397449953434e-12,
+      "tolerance": 3e-07,
+      "passed": true
+    },
+    {
+      "z": ".7",
+      "epsilon_order": 0,
+      "weight": 6,
+      "Hlog": "0.727880947127950793461766107840840605435",
+      "indexed160": 0.7278809471117924,
+      "indexed280": 0.7278809471272135,
+      "absolute_error": 7.372592101353678e-13,
+      "refinement": 1.5421173287173607e-11,
+      "tolerance": 3e-07,
+      "passed": true
+    },
+    {
+      "z": ".7",
+      "epsilon_order": 1,
+      "weight": 7,
+      "Hlog": "-1.14327742108531878829742663127693045409",
+      "indexed160": -1.1432774209312841,
+      "indexed280": -1.1432774210776446,
+      "absolute_error": 7.674052266900916e-12,
+      "refinement": 1.4636057250169992e-10,
+      "tolerance": 3e-07,
+      "passed": true
+    },
+    {
+      "z": ".7",
+      "epsilon_order": 2,
+      "weight": 8,
+      "Hlog": "1.88293700868485982928764628261254215401",
+      "indexed160": 1.8829370076085576,
+      "indexed280": 1.8829370086246606,
+      "absolute_error": 6.019920048338605e-11,
+      "refinement": 1.0161029158969447e-09,
+      "tolerance": 3e-07,
+      "passed": true
+    }
+  ],
+  "Hlog_precision": 50,
+  "Hlog_series_terms": 384,
+  "period_zeta53_reused": "0.0377076729848475",
+  "sources_sha256": {
+    "workflow/checks/single-opposite-free-endpoints-20261016/check_coefficients.py": "2535dec028083da51fe43f5520655986488b074a59b3d430226c4b4a08352eae",
+    "workflow/checks/single-opposite-free-endpoints-20261016/generators.py": "7fe3a3ea95c26db75f529d2ed911059c2d9d38195e8f0880c1adbf5ae63f8515",
+    "workflow/checks/mn-primitive-high-order/targets2.json": "6accc134ab3b2e843bc1710d87534c0948bd167b6fcb9756b717b415a17037d0",
+    "workflow/checks/three-kernel-eps2/numeric.json": "ebfa4ea5aa0d982efc4faa47e872fb85f6642d0159df4f89298d73b814b4a1c8",
+    "benchmarks/2ne/results/6e-36/r002.json": "05f131eb9111fef209ff799b13d5b8c303bc00f565f0232f6d8bd5982c9164f9",
+    "workflow/checks/single-opposite/numeric_hlog.py": "2f7ff121f0f2b0ce5ac6c0d53b96269bee30e3331e1370ee25af6427ae36549b"
+  },
+  "limits": "Numerical comparison to frozen canonical Hlog vectors; no new canonical expansion or exact high-weight reduction. Shared endpoint grid, distinct integrands."
+}

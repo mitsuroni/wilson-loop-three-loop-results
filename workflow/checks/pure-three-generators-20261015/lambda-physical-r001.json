@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "epsilon": "0.5",
+  "z": "1",
+  "L_series": "-3.401239730626802758351063847442501997115526073063707447",
+  "L_quadrature": "-3.401239730627432506414582384026616656893617873490059394",
+  "Lambda_series": "-6.802479461253605516702127694885003994231052146127414894",
+  "quadrature_coordinates": "u=1-x^2, v=1-y^2",
+  "checks": [
+    {
+      "name": "physical_series_refinement",
+      "passed": true,
+      "difference": "0.000000000006495540120011435299037912666483609298360663130989774657"
+    },
+    {
+      "name": "physical_original_quadrature_refinement",
+      "passed": true,
+      "difference": "1.074881558260499211851989477541091367647275726993012152e-20"
+    },
+    {
+      "name": "physical_complete_L_original_vs_series",
+      "passed": true,
+      "difference": "0.0000000000006297480635185365841146597780918004263519470978260432943"
+    }
+  ],
+  "formal": "not_run",
+  "error_scope": "observed convergence differences, not interval bounds"
+}

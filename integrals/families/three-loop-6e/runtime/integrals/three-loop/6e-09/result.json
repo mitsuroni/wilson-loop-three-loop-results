@@ -1,0 +1,203 @@
+{
+  "format": "wilson-6e-publication-result/1",
+  "orbit_id": "6e-09",
+  "quantity": "I",
+  "family": "empty",
+  "domain": "z>0; local meromorphic epsilon expansion, O(eps)",
+  "normalization": {
+    "format": "wilson-2ne-assembly/0.1",
+    "n": 3,
+    "kappa": "-1/16",
+    "euler": "consumed from prepared C exactly once",
+    "formula": "kappa*G(eps)^n*(J(z)+z^(n*eps)*J(1/z))/(1+z^(n*eps))",
+    "a1": "1/4",
+    "sym": 4
+  },
+  "coefficients": {
+    "-6": {
+      "hlog_terms": [],
+      "function_conversion": [],
+      "function_latex": "0"
+    },
+    "-5": {
+      "hlog_terms": [],
+      "function_conversion": [],
+      "function_latex": "0"
+    },
+    "-4": {
+      "hlog_terms": [],
+      "function_conversion": [],
+      "function_latex": "0"
+    },
+    "-3": {
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/32"
+        }
+      ],
+      "function_conversion": [
+        {
+          "factors": [
+            "zeta_3"
+          ],
+          "coefficient": "-1/32"
+        }
+      ],
+      "function_latex": "-\\frac{1}{32} \\zeta_{3}"
+    },
+    "-2": {
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "13/320"
+        }
+      ],
+      "function_conversion": [
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_2"
+          ],
+          "coefficient": "13/320"
+        }
+      ],
+      "function_latex": "\\frac{13}{320} \\zeta_{2} \\zeta_{2}"
+    },
+    "-1": {
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-15/32"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": "5/64"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1/16"
+        }
+      ],
+      "function_conversion": [
+        {
+          "factors": [
+            "M_0_1",
+            "zeta_3"
+          ],
+          "coefficient": "-1/16"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_3"
+          ],
+          "coefficient": "-7/64"
+        },
+        {
+          "factors": [
+            "zeta_5"
+          ],
+          "coefficient": "-15/32"
+        }
+      ],
+      "function_latex": "-\\frac{1}{16} M_{0,1}(z) \\zeta_{3}-\\frac{7}{64} \\zeta_{2} \\zeta_{3}-\\frac{15}{32} \\zeta_{5}"
+    },
+    "0": {
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": "-1/4"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": "1083/4480"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-13/160"
+        }
+      ],
+      "function_conversion": [
+        {
+          "factors": [
+            "zeta_3",
+            "zeta_3"
+          ],
+          "coefficient": "-1/4"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_2",
+            "M_0_1"
+          ],
+          "coefficient": "13/160"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_2",
+            "zeta_2"
+          ],
+          "coefficient": "435/896"
+        }
+      ],
+      "function_latex": "-\\frac{1}{4} \\zeta_{3} \\zeta_{3}+\\frac{13}{160} \\zeta_{2} \\zeta_{2} M_{0,1}(z)+\\frac{435}{896} \\zeta_{2} \\zeta_{2} \\zeta_{2}"
+    }
+  },
+  "generation_result": {
+    "path": "evidence/generation/generated.json",
+    "path_base": "package root",
+    "sha256": "fc4efa5347e5e4f8fb5447a37342ef0c6471fcb67c287f360cd54df01069aad9",
+    "json_pointer": "/6e-09"
+  },
+  "scope": "HLOG coordinates and function conversion exported only after exact comparison with the newly reassembled candidate. Complex source branch/formal proof not newly established.",
+  "formal": "not_run"
+}

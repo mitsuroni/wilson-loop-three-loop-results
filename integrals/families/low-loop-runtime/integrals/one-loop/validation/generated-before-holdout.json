@@ -1,0 +1,100 @@
+{
+  "2e-01": {
+    "format": "wilson-published-one-loop-I/1",
+    "orbit_id": "2e-01",
+    "normalization": {
+      "m": 4,
+      "a1": 1,
+      "I_includes_orbit_and_crossing": true,
+      "Euler_compensation_count": 1,
+      "CF_lambda_common_S1_removed": true,
+      "I_map": "I=-(m/4)*G(eps)*(J(z,eps)+z**eps*J(1/z,eps))/(1+z**eps)",
+      "G": "exp(-EulerGamma*eps)*gamma(1-eps)",
+      "coupling": "lambda=alpha_s/pi"
+    },
+    "laurent": {
+      "variable": "eps",
+      "minimum_power": -2,
+      "maximum_power": 3,
+      "coefficients": {
+        "-2": "-1",
+        "-1": "0",
+        "0": "-pi**2/12",
+        "1": "-zeta(3)/3",
+        "2": "-pi**4/160",
+        "3": "-pi**2*zeta(3)/36 - zeta(5)/5"
+      },
+      "remainder": "O(eps^4)"
+    },
+    "symbols": {
+      "M01": "M_(0,1)(z)",
+      "M11": "M_(1,1)(z)",
+      "M21": "M_(2,1)(z)",
+      "M31": "M_(3,1)(z)",
+      "M13": "M_(1,3)(z)"
+    },
+    "function_definitions": {
+      "rho": "log(z)",
+      "r": "z/(1+z)",
+      "W": "log(beta*(1-beta))",
+      "Lbeta": "rho+log((1-beta)/beta)",
+      "M_kj": "integral_0^1 W**k*Lbeta**j/(beta-r) d beta, raw powers without factorials, removable point filled continuously",
+      "G": "exp(-EulerGamma*eps)*gamma(1-eps)",
+      "H_epsilon": "sum_{k,j>=0} eps**(k+2*j)*M_(k,2*j+1)/(2**(k+2*j)*k!*(2*j+1)!)",
+      "elementary_moment_generator": "pi*(cot(pi*a)-exp(rho*a)/sin(pi*a))+rho = sum_{j>=1} a**j*M_(0,j)/j!"
+    },
+    "all_epsilon_expression": "-exp(-EulerGamma*eps)*gamma(1-eps)/eps**2",
+    "source_calculation": "Original ordered parameter kernel -> actual primitive -> Gamma/M generating function -> exact finite convolution",
+    "historical_coefficient_table_used_to_generate": false,
+    "formal": "not_run"
+  },
+  "2e-02": {
+    "format": "wilson-published-one-loop-I/1",
+    "orbit_id": "2e-02",
+    "normalization": {
+      "m": 2,
+      "a1": 1,
+      "I_includes_orbit_and_crossing": true,
+      "Euler_compensation_count": 1,
+      "CF_lambda_common_S1_removed": true,
+      "I_map": "I=-(m/4)*G(eps)*(J(z,eps)+z**eps*J(1/z,eps))/(1+z**eps)",
+      "G": "exp(-EulerGamma*eps)*gamma(1-eps)",
+      "coupling": "lambda=alpha_s/pi"
+    },
+    "laurent": {
+      "variable": "eps",
+      "minimum_power": -2,
+      "maximum_power": 3,
+      "coefficients": {
+        "-2": "0",
+        "-1": "0",
+        "0": "-M01/2",
+        "1": "-M11/4",
+        "2": "-5*M01**2/48 - 5*pi**2*M01/48 - M21/16",
+        "3": "-M01*M11/16 - M01*zeta(3)/6 - 5*pi**2*M11/96 - M13/96 - M31/96"
+      },
+      "remainder": "O(eps^4)"
+    },
+    "symbols": {
+      "M01": "M_(0,1)(z)",
+      "M11": "M_(1,1)(z)",
+      "M21": "M_(2,1)(z)",
+      "M31": "M_(3,1)(z)",
+      "M13": "M_(1,3)(z)"
+    },
+    "function_definitions": {
+      "rho": "log(z)",
+      "r": "z/(1+z)",
+      "W": "log(beta*(1-beta))",
+      "Lbeta": "rho+log((1-beta)/beta)",
+      "M_kj": "integral_0^1 W**k*Lbeta**j/(beta-r) d beta, raw powers without factorials, removable point filled continuously",
+      "G": "exp(-EulerGamma*eps)*gamma(1-eps)",
+      "H_epsilon": "sum_{k,j>=0} eps**(k+2*j)*M_(k,2*j+1)/(2**(k+2*j)*k!*(2*j+1)!)",
+      "elementary_moment_generator": "pi*(cot(pi*a)-exp(rho*a)/sin(pi*a))+rho = sum_{j>=1} a**j*M_(0,j)/j!"
+    },
+    "all_epsilon_expression": "(1+z)*z**(-eps/2)*exp(-EulerGamma*eps)*meijerg([[0,0,eps],[]],[[0,eps,eps],[]],z)/(2*cosh(eps*log(z)/2)*gamma(1+eps)**2)",
+    "source_calculation": "Original ordered parameter kernel -> actual primitive -> Gamma/M generating function -> exact finite convolution",
+    "historical_coefficient_table_used_to_generate": false,
+    "formal": "not_run"
+  }
+}

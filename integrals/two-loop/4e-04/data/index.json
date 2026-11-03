@@ -1,0 +1,141 @@
+{
+  "orbit_id": "4e-04",
+  "runtime_base": "../../../families/low-loop-runtime",
+  "family_source_manifest": "integrals/two-loop/source-manifest.json",
+  "accepted_result": {
+    "path": "integrals/two-loop/4e-04/result.json",
+    "sha256": "6ff28c66c5b59637bd37b8a3dfad48be9342550079b9428aaba7ae9f19fb38de"
+  },
+  "scope": "Object roles are separate: original initial roots are bound by ../input.json, adopted subintegrals and whole-I inputs are labelled here, comparison targets are not generation inputs. A batch may load additional moment files needed by its other members.",
+  "N_to_M_relation": "N_(k,j)=M_(k,j+1)-ell*M_(k,j); not an extra independent integration file.",
+  "path_base": "All paths in adopted_primitives, assembly_code and comparison_targets are relative to runtime_base.",
+  "adopted_primitives": [
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "object": "M_{0,1} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "object": "M_{1,1} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+      "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "object": "M_{2,1} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt",
+      "sha256": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+      "object": "M_{0,3} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_2.txt",
+      "sha256": "cd56e716a2f6ff5ffdb881802c666ce34650e2097bc006f41c85373024cbec79",
+      "object": "M_{0,2} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt",
+      "sha256": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f",
+      "object": "M_{1,2} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt",
+      "sha256": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+      "object": "M_{1,3} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_2.txt",
+      "sha256": "b7cc73814d33c1d6e6474ed4d0ae774b2de1ea68ded05ba21861ba173e3bfced",
+      "object": "M_{2,2} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_3.txt",
+      "sha256": "4c217930ee68940afc732b722f77297b342ef7b2c444e713ba1c52ffbd8a5612",
+      "object": "M_{2,3} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_4.txt",
+      "sha256": "0e103345155d0d8cf29e95d5cb32549779b6c9ecf97b3ecd9ef4f5faea3bddd7",
+      "object": "M_{0,4} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_5.txt",
+      "sha256": "28e4f12e67372785789afc9a3164e3f6627d6452db4fc3deb1e229962c0a0674",
+      "object": "M_{0,5} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/4e04-high-order/runs/20260926T084846954927Z/Q0_plus.txt",
+      "sha256": "6ee35424c250fe7197798a332c96df29b49d9fead2c68c6737feffd05356aed4",
+      "object": "bare crossing-even Q_0",
+      "role": "Already integrated two-variable coefficient, without physical prefactor; independent Q-to-I assembly control.",
+      "epsilon_order": 0
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/4e04-high-order/runs/20260926T084846954927Z/Q1_plus.txt",
+      "sha256": "8803d3a70898133e9583c3d31ac6fa4d53a8eeea303da610d391d271e48e5802",
+      "object": "bare crossing-even Q_1",
+      "role": "Already integrated two-variable coefficient, without physical prefactor; independent Q-to-I assembly control.",
+      "epsilon_order": 1
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/4e04-high-order/runs/20260926T084846954927Z/Q2_plus.txt",
+      "sha256": "05bd051d65c2e080ca51e166d4131ef9360faee421841f82436ecb2fb1867ad7",
+      "object": "bare crossing-even Q_2",
+      "role": "Already integrated two-variable coefficient, without physical prefactor; independent Q-to-I assembly control.",
+      "epsilon_order": 2
+    }
+  ],
+  "assembly_code": [
+    {
+      "path": "integrals/two-loop/family_engines.py",
+      "sha256": "6ac28b4ba47605f196451d3a8096e73dbe8b7fe762f9d8bb09d8b28e7041ee51",
+      "object": "reconstruct",
+      "role": "Expand declared evaluated mother functions and Gamma/cosh factors. TGV04 instead adopts assembled I coefficients."
+    },
+    {
+      "path": "integrals/two-loop/reproduce.py",
+      "sha256": "dda41520957f2decbcc6b94ada7c87908dd558efdf4e6eccd62dd43f025a4d6f",
+      "object": "main; exact HLOG comparison",
+      "role": "Generate or adopt the stated coefficients, then compare exact representations and previous reports."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/hlog_algebra.py",
+      "sha256": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+      "object": "exact rational shuffle algebra",
+      "role": "Function-coordinate arithmetic; not a new parameter integration."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/4e04-high-order/compute.mpl",
+      "sha256": "4cea3ef675d63e6846f53af3c252a15e8142674f0ee83101fe001e33361aa494",
+      "object": "historical HyperInt Q integration",
+      "role": "Original integrator and fibration conversion; old absolute CAS setup retained, not invoked by the Python adapter."
+    }
+  ],
+  "comparison_targets": [
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/two-loop-report-20261015/pure-data.json",
+      "sha256": "290b17ad02706e2a9b4c9636adf18d3e447f0c53be946a4ed526ceb9f048794e",
+      "object": "previous family coefficient report",
+      "role": "Post-generation or post-adoption comparison only."
+    },
+    {
+      "path": "integrals/two-loop/sources/benchmarks/2ne/results/4e-04/r002.json",
+      "sha256": "3053908df767b60c9dcf062161a2373391aeb53d6e482a6a39f58a04f321d753",
+      "object": "canonical complete I",
+      "role": "Accepted whole-I target, separate from primitive data."
+    }
+  ]
+}

@@ -1,21 +1,13 @@
-# Integral evaluation articles
+# Integral derivations and calculation records
 
-## P5/P6 publication: 3 November 2026
+This is the current reading layer under the [integral documentation standard](../workflow/integral-documentation-standard.md). It follows each initial integral through its actual reduction, evaluated subintegrals and Laurent-coefficient assembly. The physical definitions remain those of the [single current convention](../workflow/current-conventions.md).
 
-[The three-loop index](../integrals/three-loop/README.md) now covers98 source memberships:39 pure exchanges,15 two-point/exchange insertions and44 tree-three-gluon sources. The new immutable packets provide59 own articles,413 scalar Laurent positions,238 external-colour positions and651 independent function back-substitutions. See [publication validation](../validation/three-loop-p5-p6-2026-11-03/README.md) for actual copied-public replays and the limits of reused primitive integration. The remaining16 insertions and35 four-leg source memberships are subsequent curation batches; the complete four-colour scientific result is unchanged.
+The first trial covers [two one-loop integrals](one-loop/README.md), through epsilon cubed, and [twelve two-loop integrals](two-loop/README.md), through epsilon squared. Every entry has a derivation, reproduction instructions, validation scope, exact input/result bindings and code/data/check indices. Nontrivial endpoint proofs and large but explicit HLOG jets have mathematical appendices.
 
-For normal reading and assembly use the [single current entrypoint](../docs/current/README.md). It selects explicit whole-I fields, preserves channel/operator identity and rejects J/partial contributions being presented as I. The current catalogue also preserves the four-leg joint/source boundary.
+The next batch applies the same standard to [all39 three-loop6e integrals](three-loop/README.md), through the finite term. Six shared mathematical routes support39 own-source derivations; their [scientific audit and actual replay](../workflow/checks/integral-documentation-6e-20261103/README.md) are recorded separately. Each entry preserves its own ordered root, normalization and exact relation to any representative.
 
-Start with the [per-integral input catalogue](../data/README.md). Its entries contain exact definitions and provenance; a raw parameter definition is distinct from an evaluated Laurent coefficient.
+The [trial report](../workflow/checks/integral-documentation-low-loops-20261103/README.md) separates the independent scientific reading audit from the actual [96-coefficient replay](../workflow/checks/integral-documentation-low-loops-20261103/replay.json). Replaying an adopted analytic formula does not establish a new integration of its original kernel. In particular the difficult TGV04 historical integration remains an explicitly adopted computational result.
 
-The [one-loop packet](one-loop/README.md) contains both exchange orbits through epsilon3. The [two-loop packet](two-loop/README.md) contains all twelve exchange, TGV and Pi1 orbits through epsilon2. Every orbit has a continuous English derivation, exact coefficients and a declared calculation route. Shared family programs and historical integration reuse are explicitly identified.
+Shared original programs, primitive outputs and source snapshots live in [low-loop-runtime](families/low-loop-runtime/README.md). Its archived Markdown preserves provenance; use the articles linked here for the current mathematical exposition. Wolfram and Maple files are kept where they actually participated; Python adapters run the supported low-loop batch. There is no requirement to manufacture three versions of an algorithm.
 
-Follow them into the [full low-loop assembly and RG/finite result](../results/2026-11-02-low-loops/README.md). The [three-loop publication lessons](../docs/low-loops/curation-lessons.md) explain the next stage. Three-loop four-leg joint objects will keep a separate identity from their FGV/DT source graphs.
-
-Each packet follows [this article template](../templates/integral-derivation.md). A reflection-related orbit can refer to the parent article and state the explicit variable/leg map. Shared family programs remain shared, with per-integral parameters and entrypoints.
-
-The [historical catalogue and result archives](../results/README.md) remain available in their stated dated scopes. This directory's framework does not claim all evaluation articles have already been curated.
-
-## Three-loop exchange batch: 3 November 2026
-
-The [39 pure-exchange 6e entries](three-loop/README.md) now publish six shared mathematical methods, seven Laurent positions per orbit, HLOG/function-family representations and a portable original-primitive replay. The other three-loop families are subsequent curation batches. This does not claim39 new independent CAS integrations.
+The three-loop public packets remain at their original locations. Their earlier packaging/replay acceptance does not imply acceptance under the new continuous-derivation standard; use the new per-entry scientific review for the6e batch. Other three-loop families await that review. This local reading layer has not been published to GitHub.

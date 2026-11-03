@@ -1,0 +1,161 @@
+{
+  "orbit_id": "6e-25",
+  "runtime_base": "../../../families/three-loop-6e/runtime",
+  "paths_relative_to": "runtime_base; the original_ordered_root field is explicitly relative to this data/index.json file",
+  "original_ordered_root": "../input.json",
+  "archived_subintegral_budget": {
+    "path": "integrals/three-loop/6e-25/subintegrals.json",
+    "sha256": "ba6c1107b8700fed35840f5c0e69e93fa11d7934f21b55f124649f9bc19883f0",
+    "object": "original root, reductions and epsilon budget",
+    "role": "Historical exact root/consumption record. Absolute historical paths inside it are not current output paths."
+  },
+  "required_budget": {
+    "target_powers": [
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0
+    ],
+    "rule": "Required regular order equals requested physical order minus the actual external pole; the active per-order requests below contain the consumed orders. Ordered gap jets use q=0,1,2; all-opposite finite kernels use q=0; Gamma route uses through6.",
+    "normalization": {
+      "format": "wilson-2ne-assembly/0.1",
+      "n": 3,
+      "kappa": "-1/16",
+      "euler": "consumed from prepared C exactly once",
+      "formula": "kappa*G(eps)^n*(J(z)+z^(n*eps)*J(1/z))/(1+z^(n*eps))",
+      "a1": "1/4",
+      "sym": 4
+    }
+  },
+  "new_primitive_events_in_this_orbit": 1,
+  "primitive_units": [
+    {
+      "operation": "ordered-opposite-gap-moments",
+      "orders": [
+        0,
+        1,
+        2
+      ],
+      "first_replayed_by_orbit": "6e-25",
+      "from_shared_batch_cache": false,
+      "request": {
+        "path": "primitives/objects/cas-runs/ordered-moments-381f6aaacf2c411e8787be767b44053f/request.json",
+        "sha256": "281ef6ea21ade91eb11a4cf65323ac655aa6af2d94374ec648a35386563e595f",
+        "object": "regular ordered gap jet; pole and external powers excluded mathematical request",
+        "role": "Exact definition, domain, variable order and backend binding used by the original integration."
+      },
+      "execution_record": {
+        "path": "primitives/objects/cas-runs/ordered-moments-381f6aaacf2c411e8787be767b44053f/result.json",
+        "sha256": "cefee87d0195afc084532c189b4fa7dcaed390817d05104507b1a0241bb104a5",
+        "object": "regular ordered gap jet; pole and external powers excluded historical execution record",
+        "role": "Records original CAS execution; success is not a mathematical proof. No new CAS is run now."
+      }
+    }
+  ],
+  "adopted_integrated_primitives": [
+    {
+      "path": "primitives/objects/cas-runs/ordered-moments-381f6aaacf2c411e8787be767b44053f/q0.raw.txt",
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "object": "regular ordered gap jet; pole and external powers excluded",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 0,
+      "channel": "raw",
+      "operation": "ordered-opposite-gap-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/ordered-moments-381f6aaacf2c411e8787be767b44053f/q0.reflected.txt",
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "object": "regular ordered gap jet; pole and external powers excluded",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 0,
+      "channel": "reflected",
+      "operation": "ordered-opposite-gap-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/ordered-moments-381f6aaacf2c411e8787be767b44053f/q1.raw.txt",
+      "sha256": "2adc04f472ec9fef09a3cf88d389142a09b10ddf6a870e41413ab21dec206899",
+      "object": "regular ordered gap jet; pole and external powers excluded",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 1,
+      "channel": "raw",
+      "operation": "ordered-opposite-gap-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/ordered-moments-381f6aaacf2c411e8787be767b44053f/q1.reflected.txt",
+      "sha256": "913a71a55964478a1d3c60f861ee388a140c320b061f2f0704851958d5671006",
+      "object": "regular ordered gap jet; pole and external powers excluded",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 1,
+      "channel": "reflected",
+      "operation": "ordered-opposite-gap-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/ordered-moments-381f6aaacf2c411e8787be767b44053f/q2.raw.txt",
+      "sha256": "3dd13a92722c2a9b0b71046b6c51114ff66d9ebe182d8aa41416e353c1fb4bdf",
+      "object": "regular ordered gap jet; pole and external powers excluded",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 2,
+      "channel": "raw",
+      "operation": "ordered-opposite-gap-moments"
+    },
+    {
+      "path": "primitives/objects/cas-runs/ordered-moments-381f6aaacf2c411e8787be767b44053f/q2.reflected.txt",
+      "sha256": "16309c65f82f7ee63d17d12d286d3102c436c614ae643cf4b15b33a646104b06",
+      "object": "regular ordered gap jet; pole and external powers excluded",
+      "role": "Adopted original integrated raw output, parsed and connected to this current request before assembly.",
+      "order": 2,
+      "channel": "reflected",
+      "operation": "ordered-opposite-gap-moments"
+    }
+  ],
+  "actual_code": [
+    {
+      "path": "scripts/evaluate_batch.py",
+      "sha256": "411f5b47342feb4fb8eb451b095bd1476c37307518bebe0c51e2b2e5a33668d0",
+      "object": "batch entry",
+      "role": "Calls the original-root recognizers and actual assembly, with only archived CAS and output adapters."
+    },
+    {
+      "path": "engine/wilson_calc/assembly.py",
+      "sha256": "ee7c7c486d258918f3a018ad05a52c8cc23950e9560dcaa68510f33591eb7daf",
+      "object": "physical_expression / expand_scalar",
+      "role": "Actual kappa, Gamma, crossing and finite-order assembly."
+    },
+    {
+      "path": "engine/wilson_calc/ordered.py",
+      "sha256": "4b86bb9ee2bb0eb33fd03ba50e2a5bc1a9174bf89fc690207724ca6ca51c1572",
+      "object": "evaluate_ordered",
+      "role": "Derive the ordered gap kernel or keep the ordinary all-opposite J0, then assemble this I."
+    },
+    {
+      "path": "primitives/objects/cas-runs/ordered-moments-381f6aaacf2c411e8787be767b44053f/compute.mpl",
+      "sha256": "6200b6168c4ab84ca1ed08eea7581c3898ada59237dab9aa4f0bcb9bec575e40",
+      "object": "regular ordered gap jet; pole and external powers excluded original HyperInt integration",
+      "role": "Historical actual integrator. Its archived absolute CAS/library paths are provenance and are not executed by current Python replay."
+    },
+    {
+      "path": "scripts/primitive_replay.py",
+      "sha256": "f505848c922dd2498490ba68b25588526e986bd574ecb271588a3e278f645deb",
+      "object": "PrimitiveReplay",
+      "role": "Checks mathematical request, regenerated script, original execution and raw parser, then returns adopted primitive jets."
+    }
+  ],
+  "comparison_targets": [
+    {
+      "path": "references/results/6e-25.json",
+      "sha256": "ddd46740edb3f060dadc2112d367d479faf0488ab7ca65974ecc753f96a9cce9",
+      "object": "historical complete I",
+      "role": "Only opened after generation for comparison; not a primitive input."
+    },
+    {
+      "path": "references/basis-and-conversions.json",
+      "sha256": "c646e42379fd344c45bee8ad02ec25a0f92a050d9ac85da63912cc1265f72c05",
+      "object": "moment dictionary plus target conversion table",
+      "role": "Used by reading/verification; complete target rows are not opened by generation."
+    }
+  ],
+  "scope": "All required primitive dependencies are listed, including shared batch-cache inputs first replayed by another orbit. A lack of new events does not mean no mathematical dependency. Historical root, subintegrals, whole I, representation and checks remain distinct; this index is not a proof receipt."
+}

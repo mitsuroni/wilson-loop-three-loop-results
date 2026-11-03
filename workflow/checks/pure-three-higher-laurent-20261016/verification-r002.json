@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "goal_status": "active",
+  "Euler_moments": 330,
+  "Euler_independent_numeric_checks": 12,
+  "diagonal_crossing_exact_regressions": 240,
+  "free_Euler_base_modular_rank": 373,
+  "augmented_rank": 375,
+  "source_pair_dual_determinant": "-1152",
+  "maximal_symbol_base_modular_rank": 225,
+  "independent_symbol_duals_checked_against_new_columns": 2,
+  "new_physical_order": 4,
+  "new_physical_weight": 10,
+  "independent_new_order_checks": 4,
+  "max_observed_new_order_error": 5.782829139392457e-11,
+  "known_physical_order_calibrations": 16,
+  "classical_GPL_controls": 54,
+  "crossing_checks": 20,
+  "original_fourth_moment_negative_controls": 4,
+  "HandyG_complete_evaluation_passed": false,
+  "HandyG_nonfinite": 5,
+  "HandyG_discrepant_finite": 3,
+  "explicit_published_GPL_rows": 77974,
+  "local_links_checked": 81,
+  "remaining": [
+    "Independent endpoint/J-inserted weighted two-kernel source construction and exact high-weight coverage",
+    "Further compression/relations for the complete W/Lambda generator; no all-order minimality conclusion"
+  ],
+  "evidence_sha256": {
+    "workflow/checks/pure-three-higher-laurent-20261016/verification.json": "d4c367cfa48b37a4fe769d1963b980adbee8e23b5fe9c5e42aad0a79bc4fc37d",
+    "workflow/checks/pure-three-higher-laurent-20261016/free-euler-runs/20261016T030846505040Z/status.json": "992939787e0b405f95e63c4825567ba76c405afc696b092e4698854e83f109c8",
+    "workflow/checks/pure-three-higher-laurent-20261016/free-euler-runs/20261016T030846505040Z/numeric-verification.json": "83021d228c1ff78755f819e9bcc71e210b4b0662ba92fffcc84456456349325b",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/comparison-free-euler-weight9.json": "d9b68423c22895fcf1f9db330fe81fe51824e17a089d1e84941c0be5e8eb47e0",
+    "workflow/checks/pure-three-higher-laurent-20261016/prediction-order4/prediction-verification-r003.json": "13211802ea8285c6f317080f045bcac9e436f446cff671a14f78ca96613a40b8",
+    "workflow/checks/pure-three-higher-laurent-20261016/prediction-order4/original-quadrature.json": "af677e3c06b4bf839e5c3f083d47d5f78fb1fbb3b7865c06b67d2de5e72d33be",
+    "workflow/checks/pure-three-higher-laurent-20261016/prediction-order4/crossing-verification.json": "64429dd5fdf4f77025df18c7ce911fb74d18e0fecc241eb8fd647cf7abd57254",
+    "workflow/checks/pure-three-higher-laurent-20261016/published-eps4.json": "b75b0051fa66a4b11f5dc43eeb1af29fe03ecae383068ba8c955693704c6464b"
+  },
+  "doc_sha256": {
+    "workflow/pure-three-higher-laurent-plan.md": "943de7bfb6aa3a0bd5ba6df5789c7c3d67d8c4c400c523570113ce63cca1ded0",
+    "workflow/checks/pure-three-higher-laurent-20261016/README.md": "1c58a4606d767a51340ed871a4e1d0ae44cb541dbd31b307374accc295616a93",
+    "benchmarks/2ne/theory/generation/pure-three-higher-laurent/coefficients-eps3-hlog.md": "2f8aa62cb3e26a5c017c7592ad3f1ca00f9b98d99e5162229b7ee738d8d5c4f2",
+    "benchmarks/2ne/theory/generation/pure-three-higher-laurent/coefficients-eps4-gpl.md": "f44d7a691f15349aa296285c2838047e1b1e03ad35371e4fb2d416c1469ea9af",
+    "benchmarks/2ne/theory/generation/pure-three-higher-laurent/derivation.md": "33d6270005bd384c2665e01c334fdc55f07568d7329ac2e8bd32a37ccd51972f"
+  },
+  "limits": "Exact finite-space certificates use registered rational Hlog/formal-period coordinates; high-order predictions have empirical numerical checks, not certified intervals or Lean admission."
+}

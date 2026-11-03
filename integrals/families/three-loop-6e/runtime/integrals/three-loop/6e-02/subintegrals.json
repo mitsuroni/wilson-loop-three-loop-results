@@ -1,0 +1,337 @@
+{
+  "format": "wilson-6e-subintegral-budget/1",
+  "orbit_id": "6e-02",
+  "family": "empty",
+  "root_J": {
+    "bounds": {
+      "s31": [
+        "0",
+        "s32"
+      ],
+      "s32": [
+        "0",
+        "s33"
+      ],
+      "s33": [
+        "0",
+        "1"
+      ],
+      "s41": [
+        "0",
+        "s42"
+      ],
+      "s42": [
+        "0",
+        "s43"
+      ],
+      "s43": [
+        "0",
+        "1"
+      ]
+    },
+    "delta_constraints": {},
+    "expanded": "(z1^3) * ((1-s31)*s41*z1)^(-1+eps) * ((1-s32)*s43*z1)^(-1+eps) * ((1-s33)*s42*z1)^(-1+eps)",
+    "integrand": "(z1^3) * f1^(-1+eps) * f2^(-1+eps) * f3^(-1+eps)",
+    "integration_order_outer_to_inner": [
+      "s43",
+      "s33",
+      "s42",
+      "s32",
+      "s41",
+      "s31"
+    ],
+    "measure_semantics": "iterated_real_interval_integral",
+    "numerator": "z1^3",
+    "order_convention": "stable dependency order (parents before children); explicit root interpretation, not a Fubini proof",
+    "propagator_polynomials": {
+      "f1": "(1-s31)*s41*z1",
+      "f2": "(1-s32)*s43*z1",
+      "f3": "(1-s33)*s42*z1"
+    },
+    "representation": "ordered-parameters/1",
+    "variables": [
+      "s31",
+      "s41",
+      "s32",
+      "s43",
+      "s33",
+      "s42"
+    ]
+  },
+  "structure": {
+    "loop_order": 3,
+    "adjacent_count": 3,
+    "opposite_count": 0,
+    "adjacent_z_count": 3,
+    "endpoint_edges": {
+      "s31": 3,
+      "s41": 4,
+      "s32": 3,
+      "s43": 4,
+      "s33": 3,
+      "s42": 4
+    },
+    "letters": {
+      "s41": "A",
+      "s31": "B",
+      "s43": "A",
+      "s32": "B",
+      "s42": "A",
+      "s33": "B"
+    },
+    "propagators": [
+      {
+        "id": "f1",
+        "variables": [
+          "s31",
+          "s41"
+        ],
+        "original_polynomial": "(1-s31)*s41*z1",
+        "kind": "adjacent",
+        "A": "s41",
+        "B": "s31",
+        "q": "z1"
+      },
+      {
+        "id": "f2",
+        "variables": [
+          "s32",
+          "s43"
+        ],
+        "original_polynomial": "(1-s32)*s43*z1",
+        "kind": "adjacent",
+        "A": "s43",
+        "B": "s32",
+        "q": "z1"
+      },
+      {
+        "id": "f3",
+        "variables": [
+          "s33",
+          "s42"
+        ],
+        "original_polynomial": "(1-s33)*s42*z1",
+        "kind": "adjacent",
+        "A": "s42",
+        "B": "s33",
+        "q": "z1"
+      }
+    ],
+    "edges": [
+      {
+        "edge": 1,
+        "variables_low_to_high": [],
+        "word": "",
+        "marked_endpoints": [],
+        "gap_words": [
+          ""
+        ],
+        "compression": [
+          {
+            "words_at_marked_endpoints": [],
+            "whole_edge_word": "",
+            "coefficient": 1
+          }
+        ]
+      },
+      {
+        "edge": 2,
+        "variables_low_to_high": [],
+        "word": "",
+        "marked_endpoints": [],
+        "gap_words": [
+          ""
+        ],
+        "compression": [
+          {
+            "words_at_marked_endpoints": [],
+            "whole_edge_word": "",
+            "coefficient": 1
+          }
+        ]
+      },
+      {
+        "edge": 3,
+        "variables_low_to_high": [
+          "s31",
+          "s32",
+          "s33"
+        ],
+        "word": "BBB",
+        "marked_endpoints": [],
+        "gap_words": [
+          "BBB"
+        ],
+        "compression": [
+          {
+            "words_at_marked_endpoints": [],
+            "whole_edge_word": "BBB",
+            "coefficient": 1
+          }
+        ]
+      },
+      {
+        "edge": 4,
+        "variables_low_to_high": [
+          "s41",
+          "s42",
+          "s43"
+        ],
+        "word": "AAA",
+        "marked_endpoints": [],
+        "gap_words": [
+          "AAA"
+        ],
+        "compression": [
+          {
+            "words_at_marked_endpoints": [],
+            "whole_edge_word": "AAA",
+            "coefficient": 1
+          }
+        ]
+      }
+    ],
+    "channels": {
+      "13": {
+        "count": 0,
+        "left": [],
+        "right": [],
+        "permutation": []
+      },
+      "24": {
+        "count": 0,
+        "left": [],
+        "right": [],
+        "permutation": []
+      }
+    },
+    "channel_partition": [],
+    "integration_order_outer_to_inner": [
+      "s43",
+      "s33",
+      "s42",
+      "s32",
+      "s41",
+      "s31"
+    ],
+    "remaining_order_outer_to_inner": [],
+    "remaining_bounds": {},
+    "prefactor": {
+      "kind": "op",
+      "op": "mul",
+      "args": [
+        {
+          "kind": "op",
+          "op": "rpow",
+          "args": [
+            {
+              "kind": "var",
+              "name": "eps"
+            },
+            {
+              "kind": "rational",
+              "numerator": "-6",
+              "denominator": "1"
+            }
+          ]
+        },
+        {
+          "kind": "op",
+          "op": "rpow",
+          "args": [
+            {
+              "kind": "var",
+              "name": "z1"
+            },
+            {
+              "kind": "op",
+              "op": "mul",
+              "args": [
+                {
+                  "kind": "rational",
+                  "numerator": "3",
+                  "denominator": "1"
+                },
+                {
+                  "kind": "var",
+                  "name": "eps"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "input_J_sha256": "c2c8cf8343cce8da0df186052bb626b964daa20db8d43d4830fbb180c40422cf",
+    "word_normalization": "Each A/B density includes eps; interval words are ordered from low to high."
+  },
+  "normalization": {
+    "format": "wilson-2ne-assembly/0.1",
+    "n": 3,
+    "kappa": "-1/16",
+    "euler": "consumed from prepared C exactly once",
+    "formula": "kappa*G(eps)^n*(J(z)+z^(n*eps)*J(1/z))/(1+z^(n*eps))",
+    "a1": "1/4",
+    "sym": 4
+  },
+  "historical_analytic_route": {
+    "note": "Original adjacent endpoint chains are evaluated by ordered A/B Beta/Gamma words; finite Laurent recurrence is explicit. No CAS is required for the 6e-01 pilot.",
+    "required_historical_mothers": [
+      "ordered_word:BBB",
+      "ordered_word:AAA"
+    ],
+    "orbit_specific_reduction": {
+      "r": 3,
+      "chains": [
+        {
+          "variables_low_to_high": [
+            "s31",
+            "s32",
+            "s33"
+          ],
+          "word": "BBB"
+        },
+        {
+          "variables_low_to_high": [
+            "s41",
+            "s42",
+            "s43"
+          ],
+          "word": "AAA"
+        }
+      ],
+      "K": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "(1/36)/eps^6",
+        "latex": "\\frac{1}{36 \\varepsilon^{6}}"
+      },
+      "I_compact": {
+        "language": "WolframLanguage/InputForm",
+        "expression": "-1/576*G^3/eps^6",
+        "latex": "- \\frac{G^{3}}{576 \\varepsilon^{6}}"
+      }
+    },
+    "derivation_headings_read": [
+      "6e-02：空集族 I 的完整解析结果",
+      "1. 输入、目标和约定",
+      "2. 最终结果与当前状态",
+      "3. 从原始 J 出发的推导",
+      "4. C/J 到 I",
+      "5. Laurent 展开到有限项",
+      "6. 检查与复现入口",
+      "7. 遗留问题与历史"
+    ]
+  },
+  "active_primitive_consumption": {},
+  "all_requested_powers": [
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0
+  ],
+  "budget_rule": "Required regular order equals requested physical order minus the actual external pole; the active per-order requests below contain the consumed orders. Ordered gap jets use q=0,1,2; all-opposite finite kernels use q=0; Gamma route uses through6.",
+  "scope": "Historical handwritten mothers and active direct raw-primitive route are distinguished in family method. Counts are not independent master-integral counts."
+}

@@ -1,0 +1,706 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "exact_checks": [
+    {
+      "name": "Gauss gauge",
+      "passed": true
+    },
+    {
+      "name": "Mellin shift",
+      "passed": true
+    },
+    {
+      "name": "universal variation ratio",
+      "passed": true
+    },
+    {
+      "name": "original polynomial ODE lambda=1",
+      "passed": true
+    },
+    {
+      "name": "endpoint exchange lambda=1",
+      "passed": true
+    },
+    {
+      "name": "endpoint subtraction lambda=1",
+      "passed": true
+    },
+    {
+      "name": "single endpoint triangular equation lambda=1",
+      "passed": true
+    },
+    {
+      "name": "double endpoint triangular equation lambda=1",
+      "passed": true
+    },
+    {
+      "name": "original polynomial ODE lambda=2",
+      "passed": true
+    },
+    {
+      "name": "endpoint exchange lambda=2",
+      "passed": true
+    },
+    {
+      "name": "endpoint subtraction lambda=2",
+      "passed": true
+    },
+    {
+      "name": "single endpoint triangular equation lambda=2",
+      "passed": true
+    },
+    {
+      "name": "double endpoint triangular equation lambda=2",
+      "passed": true
+    },
+    {
+      "name": "original polynomial ODE lambda=3",
+      "passed": true
+    },
+    {
+      "name": "endpoint exchange lambda=3",
+      "passed": true
+    },
+    {
+      "name": "endpoint subtraction lambda=3",
+      "passed": true
+    },
+    {
+      "name": "single endpoint triangular equation lambda=3",
+      "passed": true
+    },
+    {
+      "name": "double endpoint triangular equation lambda=3",
+      "passed": true
+    },
+    {
+      "name": "original polynomial ODE lambda=4",
+      "passed": true
+    },
+    {
+      "name": "endpoint exchange lambda=4",
+      "passed": true
+    },
+    {
+      "name": "endpoint subtraction lambda=4",
+      "passed": true
+    },
+    {
+      "name": "single endpoint triangular equation lambda=4",
+      "passed": true
+    },
+    {
+      "name": "double endpoint triangular equation lambda=4",
+      "passed": true
+    },
+    {
+      "name": "Phi recurrence n=1",
+      "passed": true
+    },
+    {
+      "name": "Xi recurrence n=1",
+      "passed": true
+    },
+    {
+      "name": "Q primitive n=1",
+      "passed": true
+    },
+    {
+      "name": "V primitive n=1",
+      "passed": true
+    },
+    {
+      "name": "Phi recurrence n=2",
+      "passed": true
+    },
+    {
+      "name": "Xi recurrence n=2",
+      "passed": true
+    },
+    {
+      "name": "Q primitive n=2",
+      "passed": true
+    },
+    {
+      "name": "V primitive n=2",
+      "passed": true
+    },
+    {
+      "name": "Phi recurrence n=3",
+      "passed": true
+    },
+    {
+      "name": "Xi recurrence n=3",
+      "passed": true
+    },
+    {
+      "name": "Q primitive n=3",
+      "passed": true
+    },
+    {
+      "name": "V primitive n=3",
+      "passed": true
+    },
+    {
+      "name": "Phi recurrence n=4",
+      "passed": true
+    },
+    {
+      "name": "Xi recurrence n=4",
+      "passed": true
+    },
+    {
+      "name": "Q primitive n=4",
+      "passed": true
+    },
+    {
+      "name": "V primitive n=4",
+      "passed": true
+    },
+    {
+      "name": "Phi recurrence n=5",
+      "passed": true
+    },
+    {
+      "name": "Xi recurrence n=5",
+      "passed": true
+    },
+    {
+      "name": "Q primitive n=5",
+      "passed": true
+    },
+    {
+      "name": "V primitive n=5",
+      "passed": true
+    },
+    {
+      "name": "Phi recurrence n=6",
+      "passed": true
+    },
+    {
+      "name": "Xi recurrence n=6",
+      "passed": true
+    },
+    {
+      "name": "Q primitive n=6",
+      "passed": true
+    },
+    {
+      "name": "V primitive n=6",
+      "passed": true
+    },
+    {
+      "name": "centered endpoint derivative m=0",
+      "passed": true
+    },
+    {
+      "name": "centered endpoint derivative m=1",
+      "passed": true
+    },
+    {
+      "name": "centered endpoint derivative m=2",
+      "passed": true
+    },
+    {
+      "name": "centered endpoint derivative m=3",
+      "passed": true
+    },
+    {
+      "name": "centered endpoint derivative m=4",
+      "passed": true
+    },
+    {
+      "name": "physical normalization",
+      "passed": true
+    },
+    {
+      "name": "no external ell squared",
+      "passed": true
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "wrong source lambda=1",
+      "rejected": true
+    },
+    {
+      "name": "missing corner term lambda=1",
+      "rejected": true
+    },
+    {
+      "name": "missing triangular F0 boundary lambda=1",
+      "rejected": true
+    },
+    {
+      "name": "wrong source lambda=2",
+      "rejected": true
+    },
+    {
+      "name": "missing corner term lambda=2",
+      "rejected": true
+    },
+    {
+      "name": "missing triangular F0 boundary lambda=2",
+      "rejected": true
+    },
+    {
+      "name": "wrong source lambda=3",
+      "rejected": true
+    },
+    {
+      "name": "missing corner term lambda=3",
+      "rejected": true
+    },
+    {
+      "name": "missing triangular F0 boundary lambda=3",
+      "rejected": true
+    },
+    {
+      "name": "wrong source lambda=4",
+      "rejected": true
+    },
+    {
+      "name": "missing corner term lambda=4",
+      "rejected": true
+    },
+    {
+      "name": "missing triangular F0 boundary lambda=4",
+      "rejected": true
+    },
+    {
+      "name": "wrong centering derivative",
+      "rejected": true
+    }
+  ],
+  "numeric_checks": [
+    {
+      "parameters": [
+        ".23",
+        ".41",
+        ".58",
+        ".7"
+      ],
+      "quantity": "F",
+      "formula55": "0.965046860109183726301393343885316543046723472",
+      "nodes112": 0.9650468601091816,
+      "nodes224": 0.9650468601091624,
+      "absolute_error": 2.1316282072803006e-14,
+      "refinement": 1.9206858326015208e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".23",
+        ".41",
+        ".58",
+        ".7"
+      ],
+      "quantity": "E",
+      "formula55": "-1.37574534852846843548962642616152112913926512",
+      "nodes112": -1.3757453485284652,
+      "nodes224": -1.375745348528438,
+      "absolute_error": 3.042011087472929e-14,
+      "refinement": 2.708944180085382e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".23",
+        ".41",
+        ".58",
+        ".7"
+      ],
+      "quantity": "ODE numerical",
+      "absolute_error": 3.0587364693743084e-56,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".37",
+        ".62",
+        ".44",
+        "1.4"
+      ],
+      "quantity": "F",
+      "formula55": "0.597246218300291252650627118647710056654797835",
+      "nodes112": 0.5972462183002899,
+      "nodes224": 0.597246218300278,
+      "absolute_error": 1.3211653993039363e-14,
+      "refinement": 1.1879386363489175e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".37",
+        ".62",
+        ".44",
+        "1.4"
+      ],
+      "quantity": "E",
+      "formula55": "-1.37271005663364334339901907286529111406581474",
+      "nodes112": -1.37271005663364,
+      "nodes224": -1.3727100566336126,
+      "absolute_error": 3.086420008457935e-14,
+      "refinement": 2.7533531010703882e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".37",
+        ".62",
+        ".44",
+        "1.4"
+      ],
+      "quantity": "ODE numerical",
+      "absolute_error": 4.078315292499078e-56,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".17",
+        ".13",
+        ".29",
+        ".2"
+      ],
+      "quantity": "F",
+      "formula55": "2.71107329661044448502473318465800375248519174",
+      "nodes112": 2.7110732966104187,
+      "nodes224": 2.711073296610385,
+      "absolute_error": 5.950795411990839e-14,
+      "refinement": 3.375077994860476e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".17",
+        ".13",
+        ".29",
+        ".2"
+      ],
+      "quantity": "E",
+      "formula55": "-1.89448377410400474658985289636656326108235376",
+      "nodes112": -1.8944837741039358,
+      "nodes224": -1.894483774103962,
+      "absolute_error": 4.285460875053104e-14,
+      "refinement": 2.6201263381153694e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".17",
+        ".13",
+        ".29",
+        ".2"
+      ],
+      "quantity": "ODE numerical",
+      "absolute_error": 7.137051761873386e-56,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".43",
+        ".24",
+        ".71",
+        "3"
+      ],
+      "quantity": "F",
+      "formula55": "0.476923708186205682748351934810710729347489855",
+      "nodes112": 0.4769237081862051,
+      "nodes224": 0.47692370818619506,
+      "absolute_error": 1.0602629885170245e-14,
+      "refinement": 1.0047518372857667e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".43",
+        ".24",
+        ".71",
+        "3"
+      ],
+      "quantity": "E",
+      "formula55": "-1.81728975292830248022007284541743568564314378",
+      "nodes112": -1.8172897529282954,
+      "nodes224": -1.8172897529282621,
+      "absolute_error": 4.04121180963557e-14,
+      "refinement": 3.3306690738754696e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".43",
+        ".24",
+        ".71",
+        "3"
+      ],
+      "quantity": "ODE numerical",
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".61",
+        ".31",
+        ".19",
+        "1"
+      ],
+      "quantity": "F",
+      "formula55": "0.868097057049905904386223802641149406018319077",
+      "nodes112": 0.8680970570499055,
+      "nodes224": 0.8680970570498865,
+      "absolute_error": 1.942890293094024e-14,
+      "refinement": 1.8984813721090177e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".61",
+        ".31",
+        ".19",
+        "1"
+      ],
+      "quantity": "E",
+      "formula55": "-1.61251919618058840868569611582343679437518313",
+      "nodes112": -1.6125191961805734,
+      "nodes224": -1.6125191961805527,
+      "absolute_error": 3.574918139293004e-14,
+      "refinement": 2.0650148258027912e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".61",
+        ".31",
+        ".19",
+        "1"
+      ],
+      "quantity": "ODE numerical",
+      "absolute_error": 2.039157646249539e-56,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".11",
+        ".11",
+        ".11",
+        ".5"
+      ],
+      "quantity": "F",
+      "formula55": "2.39426391479104730789662532743758168795085305",
+      "nodes112": 2.3942639147910274,
+      "nodes224": 2.394263914790995,
+      "absolute_error": 5.240252676230739e-14,
+      "refinement": 3.241851231905457e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".11",
+        ".11",
+        ".11",
+        ".5"
+      ],
+      "quantity": "E",
+      "formula55": "-2.3844615273704303151288582603378480610073633",
+      "nodes112": -2.3844615273701177,
+      "nodes224": -2.3844615273703753,
+      "absolute_error": 5.5067062021407764e-14,
+      "refinement": 2.575717417130363e-13,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "parameters": [
+        ".11",
+        ".11",
+        ".11",
+        ".5"
+      ],
+      "quantity": "ODE numerical",
+      "absolute_error": 4.6900625863739395e-55,
+      "passed": true
+    }
+  ],
+  "numeric_negative_controls": [
+    {
+      "parameters": [
+        ".23",
+        ".41",
+        ".58",
+        ".7"
+      ],
+      "omission": "d boundary coefficient",
+      "absolute_difference": 2.2141206464911374,
+      "rejected": true
+    },
+    {
+      "parameters": [
+        ".37",
+        ".62",
+        ".44",
+        "1.4"
+      ],
+      "omission": "d boundary coefficient",
+      "absolute_difference": 0.7297157282428688,
+      "rejected": true
+    },
+    {
+      "parameters": [
+        ".17",
+        ".13",
+        ".29",
+        ".2"
+      ],
+      "omission": "d boundary coefficient",
+      "absolute_difference": 4.340149018513781,
+      "rejected": true
+    },
+    {
+      "parameters": [
+        ".43",
+        ".24",
+        ".71",
+        "3"
+      ],
+      "omission": "d boundary coefficient",
+      "absolute_difference": 0.27157465157586913,
+      "rejected": true
+    },
+    {
+      "parameters": [
+        ".61",
+        ".31",
+        ".19",
+        "1"
+      ],
+      "omission": "d boundary coefficient",
+      "absolute_difference": 1.4196571808715408,
+      "rejected": true
+    },
+    {
+      "parameters": [
+        ".11",
+        ".11",
+        ".11",
+        ".5"
+      ],
+      "omission": "d boundary coefficient",
+      "absolute_difference": 4.025358301752865,
+      "rejected": true
+    }
+  ],
+  "indexed_checks": [
+    {
+      "z": ".3",
+      "S_index": 0,
+      "indexed224": -4.474207346010442,
+      "indexed112": -4.474207345997137,
+      "MN_reference": "-4.474207346010759000663653042063034561537",
+      "absolute_error": 3.170796958329447e-13,
+      "refinement": 1.3304912727107876e-11,
+      "passed": true
+    },
+    {
+      "z": ".3",
+      "S_index": 1,
+      "indexed224": 10.11788878424758,
+      "indexed112": 10.117888783881208,
+      "MN_reference": "10.11788878425469273607689331181136549408",
+      "absolute_error": 7.112532784958603e-12,
+      "refinement": 3.6637182176946226e-10,
+      "passed": true
+    },
+    {
+      "z": ".3",
+      "quantity": "S0..S3 Taylor O(e^4)",
+      "errors": [
+        4.408004614289959e-06,
+        2.787120984360711e-07
+      ],
+      "halving_ratio": 15.815619913970234,
+      "passed": true
+    },
+    {
+      "z": ".7",
+      "S_index": 0,
+      "indexed224": -3.6947591517554206,
+      "indexed112": -3.6947591517456786,
+      "MN_reference": "-3.694759151755661414287127305284358751168",
+      "absolute_error": 2.4069635173873394e-13,
+      "refinement": 9.741984996480824e-12,
+      "passed": true
+    },
+    {
+      "z": ".7",
+      "S_index": 1,
+      "indexed224": 9.197684786904675,
+      "indexed112": 9.19768478663333,
+      "MN_reference": "9.197684786909958821068235590243089411908",
+      "absolute_error": 5.282885240376345e-12,
+      "refinement": 2.7134561264574586e-10,
+      "passed": true
+    },
+    {
+      "z": ".7",
+      "quantity": "S0..S3 Taylor O(e^4)",
+      "errors": [
+        3.7717960144150645e-06,
+        2.3847821497327403e-07
+      ],
+      "halving_ratio": 15.816103013173617,
+      "passed": true
+    },
+    {
+      "z": "1.4",
+      "S_index": 0,
+      "indexed224": -3.686871384782831,
+      "indexed112": -3.6868713847731223,
+      "MN_reference": "-3.68687138478307024022683284798198908896",
+      "absolute_error": 2.3936408410918375e-13,
+      "refinement": 9.708678305742069e-12,
+      "passed": true
+    },
+    {
+      "z": "1.4",
+      "S_index": 1,
+      "indexed224": 9.187462511396612,
+      "indexed112": 9.187462511126173,
+      "MN_reference": "9.187462511401864307246024729662626405008",
+      "absolute_error": 5.252687174106541e-12,
+      "refinement": 2.7043967065765173e-10,
+      "passed": true
+    },
+    {
+      "z": "1.4",
+      "quantity": "S0..S3 Taylor O(e^4)",
+      "errors": [
+        3.7652041143137476e-06,
+        2.3806137235684715e-07
+      ],
+      "halving_ratio": 15.816106901500236,
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "workflow/checks/single-opposite-free-endpoints-20261016/verify.py": "4de0e930d5ef799ed06704887777af9f0ede7ea187495d2ba6b6987f52ed4ca3",
+    "workflow/checks/single-opposite-free-endpoints-20261016/generators.py": "7fe3a3ea95c26db75f529d2ed911059c2d9d38195e8f0880c1adbf5ae63f8515",
+    "benchmarks/2ne/theory/generation/six-e-common-blocks-20261016/source-bridge.md": "4f473f02269d98fe188293b3e0ac78908bf8fbbd1bea5a33b3534abad7b37e25",
+    "benchmarks/2ne/families/single-opposite/three-loop.md": "fb37794f0b41c4de10d4c1e7d3207643174c6a7228b9f3ed0cd79a211fcecd5c",
+    "benchmarks/2ne/results/6e-36/r002.json": "05f131eb9111fef209ff799b13d5b8c303bc00f565f0232f6d8bd5982c9164f9",
+    "benchmarks/2ne/results/6e-39/r001.json": "adbb21bb60137a4b35f2fa40189bb47e9cba09ebea5afcf6fe67206bf49926ed",
+    "workflow/checks/pure-three-higher-laurent-20261016/numeric_physical.py": "d5a368a98d701994f99ad1f58ae18666103c362313ffbe7d6738a90fb0c75fe4"
+  },
+  "limits": "Generic nonresonant lambda formula; removable parameter limits taken jointly. Floating checks are not interval proofs. No new physical Laurent result published."
+}

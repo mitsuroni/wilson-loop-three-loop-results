@@ -1,0 +1,209 @@
+{
+  "orbit_id": "3e-3g-04",
+  "runtime_base": "../../../families/low-loop-runtime",
+  "family_source_manifest": "integrals/two-loop/source-manifest.json",
+  "accepted_result": {
+    "path": "integrals/two-loop/3e-3g-04/result.json",
+    "sha256": "caad26a1d4939aea13fb11d3c2c413368286cf8d93a6684257fd31d83c462295"
+  },
+  "scope": "Object roles are separate: original initial roots are bound by ../input.json, adopted subintegrals and whole-I inputs are labelled here, comparison targets are not generation inputs. A batch may load additional moment files needed by its other members.",
+  "path_base": "All paths in adopted_primitives, assembly_code and comparison_targets are relative to runtime_base.",
+  "adopted_primitives": [
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "object": "M_{0,1} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "object": "M_{1,1} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+      "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "object": "M_{2,1} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt",
+      "sha256": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+      "object": "M_{1,3} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt",
+      "sha256": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+      "object": "M_{3,1} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt",
+      "sha256": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f",
+      "object": "M_{1,2} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_3.txt",
+      "sha256": "4c217930ee68940afc732b722f77297b342ef7b2c444e713ba1c52ffbd8a5612",
+      "object": "M_{2,3} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_4_1.txt",
+      "sha256": "661bde1122a75bba0884f4e0251a1ff0e5be3b6897b89c2dd251793b45944624",
+      "object": "M_{4,1} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_2.txt",
+      "sha256": "b7cc73814d33c1d6e6474ed4d0ae774b2de1ea68ded05ba21861ba173e3bfced",
+      "object": "M_{2,2} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/D2.txt",
+      "sha256": "787aa8c272c99ca587ed7cc2ea91da6b940a2b8526c8abbd23bd6d011a98174b",
+      "object": "easy jet D2",
+      "role": "Historical evaluated subintegral. Complete kernels, integration order and exact HLOG value are exposed in the article and appendices."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/D3.txt",
+      "sha256": "a1244fe735853a577add0f3cdef5e67548300ae6cb3a412cadbd1cf9bf7b6a1e",
+      "object": "easy jet D3",
+      "role": "Historical evaluated subintegral. Complete kernels, integration order and exact HLOG value are exposed in the article and appendices."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/H1.txt",
+      "sha256": "fe4952177c452f7c74a430b6bcbf4b4fae8b027a24b1d1ba31feb2a15a8775b6",
+      "object": "hard jet H1",
+      "role": "Historical evaluated subintegral. Complete kernels, integration order and exact HLOG value are exposed in the article and appendices."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/H2.txt",
+      "sha256": "e3794f86dc9f7c89b5c1f53bfd9aa72a972b9bb37c27f03b6b18f23893b711e6",
+      "object": "hard jet H2",
+      "role": "Historical evaluated subintegral. Complete kernels, integration order and exact HLOG value are exposed in the article and appendices."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/O1.txt",
+      "sha256": "de966da968f39d00f3cb7beb1c901df628aa540584d1ad052ab0747849444b24",
+      "object": "Euler-subtracted recoil jet O1",
+      "role": "Historical evaluated subintegral. Complete kernels, integration order and exact HLOG value are exposed in the article and appendices."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/O2.txt",
+      "sha256": "12cbee3754e33aebbfba289e37199019bfaed9efa8bf59f976ea4aa1fffacf67",
+      "object": "Euler-subtracted recoil jet O2",
+      "role": "Historical evaluated subintegral. Complete kernels, integration order and exact HLOG value are exposed in the article and appendices."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/I1.txt",
+      "sha256": "52a3492421e4c8f68b5410c0bad08dca3b6be4c7fd3d82650976109c2549879b",
+      "object": "assembled normalized I_1",
+      "role": "Full-I historical HLOG output for representation comparison; not a D/H/O subintegral."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/I2.txt",
+      "sha256": "8fc811d7ada433bd3f786e930183df96047b975411ba54563c15d4361c6b2bfe",
+      "object": "assembled normalized I_2",
+      "role": "Full-I historical HLOG output for representation comparison; not a D/H/O subintegral."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/compact.json",
+      "sha256": "5d01cdffe96cd64914b62eff4348ed89d5e951bd655ad2c2d3e72ef0ee9b61ab",
+      "object": "already assembled normalized I1/I2",
+      "role": "Adopted full-I input used by the actual Python replay; not a new integration or live D/H/O assembly."
+    },
+    {
+      "path": "integrals/two-loop/sources/benchmarks/2ne/families/single-opposite/basis-functions.json",
+      "sha256": "87ed09c33e6778ba48a0872d0f1c7b8f64eacde962fe7f51f502bc1311642029",
+      "object": "functions.tauDq4.hlog_terms",
+      "role": "Adopted exact HLOG coordinates for tau_D4."
+    }
+  ],
+  "assembly_code": [
+    {
+      "path": "integrals/two-loop/family_engines.py",
+      "sha256": "6ac28b4ba47605f196451d3a8096e73dbe8b7fe762f9d8bb09d8b28e7041ee51",
+      "object": "reconstruct",
+      "role": "Expand declared evaluated mother functions and Gamma/cosh factors. TGV04 instead adopts assembled I coefficients."
+    },
+    {
+      "path": "integrals/two-loop/reproduce.py",
+      "sha256": "dda41520957f2decbcc6b94ada7c87908dd558efdf4e6eccd62dd43f025a4d6f",
+      "object": "main; exact HLOG comparison",
+      "role": "Generate or adopt the stated coefficients, then compare exact representations and previous reports."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/hlog_algebra.py",
+      "sha256": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+      "object": "exact rational shuffle algebra",
+      "role": "Function-coordinate arithmetic; not a new parameter integration."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/easy1.mpl",
+      "sha256": "003214b81a450ee9eea01bdce5c88e5738a378638a3f2741bce2ae1b4bd8f6ad",
+      "object": "easy jet D2 integration",
+      "role": "Historical Maple/HyperInt integration program, not currently called by the supported Python replay."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/easy2.mpl",
+      "sha256": "ddb7e70de0c0e17501bf25e3be16d65ce2b7d899d9128c3593be176f1abfe660",
+      "object": "easy jet D3 integration",
+      "role": "Historical Maple/HyperInt integration program, not currently called by the supported Python replay."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/hard1.mpl",
+      "sha256": "750cd8bb1676d8dcf1cfb83174c0925179e24c0b825afd1c045b718101efb955",
+      "object": "hard jet H1 integration",
+      "role": "Historical Maple/HyperInt integration program, not currently called by the supported Python replay."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/hard2.mpl",
+      "sha256": "9c2584df1581f92c51bbfd0bc9268116fa5c8ed9a60d88c200c403995a34bf12",
+      "object": "hard jet H2 integration",
+      "role": "Historical Maple/HyperInt integration program, not currently called by the supported Python replay."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/recoil1.mpl",
+      "sha256": "1c702cc98631f2d31a21d7425ea5fb965066517b8df28aa993975f5d89077aa4",
+      "object": "Euler-subtracted recoil jet O1 integration",
+      "role": "Historical Maple/HyperInt integration program, not currently called by the supported Python replay."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/recoil2.mpl",
+      "sha256": "97c761173435881f425f078d083655170b1f04362afc20c47a2fb91523a6fbb2",
+      "object": "Euler-subtracted recoil jet O2 integration",
+      "role": "Historical Maple/HyperInt integration program, not currently called by the supported Python replay."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/assemble1.mpl",
+      "sha256": "d43d53dfb05d194e30942b838c4fad1a1cfe3af3c819d76305068706537f2be3",
+      "object": "D/H/O to I_1",
+      "role": "Historical prefactor convolution and assembly. The new Python adapter does not rerun this convolution."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/tgv04-high-order/runs/positive-epsilon/assemble2.mpl",
+      "sha256": "d762bebb80da7891c1206b21b148605a3b947d4c1c63805c5eadcca6602e770f",
+      "object": "D/H/O to I_2",
+      "role": "Historical prefactor convolution and assembly. The new Python adapter does not rerun this convolution."
+    }
+  ],
+  "comparison_targets": [
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/two-loop-report-20261015/tgv-data.json",
+      "sha256": "f0a6fe19a6d8a535bd525086dc553474f4d240aef2d7f31124db9e61681cd8f9",
+      "object": "previous family coefficient report",
+      "role": "Post-generation or post-adoption comparison only."
+    },
+    {
+      "path": "integrals/two-loop/sources/benchmarks/tgv/3e-3g/results/3e-3g-04/r001.json",
+      "sha256": "3c099acf58c2e4f9d91c6bfe1a25b67222bce5fac9a16e44fa3ee5eb6926b3b5",
+      "object": "canonical complete I",
+      "role": "Accepted whole-I target, separate from primitive data."
+    }
+  ]
+}

@@ -1,0 +1,929 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "I20 normalization and E1",
+      "passed": true
+    },
+    {
+      "name": "I21 normalization and E1",
+      "passed": true
+    },
+    {
+      "name": "I20+4I21 isolates W",
+      "passed": true
+    },
+    {
+      "name": "I20+2I21 isolates Lambda",
+      "passed": true
+    },
+    {
+      "name": "negative: factor 2 cannot isolate W",
+      "passed": true
+    },
+    {
+      "name": "two permutations carry the average once",
+      "passed": true
+    },
+    {
+      "name": "I5 to I6 retains all terms",
+      "passed": true
+    },
+    {
+      "name": "same Beta block coefficient in I21",
+      "passed": true
+    },
+    {
+      "name": "positive-positive four summands",
+      "passed": true
+    },
+    {
+      "name": "negative: changing the Beta sign breaks sector identity",
+      "passed": true
+    },
+    {
+      "name": "unsplit numerator vanishes at orders 0 through 2",
+      "passed": true
+    },
+    {
+      "name": "single Beta block starts at order one",
+      "passed": true
+    },
+    {
+      "name": "5F4 physical substitution sign and factor",
+      "passed": true
+    },
+    {
+      "name": "six consecutive complete-I steps",
+      "passed": true
+    },
+    {
+      "name": "I1 left side is I6e20",
+      "passed": true
+    },
+    {
+      "name": "I2 left side is I6e20",
+      "passed": true
+    },
+    {
+      "name": "I3 left side is I6e20",
+      "passed": true
+    },
+    {
+      "name": "I4 left side is I6e20",
+      "passed": true
+    },
+    {
+      "name": "I5 left side is I6e20",
+      "passed": true
+    },
+    {
+      "name": "I6 left side is I6e20",
+      "passed": true
+    },
+    {
+      "name": "no control-character corruption",
+      "passed": true
+    },
+    {
+      "name": "main text retains explicit remaining integral",
+      "passed": true
+    },
+    {
+      "name": "preserved beta: workflow/checks/natural-beta-source/.gitattributes",
+      "passed": true
+    },
+    {
+      "name": "preserved beta: workflow/checks/natural-beta-source/check.py",
+      "passed": true
+    },
+    {
+      "name": "preserved beta: workflow/checks/natural-beta-source/checks.json",
+      "passed": true
+    },
+    {
+      "name": "preserved beta: workflow/checks/natural-beta-source/README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved beta: workflow/checks/natural-beta-source/render.json",
+      "passed": true
+    },
+    {
+      "name": "preserved beta: workflow/checks/natural-beta-source/render.mjs",
+      "passed": true
+    },
+    {
+      "name": "preserved beta: workflow/checks/natural-beta-source/update_navigation.py",
+      "passed": true
+    },
+    {
+      "name": "preserved beta: workflow/checks/natural-beta-source/baseline/benchmarks__2ne__theory__generation__README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved beta: workflow/checks/natural-beta-source/baseline/README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved beta: workflow/checks/natural-beta-source/baseline/workflow__master-plan.md",
+      "passed": true
+    },
+    {
+      "name": "preserved beta: benchmarks/2ne/theory/generation/natural-beta-source-r001.md",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/.gitattributes",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/algebra.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/algebra.log",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/algebra.py",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemble_maple.py",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assembly-order1.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assembly-order2.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/baseline.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/coefficients.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/coefficients.log",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/coefficients.py",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/compare.py",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/comparison.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/comparison.log",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/compute.mpl",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/compute_fast.mpl",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/exact_span.py",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/fast-run.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/numeric.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/numeric.log",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/numeric.py",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/old-weight-seven.log",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/publish.log",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/publish.py",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/published.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/render.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/render.log",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/render.mjs",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/run_checks.py",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/run_fast.py",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/run_maple.py",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/update_navigation.py",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/baseline/benchmarks__2ne__README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/baseline/benchmarks__2ne__theory__generation__README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/baseline/README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/baseline/workflow__master-plan.md",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T030937024673Z/assemble.mpl",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T030937024673Z/Lsum0.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T030937024673Z/Lsum1.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T030937024673Z/L_num3.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T030937024673Z/L_num4.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T030937024673Z/maple.log",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T030937024673Z/status.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T030937024673Z/W0.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T030937024673Z/W1.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T030937024673Z/W_num3.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T030937024673Z/W_num4.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/assemble.mpl",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/Lsum0.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/Lsum1.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/Lsum2.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/L_num3.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/L_num4.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/L_num5.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/maple.log",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/status.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/W0.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/W1.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/W2.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/W_num3.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/W_num4.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/assemblies/20260928T031509087923Z/W_num5.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030533832474Z/compute.mpl",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030533832474Z/maple.log",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030533832474Z/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030533832474Z/status.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030546532595Z/compute.mpl",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030546532595Z/maple.log",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030546532595Z/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030546532595Z/status.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/cancellation.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/compute.mpl",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num3.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num3_mm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num3_mm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num3_mm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num3_pm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num3_pm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num3_pm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num3_pp_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num3_pp_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num3_pp_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num4.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num4_mm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num4_mm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num4_mm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num4_pm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num4_pm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num4_pm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num4_pp_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num4_pp_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/L_num4_pp_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/maple.log",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/status.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num3.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num3_mm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num3_mm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num3_mm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num3_pm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num3_pm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num3_pm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num3_pp_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num3_pp_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num3_pp_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num4.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num4_mm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num4_mm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num4_mm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num4_pm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num4_pm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num4_pm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num4_pp_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num4_pp_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num4_pp_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num5_mm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num5_mm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num5_mm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num5_pm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num5_pm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num5_pp_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num5_pp_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T030601188967Z/W_num5_pp_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/compute_fast.mpl",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num3.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num3_mm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num3_mm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num3_mm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num3_pm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num3_pm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num3_pm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num3_pp_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num3_pp_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num3_pp_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num4.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num4_mm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num4_mm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num4_mm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num4_pm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num4_pm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num4_pm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num4_pp_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num4_pp_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num4_pp_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num5.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num5_mm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num5_mm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num5_mm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num5_pm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num5_pm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num5_pm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num5_pp_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num5_pp_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num5_pp_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/maple.log",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/status.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num3.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num3_mm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num3_mm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num3_mm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num3_pm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num3_pm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num3_pm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num3_pp_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num3_pp_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num3_pp_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num4.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num4_mm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num4_mm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num4_mm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num4_pm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num4_pm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num4_pm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num4_pp_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num4_pp_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num4_pp_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num5.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num5_mm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num5_mm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num5_mm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num5_pm_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num5_pm_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num5_pm_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num5_pp_inner.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num5_pp_outer.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num5_pp_raw.m",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: benchmarks/2ne/theory/generation/three-kernel-eps2.md",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: benchmarks/2ne/theory/generation/three-kernel-eps2-hlog.md",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: benchmarks/2ne/theory/generation/three-kernel-eps2.json",
+      "passed": true
+    },
+    {
+      "name": "preserved eps2: workflow/checks/three-kernel-eps2/finalize_documentation.py",
+      "passed": true
+    },
+    {
+      "name": "KaTeX and link checks",
+      "passed": true
+    }
+  ],
+  "historical_artifact_counts": {
+    "beta": 11,
+    "eps2": 192
+  },
+  "historical_path_mapping": {
+    "benchmarks/2ne/theory/generation/natural-beta-source.md": "benchmarks/2ne/theory/generation/natural-beta-source-r001.md"
+  },
+  "artifact_sha256": {
+    "benchmarks/2ne/theory/generation/natural-beta-source.md": "71ce30d0ba60c8dea1274ecb5c71884c647b43935f10f0c7e262dbdda45f003a",
+    "benchmarks/2ne/theory/generation/natural-beta-source-r001.md": "720c6d122920d6fc6eb3e124b9d60c5ef2cb7757156b7ea6c65637ddb31720f3",
+    "workflow/checks/three-kernel-i-chain/.gitattributes": "35845be64ca2dc8e53520de2b5e92b75ea3d88a75ff69c1c1ad66af88fcacded",
+    "workflow/checks/three-kernel-i-chain/check.py": "b8da0e3664531dbd14e47955772a71524ebcb47c182addf175fa985014e82f06",
+    "workflow/checks/three-kernel-i-chain/README.md": "aa42e6c8ea6e1109d7861de57de105ce37badda107e022ff4cc56e746b040175",
+    "workflow/checks/three-kernel-i-chain/render.json": "f909f1fbe65c9b2caa940011f1e2e4c1043aa03629f197057db981376d130729",
+    "workflow/checks/three-kernel-i-chain/render.mjs": "d83a27105c34eaea0c497c909d737779f0b44c3354c0776c542cb494c08c5c6d",
+    "workflow/checks/three-kernel-i-chain/update_docs.py": "5096c00b16e489e3c7bc44dba8e85eb0b03a745d23a3fa1a0bb4838df515c4a1"
+  },
+  "new_integral_evaluation": false,
+  "new_laurent_coefficients": false,
+  "formal": "not_run"
+}

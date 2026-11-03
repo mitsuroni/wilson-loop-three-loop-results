@@ -1,0 +1,19 @@
+{
+  "format": "six-e-target-adapter/1",
+  "source": "workflow/checks/mn-primitive-high-order/targets2.json",
+  "source_sha256": "6accc134ab3b2e843bc1710d87534c0948bd167b6fcb9756b717b415a17037d0",
+  "formula": "current_I[orbit][q] = multiplier[orbit] * source.physical[orbit][str(q)]",
+  "multiplier": {
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "20": 1,
+    "21": 1,
+    "36": 1
+  },
+  "epsilon_orders": [
+    1,
+    2
+  ],
+  "formal": "not_run"
+}

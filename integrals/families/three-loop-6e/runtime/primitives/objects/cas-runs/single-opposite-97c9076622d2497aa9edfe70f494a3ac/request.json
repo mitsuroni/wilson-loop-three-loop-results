@@ -1,0 +1,41 @@
+{
+  "operation": "centered-single-opposite-moments",
+  "parameters": [
+    0,
+    1,
+    0,
+    0
+  ],
+  "through": 4,
+  "orders": [
+    3,
+    4
+  ],
+  "context": "z > 0; expansion at epsilon=0",
+  "definition": "-(1+z)*z^(-eps/2)*integral D^(-1+eps)*t^(a eps)*(1-t)^(b eps)*s^(c eps)*(1-s)^(d eps)",
+  "integration_order": [
+    "x",
+    "y"
+  ],
+  "domain_after_substitution": "positive quadrant",
+  "substitution": "t=x/(1+x), s=y/(1+y)",
+  "backend": {
+    "executable": {
+      "path": "C:\\Program Files\\Maple 2025\\bin.X86_64_WINDOWS\\cmaple.exe",
+      "sha256": "c78d925d008ffedc94d2983ecba2cdf45e28eee64f17347c67f569dfebcf397f"
+    },
+    "hyperint": {
+      "path": "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\HyperInt.mpl",
+      "sha256": "075873e8d99b11baedd326bb8e1d412f3119cee61e0ac2e90fc44af5c3784661"
+    },
+    "period_table": {
+      "path": "C:\\Users\\Lenovo\\Documents\\learning\\work\\hyperint\\periodLookups.m",
+      "sha256": "4f241353630eed08ac1361807195408163e637f6271a522dcaa284e066dafa54"
+    }
+  },
+  "timeout_seconds_per_order": 120.0,
+  "total_seconds": 95.31200000015087,
+  "max_words": 100000,
+  "memory_mb": 2048,
+  "formal_state": "not_run"
+}

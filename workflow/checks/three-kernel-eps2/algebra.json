@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "roots": [
+    {
+      "orbit_id": "6e-20",
+      "bare": "R123",
+      "kappa": "-1/16",
+      "delta": "0"
+    },
+    {
+      "orbit_id": "6e-21",
+      "bare": "R132",
+      "kappa": "-1/32",
+      "delta": "0"
+    },
+    {
+      "orbit_id": "6e-22",
+      "bare": "R213",
+      "kappa": "-1/32",
+      "delta": "0"
+    }
+  ],
+  "cubic_rectangle_identity": "0",
+  "physical_prefactor": "-9*e**2*ell**2/8 + pi**2*e**2/4 + 1",
+  "sectors": [
+    {
+      "p_scale": "z",
+      "q_scale": "z",
+      "coupled_base": "t*u*z + 1",
+      "p_boundary_base": "1 - t",
+      "q_boundary_base": "1 - u",
+      "measure_multiplicity": 1
+    },
+    {
+      "p_scale": "-1",
+      "q_scale": "-1",
+      "coupled_base": "t*u/z + 1",
+      "p_boundary_base": "t/z + 1",
+      "q_boundary_base": "u/z + 1",
+      "measure_multiplicity": 1
+    },
+    {
+      "p_scale": "z",
+      "q_scale": "-1",
+      "coupled_base": "-t*u + 1",
+      "p_boundary_base": "1 - t",
+      "q_boundary_base": "u/z + 1",
+      "measure_multiplicity": -2
+    }
+  ],
+  "numerator_compositions": {
+    "3": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "4": [
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ]
+    ],
+    "5": [
+      [
+        1,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        3,
+        1,
+        1
+      ]
+    ]
+  },
+  "endpoint_rule": "A zero letter is prepended to each nonzero-word hyperlog against dx/x; constant/nonlinear coefficients are rejected by the CAS script.",
+  "formal": "not_run"
+}

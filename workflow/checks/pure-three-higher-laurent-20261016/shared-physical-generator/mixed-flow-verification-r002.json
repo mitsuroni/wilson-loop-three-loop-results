@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "generic_prefactor_cancellation": true,
+  "two_parity_endpoint_identities": true,
+  "cases": [
+    {
+      "epsilon": "0.23",
+      "z": "0.7",
+      "one_J_flow": -0.16624579706243822,
+      "original_parent_derivative": -0.16624579873358855,
+      "absolute_difference": 1.6711503292299312e-09,
+      "finite_difference_refinement": 5.010714065889488e-09,
+      "tolerance": 3e-07,
+      "original_parent_nodes": [
+        72,
+        128
+      ],
+      "finite_difference_steps": [
+        0.0001,
+        5e-05
+      ]
+    },
+    {
+      "epsilon": "0.23",
+      "z": "1.4",
+      "one_J_flow": 0.15645220067489876,
+      "original_parent_derivative": 0.15645220046822672,
+      "absolute_difference": 2.0667204059243716e-10,
+      "finite_difference_refinement": 6.209477654284257e-10,
+      "tolerance": 3e-07,
+      "original_parent_nodes": [
+        72,
+        128
+      ],
+      "finite_difference_steps": [
+        0.0001,
+        5e-05
+      ]
+    },
+    {
+      "epsilon": "0.37",
+      "z": "0.7",
+      "one_J_flow": -0.3035074270198487,
+      "original_parent_derivative": -0.3035074301638296,
+      "absolute_difference": 3.143980908948407e-09,
+      "finite_difference_refinement": 9.430012326561155e-09,
+      "tolerance": 3e-07,
+      "original_parent_nodes": [
+        72,
+        128
+      ],
+      "finite_difference_steps": [
+        0.0001,
+        5e-05
+      ]
+    },
+    {
+      "epsilon": "0.37",
+      "z": "1.4",
+      "one_J_flow": 0.28545266045981665,
+      "original_parent_derivative": 0.28545266009283304,
+      "absolute_difference": 3.6698361016718195e-10,
+      "finite_difference_refinement": 1.1004530620084552e-09,
+      "tolerance": 3e-07,
+      "original_parent_nodes": [
+        72,
+        128
+      ],
+      "finite_difference_steps": [
+        0.0001,
+        5e-05
+      ]
+    }
+  ],
+  "equation": "theta_z M=(1+z)^e*(z^(-e)*(Y(-z,1)-Y(1,-1/z))+Y(1,-z)-Y(-1/z,1))",
+  "inputs_sha256": {
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\mixed_projection_flow.py": "9eb8439550912711a2bbbd1935926300c5620dd346b451fa7ea05cdd24ed0122",
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\numeric_shared_physical_generator.py": "6449dd7cf331578c152f739567d614d44ec9a768679383cd712c9da2b531c02d",
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\physical_z_system.py": "d7aacf2a3ba70505fa6f724c38bc58832e6e645e4664e436a39a6258718e806a"
+  },
+  "limits": "All-epsilon endpoint-moment derivation plus observed original-parent quadrature and finite-difference refinement; not interval certification."
+}

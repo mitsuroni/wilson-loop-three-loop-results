@@ -1,0 +1,280 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "exact_checks": [
+    {
+      "name": "epsilon1: original ordered FA+FC to rectangle square",
+      "passed": true
+    },
+    {
+      "name": "epsilon1: G(0,s)=f(s)",
+      "passed": true
+    },
+    {
+      "name": "epsilon1,a1,b1: two endpoint insertions",
+      "passed": true
+    },
+    {
+      "name": "epsilon1,a1,b2: two endpoint insertions",
+      "passed": true
+    },
+    {
+      "name": "epsilon1,a2,b3: two endpoint insertions",
+      "passed": true
+    },
+    {
+      "name": "epsilon2: original ordered FA+FC to rectangle square",
+      "passed": true
+    },
+    {
+      "name": "epsilon2: G(0,s)=f(s)",
+      "passed": true
+    },
+    {
+      "name": "epsilon2,a2,b2: two endpoint insertions",
+      "passed": true
+    },
+    {
+      "name": "epsilon2,a1,b2: two endpoint insertions",
+      "passed": true
+    },
+    {
+      "name": "epsilon2,a2,b3: two endpoint insertions",
+      "passed": true
+    },
+    {
+      "name": "epsilon3: original ordered FA+FC to rectangle square",
+      "passed": true
+    },
+    {
+      "name": "epsilon3: G(0,s)=f(s)",
+      "passed": true
+    },
+    {
+      "name": "epsilon3,a3,b3: two endpoint insertions",
+      "passed": true
+    },
+    {
+      "name": "epsilon3,a1,b2: two endpoint insertions",
+      "passed": true
+    },
+    {
+      "name": "epsilon3,a2,b3: two endpoint insertions",
+      "passed": true
+    },
+    {
+      "name": "B at t=0: first J endpoint",
+      "passed": true
+    },
+    {
+      "name": "B at t=0: product J endpoint",
+      "passed": true
+    },
+    {
+      "name": "rectangle kernel scale",
+      "passed": true
+    },
+    {
+      "name": "rectangle measure scale",
+      "passed": true
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "epsilon1: omit square factor 1/2",
+      "rejected": true
+    },
+    {
+      "name": "epsilon1: omit f boundary",
+      "rejected": true
+    },
+    {
+      "name": "epsilon2: omit square factor 1/2",
+      "rejected": true
+    },
+    {
+      "name": "epsilon2: omit f boundary",
+      "rejected": true
+    },
+    {
+      "name": "epsilon3: omit square factor 1/2",
+      "rejected": true
+    },
+    {
+      "name": "epsilon3: omit f boundary",
+      "rejected": true
+    }
+  ],
+  "numeric_controls": [
+    {
+      "epsilon": 0.23,
+      "z": 0.7,
+      "a": 0.23,
+      "b": 0.23,
+      "original": "endpoint_original",
+      "candidate": "endpoint_B",
+      "values64": {
+        "endpoint_original": -1.9654865191788846,
+        "endpoint_B": -1.9654865191793898
+      },
+      "values112": {
+        "endpoint_original": -1.9654865191792772,
+        "endpoint_B": -1.9654865191792978
+      },
+      "absolute_difference": 2.0650148258027912e-14,
+      "refinement": 3.9257486150745535e-13,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "epsilon": 0.23,
+      "z": 0.7,
+      "a": 0.23,
+      "b": 0.23,
+      "original": "square_original_FA_plus_FC",
+      "candidate": "square_B",
+      "values64": {
+        "square_original_FA_plus_FC": 3.243058054733262,
+        "square_B": 3.243058054734024
+      },
+      "values112": {
+        "square_original_FA_plus_FC": 3.2430580547340053,
+        "square_B": 3.2430580547340258
+      },
+      "absolute_difference": 2.042810365310288e-14,
+      "refinement": 7.434053372890048e-13,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "epsilon": 0.37,
+      "z": 1.4,
+      "a": 0.37,
+      "b": 0.37,
+      "original": "endpoint_original",
+      "candidate": "endpoint_B",
+      "values64": {
+        "endpoint_original": -1.6944606593265739,
+        "endpoint_B": -1.6944606593265674
+      },
+      "values112": {
+        "endpoint_original": -1.694460659326571,
+        "endpoint_B": -1.6944606593265714
+      },
+      "absolute_difference": 4.440892098500626e-16,
+      "refinement": 3.9968028886505635e-15,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "epsilon": 0.37,
+      "z": 1.4,
+      "a": 0.37,
+      "b": 0.37,
+      "original": "square_original_FA_plus_FC",
+      "candidate": "square_B",
+      "values64": {
+        "square_original_FA_plus_FC": 2.561723534362941,
+        "square_B": 2.5617235343629416
+      },
+      "values112": {
+        "square_original_FA_plus_FC": 2.561723534362937,
+        "square_B": 2.561723534362943
+      },
+      "absolute_difference": 5.773159728050814e-15,
+      "refinement": 3.9968028886505635e-15,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "epsilon": 0.23,
+      "z": 1.4,
+      "a": 0.41,
+      "b": 0.58,
+      "original": "endpoint_original",
+      "candidate": "endpoint_B",
+      "values64": {
+        "endpoint_original": -1.5983857570879405,
+        "endpoint_B": -1.598385757087939
+      },
+      "values112": {
+        "endpoint_original": -1.5983857570879405,
+        "endpoint_B": -1.598385757087941
+      },
+      "absolute_difference": 4.440892098500626e-16,
+      "refinement": 1.9984014443252818e-15,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "epsilon": 0.23,
+      "z": 1.4,
+      "a": 0.41,
+      "b": 0.58,
+      "original": "square_original_FA_plus_FC",
+      "candidate": "square_B",
+      "values64": {
+        "square_original_FA_plus_FC": 3.5990129335672525,
+        "square_B": 3.5990129335677894
+      },
+      "values112": {
+        "square_original_FA_plus_FC": 3.599012933567776,
+        "square_B": 3.599012933567791
+      },
+      "absolute_difference": 1.509903313490213e-14,
+      "refinement": 5.235811784132238e-13,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "epsilon": 0.37,
+      "z": 0.7,
+      "a": 0.62,
+      "b": 0.44,
+      "original": "endpoint_original",
+      "candidate": "endpoint_B",
+      "values64": {
+        "endpoint_original": -1.213656772817345,
+        "endpoint_B": -1.213656772817349
+      },
+      "values112": {
+        "endpoint_original": -1.2136567728173455,
+        "endpoint_B": -1.2136567728173489
+      },
+      "absolute_difference": 3.3306690738754696e-15,
+      "refinement": 4.440892098500626e-16,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "epsilon": 0.37,
+      "z": 0.7,
+      "a": 0.62,
+      "b": 0.44,
+      "original": "square_original_FA_plus_FC",
+      "candidate": "square_B",
+      "values64": {
+        "square_original_FA_plus_FC": 2.3538502763003977,
+        "square_B": 2.3538502763003972
+      },
+      "values112": {
+        "square_original_FA_plus_FC": 2.3538502763003915,
+        "square_B": 2.353850276300398
+      },
+      "absolute_difference": 6.661338147750939e-15,
+      "refinement": 6.217248937900877e-15,
+      "tolerance": 5e-07,
+      "passed": true
+    }
+  ],
+  "inputs_sha256": {
+    "workflow/checks/six-e-common-blocks-20261016/inputs/rectangle_bridge.py": "eaaf2ecd5533378aa7ec5c096461bfb4fe93acfed3503b95d0c6922c9bba4dee",
+    "workflow/checks/d-intrinsic-source-20261016/numeric/intrinsic.py": "2c9de53855ed02874b7d541365eaeaf7acc8f83500518eb8ff556e7000427640",
+    "workflow/checks/pure-three-higher-laurent-20261016/numeric_physical.py": "d5a368a98d701994f99ad1f58ae18666103c362313ffbe7d6738a90fb0c75fe4",
+    "workflow/checks/pure-three-higher-laurent-20261016/numeric_shared_physical_generator.py": "6449dd7cf331578c152f739567d614d44ec9a768679383cd712c9da2b531c02d",
+    "benchmarks/2ne/families/same-channel-two/three-loop.md": "752c50401d6f8e9c08c032ae7c4259f5a01450c87a29e032734ff12a9b025e44",
+    "benchmarks/2ne/families/single-opposite/three-loop.md": "fb37794f0b41c4de10d4c1e7d3207643174c6a7228b9f3ed0cd79a211fcecd5c",
+    "benchmarks/2ne/theory/generation/d-intrinsic-source-20261016/derivation.md": "f3221eae9fc419bdc308a2ccf1b21ee532e5eb499b4bcf51430829ec227da78b"
+  },
+  "limitations": "Exact all-parameter identities are analytic IBP/scaling derivations in the companion Markdown. Polynomial controls and float quadratures are checks; no interval certification or formal Lean proof."
+}

@@ -1,5 +1,13 @@
 # Turn the opposite exchange into an evaluated generating function
 
+This current reading-layer trial adopts the source calculation below. Its descriptions
+of executed checks refer to the preserved publication run. The new per-entry
+trial replay is recorded separately in [validation](validation.md); it does not
+redo a cold CAS integration. The starting momentum rule is an accepted physical
+input, and the parameter-to-coefficient equalities are the mathematical content
+being exposed here.
+
+
 The opposite exchange complements the adjacent cusp integral: the overall
 momentum prefactor is the same, yet its parameter integral is finite at
 epsilon=0. We want to understand that difference directly from the path
@@ -36,7 +44,7 @@ D_z(u,v)=\frac{\Phi^2}{2b}=(1-u)(1-v)+zuv,
 \qquad \frac{v_2\cdot v_4}{b}=-(1+z).
 $$
 
-The new script derives these two polynomials from the source phase and the
+The adopted runtime script derives these two polynomials from the source phase and the
 null Gram matrix. The original integral and its raw scalar factor are
 
 $$
@@ -91,7 +99,7 @@ z^\epsilon(1-\beta)^\epsilon-\beta^\epsilon
 \sinh(\epsilon L_\beta/2).
 $$
 
-Removing the common scale power defines an even function
+Removing the common scale power defines a crossing-even function
 
 $$
 H_\epsilon=z^{-\epsilon/2}J_O
@@ -147,7 +155,7 @@ $$
 This continues meromorphically in epsilon from the common strip. It is the
 same closed special-function answer found in the archived research; here
 the complete source connection and normalization are written explicitly.
-The fresh run also evaluates the original difference quotient and this
+The historical publication run also evaluates the original difference quotient and this
 Meijer G at two noninteger parameter points.
 
 ## Restore the orbit and crossing only once
@@ -209,7 +217,7 @@ T(a)=\pi\left[\cot(\pi a)-\frac{e^{\rho a}}{\sin(\pi a)}\right]+\rho
 $$
 
 The final subtracted integral and every M moment require no principal-value
-prescription. The new symbolic replay checks the variable-change identity
+prescription. The adopted symbolic replay checks the variable-change identity
 and both required Taylor coefficients, giving
 
 $$M_{0,1}=-\frac{\rho^2+\pi^2}{2},\qquad M_{0,3}=-M_{0,1}^2.$$
@@ -241,11 +249,45 @@ Both pole coefficients are zero. At epsilon=0 this reduces to
 The finite-order sum generated from H determines any fixed higher order;
 only through epsilon3 is explicitly exported and checked in this release.
 
+
+## A finite coefficient rule, including the highest requested order
+
+Let h_q be the finite moment sum above and write
+P(epsilon)=G(epsilon)sech(epsilon ell/2)=sum p_n epsilon^n.
+Generate g_n=[epsilon^n]G from g_0=1 and
+
+$$g_n=\frac1n\sum_{k=2}^n\zeta_k g_{n-k}.$$
+
+For s_n=[epsilon^n]sech(epsilon ell/2), use s_0=1 and
+
+$$s_n=-\sum_{j=1}^{\lfloor n/2\rfloor}
+\frac{(\ell/2)^{2j}}{(2j)!}s_{n-2j},\qquad
+p_n=\sum_{i=0}^ng_i s_{n-i}.$$
+
+Then a_q=-sum_{r=0}^q p_r h_{q-r}/2. In particular
+
+$$a_3=-\frac12\left[h_3+
+\left(\frac{\zeta_2}{2}-\frac{\ell^2}{8}\right)h_1
++\frac{\zeta_3}{3}h_0\right].$$
+
+Only h_0,...,h_3 and p_0,...,p_3 are needed because this opposite exchange
+is regular. Substituting the explicit h_q, M03=-M01² and
+ell²=-2M01-pi² produces the displayed epsilon³ coefficient.
+This is a finite reconstruction rule for every exported order, with no
+uncomputed subintegral beyond the defined, adopted M family.
+
+The adopted M dictionary uses G(a,w;z)=integral_0^z G(w;t)dt/(t-a),
+G(empty;z)=1 and G(0;z)=log z, with letters0,-1 and real values for z>0.
+The M definition and the displayed finite moment rule are the exact function
+representation here; its HLOG dictionary is a reused evaluated subintegral,
+not a new numerical fit. Arbitrary complex-z or z=-1 boundary continuation
+requires separate branch work.
+
 ## Checks and limits
 
-The successful [record](checks.json) contains fresh source geometry, C/sign,
+The successful [record](validation.md) contains source geometry checks from the historical publication run, C/sign,
 order, primitive, reflection, moment compactification and coefficient checks.
-New numerical calculations compare the original two-dimensional J with its
+The historical numerical calculations compare the original two-dimensional J with its
 one-dimensional primitive, the primitive with full Meijer G, and the newly
 generated coefficients with epsilon-Cauchy readouts. M01, M03 and M11 are
 also integrated from their original definitions.40 working digits and the
@@ -256,7 +298,7 @@ The old table has no epsilon1..3 entries, so it cannot supply these new
 positive-order computations. The source QFT Fourier rule and standard
 Euler/Mellin identities are reused mathematics; archived scripts are not
 silently rerun or relabelled as new work. See [reproduce.md](reproduce.md)
-and the [historical source manifest](../source-manifest.json).
+and the [historical source manifest](../../families/low-loop-runtime/integrals/one-loop/source-manifest.json).
 The result is a research computation for positive z with local epsilon
 continuation. No arbitrary physical complex-z continuation or integral
 formal proof is claimed. `formal=not_run`.

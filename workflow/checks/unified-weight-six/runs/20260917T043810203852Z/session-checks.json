@@ -1,0 +1,54 @@
+{
+  "commands": [
+    {
+      "command": [
+        "D:\\py\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\wilson-agent\\workflow\\checks\\unified-weight-six",
+        "-p",
+        "test_unified.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.4636726000026101
+    },
+    {
+      "command": [
+        "D:\\py\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\wilson-agent\\workflow\\checks\\unified-weight-six\\unify.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.8901234000077238
+    },
+    {
+      "command": [
+        "D:\\py\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\wilson-agent\\workflow\\checks\\unified-weight-six\\publish.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 2.5667708000109997
+    },
+    {
+      "command": [
+        "D:\\py\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\wilson-agent\\workflow\\checks\\unified-weight-six\\verify.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.9910619000002043
+    }
+  ],
+  "passed": true,
+  "formal": "not_run",
+  "git_commit_performed": false,
+  "new_HyperInt_executed": false
+}

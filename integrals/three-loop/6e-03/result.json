@@ -1,0 +1,196 @@
+{
+  "format": "wilson-6e-publication-result/1",
+  "orbit_id": "6e-03",
+  "quantity": "I",
+  "family": "empty",
+  "domain": "z>0; local meromorphic epsilon expansion, O(eps)",
+  "normalization": {
+    "format": "wilson-2ne-assembly/0.1",
+    "n": 3,
+    "kappa": "-1/16",
+    "euler": "consumed from prepared C exactly once",
+    "formula": "kappa*G(eps)^n*(J(z)+z^(n*eps)*J(1/z))/(1+z^(n*eps))",
+    "a1": "1/4",
+    "sym": 4
+  },
+  "coefficients": {
+    "-6": {
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1/576"
+        }
+      ],
+      "function_conversion": [
+        {
+          "factors": [],
+          "coefficient": "-1/576"
+        }
+      ],
+      "function_latex": "-\\frac{1}{576}"
+    },
+    "-5": {
+      "hlog_terms": [],
+      "function_conversion": [],
+      "function_latex": "0"
+    },
+    "-4": {
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1/384"
+        }
+      ],
+      "function_conversion": [
+        {
+          "factors": [
+            "zeta_2"
+          ],
+          "coefficient": "-1/384"
+        }
+      ],
+      "function_latex": "-\\frac{1}{384} \\zeta_{2}"
+    },
+    "-3": {
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/576"
+        }
+      ],
+      "function_conversion": [
+        {
+          "factors": [
+            "zeta_3"
+          ],
+          "coefficient": "-1/576"
+        }
+      ],
+      "function_latex": "-\\frac{1}{576} \\zeta_{3}"
+    },
+    "-2": {
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-19/7680"
+        }
+      ],
+      "function_conversion": [
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_2"
+          ],
+          "coefficient": "-19/7680"
+        }
+      ],
+      "function_latex": "-\\frac{19}{7680} \\zeta_{2} \\zeta_{2}"
+    },
+    "-1": {
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1/960"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": "-1/384"
+        }
+      ],
+      "function_conversion": [
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_3"
+          ],
+          "coefficient": "-1/384"
+        },
+        {
+          "factors": [
+            "zeta_5"
+          ],
+          "coefficient": "-1/960"
+        }
+      ],
+      "function_latex": "-\\frac{1}{384} \\zeta_{2} \\zeta_{3}-\\frac{1}{960} \\zeta_{5}"
+    },
+    "0": {
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": "-1/1152"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": "-631/322560"
+        }
+      ],
+      "function_conversion": [
+        {
+          "factors": [
+            "zeta_3",
+            "zeta_3"
+          ],
+          "coefficient": "-1/1152"
+        },
+        {
+          "factors": [
+            "zeta_2",
+            "zeta_2",
+            "zeta_2"
+          ],
+          "coefficient": "-631/322560"
+        }
+      ],
+      "function_latex": "-\\frac{1}{1152} \\zeta_{3} \\zeta_{3}-\\frac{631}{322560} \\zeta_{2} \\zeta_{2} \\zeta_{2}"
+    }
+  },
+  "generation_result": {
+    "path": "evidence/generation/generated.json",
+    "path_base": "package root",
+    "sha256": "fc4efa5347e5e4f8fb5447a37342ef0c6471fcb67c287f360cd54df01069aad9",
+    "json_pointer": "/6e-03"
+  },
+  "scope": "HLOG coordinates and function conversion exported only after exact comparison with the newly reassembled candidate. Complex source branch/formal proof not newly established.",
+  "formal": "not_run"
+}

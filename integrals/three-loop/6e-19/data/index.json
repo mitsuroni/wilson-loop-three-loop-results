@@ -1,0 +1,71 @@
+{
+  "orbit_id": "6e-19",
+  "runtime_base": "../../../families/three-loop-6e/runtime",
+  "paths_relative_to": "runtime_base; the original_ordered_root field is explicitly relative to this data/index.json file",
+  "original_ordered_root": "../input.json",
+  "archived_subintegral_budget": {
+    "path": "integrals/three-loop/6e-19/subintegrals.json",
+    "sha256": "8a5b34ecce5f3c8eadcad392d3bfaf1bee342540e23dfef2728308c7f93a1ddd",
+    "object": "original root, reductions and epsilon budget",
+    "role": "Historical exact root/consumption record. Absolute historical paths inside it are not current output paths."
+  },
+  "required_budget": {
+    "target_powers": [
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0
+    ],
+    "rule": "Required regular order equals requested physical order minus the actual external pole; the active per-order requests below contain the consumed orders. Ordered gap jets use q=0,1,2; all-opposite finite kernels use q=0; Gamma route uses through6.",
+    "normalization": {
+      "format": "wilson-2ne-assembly/0.1",
+      "n": 3,
+      "kappa": "-1/16",
+      "euler": "consumed from prepared C exactly once",
+      "formula": "kappa*G(eps)^n*(J(z)+z^(n*eps)*J(1/z))/(1+z^(n*eps))",
+      "a1": "1/4",
+      "sym": 4
+    }
+  },
+  "new_primitive_events_in_this_orbit": 0,
+  "primitive_units": [],
+  "adopted_integrated_primitives": [],
+  "actual_code": [
+    {
+      "path": "scripts/evaluate_batch.py",
+      "sha256": "411f5b47342feb4fb8eb451b095bd1476c37307518bebe0c51e2b2e5a33668d0",
+      "object": "batch entry",
+      "role": "Calls the original-root recognizers and actual assembly, with only archived CAS and output adapters."
+    },
+    {
+      "path": "engine/wilson_calc/assembly.py",
+      "sha256": "ee7c7c486d258918f3a018ad05a52c8cc23950e9560dcaa68510f33591eb7daf",
+      "object": "physical_expression / expand_scalar",
+      "role": "Actual kappa, Gamma, crossing and finite-order assembly."
+    },
+    {
+      "path": "engine/wilson_calc/exchange.py",
+      "sha256": "78057ae677f8e6bbefee23166d7d3e323571c6782f130327bdc96c93eb082be5",
+      "object": "whole_word_value / evaluate_empty",
+      "role": "Recognize this original source and evaluate its ordered endpoint chains using Beta/Gamma identities."
+    }
+  ],
+  "comparison_targets": [
+    {
+      "path": "references/results/6e-19.json",
+      "sha256": "7a71590e6a74e87355fc262805c334b179ce38f0d72ed4c331f4e04805d1a1f7",
+      "object": "historical complete I",
+      "role": "Only opened after generation for comparison; not a primitive input."
+    },
+    {
+      "path": "references/basis-and-conversions.json",
+      "sha256": "c646e42379fd344c45bee8ad02ec25a0f92a050d9ac85da63912cc1265f72c05",
+      "object": "moment dictionary plus target conversion table",
+      "role": "Used by reading/verification; complete target rows are not opened by generation."
+    }
+  ],
+  "scope": "All required primitive dependencies are listed, including shared batch-cache inputs first replayed by another orbit. A lack of new events does not mean no mathematical dependency. Historical root, subintegrals, whole I, representation and checks remain distinct; this index is not a proof receipt."
+}

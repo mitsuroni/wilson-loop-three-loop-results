@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "frozen_at_utc": "2026-10-16T10:25:07.473484+00:00",
+  "route": "Original R231 retains four ordered coordinates after integrating t1 and t3 analytically. No candidate intrinsic source is read.",
+  "candidate_expression_read": false,
+  "full_epsilon_cases": [
+    {
+      "epsilon": 0.13,
+      "z": 0.4,
+      "original_values_by_nodes": {
+        "28": -3.3645799755764414,
+        "48": -3.364579976277667
+      },
+      "observed_refinement": 7.012257441374459e-10
+    },
+    {
+      "epsilon": 0.31,
+      "z": 0.4,
+      "original_values_by_nodes": {
+        "28": -1.9224389092854446,
+        "48": -1.922438909306838
+      },
+      "observed_refinement": 2.139333155071199e-11
+    },
+    {
+      "epsilon": 0.13,
+      "z": 1.4,
+      "original_values_by_nodes": {
+        "28": -2.7319631033264042,
+        "48": -2.7319631043088592
+      },
+      "observed_refinement": 9.824550062376147e-10
+    },
+    {
+      "epsilon": 0.31,
+      "z": 1.4,
+      "original_values_by_nodes": {
+        "28": -1.5605873799903043,
+        "48": -1.560587380011877
+      },
+      "observed_refinement": 2.1572743591491417e-11
+    }
+  ],
+  "reused_frozen_coefficients": {
+    "0.4": {
+      "D0_to_D4": [
+        -5.1804227349128125,
+        17.730371349826388,
+        -34.73805999089656,
+        52.24892350383574,
+        -68.20752884772901
+      ],
+      "observed_refinement": [
+        6.750155989720952e-14,
+        3.055333763768431e-13,
+        1.7550405573274475e-12,
+        1.5837997580092633e-11,
+        1.2997247722523753e-10
+      ]
+    },
+    "0.7": {
+      "D0_to_D4": [
+        -4.214101729444695,
+        14.317272726778176,
+        -27.675048967717945,
+        41.129328528867404,
+        -53.25237570000991
+      ],
+      "observed_refinement": [
+        5.417888360170764e-14,
+        2.6645352591003757e-13,
+        1.637801005927031e-12,
+        1.5141665699047735e-11,
+        1.2396839110806468e-10
+      ]
+    }
+  },
+  "inputs_sha256": {
+    "workflow\\checks\\d-intrinsic-source-20261016\\numeric\\original_adapter.py": "24d3b26caa714408fe3054bdd3fb5ef4dd5e1879bb2118172afe551f50cc2307",
+    "workflow\\checks\\pure-three-cd-20261016\\numeric_direct.py": "582506f8fc2000904517e21027e5f1fd697328d34f14a776607e893cf79684f7",
+    "workflow\\checks\\d-mother-source-20261016\\direct-d4\\original-numeric-refined.json": "7e423a26c495a78e8f1f4390374ca25892181f8e00797f3367acdb21c2ba7697",
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\numeric_physical.py": "d5a368a98d701994f99ad1f58ae18666103c362313ffbe7d6738a90fb0c75fe4",
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\numeric_shared_physical_generator.py": "6449dd7cf331578c152f739567d614d44ec9a768679383cd712c9da2b531c02d",
+    "workflow\\checks\\d-intrinsic-source-20261016\\numeric\\freeze_original.py": "3c9a6d568c6e7b67e6d1a819529deb729d3f3addd98b94030a5e32bb09552d1c"
+  },
+  "wall_seconds": 2.2894235999992816,
+  "limits": "Float quadrature and observed refinement, not a certified error bound. Old Laurent values are reused with their original provenance and are not newly integrated."
+}

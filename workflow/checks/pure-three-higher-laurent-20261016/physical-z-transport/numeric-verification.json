@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "cases": [
+    {
+      "epsilon": "8.37",
+      "z": "0.7",
+      "theta_x_order": 0,
+      "transported": 14476515.857086023,
+      "original_quadrature80": 14476515.8570921,
+      "scaled_difference": 4.197106912168201e-13,
+      "ODE_refinement": 2.382302072681419e-11,
+      "quadrature_refinement": 9.534200557684356e-14,
+      "tolerance": 2e-07,
+      "ODE_evaluations": 170
+    },
+    {
+      "epsilon": "8.37",
+      "z": "0.7",
+      "theta_x_order": 2,
+      "transported": 246170145.02516395,
+      "original_quadrature80": 246170145.02522427,
+      "scaled_difference": 2.450333711527632e-13,
+      "ODE_refinement": 9.040690245837399e-12,
+      "quadrature_refinement": 1.0242007509646128e-13,
+      "tolerance": 2e-07,
+      "ODE_evaluations": 170
+    },
+    {
+      "epsilon": "8.37",
+      "z": "1.4",
+      "theta_x_order": 0,
+      "transported": 11113586.456087139,
+      "original_quadrature80": 11113586.456086446,
+      "scaled_difference": 6.234746976161252e-14,
+      "ODE_refinement": 2.1955024593796218e-11,
+      "quadrature_refinement": 9.519721189407501e-14,
+      "tolerance": 2e-07,
+      "ODE_evaluations": 158
+    },
+    {
+      "epsilon": "8.37",
+      "z": "1.4",
+      "theta_x_order": 2,
+      "transported": 184526946.95039877,
+      "original_quadrature80": 184526946.9504462,
+      "scaled_difference": 2.5695702282201875e-13,
+      "ODE_refinement": 1.6593512532231205e-11,
+      "quadrature_refinement": 1.0239519325528591e-13,
+      "tolerance": 2e-07,
+      "ODE_evaluations": 158
+    },
+    {
+      "epsilon": "12.37",
+      "z": "0.7",
+      "theta_x_order": 0,
+      "transported": 163224520077.34613,
+      "original_quadrature80": 163224520077.4421,
+      "scaled_difference": 5.880108157621674e-13,
+      "ODE_refinement": 3.8547334151770295e-11,
+      "quadrature_refinement": 1.596697095901084e-13,
+      "tolerance": 2e-07,
+      "ODE_evaluations": 230
+    },
+    {
+      "epsilon": "12.37",
+      "z": "0.7",
+      "theta_x_order": 2,
+      "transported": 6960797633979.667,
+      "original_quadrature80": 6960797633981.773,
+      "scaled_difference": 3.026155080585289e-13,
+      "ODE_refinement": 1.018735396484099e-11,
+      "quadrature_refinement": 1.5628821324858653e-13,
+      "tolerance": 2e-07,
+      "ODE_evaluations": 230
+    },
+    {
+      "epsilon": "12.37",
+      "z": "1.4",
+      "theta_x_order": 0,
+      "transported": 108473171656.26888,
+      "original_quadrature80": 108473171656.26498,
+      "scaled_difference": 3.5870539706052485e-14,
+      "ODE_refinement": 1.1478572705936795e-11,
+      "quadrature_refinement": 1.6064375036985074e-13,
+      "tolerance": 2e-07,
+      "ODE_evaluations": 218
+    },
+    {
+      "epsilon": "12.37",
+      "z": "1.4",
+      "theta_x_order": 2,
+      "transported": 4525778513081.84,
+      "original_quadrature80": 4525778513083.525,
+      "scaled_difference": 3.724324710383573e-13,
+      "ODE_refinement": 1.3362687176398257e-11,
+      "quadrature_refinement": 1.5730201123230736e-13,
+      "tolerance": 2e-07,
+      "ODE_evaluations": 218
+    }
+  ],
+  "z1_boundary_series_checks": [
+    {
+      "epsilon": "8.37",
+      "terms_coarse": 256,
+      "terms_fine": 512,
+      "max_scaled_state_refinement": 2.0968183608519672e-12
+    },
+    {
+      "epsilon": "12.37",
+      "terms_coarse": 256,
+      "terms_fine": 512,
+      "max_scaled_state_refinement": 4.849469478173292e-18
+    }
+  ],
+  "negative_controls": [
+    {
+      "mutation": "Omit the initial-mode forcing column of both residue matrices",
+      "scaled_difference": 0.00025330742352690076,
+      "rejected": true
+    }
+  ],
+  "proof_domain": "Re(epsilon)>4 before physical x=1 derivative limits; these numerical tests use e=8.37,12.37.",
+  "connection_sha256": "2679754660a8195556ec1a19f5669514cc5c7c5eaf7ddb3fbfd7847ca8efb76c",
+  "inputs_sha256": {
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\numeric_physical_z_system.py": "77f01e9a8142f5ed8169a65b063a4cd2fdac7cfd4014ec03f61f2098c4ddf573",
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\physical_z_system.py": "d7aacf2a3ba70505fa6f724c38bc58832e6e645e4664e436a39a6258718e806a",
+    "workflow\\checks\\pure-three-generators-20261015\\moment_system.py": "975a5509bae482a1853e07381535f2d49e2b214d34d8360a95363f9022a83926"
+  },
+  "limits": "Observed initial-series, ODE and quadrature refinement; not interval certification or numerical continuation to epsilon=0."
+}

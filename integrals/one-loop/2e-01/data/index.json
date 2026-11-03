@@ -1,0 +1,29 @@
+{
+  "orbit_id": "2e-01",
+  "runtime_base": "../../../families/low-loop-runtime",
+  "family_source_manifest": "integrals/one-loop/source-manifest.json",
+  "accepted_result": {
+    "path": "integrals/one-loop/2e-01/result.json",
+    "sha256": "e9463e95aac73ed11669fb36f6996d16c7a545042233dcd073114a3c00f620bc"
+  },
+  "scope": "Object roles are separate: original initial roots are bound by ../input.json, adopted subintegrals and whole-I inputs are labelled here, comparison targets are not generation inputs. A batch may load additional moment files needed by its other members.",
+  "external_integrated_primitives_required": false,
+  "path_base": "All paths in adopted_primitives, assembly_code and comparison_targets are relative to runtime_base.",
+  "adopted_primitives": [],
+  "assembly_code": [
+    {
+      "path": "integrals/one-loop/reproduce.py",
+      "sha256": "fde2854b430fc55da58987b78d0179e65b2f3f65aeffdfc96b2c2725677fa90e",
+      "object": "original_source_checks; derive_coefficients",
+      "role": "Rebuild source geometry and actual evaluated Gamma/M generating formulas before reference comparison."
+    }
+  ],
+  "comparison_targets": [
+    {
+      "path": "integrals/one-loop/sources/benchmarks/2ne/results/2e-01/r002.json",
+      "sha256": "156b0484b95f71195c8b0153897cfae0856fc9fab432ceab6d61b1bc2e8db24a",
+      "object": "historical complete I",
+      "role": "Post-generation holdout comparison, not an integrated subprimitive."
+    }
+  ]
+}

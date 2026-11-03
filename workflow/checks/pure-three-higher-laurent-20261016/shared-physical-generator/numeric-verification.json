@@ -1,0 +1,171 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "cases": [
+    {
+      "epsilon": ".23",
+      "z": "1",
+      "target": "I20",
+      "reduced_generator": 0.06554034147274435,
+      "original_ordered_quadrature": 0.06554034147376248,
+      "absolute_difference": 1.0181300247324998e-12,
+      "source_refinement": 4.905825745638026e-12,
+      "original_quadrature_refinement": 2.6367796834847468e-15,
+      "tolerance": 3e-07,
+      "moment_series_terms": [
+        2048,
+        4096
+      ],
+      "one_dimensional_nodes": [
+        128,
+        224
+      ],
+      "original_nodes": [
+        64,
+        108
+      ]
+    },
+    {
+      "epsilon": ".23",
+      "z": "1",
+      "target": "I21",
+      "reduced_generator": 0.04059044203007906,
+      "original_ordered_quadrature": 0.0405904420295686,
+      "absolute_difference": 5.104597300409353e-13,
+      "source_refinement": 3.287925487427401e-12,
+      "original_quadrature_refinement": 1.186550857568136e-15,
+      "tolerance": 3e-07,
+      "moment_series_terms": [
+        2048,
+        4096
+      ],
+      "one_dimensional_nodes": [
+        128,
+        224
+      ],
+      "original_nodes": [
+        64,
+        108
+      ]
+    },
+    {
+      "epsilon": ".37",
+      "z": "1",
+      "target": "I20",
+      "reduced_generator": 0.0657593475592223,
+      "original_ordered_quadrature": 0.06575934755924587,
+      "absolute_difference": 2.3564483697668948e-14,
+      "source_refinement": 1.3417877919863486e-12,
+      "original_quadrature_refinement": 2.6229018956769323e-15,
+      "tolerance": 3e-07,
+      "moment_series_terms": [
+        2048,
+        4096
+      ],
+      "one_dimensional_nodes": [
+        128,
+        224
+      ],
+      "original_nodes": [
+        64,
+        108
+      ]
+    },
+    {
+      "epsilon": ".37",
+      "z": "1",
+      "target": "I21",
+      "reduced_generator": 0.0390979535977663,
+      "original_ordered_quadrature": 0.039097953597726796,
+      "absolute_difference": 3.950312299494385e-14,
+      "source_refinement": 1.149080830487037e-14,
+      "original_quadrature_refinement": 1.1657341758564144e-15,
+      "tolerance": 3e-07,
+      "moment_series_terms": [
+        2048,
+        4096
+      ],
+      "one_dimensional_nodes": [
+        128,
+        224
+      ],
+      "original_nodes": [
+        64,
+        108
+      ]
+    }
+  ],
+  "primitive_J_controls": [
+    {
+      "epsilon": ".23",
+      "argument": -1,
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "epsilon": ".23",
+      "argument": -0.7,
+      "absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "epsilon": ".23",
+      "argument": 0.2,
+      "absolute_difference": 0.0
+    },
+    {
+      "epsilon": ".23",
+      "argument": 0.8,
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "epsilon": ".23",
+      "argument": 1,
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "epsilon": ".37",
+      "argument": -1,
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "epsilon": ".37",
+      "argument": -0.7,
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "epsilon": ".37",
+      "argument": 0.2,
+      "absolute_difference": 1.3877787807814457e-17
+    },
+    {
+      "epsilon": ".37",
+      "argument": 0.8,
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "epsilon": ".37",
+      "argument": 1,
+      "absolute_difference": 1.1102230246251565e-16
+    }
+  ],
+  "negative_controls": [
+    {
+      "epsilon": ".23",
+      "mutation": "Reverse the mixed UV projection sign in complete I20",
+      "absolute_difference": 12.487875263963613,
+      "rejected": true
+    },
+    {
+      "epsilon": ".37",
+      "mutation": "Reverse the mixed UV projection sign in complete I20",
+      "absolute_difference": 4.6321641159620155,
+      "rejected": true
+    }
+  ],
+  "inputs_sha256": {
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\numeric_shared_physical_generator.py": "6449dd7cf331578c152f739567d614d44ec9a768679383cd712c9da2b531c02d",
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\shared_physical_generator.py": "82b56db36b73782980d46b93b15224c9b650be4f14dd7d27b88e5983e5ca7f9a",
+    "workflow\\checks\\pure-three-higher-laurent-20261016\\numeric_physical.py": "d5a368a98d701994f99ad1f58ae18666103c362313ffbe7d6738a90fb0c75fe4",
+    "workflow\\checks\\pure-three-generators-20261015\\moment_system.py": "975a5509bae482a1853e07381535f2d49e2b214d34d8360a95363f9022a83926"
+  },
+  "limits": "Observed finite-series and quadrature refinement at z=1; not interval bounds or a numerical small-epsilon continuation of the 41 endpoint jets."
+}

@@ -1,5 +1,9 @@
 # Publication status and next steps
 
+## Continuous derivations and individual audit
+
+The [current integral reading layer](../integrals/README.md) now provides continuous source-to-Laurent derivations for2 one-loop,12 two-loop and39 three-loop exchange entries. The [fixed standard and reusable skill](../workflow/integral-documentation-standard.md) separate exposition, implementation, replay, mathematical validation and publication. The [39-entry audit](../workflow/checks/integral-documentation-6e-20261103/review/README.md) accepts10 direct derivations and29 precisely adopted evaluated lemmas. This is not39 new independent CAS integrations. Statements saying "not yet published" inside frozen reports describe their construction-time status; this release publishes the reviewed reading layer.
+
 ## P5/P6 publication: 3 November 2026
 
 [The three-loop index](../integrals/three-loop/README.md) now covers98 source memberships:39 pure exchanges,15 two-point/exchange insertions and44 tree-three-gluon sources. The new immutable packets provide59 own articles,413 scalar Laurent positions,238 external-colour positions and651 independent function back-substitutions. See [publication validation](../validation/three-loop-p5-p6-2026-11-03/README.md) for actual copied-public replays and the limits of reused primitive integration. The remaining16 insertions and35 four-leg source memberships are subsequent curation batches; the complete four-colour scientific result is unchanged.

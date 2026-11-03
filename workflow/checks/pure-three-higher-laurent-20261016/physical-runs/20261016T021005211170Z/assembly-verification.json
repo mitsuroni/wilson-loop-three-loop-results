@@ -1,0 +1,211 @@
+{
+  "passed": true,
+  "formal": "not_run",
+  "run": "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z",
+  "exact_regressions": [
+    {
+      "target": "I20",
+      "epsilon_power": 0,
+      "difference": "0",
+      "old_coordinates": 15
+    },
+    {
+      "target": "I20",
+      "epsilon_power": 1,
+      "difference": "0",
+      "old_coordinates": 56
+    },
+    {
+      "target": "I20",
+      "epsilon_power": 2,
+      "difference": "0",
+      "old_coordinates": 152
+    },
+    {
+      "target": "I21",
+      "epsilon_power": 0,
+      "difference": "0",
+      "old_coordinates": 15
+    },
+    {
+      "target": "I21",
+      "epsilon_power": 1,
+      "difference": "0",
+      "old_coordinates": 57
+    },
+    {
+      "target": "I21",
+      "epsilon_power": 2,
+      "difference": "0",
+      "old_coordinates": 153
+    },
+    {
+      "target": "W",
+      "epsilon_power": 0,
+      "difference": "0"
+    },
+    {
+      "target": "W",
+      "epsilon_power": 1,
+      "difference": "0"
+    },
+    {
+      "target": "W",
+      "epsilon_power": 2,
+      "difference": "0"
+    },
+    {
+      "target": "Lsum",
+      "epsilon_power": 0,
+      "difference": "0"
+    },
+    {
+      "target": "Lsum",
+      "epsilon_power": 1,
+      "difference": "0"
+    },
+    {
+      "target": "Lsum",
+      "epsilon_power": 2,
+      "difference": "0"
+    },
+    {
+      "target": "A",
+      "epsilon_power": 0,
+      "difference": "0"
+    },
+    {
+      "target": "A",
+      "epsilon_power": 1,
+      "difference": "0"
+    },
+    {
+      "target": "A",
+      "epsilon_power": 2,
+      "difference": "0"
+    },
+    {
+      "target": "B",
+      "epsilon_power": 0,
+      "difference": "0"
+    },
+    {
+      "target": "B",
+      "epsilon_power": 1,
+      "difference": "0"
+    },
+    {
+      "target": "B",
+      "epsilon_power": 2,
+      "difference": "0"
+    },
+    {
+      "target": "W_num3",
+      "source_difference": "0"
+    },
+    {
+      "target": "L_num3",
+      "source_difference": "0"
+    },
+    {
+      "target": "W_num4",
+      "source_difference": "0"
+    },
+    {
+      "target": "L_num4",
+      "source_difference": "0"
+    },
+    {
+      "target": "W_num5",
+      "source_difference": "0"
+    },
+    {
+      "target": "L_num5",
+      "source_difference": "0"
+    }
+  ],
+  "negative_controls": [
+    {
+      "target": "I20",
+      "epsilon_power": 2,
+      "mutation": "omit Gamma/cosh normalization",
+      "rejected": true,
+      "nonzero_coordinates": 39
+    },
+    {
+      "target": "I20",
+      "epsilon_power": 3,
+      "mutation": "omit Gamma/cosh normalization",
+      "rejected": true,
+      "nonzero_coordinates": 168
+    },
+    {
+      "target": "I21",
+      "epsilon_power": 2,
+      "mutation": "omit Gamma/cosh normalization",
+      "rejected": true,
+      "nonzero_coordinates": 39
+    },
+    {
+      "target": "I21",
+      "epsilon_power": 3,
+      "mutation": "omit Gamma/cosh normalization",
+      "rejected": true,
+      "nonzero_coordinates": 168
+    }
+  ],
+  "new_weight9_coordinates": {
+    "W": 357,
+    "Lsum": 230,
+    "A": 356,
+    "B": 357,
+    "H": 23,
+    "I20": 356,
+    "I21": 357
+  },
+  "new_full_physical_epsilon3": true,
+  "independent_new_numeric": "pending",
+  "coefficients_sha256": "6e171acef52584d713cf60e2f60b0a56032277d0b664c73952be8175208c36dd",
+  "inputs_sha256": {
+    "benchmarks/2ne/theory/generation/three-kernel-eps2.json": "4c556b02359d6ae19949ea974fc999ac34182c002f33465e5a2e58dfa9b5dd3c",
+    "workflow/checks/pure-three-higher-laurent-20261016/assemble_data.py": "7cc15c5c933cc9a5199605957cc4bb4bfe70ba8ac7e7337508719f4414a39dc6",
+    "workflow/checks/pure-three-higher-laurent-20261016/hlog9.py": "a4591b8a15e6270152a314703576765292b24f1b4398edc2e42b5ab59ba4ffe8",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/A0.txt": "68f61919de8af87f96d027179e02f55fa4335fbb38b9664f2e4a1551cdf22b5f",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/A1.txt": "54fadf90f8cb5d84d66e1d7fe850cb47ae08f7144438e02297acc54aa7a04c06",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/A2.txt": "d22a1d710928e505876c672144149f669c2cd6a6cd2c54cc33adba573e6acf59",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/A3.txt": "ec56ab592ccb1a9bdd10baaf9a684fede0ad1f0ff504306ffb9176ce6635c2cc",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/B0.txt": "457473b448418cc1e2735bb53c62ea522f8c840be72c15ea038909bc4456d138",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/B1.txt": "404e3c2a8b5ec1f6c7b9c146a6d0eb32b5bc48dc325d2c3c6ba873ffa7b6ba5c",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/B2.txt": "1f03e9d3835b1a5c441de625983ec2ccd0060f1461cd66fae1ccfedb05996ad7",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/B3.txt": "68a55ed62db46d238794ad4cb23aee1d8d6d79c305dad3cc022e71d3937f7abe",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/H0.txt": "d1e374d37a857aff64cf71b20878aacac309f8137128f0590b647526ca6a2325",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/H1.txt": "5a6ce98db6c6e01ce60b5c8b16a0b364b80b27a61466e9f56d69f412da8778b4",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/H2.txt": "f43b5b261a4c561c829dc6ea810041bd48bdd1fe024c0642619cd855a34c185f",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/H3.txt": "7dfcab3b0fa16f835705f3972fdce62825a77fb51b9856478be524ce95ccfafb",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/I20_0.txt": "19ffd11f44bb4770e4f1c2b4abdd439ad365ff985e0bdd53822639409b98f9ad",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/I20_1.txt": "5a757d3c9d4087ad9ca7833f8a374ace95a3c5d9511df048f96e93cc3447b783",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/I20_2.txt": "4d38b507de4899b504db7d444f1638412b7dfe9f7599b40dcc8cdb8293e766d9",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/I20_3.txt": "ec815cec597c891c91b60bf0169d96e8700bdd565512d19b5732f69e96814d8d",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/I21_0.txt": "e4555b797080f0666569ea2408f0e2081edf49ccb8dce4b0a611a47110952579",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/I21_1.txt": "e6c0d913a020d51ea7b7bbe2cf4761d2cdce05ad3a32945132949761110737d5",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/I21_2.txt": "43e445bd3501a1f3b80852db745dd2e9c8da3ff35730bef603e1cfc5c9155a15",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/I21_3.txt": "618ba7a13d936c3bfe4b62d7822a733eab73d1795e4597186a9dff6d4a3c6577",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/Lsum0.txt": "3cc6ce23966aef31533cfa48100fb5690e810f567f393b98e443547e4ca81603",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/Lsum1.txt": "29592e566c495da0a6d85fa282d1242158078cbaa23bb4eef11821b2e1fe0b8a",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/Lsum2.txt": "2484557b00f43162e335d583d75667e723dce2f2105979b0068365db320695a5",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/Lsum3.txt": "b5b24a76deb798a0a287aafcc970e4bfe597bb7bdd8f94e31a3f6672c5d9c3b7",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/provenance.json": "5ac20e9b009cba925910a938f5ba1301af9af10350771cbfa85ddd467048b4fc",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/status.json": "06424b8303ea1c5ee371ba8328a6ff716744d1143d68f477d08f535484a336d1",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/W0.txt": "179afec9310c738a083c7acd8df15960540bc2527efcecca7cee95d28b4fbb5b",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/W1.txt": "c043611d1fe45ec7bf388c8c284cef4127d191305dd67613266260ba50e6f88c",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/W2.txt": "2ba0445606c6414e742e6e981231cef3d3daa497004a5c052f0eec594f34a44c",
+    "workflow/checks/pure-three-higher-laurent-20261016/physical-runs/20261016T021005211170Z/W3.txt": "53f1b0db0d6fadea369f68b38f7bf612d9537aed8da182ca84877763d86363da",
+    "workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num3.txt": "bf1f7d5da63b8a4c1c345555822c1b278ee570ca6e5665071946e5600f2b0d63",
+    "workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num4.txt": "1157cc8b26eee079cd6692185df467aa17f476409a3c6bd2f20f83abf649dde8",
+    "workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/L_num5.txt": "0a7327e3f69513385e8dbb0768fcd8e027d539779487c3358445c290a49da159",
+    "workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num3.txt": "2f307128f069b361dde9461d4d5ef699c7ec57e6c98319fb974832eb49be739a",
+    "workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num4.txt": "48b86fb7cfe80ef5b80d27f1a14b2a765bf27109be47c6ec5e16feb9877a5e52",
+    "workflow/checks/three-kernel-eps2/runs/20260928T031243018668Z/W_num5.txt": "41ff3a99a28283f9bfaa8da70343783d06536e396285b5b3da15e41dadac87f7"
+  },
+  "scope": "Complete new physical coefficient calculation and exact old-order regression; weight-nine numerical and function-space checks separate."
+}

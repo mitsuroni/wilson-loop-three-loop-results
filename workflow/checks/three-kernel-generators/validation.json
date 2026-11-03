@@ -1,0 +1,133 @@
+{
+  "analytic_reduction_checks_passed": true,
+  "finite_standard_function_closure_obtained": false,
+  "new_epsilon2_coefficients_obtained": false,
+  "checks": [
+    {
+      "name": "algebra",
+      "command": [
+        "D:\\py\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "D:\\wilson-agent\\workflow\\checks\\three-kernel-generators\\algebra.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.9020544000086375
+    },
+    {
+      "name": "numeric",
+      "command": [
+        "D:\\py\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "D:\\wilson-agent\\workflow\\checks\\three-kernel-generators\\numeric.py"
+      ],
+      "returncode": 0,
+      "seconds": 4.516277700022329
+    },
+    {
+      "name": "moments",
+      "command": [
+        "D:\\py\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "D:\\wilson-agent\\workflow\\checks\\three-kernel-generators\\moment_series.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.7820978999952786
+    },
+    {
+      "name": "coefficients",
+      "command": [
+        "D:\\py\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "D:\\wilson-agent\\workflow\\checks\\three-kernel-generators\\coefficients.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.8331592000322416
+    },
+    {
+      "name": "old-weight-seven",
+      "command": [
+        "D:\\py\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "workflow/checks/weight-seven/verify.py"
+      ],
+      "returncode": 0,
+      "seconds": 25.752301900007296
+    },
+    {
+      "name": "render",
+      "command": [
+        "node",
+        "D:\\wilson-agent\\workflow\\checks\\three-kernel-generators\\render.mjs"
+      ],
+      "returncode": 0,
+      "seconds": 0.2520098999957554
+    }
+  ],
+  "CAS_attempts": [
+    {
+      "run": "workflow/checks/three-kernel-generators/runs/20260928T022247408074Z",
+      "passed": false,
+      "returncode": "timeout"
+    },
+    {
+      "run": "workflow/checks/three-kernel-generators/runs/20260928T023527459619Z",
+      "passed": false,
+      "returncode": "timeout"
+    }
+  ],
+  "protected_files": 742,
+  "changed_protected_files": [],
+  "artifact_sha256": {
+    "workflow/checks/three-kernel-generators/.gitattributes": "35845be64ca2dc8e53520de2b5e92b75ea3d88a75ff69c1c1ad66af88fcacded",
+    "workflow/checks/three-kernel-generators/algebra.json": "84996b7b92487d7ad8398b98e28d4c4f012768516863444e60c45746f7d485b3",
+    "workflow/checks/three-kernel-generators/algebra.log": "370b2d990505c52dbc62f5501b169f164b3657db371aa5878e800b058d0b683f",
+    "workflow/checks/three-kernel-generators/algebra.py": "cda109fd33021491efb3f8ddc31e39ef6947b6b71681d9eaac378d2aea7c04fd",
+    "workflow/checks/three-kernel-generators/baseline.json": "b03ee09a5d9766a42fda70c310b468f7ac5d51fcf4dd218a49518f8b1078d6a4",
+    "workflow/checks/three-kernel-generators/coefficients.json": "a2c816dcc24a4191931b42df964ff5d2bc086d6b0e9c2e29fa52b58f39a3910e",
+    "workflow/checks/three-kernel-generators/coefficients.log": "5f6839a2ac6952e2bff80e4640126147b828bf4a079ab7670dd69ea02d7405cd",
+    "workflow/checks/three-kernel-generators/coefficients.py": "553d8cfdb1071dfce4caf0aea28548c28024a134c3c30cad6dd7670e65b005e6",
+    "workflow/checks/three-kernel-generators/compute.mpl": "221137149eb413d64fb0a0fd35b473a4ce19f467e8df816140c97edf21fa0077",
+    "workflow/checks/three-kernel-generators/compute_weighted.mpl": "c135a31791373af7e2654020e7c62e05ff188768a4f7b428cd43896354702cdc",
+    "workflow/checks/three-kernel-generators/moment-series.json": "89e9cc17f538389a409bc500c06ee9790aa35df767fb1a3f701407acadfd3bdf",
+    "workflow/checks/three-kernel-generators/moments.log": "15cb1a9aa0f5b3ebad9ce30327ecd50439d3e3b13e1384aa5a73334283dc45b8",
+    "workflow/checks/three-kernel-generators/moment_series.py": "377ee14f431824d4649d45693e0aa9b56795ed2ac5bd5e780e3534dd4c189587",
+    "workflow/checks/three-kernel-generators/numeric.json": "79406f45179f77760f0fff007593de3449ba5aeea45d1ecbb9b8c9ed0ab4f9e3",
+    "workflow/checks/three-kernel-generators/numeric.log": "47093788e5111372690de32ba5fe01b08887908051d99a8560e6bf0ee6b668d8",
+    "workflow/checks/three-kernel-generators/numeric.py": "01bdaf925c67dbea9ee569cd2874e6ddd096c9b34aa78181fabd1dcd6097e774",
+    "workflow/checks/three-kernel-generators/old-weight-seven.log": "93dc355ad0000d3b76dbf04d0fd3f24db8f170fa1e5692c2e06e4d92e106466d",
+    "workflow/checks/three-kernel-generators/README.md": "a9a0f094f33611eb4565c2e32b74037634ca1984813f80d65bacfad78e72741f",
+    "workflow/checks/three-kernel-generators/render.json": "671e58ffa5ed20d61dfec1a5f3360ee4089045ff3252bf4500b3318c4b3f5929",
+    "workflow/checks/three-kernel-generators/render.log": "ea22998b8fac0e4247a56ffe550fe1db6b9480dd5b21c7858a211a13bf944451",
+    "workflow/checks/three-kernel-generators/render.mjs": "8dd1ca6feb218d155a554846882b6d404f5d85ca509686dc2147ea690c23ad7e",
+    "workflow/checks/three-kernel-generators/run_checks.py": "76e95187e446e241843d08e5927200acb52e48c299f6e6113b013e5f7785d437",
+    "workflow/checks/three-kernel-generators/run_maple.py": "e3f589f24b7501463b5549832f8dc1d4beff67d404dba148a04e8f373d3661b4",
+    "workflow/checks/three-kernel-generators/run_weighted.py": "c334906eeba393e8bd581eb7533cee77e9df7fb78dbc8abb62c543498ef4ed0e",
+    "workflow/checks/three-kernel-generators/update_navigation.py": "764930c294e91798ff4c6bb46a05ab94891c1fff8e4b24f243f7568804b7ffcb",
+    "workflow/checks/three-kernel-generators/baseline/benchmarks__2ne__README.md": "b50bee214b9aabbe929b16417bf328b2af6c1a7c0ef4382472d363e9290d8ab6",
+    "workflow/checks/three-kernel-generators/baseline/benchmarks__2ne__theory__generation__README.md": "734fe482482294587d02edcdb917ca99dd6c3b16ddacf80b09e7b9093809a3b8",
+    "workflow/checks/three-kernel-generators/baseline/README.md": "299b86cc39e12408f9875e71063b3349681a722e2346f1876e05139c46bef119",
+    "workflow/checks/three-kernel-generators/baseline/workflow__master-plan.md": "33f11d85fd203e78872e88d9768c6fb32b06b9435042dcf037796781a2b2eda7",
+    "workflow/checks/three-kernel-generators/runs/20260928T022247408074Z/compute.mpl": "221137149eb413d64fb0a0fd35b473a4ce19f467e8df816140c97edf21fa0077",
+    "workflow/checks/three-kernel-generators/runs/20260928T022247408074Z/maple.log": "707f94465e4efa4eb6fc074d56e3aba79356299c007d113d5fc8a32381e67183",
+    "workflow/checks/three-kernel-generators/runs/20260928T022247408074Z/provenance.json": "217b7c74629805fedce99d77e9dd926875fcac87b2150778de53ea161ccd9eae",
+    "workflow/checks/three-kernel-generators/runs/20260928T022247408074Z/status.json": "a33c56bf3e65a0b07669e45640f397a77710f4cb85642728b02e854826fc3459",
+    "workflow/checks/three-kernel-generators/runs/20260928T023527459619Z/compute_weighted.mpl": "c135a31791373af7e2654020e7c62e05ff188768a4f7b428cd43896354702cdc",
+    "workflow/checks/three-kernel-generators/runs/20260928T023527459619Z/maple.log": "77ddbf2ec9173e735a3c9c1f32a55c5cfd082ea129f98eb34f36bbce5c487bdf",
+    "workflow/checks/three-kernel-generators/runs/20260928T023527459619Z/provenance.json": "a8e30b7ec35bc9ec94a64a1e19c0eb8833907fa3ab27d47008dd5328d27d955e",
+    "workflow/checks/three-kernel-generators/runs/20260928T023527459619Z/status.json": "a33c56bf3e65a0b07669e45640f397a77710f4cb85642728b02e854826fc3459",
+    "benchmarks/2ne/theory/generation/three-kernel-generators.md": "60208e80ff5c41ac034d4908eb14b3cc86b98362bdaa5912ecf1f93512e83b40"
+  },
+  "formal": "not_run",
+  "new_329_position_coverage": 0,
+  "cumulative_coverage": 35
+}

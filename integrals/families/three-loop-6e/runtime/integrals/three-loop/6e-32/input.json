@@ -1,0 +1,171 @@
+{
+  "orbit_id": "6e-32",
+  "family": "double-opposite",
+  "source_bindings": {
+    "graph": {
+      "path": "inputs/source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+      "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+      "json_pointer": "/orbits/141",
+      "field_sha256": "a319f8ec1676b49f8a243aae8053ba585ea8a5f753643b758c9fddf84a9ffc27"
+    },
+    "native_raw": {
+      "path": "inputs/source/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/6e/montopar-initial.json",
+      "sha256": "b67f8617d1f6badb1ea5cc26863be782086205240cb89eb2082dd989451b30e7",
+      "json_pointer": "/orbits/31",
+      "field_sha256": "6965c3f9d1d287a61adf3c61e4195587812e3f70a7aad4ba8fbbb2504b8b8669"
+    },
+    "ordered_original": {
+      "path": "inputs/source/snapshots/benchmarks/2ne/sources/montopar-ordered/6e/montopar-initial.json",
+      "sha256": "890858f4429fa39bcf4e7f2de9afbf847193a1a6dc2b377250b9d75f9603475b",
+      "json_pointer": "/orbits/31",
+      "field_sha256": "834ea5166ce074cd50e9d38c48dda798e4a5fa13bca9b74fd2540ce779c7fc43"
+    },
+    "native_prepared": {
+      "path": "inputs/source/native-prepared-6e.json",
+      "sha256": "0b4f6dfb4586a58fafe155651fc39893d80f0ea303abb18eac88fa6c918dcec4",
+      "json_pointer": "/orbits/31",
+      "field_sha256": "92711924faae415be06a27fc3333b5674e5112588e76ae519d4232e5bf11e06f"
+    }
+  },
+  "historical_derivations": [
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/double-opposite/README.md",
+      "sha256": "f94ddeff2b2d403a7405be0f14c259a5e2444dbd62d803353b52077ae247b9ce"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/double-opposite/method.md",
+      "sha256": "0beaf5ea06621cf03f1d32744059acf4a8d11dfda7d3b8e9d10a64df9cb046c0"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/double-opposite/three-loop.md",
+      "sha256": "3464c4eab5bf189455de17e5875c8cbe826f20c0a80cca07cd5346b558ac1d82"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/workspaces/6e-32/derivation.md",
+      "sha256": "4429ddb1bd2b2aff9b9904b63c64f6c3f6d5d8d3a5d589887f9e8a8ac3af3999"
+    },
+    {
+      "path": "evidence/historical/workflow/checks/double-opposite/runs/20260916T110141611811Z/6e-32-derivation.md",
+      "sha256": "4429ddb1bd2b2aff9b9904b63c64f6c3f6d5d8d3a5d589887f9e8a8ac3af3999"
+    }
+  ],
+  "original_evaluation_route": {
+    "note": "Original endpoint integration factorizes two opposite channels into H0/H1 products; finite coefficients reuse explicitly bound H0/H1 q=0..2 and M moments. Historical solve does not run fresh HyperInt.",
+    "required_historical_mothers": [
+      "H0(q=0..2)",
+      "H1(q=0..2)",
+      "M01/M11/M21"
+    ],
+    "orbit_specific_reduction": {
+      "r": 1,
+      "P": 2,
+      "chains": [
+        {
+          "variables_low_to_high": [
+            "s11"
+          ],
+          "word": "O",
+          "opposite_endpoint": "s11",
+          "before": "",
+          "after": "",
+          "normalized_weight": "1"
+        },
+        {
+          "variables_low_to_high": [
+            "s21"
+          ],
+          "word": "O",
+          "opposite_endpoint": "s21",
+          "before": "",
+          "after": "",
+          "normalized_weight": "1"
+        },
+        {
+          "variables_low_to_high": [
+            "s31",
+            "s32"
+          ],
+          "word": "OB",
+          "opposite_endpoint": "s31",
+          "before": "",
+          "after": "B",
+          "normalized_weight": "b"
+        },
+        {
+          "variables_low_to_high": [
+            "s41",
+            "s42"
+          ],
+          "word": "OA",
+          "opposite_endpoint": "s41",
+          "before": "",
+          "after": "A",
+          "normalized_weight": "1 - a"
+        }
+      ],
+      "opposites": [
+        {
+          "id": "f1",
+          "variables": [
+            "s11",
+            "s31"
+          ],
+          "inverted": true,
+          "residual": "0",
+          "unreflected_weight": "b1",
+          "reflected_weight": "a1",
+          "normalized_moment": "H1"
+        },
+        {
+          "id": "f2",
+          "variables": [
+            "s21",
+            "s41"
+          ],
+          "inverted": false,
+          "residual": "0",
+          "unreflected_weight": "1 - a1",
+          "reflected_weight": "1 - a1",
+          "normalized_moment": "H0 - H1"
+        }
+      ],
+      "shape": "H0*H1 - H1**2",
+      "delta": "1/2"
+    },
+    "derivation_headings_read": [
+      "6e-32：[1,1] 族 I 的 Laurent 解析解",
+      "1. 输入、域与目标",
+      "2. 完整结果",
+      "3. 原始 J 与分组依据",
+      "4. 反向核与 C/I",
+      "5. 全部 Laurent 系数（M 主表示）",
+      "6. tau 对照",
+      "7. 检查、复用和剩余范围"
+    ]
+  },
+  "relationship": {
+    "kind": "own_orbit_shared_family_method",
+    "scope": "complete physical I under the documented positive-real-z normalization and convergence/continuation domain",
+    "representative": "6e-32",
+    "factor": "1",
+    "evidence": [
+      {
+        "path": "benchmarks/2ne/families/double-opposite/three-loop.md",
+        "sha256": "3464c4eab5bf189455de17e5875c8cbe826f20c0a80cca07cd5346b558ac1d82",
+        "locator": "own original-kernel derivation"
+      },
+      {
+        "path": "benchmarks/2ne/workspaces/6e-32/derivation.md",
+        "sha256": "4429ddb1bd2b2aff9b9904b63c64f6c3f6d5d8d3a5d589887f9e8a8ac3af3999"
+      }
+    ],
+    "J_status": "No equality/proportionality of the original J is inferred from a physical-I relation.",
+    "proof_status": "existing analytic derivation with computational checks; not a new formal proof"
+  },
+  "reference": {
+    "path": "benchmarks/2ne/results/6e-32/r001.json",
+    "sha256": "83678a09df60f62accc92daab20fc3aa8706d060f8d4cd7c18870c0682456320"
+  },
+  "reference_read_during_staging": false,
+  "P1_reuse": false
+}

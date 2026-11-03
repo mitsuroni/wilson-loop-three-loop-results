@@ -1,0 +1,101 @@
+{
+  "orbit_id": "3e-3g-03",
+  "runtime_base": "../../../families/low-loop-runtime",
+  "family_source_manifest": "integrals/two-loop/source-manifest.json",
+  "accepted_result": {
+    "path": "integrals/two-loop/3e-3g-03/result.json",
+    "sha256": "853c88ae1da64e42c27ec0f933a85a75c141eac4b8b1f36672b59f7e9e852f31"
+  },
+  "scope": "Object roles are separate: original initial roots are bound by ../input.json, adopted subintegrals and whole-I inputs are labelled here, comparison targets are not generation inputs. A batch may load additional moment files needed by its other members.",
+  "path_base": "All paths in adopted_primitives, assembly_code and comparison_targets are relative to runtime_base.",
+  "adopted_primitives": [
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "object": "M_{0,1} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "object": "M_{1,1} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+      "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "object": "M_{2,1} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt",
+      "sha256": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+      "object": "M_{0,3} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt",
+      "sha256": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+      "object": "M_{3,1} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt",
+      "sha256": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+      "object": "M_{1,3} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_4_1.txt",
+      "sha256": "661bde1122a75bba0884f4e0251a1ff0e5be3b6897b89c2dd251793b45944624",
+      "object": "M_{4,1} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_3.txt",
+      "sha256": "4c217930ee68940afc732b722f77297b342ef7b2c444e713ba1c52ffbd8a5612",
+      "object": "M_{2,3} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_5.txt",
+      "sha256": "28e4f12e67372785789afc9a3164e3f6627d6452db4fc3deb1e229962c0a0674",
+      "object": "M_{0,5} exact HLOG coordinates",
+      "role": "Adopted evaluated moment dictionary; the kernel, branch and finite moment budget are stated in the derivation."
+    }
+  ],
+  "assembly_code": [
+    {
+      "path": "integrals/two-loop/family_engines.py",
+      "sha256": "6ac28b4ba47605f196451d3a8096e73dbe8b7fe762f9d8bb09d8b28e7041ee51",
+      "object": "reconstruct",
+      "role": "Expand declared evaluated mother functions and Gamma/cosh factors. TGV04 instead adopts assembled I coefficients."
+    },
+    {
+      "path": "integrals/two-loop/reproduce.py",
+      "sha256": "dda41520957f2decbcc6b94ada7c87908dd558efdf4e6eccd62dd43f025a4d6f",
+      "object": "main; exact HLOG comparison",
+      "role": "Generate or adopt the stated coefficients, then compare exact representations and previous reports."
+    },
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/single-opposite/hlog_algebra.py",
+      "sha256": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+      "object": "exact rational shuffle algebra",
+      "role": "Function-coordinate arithmetic; not a new parameter integration."
+    }
+  ],
+  "comparison_targets": [
+    {
+      "path": "integrals/two-loop/sources/workflow/checks/two-loop-report-20261015/tgv-data.json",
+      "sha256": "f0a6fe19a6d8a535bd525086dc553474f4d240aef2d7f31124db9e61681cd8f9",
+      "object": "previous family coefficient report",
+      "role": "Post-generation or post-adoption comparison only."
+    },
+    {
+      "path": "integrals/two-loop/sources/benchmarks/tgv/3e-3g/results/3e-3g-03/r001.json",
+      "sha256": "211e6f4310d0d2b24cf9154d77a5d113467efa0ac61dafe25cbeaf9b0aad27b8",
+      "object": "canonical complete I",
+      "role": "Accepted whole-I target, separate from primitive data."
+    }
+  ]
+}

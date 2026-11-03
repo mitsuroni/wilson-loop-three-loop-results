@@ -1,18 +1,21 @@
-# 2e-01: the adjacent one-loop exchange
+# 2e-01: Adjacent exchange (3,4)
 
-The representative joins edges3 and4. Its four cyclic images are the four
-adjacent edge pairs of the null quadrilateral. The original ordered kernel
-factorizes into two endpoint integrals and gives a double epsilon pole.
+The object is the complete normalized physical I, including its recorded cyclic
+orbit and one Euler compensation. Work at fixed real z>0 and D=4-2epsilon;
+the inherited source i0 is retained. Target: epsilon^-2 through epsilon³; O(epsilon⁴).
 
-- [Continuous derivation](derivation.md): momentum/path contribution,
-  raw/prepared C/J, actual parameter integration and the physical I map.
-- [Input and source index](input.json): complete frozen-source file and
-  field hashes, preserved order and normalization.
-- [All-epsilon expression and Laurent coefficients through epsilon3](result.json).
-- [Fresh source, symbolic and numerical checks](checks.json).
-- [Reproduction commands and scope](reproduce.md).
+Two convergent cusp endpoint primitives give J=z^epsilon/epsilon². The C/J and crossing bridge gives I=-Z/epsilon²; the Gamma jet is required through5.
 
-The result is I=-exp(-EulerGamma epsilon)Gamma(1-epsilon)/epsilon².
-It already includes m=4, crossing and one Euler compensation. CF, lambda and
-the common S1 scale factor are removed. Nothing is reconstructed by fitting
-the finite term to an RG equation.
+Read [derivation](derivation.md) from the original momentum/parameter source
+to the complete Laurent table, then [reproduction](reproduce.md) and
+[validation](validation.md). The stable [input](input.json), [result](result.json),
+[data index](data/index.json) and [check index](checks/index.json) distinguish
+source facts, adopted evaluated functions and current checks.
+
+No unresolved parameter subintegral. The Fourier propagator is accepted upstream physics; the current derivation is not a formal QFT proof.
+
+The text now provides a continuous mathematical chain using declared adopted
+lemmas. Implementation, replay, mathematical controls and public release are
+separate acceptance dimensions; document existence alone does not close them.
+The new trial run is reported in validation rather than inferred from historical
+passed flags. This local reading-layer trial has not been uploaded automatically.

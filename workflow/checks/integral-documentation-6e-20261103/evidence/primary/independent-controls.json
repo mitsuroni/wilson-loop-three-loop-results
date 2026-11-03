@@ -1,0 +1,614 @@
+{
+  "format": "wilson-six-route-independent-controls/1",
+  "inputs": {
+    "ordered_6e": {
+      "path": "D:\\wilson-agent\\integrals\\families\\three-loop-6e\\runtime\\engine\\benchmarks\\2ne\\prepared\\6e.json",
+      "sha256": "9699532d1ee3a4027c2eb93c961a5b467a9bceda229c0204c13775cfa2451406"
+    },
+    "frozen_candidates": {
+      "path": "D:\\wilson-agent\\workflow\\checks\\integral-documentation-6e-20261103\\runs\\primary-r001\\generation\\generated.json",
+      "sha256": "a3171da3c51dcd8a8f81a4755b1eab07f55b4680f17761cd25d4ad5babde0751"
+    }
+  },
+  "source_checks": [
+    {
+      "integral_id": "6e-01",
+      "kappa": "-1/8",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-02",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-03",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-04",
+      "kappa": "-1/8",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-05",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-06",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-07",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-08",
+      "kappa": "-1/8",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-09",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-10",
+      "kappa": "-1/8",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-11",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-12",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-13",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-14",
+      "kappa": "-1/8",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-15",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-16",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-17",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-18",
+      "kappa": "-1/8",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-19",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-20",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-21",
+      "kappa": "-1/32",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-22",
+      "kappa": "-1/32",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-23",
+      "kappa": "-1/8",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-24",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-25",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-26",
+      "kappa": "-1/8",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-27",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-28",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-29",
+      "kappa": "-1/8",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-30",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-31",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-32",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-33",
+      "kappa": "-1/8",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-34",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-35",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-36",
+      "kappa": "-1/32",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-37",
+      "kappa": "-1/16",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-38",
+      "kappa": "-1/32",
+      "passed": true
+    },
+    {
+      "integral_id": "6e-39",
+      "kappa": "-1/32",
+      "passed": true
+    }
+  ],
+  "representative_polynomial_controls": [
+    {
+      "integral_id": "6e-01",
+      "kappa": "-1/8",
+      "method": "Original iterated polynomial antiderivatives versus independently derived triangular cube map and product monomial moments.",
+      "jacobian": "x1**2*x2**2*x3*x4",
+      "polynomial_controls": [
+        {
+          "epsilon": 1,
+          "z": "symbolic positive z1",
+          "exact_J": "z1**3/36",
+          "residual": "0",
+          "cube_monomials": 1,
+          "passed": true
+        },
+        {
+          "epsilon": 2,
+          "z": "symbolic positive z1",
+          "exact_J": "z1**6/2304",
+          "residual": "0",
+          "cube_monomials": 8,
+          "passed": true
+        }
+      ],
+      "scope": "At eps=1,2 only. Verifies source/domain/Jacobian manipulation; does not determine Laurent finite coefficients."
+    },
+    {
+      "integral_id": "6e-04",
+      "kappa": "-1/8",
+      "method": "Original iterated polynomial antiderivatives versus independently derived triangular cube map and product monomial moments.",
+      "jacobian": "x2*x3**2*x5",
+      "polynomial_controls": [
+        {
+          "epsilon": 1,
+          "z": "symbolic positive z1",
+          "exact_J": "-z1**3/12 - z1**2/12",
+          "residual": "0",
+          "cube_monomials": 1,
+          "passed": true
+        },
+        {
+          "epsilon": 2,
+          "z": "symbolic positive z1",
+          "exact_J": "-z1**6/768 - z1**5/240 - 11*z1**4/3840",
+          "residual": "0",
+          "cube_monomials": 16,
+          "passed": true
+        }
+      ],
+      "scope": "At eps=1,2 only. Verifies source/domain/Jacobian manipulation; does not determine Laurent finite coefficients."
+    },
+    {
+      "integral_id": "6e-10",
+      "kappa": "-1/8",
+      "method": "Original iterated polynomial antiderivatives versus independently derived triangular cube map and product monomial moments.",
+      "jacobian": "x1*x3**2*x5",
+      "polynomial_controls": [
+        {
+          "epsilon": 1,
+          "z": "symbolic positive z1",
+          "exact_J": "z1**3/12 + z1**2/6 + z1/12",
+          "residual": "0",
+          "cube_monomials": 1,
+          "passed": true
+        },
+        {
+          "epsilon": 2,
+          "z": "symbolic positive z1",
+          "exact_J": "z1**6/768 + 11*z1**5/1440 + 41*z1**4/2880 + 31*z1**3/2880 + 11*z1**2/3840",
+          "residual": "0",
+          "cube_monomials": 32,
+          "passed": true
+        }
+      ],
+      "scope": "At eps=1,2 only. Verifies source/domain/Jacobian manipulation; does not determine Laurent finite coefficients."
+    },
+    {
+      "integral_id": "6e-20",
+      "kappa": "-1/16",
+      "method": "Original iterated polynomial antiderivatives versus independently derived triangular cube map and product monomial moments.",
+      "jacobian": "x1**2*x2**2*x3*x4",
+      "polynomial_controls": [
+        {
+          "epsilon": 1,
+          "z": "symbolic positive z1",
+          "exact_J": "-z1**3/36 - z1**2/12 - z1/12 - 1/36",
+          "residual": "0",
+          "cube_monomials": 1,
+          "passed": true
+        },
+        {
+          "epsilon": 2,
+          "z": "symbolic positive z1",
+          "exact_J": "-z1**6/2304 - 103*z1**5/28800 - 599*z1**4/57600 - 209*z1**3/14400 - 599*z1**2/57600 - 103*z1/28800 - 1/2304",
+          "residual": "0",
+          "cube_monomials": 64,
+          "passed": true
+        }
+      ],
+      "scope": "At eps=1,2 only. Verifies source/domain/Jacobian manipulation; does not determine Laurent finite coefficients."
+    },
+    {
+      "integral_id": "6e-32",
+      "kappa": "-1/16",
+      "method": "Original iterated polynomial antiderivatives versus independently derived triangular cube map and product monomial moments.",
+      "jacobian": "x3*x4",
+      "polynomial_controls": [
+        {
+          "epsilon": 1,
+          "z": "symbolic positive z1",
+          "exact_J": "z1**3/4 + z1**2/2 + z1/4",
+          "residual": "0",
+          "cube_monomials": 1,
+          "passed": true
+        },
+        {
+          "epsilon": 2,
+          "z": "symbolic positive z1",
+          "exact_J": "z1**6/256 + z1**5/64 + 25*z1**4/1152 + 7*z1**3/576 + 5*z1**2/2304",
+          "residual": "0",
+          "cube_monomials": 32,
+          "passed": true
+        }
+      ],
+      "scope": "At eps=1,2 only. Verifies source/domain/Jacobian manipulation; does not determine Laurent finite coefficients."
+    },
+    {
+      "integral_id": "6e-37",
+      "kappa": "-1/16",
+      "method": "Original iterated polynomial antiderivatives versus independently derived triangular cube map and product monomial moments.",
+      "jacobian": "x3*x4",
+      "polynomial_controls": [
+        {
+          "epsilon": 1,
+          "z": "symbolic positive z1",
+          "exact_J": "-z1**3/4 - 3*z1**2/4 - 3*z1/4 - 1/4",
+          "residual": "0",
+          "cube_monomials": 1,
+          "passed": true
+        },
+        {
+          "epsilon": 2,
+          "z": "symbolic positive z1",
+          "exact_J": "-z1**6/256 - 31*z1**5/1152 - 167*z1**4/2304 - 19*z1**3/192 - 167*z1**2/2304 - 31*z1/1152 - 1/256",
+          "residual": "0",
+          "cube_monomials": 64,
+          "passed": true
+        }
+      ],
+      "scope": "At eps=1,2 only. Verifies source/domain/Jacobian manipulation; does not determine Laurent finite coefficients."
+    },
+    {
+      "integral_id": "6e-38",
+      "kappa": "-1/32",
+      "method": "Original iterated polynomial antiderivatives versus independently derived triangular cube map and product monomial moments.",
+      "jacobian": "x3*x4",
+      "polynomial_controls": [
+        {
+          "epsilon": 1,
+          "z": "symbolic positive z1",
+          "exact_J": "-z1**3/4 - 3*z1**2/4 - 3*z1/4 - 1/4",
+          "residual": "0",
+          "cube_monomials": 1,
+          "passed": true
+        },
+        {
+          "epsilon": 2,
+          "z": "symbolic positive z1",
+          "exact_J": "-z1**6/256 - 23*z1**5/1152 - 103*z1**4/2304 - 11*z1**3/192 - 103*z1**2/2304 - 23*z1/1152 - 1/256",
+          "residual": "0",
+          "cube_monomials": 64,
+          "passed": true
+        }
+      ],
+      "scope": "At eps=1,2 only. Verifies source/domain/Jacobian manipulation; does not determine Laurent finite coefficients."
+    }
+  ],
+  "independent_hlog_sanity": [
+    {
+      "word": [
+        -1
+      ],
+      "residual": "7.6132035e-42"
+    },
+    {
+      "word": [
+        0
+      ],
+      "residual": "0.0"
+    },
+    {
+      "word": [
+        0,
+        -1
+      ],
+      "residual": "5.9168393e-44"
+    }
+  ],
+  "finite_original_domain_controls": [
+    {
+      "integral_id": "6e-20",
+      "epsilon": 0,
+      "z": "0.5",
+      "samples_per_shift": 16384,
+      "shifts": 8,
+      "shift_estimates": [
+        0.10345591668923211,
+        0.10324664073215886,
+        0.10298387405192608,
+        0.10285366137851497,
+        0.10273884654793865,
+        0.10293609954522906,
+        0.10337958008587274,
+        0.10383422110086939
+      ],
+      "original_domain_estimate": 0.10317860501646774,
+      "candidate_c0": 0.10335963902772914,
+      "absolute_residual": 0.00018103401126140506,
+      "empirical_standard_error": 0.0001300727119270028,
+      "acceptance_tolerance": 0.0012972344667006625,
+      "passed": true,
+      "scope": "Fresh original six-dimensional ordered source, both reciprocal z channels, physical kappa/2; empirical randomized Halton control, no strict enclosure."
+    },
+    {
+      "integral_id": "6e-21",
+      "epsilon": 0,
+      "z": "0.5",
+      "samples_per_shift": 16384,
+      "shifts": 8,
+      "shift_estimates": [
+        0.06880332657494015,
+        0.06856270555291374,
+        0.0692352012973495,
+        0.0683176694581506,
+        0.06869314591976425,
+        0.06898717215351285,
+        0.06858132163633145,
+        0.06874475400317075
+      ],
+      "original_domain_estimate": 0.06874066207451666,
+      "candidate_c0": 0.06862577146050587,
+      "absolute_residual": 0.00011489061401079304,
+      "empirical_standard_error": 9.887928090290052e-05,
+      "acceptance_tolerance": 0.0009364045427199325,
+      "passed": true,
+      "scope": "Fresh original six-dimensional ordered source, both reciprocal z channels, physical kappa/2; empirical randomized Halton control, no strict enclosure."
+    },
+    {
+      "integral_id": "6e-22",
+      "epsilon": 0,
+      "z": "0.5",
+      "samples_per_shift": 16384,
+      "shifts": 8,
+      "shift_estimates": [
+        0.0695929479931887,
+        0.07018408499949591,
+        0.06812860163340656,
+        0.06902595001711344,
+        0.06815000109846654,
+        0.06883435825431439,
+        0.06851489533338682,
+        0.06927334882709982
+      ],
+      "original_domain_estimate": 0.06896302351955902,
+      "candidate_c0": 0.06862577146050587,
+      "absolute_residual": 0.0003372520590531475,
+      "empirical_standard_error": 0.00025222922128314906,
+      "acceptance_tolerance": 0.0018565041850014238,
+      "passed": true,
+      "scope": "Fresh original six-dimensional ordered source, both reciprocal z channels, physical kappa/2; empirical randomized Halton control, no strict enclosure."
+    },
+    {
+      "integral_id": "6e-37",
+      "epsilon": 0,
+      "z": "0.5",
+      "samples_per_shift": 16384,
+      "shifts": 8,
+      "shift_estimates": [
+        1.439272039651941,
+        1.4311878781929448,
+        1.434347456854116,
+        1.4638268786164728,
+        1.4418147486683839,
+        1.4567484055063744,
+        1.4500502646960558,
+        1.4353062976666369
+      ],
+      "original_domain_estimate": 1.4440692462316156,
+      "candidate_c0": 1.4436670916924454,
+      "absolute_residual": 0.0004021545391701409,
+      "empirical_standard_error": 0.004123594453770069,
+      "acceptance_tolerance": 0.03195990218108264,
+      "passed": true,
+      "scope": "Fresh original six-dimensional ordered source, both reciprocal z channels, physical kappa/2; empirical randomized Halton control, no strict enclosure."
+    },
+    {
+      "integral_id": "6e-38",
+      "epsilon": 0,
+      "z": "0.5",
+      "samples_per_shift": 16384,
+      "shifts": 8,
+      "shift_estimates": [
+        1.4216288809687394,
+        1.4396444562739912,
+        1.4859358171135417,
+        1.4426352278215913,
+        1.3941036912767903,
+        1.4365920124415081,
+        1.4328697178680492,
+        1.4344697060116418
+      ],
+      "original_domain_estimate": 1.4359849387219816,
+      "candidate_c0": 1.4436670916924454,
+      "absolute_residual": 0.007682152970463818,
+      "empirical_standard_error": 0.00898929225853722,
+      "acceptance_tolerance": 0.061154089009685546,
+      "passed": true,
+      "scope": "Fresh original six-dimensional ordered source, both reciprocal z channels, physical kappa/2; empirical randomized Halton control, no strict enclosure."
+    }
+  ],
+  "negative_controls": [
+    {
+      "case": "unavailable dependent bound after illegal order change",
+      "rejected": true
+    },
+    {
+      "case": "duplicated Euler normalization",
+      "rejected": true
+    },
+    {
+      "case": "wrong projected color",
+      "rejected": true
+    },
+    {
+      "case": "finite-domain integration incorrectly applied to pole source",
+      "rejected": true
+    },
+    {
+      "case": "dropped ordered upper bound",
+      "rejected": true
+    },
+    {
+      "case": "promoting 37/38 finite equality to an all-epsilon equality",
+      "rejected": true
+    }
+  ],
+  "coverage": [
+    {
+      "family": "empty",
+      "polynomial_representative": "6e-01",
+      "source_normalization_scope": "all members individually checked",
+      "finite_original_domain_control": "not run; polynomial controls do not validate finite terms"
+    },
+    {
+      "family": "single-opposite",
+      "polynomial_representative": "6e-04",
+      "source_normalization_scope": "all members individually checked",
+      "finite_original_domain_control": "not run; polynomial controls do not validate finite terms"
+    },
+    {
+      "family": "same-channel-two",
+      "polynomial_representative": "6e-10",
+      "source_normalization_scope": "all members individually checked",
+      "finite_original_domain_control": "not run; polynomial controls do not validate finite terms"
+    },
+    {
+      "family": "same-channel-three",
+      "polynomial_representative": "6e-20",
+      "source_normalization_scope": "all members individually checked",
+      "finite_original_domain_control": "all three members"
+    },
+    {
+      "family": "double-opposite",
+      "polynomial_representative": "6e-32",
+      "source_normalization_scope": "all members individually checked",
+      "finite_original_domain_control": "not run; polynomial controls do not validate finite terms"
+    },
+    {
+      "family": "mixed-opposite",
+      "polynomial_representative": "6e-37",
+      "source_normalization_scope": "all members individually checked",
+      "finite_original_domain_control": "both members"
+    }
+  ],
+  "finite_alias_scope_control": {
+    "pair": [
+      "6e-37",
+      "6e-38"
+    ],
+    "epsilon": 2,
+    "z": "1/2",
+    "I_over_G_cubed_difference": "1161/266240",
+    "scope": "Nonzero exact rational difference excludes an all-epsilon alias; no Gamma pole evaluation is performed."
+  },
+  "passed": true,
+  "elapsed_seconds": 8.438000000023749,
+  "formal_state": "not_run",
+  "limitations": [
+    "No new analytic CAS integration is claimed.",
+    "Positive integer epsilon source identities do not determine Laurent finite coefficients.",
+    "Original-domain finite controls apply only to holomorphic all-opposite roots.",
+    "QMC standard errors and HLOG truncation errors are empirical, not strict intervals.",
+    "A representative structural check is not an independent finite check for every member."
+  ]
+}

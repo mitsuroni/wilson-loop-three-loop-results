@@ -1,0 +1,1119 @@
+{
+  "format": "wilson-computational-result/1",
+  "family": "[3]",
+  "orbit_id": "6e-22",
+  "revision": "r001",
+  "input": {
+    "manifest": "benchmarks/2ne/prepared/manifest.json",
+    "manifest_sha256": "0e9e55dad06bb5adb185689bdf03ea11f7b0c32386a9020fd2b2041fac1ac22c",
+    "package": "benchmarks/2ne/prepared/6e.json",
+    "package_sha256": "9699532d1ee3a4027c2eb93c961a5b467a9bceda229c0204c13775cfa2451406",
+    "orbit_sha256": "ad553d91284c0aa3ee166e2e1c498de208dd5ad6740f881f3361812d31da569d",
+    "normalization_version": "ordered-parameters+fixed-loop-color-a1+per-loop-euler-compensation/0.3"
+  },
+  "domain": {
+    "J": "z>0, Re(eps)>-1",
+    "I": "z>0, real 0<eps<1; holomorphic near eps=0",
+    "complex_z_i0": "not_analyzed"
+  },
+  "normalization": {
+    "n": 3,
+    "a1": "1/4",
+    "sym": 2,
+    "kappa": "-1/32",
+    "Euler": "already compensated exactly once"
+  },
+  "reduction": {
+    "permutation": [
+      2,
+      1,
+      3
+    ],
+    "mirror_permutation": [
+      1,
+      3,
+      2
+    ],
+    "links": [
+      {
+        "id": "f1",
+        "variables": [
+          "s21",
+          "s42"
+        ],
+        "polynomial_residual": "0"
+      },
+      {
+        "id": "f2",
+        "variables": [
+          "s22",
+          "s41"
+        ],
+        "polynomial_residual": "0"
+      },
+      {
+        "id": "f3",
+        "variables": [
+          "s23",
+          "s43"
+        ],
+        "polynomial_residual": "0"
+      }
+    ],
+    "chains": [
+      [
+        "s21",
+        "s22",
+        "s23"
+      ],
+      [
+        "s41",
+        "s42",
+        "s43"
+      ]
+    ],
+    "t_low_high": [
+      "s21",
+      "s22",
+      "s23"
+    ],
+    "s_low_high": [
+      "s41",
+      "s42",
+      "s43"
+    ],
+    "a1": "1/4",
+    "sym": 2,
+    "kappa": "-1/32",
+    "adjacent_count": 0,
+    "J": "R213*z**(3*eps/2)",
+    "I": "-G**3*(R132 + R213)/(64*cosh(3*ell*eps/2))"
+  },
+  "J_compact": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "R213*z^((3/2)*eps)",
+    "latex": "R_{213} z^{\\frac{3 \\varepsilon}{2}}"
+  },
+  "I_compact": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "-1/64*G^3*(R132 + R213)/Cosh[(3/2)*ell*eps]",
+    "latex": "- \\frac{G^{3} \\left(R_{132} + R_{213}\\right)}{64 \\cosh{\\left(\\frac{3 \\ell \\varepsilon}{2} \\right)}}"
+  },
+  "J": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "(z^((3/2)*eps))*WilsonR3[{2, 1, 3}, eps, z]",
+    "latex": "z^{\\frac{3 \\varepsilon}{2}} \\operatorname{WilsonR}_{3}{\\left(\\left( 2, \\  1, \\  3\\right),\\varepsilon,z \\right)}"
+  },
+  "I": {
+    "language": "WolframLanguage/InputForm",
+    "expression": "-1/64*Exp[-3*EulerGamma*eps]*Gamma[1 - eps]^3/Cosh[(3/2)*eps*Log[z]]*(WilsonR3[{1, 3, 2}, eps, z] + WilsonR3[{2, 1, 3}, eps, z])",
+    "latex": "- \\frac{e^{- 3 \\gamma \\varepsilon} \\Gamma^{3}\\left(1 - \\varepsilon\\right) \\left(\\operatorname{WilsonR}_{3}{\\left(\\left( 1, \\  3, \\  2\\right),\\varepsilon,z \\right)} + \\operatorname{WilsonR}_{3}{\\left(\\left( 2, \\  1, \\  3\\right),\\varepsilon,z \\right)}\\right)}{64 \\cosh{\\left(\\frac{3 \\varepsilon \\log{\\left(z \\right)}}{2} \\right)}}"
+  },
+  "definitions": {
+    "G": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "Exp[-EulerGamma*eps]*Gamma[1 - eps]",
+      "latex": "e^{- \\gamma \\varepsilon} \\Gamma\\left(1 - \\varepsilon\\right)"
+    },
+    "ell": "Log[z]",
+    "R3": {
+      "[1, 2, 3]": {
+        "kind": "explicit_convergent_series",
+        "permutation": [
+          1,
+          2,
+          3
+        ],
+        "q": "q_z(t,s)=1-D_z(t,s)/(1+z)=(z+t+s)/(1+z)-t*s",
+        "p": "p_k(a,b;z)=Sum[k!*(-1)^h*z^(k-a-b+h)/((k-a-b+h)!*(a-h)!*(b-h)!*h!*(1+z)^(k-h)),{h,Max[0,a+b-k],Min[a,b]}]",
+        "beta": "beta_j=b_(pi^(-1)(j))",
+        "block": "B_pi(k1,k2,k3;z)=Sum[Product[p_ki(ai,bi;z),{i,1,3}]/Product[(Sum[a_j,{j,1,i}]+i)*(Sum[beta_j,{j,1,i}]+i),{i,1,3}], {a1,0,k1},{b1,0,k1},{a2,0,k2},{b2,0,k2},{a3,0,k3},{b3,0,k3}]",
+        "R": "R_pi(eps,z)=-((1+z)^2/z)^(3*eps/2)*Sum[Product[Pochhammer[1-eps,ki]/ki!,{i,1,3}]*B_pi(k1,k2,k3;z),{k1,0,Infinity},{k2,0,Infinity},{k3,0,Infinity}]",
+        "evaluation_order": "Finite polynomial block first, then the outer triple sum. Do not assume termwise absolute convergence after expanding all signed monomials.",
+        "convergence": "For fixed z>0, absolutely and locally uniformly in a neighborhood of eps=0, with |eps|<delta<1.",
+        "finite_special_function_closed_form": false,
+        "fast_numerical_evaluator_claimed": false
+      },
+      "[1, 3, 2]": {
+        "kind": "explicit_convergent_series",
+        "permutation": [
+          1,
+          3,
+          2
+        ],
+        "q": "q_z(t,s)=1-D_z(t,s)/(1+z)=(z+t+s)/(1+z)-t*s",
+        "p": "p_k(a,b;z)=Sum[k!*(-1)^h*z^(k-a-b+h)/((k-a-b+h)!*(a-h)!*(b-h)!*h!*(1+z)^(k-h)),{h,Max[0,a+b-k],Min[a,b]}]",
+        "beta": "beta_j=b_(pi^(-1)(j))",
+        "block": "B_pi(k1,k2,k3;z)=Sum[Product[p_ki(ai,bi;z),{i,1,3}]/Product[(Sum[a_j,{j,1,i}]+i)*(Sum[beta_j,{j,1,i}]+i),{i,1,3}], {a1,0,k1},{b1,0,k1},{a2,0,k2},{b2,0,k2},{a3,0,k3},{b3,0,k3}]",
+        "R": "R_pi(eps,z)=-((1+z)^2/z)^(3*eps/2)*Sum[Product[Pochhammer[1-eps,ki]/ki!,{i,1,3}]*B_pi(k1,k2,k3;z),{k1,0,Infinity},{k2,0,Infinity},{k3,0,Infinity}]",
+        "evaluation_order": "Finite polynomial block first, then the outer triple sum. Do not assume termwise absolute convergence after expanding all signed monomials.",
+        "convergence": "For fixed z>0, absolutely and locally uniformly in a neighborhood of eps=0, with |eps|<delta<1.",
+        "finite_special_function_closed_form": false,
+        "fast_numerical_evaluator_claimed": false
+      },
+      "[2, 1, 3]": {
+        "kind": "explicit_convergent_series",
+        "permutation": [
+          2,
+          1,
+          3
+        ],
+        "q": "q_z(t,s)=1-D_z(t,s)/(1+z)=(z+t+s)/(1+z)-t*s",
+        "p": "p_k(a,b;z)=Sum[k!*(-1)^h*z^(k-a-b+h)/((k-a-b+h)!*(a-h)!*(b-h)!*h!*(1+z)^(k-h)),{h,Max[0,a+b-k],Min[a,b]}]",
+        "beta": "beta_j=b_(pi^(-1)(j))",
+        "block": "B_pi(k1,k2,k3;z)=Sum[Product[p_ki(ai,bi;z),{i,1,3}]/Product[(Sum[a_j,{j,1,i}]+i)*(Sum[beta_j,{j,1,i}]+i),{i,1,3}], {a1,0,k1},{b1,0,k1},{a2,0,k2},{b2,0,k2},{a3,0,k3},{b3,0,k3}]",
+        "R": "R_pi(eps,z)=-((1+z)^2/z)^(3*eps/2)*Sum[Product[Pochhammer[1-eps,ki]/ki!,{i,1,3}]*B_pi(k1,k2,k3;z),{k1,0,Infinity},{k2,0,Infinity},{k3,0,Infinity}]",
+        "evaluation_order": "Finite polynomial block first, then the outer triple sum. Do not assume termwise absolute convergence after expanding all signed monomials.",
+        "convergence": "For fixed z>0, absolutely and locally uniformly in a neighborhood of eps=0, with |eps|<delta<1.",
+        "finite_special_function_closed_form": false,
+        "fast_numerical_evaluator_claimed": false
+      }
+    },
+    "T3": {
+      "definition": "R123(eps=0,z)",
+      "weight": 6,
+      "crossing_parity": 1,
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "word": [],
+          "zeta_powers": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": "-69/10"
+        },
+        {
+          "word": [
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            0
+          ],
+          "zeta_powers": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": "-6"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-27/10"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "4"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "12"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "4"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-6"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-6"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      "source": "workflow/checks/same-channel-three/runs/20260917T023530229510Z/R123_plus.txt"
+    },
+    "T3_M_E": {
+      "language": "WolframLanguage/InputForm",
+      "expression": "2*WilsonE2[z] - 1/2*WilsonM[0, 1, z]*WilsonM[2, 1, z] + (1/9)*Pi^2*WilsonM[0, 3, z] - 1/12*WilsonM[0, 5, z] + (1/2)*WilsonM[1, 1, z]^2",
+      "latex": "2 E - \\frac{M_{0,1} M_{2,1}}{2} + \\frac{\\pi^{2} M_{0,3}}{9} - \\frac{M_{0,5}}{12} + \\frac{M_{1,1}^{2}}{2}"
+    },
+    "E2": {
+      "definition": "eta^[2],id_(0,1;1)=Log[z]*[eps^1]Q_id;0,1^-(eps,z)",
+      "weight": 6,
+      "crossing_parity": 1,
+      "hlog_terms": [
+        {
+          "word": [
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "word": [
+            0
+          ],
+          "zeta_powers": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": "-3"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "6"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "6"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "6"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-6"
+        },
+        {
+          "word": [
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-4"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "-27/10"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "4"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "12"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "4"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-9"
+        },
+        {
+          "word": [
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-5"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-3"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            -1
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-9"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-3"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-3"
+        }
+      ],
+      "source": "workflow/checks/same-channel-two-structure/runs/20260916T140419726787Z/Q_id_0_1_1_minus.txt"
+    },
+    "M": "M(k,r,z)=Integral_0^1 log(beta*(1-beta))^k*(log(z)+log((1-beta)/beta))^r/(beta-z/(1+z)) d beta; removable internal point; z>0"
+  },
+  "function_bindings": {
+    "WilsonR3": "definitions.R3; explicit integrated triple series",
+    "WilsonT3": "definitions.T3",
+    "WilsonE2": "definitions.E2; same eta^[2],id_(0,1;1) as previous review",
+    "WilsonM": "definitions.M"
+  },
+  "laurent": {
+    "variable": "eps",
+    "from_power": -6,
+    "through_power": 0,
+    "leading_power": 0,
+    "remainder": "O(eps)",
+    "coefficients": {
+      "-6": {
+        "structural": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "M_E": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0"
+      },
+      "-5": {
+        "structural": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "M_E": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0"
+      },
+      "-4": {
+        "structural": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "M_E": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0"
+      },
+      "-3": {
+        "structural": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "M_E": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0"
+      },
+      "-2": {
+        "structural": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "M_E": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0"
+      },
+      "-1": {
+        "structural": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "M_E": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "0",
+          "latex": "0"
+        },
+        "hlog_terms": [],
+        "hlog_latex": "0"
+      },
+      "0": {
+        "structural": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "-1/1152*WilsonM[0, 1, z]^3 + (1/32)*WilsonT3[z]",
+          "latex": "- \\frac{M_{0,1}^{3}}{1152} + \\frac{T_3}{32}"
+        },
+        "M_E": {
+          "language": "WolframLanguage/InputForm",
+          "expression": "(1/16)*WilsonE2[z] - 1/1152*WilsonM[0, 1, z]^3 - 1/64*WilsonM[0, 1, z]*WilsonM[2, 1, z] + (1/288)*Pi^2*WilsonM[0, 3, z] - 1/384*WilsonM[0, 5, z] + (1/64)*WilsonM[1, 1, z]^2",
+          "latex": "\\frac{E}{16} - \\frac{M_{0,1}^{3}}{1152} - \\frac{M_{0,1} M_{2,1}}{64} + \\frac{\\pi^{2} M_{0,3}}{288} - \\frac{M_{0,5}}{384} + \\frac{M_{1,1}^{2}}{64}"
+        },
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              2,
+              0
+            ],
+            "coefficient": "1/16"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              3,
+              0,
+              0
+            ],
+            "coefficient": "-123/640"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-1/16"
+          },
+          {
+            "word": [
+              0
+            ],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-3/16"
+          },
+          {
+            "word": [
+              0,
+              0
+            ],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-39/640"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "1/8"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "3/8"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "1/8"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/16"
+          },
+          {
+            "word": [
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/16"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/16"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              -1
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-3/16"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              -1,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/16"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "1/64"
+          },
+          {
+            "word": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "3/64"
+          }
+        ],
+        "hlog_latex": "- \\frac{41 \\pi^{6}}{46080} + \\frac{\\zeta^{2}\\left(3\\right)}{16} - \\frac{\\pi^{2} \\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( 0,\\right) \\right)}}{32} - \\frac{\\zeta\\left(5\\right) \\operatorname{Hlog}{\\left(z,\\left( 0,\\right) \\right)}}{16} - \\frac{13 \\pi^{4} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0\\right) \\right)}}{7680} + \\frac{\\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  -1\\right) \\right)}}{8} - \\frac{\\zeta\\left(3\\right) \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0\\right) \\right)}}{16} + \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  -1, \\  -1\\right) \\right)}}{16} - \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  -1, \\  0\\right) \\right)}}{32} - \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0, \\  -1\\right) \\right)}}{32} + \\frac{\\pi^{2} \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0, \\  0\\right) \\right)}}{384} + \\frac{\\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  -1, \\  -1, \\  0, \\  0\\right) \\right)}}{8} - \\frac{\\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  -1, \\  0, \\  0, \\  0\\right) \\right)}}{16} - \\frac{\\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0, \\  -1, \\  0, \\  0\\right) \\right)}}{16} + \\frac{3 \\operatorname{Hlog}{\\left(z,\\left( 0, \\  0, \\  0, \\  0, \\  0, \\  0\\right) \\right)}}{64}"
+      }
+    }
+  },
+  "status": {
+    "analytic": "derived_exact",
+    "checks": "passed",
+    "formal": "not_run"
+  },
+  "derivation": "benchmarks/2ne/workspaces/6e-22/derivation.md",
+  "evidence": {
+    "checks": "workflow/checks/same-channel-three/runs/20260917T024056933831Z/checks.json",
+    "checks_sha256": "ae8f966ed98b6537d3f877185429a8da9c7679ce4ab302e375eb6fe8d5ceaac3",
+    "mother_run": "workflow/checks/same-channel-three/runs/20260917T023530229510Z",
+    "dependencies": {
+      "benchmarks/2ne/families/same-channel-three/basis-functions.json": "3b38fad59d8538f6198e7374ad946456c4defdac56584cc06ed777bccb93b629",
+      "benchmarks/2ne/families/same-channel-three/basis-functions.md": "a4a45fcdecd980482dc074bf8aa898ec7cbb0d164a4482a0120714d241498b44",
+      "benchmarks/2ne/families/same-channel-three/method.md": "a9a27ebfb09b02e9ea16e26648a7ebfded3a2eb6e5160c79ca149df2b7b17b2d",
+      "benchmarks/2ne/families/same-channel-three/result.schema.json": "5163dd4550f9ac9c30319aab8afbe0c8801d5348c04abc34bd2614790f8915a1",
+      "preprocessing/__init__.py": "f99bac4251bba3881e66a3032dffebbd6a666913dea75e6ba26ac45baee1920c",
+      "preprocessing/ordered.py": "67bebf72c4350ff886a8007932644afa53deae4fefd5f51f1c6b9c5664b2ccec",
+      "workflow/checks/empty-family/empty_math.py": "c844a76f2eb7a1591d7cccd732821be488890d1196704ca397dce6eb0cd49373",
+      "workflow/checks/empty-family/setup_workspaces.py": "f1331140c5f07a197b4a96ca021342d77a3f5cb9a901647c145a712c5166bc1e",
+      "workflow/checks/same-channel-three/check_extension.py": "c1b0a376906acfab401809d56ea73a0bb6377f5d9b026b40e8426d9eb90db78b",
+      "workflow/checks/same-channel-three/check_three.py": "02f62932a2396e4c65ef1a3bd2e20c62c66d9429ae2781c6a153fabfd82e7e24",
+      "workflow/checks/same-channel-three/compact_extension.py": "43284144911917170415be01b05d5cc70ee543d64f14e507e3755d0a75a7695b",
+      "workflow/checks/same-channel-three/compute_coefficients.mpl": "213f8663420eb9a9001365908e92e2eadbfca337c9a21adfd2e53297e6da2f5c",
+      "workflow/checks/same-channel-three/full_series.py": "5db89ebc5f81b8455f2d595e16b8ac06b5d40b12303bb4d5613b883c1da9b200",
+      "workflow/checks/same-channel-three/publish.py": "35fc323b7b787c175366916f9569f30d704db4832b8f5528a7701326844e151f",
+      "workflow/checks/same-channel-three/reduce_three.py": "02a75e9b9251ce5094b9ec55b20e89f956de01aa837321f3c22d69bad81af083",
+      "workflow/checks/same-channel-three/representations.py": "3e0679892dedae8321facbc40e2ed6ab3def8cfc9251bb6dce07119cecc1ae45",
+      "workflow/checks/same-channel-three/run_maple.py": "4a4d54ecd92c09a4ff1443a9f45520eea76ac16daa729f438851b2e591c11b54",
+      "workflow/checks/same-channel-three/runs/20260917T023530229510Z/compact-extension.json": "edcd46db1d643b07a71fcc23af99f55a98aff1dfc51e1fae3b1a4e5a1d691a10",
+      "workflow/checks/same-channel-three/runs/20260917T023530229510Z/compute_coefficients.mpl": "213f8663420eb9a9001365908e92e2eadbfca337c9a21adfd2e53297e6da2f5c",
+      "workflow/checks/same-channel-three/runs/20260917T023530229510Z/extension-analysis.json": "18104c176270c03bb83e3c26349b026bf6f2d3666d8f357054c145f2b258d35d",
+      "workflow/checks/same-channel-three/runs/20260917T023530229510Z/maple.log": "0f942ef41d36aaf52e680a47bbcd9b2e00d771f0b78f254d29143cd5e3a9f65c",
+      "workflow/checks/same-channel-three/runs/20260917T023530229510Z/provenance.json": "fb76f0f5bcc2b8c9a62cdef097096e1650529d2d19bd39a8d0d9c68bceb3be7c",
+      "workflow/checks/same-channel-three/runs/20260917T023530229510Z/R123.txt": "62cc0a5e969ab8885f1778dd68d679c4c4f2ba34cf5b7769f8f8a5a22a24661d",
+      "workflow/checks/same-channel-three/runs/20260917T023530229510Z/R123_minus.txt": "edc79f24799a41087e4ca2c43e2ef8e1e6d2b582d0f40a6f0f359f789981e6c9",
+      "workflow/checks/same-channel-three/runs/20260917T023530229510Z/R123_plus.txt": "62cc0a5e969ab8885f1778dd68d679c4c4f2ba34cf5b7769f8f8a5a22a24661d",
+      "workflow/checks/same-channel-three/runs/20260917T023530229510Z/R132.txt": "59618214a89f64291cf83acd57777f44a21ee1e77cdff286d66172a6712dfb5d",
+      "workflow/checks/same-channel-three/runs/20260917T023530229510Z/R132_minus.txt": "0c294eecec9d28894ff4f25b75ff2cf5220ec5e62b36e63cc8eb54e2d136578c",
+      "workflow/checks/same-channel-three/runs/20260917T023530229510Z/R132_plus.txt": "09293014810d26ef5bbe3c64e838c01df46ca445cfa5f3918f5e29e3936b2400",
+      "workflow/checks/same-channel-three/runs/20260917T023530229510Z/representation-analysis.json": "c2831c54d1439d210a61b89d95f4080f370f2b6f5c7780aa91636669347cc723",
+      "workflow/checks/same-channel-three/runs/20260917T023530229510Z/status.json": "d5f665d9a635882038606ef669450ddda34f6af5cb9958f346e270e7c26f3816",
+      "workflow/checks/same-channel-three/test_three.py": "35fa17e32dfc4c2e6dcb123803a82b8d20d7df5292801f5e41e7b7a9470ea4dd",
+      "workflow/checks/same-channel-three/verify_results.py": "bf9bca621b5939d5de61ee16a10ae0183fdc439231a8585365f57b647ece47f5",
+      "workflow/checks/same-channel-two-structure/runs/20260916T140419726787Z/Q_id_0_1_1_minus.txt": "e13158f9a605f45f525d23990cf107b17a27e108ef8820fc472e11a3d5d88192",
+      "workflow/checks/single-opposite/coefficient_math.py": "a948a9e6f871a1fa8cbb5b6e5ae91e1470e27aa88490daa2f56284f798f1b59d",
+      "workflow/checks/single-opposite/hlog_algebra.py": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+      "workflow/checks/single-opposite/numeric_hlog.py": "2f7ff121f0f2b0ce5ac6c0d53b96269bee30e3331e1370ee25af6427ae36549b",
+      "workflow/checks/single-opposite/reduce_inputs.py": "ee53e5320bbbd6d5b0142adc4ae3fa046198052ce4ba86a1a23de4ed13a9f6fb",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_0_minus.txt": "7c58a76f950fc95cb92f7869c8a9d573cdf6890ff7433caed5ef507c6e287575",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_0_plus.txt": "d48373a74d7fbd09e4d677f5bd2e056fea2f673aeb48072ef76aa9a48ad8fcd1",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_1_minus.txt": "1431400248078b326f9d0e70b58ff5dd6603f4439b6ed82e10b2a94ddbb61d05",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_1_plus.txt": "9d5f82162c5f1df268d8433824d6424f5073067a1e7d3df357f83e6e460b1f6b",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_2_minus.txt": "d46d3abb08c10e84ac43fae9cd24ee142905de6548f637422e8e3b69f4284653",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_2_plus.txt": "90a3338e91fa27d191521bff100074a1ecbe204d73416bb451540027f8835bff",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_3_minus.txt": "d239e69b16e532b8d4d61a01be0fe703238eab3fb2f5952e30d1cfa6656bf19d",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_3_plus.txt": "a75fad2087ad7b34978d15712161f62f357b240891d4fcd9e762cfe60889ac0b",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_4_minus.txt": "2e33cb42ea234ffc625cdb5e7b8126f8d5c0359446d7266511d1489e64efe076",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H0_4_plus.txt": "5adc7dc47ab9d69aea8ecbd1b778ca8bb5d7019f0fde982fff43985ded5fd539",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H1_0_minus.txt": "ff94e85a9e2720d09e11ef2c57bed697dfb8acc20273675797eacdbadf72f8e0",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H1_0_plus.txt": "11322fcba3d53c37d64379e4bc2efba6a3468d8195c775b709e80a33c8f891c4",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H1_1_minus.txt": "e9fb688629843da5405b507ccb15a3ee78075b50b7911981f26b79ac2f984928",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H1_1_plus.txt": "764dc69814ef5eea871e1c3900a595d3a242b01277a4885e1c60322641a9efc3",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H1_2_minus.txt": "41dab44c290fc1f617dc73b2dabefb6b35b1adf7b2b48edf89285744a87b460f",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H1_2_plus.txt": "ba944a3c08034fc8bb065c14d55c757773623faf48448302fdd3a537c7e2c669",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H1_3_minus.txt": "b8966e98986dd702c62bb8cb9954f80d8ad8716a8ec908bb83471b231de87b0f",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H1_3_plus.txt": "88e079ca54cbc5a2028f4d91223479bd6ffadefb4782e5998a10992d5962fc70",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H1_4_minus.txt": "6800f9acfd57f2bf4ed1e12db34e528188b9bd491d47c838e1fcf82071bd5b0d",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H1_4_plus.txt": "d018e7e443506cb85375060e85b575b43296dffe4727598d153c73197b8549ed",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H2_0_minus.txt": "fc6eecd7bf3828556d8885176a95b1277ddd72e67ce018ca225e256e6046c21c",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H2_0_plus.txt": "6ec05f08a76a7a2ba0c06cad2123ac5dbe7a5843f4ca6e206135d66cdc6d1805",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H2_1_minus.txt": "e1d37f83ce2c93ee41a9136257d3d029a9e82b1b84c1a2e6f471e4596565d6b3",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H2_1_plus.txt": "305fafc7eb2012688af9ce244e9a9f39793be7523aa1547a9f6de4cb28ee8cd4",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H2_2_minus.txt": "def59ba0e86a7926401252f7790f0a1945e0b42b640ad6eb79858bd005f449a0",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H2_2_plus.txt": "4c943876926b9428554cd81e1667fc657f6ef350bcd0b50acaf7b91ecceaaf7f",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H2_3_minus.txt": "108282de4a2b8f8a73005d73e929bb4ae6db5fa68d491f0bfe1f4d4d9466bc77",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H2_3_plus.txt": "d425fc6b28572709798a4529e7b8d6b0f9eafe355ef5fd28e839892784be7e1c",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H2_4_minus.txt": "cfcec22b8378d77d48cfbb608c281cb464aeac872cf52757beb797bc39501638",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/H2_4_plus.txt": "6ee5a23ec641e0a92bd2ea91371bb7684d65208873a7fc1b4602d9ae9771fec6",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HD_0_minus.txt": "945ca09df14655f58a13e36cfd53d03f375e6e94a58e756b623f9c38a07cace0",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HD_0_plus.txt": "8ea845e5e57e067d1adaae11608999e59ad00940c6f7c17878380803c7b98246",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HD_1_minus.txt": "a705cb933f8cc340345c635263f7dd22345beec81db9044c62acc1266f4440ad",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HD_1_plus.txt": "35152a8922d410bbd1d349f886897be658c9e302ef924c65f66ff7c7acb3185f",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HD_2_minus.txt": "4e1371375617cd7bc766e5d8e4df0137eed8199bb93e7f635f6c5017b23ae5bc",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HD_2_plus.txt": "507483c983cdc03ec8852c5715af0cf3c7d5dd843022b07b9c1ff00f61d70853",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HD_3_minus.txt": "1ab36acafc8218edad659a101ad4bf8efb19f83e9fde63efbe4518ed34e68af5",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HD_3_plus.txt": "0805445896ab2b24c0b5b82c2b804a684e562c039fc961b755071b1ea42c07e1",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HD_4_minus.txt": "c3ba7d0da660502c449d365731b3fbc39ef47b91c122a99dcf5182501645001e",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HD_4_plus.txt": "907a6314efaea470fa7e2f8223db8c131117a351e92a3ea52ffc72f9f30b8b46",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HW_0_minus.txt": "b95c3e75f1de943ff8e8246edd1d4a4c2356d97963e0e1dfc17052543a50bb49",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HW_0_plus.txt": "7bb0c11e5d3682131c431ae53e3c7f9aab214810e6fbab8e50598aa21d4b575d",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HW_1_minus.txt": "aff1d01578eb794593a6da403e7f2af3bbbb7c6073240239fa5ce891308ce282",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HW_1_plus.txt": "111aac0aa6fa2adb79ea15a8558b0d662a5368c71197ce05e0a2555654f9a383",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HW_2_minus.txt": "f18f017d5a21eb505b9dcd114c34d37b230b5e0c91afd1b982cb960e02925332",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HW_2_plus.txt": "5ecf4d173a5cc1875152f4fb9833940ddf29be67e684e5eb132a85302746c163",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HW_3_minus.txt": "eaf86d20c2bb4d3c1305ae46f3c091c09477c2ce9cc4ee972ed43e7293094f13",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HW_3_plus.txt": "b94629e236fc413d6d77f62c763f45d7613797e6f221c9af8b74e501e0921acc",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HW_4_minus.txt": "90ca80c4b5ca88e5a8c26a0ad58abc885fbe83e9def0ce0fecfa1e77d7095cfd",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HW_4_plus.txt": "2e1f597831f92fd5d6ee960c9b3a91a687f89cafa6d834c964e387d794406957",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HX_0_minus.txt": "d8447d35054a4234e3750cdc1259c13facd6e444a5a364dfb7b5cb4bb4ac4864",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HX_0_plus.txt": "17ef937aea1e9a8c03924ac8bb67881e99a6545711ca3a8055689f0b7e16cf8d",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HX_1_minus.txt": "9209770fafa365f419a933833cbd8cee1fa4bacbf50d5e633b2b682b6c84d337",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HX_1_plus.txt": "beb375ad8ed7f710a9851399441b14648a58ffc346d7c8bed438f0a2c907342b",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HX_2_minus.txt": "0e58869e337e73bbb141ba105edb1b8d3d0123eb9e37b4413c7629cf505f8e9f",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HX_2_plus.txt": "8d87dc5aa3bcd6c37c6d844ea57018b98802877dbc3edb3ccc4f9363f1695d1e",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HX_3_minus.txt": "1306872c33df578188c9400fb9c123a5aa08a9f3795270f4ae811872ef565b75",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HX_3_plus.txt": "48c4faaa505f7e61c895df576aaf147498340d354c1dce8c86091a3c0180f71c",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HX_4_minus.txt": "ebffb78b74d0af654c9b650adf4dd4b8acf31d9db6d67a280d6e54141a3990a0",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/HX_4_plus.txt": "d1fe3535772836826e0faf3eb3a4de09e6f6a426eb76ab4ca273de7825b06b48",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_2.txt": "cd56e716a2f6ff5ffdb881802c666ce34650e2097bc006f41c85373024cbec79",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_4.txt": "0e103345155d0d8cf29e95d5cb32549779b6c9ecf97b3ecd9ef4f5faea3bddd7",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_5.txt": "28e4f12e67372785789afc9a3164e3f6627d6452db4fc3deb1e229962c0a0674",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_4.txt": "428adc3c5657bcaf9df5f7e05ac89a9ecb1ff35d9337f5949de3b3c6efd7a45b",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_2.txt": "b7cc73814d33c1d6e6474ed4d0ae774b2de1ea68ded05ba21861ba173e3bfced",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_3.txt": "4c217930ee68940afc732b722f77297b342ef7b2c444e713ba1c52ffbd8a5612",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_2.txt": "7ada1deb03ef81b1bbb568e3c6c6b424d510a845a08e2f2a48141704ed845a9e",
+      "workflow/checks/single-opposite/runs/20260916T090538777022Z/M_4_1.txt": "661bde1122a75bba0884f4e0251a1ff0e5be3b6897b89c2dd251793b45944624"
+    },
+    "source_snapshot_root": "workflow/checks/same-channel-three/runs/20260917T025201012763Z/source",
+    "reuse": "workflow/checks/same-channel-three/runs/20260917T025201012763Z/reuse.json",
+    "reuse_sha256": "c95c699d62c276d01c5808c994b9bd19f44ba59edb3dcadbba68c8b726b43bee",
+    "fresh_HyperInt": true,
+    "derivation_snapshot": "workflow/checks/same-channel-three/runs/20260917T025201012763Z/6e-22-derivation.md",
+    "derivation_snapshot_sha256": "8fd2f672443cc23929d121f2a380831691acdbb37749352ec714707a4b0c1647"
+  }
+}

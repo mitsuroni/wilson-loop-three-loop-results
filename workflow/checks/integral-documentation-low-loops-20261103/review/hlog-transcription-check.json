@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "scope": "Exact new Markdown HLOG-coordinate transcription versus adopted original raw jet outputs. No integration, no independent validation of the original HyperInt evaluations.",
+  "markdown": "integrals/two-loop/3e-3g-04/appendices/hlog-jets.md",
+  "markdown_sha256": "7ec15cc558961c5b5b1cb2d5af89a2503ca5411e22efc572499f7560c87a9b9f",
+  "jets": [
+    {
+      "jet": "D2",
+      "all_coordinates_equal": true,
+      "coordinates": 13,
+      "source": "workflow/checks/tgv04-high-order/runs/positive-epsilon/D2.txt",
+      "source_sha256": "787aa8c272c99ca587ed7cc2ea91da6b940a2b8526c8abbd23bd6d011a98174b"
+    },
+    {
+      "jet": "D3",
+      "all_coordinates_equal": true,
+      "coordinates": 27,
+      "source": "workflow/checks/tgv04-high-order/runs/positive-epsilon/D3.txt",
+      "source_sha256": "a1244fe735853a577add0f3cdef5e67548300ae6cb3a412cadbd1cf9bf7b6a1e"
+    },
+    {
+      "jet": "H1",
+      "all_coordinates_equal": true,
+      "coordinates": 13,
+      "source": "workflow/checks/tgv04-high-order/runs/positive-epsilon/H1.txt",
+      "source_sha256": "fe4952177c452f7c74a430b6bcbf4b4fae8b027a24b1d1ba31feb2a15a8775b6"
+    },
+    {
+      "jet": "H2",
+      "all_coordinates_equal": true,
+      "coordinates": 33,
+      "source": "workflow/checks/tgv04-high-order/runs/positive-epsilon/H2.txt",
+      "source_sha256": "e3794f86dc9f7c89b5c1f53bfd9aa72a972b9bb37c27f03b6b18f23893b711e6"
+    },
+    {
+      "jet": "O1",
+      "all_coordinates_equal": true,
+      "coordinates": 27,
+      "source": "workflow/checks/tgv04-high-order/runs/positive-epsilon/O1.txt",
+      "source_sha256": "de966da968f39d00f3cb7beb1c901df628aa540584d1ad052ab0747849444b24"
+    },
+    {
+      "jet": "O2",
+      "all_coordinates_equal": true,
+      "coordinates": 55,
+      "source": "workflow/checks/tgv04-high-order/runs/positive-epsilon/O2.txt",
+      "source_sha256": "12cbee3754e33aebbfba289e37199019bfaed9efa8bf59f976ea4aa1fffacf67"
+    }
+  ]
+}

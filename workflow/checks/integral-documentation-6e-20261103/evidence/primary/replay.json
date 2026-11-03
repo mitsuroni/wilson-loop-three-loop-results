@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "integrals": 39,
+  "coefficients": 273,
+  "function_back_substitutions": 273,
+  "generation": {
+    "stage": "generate",
+    "arguments": [
+      "D:\\wilson-agent\\integrals\\three-loop\\6e-01\\code\\reproduce.py",
+      "--output",
+      "D:\\wilson-agent\\workflow\\checks\\integral-documentation-6e-20261103\\runs\\primary-r001\\generation"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 61.357795000018086,
+    "log_sha256": "6129fa8ef2b0f7b9ad5876d4233640fef1d09b4ca5c74a2875913f5273b46af0"
+  },
+  "checks": [
+    {
+      "stage": "verify",
+      "arguments": [
+        "D:\\wilson-agent\\integrals\\families\\three-loop-6e\\runtime\\scripts\\verify_batch.py",
+        "--results",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-6e-20261103\\runs\\primary-r001\\generation\\generated.json",
+        "--out",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-6e-20261103\\runs\\primary-r001\\verification.json"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 8.686897000006866,
+      "log_sha256": "cba926486d8fc1daf274ba33ecb16c96e6503e1edfa22c93eca55daa08cf5d98"
+    },
+    {
+      "stage": "controls",
+      "arguments": [
+        "D:\\wilson-agent\\integrals\\families\\three-loop-6e\\runtime\\scripts\\independent_controls.py",
+        "--input",
+        "D:\\wilson-agent\\integrals\\families\\three-loop-6e\\runtime\\engine\\benchmarks\\2ne\\prepared\\6e.json",
+        "--results",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-6e-20261103\\runs\\primary-r001\\generation\\generated.json",
+        "--out",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-6e-20261103\\runs\\primary-r001\\independent-controls.json"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 9.721189699950628,
+      "log_sha256": "e6144fc60eaa08a26a8eb520dc6eb4d57322fbe3e4cbf0aa73fed13f093352d7"
+    }
+  ],
+  "controls_executed": true,
+  "scope": "Fresh original-root recognition, Gamma expansion or byte-bound historical primitive replay, physical assembly, and subsequent verification. No new external CAS or formal integral proof."
+}

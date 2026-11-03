@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "scope": "Read-only schema, exact rational/weight and I21=I22 audit of existing results; not a new source-to-physical regression.",
+  "source": "benchmarks/2ne/theory/generation/three-kernel-eps2.json",
+  "sha256": "4c556b02359d6ae19949ea974fc999ac34182c002f33465e5a2e58dfa9b5dd3c",
+  "known_orders": [
+    0,
+    1,
+    2
+  ],
+  "known_physical_epsilon3": false,
+  "negative_powers_zero_reused": true,
+  "period_weights": [
+    2,
+    3,
+    5,
+    7,
+    8
+  ],
+  "counts": {
+    "physical": {
+      "6e-20": [
+        15,
+        56,
+        152
+      ],
+      "6e-21": [
+        15,
+        57,
+        153
+      ],
+      "6e-22": [
+        15,
+        57,
+        153
+      ]
+    },
+    "bare": {
+      "A": [
+        15,
+        56,
+        152
+      ],
+      "B": [
+        15,
+        57,
+        153
+      ],
+      "W": [
+        15,
+        57,
+        153
+      ],
+      "Lsum": [
+        4,
+        24,
+        82
+      ]
+    }
+  },
+  "coordinates_checked": 1456,
+  "formal": "not_run"
+}

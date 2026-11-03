@@ -1,0 +1,590 @@
+\chapter{01 与 02：把几何完全积成 Beta 函数}
+\section{01 的五重积分为什么能够分离}
+先从最简单的图建立一套可逐行复算的样板。把第 4 章的 $S_{01},P_{01}$ 代入 $J$，令
+\begin{equation}
+a=1-u,\quad b=uv,\quad c=u(1-v),\quad x=yq.
+\end{equation}
+单纯形测度为 $u\,\dd u\dd v$，有序路径测度为 $y\,\dd q\dd y$。此时
+\[
+S=z(1-u)u(1-t)y[1-v+vq],\qquad
+P=\frac14z^2(1-u)u(1-t)(2v-1).
+\]
+合并所有幂次后，$u$ 的裸幂恰好抵消，得到
+\begin{equation}
+\begin{aligned}
+J_{01}={z^{2\eps}\over4}
+&\int_0^1\dd t\,(1-t)^{-1+2\eps}
+\int_0^1\dd u\,(1-u)^{-1+\eps}
+\int_0^1\dd y\,y^{-1+2\eps}\\
+&\times\int_0^1\dd v\,[v(1-v)]^{-\eps}(2v-1)
+\int_0^1\dd q\,[1-v+vq]^{-2+2\eps}.
+\end{aligned}
+\label{eq:J01factor}
+\end{equation}
+前三个积分依次是 $1/(2\eps),1/\eps,1/(2\eps)$。因此前三个极点的来源已经明确：它们分别对应路径端点、单纯形端点和同边两点的共同靠近。剩下的 $q$ 积分也只是一次幂函数积分：
+\begin{equation}
+\int_0^1[1-v+vq]^{-2+2\eps}\dd q
+=\frac{1-(1-v)^{-1+2\eps}}{v(-1+2\eps)}.
+\end{equation}
+第四个极点藏在随后的 $v$ 端点中。不能因为当前只显式出现 $\eps^{-3}$ 就提前判定极点阶数。
+
+\section{最后一个积分与两个 Gamma 组合}
+记
+\begin{equation}
+F(\eps)=\Gamma(1+\eps)\Gamma(1-\eps),\qquad
+B_\eps=B(1-\eps,1-\eps)
+=\frac{\Gamma(1-\eps)^2}{\Gamma(2-2\eps)}.
+\end{equation}
+剩余积分写成 Beta 函数组合为
+\begin{equation}
+\begin{aligned}
+K(\eps)=\frac1{2\eps-1}\{&2B(1-\eps,1-\eps)-B(-\eps,1-\eps)\\
+&-2B(1-\eps,\eps)+B(-\eps,\eps)\}.
+\end{aligned}
+\end{equation}
+这里应把右边理解为完整组合的解析延拓。若拆开的某一项不收敛，可先给端点加独立解析调节参数、组合后再取极限；不能将一个发散积分直接解释为零。利用 Gamma 递推关系，
+\begin{equation}
+B(-\eps,1-\eps)=-\frac{1-2\eps}{\eps}B_\eps,
+\qquad B(1-\eps,\eps)=\frac{F(\eps)}\eps.
+\end{equation}
+在上述组合的延拓中，$B(-\eps,\eps)=\Gamma(-\eps)\Gamma(\eps)/\Gamma(0)$ 的对应极限为零。于是
+\[
+K(\eps)=\frac{2F(\eps)-B_\eps}{\eps(1-2\eps)}.
+\]
+把它接回式 \eqref{eq:J01factor}，得到全 $\eps$ 的闭式
+\begin{equation}
+\boxed{J_{01}(z,\eps)=
+\frac{z^{2\eps}}{16(1-2\eps)\eps^4}\,[2F(\eps)-B_\eps].}
+\label{eq:J01closed}
+\end{equation}
+由第 5 章的归一化，$(1-2\eps)$ 与 $z^{2\eps}$ 按各自的机制消去，最后
+\begin{equation}
+\boxed{I_{01}=\frac{G_2(\eps)}{32\eps^4}
+\left[2\Gamma(1+\eps)\Gamma(1-\eps)
+-\frac{\Gamma(1-\eps)^2}{\Gamma(2-2\eps)}\right].}
+\label{eq:I01closed}
+\end{equation}
+
+\section{02 与 01 的相等来自完整换元}
+02 的变量约定仍为 $x=s_{31},y=s_{32},t=s_{41}$。在 01 的表达式中作
+\begin{equation}
+(t,x,y;a,b,c)_{01}=(1-t,1-y,1-x;c,b,a)_{02}.
+\end{equation}
+有序三角域映到自身，绝对 Jacobian 为 1，单纯形测度也不变。直接代入可得
+\[
+az(1-t)(bx+cy)\longmapsto czt[b(1-y)+a(1-x)]=S_{02},
+\]
+而 $az^2(1-t)(b-c)/4$ 正好映为 $cz^2t(b-a)/4$。因此
+\begin{equation}
+J_{02}=J_{01},\qquad I_{02}=I_{01}.
+\end{equation}
+这一步既核对分母，也核对顶角分子的符号与有序域；单凭图形相似不足以替代它。换元与需要的换序在收敛域建立，随后延拓。
+
+\section{逐阶相乘，得到所有极点与有限项}
+Gamma 函数的对数展开是最简洁的计算工具\cite{dlmfgamma}：
+\begin{equation}
+\log\Gamma(1+q\eps)=-\gamma_Eq\eps
++\sum_{n\ge2}\frac{(-1)^n\zeta_n}{n}q^n\eps^n.
+\label{eq:loggamma}
+\end{equation}
+例如
+\[
+G_2=\exp\!\left(\sum_{n\ge2}\frac{2^n\zeta_n}{n}\eps^n\right),
+\quad
+B_\eps=\frac1{1-2\eps}
+\exp\!\left(\sum_{n\ge2}\frac{(2-2^n)\zeta_n}{n}\eps^n\right).
+\]
+因为式 \eqref{eq:I01closed} 外面有 $\eps^{-4}$，括号及 $G_2$ 必须展开到四阶才能得到有限项。以三项开头，
+\[
+2F-B_\eps=1-2\eps+(-4+3\zeta_2)\eps^2+O(\eps^3),
+\quad G_2=1+2\zeta_2\eps^2+O(\eps^3).
+\]
+所以二阶系数是 $(-4+5\zeta_2)/32$，而不是只取括号中的 $(-4+3\zeta_2)/32$。继续相乘得到
+\begin{equation}
+\boxed{\begin{aligned}
+I_{01}=I_{02}={}&\frac1{32\eps^4}-\frac1{16\eps^3}
++\frac1{\eps^2}\left(-\frac18+\frac{5\pi^2}{192}\right)\\
+&+\frac1\eps\left(-\frac14-\frac{\pi^2}{96}+\frac{7\zeta_3}{48}\right)\\
+&-\frac12-\frac{\pi^2}{48}-\frac{\zeta_3}{24}
++\frac{119\pi^4}{11520}+O(\eps).
+\end{aligned}}
+\label{eq:result0102}
+\end{equation}
+这里没有非平凡的运动学函数。提高阶数只需继续展开 Gamma 函数；这一点是 01、02 的特殊简化，不能直接推广到 04。
+
+\chapter{03：有序边界怎样变成一维矩}
+\section{顶角分子恰好是两条边界的差}
+记 $\lambda=1-2\eps$。03 满足一个直接可验的恒等式：
+\begin{equation}
+P_{03}=\frac{1+z}{4}(\partial_y-\partial_x)S_{03}.
+\end{equation}
+由于 $\partial S^{-\lambda}=-\lambda S^{-2+2\eps}\partial S$，有序三角域上的分部积分给
+\begin{equation}
+\begin{aligned}
+J_{03}=-\frac{1+z}{4\lambda}\int_0^1\dd t\int_{\Delta_2}\dd\alpha\,(abc)^{-\eps}
+\bigg[&\int_0^1\dd x\,S(t,x,1)^{-\lambda}\\
+&+\int_0^1\dd y\,S(t,0,y)^{-\lambda}
+-2\int_0^1\dd q\,S(t,q,q)^{-\lambda}\bigg].
+\end{aligned}
+\label{eq:03faces}
+\end{equation}
+第三项系数 $-2$ 很关键：$\partial_y$ 的下界和 $-\partial_x$ 的上界都落在同一个接触面 $x=y$。它并非额外加入的接触相互作用，而是有序积分域自身的边界。
+
+\section{边界权重的合并保留了相消}
+仍令 $a=1-u,b=uv,c=u(1-v)$。利用 $D_z$ 对第二变量的仿射性，
+\[
+S=u(1-u)D_z\bigl(t,vx+(1-v)y\bigr).
+\]
+与 \eqref{eq:03faces} 中幂 $-\lambda$ 合并后，$u$ 的积分为 $1/\eps$。其余三个边界统一写为仿射点 $q=vx+(1-v)y$ 的积分，权重为
+\begin{equation}
+\begin{aligned}
+\mathcal F_\eps(q)={}&\int_0^q v^{-\eps}(1-v)^{-1-\eps}\dd v
++\int_q^1v^{-1-\eps}(1-v)^{-\eps}\dd v-2B_\eps\\
+={}&\frac{[q(1-q)]^{-\eps}-B_\eps}{\eps}.
+\end{aligned}
+\label{eq:Fq}
+\end{equation}
+第二行不需要猜测：先对 $q$ 求导，两边相等；再利用两边从 0 到 1 的积分都为零，确定常数。于是五重积分降为
+\begin{equation}
+J_{03}=-\frac{1+z}{4\lambda\eps^2}
+\int_0^1\!\dd t\int_0^1\!\dd q\,
+D_z(t,q)^{2\eps-1}
+\{[q(1-q)]^{-\eps}-B_\eps\}.
+\label{eq:J03two}
+\end{equation}
+括号在 $\eps=0$ 为零，已经预告显式 $\eps^{-2}$ 会少掉一阶。若将三个面分别截断再丢弃发散部分，这个相消就可能被破坏。
+
+\section{先积掉一个路径变量，再识别矩生成源}
+因 $D_z(t,q)=(1-q)+t[(1+z)q-1]$，
+\begin{equation}
+\int_0^1D_z(t,q)^{2\eps-1}\dd t
+=\frac{(zq)^{2\eps}-(1-q)^{2\eps}}{2\eps[(1+z)q-1]}.
+\end{equation}
+令 $\beta=1-q$，引入
+\begin{equation}
+\ell=\log z,\qquad r=\frac{z}{1+z},\qquad
+W=\log[\beta(1-\beta)],\qquad
+L=\ell+\log\frac{1-\beta}{\beta}.
+\end{equation}
+两个端点幂的差便写成双曲正弦：
+\begin{equation}
+-(1+z)z^{-\eps}\int_0^1D_z(t,1-\beta)^{2\eps-1}\dd t
+=\frac{e^{\eps W}\sinh(\eps L)}{\eps(\beta-r)}.
+\end{equation}
+这提示我们定义一次覆盖所有展开阶的生成函数
+\begin{equation}
+\VM(A,B;z)=\int_0^1
+\frac{e^{AW}\sinh(BL)}{B(\beta-r)}\dd\beta
+=\sum_{k,j\ge0}\frac{A^kB^{2j}}{k!(2j+1)!}M_{k,2j+1}(z),
+\label{eq:VM}
+\end{equation}
+其中
+\begin{equation}
+\boxed{M_{k,j}(z)=\int_0^1\frac{W(\beta)^kL(\beta,z)^j}{\beta-r}\dd\beta,
+\qquad k\ge0,\quad j\ge1.}
+\label{eq:Mdef}
+\end{equation}
+这里 $A,B$ 是生成源变量，不是第 3 章的尺度或 Feynman 参数。内部点 $\beta=r$ 无需主值：$L(r,z)=0$，分子消掉了分母的零点。两个端点只剩可积的对数。
+
+式 \eqref{eq:J03two} 中加权项对应 $\VM(0,\eps)$，不加权项对应 $\VM(\eps,\eps)$。再将 $z^\eps/(1+z^{2\eps})=1/[2\cosh(\eps\ell)]$ 接入归一化，得到
+\begin{equation}
+\boxed{I_{03}=
+\frac{G_2}{8\eps^2\cosh(\eps\ell)}
+\left[\VM(0,\eps;z)-B_\eps\VM(\eps,\eps;z)\right].}
+\label{eq:I03all}
+\end{equation}
+这是从 $C,J$ 得到的生成源公式，不是根据有限阶答案拟合的表达式。它说明 03 的任意固定 Laurent 阶都能由有限个 $M$ 矩和 Gamma 展开组成。
+
+\section{从生成源读出极点和有限项}
+保留到括号二阶即可求有限项：
+\begin{align}
+\VM(0,\eps)&=M_{0,1}+\frac{\eps^2}{6}M_{0,3}+O(\eps^4),\\
+\VM(\eps,\eps)&=M_{0,1}+\eps M_{1,1}
++\eps^2\left(\frac{M_{2,1}}2+\frac{M_{0,3}}6\right)+O(\eps^3),\\
+B_\eps&=1+2\eps+(4-\zeta_2)\eps^2+O(\eps^3).
+\end{align}
+常数项和 $M_{0,3}$ 项分别相消，而 $G_2/\cosh(\eps\ell)=1+O(\eps^2)$，没有线性项。因此
+\begin{equation}
+\boxed{\begin{aligned}
+I_{03}={}&-\frac{2M_{0,1}+M_{1,1}}{8\eps}\\
+&-\frac{M_{0,1}}2+\frac{\pi^2M_{0,1}}{48}
+-\frac{M_{1,1}}4-\frac{M_{2,1}}{16}+O(\eps).
+\end{aligned}}
+\label{eq:I03result}
+\end{equation}
+所有 $\eps^{-2}$ 及更负的系数为零。这个低阶极点并不意味着原五维核逐点温和；它来自有序边界间的结构性相消。
+
+\section{这些矩为何已经属于 Hlog 解析函数}
+定义以首字母为积分核的超对数
+\begin{equation}
+G(a_1,\ldots,a_n;z)=\int_0^z\frac{\dd t}{t-a_1}G(a_2,\ldots,a_n;t),
+\quad G(;z)=1,
+\label{eq:Gdef}
+\end{equation}
+并约定 $G(\underbrace{0,\ldots,0}_{n};z)=\log^n z/n!$。在本讲义的最终运动学变量中，字母为 $0,-1$，例如
+\[
+G(0;z)=\log z,\qquad G(-1;z)=\log(1+z),\qquad
+G(0,-1;z)=-\Li_2(-z).
+\]
+对数的乘积可用 shuffle 恒等式写成字的和，再按 \eqref{eq:Gdef} 逐次积分。把 \eqref{eq:Mdef} 的可去内点整体保留，可得到只含这些字母的表达。
+最先用到的两项已经很熟悉：
+\begin{equation}
+M_{0,1}=-\frac{\ell^2+\pi^2}{2},
+\end{equation}
+\begin{equation}
+\begin{aligned}
+M_{1,1}={}&(\ell^2+\pi^2)\log(1+z)+2\ell\Li_2(-z)-2\Li_3(-z)\\
+&-\frac{\ell^3}{6}-\frac{\pi^2\ell}{2}+2\zeta_3.
+\end{aligned}
+\end{equation}
+$M_{2,1}$ 的完整权重四 Hlog 式列在附录 \ref{app:hlog}。因此式 \eqref{eq:I03result} 不需要留下一个尚未求值的原始五重积分；$M$ 是明确可转换到 Hlog 的紧凑函数记号。
+
+\section{一个可独立检查的生成源}
+在 $A=0$ 时，式 \eqref{eq:VM} 可用 Beta 积分求成
+\begin{equation}
+\VM(0,\eps;z)=\frac{\pi}{\eps\sin(\pi\eps)}
+\bigl[\cos(\pi\eps)-\cosh(\eps\ell)\bigr].
+\end{equation}
+这里取 $\eps=0$ 的可去极限。可用 $\ell$ 导数
+$\partial_\ell\VM=-\pi\sinh(\eps\ell)/\sin(\pi\eps)$
+及 $z=1$ 的值 $-\pi\tan(\pi\eps/2)/\eps$ 核对。展开二阶给
+\begin{equation}
+M_{0,3}=-M_{0,1}^2.
+\end{equation}
+这也展示了“先有定义，再证明低指标恒等式”的用法；并非每个不同指标都代表独立函数。
+
+\chapter{04：把耦合星积分拆成边界和可积的体余项}
+\section{先看困难来自哪里}
+04 的三个点在不同边，三个点对距离同时出现。像 01 那样直接分离变量已经不行；像 03 那样把整个分子写成路径导数也做不到。有效办法是先尽量用导数吸收分子，留下一个结构更简单的体余项。
+
+从式 \eqref{eq:S04}、\eqref{eq:P04} 逐项求导，可精确核验
+\begin{equation}
+P=\frac{-zS_x-(1+z)S_y+S_w}{4}+P_R,
+\qquad
+P_R=\frac{1+z}{2}c[a(1-x+zw)-zbw].
+\label{eq:P04IBP}
+\end{equation}
+这不是忽略部分顶角，而是多项式恒等式。用 $\lambda=1-2\eps$，定义每个端点面
+\[
+F_{x,b}=\int\dd y\dd w\int_{\Delta_2}\dd\alpha\,(abc)^{-\eps}
+\bigl(S|_{x=b}\bigr)^{-\lambda},
+\]
+$F_{y,b},F_{w,b}$ 类似；所有剩余路径变量均在 $[0,1]$。体余项记为
+\[
+\mathcal O=\int_{[0,1]^3}\dd x\dd y\dd w
+\int_{\Delta_2}\dd\alpha\,(abc)^{-\eps}P_RS^{-2+2\eps}.
+\]
+一次分部积分给出完整六面式
+\begin{equation}
+J_{04}=\frac{z(F_{x,1}-F_{x,0})+(1+z)(F_{y,1}-F_{y,0})-(F_{w,1}-F_{w,0})}{4\lambda}
++\mathcal O.
+\label{eq:sixfaces}
+\end{equation}
+特别是 $y$ 面与 $w$ 面的正负号不同，直接来自原分子中的导数系数和幂求导的负号。
+
+\section{六个面只需要三类边界函数}
+为了让分解可以复算，把每个面的分母都写出：
+\begin{center}\small
+\begin{tabular}{cl}
+\toprule
+端点面 & $S$ 的限制\\
+\midrule
+$x=0$ & $ac(1-w)+aby+zbcw(1-y)$\\[3pt]
+$x=1$ & $zcw[a+b(1-y)]$\\[3pt]
+$y=0$ & $acD_z(x,w)+zbcw$\\[3pt]
+$y=1$ & $a[b(1-x)+cD_z(x,w)]$\\[3pt]
+$w=0$ & $a(1-x)(c+by)$\\[3pt]
+$w=1$ & $aby(1-x)+zacx+zbc(1-y)$\\
+\bottomrule
+\end{tabular}
+\end{center}
+令
+\begin{equation}
+\mathcal C=F_{w,0},\quad \mathcal H(\eps,z)=F_{x,0},\quad
+\mathcal D(\eps,z)=\eps(F_{y,0}-F_{y,1}).
+\end{equation}
+由参数交换和路径反射，
+$F_{x,1}=z^{2\eps-1}\mathcal C$、
+$F_{w,1}=z^{2\eps-1}\mathcal H(\eps,1/z)$。六面式于是成为
+\begin{equation}
+\boxed{\begin{aligned}
+J_{04}=\frac1{4(1-2\eps)}\bigg[&(1+z^{2\eps})\mathcal C
+-\frac{1+z}{\eps}\mathcal D(\eps,z)\\
+&-z\mathcal H(\eps,z)-z^{2\eps-1}\mathcal H(\eps,1/z)\bigg]
++\mathcal O(\eps,z).
+\end{aligned}}
+\label{eq:04master}
+\end{equation}
+四个符号各有具体来源：$\mathcal C$ 是易分离的尖点面，$\mathcal D$ 是两面相减，$\mathcal H$ 是剩余耦合面，$\mathcal O$ 是没有被路径导数吸收的体积分。后面的任务就是把这四项各自求到所需阶，再组装。
+
+\section{尖点面：高阶裸极点怎样相消为二阶}
+在 $w=0$ 面令 $a=1-u,b=u(1-v),c=uv$。单纯形径向积分给 $1/\eps$，$x$ 积分给 $1/(2\eps)$，而
+\[
+\int_0^1[v+(1-v)y]^{-1+2\eps}\dd y
+=\frac{1-v^{2\eps}}{2\eps(1-v)}.
+\]
+故
+\begin{equation}
+\begin{aligned}
+\mathcal C
+&=\frac1{4\eps^3}\int_0^1 v^{-\eps}(1-v)^{-1-\eps}(1-v^{2\eps})\dd v\\
+&=\frac{\Gamma(1+\eps)\Gamma(1-\eps)
+-\Gamma(1-\eps)^2/\Gamma(1-2\eps)}{4\eps^4}\\
+&=\frac{\zeta_2}{2\eps^2}+\frac{\zeta_3}{2\eps}
++\frac25\zeta_2^2+O(\eps).
+\end{aligned}
+\label{eq:cusp}
+\end{equation}
+分子中两项的常数和一次项都相同，所以表面的 $\eps^{-4}$ 实际只剩 $\eps^{-2}$。这也是为何应保留完整 Beta 组合后再展开。
+
+\section{两面之差：在低维对数核上展开}
+写 $\mathcal D=D_0+\eps D_1+O(\eps^2)$。求有限项必须知道 $D_1$，因为 \eqref{eq:04master} 中它前面有 $1/\eps$。把单纯形尺度和一个路径变量积掉后，剩余两个单位区间变量记为 $\xi,v$。定义
+\begin{gather}
+\eta=\frac1{1+z},\quad Q=\eta(1-v)-\xi(\eta-v),\\
+U=\log\frac Q\eta,\quad V=\log(z\xi),\quad W_0=\log(1-\xi),\quad h=\log[v(1-v)].
+\end{gather}
+由于 $Q=\eta(1-v)(1-\xi)+(1-\eta)\xi v>0$，这里各对数在内部有实值。具体的降维可逐面完成。在 $y=0$ 面取 $(a,b,c)=(u(1-v),uv,1-u)$，先积掉 $u$ 得到 $1/\eps$，再积掉 $x$，最后记 $\xi=w$。在 $y=1$ 面取 $(a,b,c)=(1-u,u(1-v),uv)$，同样积掉 $u$ 得到 $1/\eps$，再积掉 $w$，最后记 $\xi=x$。两面的线性路径核的端点分别为 $(Q/\eta,z\xi)$ 和 $(1-\xi,Q/\eta)$。因此在展开前就有
+\begin{equation}
+\begin{aligned}
+\mathcal D(\eps,z)=\int_0^1\!\dd\xi\int_0^1\!\dd v\,
+\frac{\eta[v(1-v)]^{-\eps}}{\eta-\xi}
+\left[\frac{e^{2\eps U}-e^{2\eps V}}{2\eps(1-v)}
+-\frac{e^{2\eps W_0}-e^{2\eps U}}{2\eps v}\right].
+\end{aligned}
+\end{equation}
+展开 $e^{2\eps U}$ 等端点幂以及 $e^{-\eps h}$，两面作差后的系数核为
+\begin{equation}
+D_0=\int_0^1\!\dd\xi\int_0^1\!\dd v\,
+\frac{\eta}{\eta-\xi}
+\left[\frac{U-V}{1-v}-\frac{W_0-U}{v}\right],
+\label{eq:D0kernel}
+\end{equation}
+\begin{equation}
+D_1=\int_0^1\!\dd\xi\int_0^1\!\dd v\,
+\frac{\eta}{\eta-\xi}
+\left[\frac{U^2-V^2-h(U-V)}{1-v}
+-\frac{W_0^2-U^2-h(W_0-U)}{v}\right].
+\end{equation}
+其中 $\xi=\eta$ 的表观极点可去：此时 $U=V=W_0$。$v=0,1$ 也必须在完整差中取极限。
+
+按 $v$、$\xi$ 次序，把对数转换成 $G$，用 shuffle 展开乘积，再按首字母原函数积分。端点值合并并换回 $z$ 后得到
+\begin{equation}
+D_0(z)=-\frac{\zeta_2\ell+\ell^3/6}{1+z}.
+\label{eq:D0result}
+\end{equation}
+$D_1$ 的六项 Hlog 式见附录 \ref{app:04intermediate}。这一步的输入是明确的二维可积系数核；Hlog 求积只承担有理核与迭代积分的代数计算。
+
+\section{耦合面：一个显式原函数展示 Hlog 的入口}
+有限项只需 $H_0(z)=\mathcal H(0,z)$。为使积分边界统一到正半轴，取
+\begin{equation}
+a=\frac rT,\ b=\frac sT,\ c=\frac1T,\quad T=1+r+s,
+\qquad y=\frac u{1+u},\quad w=\frac v{1+v}.
+\end{equation}
+所有新变量均在 $(0,\infty)$。包含全部 Jacobian 后，
+\begin{equation}
+H_0=\int_0^\infty\!\dd r\dd u\dd s\dd v\,
+\frac1{T(1+u)(1+v)F_H},
+\quad F_H=r(1+u)+rsu(1+v)+zsv.
+\end{equation}
+固定 $u,s,v$，设 $A=1+u+su(1+v)$、$B=zsv$、$C=1+s$，则 $F_H=Ar+B$。首个积分直接给出
+\begin{equation}
+\int_0^\infty\frac{\dd r}{(r+C)(Ar+B)}
+=\frac{\log[B/(AC)]}{B-AC}.
+\label{eq:firstH}
+\end{equation}
+两根相撞 $B=AC$ 时右边趋于 $1/(AC)$，没有新奇点。现在只剩三个变量，且已经出现“对数乘有理核”的标准形式。沿 $r,u,s,v$ 的完整顺序继续：在当前变量中分解线性分母，使用 \eqref{eq:Gdef} 的原函数，合并正半轴端点，得到
+\begin{equation}
+H_0(z)=\frac2z\left[
+G(-1,-1,0,0;z)+\zeta_3G(-1;z)
+-\zeta_2G(-1,0;z)+3\zeta_2G(-1,-1;z)\right].
+\label{eq:H0result}
+\end{equation}
+这个例子解释了线性可约性的作用：它保证下一步仍可由同类迭代积分处理，而不只是保证第一步能积。
+
+\section{体余项：先把端点奇性显式提出}
+在体积分中还要令 $x=t/(1+t)$。设
+\begin{align}
+X&=(1+t)(1+u)(1+v),\nonumber\\
+F&=rsu(1+v)+r(1+u)(1+ztv)+zsv(1+t),\\
+b_\eps&=(rs)^{-\eps}T^{-1-\eps}X^{-1-2\eps}F^{-2+2\eps},\\
+R&=\frac{1+z}{2}(1+u)[r(1+v)+z(r-s)v(1+t)].
+\end{align}
+含 Jacobian 的完整密度为 $f=Rb_\eps$。现在并不直接展开 $b_\eps$，而是沿混合缩放方向 $r\mapsto\rho r,u\mapsto u/\rho$ 做一次 Euler 分部积分。对应算符
+\begin{equation}
+E=r\partial_r-u\partial_u
+\end{equation}
+在 $(r,u)$ 平面中散度为零。因此在受控收敛域（必要时先加辅助调节）内，$Ef$ 的全积分是可处理的端点通量；本题正规化链将其边界值核验后给出等价密度
+\begin{equation}
+f_{\rm reg}=f-\frac{Ef}{\eps}
+=b_\eps R_{\rm reg},\qquad
+R_{\rm reg}=R-\frac{ER+R\,E\log b_\eps}{\eps}.
+\label{eq:Eulerreg}
+\end{equation}
+为何恰好除以 $\eps$？在危险区域 $r\mapsto\rho r,u\mapsto u/\rho$、$\rho\to0$，有 $R\sim\rho^{-1}$、$b_\eps\sim\rho^{1+\eps}$，故 $f\sim\rho^\eps$，而 $Ef\sim\eps f$。式 \eqref{eq:Eulerreg} 正好消去这个最坏的首项。其目的与减去 $f(0)$ 相同：让端点处最坏的缩放项消失。不能对任意发散积分未经检查就丢弃总导数；这里原核恒等式和正规化后各系数的收敛性都是连接条件。
+
+为了说明这一操作实际怎样生成系数，写
+\begin{align}
+E\log b_\eps&=d_0+\eps d_1,\\
+d_0&=-\frac rT+\frac u{1+u}-2\frac{EF}{F},\qquad
+d_1=-1-\frac rT+\frac{2u}{1+u}+2\frac{EF}{F}.
+\end{align}
+于是 $R_{\rm reg}=A/\eps+B$，其中
+\begin{equation}
+A=-ER-Rd_0,\qquad B=R(1-d_1).
+\end{equation}
+又有
+\begin{equation}
+b_\eps=b_0e^{\eps L_b},\qquad
+L_b=-\log r-\log s-\log T-2\log X+2\log F.
+\end{equation}
+所以我们真正要积分的是
+\begin{equation}
+\mathcal O=\frac{O_{-1}}\eps+O_0+O(\eps),\qquad
+O_{-1}=\int b_0A,\quad O_0=\int b_0(B+AL_b).
+\label{eq:Ocoeff}
+\end{equation}
+两个系数核已可逐项积分。沿 $r,u,s,t,v$ 的完整顺序求 Hlog 后，极点项为
+\begin{equation}
+O_{-1}=-\frac12G(-1,0,0;z)-\frac32\zeta_2G(-1;z)
+-\frac12\zeta_3+\frac12\zeta_2\ell.
+\end{equation}
+用 $M_{1,1}$ 的独立定义约化，可等价写成
+\begin{equation}
+O_{-1}=-\frac14M_{1,1}-\frac14\left(\zeta_2\ell+\frac{\ell^3}{6}\right).
+\label{eq:Om1}
+\end{equation}
+$O_0$ 的完整 Hlog 表达放在附录，所有项均参与最终有限项；它不是被忽略的余项。
+
+\section{先组装 J，再乘回正确的外因子}
+令 \eqref{eq:04master} 方括号为
+$\mathscr B_{-2}/\eps^2+\mathscr B_{-1}/\eps+\mathscr B_0+\cdots$。按普通幂级数相乘，
+\begin{align}
+\mathscr B_{-2}&=\zeta_2,\\
+\mathscr B_{-1}&=\zeta_2\ell+\zeta_3-(1+z)D_0,\\
+\mathscr B_0&=\zeta_2\ell^2+\zeta_3\ell+\frac45\zeta_2^2
+-(1+z)D_1-zH_0(z)-z^{-1}H_0(1/z).
+\end{align}
+外面的 $1/(1-2\eps)$ 也要展开。因此
+\begin{align}
+j_{-2}&=\mathscr B_{-2}/4,\\
+j_{-1}&=(\mathscr B_{-1}+2\mathscr B_{-2})/4+O_{-1},\\
+j_0&=(\mathscr B_0+2\mathscr B_{-1}+4\mathscr B_{-2})/4+O_0.
+\label{eq:j04assembly}
+\end{align}
+把 Hlog 统一到相同的 $z$、同一分支和 shuffle 基底，再与从定义独立积分得到的 $M$ 表达逐项比较，得到
+\begin{align}
+j_{-2}&=\frac{\zeta_2}{4},\\
+j_{-1}&=\frac{\zeta_3-M_{1,1}}4+\frac{\ell+2}{4}\zeta_2,\\
+j_0&=\frac{M_{0,1}^2}{24}-\frac{M_{2,1}}4
++\frac{\ell+2}{4}(\zeta_3-M_{1,1})\nonumber\\
+&\hspace{1em}+\zeta_2\left(1+\frac\ell2+\frac{\ell^2}4\right)+\frac{13}{10}\zeta_2^2.
+\label{eq:j04M}
+\end{align}
+这是精确函数恒等式的约化；数值拟合可以提供线索，却不能代替这个逐项回代。
+
+最后，式 \eqref{eq:Iself} 的外因子是
+\begin{equation}
+\frac{(1-2\eps)G_2}{1+z^{2\eps}}
+=\frac12-\left(1+\frac\ell2\right)\eps
++(\ell+\zeta_2)\eps^2+O(\eps^3).
+\end{equation}
+逐阶卷积给
+\begin{align}
+[\eps^{-2}]I_{04}&=j_{-2}/2,\nonumber\\
+[\eps^{-1}]I_{04}&=j_{-1}/2-(1+\ell/2)j_{-2},\nonumber\\
+[\eps^0]I_{04}&=j_0/2-(1+\ell/2)j_{-1}+(\ell+\zeta_2)j_{-2}.
+\end{align}
+由 $M_{0,1}=-(\ell^2+6\zeta_2)/2$ 整理后，所有多余的显式 $\ell$ 组合消去，得到
+\begin{equation}
+\boxed{I_{04}=\frac{\pi^2}{48\eps^2}
++\frac{\zeta_3-M_{1,1}}{8\eps}
++\frac{M_{0,1}^2}{48}-\frac{M_{2,1}}8+\frac{\pi^4}{40}
++O(\eps).}
+\label{eq:I04result}
+\end{equation}
+它比中间的四类积分简单得多。简洁性发生在六面、体余项和归一化全部组装之后；先删掉不喜欢的中间函数，反而会丢失使简洁性成立的相消。
+
+\chapter{结果的检查，以及怎样继续提高阶数}
+\section{四个积分放在一起看}
+在统一 $I$ 下，四图的结构如下。未列出的更负幂均为零。
+\begin{center}
+\begin{tabular}{clll}
+\toprule
+图号 & 首项 & 主计算工具 & 结果位置\\
+\midrule
+01 & $1/(32\eps^4)$ & 五维核分离为 Beta 函数 & 式 \eqref{eq:result0102}\\
+02 & $1/(32\eps^4)$ & 原域完整换元到 01 & 式 \eqref{eq:result0102}\\
+03 & $-(2M_{0,1}+M_{1,1})/(8\eps)$ & 有序边界与 $\VM$ & 式 \eqref{eq:I03result}\\
+04 & $\pi^2/(48\eps^2)$ & 六面、Euler 正规化、Hlog & 式 \eqref{eq:I04result}\\
+\bottomrule
+\end{tabular}
+\end{center}
+同样是两圈图，极点阶数并不相同：局部几何、分子的零点和边界相消共同决定实际发散。$I_{03},I_{04}$ 对 $z\leftrightarrow1/z$ 为偶；这可以从原参数反射推出，也可以在最终函数中核验。
+
+在对称点 $z=1$，用一维定义直接求积得到
+\begin{align*}
+M_{0,1}(1)&=-4.9348022005446793,\\
+M_{1,1}(1)&=11.0482876249156965,\\
+M_{2,1}(1)&=-30.7283806552417136.
+\end{align*}
+从而
+\begin{align*}
+I_{03}(1,\eps)&=-0.1473354029782922\,\eps^{-1}
++0.6111749533918306+O(\eps),\\
+I_{04}(1,\eps)&=0.2056167583560283\,\eps^{-2}
+-1.2307788402195128\,\eps^{-1}\\
+&\hspace{1em}+6.7836138735573712+O(\eps).
+\end{align*}
+这些数值便于检查符号、$1/2$ 因子和程序实现。本次文稿也在 $z=1/2,1,2$ 检查了矩定义与低权重显式式。它们是局部独立核验，不被表述为对整个原五维积分的重新数值计算；原五维积分已有的独立检验见附录来源说明。
+
+\section{“任意阶 Hlog”需要满足什么条件}
+对 01、02，式 \eqref{eq:I01closed} 给出直接的全阶 Gamma 生成。对 03，式 \eqref{eq:I03all} 已把所有阶写入 $\VM$，固定阶只涉及有限个矩；显式偶次 $\ell$ 可由 $\ell^2=-2M_{0,1}-6\zeta_2$ 消去。
+
+对 04，关键不是把原发散积分无限展开，而是复用已经正规化的系数核。例如 \eqref{eq:Ocoeff} 的一般阶为
+\begin{equation}
+\boxed{O_N=\int b_0\left[\frac{B L_b^N}{N!}
++\frac{A L_b^{N+1}}{(N+1)!}\right],\qquad N\ge0.}
+\label{eq:Oall}
+\end{equation}
+提高阶数只提高对数的幂，不引入新的有理分母多项式。边界核也有相同性质。若用于这些核的完整线性可约顺序和端点控制保持有效，就能用相同的超对数算法计算任意给定的有限阶\cite{panzer}；计算量会随字长和项数迅速增长。
+
+若目标是 $[\eps^N]I_{04}$，实际要准备的截断精度为
+\begin{center}
+\begin{tabular}{ccccc}
+\toprule
+对象 & $\mathcal C$ & $\mathcal D$ & $\mathcal H,\mathcal O$ & 外归一化因子\\
+\midrule
+需要算到 & $\eps^N$ & $\eps^{N+1}$ & $\eps^N$ & $\eps^{N+2}$\\
+\bottomrule
+\end{tabular}
+\end{center}
+原因分别是边界式中的 $1/\eps$ 与 $J$ 的二阶极点。这张阶数表往往比“将程序的展开阶改大”更重要，因为少算某个前因子的高阶项会污染目标系数。
+
+\section{Hlog 可计算与 M/N 可约化是两个问题}
+Hlog 表示回答“该系数是否已被积分成一类明确的特殊函数”。$M,N$ 约化回答“这个函数是否落在一个更小、更有物理组织性的函数空间”。其中
+\begin{equation}
+N_{k,j}=M_{k,j+1}-\ell M_{k,j}.
+\end{equation}
+04 的有限项属于 $M$，$\eps^1$ 仍属于 $M/N$；已有 $\eps^2$ 结果在所声明的有理常系数、固定权重 $M/N$ 多项式空间中不能闭合，加入先前独立定义的双端矩 $\tau^+_{D,4}$ 后可以闭合。附录 \ref{app:highorder} 给出完整公式及准确的限制范围。两阶的 Hlog 字母仍是 $0,-1$，并没有因这个基底缺口而出现新的运动学字母。
+
+因此，对本系列应说：在已建立的正规化和完整线性可约路线下，任意固定阶有 Hlog 计算方法；一个预先选定的有限函数族未必能包办所有阶。不能把这句话推广成“任何 Feynman 积分都能算成 Hlog”，也不能把某个受限 $M/N$ 空间的失败当成一切更广表示的不可能性证明。
+
+\section{另一个全 \texorpdfstring{$\eps$}{ε} 表示为何不能直接当作逐阶捷径}
+04 还可由 $p=2-2\eps$、$L_0=1+z$ 写为
+\begin{equation}
+J_{04}=L_0^{-p}\sum_{k\ge0}\frac{(p)_k}{k!}\,B_k(\eps,z).
+\end{equation}
+具体地，把有限多项式展开成
+\[
+P\left(1-\frac S{L_0}\right)^k
+=\sum_{\mathbf m,\mathbf n}c^{(k)}_{\mathbf m,\mathbf n}
+\,\mathbf s^{\mathbf m}\boldsymbol\alpha^{\mathbf n},
+\]
+每个块都已逐个单项式积分：
+\begin{equation}
+B_k=\sum_{\mathbf m,\mathbf n}c^{(k)}_{\mathbf m,\mathbf n}
+\prod_{i=1}^3\frac1{m_i+1}
+\frac{\prod_{j=1}^3\Gamma(n_j+1-\eps)}
+{\Gamma(n_1+n_2+n_3+3-3\eps)}.
+\end{equation}
+该表示在 $z>0,\ 1/2<\operatorname{Re}\eps<1$ 的已给定收敛域成立，再亚纯延拓到零附近。它是显式积分后的无穷级数，但要交换 $k$ 求和与零点 Laurent 展开，仍需额外控制；不能仅因为每个 $B_k$ 都是 Gamma 函数，就在不属于收敛域的 $\eps=0$ 逐块展开。正文采用的端点正规化路线正是为了直接掌握所需的 Laurent 系数。

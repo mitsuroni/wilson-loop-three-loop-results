@@ -1,0 +1,164 @@
+{
+  "orbit_id": "6e-38",
+  "family": "mixed-opposite",
+  "source_bindings": {
+    "graph": {
+      "path": "inputs/source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+      "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+      "json_pointer": "/orbits/147",
+      "field_sha256": "0ab5cd58cd065f49b8990249160bd387116e6aff5f3fd685dcb55ba49a211992"
+    },
+    "native_raw": {
+      "path": "inputs/source/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/6e/montopar-initial.json",
+      "sha256": "b67f8617d1f6badb1ea5cc26863be782086205240cb89eb2082dd989451b30e7",
+      "json_pointer": "/orbits/37",
+      "field_sha256": "a774796e50ad962f4bc0e643d249ab7a3b806de26a7aed878758a56f83f5dc99"
+    },
+    "ordered_original": {
+      "path": "inputs/source/snapshots/benchmarks/2ne/sources/montopar-ordered/6e/montopar-initial.json",
+      "sha256": "890858f4429fa39bcf4e7f2de9afbf847193a1a6dc2b377250b9d75f9603475b",
+      "json_pointer": "/orbits/37",
+      "field_sha256": "9ab66d2724732e7a9a8077875eee7bab04cf062cf3bbde805b63e6f6d5b50552"
+    },
+    "native_prepared": {
+      "path": "inputs/source/native-prepared-6e.json",
+      "sha256": "0b4f6dfb4586a58fafe155651fc39893d80f0ea303abb18eac88fa6c918dcec4",
+      "json_pointer": "/orbits/37",
+      "field_sha256": "ec5bedbc6f0d74f34f285428387a693858bd63b0d50efc95e8742108ef37c383"
+    }
+  },
+  "historical_derivations": [
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/mixed-opposite/README.md",
+      "sha256": "06e210e7a51a00bde3a1894b73830717c10bc42af41b4312eea5077a5f11d5ad"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/families/mixed-opposite/method.md",
+      "sha256": "7f9f44b8a5bf9b8820575c42fbfa79125c705841865310d15f3c0fadb3d9830c"
+    },
+    {
+      "path": "evidence/historical/benchmarks/2ne/workspaces/6e-38/derivation.md",
+      "sha256": "6b31c258b719a819ff0ff6a740d89a7613a9b96b5c9b58fe1448825c672a8c4c"
+    },
+    {
+      "path": "evidence/historical/workflow/checks/mixed-opposite/runs/20260917T021941919630Z/6e-38-derivation.md",
+      "sha256": "6b31c258b719a819ff0ff6a740d89a7613a9b96b5c9b58fe1448825c672a8c4c"
+    }
+  ],
+  "original_evaluation_route": {
+    "note": "Each actual root gives H0*Qid or H0*Qswap with its own kappa/crossing. Finite evaluation reuses explicitly bound q=0 primitives; historical publication records new_HyperInt_executed=false. Equal finite parts do not identify the full I.",
+    "required_historical_mothers": [
+      "H0(q=0)",
+      "Q_swap_0_0_0",
+      "M01"
+    ],
+    "orbit_specific_reduction": {
+      "topology": "swap",
+      "permutation": [
+        1,
+        0
+      ],
+      "single": {
+        "id": "f1",
+        "variables": [
+          "s11",
+          "s31"
+        ],
+        "inverted": true,
+        "polynomial_residual": "0"
+      },
+      "links": [
+        {
+          "id": "f1",
+          "variables": [
+            "s11",
+            "s31"
+          ],
+          "inverted": true,
+          "polynomial_residual": "0"
+        },
+        {
+          "id": "f2",
+          "variables": [
+            "s21",
+            "s42"
+          ],
+          "inverted": false,
+          "polynomial_residual": "0"
+        },
+        {
+          "id": "f3",
+          "variables": [
+            "s22",
+            "s41"
+          ],
+          "inverted": false,
+          "polynomial_residual": "0"
+        }
+      ],
+      "chains": [
+        [
+          "s11"
+        ],
+        [
+          "s21",
+          "s22"
+        ],
+        [
+          "s31"
+        ],
+        [
+          "s41",
+          "s42"
+        ]
+      ],
+      "t_low_high": [
+        "s21",
+        "s22"
+      ],
+      "s_low_high": [
+        "s41",
+        "s42"
+      ],
+      "a1": "1/4",
+      "sym": 2,
+      "kappa": "-1/32",
+      "adjacent_count": 0,
+      "explicit_epsilon_denominator_power": 0,
+      "J": "H0*Qswap*z**(3*eps/2)",
+      "I": "-G**3*H0*Qswap/(32*cosh(3*ell*eps/2))"
+    },
+    "derivation_headings_read": [
+      "6e-38：[1,2] / [2,1] 族解析解",
+      "输入与原始次序",
+      "分组、母核与完整结果",
+      "Laurent 系数",
+      "检查与边界"
+    ]
+  },
+  "relationship": {
+    "kind": "finite_I_equal_only",
+    "scope": "epsilon^0 physical I only; complete epsilon functions generally different",
+    "representative": "6e-37",
+    "factor": "1 at epsilon^0",
+    "evidence": [
+      {
+        "path": "benchmarks/2ne/families/mixed-opposite/method.md",
+        "sha256": "7f9f44b8a5bf9b8820575c42fbfa79125c705841865310d15f3c0fadb3d9830c",
+        "locator": "method sections 6 and 7; nonzero-epsilon control"
+      },
+      {
+        "path": "benchmarks/2ne/workspaces/6e-38/derivation.md",
+        "sha256": "6b31c258b719a819ff0ff6a740d89a7613a9b96b5c9b58fe1448825c672a8c4c"
+      }
+    ],
+    "J_status": "No equality/proportionality of the original J is inferred from a physical-I relation.",
+    "proof_status": "existing analytic derivation with computational checks; not a new formal proof"
+  },
+  "reference": {
+    "path": "benchmarks/2ne/results/6e-38/r001.json",
+    "sha256": "db5e70a386d226c2c28313f9bc1ca28abaa25db5b89ecd71d458baa31a28a360"
+  },
+  "reference_read_during_staging": false,
+  "P1_reuse": false
+}

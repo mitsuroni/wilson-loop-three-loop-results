@@ -1,0 +1,122 @@
+{
+  "format": "wilson-6e-publication-result/1",
+  "orbit_id": "6e-37",
+  "quantity": "I",
+  "family": "mixed-opposite",
+  "domain": "z>0; local meromorphic epsilon expansion, O(eps)",
+  "normalization": {
+    "format": "wilson-2ne-assembly/0.1",
+    "n": 3,
+    "kappa": "-1/16",
+    "euler": "consumed from prepared C exactly once",
+    "formula": "kappa*G(eps)^n*(J(z)+z^(n*eps)*J(1/z))/(1+z^(n*eps))",
+    "a1": "1/2",
+    "sym": 2
+  },
+  "coefficients": {
+    "-6": {
+      "hlog_terms": [],
+      "function_conversion": [],
+      "function_latex": "0"
+    },
+    "-5": {
+      "hlog_terms": [],
+      "function_conversion": [],
+      "function_latex": "0"
+    },
+    "-4": {
+      "hlog_terms": [],
+      "function_conversion": [],
+      "function_latex": "0"
+    },
+    "-3": {
+      "hlog_terms": [],
+      "function_conversion": [],
+      "function_latex": "0"
+    },
+    "-2": {
+      "hlog_terms": [],
+      "function_conversion": [],
+      "function_latex": "0"
+    },
+    "-1": {
+      "hlog_terms": [],
+      "function_conversion": [],
+      "function_latex": "0"
+    },
+    "0": {
+      "hlog_terms": [
+        {
+          "word": [],
+          "zeta_powers": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": "9/32"
+        },
+        {
+          "word": [
+            0,
+            0
+          ],
+          "zeta_powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "9/32"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": "9/16"
+        },
+        {
+          "word": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "zeta_powers": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": "15/16"
+        }
+      ],
+      "function_conversion": [
+        {
+          "factors": [
+            "M_0_1",
+            "M_0_1",
+            "M_0_1"
+          ],
+          "coefficient": "-1/96"
+        }
+      ],
+      "function_latex": "-\\frac{1}{96} M_{0,1}(z) M_{0,1}(z) M_{0,1}(z)"
+    }
+  },
+  "generation_result": {
+    "path": "evidence/generation/generated.json",
+    "path_base": "package root",
+    "sha256": "fc4efa5347e5e4f8fb5447a37342ef0c6471fcb67c287f360cd54df01069aad9",
+    "json_pointer": "/6e-37"
+  },
+  "scope": "HLOG coordinates and function conversion exported only after exact comparison with the newly reassembled candidate. Complex source branch/formal proof not newly established.",
+  "formal": "not_run"
+}

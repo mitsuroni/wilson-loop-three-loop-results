@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-17",
+  "recording": "Recorded from actual tool responses in this session; not fabricated re-runs.",
+  "preprocessing": {
+    "orbits": 47,
+    "passed": true
+  },
+  "unit_tests": {
+    "command": "D:/py/python.exe -m unittest discover -s workflow/checks/same-channel-three -p test_*.py",
+    "ran": 8,
+    "passed": true
+  },
+  "artifact_verifier": {
+    "command": "D:/py/python.exe workflow/checks/same-channel-three/verify_results.py",
+    "passed": true,
+    "results": 3,
+    "laurent_coefficients": 21,
+    "hash_checks_including_snapshots": 687,
+    "representation_space_comparisons": 6,
+    "existing_E_extension_fits": 4
+  },
+  "navigation_inventory": {
+    "passed": true,
+    "new_documents": 8,
+    "local_links": 50,
+    "current_result_ids": 47,
+    "scope": "Metadata/input-hash inventory; not all 47 mathematical integrations re-run."
+  },
+  "git": {
+    "committed": false,
+    "pushed": false
+  },
+  "formal": "not_run"
+}

@@ -1,0 +1,85 @@
+{
+  "orbit_id": "4e-05",
+  "source_public_commit": "7e77ddb83d8aa9622c05a553281b262f0e9dc7ca",
+  "accepted_result": {
+    "path": "../../families/low-loop-runtime/integrals/two-loop/4e-05/result.json",
+    "sha256": "94f5811e312c534c922f39205b497608d791f75808d9d06d7dbf0b04b8c5aeee"
+  },
+  "family_catalog_entry": {
+    "orbit_id": "4e-05",
+    "family": "pure",
+    "canonical_convention": "accepted complete I, projected exponent color and C4 included",
+    "assembly_sign": 1,
+    "legacy_to_canonical_multiplier": 1,
+    "color_weights_over_CF": {
+      "CA": "1",
+      "T": "0"
+    },
+    "canonical_source": {
+      "path": "sources/benchmarks/2ne/results/4e-05/r001.json",
+      "sha256": "0ea95ad21c361fb536cf5e1b3c10c2cbde1a321dba034b527b59015845b50915",
+      "canonical_convention": "accepted complete I, projected exponent color and C4 included"
+    },
+    "result": "4e-05/result.json"
+  },
+  "source_manifest": "../../families/low-loop-runtime/integrals/two-loop/source-manifest.json",
+  "scope": "Initial graph/raw/native C/J and original ordered domain bound explicitly; accepted normalized I and historical replay comparison remain separate.",
+  "graph_definition": {
+    "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+    "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+    "json_pointer": "/orbits/10",
+    "field_sha256": "a364277188258f796c31dad22bc58301702cadea0f1a837f1edab27819c0d388",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "native_raw_orbit": {
+    "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json",
+    "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+    "json_pointer": "/orbits/4",
+    "field_sha256": "49e2d2f63acca44904d544619a0c5d69fd3100d197ea2f75257cf70344f793c4",
+    "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+  },
+  "native_prepared": {
+    "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+    "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+    "field": "/orbits/4"
+  },
+  "original_ordered_J": {
+    "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+    "json_pointer": "/orbits/4/J",
+    "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+    "order_outer_to_inner": [
+      "x1",
+      "x2",
+      "x3",
+      "x4"
+    ],
+    "bounds": {
+      "x1": [
+        0,
+        1
+      ],
+      "x2": [
+        0,
+        1
+      ],
+      "x3": [
+        0,
+        1
+      ],
+      "x4": [
+        0,
+        1
+      ]
+    },
+    "alpha_measure": null,
+    "jacobian": null
+  },
+  "normalization": {
+    "euler_compensation_count": 1,
+    "assembly_sign": 1,
+    "scheme": "native-physical-CJ",
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+  },
+  "operator": null,
+  "references_relative_to": "this input.json directory; family_catalog_entry is archived catalog content, relative to its original two-loop runtime directory"
+}

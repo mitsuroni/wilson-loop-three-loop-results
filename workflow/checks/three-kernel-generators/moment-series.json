@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "moment_controls": [
+    {
+      "epsilon": "0.23",
+      "z": "0.6",
+      "n": 1,
+      "error": "1.0022868e-51"
+    },
+    {
+      "epsilon": "0.23",
+      "z": "0.6",
+      "n": 2,
+      "error": "6.6819118e-52"
+    },
+    {
+      "epsilon": "0.23",
+      "z": "0.6",
+      "n": 5,
+      "error": "3.3409559e-52"
+    },
+    {
+      "epsilon": "0.31",
+      "z": "1.8",
+      "n": 1,
+      "error": "0.0"
+    },
+    {
+      "epsilon": "0.31",
+      "z": "1.8",
+      "n": 2,
+      "error": "2.6727647e-51"
+    },
+    {
+      "epsilon": "0.31",
+      "z": "1.8",
+      "n": 5,
+      "error": "1.0691059e-50"
+    },
+    {
+      "epsilon": "0.2",
+      "z": "1",
+      "n": 1,
+      "error": "0.0"
+    },
+    {
+      "epsilon": "0.2",
+      "z": "1",
+      "n": 2,
+      "error": "0.0"
+    },
+    {
+      "epsilon": "0.2",
+      "z": "1",
+      "n": 5,
+      "error": "0.0"
+    }
+  ],
+  "diagonal_series_controls": [
+    {
+      "epsilon": "0.23",
+      "z": "0.6",
+      "auxiliary_x": "0.1",
+      "terms": 60,
+      "series": "0.0011494459422067302581433069823136866168701973373286",
+      "quadrature": 0.0011494459422067653,
+      "error": 3.5128150388530344e-17,
+      "tolerance": 2e-08
+    },
+    {
+      "epsilon": "0.31",
+      "z": "1.8",
+      "auxiliary_x": "0.1",
+      "terms": 60,
+      "series": "0.0038968207297885220718119835976435107643723059541912",
+      "quadrature": 0.0038968207297886397,
+      "error": 1.1752751549742868e-16,
+      "tolerance": 2e-08
+    },
+    {
+      "epsilon": "0.2",
+      "z": "1",
+      "auxiliary_x": "0.1",
+      "terms": 60,
+      "series": "-0.000048508931466037412812422502341414086146715470707596",
+      "quadrature": -4.8508931466038765e-05,
+      "error": 1.3552527156068805e-18,
+      "tolerance": 2e-08
+    }
+  ],
+  "physical_z1_W": {
+    "epsilon": "0.23",
+    "series_200": "-12.860233942934489507811116370238947437164062700603",
+    "quadrature": -12.860233756077184,
+    "error": 1.868573047403288e-07,
+    "tolerance": 5.522837108437478e-06
+  },
+  "limitation": "For z != 1 the small-auxiliary-x series requires specified analytic continuation to x=1; no fast general-z summation is claimed.",
+  "formal": "not_run"
+}
