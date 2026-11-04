@@ -25,9 +25,9 @@ The [result article](results/current/four-color-results.md) displays every Laure
 
 The current catalogue covers **163 source orbits**:2 at one loop,12 at two loops and149 at three loops. Each selected integral is connected to its graph and native C/J definition. Four-leg sources are assembled through the joint-object ledger.
 
-The continuous reading layer covers **2 one-loop,12 two-loop and39 three-loop6e integrals**. Each entry connects its actual initial integral to evaluated subintegrals and the requested Laurent coefficients. The [15 insertion](evaluations/three-loop-insertions/README.md) and [44 tree-three-gluon](evaluations/three-loop-tree5e/README.md) calculation packets are also available. Their original methods, code, raw outputs and validation records accompany the results.
+The continuous reading layer covers **2 one-loop,12 two-loop and54 three-loop integrals (39 pure exchanges and15 insertions)**. Each entry connects its actual initial integral to evaluated subintegrals and the requested Laurent coefficients. The [15 insertion](evaluations/three-loop-insertions/README.md) and [44 tree-three-gluon](evaluations/three-loop-tree5e/README.md) calculation packets are also available. Their original methods, code, raw outputs and validation records accompany the results.
 
-The [validation index](validation/README.md) connects the complete four-color assembly and RG checks, the53-entry public replay, and the individual mathematical reading audits.
+The [validation index](validation/README.md) connects the complete four-color assembly and RG checks, the53-entry earlier public replay and the15-entry insertion release replay, and the individual mathematical reading audits.
 
 ## Run the current calculation
 

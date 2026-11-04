@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "generation": {
+    "stage": "generate",
+    "arguments": [
+      "D:\\wilson-agent\\integrals\\three-loop\\4e-Pi1-01\\code\\reproduce.py",
+      "--output",
+      "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\runs\\primary-r001\\generation"
+    ],
+    "returncode": 0,
+    "seconds": 10.415072100004181,
+    "log_sha256": "bebcb947ed66a9252057b5df606d66d1a175d1a0a74672783228bca9e833f8a7"
+  },
+  "checks": [
+    {
+      "stage": "verify",
+      "arguments": [
+        "D:\\wilson-agent\\integrals\\families\\three-loop-insertions\\runtime\\scripts\\verify_batch.py",
+        "--results",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\runs\\primary-r001\\generation\\generated.json",
+        "--out",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\runs\\primary-r001\\verification.json"
+      ],
+      "returncode": 0,
+      "seconds": 1.857499200035818,
+      "log_sha256": "9032aabf8601ffef83f71292a0ab97b1797508334071ee0f5838d27f77fc508d"
+    },
+    {
+      "stage": "representations",
+      "arguments": [
+        "D:\\wilson-agent\\integrals\\families\\three-loop-insertions\\runtime\\scripts\\check_representations.py",
+        "--results",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\runs\\primary-r001\\generation\\generated.json",
+        "--out",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\runs\\primary-r001\\representations.json"
+      ],
+      "returncode": 0,
+      "seconds": 1.7310846000327729,
+      "log_sha256": "3a3e1a25553e9c2fafbdc48f63359f749d2f9d0ef0b1fde2bbe0cf17ee7cef98"
+    },
+    {
+      "stage": "controls",
+      "arguments": [
+        "D:\\wilson-agent\\integrals\\families\\three-loop-insertions\\runtime\\scripts\\independent_controls.py",
+        "--results",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\runs\\primary-r001\\generation\\generated.json",
+        "--out",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\runs\\primary-r001\\independent-controls.json"
+      ],
+      "returncode": 0,
+      "seconds": 4.367448200006038,
+      "log_sha256": "0b5b7bb3f94eaed6258e5f8a117d4eb2cfc123a490ca8b08424fbf5af1451f62"
+    }
+  ],
+  "scope": "Source-matched root reductions, adopted moment dictionaries and full-D Pi2 operator, fresh physical/colour assembly, then exact comparison, representations and scoped controls. No new CAS or formal proof."
+}

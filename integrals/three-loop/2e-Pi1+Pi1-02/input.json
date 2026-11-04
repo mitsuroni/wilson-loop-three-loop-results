@@ -1,0 +1,174 @@
+{
+  "orbit_id": "2e-Pi1+Pi1-02",
+  "family": "Pi1-chain-opposite",
+  "references_relative_to": "this input.json directory",
+  "source_bindings": {
+    "graph": {
+      "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+      "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+      "field": "/orbits/1",
+      "field_sha256": "fa83d18a073d1138a22c98ab1ead46c88d1158cc6453ac6618762434231214ae"
+    },
+    "native_prepared": {
+      "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/2e-Pi1+Pi1.json",
+      "sha256": "8b68e8b5fe77e72eb27dd2ed9651dbfcd246d27008a0887a1b28cdf2408d152b",
+      "field": "/orbits/1"
+    },
+    "native_raw": {
+      "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/2e-Pi1+Pi1/montopar-initial.json",
+      "sha256": "372518d691634fc41d9f8d18f2479a2604f67f45bb9a66ce426c060f7f6301f8",
+      "field": "/orbits/1"
+    }
+  },
+  "archived_input": {
+    "path": "../../families/three-loop-insertions/runtime/integrals/three-loop/2e-Pi1+Pi1-02/input.json",
+    "sha256": "a2e6f91f1d50500f8f33a64bf6b8b2dbcf3dc83c99e2c9a0dc2d777f7e22502f"
+  },
+  "original_ordered_J": {
+    "representation": "ordered_s",
+    "variables": [
+      "s21",
+      "s41"
+    ],
+    "bounds": {
+      "s21": [
+        "0",
+        "1"
+      ],
+      "s41": [
+        "0",
+        "1"
+      ]
+    },
+    "iterated_order_outer_to_inner": [
+      "s21",
+      "s41"
+    ],
+    "source_bounds_array": [
+      {
+        "var": "s21",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "1"
+      }
+    ],
+    "order_basis": "ascending contour edges; frozen chain source order",
+    "jacobian": "1",
+    "integrand": "(-2 - eps + 2*s21 + 2*s41 - z1 + eps*s21 + eps*s41 - 4*eps*z1 - 2*s21*s41 + 2*s21*z1 + 2*s41*z1 - eps*s21*s41 + eps*s21*z1 + eps*s41*z1 - 4*s21*s41*z1 - 2*eps*s21*s41*z1 - 2*s21*s41*z1^2 - eps*s21*s41*z1^2)*(1 - s21 - s41 + s21*s41 + s21*s41*z1)^(-2+3*eps)/(2*(1+2*eps))",
+    "se_numerator": "-2 - eps + 2*s21 + 2*s41 - z1 + eps*s21 + eps*s41 - 4*eps*z1 - 2*s21*s41 + 2*s21*z1 + 2*s41*z1 - eps*s21*s41 + eps*s21*z1 + eps*s41*z1 - 4*s21*s41*z1 - 2*eps*s21*s41*z1 - 2*s21*s41*z1^2 - eps*s21*s41*z1^2",
+    "geometry_polynomials": [
+      {
+        "loop": "l1",
+        "kind": "self_energy_chain",
+        "edges": [
+          2,
+          4
+        ],
+        "s_vars": [
+          "s21",
+          "s41"
+        ],
+        "X_coefficients": [
+          "0",
+          "-1 + s21",
+          "-1",
+          "-s41"
+        ],
+        "f": "1 - s21 - s41 + s21*s41 + s21*s41*z1",
+        "d": "-(1+z1)",
+        "u": "-1 + s41 + s41*z1",
+        "w": "1 - s21 - s21*z1"
+      }
+    ],
+    "power_prescription": "each f power is the common Feynman boundary value (f+I0)^power; continue jointly with C"
+  },
+  "native_normalization": {
+    "scheme": "native-physical-CJ",
+    "loop_order": 3,
+    "color_projection": "none",
+    "euler_compensation_count": 1,
+    "orbit_multiplicity_included": false,
+    "crossing_assembled": false,
+    "normalized_wilson_trace": "Tr/N",
+    "extra_factorial": "none",
+    "gamma_residual": "Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps]/(Gamma[1-2*eps]^2*Gamma[1+2*eps])",
+    "gamma_residual_Euler_linear_coefficient": "0",
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+    "assembly_sign": 1
+  },
+  "evaluated_quantity_normalization": {
+    "scheme": "native-physical-CJ",
+    "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+    "assembly_sign": 1,
+    "loop_order": 3,
+    "Euler_count": 1,
+    "sym": 2,
+    "a1": "1",
+    "external_color": "CF*B1(eps)^2",
+    "C_derived_residual_sign": "-1",
+    "includes_U": true,
+    "formula": "(sym/2)*R_native*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))"
+  },
+  "native_operator": {
+    "name": "Pi1+Pi1",
+    "kind": "one_particle_reducible",
+    "insertion_count": 2,
+    "subgraph_loop_orders": [
+      1,
+      1
+    ],
+    "insertions": [
+      {
+        "type": "se",
+        "id": "se1",
+        "propagator": "l1",
+        "se_type": "vacuum-pol",
+        "lorentz": [
+          "nu1",
+          "nu2"
+        ],
+        "color": [
+          "b1",
+          "b2"
+        ]
+      },
+      {
+        "type": "se",
+        "id": "se2",
+        "propagator": "l1",
+        "se_type": "vacuum-pol",
+        "lorentz": [
+          "nu3",
+          "nu4"
+        ],
+        "color": [
+          "b3",
+          "b4"
+        ]
+      }
+    ],
+    "dyson_coefficient": "1",
+    "renormalization": "bare",
+    "dimension": "4-2*eps",
+    "gauge": "Feynman",
+    "Pi1_source": "hep-ph/9605348 Appendix C (C.1),(C.3); xi_D=0",
+    "theory": "docs/self-energy-pi1-chain.md, SC1-SC24",
+    "Pi1_scalar": "I*g^2/(2*(4*Pi)^(2-eps))*Gamma[eps]*Gamma[1-eps]^2/Gamma[2-2*eps]*C_SE*(-l^2-I0)^(-eps)",
+    "C_SE": "((10-6*eps)*CA-8*(1-eps)*TF*nf)/(3-2*eps)",
+    "tensor_identity": "T*g*T=l^2*T; T=l^2*g-l*l",
+    "epsilon_precision": "exact"
+  },
+  "quantity": "physical I",
+  "relationship": {
+    "kind": "independently_derived_geometry_with_reused_function_data",
+    "scope": "Original source orbit stays separately counted; function-moment reuse is not a second independent evaluation.",
+    "evidence": [
+      "benchmarks/self-energy/pi1-chain/workspaces/2e-Pi1+Pi1-02/derivation.md"
+    ]
+  },
+  "scope": "Original ordered tensor kernel and source bindings are explicit. Scalar/geometric quantity and full outside colour operators retain distinct definitions; archived input retains full historical provenance."
+}

@@ -1,0 +1,827 @@
+{
+  "format": "wilson-p5-pi1-evaluation/1",
+  "orbit_id": "4e-Pi1-02",
+  "family": "Pi1-P1",
+  "normalization": {
+    "scheme": "wilson-self-energy-1pi-insertion/2.0",
+    "loop_order": 3,
+    "a1": "-1/2",
+    "sym": 4,
+    "rational": "1/(32*eps*(1 - 2*eps))",
+    "full_wilson_color": "CF*(-CA/2 + CF)",
+    "B1": "(CA*(10 - 6*eps) - TF*nf*(8 - 8*eps))/(3 - 2*eps)",
+    "Euler_count": 1,
+    "current_source_convention": "wilson-qcd-action-path-fourier/1.0",
+    "source_check_groups": 13,
+    "external_color": "CA*CF*B1(eps)",
+    "formula": "I=(sym*a1/2)*Gcal^3*C_rational*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+    "Ff_ff": "zero in the connected a1-projected Pi1 contribution; full raw trace retained separately"
+  },
+  "laurent": {
+    "from_power": -6,
+    "through_power": 0,
+    "leading_power": -5,
+    "remainder": "O(eps)",
+    "coefficients": {
+      "-6": {
+        "expression": "0",
+        "language": "SymPy/str",
+        "latex": "0",
+        "hlog_terms": []
+      },
+      "-5": {
+        "expression": "-1/576",
+        "language": "SymPy/str",
+        "latex": "- \\frac{1}{576}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/576"
+          }
+        ]
+      },
+      "-4": {
+        "expression": "-1/576",
+        "language": "SymPy/str",
+        "latex": "- \\frac{1}{576}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/576"
+          }
+        ]
+      },
+      "-3": {
+        "expression": "-(pi**2 + 12)/2304",
+        "language": "SymPy/str",
+        "latex": "- \\frac{\\pi^{2} + 12}{2304}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-1/192"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/384"
+          }
+        ]
+      },
+      "-2": {
+        "expression": "-(4*zeta(3) + pi**2 + 20)/2304",
+        "language": "SymPy/str",
+        "latex": "- \\frac{4 \\zeta\\left(3\\right) + \\pi^{2} + 20}{2304}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-5/576"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/576"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/384"
+          }
+        ]
+      },
+      "-1": {
+        "expression": "-(480*zeta(3) + 19*pi**4 + 360*pi**2 + 5280)/276480",
+        "language": "SymPy/str",
+        "latex": "- \\frac{480 \\zeta\\left(3\\right) + 19 \\pi^{4} + 360 \\pi^{2} + 5280}{276480}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-11/576"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/576"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-1/128"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-19/7680"
+          }
+        ]
+      },
+      "0": {
+        "expression": "-(288*zeta(5) + 120*pi**2*zeta(3) + 1440*zeta(3) + 19*pi**4 + 600*pi**2 + 10080)/276480",
+        "language": "SymPy/str",
+        "latex": "- \\frac{288 \\zeta\\left(5\\right) + 120 \\pi^{2} \\zeta\\left(3\\right) + 1440 \\zeta\\left(3\\right) + 19 \\pi^{4} + 600 \\pi^{2} + 10080}{276480}",
+        "hlog_terms": [
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              0
+            ],
+            "coefficient": "-7/192"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              0,
+              1
+            ],
+            "coefficient": "-1/960"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              0,
+              1,
+              0
+            ],
+            "coefficient": "-1/192"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              0,
+              0
+            ],
+            "coefficient": "-5/384"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": "-1/384"
+          },
+          {
+            "word": [],
+            "zeta_powers": [
+              2,
+              0,
+              0
+            ],
+            "coefficient": "-19/7680"
+          }
+        ]
+      }
+    }
+  },
+  "color_channels": [
+    {
+      "monomial": "CA^2*CF",
+      "exact_scalar_multiplier": "(10 - 6*eps)/(3 - 2*eps)",
+      "coefficients": {
+        "-6": {
+          "expression": "0",
+          "language": "SymPy/str",
+          "hlog_terms": []
+        },
+        "-5": {
+          "expression": "-5/864",
+          "language": "SymPy/str",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-5/864"
+            }
+          ]
+        },
+        "-4": {
+          "expression": "-1/162",
+          "language": "SymPy/str",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-1/162"
+            }
+          ]
+        },
+        "-3": {
+          "expression": "-5*(9*pi**2 + 112)/31104",
+          "language": "SymPy/str",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-35/1944"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-5/576"
+            }
+          ]
+        },
+        "-2": {
+          "expression": "-(135*zeta(3) + 36*pi**2 + 712)/23328",
+          "language": "SymPy/str",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-89/2916"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-5/864"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-1/108"
+            }
+          ]
+        },
+        "-1": {
+          "expression": "-(13824*zeta(3) + 513*pi**4 + 10080*pi**2 + 149248)/2239488",
+          "language": "SymPy/str",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-583/8748"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-1/162"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-35/1296"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                2,
+                0,
+                0
+              ],
+              "coefficient": "-19/2304"
+            }
+          ]
+        },
+        "0": {
+          "expression": "-(14580*zeta(5) + 6075*pi**2*zeta(3) + 75600*zeta(3) + 1026*pi**4 + 32040*pi**2 + 536480)/4199040",
+          "language": "SymPy/str",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-3353/26244"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-1/288"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-35/1944"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "-89/1944"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                1,
+                0
+              ],
+              "coefficient": "-5/576"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                2,
+                0,
+                0
+              ],
+              "coefficient": "-19/2160"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "monomial": "CA*CF*TF*nf",
+      "exact_scalar_multiplier": "(8*eps - 8)/(3 - 2*eps)",
+      "coefficients": {
+        "-6": {
+          "expression": "0",
+          "language": "SymPy/str",
+          "hlog_terms": []
+        },
+        "-5": {
+          "expression": "1/216",
+          "language": "SymPy/str",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1/216"
+            }
+          ]
+        },
+        "-4": {
+          "expression": "1/324",
+          "language": "SymPy/str",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1/324"
+            }
+          ]
+        },
+        "-3": {
+          "expression": "(88 + 9*pi**2)/7776",
+          "language": "SymPy/str",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "11/972"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "1/144"
+            }
+          ]
+        },
+        "-2": {
+          "expression": "(54*zeta(3) + 9*pi**2 + 196)/11664",
+          "language": "SymPy/str",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "49/2916"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1/216"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "1/216"
+            }
+          ]
+        },
+        "-1": {
+          "expression": "(8640*zeta(3) + 513*pi**4 + 7920*pi**2 + 109120)/2799360",
+          "language": "SymPy/str",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "341/8748"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                1,
+                0
+              ],
+              "coefficient": "1/324"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "11/648"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                2,
+                0,
+                0
+              ],
+              "coefficient": "19/2880"
+            }
+          ]
+        },
+        "0": {
+          "expression": "(11664*zeta(5) + 513*pi**4 + 47520*zeta(3) + 4860*pi**2*zeta(3) + 17640*pi**2 + 303520)/4199040",
+          "language": "SymPy/str",
+          "hlog_terms": [
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                0
+              ],
+              "coefficient": "1897/26244"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                0,
+                1
+              ],
+              "coefficient": "1/360"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                0,
+                1,
+                0
+              ],
+              "coefficient": "11/972"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                0,
+                0
+              ],
+              "coefficient": "49/1944"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                1,
+                1,
+                0
+              ],
+              "coefficient": "1/144"
+            },
+            {
+              "word": [],
+              "zeta_powers": [
+                2,
+                0,
+                0
+              ],
+              "coefficient": "19/4320"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "explicit_zero_color_channels": [
+    "CF^2*TF*nf",
+    "CF*(TF*nf)^2"
+  ],
+  "subintegrals": {
+    "raw_ordered_J": {
+      "representation": "ordered_s",
+      "variables": [
+        "s32",
+        "s31",
+        "s42",
+        "s41"
+      ],
+      "bounds": {
+        "s31": [
+          "0",
+          "s32"
+        ],
+        "s32": [
+          "0",
+          "1"
+        ],
+        "s41": [
+          "0",
+          "s42"
+        ],
+        "s42": [
+          "0",
+          "1"
+        ]
+      },
+      "iterated_order_outer_to_inner": [
+        "s32",
+        "s31",
+        "s42",
+        "s41"
+      ],
+      "source_bounds_array": [
+        {
+          "var": "s31",
+          "low": "0",
+          "high": "s32"
+        },
+        {
+          "var": "s41",
+          "low": "0",
+          "high": "s42"
+        },
+        {
+          "var": "s32",
+          "low": "0",
+          "high": "1"
+        },
+        {
+          "var": "s42",
+          "low": "0",
+          "high": "1"
+        }
+      ],
+      "order_basis": "ascending contour edges; descending slots; checked against source integrals.md at publication",
+      "jacobian": "1",
+      "integrand": "(2*s42*z1^2 - 2*s32*s42*z1^2)*((s42*z1 - s32*s42*z1)^(-2+2*eps)/(2*(1+eps)))*((z1)*(s41*z1 - s31*s41*z1)^(-1+eps))",
+      "tensor_decomposition": {
+        "metric": "(2*s42*z1^2 + 2*eps*s42*z1^2 - 2*s32*s42*z1^2 - 2*eps*s32*s42*z1^2)*((s42*z1 - s32*s42*z1)^(-2+2*eps)/(2*(1+eps)))*((z1)*(s41*z1 - s31*s41*z1)^(-1+eps))",
+        "derivative": "(-2*eps*s42*z1^2 + 2*eps*s32*s42*z1^2)*((s42*z1 - s32*s42*z1)^(-2+2*eps)/(2*(1+eps)))*((z1)*(s41*z1 - s31*s41*z1)^(-1+eps))",
+        "identity": "integrand = metric + derivative; common C"
+      },
+      "se_numerator": "2*s42*z1^2 - 2*s32*s42*z1^2",
+      "metric_numerator": "2*s42*z1^2 + 2*eps*s42*z1^2 - 2*s32*s42*z1^2 - 2*eps*s32*s42*z1^2",
+      "derivative_numerator": "-2*eps*s42*z1^2 + 2*eps*s32*s42*z1^2",
+      "geometry_polynomials": [
+        {
+          "loop": "l2",
+          "kind": "se",
+          "edges": [
+            3,
+            4
+          ],
+          "s_vars": [
+            "s32",
+            "s42"
+          ],
+          "X_coefficients": [
+            "0",
+            "0",
+            "-1 + s32",
+            "-s42"
+          ],
+          "f": "s42*z1 - s32*s42*z1",
+          "d": "z1",
+          "u": "-s42*z1",
+          "w": "-z1 + s32*z1"
+        },
+        {
+          "loop": "l1",
+          "kind": "bare",
+          "edges": [
+            3,
+            4
+          ],
+          "s_vars": [
+            "s31",
+            "s41"
+          ],
+          "X_coefficients": [
+            "0",
+            "0",
+            "-1 + s31",
+            "-s41"
+          ],
+          "f": "s41*z1 - s31*s41*z1",
+          "d": "z1",
+          "u": "-s41*z1",
+          "w": "-z1 + s31*z1"
+        }
+      ],
+      "power_prescription": "each f power is the boundary value (f+I0)^power in A_ref>0; continue jointly with C"
+    },
+    "source_paired_J_jet_expression": "1/(18*eps**4*(eps + 1))",
+    "required_jet_orders": {
+      "Gamma": 5
+    },
+    "actual_conservative_Gamma_jet": 5,
+    "external_operator_Taylor_through": 5,
+    "primitives": "Existing original M moments and rho_id_0_0_0/1 HLOG evaluations; no final I table read."
+  },
+  "dependencies": [
+    {
+      "path": "snapshots/workflow/checks/single-opposite/hlog_algebra.py",
+      "sha256": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d"
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457"
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_2.txt",
+      "sha256": "cd56e716a2f6ff5ffdb881802c666ce34650e2097bc006f41c85373024cbec79"
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt",
+      "sha256": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269"
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_4.txt",
+      "sha256": "0e103345155d0d8cf29e95d5cb32549779b6c9ecf97b3ecd9ef4f5faea3bddd7"
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b"
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt",
+      "sha256": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f"
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt",
+      "sha256": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b"
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+      "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6"
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_2.txt",
+      "sha256": "b7cc73814d33c1d6e6474ed4d0ae774b2de1ea68ded05ba21861ba173e3bfced"
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt",
+      "sha256": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df"
+    },
+    {
+      "path": "snapshots/benchmarks/2ne/families/same-channel-two/structural-basis-functions.json",
+      "sha256": "7fd08c7598f01c188a336b395b90e0ddbdd80f147e1d0e7766eb61d6ce2ad988"
+    }
+  ],
+  "scope": "Original ordered/native source checks, fresh finite-order reduction and assembly using evaluated moment data. No new internal gluon/ghost bubble or full CAS integration.",
+  "domain": {
+    "z": "positive real",
+    "epsilon": "initial small positive Re(eps); local meromorphic continuation at zero",
+    "complex_kinematics": "not newly established"
+  },
+  "functions": {
+    "rho": "log(z), not the physical scale L",
+    "M_k_j": "Original no-factorial moments; complete frozen HLOG data",
+    "rho_id_0_0_0": "[eps^0] T(eps,eps,z) = M_0_1^2/6",
+    "rho_id_0_0_1": "[eps^1] T(eps,eps,z); existing complete weight5 HLOG dictionary"
+  },
+  "formal": "not_run",
+  "generation_binding": {
+    "path": "evidence/generation/generated.json",
+    "path_base": "packet root",
+    "sha256": "05e9d328a35860239bfacccf9a71c5633d9d16a9f9a378a78a6c4100e658fd5d",
+    "field": "/4e-Pi1-02"
+  },
+  "source_reading_note": "source/dependency paths from the mathematical evaluator use snapshots/ as their path base. Historical asset paths in input.json retain their original Wilson workspace context."
+}

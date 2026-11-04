@@ -19,7 +19,7 @@ The weighted 4e-02/05 pair also provides a useful non-CAS test. Displaying the t
 3. A draft TGV03 coefficient rule used an undefined Greek nu where the preceding definition used u. This is a continuity defect in an executable mathematical recurrence even though the intended rule is straightforward; it was sent for correction.
 4. Initial new `input.json` records identified accepted results but did not bind the original ordered C/J record locally. The integrator added exact graph/native/prepared fields, source hashes, parameter order, bounds and simplex measure. The integrator's `source-binding-check.json` reports all twelve two-loop bindings passed.
 5. The new wrappers correctly delegate to a same-loop batch. They are not twelve distinct cold integration programs. Reading the implementation confirms that ordinary entries expand evaluated Gamma/moment mother functions, while TGV04 explicitly adopts integrated HLOG output. This distinction must survive into README, reproduction and validation pages.
-6. The easiest exchange article initially repeated a long unused M/N dictionary. The author removed that unnecessary material. The standard's “按需” rule therefore helps both completeness and reading speed; mathematical continuity is not a minimum page count.
+6. The easiest exchange article initially repeated a long unused M/N dictionary. The author removed that unnecessary material. The standard's requirement to include material only as needed therefore helps both completeness and reading speed; mathematical continuity is not a minimum page count.
 
 ## Adoption, implementation and mathematical status
 

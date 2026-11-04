@@ -1,0 +1,154 @@
+{
+  "orbit_id": "2e-Pi1+Pi1-02",
+  "runtime_base": "../../../families/three-loop-insertions/runtime",
+  "paths_relative_to": "runtime_base; original_ordered_root is explicitly relative to this data/index.json file",
+  "original_ordered_root": "../input.json",
+  "archived_subintegrals": {
+    "path": "integrals/three-loop/2e-Pi1+Pi1-02/subintegrals.json",
+    "sha256": "2d7eea04b58dc5ae9ba054bfa6196da9e2a79c4a6605dda2c57a5e9e24f77877",
+    "object": "Original source-specific intermediate kernel and order budget",
+    "role": "Exact historical reduction metadata, not a substitute for current mathematical prose."
+  },
+  "required_budget": {
+    "regular_geometry_budget": 3,
+    "operator_multiplier_budget": 3,
+    "actual_conservative_batch_H0_jet_order": 2,
+    "required_H0_jet_order_for_this_geometry": 2,
+    "actual_conservative_batch_U_inverseU_order": 5,
+    "scope": "Conservative shared batch orders are recorded as implementation choices, not mathematical requirements of an adjacent H0-free geometry. Original complete shared metadata remains in archived_subintegrals."
+  },
+  "mathematically_required_evaluated_functions": [
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "object": "M_{0,1}",
+      "role": "Evaluated opposite H0(3eps,z) coefficients through epsilon2, before geometric and colour convolution."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "object": "M_{1,1}",
+      "role": "Evaluated opposite H0(3eps,z) coefficients through epsilon2, before geometric and colour convolution."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+      "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "object": "M_{2,1}",
+      "role": "Evaluated opposite H0(3eps,z) coefficients through epsilon2, before geometric and colour convolution."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt",
+      "sha256": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+      "object": "M_{0,3}",
+      "role": "Evaluated opposite H0(3eps,z) coefficients through epsilon2, before geometric and colour convolution."
+    }
+  ],
+  "batch_global_function_read_closure": [
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "object": "M_{0,1}",
+      "role": "Loaded by the four-entry batch; adjacent geometry needs no M integral."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "object": "M_{1,1}",
+      "role": "Loaded by the four-entry batch; adjacent geometry needs no M integral."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+      "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "object": "M_{2,1}",
+      "role": "Loaded by the four-entry batch; adjacent geometry needs no M integral."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt",
+      "sha256": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+      "object": "M_{0,3}",
+      "role": "Loaded by the four-entry batch; adjacent geometry needs no M integral."
+    }
+  ],
+  "external_operator_inputs": [
+    {
+      "object": "B1(eps)^2",
+      "role": "Two separate Pi1 insertions, producing AA/Af/ff weights; not the single two-loop 1PI Pi2 operator."
+    }
+  ],
+  "actual_code": [
+    {
+      "path": "scripts/evaluate_batch.py",
+      "sha256": "be849ffcc96d3f3cd0890215ce27d4ec910a307b6dc5334295f0bfc77caf2f68",
+      "object": "15-root generator",
+      "role": "Reads declared source and admitted function data, then invokes the actual scalar/colour assembly. Does not read whole-I references."
+    },
+    {
+      "path": "scripts/chains_pi2.py",
+      "sha256": "092cf942da791bcbe2a2cf8313fefd8b21938d635851fac197cb5ba3bb9b9782",
+      "object": "generate, gamma_jet, rational_coeffs, product",
+      "role": "Checks exact original two-endpoint kernel; evaluates Gamma/H0 and all four boundary corners; regenerates U/inverseU and full external colour coefficients."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/hlog_algebra.py",
+      "sha256": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+      "object": "Exact HLOG parsing/shuffle arithmetic",
+      "role": "Adopted expression arithmetic, not an integral evaluator."
+    }
+  ],
+  "color_assembly": [
+    {
+      "monomial": "CA^2*CF",
+      "powers": [
+        "-6",
+        "-5",
+        "-4",
+        "-3",
+        "-2",
+        "-1",
+        "0"
+      ],
+      "role": "Scalar/geometric I convolved with the complete source external operator."
+    },
+    {
+      "monomial": "CA*CF*TF*nf",
+      "powers": [
+        "-6",
+        "-5",
+        "-4",
+        "-3",
+        "-2",
+        "-1",
+        "0"
+      ],
+      "role": "Scalar/geometric I convolved with the complete source external operator."
+    },
+    {
+      "monomial": "CF*(TF*nf)^2",
+      "powers": [
+        "-6",
+        "-5",
+        "-4",
+        "-3",
+        "-2",
+        "-1",
+        "0"
+      ],
+      "role": "Scalar/geometric I convolved with the complete source external operator."
+    }
+  ],
+  "adopted_result": {
+    "path": "integrals/three-loop/2e-Pi1+Pi1-02/result.json",
+    "sha256": "cc304ecdb69d5c7e1747be724b5d6b1942f7aa12df7d356a1937e4711b8ff084",
+    "object": "Complete curated scalar/geometric and coloured result",
+    "role": "Accepted result; preserved separately from generation inputs."
+  },
+  "comparison_targets": [
+    {
+      "path": "references/results/2e-Pi1+Pi1-02.json",
+      "sha256": "60af70d4a696f29cde70d92c03775f75bd7b83ce36fd57d6583f2baee5100d60",
+      "object": "Historical whole-I reference",
+      "role": "Opened only after generation for exact comparison. Pi1 has historical scalar I only; its generated colours are a separate operator convolution."
+    }
+  ],
+  "scope": "Original root, scalar/geometric quantity, evaluated functions, external operator, coloured result and comparison targets have distinct roles. Shared batch loads are not independent graph dependencies or new integrations."
+}

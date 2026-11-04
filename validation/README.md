@@ -16,7 +16,8 @@ The current calculation validation covers low-loop assembly, all three matter co
 
 | Material | Record |
 |---|---|
-| All53 current reading entries,369 coefficient positions, actual public checkout | [Continuous-derivations publication replay](continuous-derivations-2026-11-03/README.md) |
+| Earlier53 reading entries,369 coefficient positions, actual public checkout | [Continuous-derivations publication replay](continuous-derivations-2026-11-03/README.md) |
+| Fifteen insertion entries:105 scalar/geometric,238 colour positions and English review labels across68 entries | [Insertion release replay](insertions-20261104/README.md), [individual audit](../workflow/checks/integral-documentation-insertions-20261104/review/README.md) |
 | One/two-loop14-entry scientific reading audit | [Per-entry review](../workflow/checks/integral-documentation-low-loops-20261103/review/README.md) |
 | Three-loop39-entry scientific reading audit | [Per-entry review](../workflow/checks/integral-documentation-6e-20261103/review/README.md) |
 | Insertion and tree-three-gluon family calculation packages | [P5/P6 public-copy checks](three-loop-p5-p6-2026-11-03/README.md) |

@@ -1,0 +1,842 @@
+{
+  "format": "wilson-P5-independent-controls/1",
+  "status": "passed",
+  "results_sha256": "05e9d328a35860239bfacccf9a71c5633d9d16a9f9a378a78a6c4100e658fd5d",
+  "script_sha256": "f13511782f7bbb85bb3cf745c4859edd323122b220debf195ca37dd11f0de620",
+  "source_files": {
+    "pi1": {
+      "path": "snapshots\\benchmarks\\current\\prepared\\3loop\\4e-Pi1.json",
+      "sha256": "c66681daff1c054ef824984021cbfc4a1b95eb808a73ab64a95d2a6bea134e1e"
+    },
+    "chain": {
+      "path": "snapshots\\benchmarks\\current\\prepared\\3loop\\2e-Pi1+Pi1.json",
+      "sha256": "8b68e8b5fe77e72eb27dd2ed9651dbfcd246d27008a0887a1b28cdf2408d152b"
+    },
+    "pi2": {
+      "path": "snapshots\\benchmarks\\current\\prepared\\3loop\\2e-Pi2.json",
+      "sha256": "9890cd2e2457c95103d4b1788586600aa5c2586e1a3116cd8b5f5fad591708fa"
+    }
+  },
+  "source_orbits": 15,
+  "paired_polynomial_integrals": 30,
+  "polynomial_controls": [
+    {
+      "orbit_id": "4e-Pi1-01",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "1/288",
+          "cube_integral": "1/288",
+          "absolute_jacobian": "x0*x2",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "1/55296",
+          "cube_integral": "1/55296",
+          "absolute_jacobian": "x0*x2",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "4e-Pi1-02",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "1/288",
+          "cube_integral": "1/288",
+          "absolute_jacobian": "x0*x2",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "1/55296",
+          "cube_integral": "1/55296",
+          "absolute_jacobian": "x0*x2",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "4e-Pi1-03",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "-7/64",
+          "cube_integral": "-7/64",
+          "absolute_jacobian": "x2",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "-793/184320",
+          "cube_integral": "-793/184320",
+          "absolute_jacobian": "x2",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "4e-Pi1-04",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "-1/32",
+          "cube_integral": "-1/32",
+          "absolute_jacobian": "x2",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "-19/30720",
+          "cube_integral": "-19/30720",
+          "absolute_jacobian": "x2",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "4e-Pi1-05",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "1/24",
+          "cube_integral": "1/24",
+          "absolute_jacobian": "x1",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "7/5760",
+          "cube_integral": "7/5760",
+          "absolute_jacobian": "x1",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "4e-Pi1-06",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "1/48",
+          "cube_integral": "1/48",
+          "absolute_jacobian": "x1",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "7/23040",
+          "cube_integral": "7/23040",
+          "absolute_jacobian": "x1",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "4e-Pi1-07",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "3/16",
+          "cube_integral": "3/16",
+          "absolute_jacobian": "x0*x2",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "6337/307200",
+          "cube_integral": "6337/307200",
+          "absolute_jacobian": "x0*x2",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "4e-Pi1-08",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "9/64",
+          "cube_integral": "9/64",
+          "absolute_jacobian": "x0*x2",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "773/76800",
+          "cube_integral": "773/76800",
+          "absolute_jacobian": "x0*x2",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "4e-Pi1-09",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "-1/8",
+          "cube_integral": "-1/8",
+          "absolute_jacobian": "x0",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "-17/1920",
+          "cube_integral": "-17/1920",
+          "absolute_jacobian": "x0",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "4e-Pi1-10",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "-3/16",
+          "cube_integral": "-3/16",
+          "absolute_jacobian": "x0",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "-239/23040",
+          "cube_integral": "-239/23040",
+          "absolute_jacobian": "x0",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "4e-Pi1-11",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "39/64",
+          "cube_integral": "39/64",
+          "absolute_jacobian": "1",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "195/4096",
+          "cube_integral": "195/4096",
+          "absolute_jacobian": "1",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-01",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "1/144",
+          "cube_integral": "1/144",
+          "absolute_jacobian": "1",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "1/5760",
+          "cube_integral": "1/5760",
+          "absolute_jacobian": "1",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-02",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "-3/16",
+          "cube_integral": "-3/16",
+          "absolute_jacobian": "1",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "-31/960",
+          "cube_integral": "-31/960",
+          "absolute_jacobian": "1",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "2e-Pi2-01",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "1/144",
+          "cube_integral": "1/144",
+          "absolute_jacobian": "1",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "1/5760",
+          "cube_integral": "1/5760",
+          "absolute_jacobian": "1",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    },
+    {
+      "orbit_id": "2e-Pi2-02",
+      "paired_checks": [
+        {
+          "eps": 1,
+          "z": "1/2",
+          "original_order_integral": "-3/16",
+          "cube_integral": "-3/16",
+          "absolute_jacobian": "1",
+          "residual": "0"
+        },
+        {
+          "eps": 2,
+          "z": "1/2",
+          "original_order_integral": "-31/960",
+          "cube_integral": "-31/960",
+          "absolute_jacobian": "1",
+          "residual": "0"
+        }
+      ],
+      "scope": "Original J only. Gamma prefactor is not evaluated at these regulator values."
+    }
+  ],
+  "operator_and_color_convolution": [
+    {
+      "orbit_id": "4e-Pi1-01",
+      "geometry_leading_power": -5,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 5,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 5,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "4e-Pi1-02",
+      "geometry_leading_power": -5,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 5,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 5,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "4e-Pi1-03",
+      "geometry_leading_power": -4,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 4,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 4,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "4e-Pi1-04",
+      "geometry_leading_power": -2,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 2,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 2,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "4e-Pi1-05",
+      "geometry_leading_power": -3,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 3,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 3,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "4e-Pi1-06",
+      "geometry_leading_power": -3,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 3,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 3,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "4e-Pi1-07",
+      "geometry_leading_power": -1,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 1,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 1,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "4e-Pi1-08",
+      "geometry_leading_power": -1,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 1,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 1,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "4e-Pi1-09",
+      "geometry_leading_power": -2,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 2,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 2,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "4e-Pi1-10",
+      "geometry_leading_power": -4,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 4,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 4,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "4e-Pi1-11",
+      "geometry_leading_power": -2,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 2,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 2,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-01",
+      "geometry_leading_power": -4,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 4,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 4,
+          "residual": "0"
+        },
+        {
+          "monomial": "CF*(TF*nf)^2",
+          "positions": 7,
+          "operator_Taylor_through": 4,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-02",
+      "geometry_leading_power": -3,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 3,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 3,
+          "residual": "0"
+        },
+        {
+          "monomial": "CF*(TF*nf)^2",
+          "positions": 7,
+          "operator_Taylor_through": 3,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "2e-Pi2-01",
+      "geometry_leading_power": -4,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 4,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 4,
+          "residual": "0"
+        },
+        {
+          "monomial": "CF^2*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 4,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    },
+    {
+      "orbit_id": "2e-Pi2-02",
+      "geometry_leading_power": -3,
+      "channels": [
+        {
+          "monomial": "CA^2*CF",
+          "positions": 7,
+          "operator_Taylor_through": 3,
+          "residual": "0"
+        },
+        {
+          "monomial": "CA*CF*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 3,
+          "residual": "0"
+        },
+        {
+          "monomial": "CF^2*TF*nf",
+          "positions": 7,
+          "operator_Taylor_through": 3,
+          "residual": "0"
+        }
+      ],
+      "scope": "Independent exact operator Taylor and HLOG/period convolution, not independent geometry integration."
+    }
+  ],
+  "Gamma_finite_coefficient_controls": [
+    {
+      "orbit_id": "4e-Pi1-01",
+      "positions": 7,
+      "z": "1/2",
+      "source_C_prefactor": "-1/(32*eps*(1 - 2*eps))",
+      "radii": [
+        {
+          "radius": "0.05",
+          "nodes": 96,
+          "max_observed_residual": "7.35631567822e-73"
+        },
+        {
+          "radius": "0.025",
+          "nodes": 96,
+          "max_observed_residual": "2.36894980308e-71"
+        }
+      ],
+      "scope": "Independent Cauchy extraction of source-derived adjacent Gamma formula versus separately evaluated HLOG coefficients. No certified numerical enclosure."
+    },
+    {
+      "orbit_id": "4e-Pi1-02",
+      "positions": 7,
+      "z": "1/2",
+      "source_C_prefactor": "-1/(32*eps*(1 - 2*eps))",
+      "radii": [
+        {
+          "radius": "0.05",
+          "nodes": 96,
+          "max_observed_residual": "7.35631567822e-73"
+        },
+        {
+          "radius": "0.025",
+          "nodes": 96,
+          "max_observed_residual": "2.36894980308e-71"
+        }
+      ],
+      "scope": "Independent Cauchy extraction of source-derived adjacent Gamma formula versus separately evaluated HLOG coefficients. No certified numerical enclosure."
+    },
+    {
+      "orbit_id": "4e-Pi1-05",
+      "positions": 7,
+      "z": "1/2",
+      "source_C_prefactor": "-1/(32*eps*(1 - 2*eps))",
+      "radii": [
+        {
+          "radius": "0.05",
+          "nodes": 96,
+          "max_observed_residual": "3.57615666968e-73"
+        },
+        {
+          "radius": "0.025",
+          "nodes": 96,
+          "max_observed_residual": "1.31034488857e-71"
+        }
+      ],
+      "scope": "Independent Cauchy extraction of source-derived adjacent Gamma formula versus separately evaluated HLOG coefficients. No certified numerical enclosure."
+    },
+    {
+      "orbit_id": "4e-Pi1-06",
+      "positions": 7,
+      "z": "1/2",
+      "source_C_prefactor": "-1/(32*eps*(1 - 2*eps))",
+      "radii": [
+        {
+          "radius": "0.05",
+          "nodes": 96,
+          "max_observed_residual": "3.55654866736e-73"
+        },
+        {
+          "radius": "0.025",
+          "nodes": 96,
+          "max_observed_residual": "1.31338955512e-71"
+        }
+      ],
+      "scope": "Independent Cauchy extraction of source-derived adjacent Gamma formula versus separately evaluated HLOG coefficients. No certified numerical enclosure."
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-01",
+      "positions": 7,
+      "z": "1/2",
+      "source_C_prefactor": "-1/(64*eps**2*(1 - 2*eps)**2)",
+      "radii": [
+        {
+          "radius": "0.05",
+          "nodes": 96,
+          "max_observed_residual": "7.91842988405e-75"
+        },
+        {
+          "radius": "0.025",
+          "nodes": 96,
+          "max_observed_residual": "2.35987747977e-73"
+        }
+      ],
+      "scope": "Independent Cauchy extraction of source-derived adjacent Gamma formula versus separately evaluated HLOG coefficients. No certified numerical enclosure."
+    },
+    {
+      "orbit_id": "2e-Pi2-01",
+      "positions": 7,
+      "z": "1/2",
+      "source_C_prefactor": "1/(64*eps**2*(1 - 2*eps)**2)",
+      "radii": [
+        {
+          "radius": "0.05",
+          "nodes": 96,
+          "max_observed_residual": "7.91842988405e-75"
+        },
+        {
+          "radius": "0.025",
+          "nodes": 96,
+          "max_observed_residual": "2.35987747977e-73"
+        }
+      ],
+      "scope": "Independent Cauchy extraction of source-derived adjacent Gamma formula versus separately evaluated HLOG coefficients. No certified numerical enclosure."
+    }
+  ],
+  "opposite_IBP_identities": [
+    {
+      "exponent_rate": 2,
+      "residual": "0",
+      "all_four_corners": {
+        "00": "1",
+        "01": "0",
+        "10": "0",
+        "11": "z"
+      }
+    },
+    {
+      "exponent_rate": 3,
+      "residual": "0",
+      "all_four_corners": {
+        "00": "1",
+        "01": "0",
+        "10": "0",
+        "11": "z"
+      }
+    }
+  ],
+  "negative_controls": [
+    {
+      "case": "omit longitudinal tensor",
+      "rejected": true
+    },
+    {
+      "case": "double Euler compensation",
+      "rejected": true
+    },
+    {
+      "case": "Pi2 treated as a two-insertion chain",
+      "rejected": true
+    },
+    {
+      "case": "illegal dependent integration order",
+      "rejected": true
+    },
+    {
+      "case": "alter physical finite coefficient",
+      "rejected": true
+    },
+    {
+      "case": "drop full chain flavor-squared channel",
+      "rejected": true
+    }
+  ],
+  "elapsed_seconds": 3.2481321999803185,
+  "coverage": {
+    "all15": "Source tensor, Euler/operator identity, original ordered J polynomial integration and full physical color convolution.",
+    "4e-Pi1-01/02/05/06 and adjacent chain/Pi2": "Independent source-derived Gamma Laurent extraction including finite terms.",
+    "other nine": "No new original multidimensional finite-integral numerical integration; analytic moment/dictionary reuse remains explicit."
+  },
+  "limitations": [
+    "Integer-regulator checks do not determine Laurent finite terms of divergent J.",
+    "Cauchy/HLOG truncation errors are observed numerical residuals, not rigorous error enclosures.",
+    "Pi2 internal full-D literature operator is adopted, not independently integrated.",
+    "No formal original-integral proof is claimed."
+  ],
+  "formal": "not_run"
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "pi2-full-color-euler-1.0",
+  "theory": "benchmarks/self-energy/pi2/theory.md P2.17-P2.19",
+  "diagram": "A_graph=C_source*J",
+  "I_geom": "the single shared I defined in theory; same as Pi1-chain geometry",
+  "final_color_I": "I_c=4*eps^2*p_c(eps)*I_geom(eps,z)",
+  "full_assembly": "sym/2*C_prepared*(J(z)+z^(3*eps)*J(1/z))=(alpha_s/Pi)^3*(S14+S12)*sum(T_c*I_c)",
+  "color_monomials": {
+    "AA": "CA^2*CF",
+    "Af": "CA*CF*TF*nf",
+    "Ff": "CF^2*TF*nf"
+  },
+  "a1_view": "AA and Af selected; Ff remains a nonzero second coordinate in full output",
+  "G": "exp(-EulerGamma*eps)*Gamma[1-eps]",
+  "U": "Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps]/(Gamma[1-2*eps]^2*Gamma[1+2*eps])",
+  "R": "-G^3*U/(128*eps^2*(1-2*eps)^2)",
+  "B2": "4*eps^2*P2",
+  "S14": "(-2*Pi*v14+I0)^(3*eps)",
+  "S12": "z^(3*eps)*S14",
+  "Euler_count": 1,
+  "coefficient_budget": {
+    "adjacent_phi_through": 4,
+    "opposite_phi_through": 3,
+    "R_G10_before_cancellation_through": 5
+  },
+  "domain": {
+    "z": "positive real",
+    "eps": "initial 0<Re(eps)<1/3; meromorphic near zero",
+    "complex": "not verified"
+  },
+  "kernel_registration": "not_registered",
+  "formal": "not_run"
+}

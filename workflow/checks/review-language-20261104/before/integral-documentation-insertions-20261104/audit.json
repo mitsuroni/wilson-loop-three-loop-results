@@ -1,0 +1,2001 @@
+{
+  "format": "wilson-integral-derivation-scientific-review/1",
+  "date": "2026-11-04",
+  "reviewer": "/root/insertion_review",
+  "standard_version": "1.0",
+  "status": "all_15_continuity_accepted_with_explicit_adoptions",
+  "scope": "Independent forward reading of all15 own articles, three shared mathematical derivations, complete adopted moment expressions and actual code/data roles. No cold CAS or new formal proof.",
+  "entries": [
+    {
+      "orbit_id": "4e-Pi1-01",
+      "family": "P1",
+      "document_status": "正文可连续阅读（接受明确的物理算符根）",
+      "mathematical_chain": "Actual two ordered endpoint chains with insertion on the lower labelled line give rates3e,e and3e,2e; their product gives J=z^(3e)/[18e^4(1+e)]. Native connected C then fixes the negative scalar and fifth-order finite convolution.",
+      "explicit_adoption": "Prepared Fourier/QFT root and connected projection are accepted; no evaluated M/rho function is mathematically needed by this Gamma/Beta body.",
+      "equality_scope": "01/02 have directly evaluated equal bare J;05/06 have different bare-z phases but equal physical I;03/10,04/09,07/08 are complete-I reciprocal-source relations with explicit maps. The present entry uses only its applicable relation.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/4e-Pi1-01/derivation.md",
+          "line": 23,
+          "passage": "$$ F=- s_{31} s_{41} z + s_{41} z. $$",
+          "role": "complete actual insertion distance",
+          "file_sha256": "d21c584149941e4f0e68977b55e9a00aaa96e21098506a73419a7f431101be45"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-01/derivation.md",
+          "line": 33,
+          "passage": "This compact numerator is the complete transverse source, not a metric-only replacement. It satisfies identity(2) of the shared derivation. The original outer-to-inner order is `s32,s31,s42,s41`, with these actual dependent bounds:",
+          "role": "original prescribed ordered domain",
+          "file_sha256": "d21c584149941e4f0e68977b55e9a00aaa96e21098506a73419a7f431101be45"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-01/derivation.md",
+          "line": 55,
+          "passage": "J=\\frac{z^{3e}}{1+e}\\left[\\int_{0<y<x<1}x^{2e-1}y^{e-1}dxdy\\right]",
+          "role": "graph-specific integration or mapped boundary",
+          "file_sha256": "d21c584149941e4f0e68977b55e9a00aaa96e21098506a73419a7f431101be45"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-01/derivation.md",
+          "line": 59,
+          "passage": "Here the brackets are respectively $1/(3e^2)$ and $1/(6e^2)$, from their actual upper/lower primitives. Substitution into the physical crossing gives",
+          "role": "specific primitive, evaluation or complete-source scaling",
+          "file_sha256": "d21c584149941e4f0e68977b55e9a00aaa96e21098506a73419a7f431101be45"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-01/derivation.md",
+          "line": 70,
+          "passage": "c_0=\\frac{ma_1}{64}\\sum_{n=0}^{5}a_n k_{1-n}.",
+          "role": "complete highest-order source/prefactor convolution",
+          "file_sha256": "d21c584149941e4f0e68977b55e9a00aaa96e21098506a73419a7f431101be45"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-01/derivation.md",
+          "line": 74,
+          "passage": "The two connected colour multipliers are phi_A=(10-6e)/(3-2e) and phi_f=-8(1-e)/(3-2e), multiplying CA^2 CF and CA CF TF nf. Their constants are10/3 and-8/3; for n>=1 their Taylor coefficients are (2/9)(2/3)^(n-1) and (8/9)(2/3)^(n-1). Therefore the coloured finite term is sum(phi_X,n c_-n,n=0,...,5), not phi_X,0 c0 alone. The other two connected channels vanish in this projection; this does not delete the unprojected source trace.",
+          "role": "full epsilon-dependent external-colour convolution",
+          "file_sha256": "d21c584149941e4f0e68977b55e9a00aaa96e21098506a73419a7f431101be45"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 40,
+          "passage": "On the starting strip adjacent powers have positive endpoint exponents. For a complete opposite tensor $N$ remains bounded and generally tends to the nonzero value $(1-2e)z$ at a zero corner. Its absolute density is therefore bounded by a constant times $(x+y)^{-2+2\\Re e}$; the two-dimensional radial measure gives $r^{-1+2\\Re e}dr$, integrable strictly for $\\Re e>0$. Endpoint variables belonging to the two different lines are distinct. A full-cube product bound therefore justifies the particular regroupings used here on that strip. It does not prove holomorphy of the full Pi1 source at zero and does not authorize arbitrary permutation of unrelated prepared roots. The subsequent evaluated formulas provide the local meromorphic continuation.",
+          "role": "corrected absolute-integrability bound for full transverse numerator",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/4e-Pi1-01/input.json",
+        "input_sha256": "c38c5a927cdc66f8f074d34cbce7cd3ba5b3acfe5a9ddd76cefff5d9a766bcb6",
+        "data_index_path": "integrals/three-loop/4e-Pi1-01/data/index.json",
+        "data_index_sha256": "1a1fa7fcaba2c76d1c4aa912c7cfc1bcb74bb8bc08cc9ad690e9c0e9b3110ebd",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/55",
+            "field_sha256": "ea87863864e231e5ed2463507fb2748be5d42191f3b9d659120296b15489e025"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/4e-Pi1.json",
+            "sha256": "c66681daff1c054ef824984021cbfc4a1b95eb808a73ab64a95d2a6bea134e1e",
+            "field": "/orbits/0"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-Pi1/montopar-initial.json",
+            "sha256": "30f470aef9c1ea3c181445f5225688d678a2addb999fe643cab502ddf1e02983",
+            "field": "/orbits/0"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "wilson-self-energy-1pi-insertion/2.0",
+          "loop_order": 3,
+          "a1": "-1/2",
+          "sym": 4,
+          "rational": "1/(32*eps*(1 - 2*eps))",
+          "full_wilson_color": "CF*(-CA/2 + CF)",
+          "B1": "(CA*(10 - 6*eps) - TF*nf*(8 - 8*eps))/(3 - 2*eps)",
+          "Euler_count": 1,
+          "current_source_convention": "wilson-qcd-action-path-fourier/1.0",
+          "source_check_groups": 13,
+          "external_color": "CA*CF*B1(eps)",
+          "formula": "I=(sym*a1/2)*Gcal^3*C_rational*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+          "Ff_ff": "zero in the connected a1-projected Pi1 contribution; full raw trace retained separately"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "4e-Pi1-02",
+      "family": "P1",
+      "document_status": "正文可连续阅读（接受明确的物理算符根）",
+      "mathematical_chain": "The upper labelled insertion exchanges the two chain exponents. Both own bracket integrals are evaluated, giving the same J without assuming final-table equality; physical orbit/crossing follows with this source C.",
+      "explicit_adoption": "Prepared Fourier/QFT root and connected projection are accepted; no evaluated M/rho function is mathematically needed by this Gamma/Beta body.",
+      "equality_scope": "01/02 have directly evaluated equal bare J;05/06 have different bare-z phases but equal physical I;03/10,04/09,07/08 are complete-I reciprocal-source relations with explicit maps. The present entry uses only its applicable relation.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/4e-Pi1-02/derivation.md",
+          "line": 23,
+          "passage": "$$ F=- s_{32} s_{42} z + s_{42} z. $$",
+          "role": "complete actual insertion distance",
+          "file_sha256": "f265e3723cf37132a9cb0c25e666a135266bd50bc4ae03c6ae17a629c53f03a7"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-02/derivation.md",
+          "line": 33,
+          "passage": "This compact numerator is the complete transverse source, not a metric-only replacement. It satisfies identity(2) of the shared derivation. The original outer-to-inner order is `s32,s31,s42,s41`, with these actual dependent bounds:",
+          "role": "original prescribed ordered domain",
+          "file_sha256": "f265e3723cf37132a9cb0c25e666a135266bd50bc4ae03c6ae17a629c53f03a7"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-02/derivation.md",
+          "line": 55,
+          "passage": "J=\\frac{z^{3e}}{1+e}\\left[\\int_{0<y<x<1}x^{e-1}y^{2e-1}dxdy\\right]",
+          "role": "graph-specific integration or mapped boundary",
+          "file_sha256": "f265e3723cf37132a9cb0c25e666a135266bd50bc4ae03c6ae17a629c53f03a7"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-02/derivation.md",
+          "line": 59,
+          "passage": "The two factors are now $1/(6e^2)$ and $1/(3e^2)$. This explicitly proves the present source evaluation, rather than asserting equality from two matching final tables. Its physical crossing gives",
+          "role": "specific primitive, evaluation or complete-source scaling",
+          "file_sha256": "f265e3723cf37132a9cb0c25e666a135266bd50bc4ae03c6ae17a629c53f03a7"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-02/derivation.md",
+          "line": 70,
+          "passage": "c_0=\\frac{ma_1}{64}\\sum_{n=0}^{5}a_n k_{1-n}.",
+          "role": "complete highest-order source/prefactor convolution",
+          "file_sha256": "f265e3723cf37132a9cb0c25e666a135266bd50bc4ae03c6ae17a629c53f03a7"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-02/derivation.md",
+          "line": 74,
+          "passage": "The two connected colour multipliers are phi_A=(10-6e)/(3-2e) and phi_f=-8(1-e)/(3-2e), multiplying CA^2 CF and CA CF TF nf. Their constants are10/3 and-8/3; for n>=1 their Taylor coefficients are (2/9)(2/3)^(n-1) and (8/9)(2/3)^(n-1). Therefore the coloured finite term is sum(phi_X,n c_-n,n=0,...,5), not phi_X,0 c0 alone. The other two connected channels vanish in this projection; this does not delete the unprojected source trace.",
+          "role": "full epsilon-dependent external-colour convolution",
+          "file_sha256": "f265e3723cf37132a9cb0c25e666a135266bd50bc4ae03c6ae17a629c53f03a7"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 40,
+          "passage": "On the starting strip adjacent powers have positive endpoint exponents. For a complete opposite tensor $N$ remains bounded and generally tends to the nonzero value $(1-2e)z$ at a zero corner. Its absolute density is therefore bounded by a constant times $(x+y)^{-2+2\\Re e}$; the two-dimensional radial measure gives $r^{-1+2\\Re e}dr$, integrable strictly for $\\Re e>0$. Endpoint variables belonging to the two different lines are distinct. A full-cube product bound therefore justifies the particular regroupings used here on that strip. It does not prove holomorphy of the full Pi1 source at zero and does not authorize arbitrary permutation of unrelated prepared roots. The subsequent evaluated formulas provide the local meromorphic continuation.",
+          "role": "corrected absolute-integrability bound for full transverse numerator",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/4e-Pi1-02/input.json",
+        "input_sha256": "4bd7685b794295f36e8b409602f7795698dd8ca35954a2f5ec15050d846b9d8d",
+        "data_index_path": "integrals/three-loop/4e-Pi1-02/data/index.json",
+        "data_index_sha256": "9222a112fdfde1ad152299e21811906dbc5d2700a09280c72ff5c146beb93945",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/56",
+            "field_sha256": "89954e097226cba79c1cc309d0360a3c18e34eaf2c26b44d7b9d166e6e2b299e"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/4e-Pi1.json",
+            "sha256": "c66681daff1c054ef824984021cbfc4a1b95eb808a73ab64a95d2a6bea134e1e",
+            "field": "/orbits/1"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-Pi1/montopar-initial.json",
+            "sha256": "30f470aef9c1ea3c181445f5225688d678a2addb999fe643cab502ddf1e02983",
+            "field": "/orbits/1"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "wilson-self-energy-1pi-insertion/2.0",
+          "loop_order": 3,
+          "a1": "-1/2",
+          "sym": 4,
+          "rational": "1/(32*eps*(1 - 2*eps))",
+          "full_wilson_color": "CF*(-CA/2 + CF)",
+          "B1": "(CA*(10 - 6*eps) - TF*nf*(8 - 8*eps))/(3 - 2*eps)",
+          "Euler_count": 1,
+          "current_source_convention": "wilson-qcd-action-path-fourier/1.0",
+          "source_check_groups": 13,
+          "external_color": "CA*CF*B1(eps)",
+          "formula": "I=(sym*a1/2)*Gcal^3*C_rational*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+          "Ff_ff": "zero in the connected a1-projected Pi1 contribution; full raw trace retained separately"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "4e-Pi1-03",
+      "family": "P3",
+      "document_status": "明确采用已求函数引理，链已接通",
+      "mathematical_chain": "Actual bare endpoint integrations leave1-t^e. The complete mixed derivative produces the retained boundary1+z^(2e)/3-Q, alongside the evaluated weighted opposite body, before current-C assembly.",
+      "explicit_adoption": "Prepared Fourier/QFT root and connected projection are accepted; required evaluated M functions and, for P5, exact diagonal rho0/rho1 are precisely adopted with kernels, domain, order and full values exposed.",
+      "equality_scope": "01/02 have directly evaluated equal bare J;05/06 have different bare-z phases but equal physical I;03/10,04/09,07/08 are complete-I reciprocal-source relations with explicit maps. The present entry uses only its applicable relation.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/4e-Pi1-03/derivation.md",
+          "line": 23,
+          "passage": "$$ F=s_{21} s_{41} z + s_{21} s_{41} - s_{21} - s_{41} + 1. $$",
+          "role": "complete actual insertion distance",
+          "file_sha256": "ab7da4818ef390f19abce91a25583515d6518b6ad11e57027d022f737c7d1afa"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-03/derivation.md",
+          "line": 33,
+          "passage": "This compact numerator is the complete transverse source, not a metric-only replacement. It satisfies identity(2) of the shared derivation. The original outer-to-inner order is `s21,s31,s42,s41`, with these actual dependent bounds:",
+          "role": "original prescribed ordered domain",
+          "file_sha256": "ab7da4818ef390f19abce91a25583515d6518b6ad11e57027d022f737c7d1afa"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-03/derivation.md",
+          "line": 55,
+          "passage": "\\int_0^1(1-t^e)\\partial_t[(zt)^{2e}-(1-t)^{2e}]dt=1+z^{2e}/3-Q.",
+          "role": "graph-specific integration or mapped boundary",
+          "file_sha256": "ab7da4818ef390f19abce91a25583515d6518b6ad11e57027d022f737c7d1afa"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-03/derivation.md",
+          "line": 67,
+          "passage": "K=\\frac{\\cosh(e\\rho/2)[H_0^{(2)}-(H_h+\\bar H_h)/2]-\\sinh(e\\rho/2)(H_h-\\bar H_h)/2}{e^2 C}",
+          "role": "specific primitive, evaluation or complete-source scaling",
+          "file_sha256": "ab7da4818ef390f19abce91a25583515d6518b6ad11e57027d022f737c7d1afa"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-03/derivation.md",
+          "line": 78,
+          "passage": "c_0=\\frac{ma_1}{64}\\sum_{n=0}^{4}a_n k_{1-n}.",
+          "role": "complete highest-order source/prefactor convolution",
+          "file_sha256": "ab7da4818ef390f19abce91a25583515d6518b6ad11e57027d022f737c7d1afa"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-03/derivation.md",
+          "line": 82,
+          "passage": "The two connected colour multipliers are phi_A=(10-6e)/(3-2e) and phi_f=-8(1-e)/(3-2e), multiplying CA^2 CF and CA CF TF nf. Their constants are10/3 and-8/3; for n>=1 their Taylor coefficients are (2/9)(2/3)^(n-1) and (8/9)(2/3)^(n-1). Therefore the coloured finite term is sum(phi_X,n c_-n,n=0,...,4), not phi_X,0 c0 alone. The other two connected channels vanish in this projection; this does not delete the unprojected source trace.",
+          "role": "full epsilon-dependent external-colour convolution",
+          "file_sha256": "ab7da4818ef390f19abce91a25583515d6518b6ad11e57027d022f737c7d1afa"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 40,
+          "passage": "On the starting strip adjacent powers have positive endpoint exponents. For a complete opposite tensor $N$ remains bounded and generally tends to the nonzero value $(1-2e)z$ at a zero corner. Its absolute density is therefore bounded by a constant times $(x+y)^{-2+2\\Re e}$; the two-dimensional radial measure gives $r^{-1+2\\Re e}dr$, integrable strictly for $\\Re e>0$. Endpoint variables belonging to the two different lines are distinct. A full-cube product bound therefore justifies the particular regroupings used here on that strip. It does not prove holomorphy of the full Pi1 source at zero and does not authorize arbitrary permutation of unrelated prepared roots. The subsequent evaluated formulas provide the local meromorphic continuation.",
+          "role": "corrected absolute-integrability bound for full transverse numerator",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 62,
+          "passage": "\\boxed{[\\nu^q]H(\\nu,c\\nu;z)=\\frac1{(q+1)!}",
+          "role": "actual finite evaluated moment rule",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/appendices/pi1-moments.md",
+          "line": 18,
+          "passage": "M_0_1 = -3*zeta[2]-Hlog(z,[0, 0])",
+          "role": "complete adopted moment HLOG value",
+          "file_sha256": "8bf9fe72c386b52cf8f311109752b66804b2a749f8060b15fb100b80d6e01e1d"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/4e-Pi1-03/input.json",
+        "input_sha256": "c9d68f4fff6d7d80c8ec864c78681d6ff6bff080890f5df020ad5706a6c08d7d",
+        "data_index_path": "integrals/three-loop/4e-Pi1-03/data/index.json",
+        "data_index_sha256": "9bc161c05cfc7e1dd9692011dcd854637e8914f1f27dc838da0ade8befd40a70",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/57",
+            "field_sha256": "6aa0891711854409aa3945a37f0bfb9c56491eacc94537c48409fdea9ae0b008"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/4e-Pi1.json",
+            "sha256": "c66681daff1c054ef824984021cbfc4a1b95eb808a73ab64a95d2a6bea134e1e",
+            "field": "/orbits/2"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-Pi1/montopar-initial.json",
+            "sha256": "30f470aef9c1ea3c181445f5225688d678a2addb999fe643cab502ddf1e02983",
+            "field": "/orbits/2"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "wilson-self-energy-1pi-insertion/2.0",
+          "loop_order": 3,
+          "a1": "-1/2",
+          "sym": 4,
+          "rational": "1/(32*eps*(1 - 2*eps))",
+          "full_wilson_color": "CF*(-CA/2 + CF)",
+          "B1": "(CA*(10 - 6*eps) - TF*nf*(8 - 8*eps))/(3 - 2*eps)",
+          "Euler_count": 1,
+          "current_source_convention": "wilson-qcd-action-path-fourier/1.0",
+          "source_check_groups": 13,
+          "external_color": "CA*CF*B1(eps)",
+          "formula": "I=(sym*a1/2)*Gcal^3*C_rational*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+          "Ff_ff": "zero in the connected a1-projected Pi1 contribution; full raw trace retained separately"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "4e-Pi1-04",
+      "family": "P4",
+      "document_status": "明确采用已求函数引理，链已接通",
+      "mathematical_chain": "The full adjacent insertion is integrated on the actual ordered interval. Its1-t^(2e) weight gives B(e,0)-B(e,2e), with both even and odd reciprocal H channels kept in the finite coefficient.",
+      "explicit_adoption": "Prepared Fourier/QFT root and connected projection are accepted; required evaluated M functions and, for P5, exact diagonal rho0/rho1 are precisely adopted with kernels, domain, order and full values exposed.",
+      "equality_scope": "01/02 have directly evaluated equal bare J;05/06 have different bare-z phases but equal physical I;03/10,04/09,07/08 are complete-I reciprocal-source relations with explicit maps. The present entry uses only its applicable relation.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/4e-Pi1-04/derivation.md",
+          "line": 23,
+          "passage": "$$ F=- s_{31} s_{42} z + s_{42} z. $$",
+          "role": "complete actual insertion distance",
+          "file_sha256": "814968a461988a8d95fd9c3a26101f96acae3b2abfcd8d0423a7e165f8a48ba2"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-04/derivation.md",
+          "line": 33,
+          "passage": "This compact numerator is the complete transverse source, not a metric-only replacement. It satisfies identity(2) of the shared derivation. The original outer-to-inner order is `s21,s31,s42,s41`, with these actual dependent bounds:",
+          "role": "original prescribed ordered domain",
+          "file_sha256": "814968a461988a8d95fd9c3a26101f96acae3b2abfcd8d0423a7e165f8a48ba2"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-04/derivation.md",
+          "line": 53,
+          "passage": "Keep the bare opposite endpoints $x=s_{21}$, $t=s_{41}$. The adjacent insertion is over $s_{31}\\in[0,1]$, $s_{42}\\in[t,1]$. The full source numerator first reduces it to $z^{2e}(1-s_{31})^{2e-1}s_{42}^{2e-1}/(1+e)$, then its two endpoint primitives supply $z^{2e}(1-t^{2e})/[4e^2(1+e)]$. Therefore",
+          "role": "graph-specific integration or mapped boundary",
+          "file_sha256": "814968a461988a8d95fd9c3a26101f96acae3b2abfcd8d0423a7e165f8a48ba2"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-04/derivation.md",
+          "line": 63,
+          "passage": "K=\\frac{\\cosh(e\\rho)[H_0^{(1)}-(H_2+\\bar H_2)/2]-\\sinh(e\\rho)(H_2-\\bar H_2)/2}{4e^2(1+e)C}.",
+          "role": "specific primitive, evaluation or complete-source scaling",
+          "file_sha256": "814968a461988a8d95fd9c3a26101f96acae3b2abfcd8d0423a7e165f8a48ba2"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-04/derivation.md",
+          "line": 73,
+          "passage": "c_0=\\frac{ma_1}{64}\\sum_{n=0}^{2}a_n k_{1-n}.",
+          "role": "complete highest-order source/prefactor convolution",
+          "file_sha256": "814968a461988a8d95fd9c3a26101f96acae3b2abfcd8d0423a7e165f8a48ba2"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-04/derivation.md",
+          "line": 77,
+          "passage": "The two connected colour multipliers are phi_A=(10-6e)/(3-2e) and phi_f=-8(1-e)/(3-2e), multiplying CA^2 CF and CA CF TF nf. Their constants are10/3 and-8/3; for n>=1 their Taylor coefficients are (2/9)(2/3)^(n-1) and (8/9)(2/3)^(n-1). Therefore the coloured finite term is sum(phi_X,n c_-n,n=0,...,2), not phi_X,0 c0 alone. The other two connected channels vanish in this projection; this does not delete the unprojected source trace.",
+          "role": "full epsilon-dependent external-colour convolution",
+          "file_sha256": "814968a461988a8d95fd9c3a26101f96acae3b2abfcd8d0423a7e165f8a48ba2"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 40,
+          "passage": "On the starting strip adjacent powers have positive endpoint exponents. For a complete opposite tensor $N$ remains bounded and generally tends to the nonzero value $(1-2e)z$ at a zero corner. Its absolute density is therefore bounded by a constant times $(x+y)^{-2+2\\Re e}$; the two-dimensional radial measure gives $r^{-1+2\\Re e}dr$, integrable strictly for $\\Re e>0$. Endpoint variables belonging to the two different lines are distinct. A full-cube product bound therefore justifies the particular regroupings used here on that strip. It does not prove holomorphy of the full Pi1 source at zero and does not authorize arbitrary permutation of unrelated prepared roots. The subsequent evaluated formulas provide the local meromorphic continuation.",
+          "role": "corrected absolute-integrability bound for full transverse numerator",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 62,
+          "passage": "\\boxed{[\\nu^q]H(\\nu,c\\nu;z)=\\frac1{(q+1)!}",
+          "role": "actual finite evaluated moment rule",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/appendices/pi1-moments.md",
+          "line": 18,
+          "passage": "M_0_1 = -3*zeta[2]-Hlog(z,[0, 0])",
+          "role": "complete adopted moment HLOG value",
+          "file_sha256": "8bf9fe72c386b52cf8f311109752b66804b2a749f8060b15fb100b80d6e01e1d"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/4e-Pi1-04/input.json",
+        "input_sha256": "6afd3bb3a5a330e3c977d5a168c1a7c1099c5942d5f05e3720300bd6d8a462cf",
+        "data_index_path": "integrals/three-loop/4e-Pi1-04/data/index.json",
+        "data_index_sha256": "ec7c69734c1e11de0162e515d2a6858179a007a1aec69ac6cdb3a3d14f13bfac",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/58",
+            "field_sha256": "367e05a974946e1f3ac643b2b107b57db81c8b43d339e4f5d761eb2d3ab16524"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/4e-Pi1.json",
+            "sha256": "c66681daff1c054ef824984021cbfc4a1b95eb808a73ab64a95d2a6bea134e1e",
+            "field": "/orbits/3"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-Pi1/montopar-initial.json",
+            "sha256": "30f470aef9c1ea3c181445f5225688d678a2addb999fe643cab502ddf1e02983",
+            "field": "/orbits/3"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "wilson-self-energy-1pi-insertion/2.0",
+          "loop_order": 3,
+          "a1": "-1/2",
+          "sym": 4,
+          "rational": "1/(32*eps*(1 - 2*eps))",
+          "full_wilson_color": "CF*(-CA/2 + CF)",
+          "B1": "(CA*(10 - 6*eps) - TF*nf*(8 - 8*eps))/(3 - 2*eps)",
+          "Euler_count": 1,
+          "current_source_convention": "wilson-qcd-action-path-fourier/1.0",
+          "source_check_groups": 13,
+          "external_color": "CA*CF*B1(eps)",
+          "formula": "I=(sym*a1/2)*Gcal^3*C_rational*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+          "Ff_ff": "zero in the connected a1-projected Pi1 contribution; full raw trace retained separately"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "4e-Pi1-05",
+      "family": "P2",
+      "document_status": "正文可连续阅读（接受明确的物理算符根）",
+      "mathematical_chain": "Three elementary primitives expose the remaining Beta difference1/(2e)-B(2e,1+e), giving its own z^e root. The source cancellation1-Q=O(e²) reduces the pole before operator convolution.",
+      "explicit_adoption": "Prepared Fourier/QFT root and connected projection are accepted; no evaluated M/rho function is mathematically needed by this Gamma/Beta body.",
+      "equality_scope": "01/02 have directly evaluated equal bare J;05/06 have different bare-z phases but equal physical I;03/10,04/09,07/08 are complete-I reciprocal-source relations with explicit maps. The present entry uses only its applicable relation.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/4e-Pi1-05/derivation.md",
+          "line": 23,
+          "passage": "$$ F=- s_{21} s_{32} + s_{32}. $$",
+          "role": "complete actual insertion distance",
+          "file_sha256": "2f932b3082e9e4b51b18a87d695ad3c9525e2003412438dabc334ec07db51e2c"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-05/derivation.md",
+          "line": 33,
+          "passage": "This compact numerator is the complete transverse source, not a metric-only replacement. It satisfies identity(2) of the shared derivation. The original outer-to-inner order is `s21,s32,s31,s41`, with these actual dependent bounds:",
+          "role": "original prescribed ordered domain",
+          "file_sha256": "2f932b3082e9e4b51b18a87d695ad3c9525e2003412438dabc334ec07db51e2c"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-05/derivation.md",
+          "line": 58,
+          "passage": "The last identity is $1/(2e)-B(2e,1+e)=(1-Q)/(2e)$. Its complete paired root is",
+          "role": "graph-specific integration or mapped boundary",
+          "file_sha256": "2f932b3082e9e4b51b18a87d695ad3c9525e2003412438dabc334ec07db51e2c"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-05/derivation.md",
+          "line": 56,
+          "passage": "=\\frac{z^e(1-Q)}{4e^4(1+e)},\\quad Q=\\frac{\\Gamma(1+e)\\Gamma(1+2e)}{\\Gamma(1+3e)}.",
+          "role": "specific primitive, evaluation or complete-source scaling",
+          "file_sha256": "2f932b3082e9e4b51b18a87d695ad3c9525e2003412438dabc334ec07db51e2c"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-05/derivation.md",
+          "line": 70,
+          "passage": "c_0=\\frac{ma_1}{64}\\sum_{n=0}^{3}a_n k_{1-n}.",
+          "role": "complete highest-order source/prefactor convolution",
+          "file_sha256": "2f932b3082e9e4b51b18a87d695ad3c9525e2003412438dabc334ec07db51e2c"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-05/derivation.md",
+          "line": 74,
+          "passage": "The two connected colour multipliers are phi_A=(10-6e)/(3-2e) and phi_f=-8(1-e)/(3-2e), multiplying CA^2 CF and CA CF TF nf. Their constants are10/3 and-8/3; for n>=1 their Taylor coefficients are (2/9)(2/3)^(n-1) and (8/9)(2/3)^(n-1). Therefore the coloured finite term is sum(phi_X,n c_-n,n=0,...,3), not phi_X,0 c0 alone. The other two connected channels vanish in this projection; this does not delete the unprojected source trace.",
+          "role": "full epsilon-dependent external-colour convolution",
+          "file_sha256": "2f932b3082e9e4b51b18a87d695ad3c9525e2003412438dabc334ec07db51e2c"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 40,
+          "passage": "On the starting strip adjacent powers have positive endpoint exponents. For a complete opposite tensor $N$ remains bounded and generally tends to the nonzero value $(1-2e)z$ at a zero corner. Its absolute density is therefore bounded by a constant times $(x+y)^{-2+2\\Re e}$; the two-dimensional radial measure gives $r^{-1+2\\Re e}dr$, integrable strictly for $\\Re e>0$. Endpoint variables belonging to the two different lines are distinct. A full-cube product bound therefore justifies the particular regroupings used here on that strip. It does not prove holomorphy of the full Pi1 source at zero and does not authorize arbitrary permutation of unrelated prepared roots. The subsequent evaluated formulas provide the local meromorphic continuation.",
+          "role": "corrected absolute-integrability bound for full transverse numerator",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/4e-Pi1-05/input.json",
+        "input_sha256": "d4871e54226534438d3146ae2aa5b05b707334405e41fc8baf7a6e4c21f515af",
+        "data_index_path": "integrals/three-loop/4e-Pi1-05/data/index.json",
+        "data_index_sha256": "d05a8039f86e89816dbd57e083bcfc73060e01be55027f3eaec4c802bf30f8cc",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/59",
+            "field_sha256": "b8cab91b4d049ee736790b0c2c7e5f36289a44d59b3e1d016802132b7ff7517a"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/4e-Pi1.json",
+            "sha256": "c66681daff1c054ef824984021cbfc4a1b95eb808a73ab64a95d2a6bea134e1e",
+            "field": "/orbits/4"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-Pi1/montopar-initial.json",
+            "sha256": "30f470aef9c1ea3c181445f5225688d678a2addb999fe643cab502ddf1e02983",
+            "field": "/orbits/4"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "wilson-self-energy-1pi-insertion/2.0",
+          "loop_order": 3,
+          "a1": "-1/2",
+          "sym": 4,
+          "rational": "1/(32*eps*(1 - 2*eps))",
+          "full_wilson_color": "CF*(-CA/2 + CF)",
+          "B1": "(CA*(10 - 6*eps) - TF*nf*(8 - 8*eps))/(3 - 2*eps)",
+          "Euler_count": 1,
+          "current_source_convention": "wilson-qcd-action-path-fourier/1.0",
+          "source_check_groups": 13,
+          "external_color": "CA*CF*B1(eps)",
+          "formula": "I=(sym*a1/2)*Gcal^3*C_rational*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+          "Ff_ff": "zero in the connected a1-projected Pi1 contribution; full raw trace retained separately"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "4e-Pi1-06",
+      "family": "P2",
+      "document_status": "正文可连续阅读（接受明确的物理算符根）",
+      "mathematical_chain": "The insertion on the other actual line gives1/e-B(e,1+2e) and the distinct z^(2e) phase. Reciprocal pairing gives the same physical I as05 while preserving its different bare J.",
+      "explicit_adoption": "Prepared Fourier/QFT root and connected projection are accepted; no evaluated M/rho function is mathematically needed by this Gamma/Beta body.",
+      "equality_scope": "01/02 have directly evaluated equal bare J;05/06 have different bare-z phases but equal physical I;03/10,04/09,07/08 are complete-I reciprocal-source relations with explicit maps. The present entry uses only its applicable relation.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/4e-Pi1-06/derivation.md",
+          "line": 23,
+          "passage": "$$ F=- s_{31} s_{41} z + s_{41} z. $$",
+          "role": "complete actual insertion distance",
+          "file_sha256": "9b62822f4b1ebc4df68b48557a359e9f68eeb1184486d44724377f6ec1f93c8d"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-06/derivation.md",
+          "line": 33,
+          "passage": "This compact numerator is the complete transverse source, not a metric-only replacement. It satisfies identity(2) of the shared derivation. The original outer-to-inner order is `s21,s32,s31,s41`, with these actual dependent bounds:",
+          "role": "original prescribed ordered domain",
+          "file_sha256": "9b62822f4b1ebc4df68b48557a359e9f68eeb1184486d44724377f6ec1f93c8d"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-06/derivation.md",
+          "line": 58,
+          "passage": "The remaining Beta difference is $1/e-B(e,1+2e)=(1-Q)/e$, with the same explicitly defined Q as in the shared method. The bare phase is $z^{2e}$, not the $z^e$ of05. Pairing each root with its actual reciprocal branch gives the identical complete physical expression",
+          "role": "graph-specific integration or mapped boundary",
+          "file_sha256": "9b62822f4b1ebc4df68b48557a359e9f68eeb1184486d44724377f6ec1f93c8d"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-06/derivation.md",
+          "line": 56,
+          "passage": "=\\frac{z^{2e}(1-Q)}{4e^4(1+e)}.",
+          "role": "specific primitive, evaluation or complete-source scaling",
+          "file_sha256": "9b62822f4b1ebc4df68b48557a359e9f68eeb1184486d44724377f6ec1f93c8d"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-06/derivation.md",
+          "line": 69,
+          "passage": "c_0=\\frac{ma_1}{64}\\sum_{n=0}^{3}a_n k_{1-n}.",
+          "role": "complete highest-order source/prefactor convolution",
+          "file_sha256": "9b62822f4b1ebc4df68b48557a359e9f68eeb1184486d44724377f6ec1f93c8d"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-06/derivation.md",
+          "line": 73,
+          "passage": "The two connected colour multipliers are phi_A=(10-6e)/(3-2e) and phi_f=-8(1-e)/(3-2e), multiplying CA^2 CF and CA CF TF nf. Their constants are10/3 and-8/3; for n>=1 their Taylor coefficients are (2/9)(2/3)^(n-1) and (8/9)(2/3)^(n-1). Therefore the coloured finite term is sum(phi_X,n c_-n,n=0,...,3), not phi_X,0 c0 alone. The other two connected channels vanish in this projection; this does not delete the unprojected source trace.",
+          "role": "full epsilon-dependent external-colour convolution",
+          "file_sha256": "9b62822f4b1ebc4df68b48557a359e9f68eeb1184486d44724377f6ec1f93c8d"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 40,
+          "passage": "On the starting strip adjacent powers have positive endpoint exponents. For a complete opposite tensor $N$ remains bounded and generally tends to the nonzero value $(1-2e)z$ at a zero corner. Its absolute density is therefore bounded by a constant times $(x+y)^{-2+2\\Re e}$; the two-dimensional radial measure gives $r^{-1+2\\Re e}dr$, integrable strictly for $\\Re e>0$. Endpoint variables belonging to the two different lines are distinct. A full-cube product bound therefore justifies the particular regroupings used here on that strip. It does not prove holomorphy of the full Pi1 source at zero and does not authorize arbitrary permutation of unrelated prepared roots. The subsequent evaluated formulas provide the local meromorphic continuation.",
+          "role": "corrected absolute-integrability bound for full transverse numerator",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/4e-Pi1-06/input.json",
+        "input_sha256": "0f355054685c0e9e475aa7b7d75315cb11419839591a764f30194dd285ff911c",
+        "data_index_path": "integrals/three-loop/4e-Pi1-06/data/index.json",
+        "data_index_sha256": "ce768cc0210e809bbfe3c52dfac50b940f14a597cd2ac91b76b7a24820c2f8c6",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/60",
+            "field_sha256": "34bbfdcdcd9d5938178a7f643368631b97a4443d35ea25747dddca80b5801379"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/4e-Pi1.json",
+            "sha256": "c66681daff1c054ef824984021cbfc4a1b95eb808a73ab64a95d2a6bea134e1e",
+            "field": "/orbits/5"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-Pi1/montopar-initial.json",
+            "sha256": "30f470aef9c1ea3c181445f5225688d678a2addb999fe643cab502ddf1e02983",
+            "field": "/orbits/5"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "wilson-self-energy-1pi-insertion/2.0",
+          "loop_order": 3,
+          "a1": "-1/2",
+          "sym": 4,
+          "rational": "1/(32*eps*(1 - 2*eps))",
+          "full_wilson_color": "CF*(-CA/2 + CF)",
+          "B1": "(CA*(10 - 6*eps) - TF*nf*(8 - 8*eps))/(3 - 2*eps)",
+          "Euler_count": 1,
+          "current_source_convention": "wilson-qcd-action-path-fourier/1.0",
+          "source_check_groups": 13,
+          "external_color": "CA*CF*B1(eps)",
+          "formula": "I=(sym*a1/2)*Gcal^3*C_rational*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+          "Ff_ff": "zero in the connected a1-projected Pi1 contribution; full raw trace retained separately"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "4e-Pi1-07",
+      "family": "P5",
+      "document_status": "明确采用已求函数引理，链已接通",
+      "mathematical_chain": "The lower-endpoint insertion is integrated over its actual inner rectangle, retaining its four signed corners. Combined with the explicit outer rectangle of08, the eight evaluated square terms give A; the mixed T sum uses precisely2rho0+3e rho1 to the required order.",
+      "explicit_adoption": "Prepared Fourier/QFT root and connected projection are accepted; required evaluated M functions and, for P5, exact diagonal rho0/rho1 are precisely adopted with kernels, domain, order and full values exposed.",
+      "equality_scope": "01/02 have directly evaluated equal bare J;05/06 have different bare-z phases but equal physical I;03/10,04/09,07/08 are complete-I reciprocal-source relations with explicit maps. The present entry uses only its applicable relation.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/4e-Pi1-07/derivation.md",
+          "line": 23,
+          "passage": "$$ F=s_{21} s_{41} z + s_{21} s_{41} - s_{21} - s_{41} + 1. $$",
+          "role": "complete actual insertion distance",
+          "file_sha256": "650dd315a78e07d1e25c7ecdf3417da511cf1a9968ceece231167a167fca6bb3"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-07/derivation.md",
+          "line": 33,
+          "passage": "This compact numerator is the complete transverse source, not a metric-only replacement. It satisfies identity(2) of the shared derivation. The original outer-to-inner order is `s22,s21,s42,s41`, with these actual dependent bounds:",
+          "role": "original prescribed ordered domain",
+          "file_sha256": "650dd315a78e07d1e25c7ecdf3417da511cf1a9968ceece231167a167fca6bb3"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-07/derivation.md",
+          "line": 55,
+          "passage": "D_z(s_2,t_2)^{2e}-(1-t_2)^{2e}-(1-s_2)^{2e}+1.",
+          "role": "graph-specific integration or mapped boundary",
+          "file_sha256": "650dd315a78e07d1e25c7ecdf3417da511cf1a9968ceece231167a167fca6bb3"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-07/derivation.md",
+          "line": 76,
+          "passage": "c_0=-\\rho^2M_{0,1}/512-M_{0,1}^2/192+M_{0,3}/384+(M_{1,1}+M_{2,1})/256-3\\rho_1/128.",
+          "role": "specific primitive, evaluation or complete-source scaling",
+          "file_sha256": "650dd315a78e07d1e25c7ecdf3417da511cf1a9968ceece231167a167fca6bb3"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-07/derivation.md",
+          "line": 86,
+          "passage": "c_0=\\frac{ma_1}{64}\\sum_{n=0}^{1}a_n k_{1-n}.",
+          "role": "complete highest-order source/prefactor convolution",
+          "file_sha256": "650dd315a78e07d1e25c7ecdf3417da511cf1a9968ceece231167a167fca6bb3"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-07/derivation.md",
+          "line": 90,
+          "passage": "The two connected colour multipliers are phi_A=(10-6e)/(3-2e) and phi_f=-8(1-e)/(3-2e), multiplying CA^2 CF and CA CF TF nf. Their constants are10/3 and-8/3; for n>=1 their Taylor coefficients are (2/9)(2/3)^(n-1) and (8/9)(2/3)^(n-1). Therefore the coloured finite term is sum(phi_X,n c_-n,n=0,...,1), not phi_X,0 c0 alone. The other two connected channels vanish in this projection; this does not delete the unprojected source trace.",
+          "role": "full epsilon-dependent external-colour convolution",
+          "file_sha256": "650dd315a78e07d1e25c7ecdf3417da511cf1a9968ceece231167a167fca6bb3"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 40,
+          "passage": "On the starting strip adjacent powers have positive endpoint exponents. For a complete opposite tensor $N$ remains bounded and generally tends to the nonzero value $(1-2e)z$ at a zero corner. Its absolute density is therefore bounded by a constant times $(x+y)^{-2+2\\Re e}$; the two-dimensional radial measure gives $r^{-1+2\\Re e}dr$, integrable strictly for $\\Re e>0$. Endpoint variables belonging to the two different lines are distinct. A full-cube product bound therefore justifies the particular regroupings used here on that strip. It does not prove holomorphy of the full Pi1 source at zero and does not authorize arbitrary permutation of unrelated prepared roots. The subsequent evaluated formulas provide the local meromorphic continuation.",
+          "role": "corrected absolute-integrability bound for full transverse numerator",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 62,
+          "passage": "\\boxed{[\\nu^q]H(\\nu,c\\nu;z)=\\frac1{(q+1)!}",
+          "role": "actual finite evaluated moment rule",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/appendices/pi1-moments.md",
+          "line": 18,
+          "passage": "M_0_1 = -3*zeta[2]-Hlog(z,[0, 0])",
+          "role": "complete adopted moment HLOG value",
+          "file_sha256": "8bf9fe72c386b52cf8f311109752b66804b2a749f8060b15fb100b80d6e01e1d"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 166,
+          "passage": "T(2e,e)+T(e,2e)=2\\rho_0+3e\\rho_1+O(e^2),\\quad",
+          "role": "precise mixed-body first derivative",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/appendices/pi1-moments.md",
+          "line": 98,
+          "passage": "rho1 = -12*zeta(5) + 17*pi**2*zeta(3)/6 - pi**4*Hlog(z, (-1,))/12 + 49*pi**4*Hlog(z, (0,))/360 + 3*zeta(3)*Hlog(z, (0, 0)) - pi**2*Hlog(z, (-1, 0, 0))/3 + pi**2*Hlog(z, (0, -1, 0))/6 - pi**2*Hlog(z, (0, 0, -1))/2 + pi**2*Hlog(z, (0, 0, 0))/3 - 2*Hlog(z, (-1, 0, 0, 0, 0)) + Hlog(z, (0, -1, 0, 0, 0)) - Hlog(z, (0, 0, -1, 0, 0)) + Hlog(z, (0, 0, 0, 0, 0))",
+          "role": "complete adopted ordered-body HLOG value",
+          "file_sha256": "8bf9fe72c386b52cf8f311109752b66804b2a749f8060b15fb100b80d6e01e1d"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/4e-Pi1-07/input.json",
+        "input_sha256": "6892d73560d14c5cfe00be678696d406bfb7df475de977ab8508e9209358fe9b",
+        "data_index_path": "integrals/three-loop/4e-Pi1-07/data/index.json",
+        "data_index_sha256": "c08408df027d16d7d61ea661988f414dda73086a727410f6d06ee3a684803863",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/61",
+            "field_sha256": "73cd4ce9ee08770e452bf613e70f75abc6cd85cce31fcccecc444f3067606712"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/4e-Pi1.json",
+            "sha256": "c66681daff1c054ef824984021cbfc4a1b95eb808a73ab64a95d2a6bea134e1e",
+            "field": "/orbits/6"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-Pi1/montopar-initial.json",
+            "sha256": "30f470aef9c1ea3c181445f5225688d678a2addb999fe643cab502ddf1e02983",
+            "field": "/orbits/6"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "wilson-self-energy-1pi-insertion/2.0",
+          "loop_order": 3,
+          "a1": "-1/2",
+          "sym": 2,
+          "rational": "1/(32*eps*(1 - 2*eps))",
+          "full_wilson_color": "CF*(-CA/2 + CF)",
+          "B1": "(CA*(10 - 6*eps) - TF*nf*(8 - 8*eps))/(3 - 2*eps)",
+          "Euler_count": 1,
+          "current_source_convention": "wilson-qcd-action-path-fourier/1.0",
+          "source_check_groups": 13,
+          "external_color": "CA*CF*B1(eps)",
+          "formula": "I=(sym*a1/2)*Gcal^3*C_rational*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+          "Ff_ff": "zero in the connected a1-projected Pi1 contribution; full raw trace retained separately"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "4e-Pi1-08",
+      "family": "P5",
+      "document_status": "明确采用已求函数引理，链已接通",
+      "mathematical_chain": "The upper-endpoint insertion gives its own outer rectangle z^(2e)-(zs1)^(2e)-(zt1)^(2e)+D1^(2e). The explicit ordered-chain reflection proves a complete-I relation to07; it is not an independent-square factorization.",
+      "explicit_adoption": "Prepared Fourier/QFT root and connected projection are accepted; required evaluated M functions and, for P5, exact diagonal rho0/rho1 are precisely adopted with kernels, domain, order and full values exposed.",
+      "equality_scope": "01/02 have directly evaluated equal bare J;05/06 have different bare-z phases but equal physical I;03/10,04/09,07/08 are complete-I reciprocal-source relations with explicit maps. The present entry uses only its applicable relation.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/4e-Pi1-08/derivation.md",
+          "line": 23,
+          "passage": "$$ F=s_{22} s_{42} z + s_{22} s_{42} - s_{22} - s_{42} + 1. $$",
+          "role": "complete actual insertion distance",
+          "file_sha256": "6f66b86051f3753d6af383410e3aa89745a0dc26376fdeec1161c89ff8472884"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-08/derivation.md",
+          "line": 33,
+          "passage": "This compact numerator is the complete transverse source, not a metric-only replacement. It satisfies identity(2) of the shared derivation. The original outer-to-inner order is `s22,s21,s42,s41`, with these actual dependent bounds:",
+          "role": "original prescribed ordered domain",
+          "file_sha256": "6f66b86051f3753d6af383410e3aa89745a0dc26376fdeec1161c89ff8472884"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-08/derivation.md",
+          "line": 55,
+          "passage": "z^{2e}-(zs_1)^{2e}-(zt_1)^{2e}+D_z(s_1,t_1)^{2e}.",
+          "role": "graph-specific integration or mapped boundary",
+          "file_sha256": "6f66b86051f3753d6af383410e3aa89745a0dc26376fdeec1161c89ff8472884"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-08/derivation.md",
+          "line": 72,
+          "passage": "K=\\frac{T(2e,e)+T(e,2e)+A/[2e(1+e)]}{2\\cosh(3e\\rho/2)}.",
+          "role": "specific primitive, evaluation or complete-source scaling",
+          "file_sha256": "6f66b86051f3753d6af383410e3aa89745a0dc26376fdeec1161c89ff8472884"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-08/derivation.md",
+          "line": 86,
+          "passage": "c_0=\\frac{ma_1}{64}\\sum_{n=0}^{1}a_n k_{1-n}.",
+          "role": "complete highest-order source/prefactor convolution",
+          "file_sha256": "6f66b86051f3753d6af383410e3aa89745a0dc26376fdeec1161c89ff8472884"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-08/derivation.md",
+          "line": 90,
+          "passage": "The two connected colour multipliers are phi_A=(10-6e)/(3-2e) and phi_f=-8(1-e)/(3-2e), multiplying CA^2 CF and CA CF TF nf. Their constants are10/3 and-8/3; for n>=1 their Taylor coefficients are (2/9)(2/3)^(n-1) and (8/9)(2/3)^(n-1). Therefore the coloured finite term is sum(phi_X,n c_-n,n=0,...,1), not phi_X,0 c0 alone. The other two connected channels vanish in this projection; this does not delete the unprojected source trace.",
+          "role": "full epsilon-dependent external-colour convolution",
+          "file_sha256": "6f66b86051f3753d6af383410e3aa89745a0dc26376fdeec1161c89ff8472884"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 40,
+          "passage": "On the starting strip adjacent powers have positive endpoint exponents. For a complete opposite tensor $N$ remains bounded and generally tends to the nonzero value $(1-2e)z$ at a zero corner. Its absolute density is therefore bounded by a constant times $(x+y)^{-2+2\\Re e}$; the two-dimensional radial measure gives $r^{-1+2\\Re e}dr$, integrable strictly for $\\Re e>0$. Endpoint variables belonging to the two different lines are distinct. A full-cube product bound therefore justifies the particular regroupings used here on that strip. It does not prove holomorphy of the full Pi1 source at zero and does not authorize arbitrary permutation of unrelated prepared roots. The subsequent evaluated formulas provide the local meromorphic continuation.",
+          "role": "corrected absolute-integrability bound for full transverse numerator",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 62,
+          "passage": "\\boxed{[\\nu^q]H(\\nu,c\\nu;z)=\\frac1{(q+1)!}",
+          "role": "actual finite evaluated moment rule",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/appendices/pi1-moments.md",
+          "line": 18,
+          "passage": "M_0_1 = -3*zeta[2]-Hlog(z,[0, 0])",
+          "role": "complete adopted moment HLOG value",
+          "file_sha256": "8bf9fe72c386b52cf8f311109752b66804b2a749f8060b15fb100b80d6e01e1d"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 166,
+          "passage": "T(2e,e)+T(e,2e)=2\\rho_0+3e\\rho_1+O(e^2),\\quad",
+          "role": "precise mixed-body first derivative",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/appendices/pi1-moments.md",
+          "line": 98,
+          "passage": "rho1 = -12*zeta(5) + 17*pi**2*zeta(3)/6 - pi**4*Hlog(z, (-1,))/12 + 49*pi**4*Hlog(z, (0,))/360 + 3*zeta(3)*Hlog(z, (0, 0)) - pi**2*Hlog(z, (-1, 0, 0))/3 + pi**2*Hlog(z, (0, -1, 0))/6 - pi**2*Hlog(z, (0, 0, -1))/2 + pi**2*Hlog(z, (0, 0, 0))/3 - 2*Hlog(z, (-1, 0, 0, 0, 0)) + Hlog(z, (0, -1, 0, 0, 0)) - Hlog(z, (0, 0, -1, 0, 0)) + Hlog(z, (0, 0, 0, 0, 0))",
+          "role": "complete adopted ordered-body HLOG value",
+          "file_sha256": "8bf9fe72c386b52cf8f311109752b66804b2a749f8060b15fb100b80d6e01e1d"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/4e-Pi1-08/input.json",
+        "input_sha256": "b3b96d6147ddaf20d8b80f45042607204ed0baa86fbb6da8f715115dd075182a",
+        "data_index_path": "integrals/three-loop/4e-Pi1-08/data/index.json",
+        "data_index_sha256": "e9d313011336772241c3ec3a40ba6706e9af1ce967a1510b8ec8bfe8a817ed0c",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/62",
+            "field_sha256": "96286978ff6abc529a48f3b4129c68076a2c6bda0e16d22c2966595ad5cf87a5"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/4e-Pi1.json",
+            "sha256": "c66681daff1c054ef824984021cbfc4a1b95eb808a73ab64a95d2a6bea134e1e",
+            "field": "/orbits/7"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-Pi1/montopar-initial.json",
+            "sha256": "30f470aef9c1ea3c181445f5225688d678a2addb999fe643cab502ddf1e02983",
+            "field": "/orbits/7"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "wilson-self-energy-1pi-insertion/2.0",
+          "loop_order": 3,
+          "a1": "-1/2",
+          "sym": 2,
+          "rational": "1/(32*eps*(1 - 2*eps))",
+          "full_wilson_color": "CF*(-CA/2 + CF)",
+          "B1": "(CA*(10 - 6*eps) - TF*nf*(8 - 8*eps))/(3 - 2*eps)",
+          "Euler_count": 1,
+          "current_source_convention": "wilson-qcd-action-path-fourier/1.0",
+          "source_check_groups": 13,
+          "external_color": "CA*CF*B1(eps)",
+          "formula": "I=(sym*a1/2)*Gcal^3*C_rational*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+          "Ff_ff": "zero in the connected a1-projected Pi1 contribution; full raw trace retained separately"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "4e-Pi1-09",
+      "family": "P4",
+      "document_status": "明确采用已求函数引理，链已接通",
+      "mathematical_chain": "Its own adjacent lower primitive is1-(1-x)^(2e). The concrete complement map preserves insertion/bare labels and dependent bounds and proves J09=z^(3e)J04(1/z), then the physical paired I relation.",
+      "explicit_adoption": "Prepared Fourier/QFT root and connected projection are accepted; required evaluated M functions and, for P5, exact diagonal rho0/rho1 are precisely adopted with kernels, domain, order and full values exposed.",
+      "equality_scope": "01/02 have directly evaluated equal bare J;05/06 have different bare-z phases but equal physical I;03/10,04/09,07/08 are complete-I reciprocal-source relations with explicit maps. The present entry uses only its applicable relation.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/4e-Pi1-09/derivation.md",
+          "line": 23,
+          "passage": "$$ F=- s_{21} s_{31} + s_{31}. $$",
+          "role": "complete actual insertion distance",
+          "file_sha256": "ba8cece6fa279323c4dfdac646a7a88f66d7f89510fb6b76873488fa9fb3c17d"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-09/derivation.md",
+          "line": 33,
+          "passage": "This compact numerator is the complete transverse source, not a metric-only replacement. It satisfies identity(2) of the shared derivation. The original outer-to-inner order is `s22,s21,s31,s41`, with these actual dependent bounds:",
+          "role": "original prescribed ordered domain",
+          "file_sha256": "ba8cece6fa279323c4dfdac646a7a88f66d7f89510fb6b76873488fa9fb3c17d"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-09/derivation.md",
+          "line": 59,
+          "passage": "(s_{21},s_{41},s_{42},s_{31})_{04}=(1-s_{41},1-s_{22},1-s_{21},1-s_{31})_{09}",
+          "role": "graph-specific integration or mapped boundary",
+          "file_sha256": "ba8cece6fa279323c4dfdac646a7a88f66d7f89510fb6b76873488fa9fb3c17d"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-09/derivation.md",
+          "line": 61,
+          "passage": "at reciprocal z preserves the actual ordered bound, insertion labels and unit absolute Jacobian. Its line scaling gives $J_{09}=z^{3e}J_{04}(1/z)$, hence equal complete physical I after the checked equal m,a1. This proves an I identity, not equality of the unreflected J.",
+          "role": "specific primitive, evaluation or complete-source scaling",
+          "file_sha256": "ba8cece6fa279323c4dfdac646a7a88f66d7f89510fb6b76873488fa9fb3c17d"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-09/derivation.md",
+          "line": 77,
+          "passage": "c_0=\\frac{ma_1}{64}\\sum_{n=0}^{2}a_n k_{1-n}.",
+          "role": "complete highest-order source/prefactor convolution",
+          "file_sha256": "ba8cece6fa279323c4dfdac646a7a88f66d7f89510fb6b76873488fa9fb3c17d"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-09/derivation.md",
+          "line": 81,
+          "passage": "The two connected colour multipliers are phi_A=(10-6e)/(3-2e) and phi_f=-8(1-e)/(3-2e), multiplying CA^2 CF and CA CF TF nf. Their constants are10/3 and-8/3; for n>=1 their Taylor coefficients are (2/9)(2/3)^(n-1) and (8/9)(2/3)^(n-1). Therefore the coloured finite term is sum(phi_X,n c_-n,n=0,...,2), not phi_X,0 c0 alone. The other two connected channels vanish in this projection; this does not delete the unprojected source trace.",
+          "role": "full epsilon-dependent external-colour convolution",
+          "file_sha256": "ba8cece6fa279323c4dfdac646a7a88f66d7f89510fb6b76873488fa9fb3c17d"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 40,
+          "passage": "On the starting strip adjacent powers have positive endpoint exponents. For a complete opposite tensor $N$ remains bounded and generally tends to the nonzero value $(1-2e)z$ at a zero corner. Its absolute density is therefore bounded by a constant times $(x+y)^{-2+2\\Re e}$; the two-dimensional radial measure gives $r^{-1+2\\Re e}dr$, integrable strictly for $\\Re e>0$. Endpoint variables belonging to the two different lines are distinct. A full-cube product bound therefore justifies the particular regroupings used here on that strip. It does not prove holomorphy of the full Pi1 source at zero and does not authorize arbitrary permutation of unrelated prepared roots. The subsequent evaluated formulas provide the local meromorphic continuation.",
+          "role": "corrected absolute-integrability bound for full transverse numerator",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 62,
+          "passage": "\\boxed{[\\nu^q]H(\\nu,c\\nu;z)=\\frac1{(q+1)!}",
+          "role": "actual finite evaluated moment rule",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/appendices/pi1-moments.md",
+          "line": 18,
+          "passage": "M_0_1 = -3*zeta[2]-Hlog(z,[0, 0])",
+          "role": "complete adopted moment HLOG value",
+          "file_sha256": "8bf9fe72c386b52cf8f311109752b66804b2a749f8060b15fb100b80d6e01e1d"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/4e-Pi1-09/input.json",
+        "input_sha256": "b733341d31ac1da4dcb6370f6f41839150e51da3bb660cdb2a0d4ca5ceef75a1",
+        "data_index_path": "integrals/three-loop/4e-Pi1-09/data/index.json",
+        "data_index_sha256": "a8f05816b2df8e5eb0f79efd23606a47cb19603a78e0cd75079a8898c8a41f34",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/63",
+            "field_sha256": "a554027d4f4424d858549f22d71cd7f40d613fcafadaa016db52125e7e641271"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/4e-Pi1.json",
+            "sha256": "c66681daff1c054ef824984021cbfc4a1b95eb808a73ab64a95d2a6bea134e1e",
+            "field": "/orbits/8"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-Pi1/montopar-initial.json",
+            "sha256": "30f470aef9c1ea3c181445f5225688d678a2addb999fe643cab502ddf1e02983",
+            "field": "/orbits/8"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "wilson-self-energy-1pi-insertion/2.0",
+          "loop_order": 3,
+          "a1": "-1/2",
+          "sym": 4,
+          "rational": "1/(32*eps*(1 - 2*eps))",
+          "full_wilson_color": "CF*(-CA/2 + CF)",
+          "B1": "(CA*(10 - 6*eps) - TF*nf*(8 - 8*eps))/(3 - 2*eps)",
+          "Euler_count": 1,
+          "current_source_convention": "wilson-qcd-action-path-fourier/1.0",
+          "source_check_groups": 13,
+          "external_color": "CA*CF*B1(eps)",
+          "formula": "I=(sym*a1/2)*Gcal^3*C_rational*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+          "Ff_ff": "zero in the connected a1-projected Pi1 contribution; full raw trace retained separately"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "4e-Pi1-10",
+      "family": "P3",
+      "document_status": "明确采用已求函数引理，链已接通",
+      "mathematical_chain": "The own bare endpoint integral leaves1-(1-x)^e. The explicit complement map and separate line scalings prove J10=z^(3e)J03(1/z), retaining the mapped nonzero derivative/Beta boundary.",
+      "explicit_adoption": "Prepared Fourier/QFT root and connected projection are accepted; required evaluated M functions and, for P5, exact diagonal rho0/rho1 are precisely adopted with kernels, domain, order and full values exposed.",
+      "equality_scope": "01/02 have directly evaluated equal bare J;05/06 have different bare-z phases but equal physical I;03/10,04/09,07/08 are complete-I reciprocal-source relations with explicit maps. The present entry uses only its applicable relation.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/4e-Pi1-10/derivation.md",
+          "line": 23,
+          "passage": "$$ F=s_{22} s_{41} z + s_{22} s_{41} - s_{22} - s_{41} + 1. $$",
+          "role": "complete actual insertion distance",
+          "file_sha256": "b43f87c4bc1c39cc2978aaebd733dafb3671692f2287860da43a95dff6ce6707"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-10/derivation.md",
+          "line": 33,
+          "passage": "This compact numerator is the complete transverse source, not a metric-only replacement. It satisfies identity(2) of the shared derivation. The original outer-to-inner order is `s22,s21,s31,s41`, with these actual dependent bounds:",
+          "role": "original prescribed ordered domain",
+          "file_sha256": "b43f87c4bc1c39cc2978aaebd733dafb3671692f2287860da43a95dff6ce6707"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-10/derivation.md",
+          "line": 60,
+          "passage": "(s_{21},s_{41},s_{42},s_{31})_{03}=(1-s_{41},1-s_{22},1-s_{21},1-s_{31})_{10}",
+          "role": "graph-specific integration or mapped boundary",
+          "file_sha256": "b43f87c4bc1c39cc2978aaebd733dafb3671692f2287860da43a95dff6ce6707"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-10/derivation.md",
+          "line": 62,
+          "passage": "at the reciprocal shape. Its absolute Jacobian is1, its bounds preserve $s_{21}<s_{22}$, and insertion/bare labels stay attached to their lines. The insertion and bare Fourier kernels scale by $z^{-2e}$ and $z^{-e}$ respectively, proving $J_{10}=z^{3e}J_{03}(1/z)$. Therefore the physical crossing K, and hence I, equals03; no equality of the unreflected bare J is asserted. The nonzero03 boundary mass remains in that mapped object.",
+          "role": "specific primitive, evaluation or complete-source scaling",
+          "file_sha256": "b43f87c4bc1c39cc2978aaebd733dafb3671692f2287860da43a95dff6ce6707"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-10/derivation.md",
+          "line": 79,
+          "passage": "c_0=\\frac{ma_1}{64}\\sum_{n=0}^{4}a_n k_{1-n}.",
+          "role": "complete highest-order source/prefactor convolution",
+          "file_sha256": "b43f87c4bc1c39cc2978aaebd733dafb3671692f2287860da43a95dff6ce6707"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-10/derivation.md",
+          "line": 83,
+          "passage": "The two connected colour multipliers are phi_A=(10-6e)/(3-2e) and phi_f=-8(1-e)/(3-2e), multiplying CA^2 CF and CA CF TF nf. Their constants are10/3 and-8/3; for n>=1 their Taylor coefficients are (2/9)(2/3)^(n-1) and (8/9)(2/3)^(n-1). Therefore the coloured finite term is sum(phi_X,n c_-n,n=0,...,4), not phi_X,0 c0 alone. The other two connected channels vanish in this projection; this does not delete the unprojected source trace.",
+          "role": "full epsilon-dependent external-colour convolution",
+          "file_sha256": "b43f87c4bc1c39cc2978aaebd733dafb3671692f2287860da43a95dff6ce6707"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 40,
+          "passage": "On the starting strip adjacent powers have positive endpoint exponents. For a complete opposite tensor $N$ remains bounded and generally tends to the nonzero value $(1-2e)z$ at a zero corner. Its absolute density is therefore bounded by a constant times $(x+y)^{-2+2\\Re e}$; the two-dimensional radial measure gives $r^{-1+2\\Re e}dr$, integrable strictly for $\\Re e>0$. Endpoint variables belonging to the two different lines are distinct. A full-cube product bound therefore justifies the particular regroupings used here on that strip. It does not prove holomorphy of the full Pi1 source at zero and does not authorize arbitrary permutation of unrelated prepared roots. The subsequent evaluated formulas provide the local meromorphic continuation.",
+          "role": "corrected absolute-integrability bound for full transverse numerator",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 62,
+          "passage": "\\boxed{[\\nu^q]H(\\nu,c\\nu;z)=\\frac1{(q+1)!}",
+          "role": "actual finite evaluated moment rule",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/appendices/pi1-moments.md",
+          "line": 18,
+          "passage": "M_0_1 = -3*zeta[2]-Hlog(z,[0, 0])",
+          "role": "complete adopted moment HLOG value",
+          "file_sha256": "8bf9fe72c386b52cf8f311109752b66804b2a749f8060b15fb100b80d6e01e1d"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/4e-Pi1-10/input.json",
+        "input_sha256": "0a0ada939cc49cd85acbfbc54a41c92b1daa18de7fdf67386f808599a5ccca07",
+        "data_index_path": "integrals/three-loop/4e-Pi1-10/data/index.json",
+        "data_index_sha256": "686dd2a6918b6af1c4ab0d6ebef9ff5ed81ea5d17f809dfc99b57e947e330f49",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/64",
+            "field_sha256": "51590d6cc8d6cdd3011a3f29d1c02732107831a0470855af67c6f085c59d125d"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/4e-Pi1.json",
+            "sha256": "c66681daff1c054ef824984021cbfc4a1b95eb808a73ab64a95d2a6bea134e1e",
+            "field": "/orbits/9"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-Pi1/montopar-initial.json",
+            "sha256": "30f470aef9c1ea3c181445f5225688d678a2addb999fe643cab502ddf1e02983",
+            "field": "/orbits/9"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "wilson-self-energy-1pi-insertion/2.0",
+          "loop_order": 3,
+          "a1": "-1/2",
+          "sym": 4,
+          "rational": "1/(32*eps*(1 - 2*eps))",
+          "full_wilson_color": "CF*(-CA/2 + CF)",
+          "B1": "(CA*(10 - 6*eps) - TF*nf*(8 - 8*eps))/(3 - 2*eps)",
+          "Euler_count": 1,
+          "current_source_convention": "wilson-qcd-action-path-fourier/1.0",
+          "source_check_groups": 13,
+          "external_color": "CA*CF*B1(eps)",
+          "formula": "I=(sym*a1/2)*Gcal^3*C_rational*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+          "Ff_ff": "zero in the connected a1-projected Pi1 contribution; full raw trace retained separately"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "4e-Pi1-11",
+      "family": "P6",
+      "document_status": "明确采用已求函数引理，链已接通",
+      "mathematical_chain": "The actual endpoint domain factors into two independent squares. Complementing the reverse insertion gives D, while its four derivative corners give1+z^(2e). This boundary remains in the product and supplies its double pole.",
+      "explicit_adoption": "Prepared Fourier/QFT root and connected projection are accepted; required evaluated M functions and, for P5, exact diagonal rho0/rho1 are precisely adopted with kernels, domain, order and full values exposed.",
+      "equality_scope": "01/02 have directly evaluated equal bare J;05/06 have different bare-z phases but equal physical I;03/10,04/09,07/08 are complete-I reciprocal-source relations with explicit maps. The present entry uses only its applicable relation.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/4e-Pi1-11/derivation.md",
+          "line": 23,
+          "passage": "$$ F=s_{11} s_{31} z + s_{11} s_{31} - s_{11} z - s_{31} z + z. $$",
+          "role": "complete actual insertion distance",
+          "file_sha256": "c51813b3f508ec5ce7021f861ef793bf37f2950212a743cf07add9b561bf20a8"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-11/derivation.md",
+          "line": 33,
+          "passage": "This compact numerator is the complete transverse source, not a metric-only replacement. It satisfies identity(2) of the shared derivation. The original outer-to-inner order is `s11,s21,s31,s41`, with these actual dependent bounds:",
+          "role": "original prescribed ordered domain",
+          "file_sha256": "c51813b3f508ec5ce7021f861ef793bf37f2950212a743cf07add9b561bf20a8"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-11/derivation.md",
+          "line": 53,
+          "passage": "The insertion has the independent endpoints $a=s_{11}$,$b=s_{31}$ and the bare line $s_{21},s_{41}$ has its own full square. Complement only $a,b$ to convert the insertion distance $\\widetilde D_z=z(1-a)(1-b)+ab$ into $D_z$. This map has absolute Jacobian1 and no ordering constraint is lost. The full derivative rectangle gives $z^{2e}-0-0+1$, interpreted first for positive Re e. Therefore the insertion integral equals",
+          "role": "graph-specific integration or mapped boundary",
+          "file_sha256": "c51813b3f508ec5ce7021f861ef793bf37f2950212a743cf07add9b561bf20a8"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-11/derivation.md",
+          "line": 60,
+          "passage": "\\quad K=\\frac{H_0^{(1)}}{\\cosh(3e\\rho/2)}[H_0^{(2)}+\\cosh(e\\rho)/(2e(1+e))].",
+          "role": "specific primitive, evaluation or complete-source scaling",
+          "file_sha256": "c51813b3f508ec5ce7021f861ef793bf37f2950212a743cf07add9b561bf20a8"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-11/derivation.md",
+          "line": 70,
+          "passage": "c_0=\\frac{ma_1}{64}\\sum_{n=0}^{2}a_n k_{1-n}.",
+          "role": "complete highest-order source/prefactor convolution",
+          "file_sha256": "c51813b3f508ec5ce7021f861ef793bf37f2950212a743cf07add9b561bf20a8"
+        },
+        {
+          "path": "integrals/three-loop/4e-Pi1-11/derivation.md",
+          "line": 74,
+          "passage": "The two connected colour multipliers are phi_A=(10-6e)/(3-2e) and phi_f=-8(1-e)/(3-2e), multiplying CA^2 CF and CA CF TF nf. Their constants are10/3 and-8/3; for n>=1 their Taylor coefficients are (2/9)(2/3)^(n-1) and (8/9)(2/3)^(n-1). Therefore the coloured finite term is sum(phi_X,n c_-n,n=0,...,2), not phi_X,0 c0 alone. The other two connected channels vanish in this projection; this does not delete the unprojected source trace.",
+          "role": "full epsilon-dependent external-colour convolution",
+          "file_sha256": "c51813b3f508ec5ce7021f861ef793bf37f2950212a743cf07add9b561bf20a8"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 40,
+          "passage": "On the starting strip adjacent powers have positive endpoint exponents. For a complete opposite tensor $N$ remains bounded and generally tends to the nonzero value $(1-2e)z$ at a zero corner. Its absolute density is therefore bounded by a constant times $(x+y)^{-2+2\\Re e}$; the two-dimensional radial measure gives $r^{-1+2\\Re e}dr$, integrable strictly for $\\Re e>0$. Endpoint variables belonging to the two different lines are distinct. A full-cube product bound therefore justifies the particular regroupings used here on that strip. It does not prove holomorphy of the full Pi1 source at zero and does not authorize arbitrary permutation of unrelated prepared roots. The subsequent evaluated formulas provide the local meromorphic continuation.",
+          "role": "corrected absolute-integrability bound for full transverse numerator",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/pi1.md",
+          "line": 62,
+          "passage": "\\boxed{[\\nu^q]H(\\nu,c\\nu;z)=\\frac1{(q+1)!}",
+          "role": "actual finite evaluated moment rule",
+          "file_sha256": "f5dd3aa2a6428434017d897d2a389c4c4758bdba579246eb2d58b7c6170e3f8e"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/appendices/pi1-moments.md",
+          "line": 18,
+          "passage": "M_0_1 = -3*zeta[2]-Hlog(z,[0, 0])",
+          "role": "complete adopted moment HLOG value",
+          "file_sha256": "8bf9fe72c386b52cf8f311109752b66804b2a749f8060b15fb100b80d6e01e1d"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/4e-Pi1-11/input.json",
+        "input_sha256": "c70c94a2d353680e70fe0138bef47de83e80a76c188b6b03e45050d07ac39f8f",
+        "data_index_path": "integrals/three-loop/4e-Pi1-11/data/index.json",
+        "data_index_sha256": "ce4f01105ebe12676f6573db4561af53d601e821b7b5b49af2ec59d87a3f9a8b",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/65",
+            "field_sha256": "6a6409c3f2bfc80f54f350c2e4bc143e5d4d540028f23bff88823485aa17d8c7"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/4e-Pi1.json",
+            "sha256": "c66681daff1c054ef824984021cbfc4a1b95eb808a73ab64a95d2a6bea134e1e",
+            "field": "/orbits/10"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/4e-Pi1/montopar-initial.json",
+            "sha256": "30f470aef9c1ea3c181445f5225688d678a2addb999fe643cab502ddf1e02983",
+            "field": "/orbits/10"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "wilson-self-energy-1pi-insertion/2.0",
+          "loop_order": 3,
+          "a1": "-1/2",
+          "sym": 2,
+          "rational": "1/(32*eps*(1 - 2*eps))",
+          "full_wilson_color": "CF*(-CA/2 + CF)",
+          "B1": "(CA*(10 - 6*eps) - TF*nf*(8 - 8*eps))/(3 - 2*eps)",
+          "Euler_count": 1,
+          "current_source_convention": "wilson-qcd-action-path-fourier/1.0",
+          "source_check_groups": 13,
+          "external_color": "CA*CF*B1(eps)",
+          "formula": "I=(sym*a1/2)*Gcal^3*C_rational*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))",
+          "Ff_ff": "zero in the connected a1-projected Pi1 contribution; full raw trace retained separately"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-01",
+      "family": "serial Pi1-adjacent",
+      "document_status": "正文可连续阅读（接受明确的物理算符根）",
+      "mathematical_chain": "One full transverse serial one-loop source → Fourier h2/h1 ratio and complete numerator → two explicit endpoint primitives, then alpha4 finite assembly → native residual sign, orbit/crossing and full AA/Af/ff B1² colour convolution.",
+      "explicit_adoption": "Full native internal one-loop Pi1 operator is an accepted initial physical source, not reintegrated. The endpoint body needs no evaluated M integral.",
+      "equality_scope": "Native C/J proves equal endpoint J but opposite scalar signs for the corresponding chain/Pi2 geometry. Their outside operators and physical coloured contributions remain different.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/2e-Pi1+Pi1-01/derivation.md",
+          "line": 17,
+          "passage": "The complete source tensor gives two coordinate terms, proportional to",
+          "role": "full transverse Fourier tensor connection",
+          "file_sha256": "5bcaad33c20031b998001aa49747e18f4703623b1c70645aa4f02281a6f121b3"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi1+Pi1-01/derivation.md",
+          "line": 20,
+          "passage": "Here $(i,j)=(3,4)$, $x=s_{31}$, $y=s_{41}$ and $X=-[(1-x)v_3+yv_4]$. The source order is $s_{31}$ outermost, then $s_{41}$; both intervals are $[0,1]$ and the Jacobian is1. Its actual reduced kernel is",
+          "role": "own original ordered bounds and separation",
+          "file_sha256": "5bcaad33c20031b998001aa49747e18f4703623b1c70645aa4f02281a6f121b3"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi1+Pi1-01/derivation.md",
+          "line": 27,
+          "passage": "J_A=\\frac{(2+e)z^{3e}}{2(1+2e)}",
+          "role": "actual ordinary corner or endpoint evaluation",
+          "file_sha256": "5bcaad33c20031b998001aa49747e18f4703623b1c70645aa4f02281a6f121b3"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi1+Pi1-01/derivation.md",
+          "line": 61,
+          "passage": "\\alpha_4=112+18P_2+5P_3+2P_4.",
+          "role": "explicit highest required finite assembly",
+          "file_sha256": "5bcaad33c20031b998001aa49747e18f4703623b1c70645aa4f02281a6f121b3"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi1+Pi1-01/derivation.md",
+          "line": 90,
+          "passage": "\\[F_c(0)=-1\\frac1{1152}\\sum_{j=0}^4\\phi_{c,j}\\alpha_{4-j}.\\tag{3}\\]",
+          "role": "complete colour finite Cauchy sum",
+          "file_sha256": "5bcaad33c20031b998001aa49747e18f4703623b1c70645aa4f02281a6f121b3"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 69,
+          "passage": "\\frac{h_2}{h_1}=-\\frac1{12e(1+2e)}.",
+          "role": "Fourier Gamma recurrence",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 109,
+          "passage": "N=(1+4e)df+(1-3e)uw.",
+          "role": "actual Gram/full-numerator bridge",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/2e-Pi1+Pi1-01/input.json",
+        "input_sha256": "d5cf488700e24c89baaa292c4446ee1dabb5de4a761bae9672cebf69c111b908",
+        "data_index_path": "integrals/three-loop/2e-Pi1+Pi1-01/data/index.json",
+        "data_index_sha256": "a1fe17db58a5ed61c2c2125a1c535b0861b546da10d4a11482fa9bc63a03ee16",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/0",
+            "field_sha256": "ff24f70ff546dd4e6bb686ff0d387f2d28d0d59288edd889ec7ab3327feffde4"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/2e-Pi1+Pi1.json",
+            "sha256": "8b68e8b5fe77e72eb27dd2ed9651dbfcd246d27008a0887a1b28cdf2408d152b",
+            "field": "/orbits/0"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/2e-Pi1+Pi1/montopar-initial.json",
+            "sha256": "372518d691634fc41d9f8d18f2479a2604f67f45bb9a66ce426c060f7f6301f8",
+            "field": "/orbits/0"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "gamma_residual": "Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps]/(Gamma[1-2*eps]^2*Gamma[1+2*eps])",
+          "gamma_residual_Euler_linear_coefficient": "0",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "native-physical-CJ",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1,
+          "loop_order": 3,
+          "Euler_count": 1,
+          "sym": 4,
+          "a1": "1",
+          "external_color": "CF*B1(eps)^2",
+          "C_derived_residual_sign": "-1",
+          "includes_U": true,
+          "formula": "(sym/2)*R_native*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-02",
+      "family": "serial Pi1-opposite",
+      "document_status": "明确采用已求函数引理，链已接通",
+      "mathematical_chain": "One full transverse serial one-loop source → Fourier h2/h1 ratio and complete numerator → all four ordinary corners plus evaluated H(3e), then beta3/chi2 finite assembly → native residual sign, orbit/crossing and full AA/Af/ff B1² colour convolution.",
+      "explicit_adoption": "Full native internal one-loop Pi1 operator is an accepted initial physical source, not reintegrated. The established four M evaluations for the opposite body are adopted completely.",
+      "equality_scope": "Native C/J proves equal endpoint J but opposite scalar signs for the corresponding chain/Pi2 geometry. Their outside operators and physical coloured contributions remain different.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/2e-Pi1+Pi1-02/derivation.md",
+          "line": 17,
+          "passage": "The complete source tensor gives two coordinate terms, proportional to",
+          "role": "full transverse Fourier tensor connection",
+          "file_sha256": "78a1b0aa5a55a9d429cd7df988c0454d8273cac46678bdc275616fada94d5958"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi1+Pi1-02/derivation.md",
+          "line": 20,
+          "passage": "Here $(i,j)=(2,4)$, $x=s_{21}$, $y=s_{41}$ and $X=(1-y)v_4+v_1+xv_2$. The source order is $s_{21}$ outermost, then $s_{41}$; both intervals are $[0,1]$ and the Jacobian is1. The actual complete kernel is",
+          "role": "own original ordered bounds and separation",
+          "file_sha256": "78a1b0aa5a55a9d429cd7df988c0454d8273cac46678bdc275616fada94d5958"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi1+Pi1-02/derivation.md",
+          "line": 33,
+          "passage": "=z^{3e}-0-0+1.",
+          "role": "actual ordinary corner or endpoint evaluation",
+          "file_sha256": "78a1b0aa5a55a9d429cd7df988c0454d8273cac46678bdc275616fada94d5958"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi1+Pi1-02/derivation.md",
+          "line": 73,
+          "passage": "\\chi_2=\\left(12+\\frac32\\zeta_2-\\frac98\\rho^2\\right)M_{0,1}",
+          "role": "explicit highest required finite assembly",
+          "file_sha256": "78a1b0aa5a55a9d429cd7df988c0454d8273cac46678bdc275616fada94d5958"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi1+Pi1-02/derivation.md",
+          "line": 104,
+          "passage": "\\[F_c(0)=-1\\left[\\frac1{384}\\sum_{j=0}^3\\phi_{c,j}\\beta_{3-j}",
+          "role": "complete colour finite Cauchy sum",
+          "file_sha256": "78a1b0aa5a55a9d429cd7df988c0454d8273cac46678bdc275616fada94d5958"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 69,
+          "passage": "\\frac{h_2}{h_1}=-\\frac1{12e(1+2e)}.",
+          "role": "Fourier Gamma recurrence",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 109,
+          "passage": "N=(1+4e)df+(1-3e)uw.",
+          "role": "actual Gram/full-numerator bridge",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 186,
+          "passage": "M_{2,1}={}&12\\zeta_2G_{-1,0}+4G_{0,-1,0,0}-24\\zeta_2G_{-1,-1}",
+          "role": "complete needed M/HLOG values",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/2e-Pi1+Pi1-02/input.json",
+        "input_sha256": "7e7d4867c667b8b6587d8bbd00614dab0a3411338e6e8134318bec4ead254b0d",
+        "data_index_path": "integrals/three-loop/2e-Pi1+Pi1-02/data/index.json",
+        "data_index_sha256": "dc62cdc7e7346bf9ff0f9ea6aa36eb823363024236ce36fe7e626e34edf8f73f",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/1",
+            "field_sha256": "fa83d18a073d1138a22c98ab1ead46c88d1158cc6453ac6618762434231214ae"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/2e-Pi1+Pi1.json",
+            "sha256": "8b68e8b5fe77e72eb27dd2ed9651dbfcd246d27008a0887a1b28cdf2408d152b",
+            "field": "/orbits/1"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/2e-Pi1+Pi1/montopar-initial.json",
+            "sha256": "372518d691634fc41d9f8d18f2479a2604f67f45bb9a66ce426c060f7f6301f8",
+            "field": "/orbits/1"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "gamma_residual": "Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps]/(Gamma[1-2*eps]^2*Gamma[1+2*eps])",
+          "gamma_residual_Euler_linear_coefficient": "0",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "native-physical-CJ",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1,
+          "loop_order": 3,
+          "Euler_count": 1,
+          "sym": 2,
+          "a1": "1",
+          "external_color": "CF*B1(eps)^2",
+          "C_derived_residual_sign": "-1",
+          "includes_U": true,
+          "formula": "(sym/2)*R_native*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "2e-Pi2-01",
+      "family": "Pi2-adjacent",
+      "document_status": "正文可连续阅读（接受明确的物理算符根）",
+      "mathematical_chain": "One full transverse two-loop1PI source → Fourier h2/h1 ratio and complete numerator → two explicit endpoint primitives, then alpha4 finite assembly → native residual sign, orbit/crossing and full AA/Af/Ff A+B/U colour convolution.",
+      "explicit_adoption": "Full native D-dimensional bare Pi2 A/B operator is an accepted initial physical source, not reintegrated. The endpoint body needs no evaluated M integral.",
+      "equality_scope": "Native C/J proves equal endpoint J but opposite scalar signs for the corresponding chain/Pi2 geometry. Their outside operators and physical coloured contributions remain different.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/2e-Pi2-01/derivation.md",
+          "line": 17,
+          "passage": "The complete source tensor gives two coordinate terms, proportional to",
+          "role": "full transverse Fourier tensor connection",
+          "file_sha256": "166443045168fb8696313474b91af2ab53fe26e477b903735867a74b6b6c81a0"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi2-01/derivation.md",
+          "line": 20,
+          "passage": "Here $(i,j)=(3,4)$, $x=s_{31}$, $y=s_{41}$ and $X=-[(1-x)v_3+yv_4]$. The source order is $s_{31}$ outermost, then $s_{41}$; both intervals are $[0,1]$ and the Jacobian is1. Its actual reduced kernel is",
+          "role": "own original ordered bounds and separation",
+          "file_sha256": "166443045168fb8696313474b91af2ab53fe26e477b903735867a74b6b6c81a0"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi2-01/derivation.md",
+          "line": 27,
+          "passage": "J_A=\\frac{(2+e)z^{3e}}{2(1+2e)}",
+          "role": "actual ordinary corner or endpoint evaluation",
+          "file_sha256": "166443045168fb8696313474b91af2ab53fe26e477b903735867a74b6b6c81a0"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi2-01/derivation.md",
+          "line": 61,
+          "passage": "\\alpha_4=112+18P_2+5P_3+2P_4.",
+          "role": "explicit highest required finite assembly",
+          "file_sha256": "166443045168fb8696313474b91af2ab53fe26e477b903735867a74b6b6c81a0"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi2-01/derivation.md",
+          "line": 97,
+          "passage": "\\[F_c(0)=+1\\frac1{1152}\\sum_{j=0}^4\\phi_{c,j}\\alpha_{4-j}.\\tag{3}\\]",
+          "role": "complete colour finite Cauchy sum",
+          "file_sha256": "166443045168fb8696313474b91af2ab53fe26e477b903735867a74b6b6c81a0"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 69,
+          "passage": "\\frac{h_2}{h_1}=-\\frac1{12e(1+2e)}.",
+          "role": "Fourier Gamma recurrence",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 109,
+          "passage": "N=(1+4e)df+(1-3e)uw.",
+          "role": "actual Gram/full-numerator bridge",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 251,
+          "passage": "A_{AA}&=\\frac{2e^2-4e-1}{2e^3(2e-3)},&",
+          "role": "full accepted Pi2 rational operator",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 289,
+          "passage": "In (17), the adjacent k=4 term includes \\(b_{c,-3}\\bar u_5\\); cutting U",
+          "role": "fifth-order inverse-U budget before cancellation",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/2e-Pi2-01/input.json",
+        "input_sha256": "aa048af9b0e8def481b9454629f7a80e9fb4b9ab9f080285dd490f8346ce3de6",
+        "data_index_path": "integrals/three-loop/2e-Pi2-01/data/index.json",
+        "data_index_sha256": "6757422bb9137be667a867174994d34af1094b031554f97aa329aa09b3474ff7",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/2",
+            "field_sha256": "80fa56d7994195cb954564b4d315cdfa81de9e472c82679119fade7be2a1c296"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/2e-Pi2.json",
+            "sha256": "9890cd2e2457c95103d4b1788586600aa5c2586e1a3116cd8b5f5fad591708fa",
+            "field": "/orbits/0"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/2e-Pi2/montopar-initial.json",
+            "sha256": "74f61913da91932d142cc93d5aac78217bf35c1d20654c10a61aceb656e1d811",
+            "field": "/orbits/0"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "gamma_residual": "Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps]/(Gamma[1-2*eps]^2*Gamma[1+2*eps])",
+          "gamma_residual_Euler_linear_coefficient": "0",
+          "shared_I_convention": {
+            "status": "definition_only_not_prepared",
+            "operator_factor_B2": "4*eps^2*((CA^2)*(((2*eps^2-4*eps-1)/(2*eps^3*(2*eps-3)))+((2*eps-1)*(6*eps^5-eps^4-44*eps^3+79*eps^2-30*eps-2)/(2*eps^3*(eps+1)*(2*eps-3)*(3*eps-2)*(3*eps-1)))*(Gamma[1+2*eps]*Gamma[1-2*eps]^2/(Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps])))+(CA*TF*nf)*((2*(eps-1)*(2*eps^2-3*eps+2)/(eps^3*(2*eps-3)))+(-2*(eps-1)*(2*eps-1)*(2*eps^4-11*eps^3-10*eps^2+17*eps-4)/(eps^3*(eps+1)*(2*eps-3)*(3*eps-2)*(3*eps-1)))*(Gamma[1+2*eps]*Gamma[1-2*eps]^2/(Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps])))+(CF*TF*nf)*((-4*(eps-1)*(2*eps^2-eps+2)/(eps^3*(2*eps-3)))+(8*(eps-1)*(2*eps-1)^2*(eps^2-2*eps+2)/(eps^3*(2*eps-3)*(3*eps-2)*(3*eps-1)))*(Gamma[1+2*eps]*Gamma[1-2*eps]^2/(Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps]))))",
+            "external_factor": "(alpha_s/Pi)^3*CF*B2",
+            "common_R": "-G^3*U/(128*eps^2*(1-2*eps)^2)",
+            "G": "Exp[-EulerGamma*eps]*Gamma[1-eps]",
+            "I": "(m/2)*common_R*(J(z1)+z1^(3*eps)*J(1/z1))/(1+z1^(3*eps))",
+            "a1_projection": "separate from shared I; Ff remains the second flavor-linear coordinate"
+          },
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "native-physical-CJ",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1,
+          "loop_order": 3,
+          "Euler_count": 1,
+          "sym": 4,
+          "a1": "1",
+          "external_color": "CF*4*eps^2*P2(eps)",
+          "C_derived_residual_sign": "1",
+          "includes_U": true,
+          "formula": "(sym/2)*R_native*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    },
+    {
+      "orbit_id": "2e-Pi2-02",
+      "family": "Pi2-opposite",
+      "document_status": "明确采用已求函数引理，链已接通",
+      "mathematical_chain": "One full transverse two-loop1PI source → Fourier h2/h1 ratio and complete numerator → all four ordinary corners plus evaluated H(3e), then beta3/chi2 finite assembly → native residual sign, orbit/crossing and full AA/Af/Ff A+B/U colour convolution.",
+      "explicit_adoption": "Full native D-dimensional bare Pi2 A/B operator is an accepted initial physical source, not reintegrated. The established four M evaluations for the opposite body are adopted completely.",
+      "equality_scope": "Native C/J proves equal endpoint J but opposite scalar signs for the corresponding chain/Pi2 geometry. Their outside operators and physical coloured contributions remain different.",
+      "evidence": [
+        {
+          "path": "integrals/three-loop/2e-Pi2-02/derivation.md",
+          "line": 17,
+          "passage": "The complete source tensor gives two coordinate terms, proportional to",
+          "role": "full transverse Fourier tensor connection",
+          "file_sha256": "eebdd65c1420da62b40ace3be6ca9eca6ffc2fb42a8d08cae7c0934fd001ad21"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi2-02/derivation.md",
+          "line": 20,
+          "passage": "Here $(i,j)=(2,4)$, $x=s_{21}$, $y=s_{41}$ and $X=(1-y)v_4+v_1+xv_2$. The source order is $s_{21}$ outermost, then $s_{41}$; both intervals are $[0,1]$ and the Jacobian is1. The actual complete kernel is",
+          "role": "own original ordered bounds and separation",
+          "file_sha256": "eebdd65c1420da62b40ace3be6ca9eca6ffc2fb42a8d08cae7c0934fd001ad21"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi2-02/derivation.md",
+          "line": 33,
+          "passage": "=z^{3e}-0-0+1.",
+          "role": "actual ordinary corner or endpoint evaluation",
+          "file_sha256": "eebdd65c1420da62b40ace3be6ca9eca6ffc2fb42a8d08cae7c0934fd001ad21"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi2-02/derivation.md",
+          "line": 73,
+          "passage": "\\chi_2=\\left(12+\\frac32\\zeta_2-\\frac98\\rho^2\\right)M_{0,1}",
+          "role": "explicit highest required finite assembly",
+          "file_sha256": "eebdd65c1420da62b40ace3be6ca9eca6ffc2fb42a8d08cae7c0934fd001ad21"
+        },
+        {
+          "path": "integrals/three-loop/2e-Pi2-02/derivation.md",
+          "line": 111,
+          "passage": "\\[F_c(0)=+1\\left[\\frac1{384}\\sum_{j=0}^3\\phi_{c,j}\\beta_{3-j}",
+          "role": "complete colour finite Cauchy sum",
+          "file_sha256": "eebdd65c1420da62b40ace3be6ca9eca6ffc2fb42a8d08cae7c0934fd001ad21"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 69,
+          "passage": "\\frac{h_2}{h_1}=-\\frac1{12e(1+2e)}.",
+          "role": "Fourier Gamma recurrence",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 109,
+          "passage": "N=(1+4e)df+(1-3e)uw.",
+          "role": "actual Gram/full-numerator bridge",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 186,
+          "passage": "M_{2,1}={}&12\\zeta_2G_{-1,0}+4G_{0,-1,0,0}-24\\zeta_2G_{-1,-1}",
+          "role": "complete needed M/HLOG values",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 251,
+          "passage": "A_{AA}&=\\frac{2e^2-4e-1}{2e^3(2e-3)},&",
+          "role": "full accepted Pi2 rational operator",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        },
+        {
+          "path": "integrals/families/three-loop-insertions/chains-pi2.md",
+          "line": 289,
+          "passage": "In (17), the adjacent k=4 term includes \\(b_{c,-3}\\bar u_5\\); cutting U",
+          "role": "fifth-order inverse-U budget before cancellation",
+          "file_sha256": "232ccca913b7226b657a34503cae4546fcba8d144733b92d0871f5359b033927"
+        }
+      ],
+      "source_binding_evidence": {
+        "input_path": "integrals/three-loop/2e-Pi2-02/input.json",
+        "input_sha256": "36766236186f8b5ba5c97dd8059d4c583045cebc60de22c923c9c058d6a91ede",
+        "data_index_path": "integrals/three-loop/2e-Pi2-02/data/index.json",
+        "data_index_sha256": "30d32fdde1c9b13bf573a99ce1e16c9b883c8ae44a3653035e5eab79fa6b4646",
+        "bindings": {
+          "graph": {
+            "path": "../../families/three-loop-insertions/runtime/inputs/upstream-source/snapshots/workflow/checks/shared-sign-production/generated/qgraf/3loop/orbit_definitions.json",
+            "sha256": "7678f032d28db88a248d34889c99a95419044c9647c6bade2512d2c41d861edc",
+            "field": "/orbits/3",
+            "field_sha256": "1207aa520a39d330705316d95dd9e90591918958f075b2682e42559bf1775009"
+          },
+          "native_prepared": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/benchmarks/current/prepared/3loop/2e-Pi2.json",
+            "sha256": "9890cd2e2457c95103d4b1788586600aa5c2586e1a3116cd8b5f5fad591708fa",
+            "field": "/orbits/1"
+          },
+          "native_raw": {
+            "path": "../../families/three-loop-insertions/runtime/snapshots/workflow/checks/shared-sign-production/generated/montopar/3loop/2e-Pi2/montopar-initial.json",
+            "sha256": "74f61913da91932d142cc93d5aac78217bf35c1d20654c10a61aceb656e1d811",
+            "field": "/orbits/1"
+          }
+        },
+        "native_normalization": {
+          "scheme": "native-physical-CJ",
+          "loop_order": 3,
+          "color_projection": "none",
+          "euler_compensation_count": 1,
+          "orbit_multiplicity_included": false,
+          "crossing_assembled": false,
+          "normalized_wilson_trace": "Tr/N",
+          "extra_factorial": "none",
+          "gamma_residual": "Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps]/(Gamma[1-2*eps]^2*Gamma[1+2*eps])",
+          "gamma_residual_Euler_linear_coefficient": "0",
+          "shared_I_convention": {
+            "status": "definition_only_not_prepared",
+            "operator_factor_B2": "4*eps^2*((CA^2)*(((2*eps^2-4*eps-1)/(2*eps^3*(2*eps-3)))+((2*eps-1)*(6*eps^5-eps^4-44*eps^3+79*eps^2-30*eps-2)/(2*eps^3*(eps+1)*(2*eps-3)*(3*eps-2)*(3*eps-1)))*(Gamma[1+2*eps]*Gamma[1-2*eps]^2/(Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps])))+(CA*TF*nf)*((2*(eps-1)*(2*eps^2-3*eps+2)/(eps^3*(2*eps-3)))+(-2*(eps-1)*(2*eps-1)*(2*eps^4-11*eps^3-10*eps^2+17*eps-4)/(eps^3*(eps+1)*(2*eps-3)*(3*eps-2)*(3*eps-1)))*(Gamma[1+2*eps]*Gamma[1-2*eps]^2/(Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps])))+(CF*TF*nf)*((-4*(eps-1)*(2*eps^2-eps+2)/(eps^3*(2*eps-3)))+(8*(eps-1)*(2*eps-1)^2*(eps^2-2*eps+2)/(eps^3*(2*eps-3)*(3*eps-2)*(3*eps-1)))*(Gamma[1+2*eps]*Gamma[1-2*eps]^2/(Gamma[1+eps]^2*Gamma[1-eps]*Gamma[1-3*eps]))))",
+            "external_factor": "(alpha_s/Pi)^3*CF*B2",
+            "common_R": "-G^3*U/(128*eps^2*(1-2*eps)^2)",
+            "G": "Exp[-EulerGamma*eps]*Gamma[1-eps]",
+            "I": "(m/2)*common_R*(J(z1)+z1^(3*eps)*J(1/z1))/(1+z1^(3*eps))",
+            "a1_projection": "separate from shared I; Ff remains the second flavor-linear coordinate"
+          },
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1
+        },
+        "evaluated_quantity_normalization": {
+          "scheme": "native-physical-CJ",
+          "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+          "assembly_sign": 1,
+          "loop_order": 3,
+          "Euler_count": 1,
+          "sym": 2,
+          "a1": "1",
+          "external_color": "CF*4*eps^2*P2(eps)",
+          "C_derived_residual_sign": "1",
+          "includes_U": true,
+          "formula": "(sym/2)*R_native*(J(z)+z^(3eps)*J(1/z))/(1+z^(3eps))"
+        }
+      },
+      "five_dimensions": {
+        "prose": "Own starting integral, specific reduction, evaluated subintegrals and finite scalar/colour assembly are connected by the cited mathematical passages.",
+        "implementation": "Inspected actual original-source checks, Gamma/moment reconstruction and complete operator convolutions. Six Pi1 route reductions are analytically adopted formulas; code does not derive them anew.",
+        "reproduction": "Actual primary and copied-closure batch runs passed; counts in the separate integrator receipt are batch totals.",
+        "mathematical_validation": "Research-level exact adopted calculations and scoped controls; formal=not_run, no second independent internal loop/whole-integral evaluation.",
+        "publication": "Current local reader; this task performs no Git/publication or selector change."
+      },
+      "remaining_document_or_implementation_gaps": []
+    }
+  ],
+  "open_findings": [],
+  "resolved_findings": [
+    "Old route-result statements expanded into concrete own endpoint/face/crossing derivations.",
+    "Historical positive r001 Pi1 physical-I signs were not transferred; current native C fixes every scalar sign.",
+    "False full-transverse |N|<=CD corner bound replaced by bounded N and D^(-2+2Ree), proving only the stated positive-regulator starting strip.",
+    "Full M/rho1 HLOG evaluations and all six Pi2 A/B rational functions printed instead of opaque function/dictionary pointers.",
+    "Unused H/rho adoption paragraphs removed from the four elementary Pi1 Gamma/Beta bodies.",
+    "Batch-global function reads are distinguished from graph-specific mathematical dependencies; adjacent H0 batch budgets are explicitly scoped."
+  ],
+  "reviewer_executed_checks": {
+    "path": "review/math-transcription-check.json",
+    "status": "passed",
+    "expressions": 21,
+    "HLOG_coordinate_positions": 107,
+    "scope": "Actual new Markdown native/LaTeX expressions versus exact frozen adopted M/rho1 evaluations and native Pi2 A/B rational fields. This verifies mathematical transcription, not the original integrations or the literature operator."
+  },
+  "integrator_executed_checks": {
+    "path": "workflow/checks/integral-documentation-insertions-20261104/replay.json",
+    "status": "passed",
+    "entries": 15,
+    "scalar_or_geometric_positions": 105,
+    "generated_colour_positions": 238,
+    "historical_colour_positions_compared": 84,
+    "function_representation_positions": 343,
+    "source_orbits": 15,
+    "paired_polynomial_integrals": 30,
+    "Gamma_finite_controls": 6,
+    "negative_controls": 6,
+    "isolation": {
+      "status": "passed",
+      "references_absent_during_generation": true,
+      "generated_json_same_bytes": true
+    }
+  },
+  "standard_decision": "Retain standard1.0. Exact source/function adoption is explicit; graph-specific reductions and corner conditions were not waived."
+}

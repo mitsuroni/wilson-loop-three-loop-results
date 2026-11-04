@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "entries": 15,
+  "scalar_or_geometric_positions": 105,
+  "generated_colour_positions": 238,
+  "historical_colour_positions_compared": 84,
+  "representation_positions": 343,
+  "same_generated_bytes_as_private_run": true,
+  "English_review_entries": 68,
+  "stages": [
+    {
+      "name": "public-generation",
+      "returncode": 0,
+      "seconds": 8.090420300024562,
+      "log_sha256": "4a2097fcf0e1970f0ccbd7656c03a0513e9758324a67cef2fa6528bcdf5e6c90"
+    },
+    {
+      "name": "public-verify",
+      "returncode": 0,
+      "seconds": 1.8065975999925286,
+      "log_sha256": "9032aabf8601ffef83f71292a0ab97b1797508334071ee0f5838d27f77fc508d"
+    },
+    {
+      "name": "public-representations",
+      "returncode": 0,
+      "seconds": 1.873017800040543,
+      "log_sha256": "3a3e1a25553e9c2fafbdc48f63359f749d2f9d0ef0b1fde2bbe0cf17ee7cef98"
+    },
+    {
+      "name": "public-controls",
+      "returncode": 0,
+      "seconds": 4.486352000036277,
+      "log_sha256": "80a36f9c6b3e55c6ec19a2837b7b3ca17f4f34bff51c98da075a576778d42f70"
+    },
+    {
+      "name": "public-current-reader",
+      "returncode": 0,
+      "seconds": 0.7392246999661438,
+      "log_sha256": "a7a84639e1c1889fb112c688b0256c14d5c146bfb6165b39413f9ab95be5000b"
+    }
+  ],
+  "scope": "Actual exported public paths, original accepted functions/operators and existing numerical controls. No new cold CAS integration, independent internal Pi2 evaluation or formal proof."
+}

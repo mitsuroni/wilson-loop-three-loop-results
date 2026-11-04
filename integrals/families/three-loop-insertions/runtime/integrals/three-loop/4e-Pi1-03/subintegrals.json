@@ -1,0 +1,124 @@
+{
+  "raw_ordered_J": {
+    "representation": "ordered_s",
+    "variables": [
+      "s21",
+      "s31",
+      "s42",
+      "s41"
+    ],
+    "bounds": {
+      "s21": [
+        "0",
+        "1"
+      ],
+      "s31": [
+        "0",
+        "1"
+      ],
+      "s41": [
+        "0",
+        "s42"
+      ],
+      "s42": [
+        "0",
+        "1"
+      ]
+    },
+    "iterated_order_outer_to_inner": [
+      "s21",
+      "s31",
+      "s42",
+      "s41"
+    ],
+    "source_bounds_array": [
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s42",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s21",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "s42"
+      }
+    ],
+    "order_basis": "ascending contour edges; descending slots; checked against source integrals.md at publication",
+    "jacobian": "1",
+    "integrand": "(-2 + 2*s21 + 2*s41 - z1 - 2*eps*z1 - 2*s21*s41 + 2*s21*z1 + 2*s41*z1 - 4*s21*s41*z1 - 2*s21*s41*z1^2)*((1 - s21 - s41 + s21*s41 + s21*s41*z1)^(-2+2*eps)/(2*(1+eps)))*((z1)*(s42*z1 - s31*s42*z1)^(-1+eps))",
+    "tensor_decomposition": {
+      "metric": "(-2 - 2*eps + 2*s21 + 2*s41 - 2*z1 + 2*eps*s21 + 2*eps*s41 - 2*eps*z1 - 2*s21*s41 + 2*s21*z1 + 2*s41*z1 - 2*eps*s21*s41 + 2*eps*s21*z1 + 2*eps*s41*z1 - 4*s21*s41*z1 - 4*eps*s21*s41*z1 - 2*s21*s41*z1^2 - 2*eps*s21*s41*z1^2)*((1 - s21 - s41 + s21*s41 + s21*s41*z1)^(-2+2*eps)/(2*(1+eps)))*((z1)*(s42*z1 - s31*s42*z1)^(-1+eps))",
+      "derivative": "(2*eps + z1 - 2*eps*s21 - 2*eps*s41 + 2*eps*s21*s41 - 2*eps*s21*z1 - 2*eps*s41*z1 + 4*eps*s21*s41*z1 + 2*eps*s21*s41*z1^2)*((1 - s21 - s41 + s21*s41 + s21*s41*z1)^(-2+2*eps)/(2*(1+eps)))*((z1)*(s42*z1 - s31*s42*z1)^(-1+eps))",
+      "identity": "integrand = metric + derivative; common C"
+    },
+    "se_numerator": "-2 + 2*s21 + 2*s41 - z1 - 2*eps*z1 - 2*s21*s41 + 2*s21*z1 + 2*s41*z1 - 4*s21*s41*z1 - 2*s21*s41*z1^2",
+    "metric_numerator": "-2 - 2*eps + 2*s21 + 2*s41 - 2*z1 + 2*eps*s21 + 2*eps*s41 - 2*eps*z1 - 2*s21*s41 + 2*s21*z1 + 2*s41*z1 - 2*eps*s21*s41 + 2*eps*s21*z1 + 2*eps*s41*z1 - 4*s21*s41*z1 - 4*eps*s21*s41*z1 - 2*s21*s41*z1^2 - 2*eps*s21*s41*z1^2",
+    "derivative_numerator": "2*eps + z1 - 2*eps*s21 - 2*eps*s41 + 2*eps*s21*s41 - 2*eps*s21*z1 - 2*eps*s41*z1 + 4*eps*s21*s41*z1 + 2*eps*s21*s41*z1^2",
+    "geometry_polynomials": [
+      {
+        "loop": "l2",
+        "kind": "se",
+        "edges": [
+          2,
+          4
+        ],
+        "s_vars": [
+          "s21",
+          "s41"
+        ],
+        "X_coefficients": [
+          "0",
+          "-1 + s21",
+          "-1",
+          "-s41"
+        ],
+        "f": "1 - s21 - s41 + s21*s41 + s21*s41*z1",
+        "d": "-(1+z1)",
+        "u": "-1 + s41 + s41*z1",
+        "w": "1 - s21 - s21*z1"
+      },
+      {
+        "loop": "l1",
+        "kind": "bare",
+        "edges": [
+          3,
+          4
+        ],
+        "s_vars": [
+          "s31",
+          "s42"
+        ],
+        "X_coefficients": [
+          "0",
+          "0",
+          "-1 + s31",
+          "-s42"
+        ],
+        "f": "s42*z1 - s31*s42*z1",
+        "d": "z1",
+        "u": "-s42*z1",
+        "w": "-z1 + s31*z1"
+      }
+    ],
+    "power_prescription": "each f power is the boundary value (f+I0)^power in A_ref>0; continue jointly with C"
+  },
+  "source_paired_J_jet_expression": "((-M_0_1*eps**2*rho**2/8 + M_0_2*eps**2*rho/4 - M_0_3*eps**2/8 - 3*M_1_1*eps**3*rho**2/16 - M_1_1*eps/2 + 3*M_1_2*eps**3*rho/8 - 13*M_1_3*eps**3/48 - 5*M_2_1*eps**2/8 - 19*M_3_1*eps**3/48)*cosh(eps*rho/2) - (-M_0_1*eps**3*rho**3/24 - M_0_1*eps*rho + M_0_2*eps**3*rho**2/8 + M_0_2*eps - 7*M_0_3*eps**3*rho/24 + 5*M_0_4*eps**3/24 - 3*M_1_1*eps**2*rho/2 + 3*M_1_2*eps**2/2 - 9*M_2_1*eps**3*rho/8 + 9*M_2_2*eps**3/8)*sinh(eps*rho/2)/2)/(eps**2*cosh(3*eps*rho/2)) + ((-3*eps**5*(-2*pi**2*zeta(3) + 42*zeta(5)) + 11*pi**4*eps**4/30 - 18*eps**3*zeta(3) + pi**2*eps**2)*cosh(eps*rho/2)/cosh(3*eps*rho/2) + 1)/(12*eps**3*(eps + 1))",
+  "required_jet_orders": {
+    "Gamma": 4,
+    "Beta_ratio": 4,
+    "weighted_H": 3
+  },
+  "actual_conservative_Gamma_jet": 5,
+  "external_operator_Taylor_through": 4,
+  "primitives": "Existing original M moments and rho_id_0_0_0/1 HLOG evaluations; no final I table read."
+}

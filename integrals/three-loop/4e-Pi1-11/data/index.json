@@ -1,0 +1,184 @@
+{
+  "orbit_id": "4e-Pi1-11",
+  "runtime_base": "../../../families/three-loop-insertions/runtime",
+  "paths_relative_to": "runtime_base; original_ordered_root is explicitly relative to this data/index.json file",
+  "original_ordered_root": "../input.json",
+  "archived_subintegrals": {
+    "path": "integrals/three-loop/4e-Pi1-11/subintegrals.json",
+    "sha256": "c908641db86784bfa865e868ced70a93edcc213c49c8623f3998f51238c9ed4a",
+    "object": "Original source-specific intermediate kernel and order budget",
+    "role": "Exact historical reduction metadata, not a substitute for current mathematical prose."
+  },
+  "required_budget": {
+    "required_jet_orders": {
+      "Gamma": 2,
+      "H0": 2
+    },
+    "actual_conservative_Gamma_jet": 5,
+    "external_operator_Taylor_through": 2
+  },
+  "mathematically_required_evaluated_functions": [
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "object": "M_{0,1}",
+      "role": "Evaluated original no-factorial moment HLOG coordinates required by this route, not a complete-I table."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt",
+      "sha256": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+      "object": "M_{0,3}",
+      "role": "Evaluated original no-factorial moment HLOG coordinates required by this route, not a complete-I table."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "object": "M_{1,1}",
+      "role": "Evaluated original no-factorial moment HLOG coordinates required by this route, not a complete-I table."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+      "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "object": "M_{2,1}",
+      "role": "Evaluated original no-factorial moment HLOG coordinates required by this route, not a complete-I table."
+    }
+  ],
+  "batch_global_function_read_closure": [
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_1.txt",
+      "sha256": "a5f017e08433739b41a21c014c158eeeff300af551d7143096e8f519a2802457",
+      "object": "M_{0,1}",
+      "role": "Globally loaded for the eleven-entry batch; does not mean this graph mathematically requires it."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_2.txt",
+      "sha256": "cd56e716a2f6ff5ffdb881802c666ce34650e2097bc006f41c85373024cbec79",
+      "object": "M_{0,2}",
+      "role": "Globally loaded for the eleven-entry batch; does not mean this graph mathematically requires it."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_3.txt",
+      "sha256": "d3b8c7cd93aeeeb25fe1a8e6f7b4b0e0141142b9e133d3fe9070492371827269",
+      "object": "M_{0,3}",
+      "role": "Globally loaded for the eleven-entry batch; does not mean this graph mathematically requires it."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_0_4.txt",
+      "sha256": "0e103345155d0d8cf29e95d5cb32549779b6c9ecf97b3ecd9ef4f5faea3bddd7",
+      "object": "M_{0,4}",
+      "role": "Globally loaded for the eleven-entry batch; does not mean this graph mathematically requires it."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_1.txt",
+      "sha256": "baacaae02ee6de07ea9dd30e3f7a47efbab82aeb57bcfdb5aed548de4a1e1b6b",
+      "object": "M_{1,1}",
+      "role": "Globally loaded for the eleven-entry batch; does not mean this graph mathematically requires it."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_2.txt",
+      "sha256": "4fe8177ea7b5f08fe8d5f856670519601d5024bb630fe71e17cd3db2be432c6f",
+      "object": "M_{1,2}",
+      "role": "Globally loaded for the eleven-entry batch; does not mean this graph mathematically requires it."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_1_3.txt",
+      "sha256": "7b26422708e743625e32f4dac7daef60c14bfb0403f9ae42844a95db6763ea0b",
+      "object": "M_{1,3}",
+      "role": "Globally loaded for the eleven-entry batch; does not mean this graph mathematically requires it."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_1.txt",
+      "sha256": "e455df6fe255b79c0fa8ac6b9b01e4a20d813ed6ad41bd951e0c46473c757ca6",
+      "object": "M_{2,1}",
+      "role": "Globally loaded for the eleven-entry batch; does not mean this graph mathematically requires it."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_2_2.txt",
+      "sha256": "b7cc73814d33c1d6e6474ed4d0ae774b2de1ea68ded05ba21861ba173e3bfced",
+      "object": "M_{2,2}",
+      "role": "Globally loaded for the eleven-entry batch; does not mean this graph mathematically requires it."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/runs/20260916T090538777022Z/M_3_1.txt",
+      "sha256": "57d73eb30f2a1703fcb5f230ce60ca4d2f44fa6ef63176ab1a4870794b7753df",
+      "object": "M_{3,1}",
+      "role": "Globally loaded for the eleven-entry batch; does not mean this graph mathematically requires it."
+    },
+    {
+      "path": "snapshots/benchmarks/2ne/families/same-channel-two/structural-basis-functions.json",
+      "sha256": "7fd08c7598f01c188a336b395b90e0ddbdd80f147e1d0e7766eb61d6ce2ad988",
+      "object": "rho0/rho1 dictionary",
+      "role": "Globally loaded by pi1.primitives; route-specific need is listed separately."
+    }
+  ],
+  "external_operator_inputs": [
+    {
+      "object": "B1(eps)",
+      "definition": "[(10-6eps)CA-8(1-eps)TF nf]/(3-2eps)",
+      "role": "Regular external connected colour operator; its Laurent/Taylor convolution through the actual scalar pole is required. Original complete Wilson trace is preserved separately."
+    }
+  ],
+  "actual_code": [
+    {
+      "path": "scripts/evaluate_batch.py",
+      "sha256": "be849ffcc96d3f3cd0890215ce27d4ec910a307b6dc5334295f0bfc77caf2f68",
+      "object": "15-root generator",
+      "role": "Reads declared source and admitted function data, then invokes the actual scalar/colour assembly. Does not read whole-I references."
+    },
+    {
+      "path": "scripts/pi1.py",
+      "sha256": "d32e8c29567472b630fa799a02666058314385f8da8f2b13895eb2d5927c802d",
+      "object": "source_check, paired_kernels, generate",
+      "role": "Checks original tensor/C/J, uses six analytically established route reductions, expands Gamma/rational jets and external B1. The Python program does not derive those six reductions from scratch."
+    },
+    {
+      "path": "snapshots/workflow/checks/single-opposite/hlog_algebra.py",
+      "sha256": "dc5f70fddf8a2d9d3208c1376f5da3f366535dcf74b0967e1ae6d75c220da85d",
+      "object": "Exact HLOG parsing/shuffle arithmetic",
+      "role": "Adopted expression arithmetic, not an integral evaluator."
+    }
+  ],
+  "color_assembly": [
+    {
+      "monomial": "CA^2*CF",
+      "powers": [
+        "-6",
+        "-5",
+        "-4",
+        "-3",
+        "-2",
+        "-1",
+        "0"
+      ],
+      "role": "Scalar/geometric I convolved with the complete source external operator."
+    },
+    {
+      "monomial": "CA*CF*TF*nf",
+      "powers": [
+        "-6",
+        "-5",
+        "-4",
+        "-3",
+        "-2",
+        "-1",
+        "0"
+      ],
+      "role": "Scalar/geometric I convolved with the complete source external operator."
+    }
+  ],
+  "adopted_result": {
+    "path": "integrals/three-loop/4e-Pi1-11/result.json",
+    "sha256": "dde70d07bf6e2ba173e653517a2279678e835066270e393ae3f329d722537c16",
+    "object": "Complete curated scalar/geometric and coloured result",
+    "role": "Accepted result; preserved separately from generation inputs."
+  },
+  "comparison_targets": [
+    {
+      "path": "references/results/4e-Pi1-11.json",
+      "sha256": "f04657a1aab9b963470d66587a2886628d2cb9bf9c59fa92f64a22f4fa666fef",
+      "object": "Historical whole-I reference",
+      "role": "Opened only after generation for exact comparison. Pi1 has historical scalar I only; its generated colours are a separate operator convolution."
+    }
+  ],
+  "scope": "Original root, scalar/geometric quantity, evaluated functions, external operator, coloured result and comparison targets have distinct roles. Shared batch loads are not independent graph dependencies or new integrations."
+}

@@ -1,6 +1,6 @@
-# Three-loop6e integral derivations
+# Three-loop integral derivations
 
-This batch covers all39 pure-exchange sources through the finite term: every coefficient of epsilon powers minus six through zero, including established zeros. The articles follow their own original ordered integral through the actual reduction, evaluated subintegrals, crossing and physical prefactor. Shared mathematics is proved or precisely adopted once, then concretely substituted into each root.
+The6e batch covers all39 pure-exchange sources through the finite term: every coefficient of epsilon powers minus six through zero, including established zeros. The articles follow their own original ordered integral through the actual reduction, evaluated subintegrals, crossing and physical prefactor. Shared mathematics is proved or precisely adopted once, then concretely substituted into each root.
 
 Start with the [six-route method index](../families/three-loop-6e/README.md) and [normalization](../families/three-loop-6e/common-normalization.md). The current [batch report](../../workflow/checks/integral-documentation-6e-20261103/README.md) separates the [per-article scientific audit](../../workflow/checks/integral-documentation-6e-20261103/review/README.md) from [actual execution](../../workflow/checks/integral-documentation-6e-20261103/replay.json).
 
@@ -48,10 +48,34 @@ Start with the [six-route method index](../families/three-loop-6e/README.md) and
 
 Each code entry runs the same supported39-entry batch, not a new full calculation for only that graph. Ten adjacent-chain sources use direct endpoint/Gamma evaluation; other sources adopt precisely identified raw CAS subintegrals and repeat the actual physical assembly. Historical Maple programs and raw outputs remain available with their mathematical object and order bindings. No new cold CAS integration or formal proof is implied.
 
-Full-J, complete-I and finite-only relations are distinguished in the mathematics. In particular37=38 applies only to c0; their generic-epsilon sources are different. Original scientific results and frozen/public packets retain their identities. The [current coverage index](../../docs/publication-status.md) records the published derivations and calculation packages.
+Full-J, complete-I and finite-only relations are distinguished in the mathematics. In particular37=38 applies only to c0; their generic-epsilon sources are different. Original scientific results and frozen/public packets retain their identities. Publication history is recorded per batch in the project roadmap; the insertion articles below are included in this release.
 
 Return to the [integral index](../README.md).
 
-## Other published three-loop families
+## Two-point and exchange insertions
 
-The existing [15 insertion entries](../../evaluations/three-loop-insertions/README.md) and [44 tree-three-gluon entries](../../evaluations/three-loop-tree5e/README.md) remain published. Their packaging/replay status predates the new continuous-reading audit; that audit currently covers the39 exchanges.
+This next batch contains15 sources with complete scalar/geometric Laurent coefficients and external colour contributions. Read the [shared insertion mathematics](../families/three-loop-insertions/README.md) and [scientific audit / execution scope](../../workflow/checks/integral-documentation-insertions-20261104/README.md).
+
+| Source | Route | Mathematics and reproduction |
+|---|---|---|
+| [2e-Pi1+Pi1-01](2e-Pi1+Pi1-01/README.md) | Pi1-chain-adjacent | [Derivation](2e-Pi1+Pi1-01/derivation.md), [reproduce](2e-Pi1+Pi1-01/reproduce.md), [validation](2e-Pi1+Pi1-01/validation.md) |
+| [2e-Pi1+Pi1-02](2e-Pi1+Pi1-02/README.md) | Pi1-chain-opposite | [Derivation](2e-Pi1+Pi1-02/derivation.md), [reproduce](2e-Pi1+Pi1-02/reproduce.md), [validation](2e-Pi1+Pi1-02/validation.md) |
+| [2e-Pi2-01](2e-Pi2-01/README.md) | Pi2-adjacent | [Derivation](2e-Pi2-01/derivation.md), [reproduce](2e-Pi2-01/reproduce.md), [validation](2e-Pi2-01/validation.md) |
+| [2e-Pi2-02](2e-Pi2-02/README.md) | Pi2-opposite | [Derivation](2e-Pi2-02/derivation.md), [reproduce](2e-Pi2-02/reproduce.md), [validation](2e-Pi2-02/validation.md) |
+| [4e-Pi1-01](4e-Pi1-01/README.md) | Pi1-P1 | [Derivation](4e-Pi1-01/derivation.md), [reproduce](4e-Pi1-01/reproduce.md), [validation](4e-Pi1-01/validation.md) |
+| [4e-Pi1-02](4e-Pi1-02/README.md) | Pi1-P1 | [Derivation](4e-Pi1-02/derivation.md), [reproduce](4e-Pi1-02/reproduce.md), [validation](4e-Pi1-02/validation.md) |
+| [4e-Pi1-03](4e-Pi1-03/README.md) | Pi1-P3 | [Derivation](4e-Pi1-03/derivation.md), [reproduce](4e-Pi1-03/reproduce.md), [validation](4e-Pi1-03/validation.md) |
+| [4e-Pi1-04](4e-Pi1-04/README.md) | Pi1-P4 | [Derivation](4e-Pi1-04/derivation.md), [reproduce](4e-Pi1-04/reproduce.md), [validation](4e-Pi1-04/validation.md) |
+| [4e-Pi1-05](4e-Pi1-05/README.md) | Pi1-P2 | [Derivation](4e-Pi1-05/derivation.md), [reproduce](4e-Pi1-05/reproduce.md), [validation](4e-Pi1-05/validation.md) |
+| [4e-Pi1-06](4e-Pi1-06/README.md) | Pi1-P2 | [Derivation](4e-Pi1-06/derivation.md), [reproduce](4e-Pi1-06/reproduce.md), [validation](4e-Pi1-06/validation.md) |
+| [4e-Pi1-07](4e-Pi1-07/README.md) | Pi1-P5 | [Derivation](4e-Pi1-07/derivation.md), [reproduce](4e-Pi1-07/reproduce.md), [validation](4e-Pi1-07/validation.md) |
+| [4e-Pi1-08](4e-Pi1-08/README.md) | Pi1-P5 | [Derivation](4e-Pi1-08/derivation.md), [reproduce](4e-Pi1-08/reproduce.md), [validation](4e-Pi1-08/validation.md) |
+| [4e-Pi1-09](4e-Pi1-09/README.md) | Pi1-P4 | [Derivation](4e-Pi1-09/derivation.md), [reproduce](4e-Pi1-09/reproduce.md), [validation](4e-Pi1-09/validation.md) |
+| [4e-Pi1-10](4e-Pi1-10/README.md) | Pi1-P3 | [Derivation](4e-Pi1-10/derivation.md), [reproduce](4e-Pi1-10/reproduce.md), [validation](4e-Pi1-10/validation.md) |
+| [4e-Pi1-11](4e-Pi1-11/README.md) | Pi1-P6 | [Derivation](4e-Pi1-11/derivation.md), [reproduce](4e-Pi1-11/reproduce.md), [validation](4e-Pi1-11/validation.md) |
+
+Every adapter runs the same15-entry batch. Source-defined signs, the full transverse tensor, endpoint contributions and all external operators are retained. Pi2 geometric I is not itself a complete colour channel. The complete full-D internal Pi2 operator and evaluated moment functions are explicit adopted inputs.
+
+## Earlier family calculation packets
+
+The original [15 insertion calculation packet](../../evaluations/three-loop-insertions/README.md) and [44 tree-three-gluon packet](../../evaluations/three-loop-tree5e/README.md) retain their original identities. The15 insertion articles above have now passed the newer continuous-reading audit; the44-entry packet awaits that audit.

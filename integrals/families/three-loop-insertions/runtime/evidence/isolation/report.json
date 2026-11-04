@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "generation_input_files": 118,
+  "orbits": 15,
+  "scalar_positions": 105,
+  "colored_positions": 238,
+  "function_back_substitutions": 343,
+  "mathematical_payloads_identical": true,
+  "byte_identical_generated_result": true,
+  "references_added_after_generation": true,
+  "generation_denials": 0,
+  "new_CAS_processes": 0,
+  "stages": [
+    {
+      "stage": "generation",
+      "returncode": 0,
+      "seconds": 8.486696599982679,
+      "log_sha256": "a95620d840f639d42127c7851b67071361da0a4fa0c12679aa73d79b7d00ebc1"
+    },
+    {
+      "stage": "verification",
+      "returncode": 0,
+      "seconds": 1.7824995999690145,
+      "log_sha256": "9032aabf8601ffef83f71292a0ab97b1797508334071ee0f5838d27f77fc508d"
+    },
+    {
+      "stage": "representations",
+      "returncode": 0,
+      "seconds": 1.396985900006257,
+      "log_sha256": "3a3e1a25553e9c2fafbdc48f63359f749d2f9d0ef0b1fde2bbe0cf17ee7cef98"
+    }
+  ],
+  "scope": "Actual copied source/code/dictionary closure in same installed Python environment. Python file/network audit, not OS sandbox. No new cold CAS or formal proof."
+}

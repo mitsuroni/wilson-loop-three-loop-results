@@ -1,0 +1,122 @@
+{
+  "raw_ordered_J": {
+    "representation": "ordered_s",
+    "variables": [
+      "s32",
+      "s31",
+      "s42",
+      "s41"
+    ],
+    "bounds": {
+      "s31": [
+        "0",
+        "s32"
+      ],
+      "s32": [
+        "0",
+        "1"
+      ],
+      "s41": [
+        "0",
+        "s42"
+      ],
+      "s42": [
+        "0",
+        "1"
+      ]
+    },
+    "iterated_order_outer_to_inner": [
+      "s32",
+      "s31",
+      "s42",
+      "s41"
+    ],
+    "source_bounds_array": [
+      {
+        "var": "s32",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s42",
+        "low": "0",
+        "high": "1"
+      },
+      {
+        "var": "s31",
+        "low": "0",
+        "high": "s32"
+      },
+      {
+        "var": "s41",
+        "low": "0",
+        "high": "s42"
+      }
+    ],
+    "order_basis": "ascending contour edges; descending slots; checked against source integrals.md at publication",
+    "jacobian": "1",
+    "integrand": "(2*s41*z1^2 - 2*s31*s41*z1^2)*((s41*z1 - s31*s41*z1)^(-2+2*eps)/(2*(1+eps)))*((z1)*(s42*z1 - s32*s42*z1)^(-1+eps))",
+    "tensor_decomposition": {
+      "metric": "(2*s41*z1^2 + 2*eps*s41*z1^2 - 2*s31*s41*z1^2 - 2*eps*s31*s41*z1^2)*((s41*z1 - s31*s41*z1)^(-2+2*eps)/(2*(1+eps)))*((z1)*(s42*z1 - s32*s42*z1)^(-1+eps))",
+      "derivative": "(-2*eps*s41*z1^2 + 2*eps*s31*s41*z1^2)*((s41*z1 - s31*s41*z1)^(-2+2*eps)/(2*(1+eps)))*((z1)*(s42*z1 - s32*s42*z1)^(-1+eps))",
+      "identity": "integrand = metric + derivative; common C"
+    },
+    "se_numerator": "2*s41*z1^2 - 2*s31*s41*z1^2",
+    "metric_numerator": "2*s41*z1^2 + 2*eps*s41*z1^2 - 2*s31*s41*z1^2 - 2*eps*s31*s41*z1^2",
+    "derivative_numerator": "-2*eps*s41*z1^2 + 2*eps*s31*s41*z1^2",
+    "geometry_polynomials": [
+      {
+        "loop": "l2",
+        "kind": "se",
+        "edges": [
+          3,
+          4
+        ],
+        "s_vars": [
+          "s31",
+          "s41"
+        ],
+        "X_coefficients": [
+          "0",
+          "0",
+          "-1 + s31",
+          "-s41"
+        ],
+        "f": "s41*z1 - s31*s41*z1",
+        "d": "z1",
+        "u": "-s41*z1",
+        "w": "-z1 + s31*z1"
+      },
+      {
+        "loop": "l1",
+        "kind": "bare",
+        "edges": [
+          3,
+          4
+        ],
+        "s_vars": [
+          "s32",
+          "s42"
+        ],
+        "X_coefficients": [
+          "0",
+          "0",
+          "-1 + s32",
+          "-s42"
+        ],
+        "f": "s42*z1 - s32*s42*z1",
+        "d": "z1",
+        "u": "-s42*z1",
+        "w": "-z1 + s32*z1"
+      }
+    ],
+    "power_prescription": "each f power is the boundary value (f+I0)^power in A_ref>0; continue jointly with C"
+  },
+  "source_paired_J_jet_expression": "1/(18*eps**4*(eps + 1))",
+  "required_jet_orders": {
+    "Gamma": 5
+  },
+  "actual_conservative_Gamma_jet": 5,
+  "external_operator_Taylor_through": 5,
+  "primitives": "Existing original M moments and rho_id_0_0_0/1 HLOG evaluations; no final I table read."
+}

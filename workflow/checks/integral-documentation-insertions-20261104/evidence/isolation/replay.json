@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "generation": {
+    "stage": "generate",
+    "arguments": [
+      "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\isolation-r001\\integrals\\three-loop\\4e-Pi1-01\\code\\reproduce.py",
+      "--output",
+      "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\runs\\isolation-r001\\generation"
+    ],
+    "returncode": 0,
+    "seconds": 7.692658599989954,
+    "log_sha256": "d2579e60faaecd5ce7153170d7d25b75bb33339241c23528f56778d840433a5a"
+  },
+  "checking": [
+    {
+      "stage": "verify",
+      "arguments": [
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\isolation-r001\\integrals\\families\\three-loop-insertions\\runtime\\scripts\\verify_batch.py",
+        "--results",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\runs\\isolation-r001\\generation\\generated.json",
+        "--out",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\runs\\isolation-r001\\verification.json"
+      ],
+      "returncode": 0,
+      "seconds": 1.6247355999657884,
+      "log_sha256": "9032aabf8601ffef83f71292a0ab97b1797508334071ee0f5838d27f77fc508d"
+    },
+    {
+      "stage": "representations",
+      "arguments": [
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\isolation-r001\\integrals\\families\\three-loop-insertions\\runtime\\scripts\\check_representations.py",
+        "--results",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\runs\\isolation-r001\\generation\\generated.json",
+        "--out",
+        "D:\\wilson-agent\\workflow\\checks\\integral-documentation-insertions-20261104\\runs\\isolation-r001\\representations.json"
+      ],
+      "returncode": 0,
+      "seconds": 1.7991795999696478,
+      "log_sha256": "3a3e1a25553e9c2fafbdc48f63359f749d2f9d0ef0b1fde2bbe0cf17ee7cef98"
+    }
+  ],
+  "entries": 15,
+  "members": [
+    {
+      "orbit_id": "4e-Pi1-01",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "4e-Pi1-02",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "4e-Pi1-03",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "4e-Pi1-04",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "4e-Pi1-05",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "4e-Pi1-06",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "4e-Pi1-07",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "4e-Pi1-08",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "4e-Pi1-09",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "4e-Pi1-10",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "4e-Pi1-11",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-01",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "2e-Pi1+Pi1-02",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "2e-Pi2-01",
+      "scalar_and_color_payload_same": true
+    },
+    {
+      "orbit_id": "2e-Pi2-02",
+      "scalar_and_color_payload_same": true
+    }
+  ],
+  "generated_json_same_bytes": true,
+  "references_absent_during_generation": true,
+  "scope": "Same installed Python environment, real copied closure. Adopted source/function/operator inputs shared; no new CAS or formal proof."
+}

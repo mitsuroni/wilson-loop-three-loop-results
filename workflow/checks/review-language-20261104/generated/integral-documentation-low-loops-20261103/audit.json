@@ -1,0 +1,1521 @@
+{
+  "format": "wilson-integral-derivation-scientific-review/1",
+  "date": "2026-11-03",
+  "reviewer": "/root/lowloop_standard_review",
+  "standard_version": "1.0",
+  "status": "all_14_continuity_accepted_with_explicit_adoptions",
+  "scope": "Independent forward reading audit of original research, new mathematical articles and actual implementation. No independent original integration or new formal proof.",
+  "entries": [
+    {
+      "orbit_id": "2e-01",
+      "document_status": "Complete",
+      "mathematical_chain": "Momentum phase and Fourier root → z(1-s31)s41 → two endpoint primitives → orbit/crossing I=-G/e² → Gamma expansion through degree five.",
+      "explicit_adoption": "Coordinate propagator/QFT source is an accepted input; no new derivation of the QCD path integral.",
+      "evidence": [
+        {
+          "path": "integrals/one-loop/2e-01/derivation.md",
+          "line": 32,
+          "passage": "\\mathcal A_{34}=\\frac1{N_c}\\operatorname{tr}",
+          "role": "explicit momentum root",
+          "file_sha256": "9fc85ffdd99dda26fa78669010ed42471014a51936d28e9079144119b9778be1"
+        },
+        {
+          "path": "integrals/one-loop/2e-01/derivation.md",
+          "line": 90,
+          "passage": "J_A=z^\\epsilon",
+          "role": "actual endpoint evaluation",
+          "file_sha256": "9fc85ffdd99dda26fa78669010ed42471014a51936d28e9079144119b9778be1"
+        },
+        {
+          "path": "integrals/one-loop/2e-01/derivation.md",
+          "line": 148,
+          "passage": "Since I has a double pole, coefficients through epsilon3 require the",
+          "role": "positive-order budget",
+          "file_sha256": "9fc85ffdd99dda26fa78669010ed42471014a51936d28e9079144119b9778be1"
+        }
+      ],
+      "implementation": "The inspected same-loop runtime performs the declared endpoint/Gamma or evaluated-mother-series assembly and subsequent reference comparison; adopted physical roots/function dictionaries retain their scope.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/one-loop/2e-01/input.json",
+        "input_sha256": "d89b6146cc9113038d226ae2b79e468b54b7998efe7a9af1af5b20da22dc027d",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/1loop/orbit_definitions.json",
+            "sha256": "c28b7e0e62ad331d7991cc089e0d93f6f49e4d4286dc35e0f96f53e9aefa23a3",
+            "json_pointer": "/orbits/0",
+            "field_sha256": "5017f448cc6ffe299deb324cf12cf90cbefd12ff2948b6fb6400a294357522f4",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/1loop/2e/montopar-initial.json",
+            "sha256": "83696213079eddfeb36556e69715577596cd1929a3c9f54b61f3006e69402040",
+            "json_pointer": "/orbits/0",
+            "field_sha256": "6487c34affc762fe6e48755ab62def81337c77db5221d612a76ff1247f1f5c06",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "original_ordered_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/benchmarks/2ne/sources/montopar-ordered/2e/montopar-initial.json",
+            "sha256": "6da143214266017bfea452c45c7a09ba157b1e1563776f93b8ed3b8e2718b8fe",
+            "json_pointer": "/orbits/0",
+            "field_sha256": "c3c8c447dc2d311e05488a79729ca4d2935f83f5aeaa571d005055bc9805c78a",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "prepared_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/benchmarks/2ne/prepared/2e.json",
+            "sha256": "d8ce895e6ff1dfd6c6d9b2d241c18988ba34fce234a7770ea47f6109ed366827",
+            "json_pointer": "/orbits/0",
+            "field_sha256": "aaee911bc89f15882254336ab4a3b447696f86c5c73845613e7e06761fddb70b",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "normalization": {
+            "m": 4,
+            "a1": 1,
+            "I_includes_orbit_and_crossing": true,
+            "Euler_compensation_count": 1,
+            "CF_lambda_common_S1_removed": true,
+            "I_map": "I=-(m/4)*G(eps)*(J(z,eps)+z**eps*J(1/z,eps))/(1+z**eps)",
+            "G": "exp(-EulerGamma*eps)*gamma(1-eps)",
+            "coupling": "lambda=alpha_s/pi"
+          }
+        }
+      }
+    },
+    {
+      "orbit_id": "2e-02",
+      "document_status": "Complete (adopted lemmas)",
+      "mathematical_chain": "Momentum geometry → full removable difference quotient → centered moment generator and Mellin-Barnes evaluation → crossing → explicit M coefficients and finite convolution.",
+      "explicit_adoption": "Evaluated M HLOG dictionary and standard Euler/Mellin identities are reused with their definitions and positive-real branch.",
+      "evidence": [
+        {
+          "path": "integrals/one-loop/2e-02/derivation.md",
+          "line": 86,
+          "passage": "\\boxed{J_O(z,\\epsilon)=\\frac1\\epsilon\\int_0^1",
+          "role": "actual one-variable primitive",
+          "file_sha256": "8eccb7036dac9f73144245b43be812f0eeeb5b07b7c4bae7c80cdaeb06f402f2"
+        },
+        {
+          "path": "integrals/one-loop/2e-02/derivation.md",
+          "line": 136,
+          "passage": "take real 0<epsilon<1 and epsilon-1<Re w<0. The result is",
+          "role": "Mellin-Barnes conditions",
+          "file_sha256": "8eccb7036dac9f73144245b43be812f0eeeb5b07b7c4bae7c80cdaeb06f402f2"
+        },
+        {
+          "path": "integrals/one-loop/2e-02/derivation.md",
+          "line": 269,
+          "passage": "$$a_3=-\\frac12\\left[h_3+",
+          "role": "highest-order coefficient convolution",
+          "file_sha256": "8eccb7036dac9f73144245b43be812f0eeeb5b07b7c4bae7c80cdaeb06f402f2"
+        }
+      ],
+      "implementation": "The inspected same-loop runtime performs the declared endpoint/Gamma or evaluated-mother-series assembly and subsequent reference comparison; adopted physical roots/function dictionaries retain their scope.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/one-loop/2e-02/input.json",
+        "input_sha256": "914d6435927c2be2755fa3f605ea3ad239ad89a41a22fbb84edbbf637bcbfa02",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/1loop/orbit_definitions.json",
+            "sha256": "c28b7e0e62ad331d7991cc089e0d93f6f49e4d4286dc35e0f96f53e9aefa23a3",
+            "json_pointer": "/orbits/1",
+            "field_sha256": "0e8bda9cfaea798cdd04e3e20481a7ec64f3c3120a99aa6bce1ceb16626cec88",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/1loop/2e/montopar-initial.json",
+            "sha256": "83696213079eddfeb36556e69715577596cd1929a3c9f54b61f3006e69402040",
+            "json_pointer": "/orbits/1",
+            "field_sha256": "5f8e448156d934b364b320a211bb91c5155fe685b04eecb151bf0aa23a7fdf42",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "original_ordered_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/benchmarks/2ne/sources/montopar-ordered/2e/montopar-initial.json",
+            "sha256": "6da143214266017bfea452c45c7a09ba157b1e1563776f93b8ed3b8e2718b8fe",
+            "json_pointer": "/orbits/1",
+            "field_sha256": "3170de8cf8e4914e7fecaa10f53e136329c9ce0f0cec22fd67f40789d8cf3c93",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "prepared_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/benchmarks/2ne/prepared/2e.json",
+            "sha256": "d8ce895e6ff1dfd6c6d9b2d241c18988ba34fce234a7770ea47f6109ed366827",
+            "json_pointer": "/orbits/1",
+            "field_sha256": "6856c9a1145e609937154e50a1e9fe871c00b922b6d3943d18dc892aa5b10619",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "normalization": {
+            "m": 2,
+            "a1": 1,
+            "I_includes_orbit_and_crossing": true,
+            "Euler_compensation_count": 1,
+            "CF_lambda_common_S1_removed": true,
+            "I_map": "I=-(m/4)*G(eps)*(J(z,eps)+z**eps*J(1/z,eps))/(1+z**eps)",
+            "G": "exp(-EulerGamma*eps)*gamma(1-eps)",
+            "coupling": "lambda=alpha_s/pi"
+          }
+        }
+      }
+    },
+    {
+      "orbit_id": "4e-01",
+      "document_status": "Complete",
+      "mathematical_chain": "Two original ordered adjacent chains → symmetric triangle integral → exact J=z^(2e)/(4e⁴) → I=-Z²/(16e⁴) → degree-six Gamma recurrence.",
+      "explicit_adoption": "Prepared C/J and color projection are accepted roots; no M/N family is needed.",
+      "evidence": [
+        {
+          "path": "integrals/two-loop/4e-01/derivation.md",
+          "line": 53,
+          "passage": "identical factors. For any integrable f,",
+          "role": "ordered domain justification",
+          "file_sha256": "851b23ab7104e5c9f7fb7dff13389b977dd63dc58b508a7752119af3fdb8c3af"
+        },
+        {
+          "path": "integrals/two-loop/4e-01/derivation.md",
+          "line": 68,
+          "passage": "$$e_6=\\frac{\\zeta_6}{3}+\\frac{\\zeta_2\\zeta_4}{2}",
+          "role": "highest-order Gamma coefficient",
+          "file_sha256": "851b23ab7104e5c9f7fb7dff13389b977dd63dc58b508a7752119af3fdb8c3af"
+        },
+        {
+          "path": "integrals/two-loop/4e-01/derivation.md",
+          "line": 103,
+          "passage": "$$a_{-3}(z)=0.$$",
+          "role": "explicit vanishing simple-order coefficient",
+          "file_sha256": "851b23ab7104e5c9f7fb7dff13389b977dd63dc58b508a7752119af3fdb8c3af"
+        }
+      ],
+      "implementation": "The inspected same-loop runtime performs the declared endpoint/Gamma or evaluated-mother-series assembly and subsequent reference comparison; adopted physical roots/function dictionaries retain their scope.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/two-loop/4e-01/input.json",
+        "input_sha256": "3c885c0880a43d6c71a9842bf091bb2be65e64297e0029bdbc58db6e64d2d916",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+            "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+            "json_pointer": "/orbits/6",
+            "field_sha256": "f83f6e13f9802886a1488ea4905c0dd0543037d6c37b5a26ff380f6ae9a02aaa",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_raw_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json",
+            "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+            "json_pointer": "/orbits/0",
+            "field_sha256": "1d77d9ec3e879398ef154284bf0d8f20f6a33b086440277cda4980b40897a74d",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_prepared": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+            "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+            "field": "/orbits/0"
+          },
+          "original_ordered_J": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+            "json_pointer": "/orbits/0/J",
+            "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+            "order_outer_to_inner": [
+              "x1",
+              "x2",
+              "x3",
+              "x4"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ],
+              "x4": [
+                0,
+                1
+              ]
+            },
+            "alpha_measure": null,
+            "jacobian": null
+          },
+          "normalization": {
+            "euler_compensation_count": 1,
+            "assembly_sign": 1,
+            "scheme": "native-physical-CJ",
+            "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+          }
+        }
+      }
+    },
+    {
+      "orbit_id": "4e-02",
+      "document_status": "Complete (adopted lemmas)",
+      "mathematical_chain": "Ordered upper endpoint gives 1-s^e; its weighted kernel and reflected partner give the exact V(2e) identity → physical crossing → finite d_q/p_q convolution.",
+      "explicit_adoption": "The evaluated M/N dictionary is adopted after the graph-specific weighted-kernel bridge is proved.",
+      "evidence": [
+        {
+          "path": "integrals/two-loop/4e-02/derivation.md",
+          "line": 46,
+          "passage": "$$J=-z(1+z)\\int_0^1ds_{21}\\int_0^1ds_{31}\\int_0^1ds_{42}",
+          "role": "full original ordered root",
+          "file_sha256": "6157365f40779530b4dcd607783d7e38aa13b6e2ac61fe5851d6b79cd01adac7"
+        },
+        {
+          "path": "integrals/two-loop/4e-02/derivation.md",
+          "line": 81,
+          "passage": "$$e^xS(z)+e^{-x}S(1/z)",
+          "role": "weighted crossing identity",
+          "file_sha256": "6157365f40779530b4dcd607783d7e38aa13b6e2ac61fe5851d6b79cd01adac7"
+        },
+        {
+          "path": "integrals/two-loop/4e-02/derivation.md",
+          "line": 104,
+          "passage": "$$a_2=\\frac14[d_4+p_2d_2+p_3d_1],\\quad",
+          "role": "highest-order assembly",
+          "file_sha256": "6157365f40779530b4dcd607783d7e38aa13b6e2ac61fe5851d6b79cd01adac7"
+        }
+      ],
+      "implementation": "The inspected same-loop runtime performs the declared endpoint/Gamma or evaluated-mother-series assembly and subsequent reference comparison; adopted physical roots/function dictionaries retain their scope.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/two-loop/4e-02/input.json",
+        "input_sha256": "3e286f919a9ca69f6f2afa2555f3879d610a68dac6ec5b5c1378125beb972737",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+            "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+            "json_pointer": "/orbits/7",
+            "field_sha256": "60df6193147ee0d40d62b95838191a013d25b7b377e3ceaf2c127b12fd496242",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_raw_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json",
+            "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+            "json_pointer": "/orbits/1",
+            "field_sha256": "e59806e358a58f2220aefb31a01e917d1d3f908d2ee2fb4b3c3382f0388a074d",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_prepared": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+            "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+            "field": "/orbits/1"
+          },
+          "original_ordered_J": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+            "json_pointer": "/orbits/1/J",
+            "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+            "order_outer_to_inner": [
+              "x1",
+              "x2",
+              "x3",
+              "x4"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ],
+              "x4": [
+                0,
+                1
+              ]
+            },
+            "alpha_measure": null,
+            "jacobian": null
+          },
+          "normalization": {
+            "euler_compensation_count": 1,
+            "assembly_sign": 1,
+            "scheme": "native-physical-CJ",
+            "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+          }
+        }
+      }
+    },
+    {
+      "orbit_id": "4e-03",
+      "document_status": "Complete",
+      "mathematical_chain": "Independent endpoint integrals leave an actual ordered mixed Beta triangle → R2 Gamma ratio → centered crossing 1/cosh(e log z) → finite expansion through degree six.",
+      "explicit_adoption": "Prepared root and standard Beta/Gamma formulas; M01 in the compact answer is just the evaluated log² identity.",
+      "evidence": [
+        {
+          "path": "integrals/two-loop/4e-03/derivation.md",
+          "line": 56,
+          "passage": "$$T=\\int_0^1v^{\\epsilon-1}dv\\int_0^v(1-u)^{\\epsilon-1}du",
+          "role": "ordered triangle primitive",
+          "file_sha256": "268bb97988a478bab2e71358f6412e8f991f5aa07dad59aa3fa07575242b3b64"
+        },
+        {
+          "path": "integrals/two-loop/4e-03/derivation.md",
+          "line": 60,
+          "passage": "second is B(epsilon,1+epsilon)=R2/epsilon, where",
+          "role": "Beta evaluation",
+          "file_sha256": "268bb97988a478bab2e71358f6412e8f991f5aa07dad59aa3fa07575242b3b64"
+        },
+        {
+          "path": "integrals/two-loop/4e-03/derivation.md",
+          "line": 79,
+          "passage": "$$a_2=\\frac14[b_6+p_2b_4+p_3b_3+p_4b_2],$$",
+          "role": "highest-order pole/prefactor assembly",
+          "file_sha256": "268bb97988a478bab2e71358f6412e8f991f5aa07dad59aa3fa07575242b3b64"
+        }
+      ],
+      "implementation": "The inspected same-loop runtime performs the declared endpoint/Gamma or evaluated-mother-series assembly and subsequent reference comparison; adopted physical roots/function dictionaries retain their scope.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/two-loop/4e-03/input.json",
+        "input_sha256": "aef1e6cb3ca5fd7cf7c858eecf6fcb62b909cceadd0d779a6ad2d1af8ab21ed1",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+            "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+            "json_pointer": "/orbits/8",
+            "field_sha256": "055d18fcdd547390444bb1bb9d5c01fdfd1d7612245006601a3939fb018b46df",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_raw_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json",
+            "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+            "json_pointer": "/orbits/2",
+            "field_sha256": "91674ffbff0452bf6a439201bd7bad7576affa7778079e9c64659b537f5acfbd",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_prepared": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+            "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+            "field": "/orbits/2"
+          },
+          "original_ordered_J": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+            "json_pointer": "/orbits/2/J",
+            "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+            "order_outer_to_inner": [
+              "x1",
+              "x2",
+              "x3",
+              "x4"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ],
+              "x4": [
+                0,
+                1
+              ]
+            },
+            "alpha_measure": null,
+            "jacobian": null
+          },
+          "normalization": {
+            "euler_compensation_count": 1,
+            "assembly_sign": 1,
+            "scheme": "native-physical-CJ",
+            "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+          }
+        }
+      }
+    },
+    {
+      "orbit_id": "4e-04",
+      "document_status": "Complete (adopted lemmas)",
+      "mathematical_chain": "Original four-dimensional ordered root → two linear primitives → antisymmetric zero addition → K Euler derivative/Beta summation with boundary → same-Q substitution → analytically fixed endpoint conversions → evaluated M/N mother → Q2/prefactor convolution.",
+      "explicit_adoption": "Fixed M/N HLOG dictionary; analytic hypergeometric and Euler/Beta identities. The alternative integrated Q0/Q1/Q2 files are a separate adopted comparison, not a replacement for the displayed analytic bridge.",
+      "evidence": [
+        {
+          "path": "integrals/two-loop/4e-04/derivation.md",
+          "line": 133,
+          "passage": "The Euler derivative theta=z partial_z gives theta f=A_a(y). Integrating",
+          "role": "actual derivative eliminating K primitive",
+          "file_sha256": "821df4f5cd58a12ee5e7471f119b3067ea5a69f9c486fab6f3dcdd361309b4e4"
+        },
+        {
+          "path": "integrals/two-loop/4e-04/derivation.md",
+          "line": 146,
+          "passage": "One integration in dz/z, with K(a,b;0)=0, thus gives a complete evaluation",
+          "role": "K integration constant",
+          "file_sha256": "821df4f5cd58a12ee5e7471f119b3067ea5a69f9c486fab6f3dcdd361309b4e4"
+        },
+        {
+          "path": "integrals/two-loop/4e-04/derivation.md",
+          "line": 307,
+          "passage": "$$Q_q=\\frac12\\sum_{i=0}^qv_i v_{q-i}-2n_q+",
+          "role": "finite all-order Q rule",
+          "file_sha256": "821df4f5cd58a12ee5e7471f119b3067ea5a69f9c486fab6f3dcdd361309b4e4"
+        },
+        {
+          "path": "integrals/two-loop/4e-04/derivation.md",
+          "line": 319,
+          "passage": "a_2=-[Q_2+(\\zeta_2-\\ell^2/2)Q_0]/8,$$",
+          "role": "highest required physical coefficient",
+          "file_sha256": "821df4f5cd58a12ee5e7471f119b3067ea5a69f9c486fab6f3dcdd361309b4e4"
+        },
+        {
+          "path": "integrals/two-loop/4e-04/appendices/endpoint-conversion.md",
+          "line": 58,
+          "passage": "this constant to pi²/2. Since M01=-(ell²+pi²)/2, this proves equation(7).",
+          "role": "first analytic boundary constant",
+          "file_sha256": "170c7a70993b8e1992907b23932341e4c5f62abcc719f1f52d1d69c1254f6565"
+        },
+        {
+          "path": "integrals/two-loop/4e-04/appendices/endpoint-conversion.md",
+          "line": 150,
+          "passage": "makes the two constants exactly equal. This fixes the constant of(A3) to0.",
+          "role": "second analytic boundary constant",
+          "file_sha256": "170c7a70993b8e1992907b23932341e4c5f62abcc719f1f52d1d69c1254f6565"
+        }
+      ],
+      "implementation": "The inspected same-loop runtime performs the declared endpoint/Gamma or evaluated-mother-series assembly and subsequent reference comparison; adopted physical roots/function dictionaries retain their scope.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/two-loop/4e-04/input.json",
+        "input_sha256": "bd96c5cd31f19d1a0b204806ce4307ec457290f8e8f1cd449f7c7444ffe6ffb3",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+            "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+            "json_pointer": "/orbits/9",
+            "field_sha256": "ff539627d19a4e5bbb53ef598bef7f0f1c805dbdb3d8841c4bb60bd2dbf48e3c",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_raw_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json",
+            "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+            "json_pointer": "/orbits/3",
+            "field_sha256": "c733ea0aaf917ead291f4e9ceeaea9966436b5483119332ba5c3d1e5ba76f847",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_prepared": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+            "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+            "field": "/orbits/3"
+          },
+          "original_ordered_J": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+            "json_pointer": "/orbits/3/J",
+            "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+            "order_outer_to_inner": [
+              "x1",
+              "x2",
+              "x3",
+              "x4"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ],
+              "x4": [
+                0,
+                1
+              ]
+            },
+            "alpha_measure": null,
+            "jacobian": null
+          },
+          "normalization": {
+            "euler_compensation_count": 1,
+            "assembly_sign": 1,
+            "scheme": "native-physical-CJ",
+            "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+          }
+        }
+      }
+    },
+    {
+      "orbit_id": "4e-05",
+      "document_status": "Complete (adopted lemmas)",
+      "mathematical_chain": "Its own lower endpoint gives 1-(1-t)^e; a justified square-variable swap and explicit reflected weighted source prove B2[J05]=B2[J02] → same normalized answer with its distinct original root retained.",
+      "explicit_adoption": "Exactly evaluated weighted lemma from 4e-02, with the present root-specific substitution and scale factors exposed.",
+      "evidence": [
+        {
+          "path": "integrals/two-loop/4e-05/derivation.md",
+          "line": 45,
+          "passage": "$$J=-(1+z)\\int_0^1ds_{31}\\int_0^1ds_{22}\\int_0^1ds_{41}",
+          "role": "own ordered parameter root",
+          "file_sha256": "4cd8d9944a6e982786d023633df19f4ebc554058659b95268ce9204a738d46c0"
+        },
+        {
+          "path": "integrals/two-loop/4e-05/derivation.md",
+          "line": 93,
+          "passage": "For B2 this immediately implies B2[J05]=B2[J02]; the two terms in its",
+          "role": "explicit crossing identity",
+          "file_sha256": "4cd8d9944a6e982786d023633df19f4ebc554058659b95268ce9204a738d46c0"
+        },
+        {
+          "path": "integrals/two-loop/4e-05/derivation.md",
+          "line": 210,
+          "passage": "$$a_{2}(z)=\\frac{5 M_{0,1}^{3}}{192} + \\frac{37 \\pi^{2} M_{0,1}^{2}}{768} + \\frac{13 M_{0,1} M_{2,1}}{128} + \\frac{31 \\pi^{4} M_{0,1}}{1536} + \\frac{M_{0,5}}{512} + \\frac{M_{1,1} \\zeta\\left(3\\right)}{12} + \\frac{17 \\pi^{2} M_{2,1}}{256} + \\frac{5 M_{2,3}}{256} + \\frac{5 M_{4,1}}{512}.$$",
+          "role": "complete highest coefficient",
+          "file_sha256": "4cd8d9944a6e982786d023633df19f4ebc554058659b95268ce9204a738d46c0"
+        }
+      ],
+      "implementation": "The inspected same-loop runtime performs the declared endpoint/Gamma or evaluated-mother-series assembly and subsequent reference comparison; adopted physical roots/function dictionaries retain their scope.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/two-loop/4e-05/input.json",
+        "input_sha256": "3e7eca90535c6594d6807379359af2e78930ebbb2d9e1932c11af86d9dfed97a",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+            "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+            "json_pointer": "/orbits/10",
+            "field_sha256": "a364277188258f796c31dad22bc58301702cadea0f1a837f1edab27819c0d388",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_raw_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json",
+            "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+            "json_pointer": "/orbits/4",
+            "field_sha256": "49e2d2f63acca44904d544619a0c5d69fd3100d197ea2f75257cf70344f793c4",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_prepared": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+            "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+            "field": "/orbits/4"
+          },
+          "original_ordered_J": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+            "json_pointer": "/orbits/4/J",
+            "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+            "order_outer_to_inner": [
+              "x1",
+              "x2",
+              "x3",
+              "x4"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ],
+              "x4": [
+                0,
+                1
+              ]
+            },
+            "alpha_measure": null,
+            "jacobian": null
+          },
+          "normalization": {
+            "euler_compensation_count": 1,
+            "assembly_sign": 1,
+            "scheme": "native-physical-CJ",
+            "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+          }
+        }
+      }
+    },
+    {
+      "orbit_id": "4e-06",
+      "document_status": "Complete (adopted lemmas)",
+      "mathematical_chain": "Original disjoint variable pairs → complement map with unit Jacobian → product of evaluated opposite kernels → crossing → finite V²/prefactor convolution.",
+      "explicit_adoption": "The evaluated opposite-kernel M dictionary; factorization is proved for this specific convergent root.",
+      "evidence": [
+        {
+          "path": "integrals/two-loop/4e-06/derivation.md",
+          "line": 51,
+          "passage": "The transformation (s11,s31)->(1-s11,1-s31) has absolute Jacobian1,",
+          "role": "actual root-specific map",
+          "file_sha256": "a17191437f2b0dd9f0c53b203c3a2ed902eabc17f1160a0e0e253f3c89d49b56"
+        },
+        {
+          "path": "integrals/two-loop/4e-06/derivation.md",
+          "line": 53,
+          "passage": "two variables do not change. Because the resulting two pairs are disjoint,",
+          "role": "factorization condition",
+          "file_sha256": "a17191437f2b0dd9f0c53b203c3a2ed902eabc17f1160a0e0e253f3c89d49b56"
+        },
+        {
+          "path": "integrals/two-loop/4e-06/derivation.md",
+          "line": 71,
+          "passage": "$$a_2=-\\frac1{16}[2v_0v_2+v_1^2+(\\zeta_2-\\ell^2/2)v_0^2].$$",
+          "role": "highest-order product coefficient",
+          "file_sha256": "a17191437f2b0dd9f0c53b203c3a2ed902eabc17f1160a0e0e253f3c89d49b56"
+        }
+      ],
+      "implementation": "The inspected same-loop runtime performs the declared endpoint/Gamma or evaluated-mother-series assembly and subsequent reference comparison; adopted physical roots/function dictionaries retain their scope.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/two-loop/4e-06/input.json",
+        "input_sha256": "40229205dcfc4317f776be1f575cf534a85cd5475f5af65db3acc4aee3281cc9",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+            "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+            "json_pointer": "/orbits/11",
+            "field_sha256": "04779d82e64079775127f4c3eacbc706af0e153d2715f89a6988198ba2055e8f",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_raw_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/4e/montopar-initial.json",
+            "sha256": "e18a2a55eb0a366e72e49a970afe080a76baf2643735a9e6ae71cbf3a8bcf466",
+            "json_pointer": "/orbits/5",
+            "field_sha256": "f396a5b5e08c116ea147fdb15b4a29bb5a5b47f5ffb8e54e499cbde16420d6cb",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_prepared": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+            "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+            "field": "/orbits/5"
+          },
+          "original_ordered_J": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/4e.json",
+            "json_pointer": "/orbits/5/J",
+            "sha256": "16d000eec5c317e0a5cf72e74a1b774ab95e07fd1ef798bf61db4240f3916172",
+            "order_outer_to_inner": [
+              "x1",
+              "x2",
+              "x3",
+              "x4"
+            ],
+            "bounds": {
+              "x1": [
+                0,
+                1
+              ],
+              "x2": [
+                0,
+                1
+              ],
+              "x3": [
+                0,
+                1
+              ],
+              "x4": [
+                0,
+                1
+              ]
+            },
+            "alpha_measure": null,
+            "jacobian": null
+          },
+          "normalization": {
+            "euler_compensation_count": 1,
+            "assembly_sign": 1,
+            "scheme": "native-physical-CJ",
+            "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+          }
+        }
+      }
+    },
+    {
+      "orbit_id": "3e-3g-01",
+      "document_status": "Complete",
+      "mathematical_chain": "Explicit simplex and ordered-path substitutions with Jacobians → three scale integrals and q primitive → combined regulated Beta difference → crossing → degree-six Gamma/Beta coefficient rule.",
+      "explicit_adoption": "Prepared three-gluon C/J and standard meromorphic Beta identities, with the unregulated B(-e,e) pitfall explicitly excluded.",
+      "evidence": [
+        {
+          "path": "integrals/two-loop/3e-3g-01/derivation.md",
+          "line": 25,
+          "passage": "Use $a=1-u$, $b=uv$, $c=u(1-v)$ and $x=yq$. The simplex and ordered-path Jacobians are respectively $u$ and $y$, and all five new variables range over $(0,1)$. Including both Jacobians, not merely substituting $S$, gives",
+          "role": "actual simplex/path substitutions",
+          "file_sha256": "e738b5b2d6ba89ea9d30a817da631cf279a298c0fd14b5b4739e12595cda524f"
+        },
+        {
+          "path": "integrals/two-loop/3e-3g-01/derivation.md",
+          "line": 37,
+          "passage": "The endpoint difference is kept intact. To evaluate it, a common auxiliary endpoint regulator may first be added to the split Beta terms. Their combined meromorphic limit is",
+          "role": "regulated Beta evaluation",
+          "file_sha256": "e738b5b2d6ba89ea9d30a817da631cf279a298c0fd14b5b4739e12595cda524f"
+        },
+        {
+          "path": "integrals/two-loop/3e-3g-01/derivation.md",
+          "line": 66,
+          "passage": "Because the pole is $e^{-4}$, both Gamma sources must be retained through degree six for the $e^2$ answer. Precisely, $a_q=[e^{q+4}]G_2(2F-B_e)/32$, $-4\\le q\\le2$. For example $2F-B_e=1-2e+(-4+3\\zeta_2)e^2+\\cdots$; multiplying $G_2=1+2\\zeta_2e^2+\\cdots$ yields $a_{-2}=(-4+5\\zeta_2)/32$.",
+          "role": "highest required expansion budget",
+          "file_sha256": "e738b5b2d6ba89ea9d30a817da631cf279a298c0fd14b5b4739e12595cda524f"
+        }
+      ],
+      "implementation": "The inspected same-loop runtime performs the declared endpoint/Gamma or evaluated-mother-series assembly and subsequent reference comparison; adopted physical roots/function dictionaries retain their scope.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/two-loop/3e-3g-01/input.json",
+        "input_sha256": "347545a2232dcce6c258650ccff488e709d44dd51fe6c59c702dfd9eec62efff",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+            "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+            "json_pointer": "/orbits/2",
+            "field_sha256": "1debbc596e0973b86346bd735e7bc5957f1fa3d37ff020b2b004f9ae8ffe240e",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_raw_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/3e-3g/montopar-initial.json",
+            "sha256": "56c76eeb832d2578704c5efc616955431b8371aa8574330da9cfd15e09669853",
+            "json_pointer": "/orbits/0",
+            "field_sha256": "c4d216ba3ad6f9c3a4cacb0275930c50d8443e5c151b942d8bc429ca7c821271",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_prepared": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/3e-3g.json",
+            "sha256": "2343a1de2b1e02d056ca1ec85dee97e78bf3961d5ab67eb31f87c26becb2e8ed",
+            "field": "/orbits/0"
+          },
+          "original_ordered_J": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/3e-3g.json",
+            "json_pointer": "/orbits/0/J_raw_s",
+            "sha256": "2343a1de2b1e02d056ca1ec85dee97e78bf3961d5ab67eb31f87c26becb2e8ed",
+            "order_outer_to_inner": [
+              "s31",
+              "s42",
+              "s41"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ]
+            },
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            },
+            "jacobian": null
+          },
+          "normalization": {
+            "stage": "raw_montopar",
+            "euler_compensation_count": 1,
+            "assembly_sign": 1,
+            "scheme": "native-physical-CJ",
+            "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+          }
+        }
+      }
+    },
+    {
+      "orbit_id": "3e-3g-02",
+      "document_status": "Complete (adopted lemmas)",
+      "mathematical_chain": "Full orientation-preserving ordered-domain/simplex map → direct S and P pullback → exact 01 lemma → same normalization and degree-six expansion.",
+      "explicit_adoption": "Precisely stated evaluated 3e-3g-01 lemma with matching measure, domain and numerator; no final-table equality assumption.",
+      "evidence": [
+        {
+          "path": "integrals/two-loop/3e-3g-02/derivation.md",
+          "line": 27,
+          "passage": "(t,x,y;a,b,c)_{01}=(1-t,1-y,1-x;c,b,a)_{02}.",
+          "role": "actual variable map",
+          "file_sha256": "a47a861c1e3552ea5f3fbffc5602d4f7e353f81f474ef64ddd0d0e464d28fdbc"
+        },
+        {
+          "path": "integrals/two-loop/3e-3g-02/derivation.md",
+          "line": 34,
+          "passage": "P_{01}=az^2(1-t)(b-c)/4\\longmapsto cz^2t(b-a)/4=P_{02}.",
+          "role": "numerator pullback",
+          "file_sha256": "a47a861c1e3552ea5f3fbffc5602d4f7e353f81f474ef64ddd0d0e464d28fdbc"
+        },
+        {
+          "path": "integrals/two-loop/3e-3g-02/derivation.md",
+          "line": 38,
+          "passage": "The exact adopted representative lemma is the integral in [01](../3e-3g-01/derivation.md): for the displayed $S_{01},P_{01}$ on its displayed ordered domain,",
+          "role": "lemma and concrete use",
+          "file_sha256": "a47a861c1e3552ea5f3fbffc5602d4f7e353f81f474ef64ddd0d0e464d28fdbc"
+        }
+      ],
+      "implementation": "The inspected same-loop runtime performs the declared endpoint/Gamma or evaluated-mother-series assembly and subsequent reference comparison; adopted physical roots/function dictionaries retain their scope.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/two-loop/3e-3g-02/input.json",
+        "input_sha256": "a9d56edf41a4ed375a155d0e4d9b6bea2de64731622d15f41123470befc19fde",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+            "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+            "json_pointer": "/orbits/3",
+            "field_sha256": "cf777cfea1f7127cf16025ea769e996199004110a3e55627f9a5f5b78ec9957e",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_raw_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/3e-3g/montopar-initial.json",
+            "sha256": "56c76eeb832d2578704c5efc616955431b8371aa8574330da9cfd15e09669853",
+            "json_pointer": "/orbits/1",
+            "field_sha256": "3c515a6e5bf287abe5a25ed96e85f3c95039e7b65865b4b0ffd5bdc333345140",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_prepared": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/3e-3g.json",
+            "sha256": "2343a1de2b1e02d056ca1ec85dee97e78bf3961d5ab67eb31f87c26becb2e8ed",
+            "field": "/orbits/1"
+          },
+          "original_ordered_J": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/3e-3g.json",
+            "json_pointer": "/orbits/1/J_raw_s",
+            "sha256": "2343a1de2b1e02d056ca1ec85dee97e78bf3961d5ab67eb31f87c26becb2e8ed",
+            "order_outer_to_inner": [
+              "s32",
+              "s31",
+              "s41"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "s32"
+              ],
+              "s32": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "1"
+              ]
+            },
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            },
+            "jacobian": null
+          },
+          "normalization": {
+            "stage": "raw_montopar",
+            "euler_compensation_count": 1,
+            "assembly_sign": 1,
+            "scheme": "native-physical-CJ",
+            "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+          }
+        }
+      }
+    },
+    {
+      "orbit_id": "3e-3g-03",
+      "document_status": "Complete (adopted lemmas)",
+      "mathematical_chain": "Numerator derivative → triangular boundary/contact IBP → simplex scale and pushed affine-face weights → exact F_e constant → two moment sources → closed Mellin value and finite coefficient convolution.",
+      "explicit_adoption": "The established evaluated M/N dictionary is precisely defined in the mathematical appendix.",
+      "evidence": [
+        {
+          "path": "integrals/two-loop/3e-3g-03/derivation.md",
+          "line": 32,
+          "passage": "The two copies of the diagonal have separate orientations: the lower $y$ limit of $\\partial_y$ and the upper $x$ limit of $-\\partial_x$ both give a negative contact flux. A square-domain IBP would miss them.",
+          "role": "contact orientation",
+          "file_sha256": "68c987d37129a09a72bfed2d2de994c119b40ede17c02e1d962f483d2a60c3fc"
+        },
+        {
+          "path": "integrals/two-loop/3e-3g-03/derivation.md",
+          "line": 36,
+          "passage": "F_e(q)=\\int_0^q v^{-e}(1-v)^{-1-e}dv+",
+          "role": "evaluated combined face weight",
+          "file_sha256": "68c987d37129a09a72bfed2d2de994c119b40ede17c02e1d962f483d2a60c3fc"
+        },
+        {
+          "path": "integrals/two-loop/3e-3g-03/derivation.md",
+          "line": 98,
+          "passage": "For the most demanding displayed order, $a_2=(d_4+p_2d_2+p_3d_1)/8$, since $p_0=1,p_1=d_0=0$. The jets through degree four are therefore sufficient, and the $M_{0,5}$ terms cancel in $d_4$ before final moment identities. This is the actual finite coefficient convolution, including pole times positive powers.",
+          "role": "highest-order assembly",
+          "file_sha256": "68c987d37129a09a72bfed2d2de994c119b40ede17c02e1d962f483d2a60c3fc"
+        }
+      ],
+      "implementation": "The inspected same-loop runtime performs the declared endpoint/Gamma or evaluated-mother-series assembly and subsequent reference comparison; adopted physical roots/function dictionaries retain their scope.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/two-loop/3e-3g-03/input.json",
+        "input_sha256": "da4d2a5abe2804610181cf71a1274796c823b95aedb9418a483c8501eb25b772",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+            "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+            "json_pointer": "/orbits/4",
+            "field_sha256": "4c5e954bf9477632fba2201d618a8f27207162f170ef3da2598053a96f90451e",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_raw_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/3e-3g/montopar-initial.json",
+            "sha256": "56c76eeb832d2578704c5efc616955431b8371aa8574330da9cfd15e09669853",
+            "json_pointer": "/orbits/2",
+            "field_sha256": "80388090c81411a050882599d266678b7a3dbb872ecc2fc113a976bc625b926e",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_prepared": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/3e-3g.json",
+            "sha256": "2343a1de2b1e02d056ca1ec85dee97e78bf3961d5ab67eb31f87c26becb2e8ed",
+            "field": "/orbits/2"
+          },
+          "original_ordered_J": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/3e-3g.json",
+            "json_pointer": "/orbits/2/J_raw_s",
+            "sha256": "2343a1de2b1e02d056ca1ec85dee97e78bf3961d5ab67eb31f87c26becb2e8ed",
+            "order_outer_to_inner": [
+              "s21",
+              "s42",
+              "s41"
+            ],
+            "bounds": {
+              "s21": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "s42"
+              ],
+              "s42": [
+                "0",
+                "1"
+              ]
+            },
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            },
+            "jacobian": null
+          },
+          "normalization": {
+            "stage": "raw_montopar",
+            "euler_compensation_count": 1,
+            "assembly_sign": 1,
+            "scheme": "native-physical-CJ",
+            "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+          }
+        }
+      }
+    },
+    {
+      "orbit_id": "3e-3g-04",
+      "document_status": "Complete (adopted lemmas)",
+      "mathematical_chain": "Full polynomial numerator → six explicitly restricted faces plus recoil → evaluated cusp/D/H reductions → Euler-regularized recoil → complete adopted HLOG jets → explicit bracket, j2 and a2 convolution → optional M/N/tau compression.",
+      "explicit_adoption": "The six precise integrated coefficient kernels and complete coordinate tables are adopted computational lemmas. Coefficient-kernel convergence is supported by historical divergence-checked HyperInt, distinct from the new analytic common-strip cutoff proof and from new Python representation replay.",
+      "evidence": [
+        {
+          "path": "integrals/two-loop/3e-3g-04/derivation.md",
+          "line": 30,
+          "passage": "P=\\frac{-zS_x-(1+z)S_y+S_w}{4}+P_R,",
+          "role": "full numerator split",
+          "file_sha256": "e7816b1e74257f167d9595d349115c5c0d0257e6078ea741e99cc9f5beedd093"
+        },
+        {
+          "path": "integrals/two-loop/3e-3g-04/derivation.md",
+          "line": 77,
+          "passage": "D_n=[e^n]\\mathcal D=\\int_0^1d\\xi\\int_0^1dv\\,",
+          "role": "explicit D coefficient kernels",
+          "file_sha256": "e7816b1e74257f167d9595d349115c5c0d0257e6078ea741e99cc9f5beedd093"
+        },
+        {
+          "path": "integrals/two-loop/3e-3g-04/derivation.md",
+          "line": 101,
+          "passage": "f_{H,0}=\\frac1{T(1+u)(1+v)F_H},\\quad",
+          "role": "explicit H kernel/logarithm",
+          "file_sha256": "e7816b1e74257f167d9595d349115c5c0d0257e6078ea741e99cc9f5beedd093"
+        },
+        {
+          "path": "integrals/two-loop/3e-3g-04/derivation.md",
+          "line": 137,
+          "passage": "O_{-1}=\\int b_0A,\\quad O_0=\\int b_0(B+AL_b),\\quad",
+          "role": "all required recoil jets",
+          "file_sha256": "e7816b1e74257f167d9595d349115c5c0d0257e6078ea741e99cc9f5beedd093"
+        },
+        {
+          "path": "integrals/two-loop/3e-3g-04/derivation.md",
+          "line": 175,
+          "passage": "\\qquad a_2=\\tfrac12j_2+n_1j_1+n_2j_0+n_3j_{-1}+n_4j_{-2}.\\tag{9}",
+          "role": "highest-order pole/prefactor convolution",
+          "file_sha256": "e7816b1e74257f167d9595d349115c5c0d0257e6078ea741e99cc9f5beedd093"
+        },
+        {
+          "path": "integrals/two-loop/3e-3g-04/appendices/euler-regularization.md",
+          "line": 16,
+          "passage": "Choose smooth cutoffs $\\chi_L(\\log r,\\log u)$ supported on compact rectangles in logarithmic coordinates, tending pointwise to one, with uniformly bounded $E\\chi_L$ tending pointwise to zero. Ordinary compact-support integration by parts gives",
+          "role": "actual common-strip boundary proof",
+          "file_sha256": "ae4363b8366d05d82cc896555edb4aec017e653d89942184b27bf95e927cdb5d"
+        },
+        {
+          "path": "integrals/two-loop/3e-3g-04/appendices/hlog-jets.md",
+          "line": 11,
+          "passage": "## $D_2$",
+          "role": "complete adopted HLOG tables",
+          "file_sha256": "7ec15cc558961c5b5b1cb2d5af89a2503ca5411e22efc572499f7560c87a9b9f"
+        },
+        {
+          "path": "integrals/families/low-loop-runtime/integrals/two-loop/family_engines.py",
+          "line": 66,
+          "passage": "result['3e-3g-04']={-4:s.S.Zero,-3:s.S.Zero,-2:s.zeta(2)/8,-1:(s.zeta(3)-M(1,1))/8,0:M(0,1)**2/48-M(2,1)/8+9*s.zeta(2)**2/10,1:parse(tgv04_compact['I1']),2:parse(tgv04_compact['I2'])}",
+          "role": "actual runtime adopts normalized I rather than convolving jets",
+          "file_sha256": "6ac28b4ba47605f196451d3a8096e73dbe8b7fe762f9d8bb09d8b28e7041ee51"
+        }
+      ],
+      "implementation": "Accepted I[-2..0] formulas and already assembled normalized I1/I2 are read, then compared with complete adopted HLOG coordinates; new adapter does not convolve D/H/O jets.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/two-loop/3e-3g-04/input.json",
+        "input_sha256": "6812103f56e3fb329029a5dfced13d9c294a05f5a36cf063db6aa4bd368e6365",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+            "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+            "json_pointer": "/orbits/5",
+            "field_sha256": "fd5a61afc2a692474dd2abbf0883ae0972d546394a9c3cc72b620d6d93699d34",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_raw_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/3e-3g/montopar-initial.json",
+            "sha256": "56c76eeb832d2578704c5efc616955431b8371aa8574330da9cfd15e09669853",
+            "json_pointer": "/orbits/3",
+            "field_sha256": "75a8d4ae2c498c179972beaea384fc8b670447d9086466146b1fcedb0f90904a",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_prepared": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/3e-3g.json",
+            "sha256": "2343a1de2b1e02d056ca1ec85dee97e78bf3961d5ab67eb31f87c26becb2e8ed",
+            "field": "/orbits/3"
+          },
+          "original_ordered_J": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/3e-3g.json",
+            "json_pointer": "/orbits/3/J_raw_s",
+            "sha256": "2343a1de2b1e02d056ca1ec85dee97e78bf3961d5ab67eb31f87c26becb2e8ed",
+            "order_outer_to_inner": [
+              "s21",
+              "s31",
+              "s41"
+            ],
+            "bounds": {
+              "s21": [
+                "0",
+                "1"
+              ],
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "1"
+              ]
+            },
+            "alpha_measure": {
+              "kind": "simplex",
+              "variables": [
+                "alpha1",
+                "alpha2",
+                "alpha3"
+              ],
+              "constraint": "alpha1+alpha2+alpha3=1",
+              "independent_variables": [
+                "alpha1",
+                "alpha2"
+              ],
+              "substitution": {
+                "alpha3": "1-alpha1-alpha2"
+              },
+              "bounds": {
+                "alpha1": [
+                  "0",
+                  "1"
+                ],
+                "alpha2": [
+                  "0",
+                  "1-alpha1"
+                ]
+              },
+              "iterated_order_outer_to_inner": [
+                "alpha1",
+                "alpha2"
+              ],
+              "jacobian": "1"
+            },
+            "jacobian": null
+          },
+          "normalization": {
+            "stage": "raw_montopar",
+            "euler_compensation_count": 1,
+            "assembly_sign": 1,
+            "scheme": "native-physical-CJ",
+            "physical_convention": "wilson-qcd-action-path-fourier/1.0"
+          }
+        }
+      }
+    },
+    {
+      "orbit_id": "2e-Pi1-01",
+      "document_status": "Complete",
+      "mathematical_chain": "Adopted full transverse self-energy tensor → Fourier/differential parameter kernel → adjacent geometry collapses complete numerator → elementary endpoints → physical current sign and degree-five rational/Gamma expansion.",
+      "explicit_adoption": "The inner one-loop quark/gluon/ghost operator is an accepted physical input and is explicitly not recomputed.",
+      "evidence": [
+        {
+          "path": "integrals/two-loop/2e-Pi1-01/derivation.md",
+          "line": 11,
+          "passage": "The inserted momentum root is $\\int ds\\,dt\\,(igv_i^\\mu t^a)D_{0,\\mu\\rho}^{ab}(k)\\Pi^{bc,\\rho\\sigma}(k)D_{0,\\sigma\\nu}^{cd}(k)(igv_j^\\nu t^d)e^{-ik\\cdot X}$ integrated over $d^Dk/(2\\pi)^D$, where $D_{0,\\mu\\nu}^{ab}=-i\\delta^{ab}g_{\\mu\\nu}/(k^2+i0)$ and $X=x_i(s)-x_j(t)$. The $k^2g$ and $kk$ pieces are both retained. This calculation adopts the inner one-loop operator; it does not recompute its quark/gluon/ghost subdiagrams.",
+          "role": "full effective-operator scope",
+          "file_sha256": "d580e34f4a9c5deac503620298c2e031f59ec1f2527e3060f87a1ff86e12df84"
+        },
+        {
+          "path": "integrals/two-loop/2e-Pi1-01/derivation.md",
+          "line": 38,
+          "passage": "f=z(1-s)t,\\quad d=z,\\quad u=-zt,\\quad w=-z(1-s),\\quad uw=zf.",
+          "role": "actual adjacent tensor contraction",
+          "file_sha256": "d580e34f4a9c5deac503620298c2e031f59ec1f2527e3060f87a1ff86e12df84"
+        },
+        {
+          "path": "integrals/two-loop/2e-Pi1-01/derivation.md",
+          "line": 56,
+          "passage": "Use $T_0=1$, $T_n=n^{-1}\\sum_{k=1}^nkl_kT_{n-k}$. Every coefficient is $a_q=-T_{q+3}/32$ for $-3\\le q\\le2$, and $a_{-4}=0$. In particular the highest requested order needs the full Gamma/rational jet to degree five. A degree-two prefactor would lose the terms generated by the cubic pole. The exact operator in (P), rather than a truncated color constant, is what enters the later Wilson-loop sum.",
+          "role": "finite coefficient recurrence",
+          "file_sha256": "d580e34f4a9c5deac503620298c2e031f59ec1f2527e3060f87a1ff86e12df84"
+        }
+      ],
+      "implementation": "The inspected same-loop runtime performs the declared endpoint/Gamma or evaluated-mother-series assembly and subsequent reference comparison; adopted physical roots/function dictionaries retain their scope.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/two-loop/2e-Pi1-01/input.json",
+        "input_sha256": "4bbbfd7552e97360a2e102fc9f522be06df93eea9d39e86d9f5c9773b7c8a0e6",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+            "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+            "json_pointer": "/orbits/0",
+            "field_sha256": "1d2aab7de1c499be00618acb599b3550a62aa739a01a8e927252456ec70e3027",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_raw_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/2e-Pi1/montopar-initial.json",
+            "sha256": "bd497777604df23550fb5ab65607561665d348b32cdaed27007351d4fe8b9e85",
+            "json_pointer": "/orbits/0",
+            "field_sha256": "173e8b476b161c26af0251f20d04f600625af7eee982cd4248ea85dbfaea7273",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_prepared": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/2e-Pi1.json",
+            "sha256": "af78bbb41b8ffdfb209f9ba898feeb431706c2b7e498a2917b917095684c4a71",
+            "field": "/orbits/0"
+          },
+          "original_ordered_J": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/2e-Pi1.json",
+            "json_pointer": "/orbits/0/J_raw_s",
+            "sha256": "af78bbb41b8ffdfb209f9ba898feeb431706c2b7e498a2917b917095684c4a71",
+            "order_outer_to_inner": [
+              "s31",
+              "s41"
+            ],
+            "bounds": {
+              "s31": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "1"
+              ]
+            },
+            "alpha_measure": null,
+            "jacobian": "1"
+          },
+          "normalization": {
+            "scheme": "native-physical-CJ",
+            "loop_order": 2,
+            "color_projection": "none",
+            "euler_compensation_count": 1,
+            "orbit_multiplicity_included": false,
+            "crossing_assembled": false,
+            "normalized_wilson_trace": "Tr/N",
+            "extra_factorial": "none",
+            "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+            "assembly_sign": 1
+          }
+        }
+      }
+    },
+    {
+      "orbit_id": "2e-Pi1-02",
+      "document_status": "Complete (adopted lemmas)",
+      "mathematical_chain": "Same full tensor root → mixed-derivative identity → four corner values with regulator strip → actual opposite-kernel primitive → evaluated V(2e) → separate corner and moment pole budgets.",
+      "explicit_adoption": "Inner transverse operator and evaluated opposite-kernel moment lemma, with explicit geometry/primitive connecting them to this graph.",
+      "evidence": [
+        {
+          "path": "integrals/two-loop/2e-Pi1-02/derivation.md",
+          "line": 44,
+          "passage": "The crucial exact identity is",
+          "role": "tensor-to-derivative reduction",
+          "file_sha256": "d00a47a764fc23ae2d6c9dc2382efcca1cdb2db23cb104c129f5da26a278c371"
+        },
+        {
+          "path": "integrals/two-loop/2e-Pi1-02/derivation.md",
+          "line": 55,
+          "passage": "=z^{2e}-0-0+1.",
+          "role": "all four corner signs/values",
+          "file_sha256": "d00a47a764fc23ae2d6c9dc2382efcca1cdb2db23cb104c129f5da26a278c371"
+        },
+        {
+          "path": "integrals/two-loop/2e-Pi1-02/derivation.md",
+          "line": 86,
+          "passage": "where a sum with negative upper limit is zero. $a_{-4}=a_{-3}=0$. Here $Z^2=\\exp(\\sum_{n\\ge2}2\\zeta_ne^n/n)$, and each series is evaluated by the finite exponential recurrence given for the adjacent graph. At the highest order, $a_2=-(P_0v_3+P_1v_2+P_2v_1+P_3v_0)/16-T_4/32$. Thus the moment source needs degree three and the corner source degree four; they have different pole budgets. Low-index moment identities from the adopted lemma produce the compact table below.",
+          "role": "highest-order corner/moment convolution",
+          "file_sha256": "d00a47a764fc23ae2d6c9dc2382efcca1cdb2db23cb104c129f5da26a278c371"
+        }
+      ],
+      "implementation": "The inspected same-loop runtime performs the declared endpoint/Gamma or evaluated-mother-series assembly and subsequent reference comparison; adopted physical roots/function dictionaries retain their scope.",
+      "replay_status": "passed_integrator_execution",
+      "remaining_document_or_implementation_gaps": [],
+      "mathematical_validation": "Adopted research calculation plus scoped checks; no new formal proof, independent cold integration, arbitrary complex-z continuation or z=-1 theorem.",
+      "publication_status": "new local reading layer; no commit or GitHub publication authorized or performed in this task",
+      "original_source_evidence": {
+        "input_path": "integrals/two-loop/2e-Pi1-02/input.json",
+        "input_sha256": "4a96a747bb7e77a3a7643dcfabd4554f75c9fa3360d4398ecc85ce00e8ec42da",
+        "scope": "Exact original source fields, revisions, parameter order/bounds and normalization as read in the new source-binding record; hashes identify inputs, not proofs.",
+        "bindings": {
+          "graph_definition": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/qgraf/2loop/orbit_definitions.json",
+            "sha256": "67b9bda7c1370572965421ac5a53e891b040220c7ddd867a5fdf4af523c9bac6",
+            "json_pointer": "/orbits/1",
+            "field_sha256": "a6935596048d7a9402b393e106f8359640d49e7eca0f81860dbcc863f6a7058d",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_raw_orbit": {
+            "path": "../../families/low-loop-runtime/data/2026-11-02/snapshots/workflow/checks/shared-sign-production/generated/montopar/2loop/2e-Pi1/montopar-initial.json",
+            "sha256": "bd497777604df23550fb5ab65607561665d348b32cdaed27007351d4fe8b9e85",
+            "json_pointer": "/orbits/1",
+            "field_sha256": "abead3812d935d381bbe1f0de5becaf64b136050678485026c4c76a82c34f8e1",
+            "field_hash_encoding": "UTF-8 JSON, sort_keys=true, separators=(',',':'), ensure_ascii=false"
+          },
+          "native_prepared": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/2e-Pi1.json",
+            "sha256": "af78bbb41b8ffdfb209f9ba898feeb431706c2b7e498a2917b917095684c4a71",
+            "field": "/orbits/1"
+          },
+          "original_ordered_J": {
+            "path": "../../families/low-loop-runtime/benchmarks/current/prepared/2loop/2e-Pi1.json",
+            "json_pointer": "/orbits/1/J_raw_s",
+            "sha256": "af78bbb41b8ffdfb209f9ba898feeb431706c2b7e498a2917b917095684c4a71",
+            "order_outer_to_inner": [
+              "s21",
+              "s41"
+            ],
+            "bounds": {
+              "s21": [
+                "0",
+                "1"
+              ],
+              "s41": [
+                "0",
+                "1"
+              ]
+            },
+            "alpha_measure": null,
+            "jacobian": "1"
+          },
+          "normalization": {
+            "scheme": "native-physical-CJ",
+            "loop_order": 2,
+            "color_projection": "none",
+            "euler_compensation_count": 1,
+            "orbit_multiplicity_included": false,
+            "crossing_assembled": false,
+            "normalized_wilson_trace": "Tr/N",
+            "extra_factorial": "none",
+            "physical_convention": "wilson-qcd-action-path-fourier/1.0",
+            "assembly_sign": 1
+          }
+        }
+      }
+    }
+  ],
+  "open_findings": [],
+  "resolved_findings": [
+    "Old short-article graph-specific bridges replaced by actual derivations or precise adopted evaluated lemmas.",
+    "M05 fifth-moment constant corrected to -pi^6/2; author and reviewer encountered this during overlapping work.",
+    "TGV03 finite recurrence u/nu naming corrected.",
+    "Initial C/J fields and original ordered-domain bindings added to new input metadata.",
+    "TGV04 new-runtime scope corrected to accepted normalized-I representation checking, with historical D/H/O convolution explicitly separate.",
+    "Unused M/N material removed from simplest pure adjacent entry."
+  ],
+  "reviewer_executed_checks": [
+    {
+      "path": "workflow/checks/integral-documentation-low-loops-20261103/review/hlog-transcription-check.json",
+      "status": "passed",
+      "scope": "All 168 exact coefficients in the six new HLOG-jet coordinate tables equal their original raw outputs; no integration."
+    }
+  ],
+  "integrator_executed_checks": {
+    "path": "workflow/checks/integral-documentation-low-loops-20261103/replay.json",
+    "status": "passed",
+    "integrals": 14,
+    "coefficients": 96,
+    "one_loop_checks": 80,
+    "one_loop_numeric_controls": 27,
+    "one_loop_negative_controls": 4,
+    "two_loop_checks": 149,
+    "two_loop_negative_controls": 2,
+    "two_loop_mathematical_controls": 68,
+    "copied_execution_status": "passed"
+  },
+  "five_dimensions": {
+    "prose": "Every original root is connected to its needed coefficients, with exact evaluated adoptions expressly marked; see per-entry findings.",
+    "implementation": "Inspected actual roles agree after TGV04 wording fix; new wrappers run same-loop replay, not individual cold integrations.",
+    "reproduction": "Integrator primary and copied-closure runs passed; check scope and shared adopted inputs retained.",
+    "mathematical_validation": "Research-level exact/conditional adopted calculations with scoped numerical and coordinate controls; formal=not_run.",
+    "publication": "Local draft reading layer; public frozen packet unchanged and no GitHub action performed by this task."
+  },
+  "standard_decision": "Keep fixed standard1.0. No acceptance criterion lowered to fit an old article or opaque old output."
+}

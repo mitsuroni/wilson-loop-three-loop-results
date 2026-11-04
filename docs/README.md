@@ -16,7 +16,7 @@ Begin with the [four-color analytic result](../results/current/four-color-result
 | Family | Package |
 |---|---|
 | Three-loop pure exchange,39 sources | [6e calculation packet](../evaluations/three-loop-6e/README.md), [current derivations](../integrals/three-loop/README.md) |
-| Three-loop two-point/exchange insertions,15 sources | [Insertion packet](../evaluations/three-loop-insertions/README.md) |
+| Three-loop two-point/exchange insertions,15 sources | [Current derivations and audit](../integrals/three-loop/README.md#two-point-and-exchange-insertions), [original packet](../evaluations/three-loop-insertions/README.md) |
 | Three-loop tree-three-gluon,44 sources | [Tree-three-gluon packet](../evaluations/three-loop-tree5e/README.md) |
 | One/two-loop end-to-end color and RG example | [Low-loop calculation](../results/2026-11-02-low-loops/README.md) |
 | Graph generation and parameterization | [Generator and Montopar](../packages/README.md), [upstream guide](upstream/README.md) |

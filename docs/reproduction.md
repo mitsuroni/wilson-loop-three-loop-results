@@ -29,6 +29,7 @@ The per-entry code adapters use shared same-loop or same-family evaluators. Thei
 python -B integrals/one-loop/2e-01/code/reproduce.py --output-dir replay-output/one-loop-new
 python -B integrals/two-loop/4e-01/code/reproduce.py --output-dir replay-output/two-loop-new
 python -B integrals/three-loop/6e-01/code/reproduce.py --output replay-output/6e-new
+python -B integrals/three-loop/4e-Pi1-01/code/reproduce.py --output replay-output/insertions-new
 ```
 
 For the6e comparison and controls after generation:
@@ -45,3 +46,15 @@ Additional family-specific commands are in the [15 insertion packet](../evaluati
 ## Historical reproduction
 
 [Dated releases](archive/README.md) keep the commands for their original inputs and result snapshots. Use the current commands above to reproduce the present result.
+
+## Insertion comparison and colour checks
+
+After generation, run:
+
+```text
+python -B integrals/families/three-loop-insertions/runtime/scripts/verify_batch.py --results replay-output/insertions-new/generated.json --out replay-output/insertions-new/verification.json
+python -B integrals/families/three-loop-insertions/runtime/scripts/check_representations.py --results replay-output/insertions-new/generated.json --out replay-output/insertions-new/representations.json
+python -B integrals/families/three-loop-insertions/runtime/scripts/independent_controls.py --results replay-output/insertions-new/generated.json --out replay-output/insertions-new/controls.json
+```
+
+The15-entry batch assembles105 scalar/geometric and238 colour positions. Historical references contain only84 stored colour positions. The adopted full-D Pi2 operator and evaluated functions retain their stated scope.
